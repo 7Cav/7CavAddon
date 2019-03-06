@@ -5,7 +5,6 @@ class CfgVehicles {
     class FlagChecked_F;
     class Banner_01_base_F;
 
-
     class CavMod_Flag_00_Flag_F : FlagCarrier_Asym {
         scope = 2;
         scopeCurator = 2;
