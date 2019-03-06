@@ -1,0 +1,11 @@
+Resourses/*
+*.cache
+*.pbo
+texHeaders.bin
+*.swp
+*.swo
+*.biprivatekey
+.vscode
+Thumbs.db
+Releases/*
+Release/*

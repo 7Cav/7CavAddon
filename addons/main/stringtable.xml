@@ -1,0 +1,13 @@
+<Project name="CavMod">
+    <Package name="Main">
+        <Key ID="STR_CavMod_Main_Display">
+            <English>7th Cavalry Mod Pack</English>
+        </Key>
+        <Key ID="STR_CavMod_Main_CavModTeam">
+            <English>7th Cavalry S3 Mod Team</English>
+        </Key>
+        <Key ID="STR_CavMod_Main_URL">
+            <English>http://7cav.us</English>
+        </Key>
+    </Package>
+</Project>

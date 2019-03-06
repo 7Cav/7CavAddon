@@ -1,0 +1,19 @@
+<Project name="CavMod">
+    <Package name="Flag">
+        <Key ID="STR_CavMod_Flag_00_Display">
+            <English>Flag (7th Cavalry)</English>
+        </Key>
+        <Key ID="STR_CavMod_Flag_01_Display">
+            <English>Flag (7th Cavalry - Red and White)</English>
+        </Key>
+        <Key ID="STR_CavMod_Flag_02_Display">
+            <English>Flag (7th Cavalry - Red and White Slit)</English>
+        </Key>
+        <Key ID="STR_CavMod_Flag_00_Banner_Display">
+            <English>Banner (7th Cavalry)</English>
+        </Key>
+        <Key ID="STR_CavMod_Flag_01_Banner_Display">
+            <English>Banner (7th Cavalry - Red and White)</English>
+        </Key>
+    </Package>
+</Project>

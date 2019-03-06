@@ -1,0 +1,7 @@
+<Project name="CavMod">
+    <Package name="Common">
+        <Key ID="STR_CavMod_Common_Faction_Display">
+            <English>http://7cav.us</English>
+        </Key>
+    </Package>
+</Project>

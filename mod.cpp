@@ -1,0 +1,12 @@
+name = "7th Cavalry Gaming Mod";
+picture = "logo_cav_ca.paa";
+actionName = "GitHub";
+action = "https://github.com/7cav/cavmod";
+description = "7th Cavalry Gaming Community Mod";
+logo = "logo_cav_ca.paa";
+logoOver = "logo_cav_ca.paa";
+tooltip = "7th Cavalry Gaming Mod";
+tooltipOwned = "7th Cavalry Gaming Owned";
+overview = "7th Cavalry Gaming Community Mod...";
+author = "7th Cavalry S3 Mod Team";
+overviewPicture = "logo_cav_ca.paa";
