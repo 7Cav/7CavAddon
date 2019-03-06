@@ -1,0 +1,14 @@
+<Project name="CavMod">
+    <Package name="Characters">
+        <Key ID="STR_CavMod_Characters_Cat_Charlie_Company_Display">
+            <English>Charlie Co. - Infantry</English>
+        </Key>
+
+        <Key ID="STR_CavMod_Characters_Rifleman_Display">
+            <English>Rifleman</English>
+        </Key>
+        <Key ID="STR_CavMod_Characters_Charlie_Rifleman_Display">
+            <English>Charlie Rifleman</English>
+        </Key>
+    </Package>
+</Project>
