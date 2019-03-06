@@ -27,7 +27,7 @@ class CfgVehicles {
             QPATHTOF(data\flag_00_ca.paa)
         };
     };
-    class CavMod_Flag_01_Flag_F : FlagCarrier {
+    class CavMod_Flag_01_Flag_F : FlagCarrier_Asym {
         scope = 2;
         scopeCurator = 2;
         displayName = CSTRING(01_Display);
@@ -50,7 +50,7 @@ class CfgVehicles {
         };
     };
 
-    class CavMod_Flag_02_Flag_F : FlagCarrier_Asym {
+    class CavMod_Flag_02_Flag_F : FlagCarrier {
         scope = 2;
         scopeCurator = 2;
         displayName = CSTRING(02_Display);
