@@ -6,13 +6,16 @@ class CfgPatches {
         units[] = {
             "CavMod_B_base_F",
 
-            "CavMod_B_base_F",
+            "CavMod_B_Charlie_base_F",
             
             "CavMod_B_C_SquadLeader_F",
             "CavMod_B_C_Alpha_FireTeamLeader_F",
             "CavMod_B_C_Bravo_FireTeamLeader_F",
             "CavMod_B_C_Alpha_Rifleman_F",
-            "CavMod_B_C_Bravo_Rifleman_F"
+            "CavMod_B_C_Bravo_Rifleman_F",
+
+            "CavMod_B_Bandit_Squad",
+            "CavMod_B_Bandit_1_1_Squad"
         };
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
@@ -28,4 +31,5 @@ class CfgPatches {
 };
 
 #include "CfgVehicles.hpp"
+#include "CfgGroups.hpp"
 #include "CfgEditorSubcategories.hpp"

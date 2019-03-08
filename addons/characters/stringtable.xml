@@ -4,9 +4,10 @@
             <English>Charlie Co. - Infantry</English>
         </Key>
 
-        <Key ID="STR_CavMod_Characters_Rifleman_Display">
-            <English>Rifleman</English>
+        <Key ID="STR_CavMod_Characters_Trooper_Display">
+            <English>Trooper</English>
         </Key>
+
         <Key ID="STR_CavMod_Characters_SquadLeader_Display">
             <English>Squad Leader</English>
         </Key>
@@ -24,6 +25,13 @@
         </Key>
         <Key ID="STR_CavMod_Characters_Bravo_Rifleman_Display">
             <English>Bravo Rifleman</English>
+        </Key>
+
+        <Key ID="STR_CavMod_Characters_Squad_Bandit_Display">
+            <English>Bandit Squad</English>
+        </Key>
+        <Key ID="STR_CavMod_Characters_Squad_Bandit_1_1_Display">
+            <English>Bandit-1 Squad</English>
         </Key>
     </Package>
 </Project>
