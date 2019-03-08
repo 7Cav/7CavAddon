@@ -10,6 +10,9 @@
         <Key ID="STR_CavMod_Characters_SquadLeader_Display">
             <English>Squad Leader</English>
         </Key>
+         <Key ID="STR_CavMod_Characters_SquadLeader_1_1_Display">
+            <English>Squad Leader (Bandit-1)</English>
+        </Key>
         <Key ID="STR_CavMod_Characters_Alpha_FireTeamLeader_Display">
             <English>Alpha Fire Team Leader</English>
         </Key>
