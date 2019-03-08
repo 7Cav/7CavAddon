@@ -92,7 +92,6 @@ class CfgVehicles {
         platoon = -1;
     };
 
-
     class CavMod_B_C_SquadLeader_1_1_F : CavMod_B_C_SquadLeader_F {
         _generalMacro = "CavMod_B_C_SquadLeader_1_1_F";
         scope = 1;
@@ -103,7 +102,7 @@ class CfgVehicles {
 
         platoon = 1;
     };
-    
+
     class CavMod_B_C_Alpha_FireTeamLeader_F : CavMod_B_Charlie_base_F {
         _generalMacro = "CavMod_B_C_Alpha_FireTeamLeader_F";
         scope = 2;
