@@ -4,11 +4,15 @@ class CfgPatches {
     class ADDON {
         name = COMPONENT_NAME;
         units[] = {
-            "I_Cav_base_F",
+            "CavMod_B_base_F",
 
-            "I_Cav_Charlie_base_F",
+            "CavMod_B_base_F",
             
-            "I_Cav_Charlie_Rifleman_F"
+            "CavMod_B_C_SquadLeader_F",
+            "CavMod_B_C_Alpha_FireTeamLeader_F",
+            "CavMod_B_C_Bravo_FireTeamLeader_F",
+            "CavMod_B_C_Alpha_Rifleman_F",
+            "CavMod_B_C_Bravo_Rifleman_F"
         };
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;

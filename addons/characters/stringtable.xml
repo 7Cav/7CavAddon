@@ -7,8 +7,20 @@
         <Key ID="STR_CavMod_Characters_Rifleman_Display">
             <English>Rifleman</English>
         </Key>
-        <Key ID="STR_CavMod_Characters_Charlie_Rifleman_Display">
-            <English>Charlie Rifleman</English>
+        <Key ID="STR_CavMod_Characters_SquadLeader_Display">
+            <English>Squad Leader</English>
+        </Key>
+        <Key ID="STR_CavMod_Characters_Alpha_FireTeamLeader_Display">
+            <English>Alpha Fire Team Leader</English>
+        </Key>
+        <Key ID="STR_CavMod_Characters_Bravo_FireTeamLeader_Display">
+            <English>Bravo Fire Team Leader</English>
+        </Key>
+        <Key ID="STR_CavMod_Characters_Alpha_Rifleman_Display">
+            <English>Alpha Rifleman</English>
+        </Key>
+        <Key ID="STR_CavMod_Characters_Bravo_Rifleman_Display">
+            <English>Bravo Rifleman</English>
         </Key>
     </Package>
 </Project>
