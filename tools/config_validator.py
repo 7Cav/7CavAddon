@@ -13,7 +13,7 @@ import time
 
 ######## GLOBALS #########
 MAINPREFIX = "Z"
-PREFIX = "BlackOrder"
+PREFIX = "CavMod"
 ##########################
 
 def Fract_Sec(s):
