@@ -98,10 +98,3 @@
 #define MULT_OBJ_18(a) a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a
 #define MULT_OBJ_19(a) a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a
 #define MULT_OBJ_20(a) a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a
-
-#define MACRO_UNITINSIGNIA(var1,var2) \
-class TRIPLES(Cav,Insignia,var2) { \
-    displayName = QUOTE([7CAV] var1); \
-    author = QUOTE(7th Cavalry Gaming); \
-    texture = QUOTE(cScripts\Data\Insignia\var2.paa); \
-}

@@ -1,0 +1,124 @@
+<Project name="CavMod">
+    <Package name="Insignia">
+        <Key ID="STR_CavMod_Insignia_Alpha_1_Display">
+            <English>[7CAV] Alpha Co. 1st platoon</English>
+        </Key>
+        <Key ID="STR_CavMod_Insignia_Alpha_1_A_Display">
+            <English>[7CAV] Alpha Co. 1st platoon - Alpha Squad</English>
+        </Key>
+        <Key ID="STR_CavMod_Insignia_Alpha_1_B_Display">
+            <English>[7CAV] Alpha Co. 1st platoon - Bravo Squad</English>
+        </Key>
+        <Key ID="STR_CavMod_Insignia_Alpha_1_C_Display">
+            <English>[7CAV] Alpha Co. 1st platoon - Charlie Squad</English>
+        </Key>
+        <Key ID="STR_CavMod_Insignia_Alpha_1_D_Display">
+            <English>[7CAV] Alpha Co. 1st platoon - Delta Squad</English>
+        </Key>
+
+        <Key ID="STR_CavMod_Insignia_Alpha_2_Display">
+            <English>[7CAV] Alpha Co. 2st platoon</English>
+        </Key>
+        <Key ID="STR_CavMod_Insignia_Alpha_2_A_Display">
+            <English>[7CAV] Alpha Co. 2st platoon - Alpha Squad</English>
+        </Key>
+        <Key ID="STR_CavMod_Insignia_Alpha_2_B_Display">
+            <English>[7CAV] Alpha Co. 2st platoon - Bravo Squad</English>
+        </Key>
+        <Key ID="STR_CavMod_Insignia_Alpha_2_C_Display">
+            <English>[7CAV] Alpha Co. 2st platoon - Charlie Squad</English>
+        </Key>
+        <Key ID="STR_CavMod_Insignia_Alpha_2_D_Display">
+            <English>[7CAV] Alpha Co. 2st platoon - Delta Squad</English>
+        </Key>
+
+        <Key ID="STR_CavMod_Insignia_Bravo_1_Display">
+            <English>[7CAV] Bravo Co. 1st platoon</English>
+        </Key>
+        <Key ID="STR_CavMod_Insignia_Bravo_1_A_Display">
+            <English>[7CAV] Bravo Co. 1st platoon - Alpha Squad</English>
+        </Key>
+        <Key ID="STR_CavMod_Insignia_Bravo_1_B_Display">
+            <English>[7CAV] Bravo Co. 1st platoon - Bravo Squad</English>
+        </Key>
+        <Key ID="STR_CavMod_Insignia_Bravo_1_C_Display">
+            <English>[7CAV] Bravo Co. 1st platoon - Charlie Squad</English>
+        </Key>
+        <Key ID="STR_CavMod_Insignia_Bravo_1_D_Display">
+            <English>[7CAV] Bravo Co. 1st platoon - Delta Squad</English>
+        </Key>
+
+        <Key ID="STR_CavMod_Insignia_Bravo_2_Display">
+            <English>[7CAV] Bravo Co. 2st platoon</English>
+        </Key>
+        <Key ID="STR_CavMod_Insignia_Bravo_2_A_Display">
+            <English>[7CAV] Bravo Co. 2st platoon - Alpha Squad</English>
+        </Key>
+        <Key ID="STR_CavMod_Insignia_Bravo_2_B_Display">
+            <English>[7CAV] Bravo Co. 2st platoon - Bravo Squad</English>
+        </Key>
+        <Key ID="STR_CavMod_Insignia_Bravo_2_C_Display">
+            <English>[7CAV] Bravo Co. 2st platoon - Charlie Squad</English>
+        </Key>
+        <Key ID="STR_CavMod_Insignia_Bravo_2_D_Display">
+            <English>[7CAV] Bravo Co. 2st platoon - Delta Squad</English>
+        </Key>
+
+        <Key ID="STR_CavMod_Insignia_Charlie_1_Display">
+            <English>[7CAV] Charlie Co. 1st platoon</English>
+        </Key>
+        <Key ID="STR_CavMod_Insignia_Charlie_1_A_Display">
+            <English>[7CAV] Charlie Co. 1st platoon - 1st Squad</English>
+        </Key>
+        <Key ID="STR_CavMod_Insignia_Charlie_1_B_Display">
+            <English>[7CAV] Charlie Co. 1st platoon   2nd Squad</English>
+        </Key>
+        <Key ID="STR_CavMod_Insignia_Charlie_1_C_Display">
+            <English>[7CAV] Charlie Co. 1st platoon - 3rd Squad</English>
+        </Key>
+        <Key ID="STR_CavMod_Insignia_Charlie_1_D_Display">
+            <English>[7CAV] Charlie Co. 1st platoon - 4th Squad</English>
+        </Key>
+
+        <Key ID="STR_CavMod_Insignia_Charlie_2_Display">
+            <English>[7CAV] Charlie Co. 2st platoon</English>
+        </Key>
+        <Key ID="STR_CavMod_Insignia_Charlie_2_A_Display">
+            <English>[7CAV] Charlie Co. 2st platoon - 1st Squad</English>
+        </Key>
+        <Key ID="STR_CavMod_Insignia_Charlie_2_B_Display">
+            <English>[7CAV] Charlie Co. 2st platoon - 2nd Squad</English>
+        </Key>
+        <Key ID="STR_CavMod_Insignia_Charlie_2_C_Display">
+            <English>[7CAV] Charlie Co. 2st platoon - 3rd Squad</English>
+        </Key>
+        <Key ID="STR_CavMod_Insignia_Charlie_2_D_Display">
+            <English>[7CAV] Charlie Co. 2st platoon - 4th Squad</English>
+        </Key>
+
+
+        <Key ID="STR_CavMod_Insignia_Custom_Cav_7_Display">
+            <English>[7CAV] Yellow and Black</English>
+        </Key>
+        <Key ID="STR_CavMod_Insignia_Custom_Cav_7_m81_Display">
+            <English>[7CAV] Yellow and Black (M81)</English>
+        </Key>
+        <Key ID="STR_CavMod_Insignia_Custom_Cav_7_ocp_Display">
+            <English>[7CAV] Yellow and Black (OCP)</English>
+        </Key>
+
+        <Key ID="STR_CavMod_Insignia_Specialized_Airborne_Display">
+            <English>[7CAV] CAG</English>
+        </Key>
+        <Key ID="STR_CavMod_Insignia_Specialized_CLS_Display">
+            <English>[7CAV] CLS</English>
+        </Key>
+        <Key ID="STR_CavMod_Insignia_Specialized_Ranger_Display">
+            <English>[7CAV] RANGER</English>
+        </Key>
+        <Key ID="STR_CavMod_Insignia_Specialized_FollowMe_Display">
+            <English>[7CAV] Follow Me</English>
+        </Key>
+
+    </Package>
+</Project>

@@ -25,13 +25,13 @@ class CfgGroups {
                         position[] = {0.5, -1.0, 0.0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CavMod_B_C_Alpha_Rifleman_F";
+                        vehicle = "CavMod_B_C_Alpha_AutomaticRifleman_F";
                     };
                     class Unit3 {
                         position[] = {-0.5, -1.0, 0.0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CavMod_B_C_Alpha_Rifleman_F";
+                        vehicle = "CavMod_B_C_Alpha_Grenadier_F";
                     };
                     class Unit4 {
                         position[] = {-1.5, -1.0, 0.0};
@@ -49,24 +49,24 @@ class CfgGroups {
                         position[] = {0.5, -2.0, 0.0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CavMod_B_C_Bravo_Rifleman_F";
+                        vehicle = "CavMod_B_C_Bravo_AutomaticRifleman_F";
                     };
                     class Unit7 {
                         position[] = {-0.5, -2.0, 0.0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CavMod_B_C_Bravo_Rifleman_F";
+                        vehicle = "CavMod_B_C_Bravo_Grenadier_F";
                     };
                     class Unit8 {
                         position[] = {-1.5, -2.0, 0.0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CavMod_B_C_Bravo_Rifleman_F";
+                        vehicle = "CavMod_B_C_Bravo_CombatLifeSaver_F";
                     };
                 };
 
-                class CavMod_B_Bandit_1_1_Squad {
-                    name = CSTRING(Squad_Bandit_1_1_Display); 
+                class CavMod_B_Bandit_1_Squad {
+                    name = CSTRING(Squad_Bandit_1_Display); 
                     icon = "\A3\ui_f\data\map\markers\nato\n_inf.paa";
                     faction = "BLU_USA_7CAV_F";
                     side = 1;
@@ -86,13 +86,13 @@ class CfgGroups {
                         position[] = {0.5, -1.0, 0.0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CavMod_B_C_Alpha_Rifleman_F";
+                        vehicle = "CavMod_B_C_Alpha_AutomaticRifleman_F";
                     };
                     class Unit3 {
                         position[] = {-0.5, -1.0, 0.0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CavMod_B_C_Alpha_Rifleman_F";
+                        vehicle = "CavMod_B_C_Alpha_Grenadier_F";
                     };
                     class Unit4 {
                         position[] = {-1.5, -1.0, 0.0};
@@ -110,19 +110,199 @@ class CfgGroups {
                         position[] = {0.5, -2.0, 0.0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CavMod_B_C_Bravo_Rifleman_F";
+                        vehicle = "CavMod_B_C_Bravo_AutomaticRifleman_F";
                     };
                     class Unit7 {
                         position[] = {-0.5, -2.0, 0.0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CavMod_B_C_Bravo_Rifleman_F";
+                        vehicle = "CavMod_B_C_Bravo_Grenadier_F";
                     };
                     class Unit8 {
                         position[] = {-1.5, -2.0, 0.0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CavMod_B_C_Bravo_Rifleman_F";
+                        vehicle = "CavMod_B_C_Bravo_CombatLifeSaver_F";
+                    };
+                };
+                class CavMod_B_Bandit_2_Squad {
+                    name = CSTRING(Squad_Bandit_2_Display); 
+                    icon = "\A3\ui_f\data\map\markers\nato\n_inf.paa";
+                    faction = "BLU_USA_7CAV_F";
+                    side = 1;
+                    class Unit0 {
+                        position[] = {0, 0, 0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "CavMod_B_C_SquadLeader_1_2_F";
+                    };
+                    class Unit1 {
+                        position[] = {1.5, -1.0, 0.0};
+                        rank = "CORPORAL";
+                        side = 1;
+                        vehicle = "CavMod_B_C_Alpha_FireTeamLeader_F";
+                    };
+                    class Unit2 {
+                        position[] = {0.5, -1.0, 0.0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CavMod_B_C_Alpha_AutomaticRifleman_F";
+                    };
+                    class Unit3 {
+                        position[] = {-0.5, -1.0, 0.0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CavMod_B_C_Alpha_Grenadier_F";
+                    };
+                    class Unit4 {
+                        position[] = {-1.5, -1.0, 0.0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CavMod_B_C_Alpha_Rifleman_F";
+                    };
+                    class Unit5 {
+                        position[] = {1.5, -2.0, 0.0};
+                        rank = "CORPORAL";
+                        side = 1;
+                        vehicle = "CavMod_B_C_Bravo_FireTeamLeader_F";
+                    };
+                    class Unit6 {
+                        position[] = {0.5, -2.0, 0.0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CavMod_B_C_Bravo_AutomaticRifleman_F";
+                    };
+                    class Unit7 {
+                        position[] = {-0.5, -2.0, 0.0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CavMod_B_C_Bravo_Grenadier_F";
+                    };
+                    class Unit8 {
+                        position[] = {-1.5, -2.0, 0.0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CavMod_B_C_Bravo_CombatLifeSaver_F";
+                    };
+                };
+                class CavMod_B_Bandit_3_Squad {
+                    name = CSTRING(Squad_Bandit_3_Display); 
+                    icon = "\A3\ui_f\data\map\markers\nato\n_inf.paa";
+                    faction = "BLU_USA_7CAV_F";
+                    side = 1;
+                    class Unit0 {
+                        position[] = {0, 0, 0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "CavMod_B_C_SquadLeader_1_3_F";
+                    };
+                    class Unit1 {
+                        position[] = {1.5, -1.0, 0.0};
+                        rank = "CORPORAL";
+                        side = 1;
+                        vehicle = "CavMod_B_C_Alpha_FireTeamLeader_F";
+                    };
+                    class Unit2 {
+                        position[] = {0.5, -1.0, 0.0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CavMod_B_C_Alpha_AutomaticRifleman_F";
+                    };
+                    class Unit3 {
+                        position[] = {-0.5, -1.0, 0.0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CavMod_B_C_Alpha_Grenadier_F";
+                    };
+                    class Unit4 {
+                        position[] = {-1.5, -1.0, 0.0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CavMod_B_C_Alpha_Rifleman_F";
+                    };
+                    class Unit5 {
+                        position[] = {1.5, -2.0, 0.0};
+                        rank = "CORPORAL";
+                        side = 1;
+                        vehicle = "CavMod_B_C_Bravo_FireTeamLeader_F";
+                    };
+                    class Unit6 {
+                        position[] = {0.5, -2.0, 0.0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CavMod_B_C_Bravo_AutomaticRifleman_F";
+                    };
+                    class Unit7 {
+                        position[] = {-0.5, -2.0, 0.0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CavMod_B_C_Bravo_Grenadier_F";
+                    };
+                    class Unit8 {
+                        position[] = {-1.5, -2.0, 0.0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CavMod_B_C_Bravo_CombatLifeSaver_F";
+                    };
+                };
+                class CavMod_B_Bandit_4_Squad {
+                    name = CSTRING(Squad_Bandit_4_Display); 
+                    icon = "\A3\ui_f\data\map\markers\nato\n_inf.paa";
+                    faction = "BLU_USA_7CAV_F";
+                    side = 1;
+                    class Unit0 {
+                        position[] = {0, 0, 0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "CavMod_B_C_SquadLeader_1_4_F";
+                    };
+                    class Unit1 {
+                        position[] = {1.5, -1.0, 0.0};
+                        rank = "CORPORAL";
+                        side = 1;
+                        vehicle = "CavMod_B_C_Alpha_FireTeamLeader_F";
+                    };
+                    class Unit2 {
+                        position[] = {0.5, -1.0, 0.0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CavMod_B_C_Alpha_AutomaticRifleman_F";
+                    };
+                    class Unit3 {
+                        position[] = {-0.5, -1.0, 0.0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CavMod_B_C_Alpha_Grenadier_F";
+                    };
+                    class Unit4 {
+                        position[] = {-1.5, -1.0, 0.0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CavMod_B_C_Alpha_Rifleman_F";
+                    };
+                    class Unit5 {
+                        position[] = {1.5, -2.0, 0.0};
+                        rank = "CORPORAL";
+                        side = 1;
+                        vehicle = "CavMod_B_C_Bravo_FireTeamLeader_F";
+                    };
+                    class Unit6 {
+                        position[] = {0.5, -2.0, 0.0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CavMod_B_C_Bravo_AutomaticRifleman_F";
+                    };
+                    class Unit7 {
+                        position[] = {-0.5, -2.0, 0.0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CavMod_B_C_Bravo_Grenadier_F";
+                    };
+                    class Unit8 {
+                        position[] = {-1.5, -2.0, 0.0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CavMod_B_C_Bravo_CombatLifeSaver_F";
                     };
                 };
             };
