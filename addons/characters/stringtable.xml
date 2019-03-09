@@ -75,13 +75,13 @@
             <English>Bandit-1 Squad</English>
         </Key>
         <Key ID="STR_CavMod_Characters_Squad_Bandit_2_Display">
-            <English>Bandit-1 Squad</English>
+            <English>Bandit-2 Squad</English>
         </Key>
         <Key ID="STR_CavMod_Characters_Squad_Bandit_3_Display">
-            <English>Bandit-1 Squad</English>
+            <English>Bandit-3 Squad</English>
         </Key>
         <Key ID="STR_CavMod_Characters_Squad_Bandit_4_Display">
-            <English>Bandit-1 Squad</English>
+            <English>Bandit-4 Squad</English>
         </Key>
     </Package>
 </Project>
