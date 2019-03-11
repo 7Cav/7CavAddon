@@ -4,6 +4,7 @@ class TRIPLES(Cav,Insignia,var1) { \
     displayName = CSTRING(var1_Display); \
     author = ECSTRING(Main,CavModTeam); \
     texture = QPATHTOF(data\var1.paa); \
+    textureVehicle = ""; \
 }
 
 class CfgUnitInsignia {
