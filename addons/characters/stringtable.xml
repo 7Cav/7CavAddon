@@ -8,9 +8,42 @@
             <English>Trooper</English>
         </Key>
 
+
+        <Key ID="STR_CavMod_Characters_PlatoonSergeant_Display">
+            <English>Platoon Sergeant</English>
+        </Key>
+        <Key ID="STR_CavMod_Characters_PlatoonLeader_Display">
+            <English>Platoon Leader</English>
+        </Key>
+        <Key ID="STR_CavMod_Characters_PlatoonMedic_Display">
+            <English>Platoon Medic</English>
+        </Key>
+
+        <Key ID="STR_CavMod_Characters_PlatoonSergeant_1_5_Display">
+            <English>Platoon Sergeant (Bandit-5)</English>
+        </Key>
+        <Key ID="STR_CavMod_Characters_PlatoonLeader_1_6_Display">
+            <English>Platoon Leader (Bandit-6)</English>
+        </Key>
+        <Key ID="STR_CavMod_Characters_PlatoonMedic_1_7_Display">
+            <English>Platoon Medic (Bandit-7)</English>
+        </Key>
+
+        <Key ID="STR_CavMod_Characters_PlatoonSergeant_2_5_Display">
+            <English>Platoon Sergeant (Misfit-5)</English>
+        </Key>
+        <Key ID="STR_CavMod_Characters_PlatoonLeader_2_6_Display">
+            <English>Platoon Leader (Misfit-6)</English>
+        </Key>
+        <Key ID="STR_CavMod_Characters_PlatoonMedic_2_7_Display">
+            <English>Platoon Medic (Misfit-7)</English>
+        </Key>
+
+
         <Key ID="STR_CavMod_Characters_SquadLeader_Display">
             <English>Squad Leader</English>
         </Key>
+
          <Key ID="STR_CavMod_Characters_SquadLeader_1_1_Display">
             <English>Squad Leader (Bandit-1)</English>
         </Key>
@@ -23,7 +56,20 @@
          <Key ID="STR_CavMod_Characters_SquadLeader_1_4_Display">
             <English>Squad Leader (Bandit-4)</English>
         </Key>
-        
+
+         <Key ID="STR_CavMod_Characters_SquadLeader_2_1_Display">
+            <English>Squad Leader (Misfit-1)</English>
+        </Key>
+         <Key ID="STR_CavMod_Characters_SquadLeader_2_2_Display">
+            <English>Squad Leader (Misfit-2)</English>
+        </Key>
+         <Key ID="STR_CavMod_Characters_SquadLeader_2_3_Display">
+            <English>Squad Leader (Misfit-3)</English>
+        </Key>
+         <Key ID="STR_CavMod_Characters_SquadLeader_2_4_Display">
+            <English>Squad Leader (Misfit-4)</English>
+        </Key>
+
         <Key ID="STR_CavMod_Characters_Alpha_FireTeamLeader_Display">
             <English>Alpha Fire Team Leader</English>
         </Key>
@@ -68,20 +114,55 @@
             <English>Bravo Combat Life Saver</English>
         </Key>
 
+
         <Key ID="STR_CavMod_Characters_Squad_Bandit_Display">
-            <English>Bandit Squad</English>
+            <English>Squad Bandit</English>
         </Key>
         <Key ID="STR_CavMod_Characters_Squad_Bandit_1_Display">
-            <English>Bandit-1 Squad</English>
+            <English>Squad Bandit-1</English>
         </Key>
         <Key ID="STR_CavMod_Characters_Squad_Bandit_2_Display">
-            <English>Bandit-2 Squad</English>
+            <English>Squad Bandit-2</English>
         </Key>
         <Key ID="STR_CavMod_Characters_Squad_Bandit_3_Display">
-            <English>Bandit-3 Squad</English>
+            <English>Squad Bandit-3</English>
         </Key>
         <Key ID="STR_CavMod_Characters_Squad_Bandit_4_Display">
-            <English>Bandit-4 Squad</English>
+            <English>Squad Bandit-4</English>
+        </Key>
+        <Key ID="STR_CavMod_Characters_Squad_Bandit_5_Display">
+            <English>HQ Bandit-5</English>
+        </Key>
+        <Key ID="STR_CavMod_Characters_Squad_Bandit_6_Display">
+            <English>HQ Bandit-6</English>
+        </Key>
+        <Key ID="STR_CavMod_Characters_Squad_Bandit_7_Display">
+            <English>HQ Bandit-7</English>
+        </Key>
+
+        <Key ID="STR_CavMod_Characters_Squad_Misfit_Display">
+            <English>Squad Misfit</English>
+        </Key>
+        <Key ID="STR_CavMod_Characters_Squad_Misfit_1_Display">
+            <English>Squad Misfit-1</English>
+        </Key>
+        <Key ID="STR_CavMod_Characters_Squad_Misfit_2_Display">
+            <English>Squad Misfit-2</English>
+        </Key>
+        <Key ID="STR_CavMod_Characters_Squad_Misfit_3_Display">
+            <English>Squad Misfit-3</English>
+        </Key>
+        <Key ID="STR_CavMod_Characters_Squad_Misfit_4_Display">
+            <English>Squad Misfit-4</English>
+        </Key>
+        <Key ID="STR_CavMod_Characters_Squad_Misfit_5_Display">
+            <English>HQ Misfit-5</English>
+        </Key>
+        <Key ID="STR_CavMod_Characters_Squad_Misfit_6_Display">
+            <English>HQ Misfit-6</English>
+        </Key>
+        <Key ID="STR_CavMod_Characters_Squad_Misfit_7_Display">
+            <English>HQ Misfit-7</English>
         </Key>
     </Package>
 </Project>
