@@ -1,7 +1,7 @@
 
 #define MACRO_UNITINSIGNIA(var1) \
 class TRIPLES(Cav,Insignia,var1) { \
-    displayName = CSTRING(var1_Display); \
+    displayName = CSTRING(var1); \
     author = ECSTRING(Main,CavModTeam); \
     texture = QPATHTOF(data\var1.paa); \
     textureVehicle = ""; \
@@ -25,10 +25,10 @@ class CfgUnitInsignia {
 
     // Bravo first platoon
     //MACRO_UNITINSIGNIA(Bravo_1);
-    //MACRO_UNITINSIGNIA(Bravo_1_A);
-    //MACRO_UNITINSIGNIA(Bravo_1_B);
-    //MACRO_UNITINSIGNIA(Bravo_1_C);
-    //MACRO_UNITINSIGNIA(Bravo_1_D);
+    //MACRO_UNITINSIGNIA(Bravo_1_1);
+    //MACRO_UNITINSIGNIA(Bravo_1_2);
+    //MACRO_UNITINSIGNIA(Bravo_1_3);
+    //MACRO_UNITINSIGNIA(Bravo_1_4);
 
     // Bravo second platoon
     MACRO_UNITINSIGNIA(Bravo_2);
