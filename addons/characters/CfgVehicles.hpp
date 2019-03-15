@@ -240,7 +240,7 @@ class CfgVehicles {
         displayName = CSTRING(B_Ifv_Gunner);
         author = ECSTRING(Main,CavModTeam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_Rifleman_F.jpg);
-
+    };
 
     class CavMod_B_B_SquadLeader_F : CavMod_B_Bravo_base_F {
         _generalMacro = "CavMod_B_B_SquadLeader_F";
