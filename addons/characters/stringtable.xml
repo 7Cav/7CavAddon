@@ -26,6 +26,30 @@
         </Key>
 
 
+        <key ID="STR_CavMod_Characters_B_Tank_Commander">
+            <English>Tank Commander</English>
+        </key>
+        <key ID="STR_CavMod_Characters_B_Tank_Driver">
+            <English>Tank Driver</English>
+        </key>
+        <key ID="STR_CavMod_Characters_B_Tank_Gunner">
+            <English>Tank Gunner</English>
+        </key>
+        <key ID="STR_CavMod_Characters_B_Tank_Loader">
+            <English>Tank Loader</English>
+        </key>
+
+        <key ID="STR_CavMod_Characters_B_Ifv_Commander">
+            <English>IFV Commander</English>
+        </key>
+        <key ID="STR_CavMod_Characters_B_Ifv_Driver">
+            <English>IFV Driver</English>
+        </key>
+        <key ID="STR_CavMod_Characters_B_Ifv_Gunner">
+            <English>IFV Gunner</English>
+        </key>
+
+
         <Key ID="STR_CavMod_Characters_B_SquadLeader">
             <English>Squad Leader</English>
         </Key>

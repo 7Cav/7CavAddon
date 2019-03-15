@@ -75,7 +75,7 @@ class CfgVehicles {
         displayName = CSTRING(Trooper);
         author = ECSTRING(Main,CavModTeam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_base_F.jpg);
-        cavCompany = "Charlie";
+        cavCompany = "Bravo";
         cavPlatoon = -1;
 
         editorSubcategory = "CavMod_EdSubcat_Personnel_Bravo";
@@ -128,15 +128,13 @@ class CfgVehicles {
 
         uniformClass = "rhs_uniform_cu_ocp_1stcav";
     };
-    class CavMod_B_Charlie_Weap_base_F : CavMod_B_base_F {
+    class CavMod_B_Charlie_Weap_base_F : CavMod_B_Charlie_base_F {
         _generalMacro = "CavMod_B_Charlie_Weap_base_F";
         scope = 1;
         scopeCurator = 0;
         displayName = CSTRING(Trooper);
         author = ECSTRING(Main,CavModTeam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_base_F.jpg);
-        cavCompany = "Charlie";
-        cavPlatoon = -1;
 
         editorSubcategory = "CavMod_EdSubcat_Personnel_Weap_Charlie";
 
