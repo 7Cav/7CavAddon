@@ -87,7 +87,8 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "cavmod_main",
-            "cavmod_common"
+            "cavmod_common",
+            "cavmod_characters"
         };
         author = ECSTRING(main,CavModTeam);
         authors[] = {"Brostrom.A (Evul)"};

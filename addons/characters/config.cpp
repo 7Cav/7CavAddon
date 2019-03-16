@@ -15,6 +15,14 @@ class CfgPatches {
             "CavMod_B_B_PlatoonLeader_F",
             "CavMod_B_B_PlatoonMedic_F",
 
+            "CavMod_B_B_Tank_Commander_F",
+            "CavMod_B_B_Tank_Driver_F",
+            "CavMod_B_B_Tank_Gunner_F",
+            "CavMod_B_B_Tank_Loader_F",
+            "CavMod_B_B_Ifv_Commander_F",
+            "CavMod_B_B_Ifv_Driver_F",
+            "CavMod_B_B_Ifv_Gunner_F",
+
             "CavMod_B_B_SquadLeader_F",
 
             "CavMod_B_B_Alpha_FireTeamLeader_F",

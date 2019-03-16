@@ -4,7 +4,7 @@ class CfgGroups {
             name = ECSTRING(common,Faction_Display);
             class CavMod_Bravo_Infantry_Squads {
                 name = CSTRING(Cat_Bravo_Company_Inf);
-                class CavMod_B_B_Viking_Squad {                 // >>>> WIP
+                class CavMod_B_B_Viking_Squad {
                     name = CSTRING(B_Squad_Viking);
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
                     faction = "BLU_USA_7CAV_F";
@@ -65,7 +65,7 @@ class CfgGroups {
                     };
                 };
 
-                class CavMod_B_B_Viking_WithCrew_Squad {        // >>>> WIP
+                class CavMod_B_B_Viking_WithCrew_Squad {
                     name = CSTRING(B_Squad_Viking_WithCrew);
                     icon = "\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
                     faction = "BLU_USA_7CAV_F";
@@ -124,42 +124,42 @@ class CfgGroups {
                         side = 1;
                         vehicle = "CavMod_B_B_Bravo_CombatLifeSaver_F";
                     };
-                    class Unit9 {                                       // >>>> CREW
+                    class Unit9 {
                         position[] = {0.5, -1.0, 0.0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CavMod_B_B_Alpha_Rifleman_F";
+                        vehicle = "CavMod_B_B_Ifv_Driver_F";
                     };
-                    class Unit10 {                                      // >>>> CREW
+                    class Unit10 {
                         position[] = {-0.5, -1.0, 0.0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CavMod_B_B_Alpha_Rifleman_F";
+                        vehicle = "CavMod_B_B_Ifv_Gunner_F";
                     };
                 };
 
-                class CavMod_B_B_Banshee_Squad {                // >>>> WIP
+                class CavMod_B_B_Banshee_Squad {
                     name = CSTRING(B_Squad_Banshee);
                     icon = "\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
                     faction = "BLU_USA_7CAV_F";
                     side = 1;
-                    class Unit0 {                                       // >>>> CREW
+                    class Unit0 {
                         position[] = {0, 0, 0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "CavMod_B_B_Alpha_Rifleman_F";
+                        vehicle = "CavMod_B_B_Ifv_Commander_F";
                     };
-                    class Unit1 {                                       // >>>> CREW
+                    class Unit1 {
                         position[] = {0.5, -1.0, 0.0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CavMod_B_B_Alpha_Rifleman_F";
+                        vehicle = "CavMod_B_B_Ifv_Driver_F";
                     };
-                    class Unit2 {                                       // >>>> CREW
+                    class Unit2 {
                         position[] = {-0.5, -1.0, 0.0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CavMod_B_B_Alpha_Rifleman_F";
+                        vehicle = "CavMod_B_B_Ifv_Gunner_F";
                     };
                 };
 

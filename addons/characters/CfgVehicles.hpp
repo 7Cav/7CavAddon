@@ -83,6 +83,24 @@ class CfgVehicles {
         role = "Rifleman";
 
         uniformClass = "rhs_uniform_cu_ocp_1stcav";
+        linkedItems[] = {
+            "rhsusf_spcs_ocp_rifleman_alt",
+            "rhsusf_ach_helmet_ocp",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio",
+            "rhsusf_ANPVS_14"
+        };
+        respawnLinkedItems[] = {
+            "rhsusf_spcs_ocp_rifleman_alt",
+            "rhsusf_ach_helmet_ocp",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio",
+            "rhsusf_ANPVS_14"
+        };
     };
     class CavMod_B_Bravo_Crew_base_F : CavMod_B_Bravo_base_F {
         _generalMacro = "CavMod_B_Bravo_Crew_base_F";
@@ -92,7 +110,7 @@ class CfgVehicles {
         author = ECSTRING(Main,CavModTeam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_base_F.jpg);
         linkedItems[] = {
-            "rhsusf_iotv_ocp_Rifleman",
+            "rhsusf_spcs_ocp_crewman",
             "rhsusf_cvc_helmet",
             "ItemMap",
             "ItemCompass",
@@ -101,7 +119,7 @@ class CfgVehicles {
             "rhsusf_ANPVS_14"
         };
         respawnLinkedItems[] = {
-            "rhsusf_iotv_ocp_Rifleman",
+            "rhsusf_spcs_ocp_crewman",
             "rhsusf_cvc_helmet",
             "ItemMap",
             "ItemCompass",
@@ -240,6 +258,7 @@ class CfgVehicles {
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_Rifleman_F.jpg);
     };
 
+
     class CavMod_B_B_SquadLeader_F : CavMod_B_Bravo_base_F {
         _generalMacro = "CavMod_B_B_SquadLeader_F";
         scope = 2;
@@ -249,8 +268,26 @@ class CfgVehicles {
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_Rifleman_F.jpg);
 
         icon = "iconManLeader";
-    };
 
+        linkedItems[] = {
+            "rhsusf_spcs_ocp_squadleader",
+            "rhsusf_ach_helmet_ocp",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio",
+            "rhsusf_ANPVS_14"
+        };
+        respawnLinkedItems[] = {
+            "rhsusf_spcs_ocp_squadleader",
+            "rhsusf_ach_helmet_ocp",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio",
+            "rhsusf_ANPVS_14"
+        };
+    };
 
     class CavMod_B_B_Alpha_FireTeamLeader_F : CavMod_B_Bravo_base_F {
         _generalMacro = "CavMod_B_B_Alpha_FireTeamLeader_F";
@@ -275,6 +312,25 @@ class CfgVehicles {
             MULT_OBJ_4(rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red),
             MULT_OBJ_12(rhs_mag_M441_HE)
         };
+
+        linkedItems[] = {
+            "rhsusf_spcs_ocp_teamleader_alt",
+            "rhsusf_ach_helmet_ocp",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio",
+            "rhsusf_ANPVS_14"
+        };
+        respawnLinkedItems[] = {
+            "rhsusf_iotv_ocp_Teamleader",
+            "rhsusf_ach_helmet_ocp",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio",
+            "rhsusf_ANPVS_14"
+        };
     };
     class CavMod_B_B_Alpha_AutomaticRifleman_F : CavMod_B_Bravo_base_F {
         _generalMacro = "CavMod_B_B_Alpha_AutomaticRifleman_F";
@@ -296,6 +352,24 @@ class CfgVehicles {
         respawnMagazines[] = {
             MULT_OBJ_5(rhs_200rnd_556x45_M_SAW)
         };
+        linkedItems[] = {
+            "rhsusf_spcs_ocp_machinegunner",
+            "rhsusf_ach_helmet_ocp",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio",
+            "rhsusf_ANPVS_14"
+        };
+        respawnLinkedItems[] = {
+            "rhsusf_spcs_ocp_machinegunner",
+            "rhsusf_ach_helmet_ocp",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio",
+            "rhsusf_ANPVS_14"
+        };
     };
     class CavMod_B_B_Alpha_Grenadier_F : CavMod_B_Bravo_base_F {
         _generalMacro = "CavMod_B_B_Alpha_Grenadier_F";
@@ -315,6 +389,24 @@ class CfgVehicles {
         respawnMagazines[] = {
             MULT_OBJ_10(rhs_mag_30Rnd_556x45_M855A1_Stanag),
             MULT_OBJ_12(rhs_mag_M441_HE)
+        };
+        linkedItems[] = {
+            "rhsusf_spcs_ocp_grenadier",
+            "rhsusf_ach_helmet_ocp",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio",
+            "rhsusf_ANPVS_14"
+        };
+        respawnLinkedItems[] = {
+            "rhsusf_spcs_ocp_grenadier",
+            "rhsusf_ach_helmet_ocp",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio",
+            "rhsusf_ANPVS_14"
         };
     };
     class CavMod_B_B_Alpha_Rifleman_F : CavMod_B_Bravo_base_F {
@@ -355,6 +447,24 @@ class CfgVehicles {
 
         role = "CombatLifeSaver";
         icon = "iconManMedic";
+        linkedItems[] = {
+            "rhsusf_spcs_ocp_medic",
+            "rhsusf_ach_helmet_ocp",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio",
+            "rhsusf_ANPVS_14"
+        };
+        respawnLinkedItems[] = {
+            "rhsusf_spcs_ocp_medic",
+            "rhsusf_ach_helmet_ocp",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio",
+            "rhsusf_ANPVS_14"
+        };
     };
 
 
@@ -472,6 +582,25 @@ class CfgVehicles {
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_Rifleman_F.jpg);
 
         icon = "iconManLeader";
+
+        linkedItems[] = {
+            "rhsusf_iotv_ocp_Squadleader",
+            "rhsusf_ach_helmet_ocp",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio",
+            "rhsusf_ANPVS_14"
+        };
+        respawnLinkedItems[] = {
+            "rhsusf_iotv_ocp_Squadleader",
+            "rhsusf_ach_helmet_ocp",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio",
+            "rhsusf_ANPVS_14"
+        };
     };
 
 
@@ -498,6 +627,24 @@ class CfgVehicles {
             MULT_OBJ_4(rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red),
             MULT_OBJ_12(rhs_mag_M441_HE)
         };
+        linkedItems[] = {
+            "rhsusf_iotv_ocp_Teamleader",
+            "rhsusf_ach_helmet_ocp",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio",
+            "rhsusf_ANPVS_14"
+        };
+        respawnLinkedItems[] = {
+            "rhsusf_iotv_ocp_Teamleader",
+            "rhsusf_ach_helmet_ocp",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio",
+            "rhsusf_ANPVS_14"
+        };
     };
     class CavMod_B_C_Alpha_AutomaticRifleman_F : CavMod_B_Charlie_base_F {
         _generalMacro = "CavMod_B_C_Alpha_AutomaticRifleman_F";
@@ -519,6 +666,24 @@ class CfgVehicles {
         respawnMagazines[] = {
             MULT_OBJ_5(rhs_200rnd_556x45_M_SAW)
         };
+        linkedItems[] = {
+            "rhsusf_iotv_ocp_SAW",
+            "rhsusf_ach_helmet_ocp",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio",
+            "rhsusf_ANPVS_14"
+        };
+        respawnLinkedItems[] = {
+            "rhsusf_iotv_ocp_SAW",
+            "rhsusf_ach_helmet_ocp",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio",
+            "rhsusf_ANPVS_14"
+        };
     };
     class CavMod_B_C_Alpha_Grenadier_F : CavMod_B_Charlie_base_F {
         _generalMacro = "CavMod_B_C_Alpha_Grenadier_F";
@@ -538,6 +703,24 @@ class CfgVehicles {
         respawnMagazines[] = {
             MULT_OBJ_10(rhs_mag_30Rnd_556x45_M855A1_Stanag),
             MULT_OBJ_12(rhs_mag_M441_HE)
+        };
+        linkedItems[] = {
+            "rhsusf_iotv_ocp_Grenadier",
+            "rhsusf_ach_helmet_ocp",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio",
+            "rhsusf_ANPVS_14"
+        };
+        respawnLinkedItems[] = {
+            "rhsusf_iotv_ocp_Grenadier",
+            "rhsusf_ach_helmet_ocp",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio",
+            "rhsusf_ANPVS_14"
         };
     };
     class CavMod_B_C_Alpha_Rifleman_F : CavMod_B_Charlie_base_F {
@@ -578,6 +761,24 @@ class CfgVehicles {
 
         role = "CombatLifeSaver";
         icon = "iconManMedic";
+        linkedItems[] = {
+            "rhsusf_iotv_ocp_Medic",
+            "rhsusf_ach_helmet_ocp",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio",
+            "rhsusf_ANPVS_14"
+        };
+        respawnLinkedItems[] = {
+            "rhsusf_iotv_ocp_Medic",
+            "rhsusf_ach_helmet_ocp",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio",
+            "rhsusf_ANPVS_14"
+        };
     };
 
 
