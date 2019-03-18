@@ -1,0 +1,10 @@
+<Project name="CavMod">
+    <Package name="Markers">
+        <Key ID="STR_CavMod_Markers_flag_cav_00">
+            <English>Flag (7th Cavalry)</English>
+        </Key>
+        <Key ID="STR_CavMod_Markers_flag_cav_00">
+            <English>Flag (7th Cavalry - Red and White)</English>
+        </Key>
+    </Package>
+</Project>
