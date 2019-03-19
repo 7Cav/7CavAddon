@@ -1,0 +1,17 @@
+<Project name="CavMod">
+    <Package name="Vehicles">
+        <Key ID="STR_CavMod_Vehicles_Cat_Bravo_Company_Veh_D">
+            <English>Bravo Co. - Vehicle (Desert)</English>
+        </Key>
+        <Key ID="STR_CavMod_Vehicles_Cat_Bravo_Company_Veh_W">
+            <English>Bravo Co. - Vehicle (Woodland)</English>
+        </Key>
+
+        <Key ID="STR_CavMod_Vehicles_Cat_Charlie_Company_Veh_D">
+            <English>Charlie Co. - Vehicle (Desert)</English>
+        </Key>
+        <Key ID="STR_CavMod_Vehicles_Cat_Charlie_Company_Veh_W">
+            <English>Charlie Co. - Vehicle (Woodland)</English>
+        </Key>
+    </Package>
+</Project>
