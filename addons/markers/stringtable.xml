@@ -5,6 +5,12 @@
         </Key>
         <Key ID="STR_CavMod_Markers_flag_cav_01">
             <English>Flag (7th Cavalry - Red and White)</English>
+        </Key> 
+        <Key ID="STR_CavMod_Markers_handdrawn_cav">
+            <English>7th Cavalry</English>
+        </Key>
+        <Key ID="STR_CavMod_Markers_military_cav">
+            <English>7th Cavalry</English>
         </Key>
     </Package>
 </Project>
