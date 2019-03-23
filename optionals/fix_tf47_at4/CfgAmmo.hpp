@@ -1,8 +1,10 @@
 class CfgAmmo {
+    class RocketBase;
+    class BulletBase;
     class SubmunitionBase;
     class Sh_125mm_APFSDS;
 
-    class tf47_at4_m_HEAT : RocketBase {
+    class tf47_ammo_basic_penetrator : Sh_125mm_APFSDS {
         caliber=6.6666698;
         warheadName="HEAT";
         hit=290;
@@ -29,7 +31,6 @@ class CfgAmmo {
         triggerTime=0.003;
         model="\A3\Weapons_f\empty";
     };
-
     class tf47_ammo_spall : BulletBase {
         caliber=16.6667;
         hit=10;
