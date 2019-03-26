@@ -1,6 +1,6 @@
-<Project name="CavMod">
+<Project name="Cav">
     <Package name="Common">
-        <Key ID="STR_CavMod_Common_Faction_Display">
+        <Key ID="STR_Cav_Common_Faction_Display">
             <English>USA (Army - 7th Cavalry)</English>
         </Key>
     </Package>

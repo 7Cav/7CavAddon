@@ -57,7 +57,7 @@ if sys.platform == "win32":
     import winreg
 
 ######## GLOBALS #########
-project = "@cavmod"
+project = "@7CavAddon"
 project_version = "2.0.0"
 arma3tools_path = ""
 work_drive = ""
@@ -66,13 +66,13 @@ make_root = ""
 release_dir = ""
 module_root_parent = ""
 optionals_root = ""
-key_name = "cavmod"
+key_name = "cav"
 key = ""
 dssignfile = ""
-prefix = "cavmod"
-pbo_name_prefix = "cavmod_"
+prefix = "cav"
+pbo_name_prefix = "cav_"
 signature_blacklist = []
-importantFiles = ["mod.cpp", "README.md", "logo_cavmod_ca.paa"]
+importantFiles = ["mod.cpp", "README.md", "logo_cav_ca.paa"]
 versionFiles = ["README.md", "mod.cpp"]
 
 ciBuild = False # Used for CI builds

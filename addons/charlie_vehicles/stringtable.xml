@@ -1,0 +1,10 @@
+<Project name="Cav">
+    <Package name="Charlie_Vehicles">
+        <Key ID="STR_Cav_Charlie_Vehicles_Cat_Charlie_Company_Veh_D">
+            <English>Charlie Co. - Vehicles (Desert)</English>
+        </Key>
+        <Key ID="STR_Cav_Charlie_Vehicles_Cat_Charlie_Company_Veh_W">
+            <English>Charlie Co. - Vehicles (Woodland)</English>
+        </Key>
+    </Package>
+</Project>

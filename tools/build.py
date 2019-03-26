@@ -6,7 +6,7 @@ import subprocess
 
 ######## GLOBALS #########
 MAINPREFIX = "z"
-PREFIX = "cavmod_"
+PREFIX = "Cav_"
 ##########################
 
 def mod_time(path):
