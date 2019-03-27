@@ -42,6 +42,7 @@ class CfgPatches {
         requiredAddons[] = {
             "cav_main",
             "cav_common",
+            
             "cav_bravo_characters"
         };
         author = ECSTRING(main,CavModTeam);

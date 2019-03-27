@@ -72,6 +72,19 @@
         <Key ID="STR_Cav_Bravo_Characters_Units_B_Squad_Viking_7">
             <English>HQ Viking-7</English>
         </Key>
+
+        <Key ID="STR_Cav_Bravo_Characters_Units_B_Squad_Banshee_1">
+            <English>Team Banshee-1</English>
+        </Key>
+        <Key ID="STR_Cav_Bravo_Characters_Units_B_Squad_Banshee_2">
+            <English>Team Banshee-2</English>
+        </Key>
+        <Key ID="STR_Cav_Bravo_Characters_Units_B_Squad_Banshee_3">
+            <English>Team Banshee-3</English>
+        </Key>
+        <Key ID="STR_Cav_Bravo_Characters_Units_B_Squad_Banshee_4">
+            <English>Team Banshee-4</English>
+        </Key>
         
     </Package>
 </Project>
