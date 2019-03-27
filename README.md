@@ -21,7 +21,7 @@
 - [RHS: United States Armed Forces](http://www.rhsmods.org/)
 
 ## Optional mod support
-__These mods have a compatible mod to enhance the user experience. These optional mods add or change the core mod to implement the new functions.__
+_These mods have a compatible mod to enhance the user experience. These optional mods add or change the core mod to implement the new functions._
 
 - [TF47 Launchers](https://steamcommunity.com/workshop/filedetails/?id=508476583) - This optional adds additional shells and adjusts values of the launches.
 
