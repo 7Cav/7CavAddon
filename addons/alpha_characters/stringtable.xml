@@ -1,0 +1,58 @@
+<Project name="Cav">
+    <Package name="Alpha_Characters">
+        <Key ID="STR_Cav_Alpha_Characters_Cat_Alpha_Company_Inf">
+            <English>Alpha Co. - Infantry</English>
+        </Key>
+
+        <Key ID="STR_Cav_Alpha_Characters_Trooper">
+            <English>Trooper</English>
+        </Key>
+
+        <Key ID="STR_Cav_Alpha_Characters_A_Helicopter_Tra_Pilot">
+            <English>Pilot</English>
+        </Key>
+        <Key ID="STR_Cav_Alpha_Characters_A_Helicopter_Tra_coPilot">
+            <English>Co-Pilot</English>
+        </Key>
+        <Key ID="STR_Cav_Alpha_Characters_A_Helicopter_Tra_CrewChief">
+            <English>Crew Chief</English>
+        </Key>
+        <Key ID="STR_Cav_Alpha_Characters_A_Helicopter_Tra_DoorGunner">
+            <English>Door Gunner</English>
+        </Key>
+
+        <Key ID="STR_Cav_Alpha_Characters_A_Helicopter_Att_Pilot">
+            <English>Pilot</English>
+        </Key>
+        <Key ID="STR_Cav_Alpha_Characters_A_Helicopter_Att_coPilot">
+            <English>Co-Pilot</English>
+        </Key>
+
+        <Key ID="STR_Cav_Alpha_Characters_A_Plane_Fighter_Pilot">
+            <English>Pilot</English>
+        </Key>
+
+        <Key ID="STR_Cav_Alpha_Characters_A_Plane_Transport_Pilot">
+            <English>Pilot</English>
+        </Key>
+        <Key ID="STR_Cav_Alpha_Characters_A_Plane_Transport_coPilot">
+            <English>Co-Pilot</English>
+        </Key>
+
+        <!-- SQUADS -->
+        <Key ID="STR_Cav_Alpha_Characters_A_Team_Buffalo">
+            <English>Team Buffalo</English>
+        </Key>
+        <Key ID="STR_Cav_Alpha_Characters_A_Team_Raven">
+            <English>Team Raven</English>
+        </Key>
+        <Key ID="STR_Cav_Alpha_Characters_A_Team_Hog">
+            <English>Team Hog</English>
+        </Key>
+        <Key ID="STR_Cav_Alpha_Characters_A_Team_Titan">
+            <English>Team Titan</English>
+        </Key>
+
+
+    </Package>
+</Project>
