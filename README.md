@@ -31,4 +31,5 @@ _These mods have a compatible mod to enhance the user experience. These optional
 - Cav map markers and flags
 
 ## Links
+- [7th Cavalry Gaming](https://7cav.us)
 - [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=1696706969)
