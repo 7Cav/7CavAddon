@@ -33,3 +33,4 @@ _These mods have a compatible mod to enhance the user experience. These optional
 - Cav map markers and flags
 
 ## Links
+- [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=1696706969)
