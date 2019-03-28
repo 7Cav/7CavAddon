@@ -134,6 +134,9 @@
         <Key ID="STR_Cav_Bravo_Characters_B_Squad_Banshee">
             <English>Team Banshee</English>
         </Key>
+        <Key ID="STR_Cav_Bravo_Characters_B_Squad_Saber">
+            <English>Team Saber</English>
+        </Key>
 
         <Key ID="STR_Cav_Bravo_Characters_B_Squad_Mustang">
             <English>Team Mustang</English>

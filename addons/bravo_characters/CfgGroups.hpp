@@ -162,6 +162,37 @@ class CfgGroups {
                         vehicle = "Cav_B_B_Ifv_Gunner_F";
                     };
                 };
+
+                class Cav_B_B_Saber_Squad {
+                    name = CSTRING(B_Squad_Saber);
+                    icon = "\A3\ui_f\data\map\markers\nato\b_armor.paa";
+                    faction = "BLU_USA_7CAV_F";
+                    side = 1;
+                    class Unit0 {
+                        position[] = {0, 0, 0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "Cav_B_B_Tank_Commander_F";
+                    };
+                    class Unit1 {
+                        position[] = {1.0, -1.0, 0.0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "Cav_B_B_Tank_Driver_F";
+                    };
+                    class Unit2 {
+                        position[] = {0.0, -1.0, 0.0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "Cav_B_B_Tank_Gunner_F";
+                    };
+                    class Unit3 {
+                        position[] = {-1.0, -1.0, 0.0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "Cav_B_B_Tank_Loader_F";
+                    };
+                };
             };
             class Cav_Bravo_Logistical_Squads {
                 name = CSTRING(Cat_Bravo_Company_Logi);

@@ -37,6 +37,19 @@
          <Key ID="STR_Cav_Bravo_Characters_Units_B_Ifv_Commander_B_4">
             <English>Commander (Banshee-4)</English>
         </Key>
+
+         <Key ID="STR_Cav_Bravo_Characters_Units_B_Tank_Commander_Saber_1">
+            <English>Commander (Saber-1)</English>
+        </Key>
+         <Key ID="STR_Cav_Bravo_Characters_Units_B_Tank_Commander_Saber_2">
+            <English>Commander (Saber-2)</English>
+        </Key>
+         <Key ID="STR_Cav_Bravo_Characters_Units_B_Tank_Commander_Saber_3">
+            <English>Commander (Saber-3)</English>
+        </Key>
+         <Key ID="STR_Cav_Bravo_Characters_Units_B_Tank_Commander_Saber_4">
+            <English>Commander (Saber-4)</English>
+        </Key>
         
 
         <Key ID="STR_Cav_Bravo_Characters_Units_B_TeamLeader_Mustang_1">
@@ -108,6 +121,19 @@
         </Key>
         <Key ID="STR_Cav_Bravo_Characters_Units_B_Squad_Banshee_4">
             <English>Team Banshee-4</English>
+        </Key>
+
+        <Key ID="STR_Cav_Bravo_Characters_Units_B_Squad_Saber_1">
+            <English>Team Saber-1</English>
+        </Key>
+        <Key ID="STR_Cav_Bravo_Characters_Units_B_Squad_Saber_2">
+            <English>Team Saber-2</English>
+        </Key>
+        <Key ID="STR_Cav_Bravo_Characters_Units_B_Squad_Saber_3">
+            <English>Team Saber-3</English>
+        </Key>
+        <Key ID="STR_Cav_Bravo_Characters_Units_B_Squad_Saber_4">
+            <English>Team Saber-4</English>
         </Key>
 
         <Key ID="STR_Cav_Bravo_Characters_Units_B_Squad_Mustang_1">
