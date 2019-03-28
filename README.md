@@ -17,7 +17,6 @@
 
 ## Addon required
 - [CBA](https://github.com/CBATeam/CBA_A3)
-- [ACE3](https://ace3mod.com/)
 - [RHS: United States Armed Forces](http://www.rhsmods.org/)
 
 ## Optional mod support
