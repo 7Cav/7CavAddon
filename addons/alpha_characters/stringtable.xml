@@ -43,6 +43,9 @@
         <Key ID="STR_Cav_Alpha_Characters_A_Team_Buffalo">
             <English>Team Buffalo</English>
         </Key>
+        <Key ID="STR_Cav_Alpha_Characters_A_Team_Raider">
+            <English>Team Raider</English>
+        </Key>
         <Key ID="STR_Cav_Alpha_Characters_A_Team_Raven">
             <English>Team Raven</English>
         </Key>

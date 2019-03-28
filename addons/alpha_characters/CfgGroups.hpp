@@ -55,6 +55,25 @@ class CfgGroups {
                     };
                 };
 
+                class Cav_B_A_Raider_Team {
+                    name = CSTRING(A_Team_Raider);
+                    icon = "\A3\ui_f\data\map\markers\nato\b_air.paa";
+                    faction = "BLU_USA_7CAV_F";
+                    side = 1;
+                    class Unit0 {
+                        position[] = {0, 0, 0};
+                        rank = "CAPTAIN";
+                        side = 1;
+                        vehicle = "Cav_B_A_Helicopter_Att_Pilot_F";
+                    };
+                    class Unit1 {
+                        position[] = {1.0, 0.0, 0.0};
+                        rank = "LIEUTENANT";
+                        side = 1;
+                        vehicle = "Cav_B_A_Helicopter_Att_coPilot_F";
+                    };
+                };
+
                 class Cav_B_A_Hog_Team {
                     name = CSTRING(A_Team_Hog);
                     icon = "\A3\ui_f\data\map\markers\nato\b_plane.paa";

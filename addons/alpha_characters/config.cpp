@@ -22,6 +22,7 @@ class CfgPatches {
             // Groups
             "Cav_B_A_Buffalo_Team",
             "Cav_B_A_Raven_Team",
+            "Cav_B_A_Raider_Team",
             "Cav_B_A_Hog_Team",
             "Cav_B_A_Titan_Team"
 
