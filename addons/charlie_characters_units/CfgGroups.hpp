@@ -24,7 +24,7 @@ class CfgGroups {
                         position[] = {0, 0, 0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "Cav_B_C_PlatoonLeader_1_6_F";
+                        vehicle = "Cav_B_C_PlatoonLeader_Bandit_6_F";
                     };
                 };
                 class Cav_B_C_Bandit_7_HQ {
@@ -36,7 +36,7 @@ class CfgGroups {
                         position[] = {0, 0, 0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "Cav_B_C_PlatoonMedic_1_7_F";
+                        vehicle = "Cav_B_C_PlatoonMedic_Bandit_7_F";
                     };
                 };
                 
@@ -49,7 +49,7 @@ class CfgGroups {
                         position[] = {0, 0, 0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "Cav_B_C_SquadLeader_1_1_F";
+                        vehicle = "Cav_B_C_SquadLeader_Bandit_1_F";
                     };
                     class Unit1 {
                         position[] = {1.5, -1.0, 0.0};
@@ -109,7 +109,7 @@ class CfgGroups {
                         position[] = {0, 0, 0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "Cav_B_C_SquadLeader_1_2_F";
+                        vehicle = "Cav_B_C_SquadLeader_Bandit_2_F";
                     };
                     class Unit1 {
                         position[] = {1.5, -1.0, 0.0};
@@ -169,7 +169,7 @@ class CfgGroups {
                         position[] = {0, 0, 0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "Cav_B_C_SquadLeader_1_3_F";
+                        vehicle = "Cav_B_C_SquadLeader_Bandit_3_F";
                     };
                     class Unit1 {
                         position[] = {1.5, -1.0, 0.0};
@@ -229,7 +229,7 @@ class CfgGroups {
                         position[] = {0, 0, 0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "Cav_B_C_SquadLeader_1_4_F";
+                        vehicle = "Cav_B_C_SquadLeader_Bandit_4_F";
                     };
                     class Unit1 {
                         position[] = {1.5, -1.0, 0.0};
@@ -291,7 +291,7 @@ class CfgGroups {
                         position[] = {0, 0, 0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "Cav_B_C_PlatoonSergeant_2_5_F";
+                        vehicle = "Cav_B_C_PlatoonSergeant_Misfit_5_F";
                     };
                 };
                 class Cav_B_C_Misfit_6_HQ {
@@ -303,7 +303,7 @@ class CfgGroups {
                         position[] = {0, 0, 0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "Cav_B_C_PlatoonLeader_2_6_F";
+                        vehicle = "Cav_B_C_PlatoonLeader_Misfit_6_F";
                     };
                 };
                 class Cav_B_C_Misfit_7_HQ {
@@ -315,7 +315,7 @@ class CfgGroups {
                         position[] = {0, 0, 0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "Cav_B_C_PlatoonMedic_2_7_F";
+                        vehicle = "Cav_B_C_PlatoonMedic_Misfit_7_F";
                     };
                 };
 
@@ -328,7 +328,7 @@ class CfgGroups {
                         position[] = {0, 0, 0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "Cav_B_C_SquadLeader_2_1_F";
+                        vehicle = "Cav_B_C_SquadLeader_Misfit_1_F";
                     };
                     class Unit1 {
                         position[] = {1.5, -1.0, 0.0};
@@ -388,7 +388,7 @@ class CfgGroups {
                         position[] = {0, 0, 0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "Cav_B_C_SquadLeader_2_2_F";
+                        vehicle = "Cav_B_C_SquadLeader_Misfit_2_F";
                     };
                     class Unit1 {
                         position[] = {1.5, -1.0, 0.0};
@@ -448,7 +448,7 @@ class CfgGroups {
                         position[] = {0, 0, 0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "Cav_B_C_SquadLeader_2_3_F";
+                        vehicle = "Cav_B_C_SquadLeader_Misfit_3_F";
                     };
                     class Unit1 {
                         position[] = {1.5, -1.0, 0.0};
@@ -508,7 +508,7 @@ class CfgGroups {
                         position[] = {0, 0, 0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "Cav_B_C_SquadLeader_2_4_F";
+                        vehicle = "Cav_B_C_SquadLeader_Misfit_4_F";
                     };
                     class Unit1 {
                         position[] = {1.5, -1.0, 0.0};
@@ -570,7 +570,7 @@ class CfgGroups {
                         position[] = {0, 0, 0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "Cav_B_C_Weap_SquadLeader_H_1_F";
+                        vehicle = "Cav_B_C_Weap_SquadLeader_Havoc_1_F";
                     };
                     class Unit1 {
                         position[] = {1.5, -1.0, 0.0};

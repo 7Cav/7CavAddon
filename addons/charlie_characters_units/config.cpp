@@ -4,21 +4,25 @@ class CfgPatches {
     class ADDON {
         name = COMPONENT_NAME;
         units[] = {
-            "Cav_B_C_PlatoonSergeant_1_5_F",
-            "Cav_B_C_PlatoonLeader_1_6_F",
-            "Cav_B_C_PlatoonMedic_1_7_F",
-            "Cav_B_C_PlatoonSergeant_2_5_F",
-            "Cav_B_C_PlatoonLeader_2_6_F",
-            "Cav_B_C_PlatoonMedic_2_7_F",
-            "Cav_B_C_SquadLeader_1_1_F",
-            "Cav_B_C_SquadLeader_1_2_F",
-            "Cav_B_C_SquadLeader_1_3_F",
-            "Cav_B_C_SquadLeader_1_4_F",
-            "Cav_B_C_SquadLeader_2_1_F",
-            "Cav_B_C_SquadLeader_2_2_F",
-            "Cav_B_C_SquadLeader_2_3_F",
-            "Cav_B_C_SquadLeader_2_4_F",
-            "Cav_B_C_Weap_SquadLeader_H_1_F",
+            "Cav_B_C_PlatoonSergeant_Bandit_5_F",
+            "Cav_B_C_PlatoonLeader_Bandit_6_F",
+            "Cav_B_C_PlatoonMedic_Bandit_7_F",
+
+            "Cav_B_C_SquadLeader_Bandit_1_F",
+            "Cav_B_C_SquadLeader_Bandit_2_F",
+            "Cav_B_C_SquadLeader_Bandit_3_F",
+            "Cav_B_C_SquadLeader_Bandit_4_F",
+
+            "Cav_B_C_PlatoonSergeant_Misfit_5_F",
+            "Cav_B_C_PlatoonLeader_Misfit_6_F",
+            "Cav_B_C_PlatoonMedic_Misfit_7_F",
+
+            "Cav_B_C_SquadLeader_Misfit_1_F",
+            "Cav_B_C_SquadLeader_Misfit_2_F",
+            "Cav_B_C_SquadLeader_Misfit_3_F",
+            "Cav_B_C_SquadLeader_Misfit_4_F",
+
+            "Cav_B_C_Weap_SquadLeader_Havoc_1_F",
 
             // Groups
             "Cav_B_C_Bandit_5_HQ",
