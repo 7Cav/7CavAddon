@@ -1,0 +1,183 @@
+<Project name="Cav">
+    <Package name="Alpha_Characters_Units">
+        <Key ID="STR_Cav_Alpha_Characters_Units_A_Helicopter_Tra_Pilot_B1">
+            <English>Pilot (Buffalo-1)</English>
+        </Key>
+        <Key ID="STR_Cav_Alpha_Characters_Units_A_Helicopter_Tra_Pilot_B2">
+            <English>Pilot (Buffalo-2)</English>
+        </Key>
+        <Key ID="STR_Cav_Alpha_Characters_Units_A_Helicopter_Tra_Pilot_B3">
+            <English>Pilot (Buffalo-3)</English>
+        </Key>
+        <Key ID="STR_Cav_Alpha_Characters_Units_A_Helicopter_Tra_Pilot_B4">
+            <English>Pilot (Buffalo-4)</English>
+        </Key>
+        <Key ID="STR_Cav_Alpha_Characters_Units_A_Helicopter_Tra_Pilot_B5">
+            <English>Pilot (Buffalo-5)</English>
+        </Key>
+        <Key ID="STR_Cav_Alpha_Characters_Units_A_Helicopter_Tra_Pilot_B6">
+            <English>Pilot (Buffalo-6)</English>
+        </Key>
+
+
+        <Key ID="STR_Cav_Alpha_Characters_Units_A_Helicopter_Att_Pilot_Raider_1">
+            <English>Pilot (Raider-1)</English>
+        </Key>
+        <Key ID="STR_Cav_Alpha_Characters_Units_A_Helicopter_Att_Pilot_Raider_2">
+            <English>Pilot (Raider-2)</English>
+        </Key>
+        <Key ID="STR_Cav_Alpha_Characters_Units_A_Helicopter_Att_Pilot_Raider_3">
+            <English>Pilot (Raider-3)</English>
+        </Key>
+        <Key ID="STR_Cav_Alpha_Characters_Units_A_Helicopter_Att_Pilot_Raider_4">
+            <English>Pilot (Raider-4)</English>
+        </Key>
+
+
+        <Key ID="STR_Cav_Alpha_Characters_Units_A_Helicopter_Att_Pilot_Raven_1">
+            <English>Pilot (Raven-1)</English>
+        </Key>
+        <Key ID="STR_Cav_Alpha_Characters_Units_A_Helicopter_Att_Pilot_Raven_2">
+            <English>Pilot (Raven-2)</English>
+        </Key>
+        <Key ID="STR_Cav_Alpha_Characters_Units_A_Helicopter_Att_Pilot_Raven_3">
+            <English>Pilot (Raven-3)</English>
+        </Key>
+        <Key ID="STR_Cav_Alpha_Characters_Units_A_Helicopter_Att_Pilot_Raven_4">
+            <English>Pilot (Raven-4)</English>
+        </Key>
+
+        <Key ID="STR_Cav_Alpha_Characters_Units_A_Plane_Fighter_Pilot_Hog_1">
+            <English>Pilot (Hog-1)</English>
+        </Key>
+        <Key ID="STR_Cav_Alpha_Characters_Units_A_Plane_Fighter_Pilot_Hog_2">
+            <English>Pilot (Hog-2)</English>
+        </Key>
+        <Key ID="STR_Cav_Alpha_Characters_Units_A_Plane_Fighter_Pilot_Hog_3">
+            <English>Pilot (Hog-3)</English>
+        </Key>
+        <Key ID="STR_Cav_Alpha_Characters_Units_A_Plane_Fighter_Pilot_Hog_4">
+            <English>Pilot (Hog-4)</English>
+        </Key>
+        <Key ID="STR_Cav_Alpha_Characters_Units_A_Plane_Fighter_Pilot_Hog_4">
+            <English>Pilot (Hog-4)</English>
+        </Key>
+        <Key ID="STR_Cav_Alpha_Characters_Units_A_Plane_Fighter_Pilot_Hog_5">
+            <English>Pilot (Hog-5)</English>
+        </Key>
+        <Key ID="STR_Cav_Alpha_Characters_Units_A_Plane_Fighter_Pilot_Hog_6">
+            <English>Pilot (Hog-6)</English>
+        </Key>
+        <Key ID="STR_Cav_Alpha_Characters_Units_A_Plane_Fighter_Pilot_Hog_7">
+            <English>Pilot (Hog-7)</English>
+        </Key>
+        <Key ID="STR_Cav_Alpha_Characters_Units_A_Plane_Fighter_Pilot_Hog_8">
+            <English>Pilot (Hog-8)</English>
+        </Key>
+        <Key ID="STR_Cav_Alpha_Characters_Units_A_Plane_Fighter_Pilot_Hog_9">
+            <English>Pilot (Hog-9)</English>
+        </Key>
+
+        <Key ID="STR_Cav_Alpha_Characters_Units_A_Plane_Transport_Pilot_Titan_1">
+            <English>Pilot (Titan-1)</English>
+        </Key>
+        <Key ID="STR_Cav_Alpha_Characters_Units_A_Plane_Transport_Pilot_Titan_2">
+            <English>Pilot (Titan-2)</English>
+        </Key>
+        <Key ID="STR_Cav_Alpha_Characters_Units_A_Plane_Transport_Pilot_Titan_3">
+            <English>Pilot (Titan-3)</English>
+        </Key>
+        <Key ID="STR_Cav_Alpha_Characters_Units_A_Plane_Transport_Pilot_Titan_4">
+            <English>Pilot (Titan-4)</English>
+        </Key>
+
+        <!-- SQUADS -->
+        <Key ID="STR_Cav_Alpha_Characters_Units_A_Team_Buffalo_1">
+            <English>Team Buffalo-1</English>
+        </Key>
+        <Key ID="STR_Cav_Alpha_Characters_Units_A_Team_Buffalo_2">
+            <English>Team Buffalo-2</English>
+        </Key>
+        <Key ID="STR_Cav_Alpha_Characters_Units_A_Team_Buffalo_3">
+            <English>Team Buffalo-3</English>
+        </Key>
+        <Key ID="STR_Cav_Alpha_Characters_Units_A_Team_Buffalo_4">
+            <English>Team Buffalo-4</English>
+        </Key>
+        <Key ID="STR_Cav_Alpha_Characters_Units_A_Team_Buffalo_5">
+            <English>Team Buffalo-5</English>
+        </Key>
+        <Key ID="STR_Cav_Alpha_Characters_Units_A_Team_Buffalo_6">
+            <English>Team Buffalo-6</English>
+        </Key>
+
+        <Key ID="STR_Cav_Alpha_Characters_Units_A_Team_Raider_1">
+            <English>Team Raider-1</English>
+        </Key>
+        <Key ID="STR_Cav_Alpha_Characters_Units_A_Team_Raider_2">
+            <English>Team Raider-2</English>
+        </Key>
+        <Key ID="STR_Cav_Alpha_Characters_Units_A_Team_Raider_3">
+            <English>Team Raider-3</English>
+        </Key>
+        <Key ID="STR_Cav_Alpha_Characters_Units_A_Team_Raider_4">
+            <English>Team Raider-4</English>
+        </Key>
+
+        <Key ID="STR_Cav_Alpha_Characters_Units_A_Team_Raven_1">
+            <English>Team Raven-1</English>
+        </Key>
+        <Key ID="STR_Cav_Alpha_Characters_Units_A_Team_Raven_2">
+            <English>Team Raven-2</English>
+        </Key>
+        <Key ID="STR_Cav_Alpha_Characters_Units_A_Team_Raven_3">
+            <English>Team Raven-3</English>
+        </Key>
+        <Key ID="STR_Cav_Alpha_Characters_Units_A_Team_Raven_4">
+            <English>Team Raven-4</English>
+        </Key>
+
+        <Key ID="STR_Cav_Alpha_Characters_Units_A_Team_Hog_1">
+            <English>Team Hog-1</English>
+        </Key>
+        <Key ID="STR_Cav_Alpha_Characters_Units_A_Team_Hog_2">
+            <English>Team Hog-2</English>
+        </Key>
+        <Key ID="STR_Cav_Alpha_Characters_Units_A_Team_Hog_3">
+            <English>Team Hog-3</English>
+        </Key>
+        <Key ID="STR_Cav_Alpha_Characters_Units_A_Team_Hog_4">
+            <English>Team Hog-4</English>
+        </Key>
+        <Key ID="STR_Cav_Alpha_Characters_Units_A_Team_Hog_5">
+            <English>Team Hog-5</English>
+        </Key>
+        <Key ID="STR_Cav_Alpha_Characters_Units_A_Team_Hog_6">
+            <English>Team Hog-6</English>
+        </Key>
+        <Key ID="STR_Cav_Alpha_Characters_Units_A_Team_Hog_7">
+            <English>Team Hog-7</English>
+        </Key>
+        <Key ID="STR_Cav_Alpha_Characters_Units_A_Team_Hog_8">
+            <English>Team Hog-8</English>
+        </Key>
+        <Key ID="STR_Cav_Alpha_Characters_Units_A_Team_Hog_9">
+            <English>Team Hog-9</English>
+        </Key>
+
+        <Key ID="STR_Cav_Alpha_Characters_Units_A_Team_Titan_1">
+            <English>Team Titan-1</English>
+        </Key>
+        <Key ID="STR_Cav_Alpha_Characters_Units_A_Team_Titan_2">
+            <English>Team Titan-2</English>
+        </Key>
+        <Key ID="STR_Cav_Alpha_Characters_Units_A_Team_Titan_3">
+            <English>Team Titan-3</English>
+        </Key>
+        <Key ID="STR_Cav_Alpha_Characters_Units_A_Team_Titan_4">
+            <English>Team Titan-4</English>
+        </Key>
+
+
+    </Package>
+</Project>
