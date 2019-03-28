@@ -1,75 +1,62 @@
 <Project name="Cav">
     <Package name="Characters_Unit">
 
-        <Key ID="STR_Cav_Charlie_Characters_Units_C_PlatoonSergeant_1_5">
+        <Key ID="STR_Cav_Charlie_Characters_Units_C_PlatoonSergeant_Bandit_5">
             <English>Platoon Sergeant (Bandit-5)</English>
         </Key>
-        <Key ID="STR_Cav_Charlie_Characters_Units_C_PlatoonLeader_1_6">
+        <Key ID="STR_Cav_Charlie_Characters_Units_C_PlatoonLeader_Bandit_6">
             <English>Platoon Leader (Bandit-6)</English>
         </Key>
-        <Key ID="STR_Cav_Charlie_Characters_Units_C_PlatoonMedic_1_7">
+        <Key ID="STR_Cav_Charlie_Characters_Units_C_PlatoonMedic_Bandit_7">
             <English>Platoon Medic (Bandit-7)</English>
         </Key>
 
-        <Key ID="STR_Cav_Charlie_Characters_Units_C_PlatoonSergeant_2_5">
+        <Key ID="STR_Cav_Charlie_Characters_Units_C_PlatoonSergeant_Misfit_5">
             <English>Platoon Sergeant (Misfit-5)</English>
         </Key>
-        <Key ID="STR_Cav_Charlie_Characters_Units_C_PlatoonLeader_2_6">
+        <Key ID="STR_Cav_Charlie_Characters_Units_C_PlatoonLeader_Misfit_6">
             <English>Platoon Leader (Misfit-6)</English>
         </Key>
-        <Key ID="STR_Cav_Charlie_Characters_Units_C_PlatoonMedic_2_7">
+        <Key ID="STR_Cav_Charlie_Characters_Units_C_PlatoonMedic_Misfit_7">
             <English>Platoon Medic (Misfit-7)</English>
         </Key>
 
 
-         <Key ID="STR_Cav_Charlie_Characters_Units_C_SquadLeader_1_1">
+         <Key ID="STR_Cav_Charlie_Characters_Units_C_SquadLeader_Bandit_1">
             <English>Squad Leader (Bandit-1)</English>
         </Key>
-         <Key ID="STR_Cav_Charlie_Characters_Units_C_SquadLeader_1_2">
+         <Key ID="STR_Cav_Charlie_Characters_Units_C_SquadLeader_Bandit_2">
             <English>Squad Leader (Bandit-2)</English>
         </Key>
-         <Key ID="STR_Cav_Charlie_Characters_Units_C_SquadLeader_1_3">
+         <Key ID="STR_Cav_Charlie_Characters_Units_C_SquadLeader_Bandit_3">
             <English>Squad Leader (Bandit-3)</English>
         </Key>
-         <Key ID="STR_Cav_Charlie_Characters_Units_C_SquadLeader_1_4">
+         <Key ID="STR_Cav_Charlie_Characters_Units_C_SquadLeader_Bandit_4">
             <English>Squad Leader (Bandit-4)</English>
         </Key>
 
-         <Key ID="STR_Cav_Charlie_Characters_Units_C_SquadLeader_2_1">
+         <Key ID="STR_Cav_Charlie_Characters_Units_C_SquadLeader_Misfit_1">
             <English>Squad Leader (Misfit-1)</English>
         </Key>
-         <Key ID="STR_Cav_Charlie_Characters_Units_C_SquadLeader_2_2">
+         <Key ID="STR_Cav_Charlie_Characters_Units_C_SquadLeader_Misfit_2">
             <English>Squad Leader (Misfit-2)</English>
         </Key>
-         <Key ID="STR_Cav_Charlie_Characters_Units_C_SquadLeader_2_3">
+         <Key ID="STR_Cav_Charlie_Characters_Units_C_SquadLeader_Misfit_3">
             <English>Squad Leader (Misfit-3)</English>
         </Key>
-         <Key ID="STR_Cav_Charlie_Characters_Units_C_SquadLeader_2_4">
+         <Key ID="STR_Cav_Charlie_Characters_Units_C_SquadLeader_Misfit_4">
             <English>Squad Leader (Misfit-4)</English>
         </Key>
 
 
         <!-- Havoc -->
-         <Key ID="STR_Cav_Charlie_Characters_Units_C_Weap_SquadLeader_H_1">
+         <Key ID="STR_Cav_Charlie_Characters_Units_C_Weap_SquadLeader_Havoc_1">
             <English>Squad Leader (Havoc-1)</English>
         </Key>
 
 
 
         <!-- SQUADS -->
-        <Key ID="STR_Cav_Charlie_Characters_Units_B_Squad_Banshee_1">
-            <English>Squad Banshee-1</English>
-        </Key>
-        <Key ID="STR_Cav_Charlie_Characters_Units_B_Squad_Banshee_2">
-            <English>Squad Banshee-2</English>
-        </Key>
-        <Key ID="STR_Cav_Charlie_Characters_Units_B_Squad_Banshee_3">
-            <English>Squad Banshee-3</English>
-        </Key>
-        <Key ID="STR_Cav_Charlie_Characters_Units_B_Squad_Banshee_4">
-            <English>Squad Banshee-4</English>
-        </Key>
-
         <Key ID="STR_Cav_Charlie_Characters_Units_C_Squad_Bandit_1">
             <English>Squad Bandit-1</English>
         </Key>

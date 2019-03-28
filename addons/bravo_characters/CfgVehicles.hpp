@@ -536,7 +536,7 @@ class CfgVehicles {
         _generalMacro = "Cav_B_B_LogisticsOpsOfficer_F";
         scope = 2;
         scopeCurator = 0;
-        displayName = CSTRING(B_LogisticTeamLeader);
+        displayName = CSTRING(B_LogisticsOpsOfficer);
         author = ECSTRING(Main,CavModTeam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_Rifleman_F.jpg);
 

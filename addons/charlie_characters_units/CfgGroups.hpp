@@ -12,7 +12,7 @@ class CfgGroups {
                         position[] = {0, 0, 0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "Cav_B_C_PlatoonSergeant_1_5_F";
+                        vehicle = "Cav_B_C_PlatoonSergeant_Bandit_5_F";
                     };
                 };
                 class Cav_B_C_Bandit_6_HQ {

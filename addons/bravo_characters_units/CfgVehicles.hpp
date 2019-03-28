@@ -153,7 +153,7 @@ class CfgVehicles {
     class Cav_B_B_TeamLeader_Mustang_F;
     class Cav_B_B_TeamLeader_Mustang_1_F : Cav_B_B_TeamLeader_Mustang_F {
         _generalMacro = "Cav_B_B_TeamLeader_Mustang_1_F";
-        scope = 2;
+        scope = 1;
         scopeCurator = 0;
         displayName = CSTRING(B_TeamLeader_Mustang_1);
         author = ECSTRING(Main,CavModTeam);
@@ -161,7 +161,7 @@ class CfgVehicles {
     };
     class Cav_B_B_TeamLeader_Mustang_2_F : Cav_B_B_TeamLeader_Mustang_F {
         _generalMacro = "Cav_B_B_TeamLeader_Mustang_2_F";
-        scope = 2;
+        scope = 1;
         scopeCurator = 0;
         displayName = CSTRING(B_TeamLeader_Mustang_2);
         author = ECSTRING(Main,CavModTeam);
