@@ -11,7 +11,6 @@
             <English>Platoon Medic (Viking-7)</English>
         </Key>
 
-
          <Key ID="STR_Cav_Bravo_Characters_Units_B_SquadLeader_2_1">
             <English>Squad Leader (Viking-1)</English>
         </Key>
@@ -25,6 +24,7 @@
             <English>Squad Leader (Viking-4)</English>
         </Key>
 
+
          <Key ID="STR_Cav_Bravo_Characters_Units_B_Ifv_Commander_B_1">
             <English>Commander (Banshee-1)</English>
         </Key>
@@ -37,6 +37,30 @@
          <Key ID="STR_Cav_Bravo_Characters_Units_B_Ifv_Commander_B_4">
             <English>Commander (Banshee-4)</English>
         </Key>
+        
+
+        <Key ID="STR_Cav_Bravo_Characters_Units_B_TeamLeader_Mustang_1">
+            <English>Team Leader (Mustang-1)</English>
+        </Key>
+        <Key ID="STR_Cav_Bravo_Characters_Units_B_TeamLeader_Mustang_2">
+            <English>Team Leader (Mustang-2)</English>
+        </Key>
+
+
+        <Key ID="STR_Cav_Bravo_Characters_B_LogisticsOpsOfficer_Apollo_6">
+            <English>Ops Officer (Apollo-6)</English>
+        </Key>
+        <Key ID="STR_Cav_Bravo_Characters_B_LogisticsOpsNCO_Apollo_5">
+            <English>Ops NCO (Apollo-5)</English>
+        </Key>
+
+        <Key ID="STR_Cav_Bravo_Characters_B_LogisticTeamLeader_Apollo_1">
+            <English>Logistic Team Leader (Apollo-1)</English>
+        </Key>
+        <Key ID="STR_Cav_Bravo_Characters_B_LogisticTeamLeader_Apollo_2">
+            <English>Logistic Team Leader (Apollo-2)</English>
+        </Key>
+
 
         <!-- SQUADS -->
         <Key ID="STR_Cav_Bravo_Characters_Units_B_Squad_Viking_1">
@@ -85,6 +109,26 @@
         <Key ID="STR_Cav_Bravo_Characters_Units_B_Squad_Banshee_4">
             <English>Team Banshee-4</English>
         </Key>
-        
+
+        <Key ID="STR_Cav_Bravo_Characters_B_Squad_Mustang_1">
+            <English>Team Mustang-1</English>
+        </Key>
+        <Key ID="STR_Cav_Bravo_Characters_B_Squad_Mustang_2">
+            <English>Team Mustang-2</English>
+        </Key>
+
+        <Key ID="STR_Cav_Bravo_Characters_B_Squad_Apollo_5">
+            <English>HQ Apollo-5</English>
+        </Key>
+        <Key ID="STR_Cav_Bravo_Characters_B_Squad_Apollo_6">
+            <English>HQ Apollo-6</English>
+        </Key>
+
+        <Key ID="STR_Cav_Bravo_Characters_B_Squad_Apollo_1">
+            <English>Team Apollo-1</English>
+        </Key>
+        <Key ID="STR_Cav_Bravo_Characters_B_Squad_Apollo_2">
+            <English>Team Apollo-2</English>
+        </Key>
     </Package>
 </Project>

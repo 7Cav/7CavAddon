@@ -3,6 +3,31 @@ class CfgGroups {
         class BLU_USA_7CAV_F {
             class Cav_Alpha_Infantry_Squads {
 
+                class Cav_B_A_Pegasus_1_HQ {
+                    name = CSTRING(A_Team_Pegasus_1);
+                    icon = "\A3\ui_f\data\map\markers\nato\b_hq.paa";
+                    faction = "BLU_USA_7CAV_F";
+                    side = 1;
+                    class Unit0 {
+                        position[] = {0, 0, 0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "Cav_B_A_AirController_Pegasus_1_F";
+                    };
+                };
+                class Cav_B_A_Pegasus_2_HQ {
+                    name = CSTRING(A_Team_Pegasus_2);
+                    icon = "\A3\ui_f\data\map\markers\nato\b_hq.paa";
+                    faction = "BLU_USA_7CAV_F";
+                    side = 1;
+                    class Unit0 {
+                        position[] = {0, 0, 0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "Cav_B_A_AirController_Pegasus_2_F";
+                    };
+                };
+
                 class Cav_B_A_Buffalo_1_Team {
                     name = CSTRING(A_Team_Buffalo_1);
                     icon = "\A3\ui_f\data\map\markers\nato\b_air.paa";

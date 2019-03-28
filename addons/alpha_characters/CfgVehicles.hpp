@@ -37,8 +37,19 @@ class CfgVehicles {
         };
     };
 
-
     // Alpha
+    class Cav_B_A_AirController_F : Cav_B_Alpha_base_F {
+        _generalMacro = "Cav_B_C_AirController_F";
+        scope = 2;
+        scopeCurator = 0;
+        displayName = CSTRING(A_AirController);
+        author = ECSTRING(Main,CavModTeam);
+        //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_Rifleman_F.jpg);
+
+        icon = "iconManOfficer";
+    };
+
+
     class Cav_B_A_Helicopter_Tra_Pilot_F : Cav_B_Alpha_base_F {
         _generalMacro = "Cav_B_A_Helicopter_Tra_Pilot_F";
         scope = 2;

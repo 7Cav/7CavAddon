@@ -3,6 +3,24 @@ class CfgVehicles {
     class Cav_B_Alpha_base_F;
 
     // Alpha
+    class Cav_B_A_AirController_F;
+    class Cav_B_A_AirController_Pegasus_1_F : Cav_B_A_AirController_F {
+        _generalMacro = "Cav_B_A_AirController_Pegasus_1_F";
+        scope = 1;
+        scopeCurator = 0;
+        displayName = CSTRING(A_AirController_Pegasus_1);
+        author = ECSTRING(Main,CavModTeam);
+        //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_Rifleman_F.jpg);
+    };
+    class Cav_B_A_AirController_Pegasus_2_F : Cav_B_A_AirController_F {
+        _generalMacro = "Cav_B_A_AirController_Pegasus_2_F";
+        scope = 1;
+        scopeCurator = 0;
+        displayName = CSTRING(A_AirController_Pegasus_2);
+        author = ECSTRING(Main,CavModTeam);
+        //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_Rifleman_F.jpg);
+    };
+
     class Cav_B_A_Helicopter_Tra_Pilot_F;
     class Cav_B_A_Helicopter_Tra_Pilot_B1_F : Cav_B_A_Helicopter_Tra_Pilot_F {
         _generalMacro = "Cav_B_A_Helicopter_Tra_Pilot_B1_F";

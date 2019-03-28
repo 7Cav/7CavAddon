@@ -570,6 +570,7 @@ class CfgGroups {
                     };
                 };
 
+
                 class Cav_B_B_Banshee_1_Squad {
                     name = CSTRING(B_Squad_Banshee_1);
                     icon = "\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
@@ -666,7 +667,178 @@ class CfgGroups {
                         vehicle = "Cav_B_B_Ifv_Gunner_F";
                     };
                 };
+            };
+            class Cav_Bravo_Logistical_Squads {
 
+                class Cav_B_B_Mustang_1_Squad {
+                    name = CSTRING(B_Squad_Mustang_1);
+                    icon = "\A3\ui_f\data\map\markers\nato\b_med.paa";
+                    faction = "BLU_USA_7CAV_F";
+                    side = 1;
+                    class Unit0 {
+                        position[] = {0, 0, 0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "Cav_B_B_TeamLeader_Mustang_1_F";
+                    };
+                    class Unit1 {
+                        position[] = {1.0, -1.0, 0.0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "Cav_B_B_Mustang_CombatMedic_F";
+                    };
+                    class Unit2 {
+                        position[] = {0.0, -1.0, 0.0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "Cav_B_B_Mustang_CombatMedic_F";
+                    };
+                    class Unit3 {
+                        position[] = {-1.0, -1.0, 0.0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "Cav_B_B_Mustang_CombatMedic_F";
+                    };
+                };
+                class Cav_B_B_Mustang_2_Squad {
+                    name = CSTRING(B_Squad_Mustang_2);
+                    icon = "\A3\ui_f\data\map\markers\nato\b_med.paa";
+                    faction = "BLU_USA_7CAV_F";
+                    side = 1;
+                    class Unit0 {
+                        position[] = {0, 0, 0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "Cav_B_B_TeamLeader_Mustang_2_F";
+                    };
+                    class Unit1 {
+                        position[] = {1.0, -1.0, 0.0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "Cav_B_B_Mustang_CombatMedic_F";
+                    };
+                    class Unit2 {
+                        position[] = {0.0, -1.0, 0.0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "Cav_B_B_Mustang_CombatMedic_F";
+                    };
+                    class Unit3 {
+                        position[] = {-1.0, -1.0, 0.0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "Cav_B_B_Mustang_CombatMedic_F";
+                    };
+                };
+
+                class Cav_B_B_Apollo_5_HQ {
+                    name = CSTRING(B_Squad_Apollo_5);
+                    icon = "\A3\ui_f\data\map\markers\nato\b_hq.paa";
+                    faction = "BLU_USA_7CAV_F";
+                    side = 1;
+                    class Unit0 {
+                        position[] = {0, 0, 0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "Cav_B_B_LogisticsOpsNCO_Apollo_5_F";
+                    };
+                };
+                class Cav_B_B_Apollo_6_HQ {
+                    name = CSTRING(B_Squad_Apollo_6);
+                    icon = "\A3\ui_f\data\map\markers\nato\b_hq.paa";
+                    faction = "BLU_USA_7CAV_F";
+                    side = 1;
+                    class Unit0 {
+                        position[] = {0, 0, 0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "Cav_B_B_LogisticsOpsOfficer_Apollo_6_F";
+                    };
+                };
+                class Cav_B_B_Apollo_1_Squad {
+                    name = CSTRING(B_Squad_Apollo_1);
+                    icon = "\A3\ui_f\data\map\markers\nato\b_maint.paa";
+                    faction = "BLU_USA_7CAV_F";
+                    side = 1;
+                    class Unit0 {
+                        position[] = {0, 0, 0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "Cav_B_B_LogisticTeamLeader_Apollo_1_F";
+                    };
+                    class Unit1 {
+                        position[] = {0.5, -1.0, 0.0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "Cav_B_B_LogisticsTeamMember_F";
+                    };
+                    class Unit2 {
+                        position[] = {-0.5, -1.0, 0.0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "Cav_B_B_LogisticsTeamMember_F";
+                    };
+                    class Unit3 {
+                        position[] = {0.5, -2.0, 0.0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "Cav_B_B_LogisticsTeamMember_F";
+                    };
+                    class Unit4 {
+                        position[] = {-0.5, -2.0, 0.0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "Cav_B_B_LogisticsTeamMember_F";
+                    };
+                    class Unit5 {
+                        position[] = {0.0, -3.0, 0.0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "Cav_B_B_LogisticsTeamMember_F";
+                    };
+                };
+                class Cav_B_B_Apollo_2_Squad {
+                    name = CSTRING(B_Squad_Apollo_2);
+                    icon = "\A3\ui_f\data\map\markers\nato\b_maint.paa";
+                    faction = "BLU_USA_7CAV_F";
+                    side = 1;
+                    class Unit0 {
+                        position[] = {0, 0, 0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "Cav_B_B_LogisticTeamLeader_Apollo_2_F";
+                    };
+                    class Unit1 {
+                        position[] = {0.5, -1.0, 0.0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "Cav_B_B_LogisticsTeamMember_F";
+                    };
+                    class Unit2 {
+                        position[] = {-0.5, -1.0, 0.0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "Cav_B_B_LogisticsTeamMember_F";
+                    };
+                    class Unit3 {
+                        position[] = {0.5, -2.0, 0.0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "Cav_B_B_LogisticsTeamMember_F";
+                    };
+                    class Unit4 {
+                        position[] = {-0.5, -2.0, 0.0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "Cav_B_B_LogisticsTeamMember_F";
+                    };
+                    class Unit5 {
+                        position[] = {0.0, -3.0, 0.0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "Cav_B_B_LogisticsTeamMember_F";
+                    };
+                };
             };
         };
     };

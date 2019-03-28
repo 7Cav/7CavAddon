@@ -109,6 +109,7 @@ class CfgVehicles {
         cavPlatoon = 2;
     };
 
+
     class Cav_B_B_Ifv_Commander_F;
 
     class Cav_B_B_Ifv_Commander_B_1_F : Cav_B_B_Ifv_Commander_F {
@@ -146,5 +147,62 @@ class CfgVehicles {
         author = ECSTRING(Main,CavModTeam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_Rifleman_F.jpg);
         cavPlatoon = 2;
+    };
+
+
+    class Cav_B_B_TeamLeader_Mustang_F;
+    class Cav_B_B_TeamLeader_Mustang_1_F : Cav_B_B_TeamLeader_Mustang_F {
+        _generalMacro = "Cav_B_B_TeamLeader_Mustang_1_F";
+        scope = 2;
+        scopeCurator = 0;
+        displayName = CSTRING(B_TeamLeader_Mustang_1);
+        author = ECSTRING(Main,CavModTeam);
+        //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_Rifleman_F.jpg);
+    };
+    class Cav_B_B_TeamLeader_Mustang_2_F : Cav_B_B_TeamLeader_Mustang_F {
+        _generalMacro = "Cav_B_B_TeamLeader_Mustang_2_F";
+        scope = 2;
+        scopeCurator = 0;
+        displayName = CSTRING(B_TeamLeader_Mustang_2);
+        author = ECSTRING(Main,CavModTeam);
+        //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_Rifleman_F.jpg);
+    };
+
+
+    class Cav_B_B_LogisticsOpsOfficer_F;
+    class Cav_B_B_LogisticsOpsNCO_F;
+    class Cav_B_B_LogisticsOpsOfficer_Apollo_6_F : Cav_B_B_LogisticsOpsOfficer_F {
+        _generalMacro = "Cav_B_B_LogisticsOpsOfficer_Apollo_6_F";
+        scope = 1;
+        scopeCurator = 0;
+        displayName = CSTRING(B_LogisticsOpsOfficer_Apollo_6);
+        author = ECSTRING(Main,CavModTeam);
+        //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_Rifleman_F.jpg);
+    };
+    class Cav_B_B_LogisticsOpsNCO_Apollo_5_F : Cav_B_B_LogisticsOpsNCO_F {
+        _generalMacro = "Cav_B_B_LogisticsOpsNCO_Apollo_5_F";
+        scope = 1;
+        scopeCurator = 0;
+        displayName = CSTRING(B_LogisticsOpsNCO_Apollo_5);
+        author = ECSTRING(Main,CavModTeam);
+        //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_Rifleman_F.jpg);
+    };
+
+    class Cav_B_B_LogisticTeamLeader_F;
+    class Cav_B_B_LogisticTeamLeader_Apollo_1_F : Cav_B_B_LogisticTeamLeader_F {
+        _generalMacro = "Cav_B_B_LogisticTeamLeader_Apollo_1_F";
+        scope = 1;
+        scopeCurator = 0;
+        displayName = CSTRING(B_LogisticTeamLeader_Apollo_1);
+        author = ECSTRING(Main,CavModTeam);
+        //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_Rifleman_F.jpg);
+    };
+    class Cav_B_B_LogisticTeamLeader_Apollo_2_F : Cav_B_B_LogisticTeamLeader_F {
+        _generalMacro = "Cav_B_B_LogisticTeamLeader_Apollo_2_F";
+        scope = 1;
+        scopeCurator = 0;
+        displayName = CSTRING(Cav_B_B_LogisticTeamLeader_Apollo_2);
+        author = ECSTRING(Main,CavModTeam);
+        //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_Rifleman_F.jpg);
     };
 };

@@ -1,5 +1,13 @@
 <Project name="Cav">
     <Package name="Alpha_Characters_Units">
+
+        <Key ID="STR_Cav_Alpha_Characters_A_AirController_Pegasus_1">
+            <English>Air Controller (Pegasus-1)</English>
+        </Key>
+        <Key ID="STR_Cav_Alpha_Characters_A_AirController_Pegasus_2">
+            <English>Air Controller (Pegasus-2)</English>
+        </Key>
+
         <Key ID="STR_Cav_Alpha_Characters_Units_A_Helicopter_Tra_Pilot_B1">
             <English>Pilot (Buffalo-1)</English>
         </Key>
@@ -178,6 +186,12 @@
             <English>Team Titan-4</English>
         </Key>
 
+        <Key ID="STR_Cav_Alpha_Characters_Units_A_Team_Pegasus_1">
+            <English>HQ Pegasus-1</English>
+        </Key>
+        <Key ID="STR_Cav_Alpha_Characters_Units_A_Team_Pegasus_2">
+            <English>HQ Pegasus-2</English>
+        </Key>
 
     </Package>
 </Project>

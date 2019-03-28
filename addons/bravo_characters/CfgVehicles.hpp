@@ -60,7 +60,40 @@ class CfgVehicles {
             "rhsusf_ANPVS_14"
         };
     };
+    class Cav_B_Bravo_Logi_base_F : Cav_B_base_F {
+        _generalMacro = "Cav_B_Bravo_base_F";
+        scope = 1;
+        scopeCurator = 0;
+        displayName = CSTRING(Trooper);
+        author = ECSTRING(Main,CavModTeam);
+        //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_base_F.jpg);
+        cavCompany = "Bravo";
+        cavPlatoon = -1;
 
+        editorSubcategory = "Cav_EdSubcat_Personnel_Logi_Bravo";
+
+        role = "Rifleman";
+
+        uniformClass = "rhs_uniform_cu_ocp_1stcav";
+        linkedItems[] = {
+            "rhsusf_spcs_ocp_rifleman_alt",
+            "rhsusf_ach_helmet_ocp",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio",
+            "rhsusf_ANPVS_14"
+        };
+        respawnLinkedItems[] = {
+            "rhsusf_spcs_ocp_rifleman_alt",
+            "rhsusf_ach_helmet_ocp",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio",
+            "rhsusf_ANPVS_14"
+        };
+    };
 
     // Bravo
     class Cav_B_B_PlatoonSergeant_F : Cav_B_Bravo_base_F {
@@ -436,4 +469,126 @@ class CfgVehicles {
         role = "CombatLifeSaver";
         icon = "iconManMedic";
     };
+
+
+    class Cav_B_B_TeamLeader_Mustang_F : Cav_B_Bravo_Logi_base_F {
+        _generalMacro = "Cav_B_B_TeamLeader_Mustang_F";
+        scope = 2;
+        scopeCurator = 0;
+        displayName = CSTRING(B_TeamLeader_Mustang);
+        author = ECSTRING(Main,CavModTeam);
+        //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_Rifleman_F.jpg);
+
+        icon = "iconManLeader";
+
+        linkedItems[] = {
+            "rhsusf_spcs_ocp_squadleader",
+            "rhsusf_ach_helmet_ocp",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio",
+            "rhsusf_ANPVS_14"
+        };
+        respawnLinkedItems[] = {
+            "rhsusf_spcs_ocp_squadleader",
+            "rhsusf_ach_helmet_ocp",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio",
+            "rhsusf_ANPVS_14"
+        };
+    };
+    class Cav_B_B_Mustang_CombatMedic_F : Cav_B_Bravo_Logi_base_F {
+        _generalMacro = "Cav_B_B_Mustang_CombatMedic_F";
+        scope = 2;
+        scopeCurator = 0;
+        displayName = CSTRING(B_CombatMedic_Mustang);
+        author = ECSTRING(Main,CavModTeam);
+        //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_Rifleman_F.jpg);
+
+        role = "CombatLifeSaver";
+        icon = "iconManMedic";
+
+        linkedItems[] = {
+            "rhsusf_spcs_ocp_medic",
+            "rhsusf_ach_helmet_ocp",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio",
+            "rhsusf_ANPVS_14"
+        };
+        respawnLinkedItems[] = {
+            "rhsusf_spcs_ocp_medic",
+            "rhsusf_ach_helmet_ocp",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio",
+            "rhsusf_ANPVS_14"
+        };
+    };
+
+
+    class Cav_B_B_LogisticsOpsOfficer_F : Cav_B_Bravo_Logi_base_F {
+        _generalMacro = "Cav_B_B_LogisticsOpsOfficer_F";
+        scope = 2;
+        scopeCurator = 0;
+        displayName = CSTRING(B_LogisticTeamLeader);
+        author = ECSTRING(Main,CavModTeam);
+        //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_Rifleman_F.jpg);
+
+        icon = "iconManOfficer";
+    };
+    class Cav_B_B_LogisticsOpsNCO_F : Cav_B_Bravo_Logi_base_F {
+        _generalMacro = "Cav_B_B_LogisticsOpsNCO_F";
+        scope = 2;
+        scopeCurator = 0;
+        displayName = CSTRING(B_LogisticsOpsNCO);
+        author = ECSTRING(Main,CavModTeam);
+        //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_Rifleman_F.jpg);
+
+        icon = "iconManOfficer";
+    };
+
+    class Cav_B_B_LogisticTeamLeader_F : Cav_B_Bravo_Logi_base_F {
+        _generalMacro = "Cav_B_B_LogisticTeamLeader_F";
+        scope = 2;
+        scopeCurator = 0;
+        displayName = CSTRING(B_LogisticTeamLeader);
+        author = ECSTRING(Main,CavModTeam);
+        //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_Rifleman_F.jpg);
+
+        icon = "iconManLeader";
+
+        linkedItems[] = {
+            "rhsusf_spcs_ocp_squadleader",
+            "rhsusf_ach_helmet_ocp",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio",
+            "rhsusf_ANPVS_14"
+        };
+        respawnLinkedItems[] = {
+            "rhsusf_spcs_ocp_squadleader",
+            "rhsusf_ach_helmet_ocp",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio",
+            "rhsusf_ANPVS_14"
+        };
+    };
+    class Cav_B_B_LogisticsTeamMember_F : Cav_B_Bravo_Logi_base_F {
+        _generalMacro = "Cav_B_B_LogisticsTeamMember_F";
+        scope = 2;
+        scopeCurator = 0;
+        displayName = CSTRING(B_LogisticsTeamMember);
+        author = ECSTRING(Main,CavModTeam);
+        //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_Rifleman_F.jpg);
+    };
+
 };

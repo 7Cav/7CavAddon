@@ -8,6 +8,10 @@
             <English>Trooper</English>
         </Key>
 
+       <Key ID="STR_Cav_Alpha_Characters_A_AirController">
+            <English>Air Controller</English>
+        </Key>
+
         <Key ID="STR_Cav_Alpha_Characters_A_Helicopter_Tra_Pilot">
             <English>Pilot</English>
         </Key>
