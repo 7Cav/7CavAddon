@@ -24,11 +24,14 @@ _These mods have a compatible mod to enhance the user experience. These optional
 - [TF47 Launchers](https://steamcommunity.com/workshop/filedetails/?id=508476583) - This optional adds additional shells and adjusts values of the launches.
 
 ## What do 7th Cavalry Community Addon provide?
-- Cav Units Based on Patton and Company
-- Vehicles
-- Cav themed flags
-- Custom Texture Database
-- Cav map markers and flags
+- Units and groups based on 7th Cavalry Platoon and Company naming and setup.
+- (Soon) Pre-made compositions for quickly place down units in correct order
+- (Soon) Base and FOB compositions 
+- Vehicles based on 7th Cavalry company setup.
+- 7th Cavalry themed flags
+- Custom texture database for mission makers
+- 7th Cavalry map markers
+- Close ties and integration with cScripts
 
 ## Links
 - [7th Cavalry Gaming](https://7cav.us)
