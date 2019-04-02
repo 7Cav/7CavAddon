@@ -7,8 +7,7 @@
  <a href="https://github.com/7Cav/7CavAddon/tags"><img src="https://img.shields.io/github/tag/7Cav/7CavAddon.svg?style=for-the-badge&colorB=df2d00&label=Latest%20Tag" alt="Dev-build or the latest tag of the current build."></a><br>
  <a href="https://github.com/7Cav/7CavAddon/releases/latest"><img src="https://img.shields.io/github/downloads/7cav/7CavAddon/total.svg?style=for-the-badge&label=Downloads" alt="7CavAddon Downloads"></a>
  <a href="https://github.com/7Cav/7CavAddon/issues"><img src="https://img.shields.io/github/issues-raw/7cav/7CavAddon.svg?style=for-the-badge&label=Issues" alt="7CavAddon Issues"></a>
- <a href="https://github.com/7Cav/7CavAddon/wiki"><img src="https://img.shields.io/badge/help-wiki-lightgrey.svg?logo=Wikipedia&style=for-the-badge" alt="7CavAddon Wiki"></a>
-<a href="https://travis-ci.org/7Cav/7CavAddon">
+ <a href="https://travis-ci.org/7Cav/7CavAddon">
     <img src="https://img.shields.io/travis/7Cav/7CavAddon.svg?style=for-the-badge&logo=Travis-CI" alt="7CavAddon Build">
 </a>
 
@@ -20,16 +19,20 @@
 - [RHS: United States Armed Forces](http://www.rhsmods.org/)
 
 ## Optional mod support
-_These mods have a compatible mod to enhance the user experience. These optional mods add or change the core mod to implement the new functions._
+_These mods have a compatible mod to enhance the user experience. These optional mods add or change the core mod to implement the new Functions. Addons are pressent in the optionals folder._
 
 - [TF47 Launchers](https://steamcommunity.com/workshop/filedetails/?id=508476583) - This optional adds additional shells and adjusts values of the launches.
 
 ## What do 7th Cavalry Community Addon provide?
-- Cav Units Based on Patton and Company
-- Vehicles
-- Cav themed flags
-- Custom Texture Database
-- Cav map markers and flags
+- Units and groups based on 7th Cavalry Platoon and Company naming and setup.
+- (Soon) Pre-made compositions for quickly place down units in correct order
+- (Soon) Base and FOB compositions 
+- Vehicles based on 7th Cavalry company setup.
+- 7th Cavalry themed flags
+- Custom texture database for mission makers
+- 7th Cavalry map markers
+- Close ties and integration with cScripts
 
 ## Links
+- [7th Cavalry Gaming](https://7cav.us)
 - [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=1696706969)
