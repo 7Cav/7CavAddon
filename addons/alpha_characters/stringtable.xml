@@ -13,27 +13,27 @@
         </Key>
 
         <Key ID="STR_Cav_Alpha_Characters_A_Helicopter_Tra_Pilot">
-            <English>Pilot</English>
+            <English>Helicopter Pilot</English>
         </Key>
         <Key ID="STR_Cav_Alpha_Characters_A_Helicopter_Tra_coPilot">
-            <English>Co-Pilot</English>
+            <English>Helicopter Co-Pilot</English>
         </Key>
         <Key ID="STR_Cav_Alpha_Characters_A_Helicopter_Tra_CrewChief">
-            <English>Crew Chief</English>
+            <English>Helicopter Crew Chief</English>
         </Key>
         <Key ID="STR_Cav_Alpha_Characters_A_Helicopter_Tra_DoorGunner">
-            <English>Door Gunner</English>
+            <English>Helicopter Door Gunner</English>
         </Key>
 
         <Key ID="STR_Cav_Alpha_Characters_A_Helicopter_Att_Pilot">
-            <English>Pilot</English>
+            <English>Attack Helicopter Pilot</English>
         </Key>
         <Key ID="STR_Cav_Alpha_Characters_A_Helicopter_Att_coPilot">
-            <English>Co-Pilot</English>
+            <English>Attack Helicopter Co-Pilot</English>
         </Key>
 
         <Key ID="STR_Cav_Alpha_Characters_A_Plane_Fighter_Pilot">
-            <English>Pilot</English>
+            <English>Fighter Pilot</English>
         </Key>
 
         <Key ID="STR_Cav_Alpha_Characters_A_Plane_Transport_Pilot">
