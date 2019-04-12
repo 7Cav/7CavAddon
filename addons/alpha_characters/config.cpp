@@ -6,6 +6,10 @@ class CfgPatches {
         units[] = {
             "Cav_B_Alpha_base_F",
 
+            "Cav_B_A_AirController_F",
+            "Cav_B_A_Officer_F",
+            "Cav_B_A_JFO_F",
+            
             "Cav_B_A_Helicopter_Tra_Pilot_F",
             "Cav_B_A_Helicopter_Tra_coPilot_F",
             "Cav_B_A_Helicopter_Tra_CrewChief_F",
