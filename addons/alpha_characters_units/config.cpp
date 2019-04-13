@@ -4,6 +4,10 @@ class CfgPatches {
     class ADDON {
         name = COMPONENT_NAME;
         units[] = {
+            "Cav_B_A_AirController_Pegasus_1_F",
+            "Cav_B_A_AirController_Pegasus_2_F",
+            "Cav_B_A_JFO_Infidel_1_F",
+            "Cav_B_A_JFO_Infidel_2_F",
             "Cav_B_A_Helicopter_Tra_Pilot_B1_F",
             "Cav_B_A_Helicopter_Tra_Pilot_B2_F",
             "Cav_B_A_Helicopter_Tra_Pilot_B3_F",
