@@ -141,7 +141,7 @@ class CfgVehicles {
         _generalMacro = "Cav_B_C_Weap_SquadLeader_H_Havoc_F";
         scope = 1;
         scopeCurator = 0;
-        displayName = CSTRING(C_SquadLeader_H_1);
+        displayName = CSTRING(C_Weap_SquadLeader_Havoc_1);
         author = ECSTRING(Main,CavModTeam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_Rifleman_F.jpg);
         cavPlatoon = 2;
