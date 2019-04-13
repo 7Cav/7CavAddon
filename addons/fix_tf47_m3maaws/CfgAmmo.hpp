@@ -40,7 +40,7 @@ class CfgAmmo {
         deflecting=90;
         timeToLive=0.5;
     };
-    class tf47_m3maaws_HEAT : RocketBase {	
+    class tf47_m3maaws_HEAT : RocketBase {
         submunitionAmmo="tf47_ammo_maaws_HEAT_penetrator";
         submunitionDirectionType="SubmunitionModelDirection";
         submunitionInitialOffset[]={0,0,-0.2};
