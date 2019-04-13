@@ -36,11 +36,37 @@ class CfgPatches {
             "Cav_B_A_Plane_Transport_Pilot_Titan_4_F",
 
             // Groups
-            "Cav_B_A_Buffalo_Team",
-            "Cav_B_A_Raven_Team",
-            "Cav_B_A_Hog_Team",
-            "Cav_B_A_Titan_Team"
-
+            "Cav_B_A_Pegasus_1_HQ",
+            "Cav_B_A_Pegasus_2_HQ",
+            "Cav_B_A_Infidel_1_HQ",
+            "Cav_B_A_Infidel_2_HQ",
+            "Cav_B_A_Buffalo_1_Team",
+            "Cav_B_A_Buffalo_2_Team",
+            "Cav_B_A_Buffalo_3_Team",
+            "Cav_B_A_Buffalo_4_Team",
+            "Cav_B_A_Buffalo_5_Team",
+            "Cav_B_A_Buffalo_6_Team",
+            "Cav_B_A_Raider_1_Team",
+            "Cav_B_A_Raider_2_Team",
+            "Cav_B_A_Raider_3_Team",
+            "Cav_B_A_Raider_4_Team",
+            "Cav_B_A_Raven_1_Team",
+            "Cav_B_A_Raven_2_Team",
+            "Cav_B_A_Raven_3_Team",
+            "Cav_B_A_Raven_4_Team",
+            "Cav_B_A_Hog_Team_1",
+            "Cav_B_A_Hog_Team_2",
+            "Cav_B_A_Hog_Team_3",
+            "Cav_B_A_Hog_Team_4",
+            "Cav_B_A_Hog_Team_5",
+            "Cav_B_A_Hog_Team_6",
+            "Cav_B_A_Hog_Team_7",
+            "Cav_B_A_Hog_Team_8",
+            "Cav_B_A_Hog_Team_9",
+            "Cav_B_A_Titan_Team_1",
+            "Cav_B_A_Titan_Team_2",
+            "Cav_B_A_Titan_Team_3",
+            "Cav_B_A_Titan_Team_4"
         };
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
