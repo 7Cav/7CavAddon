@@ -199,6 +199,13 @@
         <Key ID="STR_Cav_Alpha_Characters_Units_A_Team_Pegasus_2">
             <English>HQ Pegasus-2</English>
         </Key>
+        
+        <Key ID="STR_Cav_Alpha_Characters_Units_A_Team_Infidel_1">
+            <English>HQ Infidel-1</English>
+        </Key>
+        <Key ID="STR_Cav_Alpha_Characters_Units_A_Team_Infidel_2">
+            <English>HQ Infidel-2</English>
+        </Key>
 
     </Package>
 </Project>
