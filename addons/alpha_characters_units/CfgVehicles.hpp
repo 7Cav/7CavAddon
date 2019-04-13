@@ -20,6 +20,23 @@ class CfgVehicles {
         author = ECSTRING(Main,CavModTeam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_Rifleman_F.jpg);
     };
+    class Cav_B_A_Officer_F;
+    class Cav_B_A_JFO_Infidel_1_F : Cav_B_A_Officer_F {
+        _generalMacro = "Cav_B_A_JFO_Infidel_1_F";
+        scope = 1;
+        scopeCurator = 0;
+        displayName = CSTRING(A_JFO_Infidel_1);
+        author = ECSTRING(Main,CavModTeam);
+        //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_Rifleman_F.jpg);
+    };
+    class Cav_B_A_JFO_Infidel_2_F : Cav_B_A_Officer_F {
+        _generalMacro = "Cav_B_A_JFO_Infidel_1_F";
+        scope = 1;
+        scopeCurator = 0;
+        displayName = CSTRING(A_JFO_Infidel_2);
+        author = ECSTRING(Main,CavModTeam);
+        //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_Rifleman_F.jpg);
+    };
 
     class Cav_B_A_Helicopter_Tra_Pilot_F;
     class Cav_B_A_Helicopter_Tra_Pilot_B1_F : Cav_B_A_Helicopter_Tra_Pilot_F {

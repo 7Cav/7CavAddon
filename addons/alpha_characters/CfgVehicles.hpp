@@ -48,7 +48,61 @@ class CfgVehicles {
 
         icon = "iconManOfficer";
     };
+    // Officers
+    class Cav_B_A_Officer_F : Cav_B_Bravo_base_F {
+        _generalMacro = "Cav_B_A_Officer_F";
+        scope = 2;
+        scopeCurator = 0;
+        displayName = CSTRING(A_Officer);
+        author = ECSTRING(Main,CavModTeam);
+        //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_Rifleman_F.jpg);
 
+        icon = "iconManOfficer";
+
+        linkedItems[] = {
+            "rhsusf_spcs_ocp",
+            "rhsusf_patrolcap_ocp",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+        respawnLinkedItems[] = {
+            "rhsusf_spcs_ocp",
+            "rhsusf_patrolcap_ocp",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+    };
+    class Cav_B_A_JFO_F : Cav_B_A_Officer_F {
+        _generalMacro = "Cav_B_A_JFO_F";
+        scope = 2;
+        scopeCurator = 0;
+        displayName = CSTRING(A_JFO);
+        author = ECSTRING(Main,CavModTeam);
+        //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_Rifleman_F.jpg);
+
+        icon = "iconManOfficer";
+
+        linkedItems[] = {
+            "rhsusf_spcs_ocp",
+            "rhsusf_patrolcap_ocp",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+        respawnLinkedItems[] = {
+            "rhsusf_spcs_ocp",
+            "rhsusf_patrolcap_ocp",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio"
+        };
+    };
 
     class Cav_B_A_Helicopter_Tra_Pilot_F : Cav_B_Alpha_base_F {
         _generalMacro = "Cav_B_A_Helicopter_Tra_Pilot_F";
