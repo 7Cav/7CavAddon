@@ -8,6 +8,13 @@
             <English>Air Controller (Pegasus-2)</English>
         </Key>
 
+        <Key ID="STR_Cav_Alpha_Characters_Units_A_AirController_Pegasus_1">
+            <English>Joint Fires Observer (Infidel-1)</English>
+        </Key>
+        <Key ID="STR_Cav_Alpha_Characters_Units_A_AirController_Pegasus_2">
+            <English>Joint Fires Observer (Infidel-2)</English>
+        </Key>
+
         <Key ID="STR_Cav_Alpha_Characters_Units_A_Helicopter_Tra_Pilot_B1">
             <English>Pilot (Buffalo-1)</English>
         </Key>

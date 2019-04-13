@@ -11,6 +11,13 @@
        <Key ID="STR_Cav_Alpha_Characters_A_AirController">
             <English>Air Controller</English>
         </Key>
+       <Key ID="STR_Cav_Alpha_Characters_A_Officer">
+            <English>Officer</English>
+        </Key>
+       <Key ID="STR_Cav_Alpha_Characters_A_JFO">
+            <English>Joint Fires Observer</English>
+        </Key>
+
 
         <Key ID="STR_Cav_Alpha_Characters_A_Helicopter_Tra_Pilot">
             <English>Helicopter Pilot</English>
