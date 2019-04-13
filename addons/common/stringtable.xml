@@ -3,7 +3,7 @@
         <Key ID="STR_Cav_Common_Faction_Display">
             <English>USA (Army - 7th Cavalry)</English>
         </Key>
-        <Key ID="STR_Cav_Alpha_Characters_Cat_Deploy_Platoon">
+        <Key ID="STR_Cav_Common_Cat_Deploy_Platoon">
             <English>7CAV - Platoon and Team Deployment</English>
         </Key>
     </Package>
