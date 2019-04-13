@@ -49,7 +49,7 @@ class CfgVehicles {
         icon = "iconManOfficer";
     };
     // Officers
-    class Cav_B_A_Officer_F : Cav_B_Bravo_base_F {
+    class Cav_B_A_Officer_F : Cav_B_Alpha_base_F {
         _generalMacro = "Cav_B_A_Officer_F";
         scope = 2;
         scopeCurator = 0;

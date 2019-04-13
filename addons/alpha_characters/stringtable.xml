@@ -44,10 +44,10 @@
         </Key>
 
         <Key ID="STR_Cav_Alpha_Characters_A_Plane_Transport_Pilot">
-            <English>Pilot</English>
+            <English>Fixed Wing Pilot</English>
         </Key>
         <Key ID="STR_Cav_Alpha_Characters_A_Plane_Transport_coPilot">
-            <English>Co-Pilot</English>
+            <English>Fixed Wing Co-Pilot</English>
         </Key>
 
         <!-- SQUADS -->
