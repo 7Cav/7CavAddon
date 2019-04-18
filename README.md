@@ -26,8 +26,7 @@ _These mods have a compatible mod to enhance the user experience. These optional
 _None at the moment_
 
 ## What do 7th Cavalry Community Addon provide?
-- Units and groups based on 7th Cavalry Platoon and Company naming and setup.
-
+- Units and groups based on 7th Cavalry Platoon and Company naming and setup. 
 - (Soon) Base and FOB compositions 
 - Vehicles based on 7th Cavalry company setup.
 - 7th Cavalry themed flags
