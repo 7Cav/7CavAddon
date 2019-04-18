@@ -7,6 +7,7 @@
  <a href="https://github.com/7Cav/7CavAddon/tags"><img src="https://img.shields.io/github/tag/7Cav/7CavAddon.svg?style=for-the-badge&colorB=df2d00&label=Latest%20Tag" alt="Dev-build or the latest tag of the current build."></a><br>
  <a href="https://github.com/7Cav/7CavAddon/releases/latest"><img src="https://img.shields.io/github/downloads/7cav/7CavAddon/total.svg?style=for-the-badge&label=Downloads" alt="7CavAddon Downloads"></a>
  <a href="https://github.com/7Cav/7CavAddon/issues"><img src="https://img.shields.io/github/issues-raw/7cav/7CavAddon.svg?style=for-the-badge&label=Issues" alt="7CavAddon Issues"></a>
+ <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=1696706969"><img src="https://img.shields.io/badge/steam-workshop-black.svg?logo=Steam&style=for-the-badge" alt="cScripts Wiki"></a>
  <a href="https://travis-ci.org/7Cav/7CavAddon">
     <img src="https://img.shields.io/travis/7Cav/7CavAddon.svg?style=for-the-badge&logo=Travis-CI" alt="7CavAddon Build">
 </a>
