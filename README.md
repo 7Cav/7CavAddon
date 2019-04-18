@@ -18,7 +18,7 @@
 ## Addon required
 - [CBA](https://github.com/CBATeam/CBA_A3)
 - [RHS: United States Armed Forces](http://www.rhsmods.org/)
-- [TF47 Launchers](https://steamcommunity.com/workshop/filedetails/?id=508476583) - This optional adds additional shells and adjusts values of the launches.
+- [TF47 Launchers](https://steamcommunity.com/workshop/filedetails/?id=508476583)
 
 ## Optional mod support
 _These mods have a compatible mod to enhance the user experience. These optional mods add or change the core mod to implement the new Functions. Addons are pressent in the optionals folder._
