@@ -55,6 +55,28 @@
             <English>Squad Leader</English>
         </Key>
 
+        <Key ID="STR_Cav_Bravo_Characters_B_FireTeamLeader">
+            <English>Fire Team Leader</English>
+        </Key>
+        <Key ID="STR_Cav_Bravo_Characters_B_AutomaticRifleman">
+            <English>Automatic Rifleman</English>
+        </Key>
+        <Key ID="STR_Cav_Bravo_Characters_B_Grenadier">
+            <English>Grenadier</English>
+        </Key>
+        <Key ID="STR_Cav_Bravo_Characters_B_Rifleman">
+            <English>Rifleman</English>
+        </Key>
+        <Key ID="STR_Cav_Bravo_Characters_B_RiflemanAT">
+            <English>Rifleman (AT)</English>
+        </Key>
+        <Key ID="STR_Cav_Bravo_Characters_B_RiflemanLAT">
+            <English>Rifleman (LAT)</English>
+        </Key>
+        <Key ID="STR_Cav_Bravo_Characters_B_CombatLifeSaver">
+            <English>Combat Life Saver</English>
+        </Key>
+
         <Key ID="STR_Cav_Bravo_Characters_B_Alpha_FireTeamLeader">
             <English>Alpha Fire Team Leader</English>
         </Key>
