@@ -61,4 +61,71 @@ class CfgVehicles {
             init = (_this select 0) setFlagTexture QPATHTOF(data\flag_02_ca.paa);
         };
     };
+
+    class Cav_Flag_bravo_2_flag_F : FlagCarrier_Asym {
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(bravo_2_flag);
+        author = ECSTRING(Main,CavModTeam);
+        //editorPreview = QPATHTOF(EditorPreviews\Cav_Flag_01_Flag_F.jpg);
+
+        class EventHandlers {
+            init = (_this select 0) setFlagTexture QPATHTOF(data\flag_bravo2_ca.paa);
+        };
+    };
+    class Cav_Flag_bravo_2_banner_F : Banner_01_base_F {
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(bravo_2_banner);
+        author = ECSTRING(main,CavModTeam);
+        //editorPreview = QPATHTOF(EditorPreviews\Cav_Flag_01_Banner_F.jpg);
+
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\flag_bravo2_ca.paa)
+        };
+    };
+    class Cav_Flag_charlie_1_flag_F : FlagCarrier_Asym {
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(charlie_1_flag);
+        author = ECSTRING(Main,CavModTeam);
+        //editorPreview = QPATHTOF(EditorPreviews\Cav_Flag_01_Flag_F.jpg);
+
+        class EventHandlers {
+            init = (_this select 0) setFlagTexture QPATHTOF(data\flag_charlie1_ca.paa);
+        };
+    };
+    class Cav_Flag_charlie_1_banner_F : Banner_01_base_F {
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(charlie_1_banner);
+        author = ECSTRING(main,CavModTeam);
+        //editorPreview = QPATHTOF(EditorPreviews\Cav_Flag_01_Banner_F.jpg);
+
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\flag_charlie1_ca.paa)
+        };
+    };
+    class Cav_Flag_charlie_2_flag_F : FlagCarrier_Asym {
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(charlie_2_flag);
+        author = ECSTRING(Main,CavModTeam);
+        //editorPreview = QPATHTOF(EditorPreviews\Cav_Flag_01_Flag_F.jpg);
+
+        class EventHandlers {
+            init = (_this select 0) setFlagTexture QPATHTOF(data\flag_charlie2_ca.paa);
+        };
+    };
+    class Cav_Flag_charlie_2_banner_F : Banner_01_base_F {
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(charlie_2_banner);
+        author = ECSTRING(main,CavModTeam);
+        //editorPreview = QPATHTOF(EditorPreviews\Cav_Flag_01_Banner_F.jpg);
+
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\flag_charlie2_ca.paa)
+        };
+    };
 };
