@@ -20,7 +20,7 @@
 ## Optional mod support
 _These mods have a compatible mod to enhance the user experience. These optional mods add or change the core mod to implement the new Functions. Addons are pressent in the optionals folder._
 
-_None at the moment_
+- [cTab](https://github.com/Riouken/cTab) - _Needs manual activation or version 'b' of CavPack_
 
 ## What do 7th Cavalry Community Addon provide?
 - Units and groups based on 7th Cavalry Platoon and Company naming and setup. 
