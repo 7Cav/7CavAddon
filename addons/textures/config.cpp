@@ -8,16 +8,11 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "cav_main",
-            "cav_common",
-
-            "tf47_m3maaws"
+            "cav_common"
         };
         author = ECSTRING(main,CavModTeam);
-        authors[] = {"Grey.V", "Brostrom.A (Evul)"};
+        authors[] = {"Brostrom.A (Evul)"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;
     };
 };
-
-#include "CfgAmmo.hpp"
-#include "CfgCloudlets.hpp"
