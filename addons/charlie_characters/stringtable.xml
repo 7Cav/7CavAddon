@@ -11,6 +11,9 @@
             <English>Trooper</English>
         </Key>
 
+        <Key ID="STR_Cav_Charlie_Characters_C_Officer">
+            <English>Officer</English>
+        </Key>
 
         <Key ID="STR_Cav_Charlie_Characters_C_PlatoonSergeant">
             <English>Platoon Sergeant</English>
