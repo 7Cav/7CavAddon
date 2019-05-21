@@ -99,7 +99,7 @@ class CfgGroups {
                         position[] = {-1.5, -1.0, 0.0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "Cav_B_C_Alpha_Rifleman_F";
+                        vehicle = "Cav_B_C_Alpha_RiflemanAT_F";
                     };
                     class Unit5 {
                         position[] = {1.5, -2.0, 0.0};
@@ -123,7 +123,7 @@ class CfgGroups {
                         position[] = {-1.5, -2.0, 0.0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "Cav_B_C_Bravo_CombatLifeSaver_F";
+                        vehicle = "Cav_B_C_Bravo_RiflemanAT_F";
                     };
                 };
 
