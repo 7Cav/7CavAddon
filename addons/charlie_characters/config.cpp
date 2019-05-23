@@ -46,8 +46,7 @@ class CfgPatches {
 
             // Groups
             "Cav_B_C_Bandit_Squad",
-            "Cav_B_C_Misfit_Squad",
-            "Cav_B_C_Havoc_Squad"
+            "Cav_B_C_Misfit_Squad"
 
         };
         weapons[] = {};
