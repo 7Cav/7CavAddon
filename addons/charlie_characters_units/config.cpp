@@ -38,8 +38,7 @@ class CfgPatches {
             "Cav_B_C_Misfit_1_Squad",
             "Cav_B_C_Misfit_2_Squad",
             "Cav_B_C_Misfit_3_Squad",
-            "Cav_B_C_Misfit_4_Squad",
-            "Cav_B_C_Havoc_1_Squad"
+            "Cav_B_C_Misfit_4_Squad"
         };
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
