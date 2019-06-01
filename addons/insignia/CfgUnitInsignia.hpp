@@ -48,9 +48,9 @@ class CfgUnitInsignia {
     // Charlie second platoon
     MACRO_UNITINSIGNIA(Charlie_2);
     MACRO_UNITINSIGNIA(Charlie_2_1);
-    //MACRO_UNITINSIGNIA(Charlie_2_2);
+    MACRO_UNITINSIGNIA(Charlie_2_2);
     //MACRO_UNITINSIGNIA(Charlie_2_3);
-    //MACRO_UNITINSIGNIA(Charlie_2_4);
+    MACRO_UNITINSIGNIA(Charlie_2_4);
 
 
     // Other Insignias
