@@ -160,10 +160,10 @@ class CfgVehicles {
         respawnWeapons[] = {"rhs_weap_m249_pip_L_para","Throw","Put"};
 
         magazines[] = {
-            MULT_OBJ_5(rhs_200rnd_556x45_M_SAW)
+            MULT_OBJ_3(rhs_200rnd_556x45_M_SAW)
         };
         respawnMagazines[] = {
-            MULT_OBJ_5(rhs_200rnd_556x45_M_SAW)
+            MULT_OBJ_3(rhs_200rnd_556x45_M_SAW)
         };
         linkedItems[] = {
             "rhsusf_iotv_ocp_SAW",
@@ -449,10 +449,10 @@ class CfgVehicles {
         respawnWeapons[] = {"rhs_weap_m249_pip_L_para","Throw","Put"};
 
         magazines[] = {
-            MULT_OBJ_5(rhs_200rnd_556x45_M_SAW)
+            MULT_OBJ_3(rhs_200rnd_556x45_M_SAW)
         };
         respawnMagazines[] = {
-            MULT_OBJ_5(rhs_200rnd_556x45_M_SAW)
+            MULT_OBJ_3(rhs_200rnd_556x45_M_SAW)
         };
     };
     class Cav_B_C_Weap_Grenadier_F : Cav_B_Charlie_Weap_base_F {
