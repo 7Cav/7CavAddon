@@ -140,11 +140,11 @@ class CfgVehicles {
 
         icon = "iconManOfficer";
     };
-    class Cav_B_Bravo_Scout_PSG_F : Cav_B_Bravo_Scout_base_F {
-        _generalMacro = "Cav_B_Bravo_Scout_PSG_F";
+    class Cav_B_Bravo_Scout_PlatoonSergeant_F : Cav_B_Bravo_Scout_base_F {
+        _generalMacro = "Cav_B_Bravo_Scout_PlatoonSergeant_F";
         scope = 2;
         scopeCurator = 0;
-        displayName = CSTRING(B_Bravo_Scout_PSG);
+        displayName = CSTRING(B_Bravo_Scout_PlatoonSergeant);
         author = ECSTRING(Main,CavModTeam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_Rifleman_F.jpg);
 
@@ -160,11 +160,11 @@ class CfgVehicles {
 
         icon = "iconManOfficer";
     };
-    class Cav_B_Bravo_Scout_PL_F : Cav_B_Bravo_Scout_base_F {
-        _generalMacro = "Cav_B_Bravo_Scout_PL_F";
+    class Cav_B_Bravo_Scout_PlatoonLeader_F : Cav_B_Bravo_Scout_base_F {
+        _generalMacro = "Cav_B_Bravo_Scout_PlatoonLeader_F";
         scope = 2;
         scopeCurator = 0;
-        displayName = CSTRING(B_Bravo_Scout_PL);
+        displayName = CSTRING(B_Bravo_Scout_PlatoonLeader);
         author = ECSTRING(Main,CavModTeam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_Rifleman_F.jpg);
 
@@ -228,11 +228,11 @@ class CfgVehicles {
 
         icon = "iconManLeader";
     };
-    class Cav_B_Bravo_Scout_VC_F : Cav_B_Bravo_Scout_base_F {
-        _generalMacro = "Cav_B_Bravo_Scout_VC_F";
+    class Cav_B_Bravo_Scout_VicCommander_F : Cav_B_Bravo_Scout_base_F {
+        _generalMacro = "Cav_B_Bravo_Scout_VicCommander_F";
         scope = 2;
         scopeCurator = 0;
-        displayName = CSTRING(B_Bravo_Scout_VC);
+        displayName = CSTRING(B_Bravo_Scout_VicCommander);
         author = ECSTRING(Main,CavModTeam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_Rifleman_F.jpg);
 
