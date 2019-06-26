@@ -15,6 +15,7 @@
 ## Addon required
 - [CBA](https://github.com/CBATeam/CBA_A3)
 - [RHS: United States Armed Forces](http://www.rhsmods.org/)
+- [F-16 Fighting Falcon](https://steamcommunity.com/workshop/filedetails/?id=366423278)
 - [TF47 Launchers](https://steamcommunity.com/workshop/filedetails/?id=508476583)
 
 ## Optional mod support
