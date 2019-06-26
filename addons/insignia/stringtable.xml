@@ -64,6 +64,29 @@
             <English>[7CAV] Bravo Co. 2st platoon - Delta Squad</English>
         </Key>
 
+        <Key ID="STR_Cav_Insignia_Bravo_2">
+            <English>[7CAV] Bravo Co. 3st platoon</English>
+        </Key>
+        <Key ID="STR_Cav_Insignia_Bravo_2_1">
+            <English>[7CAV] Bravo Co. 3st platoon - Alpha Squad</English>
+        </Key>
+        <Key ID="STR_Cav_Insignia_Bravo_2_2">
+            <English>[7CAV] Bravo Co. 3st platoon - Bravo Squad</English>
+        </Key>
+        <Key ID="STR_Cav_Insignia_Bravo_2_3">
+            <English>[7CAV] Bravo Co. 3st platoon - Charlie Squad</English>
+        </Key>
+        <Key ID="STR_Cav_Insignia_Bravo_2_4">
+            <English>[7CAV] Bravo Co. 3st platoon - Delta Squad</English>
+        </Key>
+        <Key ID="STR_Cav_Insignia_Specialized_Apollo">
+            <English>[7CAV] Apollo</English>
+        </Key>
+        <Key ID="STR_Cav_Insignia_Specialized_Mustang">
+            <English>[7CAV] Mustang</English>
+        </Key>
+
+        
         <Key ID="STR_Cav_Insignia_Charlie_1">
             <English>[7CAV] Charlie Co. 1st platoon</English>
         </Key>
