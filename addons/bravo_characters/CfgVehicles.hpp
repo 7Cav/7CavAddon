@@ -34,7 +34,7 @@ class CfgVehicles {
             "rhsusf_ANPVS_14"
         };
     };
-        class Cav_B_Bravo_Scout_base_F : Cav_B_Bravo_base_F {
+    class Cav_B_Bravo_Scout_base_F : Cav_B_Bravo_base_F {
         _generalMacro = "Cav_B_Bravo_Scout_base_F";
         scope = 1;
         scopeCurator = 0;
