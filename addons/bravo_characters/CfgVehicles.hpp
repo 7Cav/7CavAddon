@@ -394,10 +394,10 @@ class CfgVehicles {
         respawnWeapons[] = {"rhs_weap_m249_pip_L_para","Throw","Put"};
 
         magazines[] = {
-            MULT_OBJ_5(rhs_200rnd_556x45_M_SAW)
+            MULT_OBJ_3(rhs_200rnd_556x45_M_SAW)
         };
         respawnMagazines[] = {
-            MULT_OBJ_5(rhs_200rnd_556x45_M_SAW)
+            MULT_OBJ_3(rhs_200rnd_556x45_M_SAW)
         };
         linkedItems[] = {
             "rhsusf_spcs_ocp_machinegunner",
