@@ -35,6 +35,10 @@ class CfgVehicles {
             class MainTurret;
             class RightDoorGun;
             class CopilotTurret;
+            class CargoTurret_01;
+            class CargoTurret_02;
+            class CargoTurret_03;
+            class CargoTurret_04;
         };
     };
     class Cav_Alpha_UH60M : RHS_UH60M {
