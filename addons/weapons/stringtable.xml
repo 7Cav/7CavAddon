@@ -9,5 +9,15 @@
         <Key ID="STR_Cav_Weapons_HEAT_655_CS_Desc">
             <English>High Explosive Anti tank Confined Space</English>
         </Key>
+
+        <Key ID="STR_Cav_Weapons_20Rnd_556x45_M855A1_Stanag">
+            <English>20rnd STANAG M855A1</English>
+        </Key>
+        <Key ID="STR_Cav_Weapons_20Rnd_556x45_M855A1_Stanag_Short">
+            <English>M855A1 EPR</English>
+        </Key>
+        <Key ID="STR_Cav_Weapons_20Rnd_556x45_M855A1_Stanag_Desc">
+            <English>Caliber: 5.56x45mm NATO&lt;br/&gt;Rounds: 20&lt;br/&gt;Used in: M4, M16, M27, M249</English>
+        </Key>
     </Package>
 </Project>

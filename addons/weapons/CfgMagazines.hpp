@@ -17,4 +17,14 @@ class CfgMagazines {
         ace_overpressure_range = 2;
         ace_overpressure_damage = 0.69999999;
     };
+
+    class rhs_mag_30Rnd_556x45_M855A1_Stanag;
+    class Cav_mag_20Rnd_556x45_M855A1_Stanag : rhs_mag_30Rnd_556x45_M855A1_Stanag {
+        displayName = CSTRING(20Rnd_556x45_M855A1_Stanag);
+        displayNameShort = CSTRING(20Rnd_556x45_M855A1_Stanag_Short);
+        descriptionShort = CSTRING(20Rnd_556x45_M855A1_Stanag_Desc);
+        author = "Brostrom.A";
+        count = 20;
+        mass = 9.35;
+    };
 };
