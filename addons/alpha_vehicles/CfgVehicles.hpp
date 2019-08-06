@@ -7,7 +7,7 @@
 class CfgVehicles {
 
     class RHS_AH64D_wd;
-    class RHS_UH60M2;
+
     class RHS_UH60M_MEV2;
     class RHS_CH_47F;
 
@@ -26,21 +26,10 @@ class CfgVehicles {
 
         MACRO_VEH_CARGO;
     };
-    class RHS_UH60M_base;
-    class RHS_UH60M_US_base : RHS_UH60M_base {
-         class Turrets;
-    };
-    class RHS_UH60M : RHS_UH60M_US_base {
-        class Turrets : Turrets {
-            class MainTurret;
-            class RightDoorGun;
-            class CopilotTurret;
-            class CargoTurret_01;
-            class CargoTurret_02;
-            class CargoTurret_03;
-            class CargoTurret_04;
-        };
-    };
+   
+    class RHS_UH60M;
+    class RHS_UH60M2;
+
     class Cav_Alpha_UH60M : RHS_UH60M {
         _generalMacro = "Cav_Alpha_UH60M";
         scope = 2;
@@ -55,18 +44,6 @@ class CfgVehicles {
 
         crew = "Cav_B_A_Helicopter_Tra_Pilot_F";
         typicalCargo[] = {"Cav_B_A_Helicopter_Tra_Pilot_F"};
-
-        class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret {
-                gunnerType = "Cav_B_A_Helicopter_Tra_coPilot_F";
-            };
-            class MainTurret : MainTurret {
-                gunnerType = "Cav_B_A_Helicopter_Tra_CrewChief_F";
-            };
-            class RightDoorGun : RightDoorGun {
-                gunnerType = "Cav_B_A_Helicopter_Tra_DoorGunner_F";
-            };
-        };
     };
     class Cav_Alpha_UH60M2 : RHS_UH60M2 {
         _generalMacro = "Cav_Alpha_UH60M2";
@@ -82,7 +59,6 @@ class CfgVehicles {
         typicalCargo[] = {"Cav_B_A_Helicopter_Tra_Pilot_F"};
 
         MACRO_VEH_CARGO;
-
     };
     class Cav_Alpha_UH60M_MEV2 : RHS_UH60M_MEV2 {
         _generalMacro = "Cav_Alpha_UH60M_MEV2";
