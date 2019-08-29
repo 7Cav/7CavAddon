@@ -239,6 +239,7 @@ class CfgVehicles {
         displayName = CSTRING(A_Plane_Fighter_Pilot);
         author = ECSTRING(Main,CavModTeam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_Rifleman_F.jpg);
+        ACE_GForceCoef = 0.55;
         
         uniformClass = "U_B_PilotCoveralls";
 
