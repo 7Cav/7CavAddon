@@ -1,4 +1,4 @@
-#include "script_component.hpp"
+#include "../script_component.hpp"
 
 /*
  * Author: WO1.Raynor.D
@@ -18,4 +18,8 @@
 
 private _object = _this;
 
+if (isNull _object) exitWith {ERROR_1("Object was null: %1",_this)};
+
 LOG_1("Adding charlie actions: %1",_object);
+
+private _prefix = "Charlie";
