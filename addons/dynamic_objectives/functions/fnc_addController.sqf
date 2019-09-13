@@ -13,7 +13,7 @@
  * None
  *
  * Example:
- * [_signpost,["Alpha"]] call cav_dynamic_objectives_fnc_addController;
+ * [_infostand,["Alpha"]] call cav_dynamic_objectives_fnc_addController;
  *
  * Public: Yes
  */
@@ -28,23 +28,17 @@ if(isNull _object) exitWith {ERROR_1("Object was null: %1",_this)};
 LOG_2("Creating controller: %1 at %2",_this,getPos _object);
 
 private _allCategories = [
-    ["Alpha",FUNC(actionsAlpha)],
-    ["Bravo",FUNC(actionsBravo)],
-    ["Charlie",FUNC(actionsCharlie)]
+    ["alpha",FUNC(actionsAlpha)],
+    ["bravo",FUNC(actionsBravo)],
+    ["charlie",FUNC(actionsCharlie)]
 ];
 
 {
     _x params ["_cat","_fnc"];
-    if(_cat in _categories || count _categories == 0) then {
+    if((toLower _cat) in _categories || count _categories == 0) then {
         _object call _fnc;
     };
 } forEach _allCategories;
 
-_object setVariable [QGVAR(locationRandom),true];
-
-_condZeus = "!isNull (getAssignedCuratorLogic _this)";
-_condRandom = format ["%1 && _target getVariable ['%2',true]",_condZeus, QGVAR(locationRandom)];
-_condMapSel = format ["%1 && !(_target getVariable ['%2',true])",_condZeus, QGVAR(locationRandom)];
-
-_object addAction ["<t color='#FF0000'>Location: Random</t>",QUOTE(_this#0 setVariable [ARR_3(QQGVAR(locationRandom),false,true)]),[],11,false,false,"",_condRandom,3];
-_object addAction ["<t color='#FF0000'>Location: Map Select</t>",QUOTE(_this#0 setVariable [ARR_3(QQGVAR(locationRandom),true,true)]),[],11,false,false,"",_condMapSel,3];
+private _cleanupCond = format ["count (%1 select {count _x > 0}) > 0",QGVAR(objectives)];
+[_object,"Objective Cleanup",FUNC(cleanup),[],0,[_cleanupCond]] call FUNC(addAction);

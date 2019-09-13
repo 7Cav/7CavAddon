@@ -24,7 +24,9 @@ params [
     ["_object",objNull,[objNull]],
     ["_title","",[""]],
     ["_code",{},[{}]],
-    ["_args",[],[[]]]
+    ["_args",[],[[]]],
+    ["_priorityOffset",0,[0]],
+    ["_conditions",[],[[]]]
 ];
 
 if (isNull _object) exitWith {ERROR_1("Object was null: %1",_this)};
@@ -33,6 +35,11 @@ if (_code isEqualTo {}) exitWith {ERROR_1("Code was empty: %1",_this)};
 
 LOG_3("Adding action: %1 - %2 - %3",_object,_title,_args);
 
-_zeusCond = "!isNull (getAssignedCuratorLogic _this)";
+private _cond = "!isNull (getAssignedCuratorLogic _this)";
 
-_object addAction [format ["<t color='#FF0000'>%1</t>",_title],_code,_args,10,false,true,"",_zeusCond,3];
+if(count _conditions > 0) then {
+    _cond = ([_cond] + _conditions) joinString " && ";
+    LOG_1("Extending condition: %1",_cond);
+};
+
+_object addAction [format ["<t color='#FF0000'>%1</t>",_title],_code,[_title] + _args,10+_priorityOffset,false,true,"",_cond,3];

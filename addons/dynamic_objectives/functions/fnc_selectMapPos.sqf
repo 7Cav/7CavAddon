@@ -16,13 +16,14 @@
  * Public: No
  */
 
-params ["_code"];
+params ["_codeSuccess","_codeFail"];
 
 if (!isNil QGVAR(mapClickId)) then {removeMissionEventHandler ["MapSingleClick", GVAR(mapClickId)]};
 if (!isNil QGVAR(mapEventId)) then {removeMissionEventHandler ["Map", GVAR(mapEventId)]};
 
-if(!IS_CODE(_code)) exitWith {ERROR("Code wasn't of type code")};
-if(_code isEqualTo {}) exitWith {ERROR("Code was empty")};
+GVAR(selectedMapPos) = nil;
+GVAR(selectMapPosCodeSuccess) = _codeSuccess;
+GVAR(selectMapPosCodeFail) = _codeFail;
 
 GVAR(mapEventId) = addMissionEventHandler ["Map", {
     params ["_mapIsOpened", "_mapIsForced"];
@@ -32,6 +33,9 @@ GVAR(mapEventId) = addMissionEventHandler ["Map", {
         removeMissionEventHandler ["Map", GVAR(mapEventId)];
         GVAR(mapEventId) = nil;
         LOG("User cancelled map select");
+        GVAR(selectedMapPos) = [];
+        [] call GVAR(selectMapPosCodeFail);
+        GVAR(selectMapPosCodeFail) = nil;
     };
 }];
 
@@ -42,23 +46,11 @@ GVAR(mapClickId) = addMissionEventHandler ["MapSingleClick", {
     GVAR(mapEventId) = nil;
     LOG_1("User selected map pos: %1",_this#1);
     //params ["_units", "_pos", "_alt", "_shift"];
-    GVAR(selectedMapPos) = _this#1;
+    [] call GVAR(selectMapPosCodeSuccess);
+    GVAR(selectMapPosCodeSuccess) = nil;
     openMap false;
-
+    GVAR(selectedMapPos) = _this#1;
 }];
 
 openMap true;
 hint "Select a location";
-
-GVAR(selectedMapPos) = nil;
-
-[{!isNil QGVAR(selectedMapPos) || !visibleMap},{
-    params ["_code"];
-    if(isNil QGVAR(selectedMapPos)) then {
-        hint "Cancelled objective placement";
-        LOG("Cancelling objective placement");
-    } else {
-        LOG_1("Returning map pos: %1",GVAR(selectedMapPos));
-        [GVAR(selectedMapPos)] call _code;
-    };
-},[_code]] call CBA_fnc_waitUntilAndExecute;
