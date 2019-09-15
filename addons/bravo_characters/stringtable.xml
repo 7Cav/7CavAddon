@@ -144,13 +144,33 @@
             <English>Logistics Team Member</English>
         </Key>
 
+        <!-- Viking -->
+        <Key ID="STR_Cav_Bravo_Characters_B_Scout_Officer">
+            <English>Officer</English>
+        </Key>
+        <Key ID="STR_Cav_Bravo_Characters_B_Scout_Platoon_Medic">
+            <English>Platoon Medic</English>
+        </Key>
+        <Key ID="STR_Cav_Bravo_Characters_B_Scout_Team_Leader">
+            <English>Team Leader</English>
+        </Key>
+        <Key ID="STR_Cav_Bravo_Characters_B_Scout_Trooper">
+            <English>Team Member</English>
+        </Key>
+        <Key ID="STR_Cav_Bravo_Characters_B_Scout_Crew">
+            <English>Crew</English>
+        </Key>
+        <Key ID="STR_Cav_Bravo_Characters_B_Scout_Gunner">
+            <English>Gunner</English>
+        </Key>
+        <Key ID="STR_Cav_Bravo_Characters_B_Scout_Driver">
+            <English>Driver</English>
+        </Key>
+
 
         <!-- SQUADS -->
         <Key ID="STR_Cav_Bravo_Characters_B_Squad_Viking">
             <English>Squad Viking</English>
-        </Key>
-        <Key ID="STR_Cav_Bravo_Characters_B_Squad_Viking_WithCrew">
-            <English>Squad Viking (With Crew)</English>
         </Key>
 
         <Key ID="STR_Cav_Bravo_Characters_B_Squad_Banshee">

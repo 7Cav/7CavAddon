@@ -1,27 +1,21 @@
 <Project name="Cav">
     <Package name="Bravo_Bravo_Characters_Unitss">
 
-        <Key ID="STR_Cav_Bravo_Characters_Units_B_PlatoonSergeant_2_5">
-            <English>Platoon Sergeant (Viking-5)</English>
-        </Key>
-        <Key ID="STR_Cav_Bravo_Characters_Units_B_PlatoonLeader_2_6">
-            <English>Platoon Leader (Viking-6)</English>
-        </Key>
-        <Key ID="STR_Cav_Bravo_Characters_Units_B_PlatoonMedic_2_7">
+        <Key ID="STR_Cav_Bravo_Characters_Units_B_Scout_Platoon_Medic_2_7">
             <English>Platoon Medic (Viking-7)</English>
         </Key>
 
-         <Key ID="STR_Cav_Bravo_Characters_Units_B_SquadLeader_2_1">
-            <English>Squad Leader (Viking-1)</English>
+         <Key ID="STR_Cav_Bravo_Characters_Units_B_Scout_Team_Leader_2_1">
+            <English>Platoon Leader (Viking-1)</English>
         </Key>
-         <Key ID="STR_Cav_Bravo_Characters_Units_B_SquadLeader_2_2">
-            <English>Squad Leader (Viking-2)</English>
+         <Key ID="STR_Cav_Bravo_Characters_Units_B_Scout_Team_Leader_2_2">
+            <English>Team Leader (Viking-2)</English>
         </Key>
-         <Key ID="STR_Cav_Bravo_Characters_Units_B_SquadLeader_2_3">
-            <English>Squad Leader (Viking-3)</English>
+         <Key ID="STR_Cav_Bravo_Characters_Units_B_Scout_Team_Leader_2_3">
+            <English>Team Leader (Viking-3)</English>
         </Key>
-         <Key ID="STR_Cav_Bravo_Characters_Units_B_SquadLeader_2_4">
-            <English>Squad Leader (Viking-4)</English>
+         <Key ID="STR_Cav_Bravo_Characters_Units_Scout_Team_Leader_2_3">
+            <English>Team Leader (Viking-4)</English>
         </Key>
 
 
