@@ -1,12 +1,12 @@
 
-PREP(actionsAlpha);
-PREP(actionsBravo);
-PREP(actionsCharlie);
-PREP(addAction);
-PREP(addController);
-PREP(CASRange);
-PREP(cleanup);
-PREP(descFromNearLoc);
-PREP(getCasVehicles);
-PREP(globalHint);
-PREP(selectMapPos);
+PREP(alphaActions);
+PREP(alphaCASRange);
+PREP(bravoActions);
+PREP(charlieActions);
+PREP(commonAddAction);
+PREP(commonAddController);
+PREP(commonCleanup);
+PREP(commonDescFromNearLoc);
+PREP(commmonGlobalHint);
+PREP(commonRandomVehicleList);
+PREP(commonSelectMapPos);
