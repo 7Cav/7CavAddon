@@ -55,13 +55,22 @@ private _showHint = _dialogResults#4 isEqualTo 0;
 private _typeList = [];
 switch (_vehicleType) do {
     case (0): { // Easy
-        _typeList = [10,0,0];
+        _typeList = [
+            ["Transport",10]
+        ];
     };
     case (1): { // Medium
-        _typeList = [3,7,0];
+        _typeList = [
+            ["Transport",3],
+            ["APC",7]
+        ];
     };
     case (2): { // Hard
-        _typeList = [2,3,5];
+        _typeList = [
+            ["Transport",2],
+            ["APC",3],
+            ["AAA",5]
+        ];
     };
 };
 
@@ -169,20 +178,19 @@ if (_error) then {
         if(_showHint) then {
             private _locDesc = [_centerPos] call FUNC(commonDescFromNearLoc);
             
-            // TODO: padding zeroes
-            private _grid = format ["%1%2",round ((_centerPos#0)/100),round ((_centerPos#1)/100)];
+            private _grid = [_centerPos] call FUNC(commonGridString);
             
             private _hintStr = "";
             private _hintArr = "";
             switch (_markerType) do {
                 case (0): { // Full
-                    _hintStr = "Check your maps, %1 has deployed a new objective:<br />%2<br /><br />Location:<br />%3<br />(%4)";
-                    _hintArr = [_callerName, _objectiveText, _locDesc,_grid];
+                    _hintStr = "Check your maps, %1 has deployed a new objective:<br />%2<br /><br />Location: %3<br />(%4)";
+                    _hintArr = [_callerName, _objectiveText,_grid,_locDesc];
                 };
                 case (1): { // Limited
                     _hintSubtitle = "Objective Deployed";
-                    _hintStr = "Check your maps, %1 has deployed a new objective:<br /><br />Location:<br />%2<br />(%3)";
-                    _hintArr = [_callerName,_locDesc,_grid];
+                    _hintStr = "Check your maps, %1 has deployed a new objective:<br /><br />Location: %2<br />(%3)";
+                    _hintArr = [_callerName,_grid,_locDesc];
                 };
                 case (2): { // Limited
                     _hintSubtitle = "Objective Deployed";

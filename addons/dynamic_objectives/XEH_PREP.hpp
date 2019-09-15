@@ -8,5 +8,6 @@ PREP(commonAddController);
 PREP(commonCleanup);
 PREP(commonDescFromNearLoc);
 PREP(commonGlobalHint);
+PREP(commonGridString);
 PREP(commonRandomVehicles);
 PREP(commonSelectMapPos);
