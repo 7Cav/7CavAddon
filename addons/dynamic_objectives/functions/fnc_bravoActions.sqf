@@ -11,7 +11,7 @@
  * Nothing
  *
  * Example:
- * [_object] call FUNC(actionsBravo);
+ * [_object] call FUNC(bravoActions);
  *
  * Public: No
  */

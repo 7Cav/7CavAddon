@@ -1,7 +1,7 @@
 #include "../script_component.hpp"
 /*
  * Author: WO1.Raynor.D
- * Spawns CAS objective around specified position. Designed to be called via FUNC(addAction).
+ * Spawns CAS objective around specified position. Designed to be called via FUNC(commonAddAction).
  *
  * Arguments:
  * 0: Target <OBJECT>
@@ -135,7 +135,7 @@ if(_locationRandom) then { // random location, run right away
             //startLoadingScreen ["Building CAS range, please wait..."]
         },
         compile format ["missionNamespace setVariable ['%1',false]",_busyVar]
-    ] call FUNC(selectMapPos);
+    ] call FUNC(commonSelectMapPos);
 };
 
 if (_error) then {
@@ -167,8 +167,9 @@ if (_error) then {
         
         // Show user hint
         if(_showHint) then {
-            private _locDesc = [_centerPos] call FUNC(descFromNearLoc);
+            private _locDesc = [_centerPos] call FUNC(commonDescFromNearLoc);
             
+            // TODO: padding zeroes
             private _grid = format ["%1%2",round ((_centerPos#0)/100),round ((_centerPos#1)/100)];
             
             private _hintStr = "";
@@ -195,11 +196,12 @@ if (_error) then {
                 _hintSubtitle,
                 _hintStr,
                 _hintArr
-            ] call FUNC(globalHint);
+            ] call FUNC(commonGlobalHint);
         };
 
         // Get our random vehicle list based on selected difficulty
-        private _vehicles = _typeList call FUNC(getCasVehicles);
+        private _vehicles = ["alpha",_typeList] call FUNC(commonRandomVehicles);
+        LOG_1("count _vehicles: %1",count _vehicles);
         
         private _radius = (count _vehicles * 12) max 50 min 100;
         LOG_1("_radius: %1",_radius);

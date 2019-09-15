@@ -13,7 +13,7 @@
  * None
  *
  * Example:
- * [_object,"Objective Cleanup",FUNC(cleanup)] call FUNC(addAction);
+ * [_object,"Objective Cleanup",FUNC(commonCleanup)] call FUNC(commonAddAction);
  *
  * Public: No
  */

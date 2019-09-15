@@ -7,6 +7,6 @@ PREP(commonAddAction);
 PREP(commonAddController);
 PREP(commonCleanup);
 PREP(commonDescFromNearLoc);
-PREP(commmonGlobalHint);
-PREP(commonRandomVehicleList);
+PREP(commonGlobalHint);
+PREP(commonRandomVehicles);
 PREP(commonSelectMapPos);

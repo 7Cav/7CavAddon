@@ -11,7 +11,7 @@
  * Nothing
  *
  * Example:
- * [_object] call FUNC(actionsAlpha);
+ * [_object] call FUNC(alphaActions);
  *
  * Public: No
  */
@@ -22,4 +22,4 @@ if (isNull _object) exitWith {ERROR_1("Object was null: %1",_this)};
 
 LOG_1("Adding alpha actions: %1",_object);
 
-[_object,"A/1-7 CAS Range",FUNC(CASRange)] call FUNC(addAction);
+[_object,"A/1-7 CAS Range",FUNC(alphaCASRange)] call FUNC(commonAddAction);
