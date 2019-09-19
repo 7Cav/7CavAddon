@@ -11,7 +11,7 @@
  * None
  *
  * Example:
- * [] call cav_dynamic_objectives_fnc_addController;
+ * [] call cav_dynobj_fnc_addController;
  *
  * Public: No
  */

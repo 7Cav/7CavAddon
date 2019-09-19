@@ -13,7 +13,7 @@
  * None
  *
  * Example:
- * [_infostand,["Alpha"]] call cav_dynamic_objectives_fnc_addController;
+ * [_infostand,["Alpha"]] call cav_dynobj_fnc_addController;
  *
  * Public: Yes
  */
