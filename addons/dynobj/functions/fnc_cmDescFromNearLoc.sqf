@@ -15,7 +15,7 @@
  * Descriptor <STRING>
  *
  * Example:
- * []
+ * [_pos] call FUNC(cmDescFromNearLoc);
  *
  * Public: No
  */
@@ -47,9 +47,9 @@ if(_centerPos inArea _nearestLocation) then {
             _distanceTxt = format ["%1km",round (_distance / 1000)];
         };
     };
-    
+
     private _dirTo = [_nearestLocationPos, _centerPos] call BIS_fnc_dirTo;
-    
+
     private _strCard = {
         if(_dirTo < _x#0) exitWith {_x#1};
     } forEach [
@@ -63,7 +63,7 @@ if(_centerPos inArea _nearestLocation) then {
         [337.5,'NW'],
         [360,'N']
     ];
-    
+
     _locationDesc = format ["%1 %2 of %3",_distanceTxt,_strCard,_locName];
 };
 

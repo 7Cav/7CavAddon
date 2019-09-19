@@ -12,7 +12,7 @@
  * Grid as string 142259 <STRING>
  *
  * Example:
- * [_position,8] call FUNC(commonGridString);
+ * [_position,8] call FUNC(cmGridString);
  *
  * Public: No
  */

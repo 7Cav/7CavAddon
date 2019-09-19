@@ -13,7 +13,7 @@
  * None
  *
  * Example:
- * [_infostand,["Alpha"]] call cav_dynobj_fnc_addController;
+ * [_infostand,["Alpha"]] call cav_dynobj_fnc_cmAddController;
  *
  * Public: Yes
  */
@@ -28,9 +28,9 @@ if(isNull _object) exitWith {ERROR_1("Object was null: %1",_this)};
 LOG_2("Creating controller: %1 at %2",_this,getPos _object);
 
 private _allCategories = [
-    ["alpha",FUNC(alphaActions)],
-    ["bravo",FUNC(bravoActions)],
-    ["charlie",FUNC(charlieActions)]
+    ["alpha",FUNC(aActions)],
+    ["bravo",FUNC(bActions)],
+    ["charlie",FUNC(cActions)]
 ];
 
 {
@@ -41,4 +41,4 @@ private _allCategories = [
 } forEach _allCategories;
 
 private _cleanupCond = format ["count (%1 select {count _x > 0}) > 0",QGVAR(objectives)];
-[_object,"Objective Cleanup",FUNC(commonCleanup),[],0,[_cleanupCond]] call FUNC(commonAddAction);
+[_object,"Objective Cleanup",FUNC(cmCleanup),[],0,[_cleanupCond]] call FUNC(cmAddAction);

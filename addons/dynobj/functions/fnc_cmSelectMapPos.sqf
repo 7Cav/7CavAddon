@@ -11,7 +11,7 @@
  * None
  *
  * Example:
- * [{hint str _this}] call FUNC(commonSelectMapPos);
+ * [{hint str _this}] call FUNC(cmSelectMapPos);
  *
  * Public: No
  */

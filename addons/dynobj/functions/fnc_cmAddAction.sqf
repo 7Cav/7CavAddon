@@ -13,7 +13,7 @@
  * Nothing
  *
  * Example:
- * [_object,"CAS Range - Easy",FUNC(CasRangeEasy)] call FUNC(addAction);
+ * [_object,"A/1-7 CAS Range",FUNC(aCASRange)] call FUNC(cmAddAction);
  *
  * Public: No
  */

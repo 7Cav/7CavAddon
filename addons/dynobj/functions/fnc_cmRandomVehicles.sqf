@@ -13,7 +13,7 @@
  * Single level list <ARRAY>
  *
  * Example:
- * [["Easy",3],["Medium",2],["Hard",1]] call FUNC(commonRandomVehicles);
+ * [["Easy",3],["Medium",2],["Hard",1]] call FUNC(cmRandomVehicles);
  *
  * Public: No
  */
