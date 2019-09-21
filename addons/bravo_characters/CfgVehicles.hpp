@@ -34,6 +34,7 @@ class CfgVehicles {
             "rhsusf_ANPVS_14"
         };
     };
+
     class Cav_B_Bravo_Crew_base_F : Cav_B_Bravo_base_F {
         _generalMacro = "Cav_B_Bravo_Crew_base_F";
         scope = 1;
@@ -516,7 +517,6 @@ class CfgVehicles {
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_Rifleman_F.jpg);
     };
 
-
     class Cav_B_B_TeamLeader_Mustang_F : Cav_B_Bravo_Logi_base_F {
         _generalMacro = "Cav_B_B_TeamLeader_Mustang_F";
         scope = 2;
@@ -577,7 +577,7 @@ class CfgVehicles {
         };
     };
 
-
+    // Logistical
     class Cav_B_B_LogisticsOpsOfficer_F : Cav_B_Bravo_Logi_base_F {
         _generalMacro = "Cav_B_B_LogisticsOpsOfficer_F";
         scope = 2;
@@ -637,4 +637,92 @@ class CfgVehicles {
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_Rifleman_F.jpg);
     };
 
+    // Scouts
+    class Cav_B_Scout_base_F : Cav_B_Bravo_base_F {
+        _generalMacro = "Cav_B_Scout_base_F";
+        scope = 1;
+        scopeCurator = 0;
+        displayName = CSTRING(Trooper);
+        author = ECSTRING(Main,CavModTeam);
+        //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_base_F.jpg);
+        cavCompany = "Bravo";
+        cavPlatoon = -1;
+    };
+    class Cav_B_B_Scout_Platoon_Medic_F : Cav_B_Scout_base_F {
+        _generalMacro = "Cav_B_B_Scout_Platoon_Medic_F";
+        scope = 2;
+        scopeCurator = 0;
+        displayName = CSTRING(B_Scout_Platoon_Medic);
+        author = ECSTRING(Main,CavModTeam);
+        //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_Rifleman_F.jpg);
+    };
+    class Cav_B_B_Scout_Trooper_F : Cav_B_Scout_base_F {
+        _generalMacro = "Cav_B_B_Scout_Trooper_F";
+        scope = 2;
+        scopeCurator = 0;
+        displayName = CSTRING(B_Scout_Trooper);
+        author = ECSTRING(Main,CavModTeam);
+        //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_Rifleman_F.jpg);
+    };
+
+    class Cav_B_B_Scout_Officer_F : Cav_B_B_Scout_Trooper_F {
+        _generalMacro = "Cav_B_B_Scout_Officer_F";
+        scope = 2;
+        scopeCurator = 0;
+        displayName = CSTRING(B_Scout_Officer);
+        author = ECSTRING(Main,CavModTeam);
+        //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_Rifleman_F.jpg);
+    };
+    
+    class Cav_B_B_Scout_Team_Leader_F : Cav_B_B_Scout_Trooper_F {
+        _generalMacro = "Cav_B_B_Scout_Team_Leader_F";
+        scope = 2;
+        scopeCurator = 0;
+        displayName = CSTRING(B_Scout_Team_Leader);
+        author = ECSTRING(Main,CavModTeam);
+        //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_Rifleman_F.jpg);
+    };
+    class Cav_B_B_Scout_Crew_F : Cav_B_Scout_base_F {
+        _generalMacro = "Cav_B_B_Scout_Crew_F";
+        scope = 1;
+        scopeCurator = 0;
+        displayName = CSTRING(B_Scout_Crew);
+        author = ECSTRING(Main,CavModTeam);
+        //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_Rifleman_F.jpg);
+        
+        linkedItems[] = {
+            "rhsusf_spcs_ocp_crewman",
+            "rhsusf_cvc_helmet",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio",
+            "rhsusf_ANPVS_14"
+        };
+        respawnLinkedItems[] = {
+            "rhsusf_spcs_ocp_crewman",
+            "rhsusf_cvc_helmet",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio",
+            "rhsusf_ANPVS_14"
+        };
+    };
+    class Cav_B_B_Scout_Gunner_F : Cav_B_B_Scout_Crew_F {
+        _generalMacro = "Cav_B_B_Scout_Gunner_F";
+        scope = 2;
+        scopeCurator = 0;
+        displayName = CSTRING(B_Scout_Gunner);
+        author = ECSTRING(Main,CavModTeam);
+        //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_Rifleman_F.jpg);
+    };
+    class Cav_B_B_Scout_Driver_F : Cav_B_B_Scout_Crew_F {
+        _generalMacro = "Cav_B_B_Scout_Driver_F";
+        scope = 2;
+        scopeCurator = 0;
+        displayName = CSTRING(B_Scout_Driver);
+        author = ECSTRING(Main,CavModTeam);
+        //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_Rifleman_F.jpg);
+    };
 };
