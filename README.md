@@ -10,25 +10,24 @@
  <a href="https://github.com/7Cav/7CavAddon/issues"><img src="https://img.shields.io/github/issues-raw/7cav/7CavAddon.svg?style=for-the-badge&label=Issues" alt="7CavAddon Issues"></a>
  <a href="https://travis-ci.org/7Cav/7CavAddon"><img src="https://img.shields.io/travis/7Cav/7CavAddon.svg?style=for-the-badge&logo=Travis-CI" alt="7CavAddon Build"></a>
 </p>
-7th Cavalry Community Addon is a mod adding new units, vehicles, groups, markers and objects to Arma 3 tailored to fitt the 7th Cavalry Gaming community. 
+The 7th Cavalry Community Addon is a mod for Arma 3 that adds new units, vehicles, groups, markers, objects, and functions tailored to fit the needs of the [7th Cavalry Gaming Community](https://7cav.us/).
 
-## Addon required
+## Addons required
 - [CBA](https://github.com/CBATeam/CBA_A3)
 - [RHS: United States Armed Forces](http://www.rhsmods.org/)
 - [F-16 Fighting Falcon](https://steamcommunity.com/workshop/filedetails/?id=366423278)
 - [TF47 Launchers](https://steamcommunity.com/workshop/filedetails/?id=508476583)
 
 ## Optional mod support
-_These mods have a compatible mod to enhance the user experience. These optional mods add or change the core mod to implement the new Functions. Addons are pressent in the optionals folder._
+_These optional addons enhance the user experience by adding to or changing the core mod, but are not required. These addons are located in the optionals folder._
 
 - [cTab](https://github.com/Riouken/cTab) - _Needs manual activation or version 'b' of CavPack_
 
-## What do 7th Cavalry Community Addon provide?
-- Units and groups based on 7th Cavalry Platoon and Company naming and setup. 
-- (Soon) Base and FOB compositions 
+## What does the 7th Cavalry Community Addon provide?
+- Units and groups based on 7th Cavalry Platoon and Company naming and setup.
+- (Soon) Base and FOB compositions
 - Vehicles based on 7th Cavalry company setup.
 - 7th Cavalry themed flags
 - Custom texture database for mission makers
 - 7th Cavalry map markers
 - Close ties and integration with cScripts
-
