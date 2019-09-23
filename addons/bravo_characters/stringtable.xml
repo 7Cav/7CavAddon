@@ -170,7 +170,10 @@
 
         <!-- SQUADS -->
         <Key ID="STR_Cav_Bravo_Characters_B_Squad_Viking">
-            <English>Squad Viking</English>
+            <English>Team Viking</English>
+        </Key>
+        <Key ID="STR_Cav_Bravo_Characters_B_Squad_Lancer">
+            <English>Squad Lancer</English>
         </Key>
 
         <Key ID="STR_Cav_Bravo_Characters_B_Squad_Banshee">
