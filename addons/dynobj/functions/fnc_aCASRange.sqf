@@ -19,6 +19,7 @@
  */
 
 LOG_1("CASRange: %1",_this);
+LOG(" ==== START");
 
 params ["_target", "_caller", "_actionId", "_arguments"];
 _arguments params [
@@ -36,10 +37,10 @@ private _dialogResults = [
         ["Vehicle Type", _vehicleTypes, 0],
         ["Marker Type", ["Full","Limited","None"], 0],
         ["Show Hint",["Yes","No"],0]
-        //["AI Skill", ["Easy","Medium","Hard"], 0]
     ]
 ] call Ares_fnc_showChooseDialog;
 
+LOG(" ==== USER INPUT");
 if (count _dialogResults == 0) exitWith {};
 
 LOG_1("DialogResults: %1",_dialogResults);
@@ -106,6 +107,7 @@ It's in two main segments.
 1. The first block gets the center of the objective, depending on user selection
 2. The second block iterates the vehicle list after a position has been set
 */
+LOG(" ==== LOCATION");
 private _error = false;
 if(_locationRandom) then { // random location, run right away
     // Show loading screen to speed up calculations and show progress.
@@ -113,7 +115,7 @@ if(_locationRandom) then { // random location, run right away
     private _pos = [];
     private _runCount = 0;
     private _gradient = 0.1;
-    
+
     // Run BIS_fnc_randomPos a bunch of times and check the location against isFlatEmpty
     // Look for a low gradient first, then increase if we can't find any valid pos
     while {_runCount < 5000} do {
@@ -153,6 +155,7 @@ if (_error) then {
     hint "Unable to find suitable location, please try again or use map selection mode.";
 } else {
     [{!isNil QGVAR(selectedMapPos)},{
+        LOG(" ==== ASYNC");
         params ["_typeList","_callerName","_objectiveText","_addCrew","_thisRangeIndex","_hintSubtitle","_busyVar","_markerType","_showHint"];
         
         if(isNil QGVAR(selectedMapPos)) exitWith {
@@ -206,7 +209,8 @@ if (_error) then {
                 _hintArr
             ] call FUNC(cmGlobalHint);
         };
-
+        LOG(" ==== HINT");
+        
         // Get our random vehicle list based on selected difficulty
         private _vehicles = ["alpha",_typeList] call FUNC(cmRandomVehicles);
         LOG_1("count _vehicles: %1",count _vehicles);
@@ -244,6 +248,7 @@ if (_error) then {
         // And we're off
         // Iterate vehicle list, find a good position, and drop it
         // Again look for low gradient positions and increase if needed
+        LOG(" ==== FOREACH VEHICLE");
         private _result = [];
         private _spawnedVehicles = [];
         private _spawnedUnits = [];
@@ -311,5 +316,6 @@ if (_error) then {
         
         endLoadingScreen;
         missionNamespace setVariable [_busyVar,false];
+        LOG(" ==== DONE");
     },[_typeList,name _caller,_objectiveText,_addCrew,_thisRangeIndex,_hintSubtitle,_busyVar,_markerType,_showHint]] call CBA_fnc_waitUntilAndExecute;
 };
