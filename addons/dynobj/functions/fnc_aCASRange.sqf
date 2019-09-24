@@ -13,7 +13,7 @@
  * None
  *
  * Example:
- * N/A
+ * [_object,"A/1-7 Conditions",FUNC(aConditions)] call FUNC(cmAddAction);
  *
  * Public: No
  */
@@ -28,9 +28,9 @@ _arguments params [
 
 private _vehicleTypes = ["Transport","APC","AAA"];
 
-// Get user input
+LOG(" ==== USER INPUT");
 private _dialogResults = [
-    "Dynamic Objectives - CAS Range",
+    "Dynamic Objectives - A/1-7 CAS Range",
     [
         ["Location", ["Random", "Map Select"], 0],
         ["Create Vehicle Crew", ["Yes", "No"], 0],
@@ -40,7 +40,6 @@ private _dialogResults = [
     ]
 ] call Ares_fnc_showChooseDialog;
 
-LOG(" ==== USER INPUT");
 if (count _dialogResults == 0) exitWith {};
 
 LOG_1("DialogResults: %1",_dialogResults);
