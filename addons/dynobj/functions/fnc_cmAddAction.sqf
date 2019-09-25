@@ -26,7 +26,8 @@ params [
     ["_code",{},[{}]],
     ["_args",[],[[]]],
     ["_priorityOffset",0,[0]],
-    ["_conditions",[],[[]]]
+    ["_conditions",[],[[]]],
+    ["_color","FF3333",[""]]
 ];
 
 if (isNull _object) exitWith {ERROR_1("Object was null: %1",_this)};
@@ -42,4 +43,4 @@ if(count _conditions > 0) then {
     LOG_1("Extending condition: %1",_cond);
 };
 
-_object addAction [format ["<t color='#FF0000'>%1</t>",_title],_code,[_title] + _args,10+_priorityOffset,false,true,"",_cond,3];
+_object addAction [format ["<t color='#%1'>%2</t>",_color,_title],_code,[_title] + _args,10+_priorityOffset,false,true,"",_cond,3];
