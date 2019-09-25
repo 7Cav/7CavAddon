@@ -27,6 +27,16 @@ if(isNull _object) exitWith {ERROR_1("Object was null: %1",_this)};
 
 LOG_2("Creating controller: %1 at %2",_this,getPos _object);
 
+[_object,"Dynamic Objectives Info",{
+    private _info = [];
+    _info pushBack "Developed and maintained by<br />%1.";
+    _info pushBack "Submit feedback or bug reports at<br />%2";
+    [
+        "Info",
+        _info joinString "<br /><br />",
+        ["7Cav 1BN S3 Scripting","github.com/7Cav/7CavAddon"]
+    ] call FUNC(cmGlobalHint);
+},[],0,[],"FFFF33"] call FUNC(cmAddAction);
 private _allCategories = [
     ["alpha",FUNC(aActions)],
     ["bravo",FUNC(bActions)],
