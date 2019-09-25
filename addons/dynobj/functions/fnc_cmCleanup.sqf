@@ -51,12 +51,13 @@ private _selectedObjName = _activeObjectivesStr select _dialogResults#0;
             ["_spawnedUnits",[]],
             ["_spawnedModules",[]]
         ];
-
-        LOG_1("_markers: %1",_markers);
+        
+        LOG_1("_markers: %1",count _markers);
         {
             deleteMarker _x;
         } forEach _markers;
-
+        
+        LOG_1("_spawnedVehicles: %1",count _spawnedVehicles);
         {
             private _veh = _x;
             if(!isNil "_veh") then {
@@ -66,7 +67,8 @@ private _selectedObjName = _activeObjectivesStr select _dialogResults#0;
                 };
             };
         } forEach _spawnedVehicles;
-
+        
+        LOG_1("_spawnedUnits + _spawnedModules: %1",count (_spawnedUnits + _spawnedModules));
         {
             if(!isNil "_x") then {
                 if(!isNull _x) then {
@@ -74,9 +76,7 @@ private _selectedObjName = _activeObjectivesStr select _dialogResults#0;
                 };
             };
         } forEach _spawnedUnits + _spawnedModules;
-
-
-
+        
         GVAR(objectives) set [_forEachIndex,[]];
     };
     if(_selectedObjName != "ALL") exitWith {};

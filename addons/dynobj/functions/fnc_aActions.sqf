@@ -24,3 +24,4 @@ LOG_1("Adding alpha actions: %1",_object);
 
 [_object,"A/1-7 Conditions",FUNC(aConditions)] call FUNC(cmAddAction);
 [_object,"A/1-7 CAS Range",FUNC(aCASRange)] call FUNC(cmAddAction);
+[_object,"A/1-7 Marked LZ",FUNC(aMarkedLZ)] call FUNC(cmAddAction);

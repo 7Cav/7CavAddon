@@ -16,7 +16,10 @@
  * Public: No
  */
 
-params ["_codeSuccess","_codeFail"];
+params [
+    ["_codeSuccess",{LOG("cmSelectMapPos Success")},[{}]],
+    ["_codeFail",{LOG("cmSelectMapPos Fail")},[{}]]
+];
 
 if (!isNil QGVAR(mapClickId)) then {removeMissionEventHandler ["MapSingleClick", GVAR(mapClickId)]};
 if (!isNil QGVAR(mapEventId)) then {removeMissionEventHandler ["Map", GVAR(mapEventId)]};

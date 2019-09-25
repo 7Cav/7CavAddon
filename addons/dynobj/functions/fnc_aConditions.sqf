@@ -2,7 +2,7 @@
 
 /*
  * Author: WO1.Raynor.D
- * Alpha's condition presets
+ * Alpha's condition presets. Designed to be called via FUNC(cmAddAction).
  *
  * Arguments:
  * 0: Target <OBJECT>
@@ -28,7 +28,7 @@
  private _conditions = [
     ["Unchanged",[]],
     ["Clear",[0,[0,0,0]]],
-    ["Fair",[0.3,[0.03,0,0]]],
+    ["Fair",[0.3,[0.01,0,0]]],
     ["Overcast",[0.75,[0.07,0,0]]],
     ["Low Hanging Fog",[0,[0.71,0.103,0]]],
     ["Heavy Fog",[0.65,[0.4,0,0]]]
@@ -59,9 +59,9 @@ LOG(" ==== USER INPUT");
 private _dialogResults = [
     "Dynamic Objectives - A/1-7 Conditions",
     [
-        ["Condition", _conditions apply {_x#0}, 0],
-        ["Time", _times apply {_x#0}, 0],
-        ["Moon Phase", _phases apply {_x#0}, 0]
+        ["Condition", _conditions apply {_x#0}],
+        ["Time", _times apply {_x#0}],
+        ["Moon Phase", _phases apply {_x#0}]
     ]
 ] call Ares_fnc_showChooseDialog;
 

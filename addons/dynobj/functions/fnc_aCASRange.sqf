@@ -32,11 +32,11 @@ LOG(" ==== USER INPUT");
 private _dialogResults = [
     "Dynamic Objectives - A/1-7 CAS Range",
     [
-        ["Location", ["Random", "Map Select"], 0],
-        ["Create Vehicle Crew", ["Yes", "No"], 0],
-        ["Vehicle Type", _vehicleTypes, 0],
-        ["Marker Type", ["Full","Limited","None"], 0],
-        ["Show Hint",["Yes","No"],0]
+        ["Location", ["Random", "Map Select"]],
+        ["Create Vehicle Crew", ["Yes", "No"]],
+        ["Vehicle Type", _vehicleTypes],
+        ["Marker Type", ["Full","Limited","None"]],
+        ["Show Hint",["Yes","No"]]
     ]
 ] call Ares_fnc_showChooseDialog;
 
@@ -109,47 +109,20 @@ It's in two main segments.
 LOG(" ==== LOCATION");
 private _error = false;
 if(_locationRandom) then { // random location, run right away
-    // Show loading screen to speed up calculations and show progress.
-    //startLoadingScreen ["Building CAS range, please wait..."];
-    private _pos = [];
-    private _runCount = 0;
-    private _gradient = 0.1;
-
-    // Run BIS_fnc_randomPos a bunch of times and check the location against isFlatEmpty
-    // Look for a low gradient first, then increase if we can't find any valid pos
-    while {_runCount < 5000} do {
-        INC(_runCount);
-        if(_runCount % 100 == 0) then {
-            _gradient = (_runCount / 10000) + 0.1;
-            LOG_1("Increasing allowable gradient to %1",_gradient);
-            progressLoadingScreen (_gradient);
-        };
-        _pos = (([] call BIS_fnc_randomPos) isFlatEmpty [10,-1,_gradient,25]);
-        if(count _pos > 0) exitWith {
-            LOG_1("Found valid position: %1",_pos);
-        };
-    };
+    private _pos = [] call FUNC(cmRandomPosition);
     if(count _pos == 0) then {
         _error = true;
-        ERROR_1("Unable to find suitable random location: runCount:%1",_runCount);
-    } else {
-        progressLoadingScreen 0.5;
-        LOG_3("Found suitable location: runCount: %1 - pos: %2 - _gradient: %3",_runCount,_pos,_gradient);
-        LOG("========== New Range ==========");
-        GVAR(selectedMapPos) = _pos;
     };
+    GVAR(selectedMapPos) = _pos;
 } else { // User map selection, wait for user
     GVAR(selectedMapPos) = nil;
     [
-        {
-            //startLoadingScreen ["Building CAS range, please wait..."]
-        },
+        {},
         compile format ["missionNamespace setVariable ['%1',false]",_busyVar]
     ] call FUNC(cmSelectMapPos);
 };
 
 if (_error) then {
-    endLoadingScreen;
     missionNamespace setVariable [_busyVar,false];
     hint "Unable to find suitable location, please try again or use map selection mode.";
 } else {
@@ -159,15 +132,12 @@ if (_error) then {
         
         if(isNil QGVAR(selectedMapPos)) exitWith {
             ERROR("selectedMapPos was nil");
-            endLoadingScreen;
             missionNamespace setVariable [_busyVar,false];
         };
         if(count GVAR(selectedMapPos) == 0) exitWith {
             hint "Aborted objective creation";
-            endLoadingScreen;
             missionNamespace setVariable [_busyVar,false];
         };
-        
         
         private _centerPos = GVAR(selectedMapPos);
         
@@ -292,8 +262,6 @@ if (_error) then {
                 _spawnedVehicles pushBack _veh;
                 _veh setDir _dir;
             };
-            
-            progressLoadingScreen (0.5 + ((_forEachIndex + 1 / count _vehicles) * 0.5));
         } forEach _vehicles;
         
         if (_errors > 0) then {
@@ -312,8 +280,7 @@ if (_error) then {
         
         GVAR(objectives) pushBack _rangeData;
         publicVariable QGVAR(objectives);
-        
-        endLoadingScreen;
+
         missionNamespace setVariable [_busyVar,false];
         LOG(" ==== DONE");
     },[_typeList,name _caller,_objectiveText,_addCrew,_thisRangeIndex,_hintSubtitle,_busyVar,_markerType,_showHint]] call CBA_fnc_waitUntilAndExecute;
