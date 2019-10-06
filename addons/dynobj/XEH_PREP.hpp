@@ -14,4 +14,5 @@ PREP(cmGridString);
 PREP(cmRandomVehicles);
 PREP(cmRandomPosition);
 PREP(cmRandomName);
+PREP(cmResetChooseDialog);
 PREP(cmSelectMapPos);

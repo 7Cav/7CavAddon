@@ -55,9 +55,12 @@ private _phases = [
    ["New Moon",[2035,6,26]]
 ];
 
+private _titleText = "Dynamic Objectives - A/1-7 Conditions";
+[_titleText] call FUNC(cmResetChooseDialog);
+
 LOG(" ==== USER INPUT");
 private _dialogResults = [
-    "Dynamic Objectives - A/1-7 Conditions",
+    _titleText,
     [
         ["Condition", _conditions apply {_x#0}],
         ["Time", _times apply {_x#0}],
