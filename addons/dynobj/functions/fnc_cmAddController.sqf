@@ -27,6 +27,11 @@ if(isNull _object) exitWith {ERROR_1("Object was null: %1",_this)};
 
 LOG_2("Creating controller: %1 at %2",_this,getPos _object);
 
+if(_object isKindOf "Infostand_base_F") then {
+    _object setObjectTexture [0, QPATHTOF(data\infostand.paa)];
+};
+
+
 [_object,"Dynamic Objectives Info",{
     private _info = [];
     _info pushBack "Developed and maintained by<br />%1.";

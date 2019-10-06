@@ -24,13 +24,10 @@ params [
 
 private _finalTextArr = [];
 
-private _titleText = format ["<t color='#ffc61a' size='1.3' shadow='1' shadowColor='#000000' align='center'>%1</t>",QUOTE(COMPONENT_BEAUTIFIED)];
-_finalTextArr pushBack _titleText;
-
-if(_subTitle != "") then {_finalTextArr pushback format ["<t size='1.1'>%1</t>",_subTitle]};
-
-private _imageText = format ["<img size='5' image='%1' align='center'/>", QPATHTOEF(common,data\faction_cav_flag_co.paa)];
+private _imageText = format ["<img size='3' image='%1' align='center' shadow='1'/>", QPATHTOF(data\logo.paa)];
 _finalTextArr pushBack _imageText;
+
+if(_subTitle != "") then {_finalTextArr pushback format ["<t size='1.5'>%1</t>",_subTitle]};
 
 private _strMainText = _mainText;
 if(count _accentWords > 0) then {
