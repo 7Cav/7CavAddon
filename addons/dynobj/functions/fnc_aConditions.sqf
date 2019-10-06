@@ -27,22 +27,26 @@
  // [text,[overcast,fogValue]]
  private _conditions = [
     ["Unchanged",[]],
-    ["Clear",[0,[0,0,0]]],
-    ["Fair",[0.3,[0.01,0,0]]],
-    ["Overcast",[0.75,[0.07,0,0]]],
-    ["Low Hanging Fog",[0,[0.71,0.103,0]]],
-    ["Heavy Fog",[0.65,[0.4,0,0]]]
+    ["Clear",[0,[0,0,0],0]],
+    ["Cloudy",[0.3,[0.01,0,0],0]],
+    ["Overcast",[0.75,[0.07,0,0],0]],
+    ["Low Hanging Fog",[0,[0.71,0.103,0],0]],
+    ["Heavy Fog",[0.65,[0.4,0,0],0]],
+    ["Storm",[1,[0.2,0,0],1]]
 ];
 
 // [text,hour]
+private _sunriseSunsetTime = date call BIS_fnc_sunriseSunsetTime;
 private _times = [
-    ["Unchanged",-1],
-    ["Early Morning",3],
-    ["Dawn",((date call BIS_fnc_sunriseSunsetTime) select 0) - 0.35],
-    ["Morning",((date call BIS_fnc_sunriseSunsetTime) select 0) + 2],
-    ["Noon",12],
-    ["Evening",((date call BIS_fnc_sunriseSunsetTime) select 1) - 2],
-    ["Dusk",((date call BIS_fnc_sunriseSunsetTime) select 1) + 0.35],
+    ["Unchanged", -1],
+    ["Middle of the Night", 3],
+    ["Dawn", _sunriseSunsetTime#0 - 0.35],
+    ["Sunrise", _sunriseSunsetTime#0 + 0.5],
+    ["Morning", _sunriseSunsetTime#0 + 2],
+    ["Noon", 12],
+    ["Evening", _sunriseSunsetTime#1 - 2],
+    ["Sunset", _sunriseSunsetTime#1 - 0.5],
+    ["Dusk", _sunriseSunsetTime#1 + 0.35],
     ["Late Night",23]
 ];
 
@@ -111,6 +115,7 @@ if(count _newDate > 0) then {
 if (count (_selectedCondition#1) > 0) then {
     [_selectedCondition#1#0] spawn BIS_fnc_setOvercast;
     (_selectedCondition#1#1) spawn BIS_fnc_setFog;
+    0 setRain (_selectedCondition#1#2);
     _hintStrArr pushBack format ["Condition set to %1%2.","%",_hintStrIndex];
     INC(_hintStrIndex);
     _hintArr pushBack _selectedCondition#0;
