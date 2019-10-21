@@ -2,28 +2,45 @@
     <Package name="Bravo_Bravo_Characters_Unitss">
 
         <Key ID="STR_Cav_Bravo_Characters_Units_B_PlatoonSergeant_2_5">
-            <English>Platoon Sergeant (Viking-5)</English>
+            <English>Platoon Sergeant (Lancer-5)</English>
         </Key>
         <Key ID="STR_Cav_Bravo_Characters_Units_B_PlatoonLeader_2_6">
-            <English>Platoon Leader (Viking-6)</English>
+            <English>Platoon Leader (Lancer-6)</English>
         </Key>
         <Key ID="STR_Cav_Bravo_Characters_Units_B_PlatoonMedic_2_7">
-            <English>Platoon Medic (Viking-7)</English>
+            <English>Platoon Medic (Lancer-7)</English>
         </Key>
 
          <Key ID="STR_Cav_Bravo_Characters_Units_B_SquadLeader_2_1">
-            <English>Squad Leader (Viking-1)</English>
+            <English>Squad Leader (Lancer-1)</English>
         </Key>
          <Key ID="STR_Cav_Bravo_Characters_Units_B_SquadLeader_2_2">
-            <English>Squad Leader (Viking-2)</English>
+            <English>Squad Leader (Lancer-2)</English>
         </Key>
          <Key ID="STR_Cav_Bravo_Characters_Units_B_SquadLeader_2_3">
-            <English>Squad Leader (Viking-3)</English>
+            <English>Squad Leader (Lancer-3)</English>
         </Key>
          <Key ID="STR_Cav_Bravo_Characters_Units_B_SquadLeader_2_4">
-            <English>Squad Leader (Viking-4)</English>
+            <English>Squad Leader (Lancer-4)</English>
         </Key>
 
+
+        <Key ID="STR_Cav_Bravo_Characters_Units_B_Scout_Platoon_Medic_2_7">
+            <English>Platoon Medic (Viking-7)</English>
+        </Key>
+
+         <Key ID="STR_Cav_Bravo_Characters_Units_B_Scout_Team_Leader_2_1">
+            <English>Platoon Leader (Viking-1)</English>
+        </Key>
+         <Key ID="STR_Cav_Bravo_Characters_Units_B_Scout_Team_Leader_2_2">
+            <English>Team Leader (Viking-2)</English>
+        </Key>
+         <Key ID="STR_Cav_Bravo_Characters_Units_B_Scout_Team_Leader_2_3">
+            <English>Team Leader (Viking-3)</English>
+        </Key>
+         <Key ID="STR_Cav_Bravo_Characters_Units_B_Scout_Team_Leader_2_4">
+            <English>Team Leader (Viking-4)</English>
+        </Key>
 
          <Key ID="STR_Cav_Bravo_Characters_Units_B_Ifv_Commander_B_1">
             <English>Commander (Banshee-1)</English>
@@ -76,30 +93,42 @@
 
 
         <!-- SQUADS -->
+        <Key ID="STR_Cav_Bravo_Characters_Units_B_Squad_Lancer_5">
+            <English>HQ Lancer-5</English>
+        </Key>
+        <Key ID="STR_Cav_Bravo_Characters_Units_B_Squad_Lancer_6">
+            <English>HQ Lancer-6</English>
+        </Key>
+        <Key ID="STR_Cav_Bravo_Characters_Units_B_Squad_Lancer_7">
+            <English>HQ Lancer-7</English>
+        </Key>
+
+       <Key ID="STR_Cav_Bravo_Characters_Units_B_Squad_Lancer_1">
+            <English>Squad Lancerr-1</English>
+        </Key>
+        <Key ID="STR_Cav_Bravo_Characters_Units_B_Squad_Lancer_2">
+            <English>Squad Lancerr-2</English>
+        </Key>
+        <Key ID="STR_Cav_Bravo_Characters_Units_B_Squad_Lancer_3">
+            <English>Squad Lancerr-3</English>
+        </Key>
+        <Key ID="STR_Cav_Bravo_Characters_Units_B_Squad_Lancer_4">
+            <English>Squad Lancerr-4</English>
+        </Key>
+
         <Key ID="STR_Cav_Bravo_Characters_Units_B_Squad_Viking_1">
-            <English>Squad Viking-1</English>
+            <English>Team Viking-1</English>
         </Key>
         <Key ID="STR_Cav_Bravo_Characters_Units_B_Squad_Viking_2">
-            <English>Squad Viking-2</English>
+            <English>Team Viking-2</English>
         </Key>
         <Key ID="STR_Cav_Bravo_Characters_Units_B_Squad_Viking_3">
-            <English>Squad Viking-3</English>
+            <English>Team Viking-3</English>
         </Key>
         <Key ID="STR_Cav_Bravo_Characters_Units_B_Squad_Viking_4">
-            <English>Squad Viking-4</English>
+            <English>Team Viking-4</English>
         </Key>
-        <Key ID="STR_Cav_Bravo_Characters_Units_B_Squad_Viking_1_WithCrew">
-            <English>Squad Viking-1 (With Crew)</English>
-        </Key>
-        <Key ID="STR_Cav_Bravo_Characters_Units_B_Squad_Viking_2_WithCrew">
-            <English>Squad Viking-2 (With Crew)</English>
-        </Key>
-        <Key ID="STR_Cav_Bravo_Characters_Units_B_Squad_Viking_3_WithCrew">
-            <English>Squad Viking-3 (With Crew)</English>
-        </Key>
-        <Key ID="STR_Cav_Bravo_Characters_Units_B_Squad_Viking_4_WithCrew">
-            <English>Squad Viking-4 (With Crew)</English>
-        </Key>
+
         <Key ID="STR_Cav_Bravo_Characters_Units_B_Squad_Viking_5">
             <English>HQ Viking-5</English>
         </Key>
