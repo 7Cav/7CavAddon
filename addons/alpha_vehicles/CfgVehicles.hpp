@@ -143,7 +143,7 @@ class CfgVehicles {
         hiddenselectionstextures[] = {
             QPATHTOF(data\cav_F16_body_co.paa),
             QPATHTOF(data\cav_F16_wing_co.paa),
-            "",
+            QPATHTOF(data\cav_F16_body_co.paa),
             ""
         };
 
