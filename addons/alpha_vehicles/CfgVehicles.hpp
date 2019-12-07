@@ -93,7 +93,6 @@ class CfgVehicles {
 
     class RHS_C130J;
     class RHS_A10;
-    class FIR_F16C;
 
     class Cav_Alpha_C130J : RHS_C130J {
         _generalMacro = "Cav_Alpha_C130J";
