@@ -1,0 +1,23 @@
+name: Build
+on:
+  release:
+      types: [ published, prereleased ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container: acemod/armake:master
+    steps:
+    - name: Checkout the source code
+      uses: actions/checkout@master
+    - name: Build using HEMTT
+      uses: arma-actions/hemtt@master
+    - name: Upload Artifact
+      with:
+        command: build --ci  # no --release due to https://github.com/synixebrett/HEMTT/issues/227
+    #    command: build zip
+    #- name: Upload Release
+    #  uses: JasonEtco/upload-to-release@master
+    #  with:
+    #    args: release/Compositions-${{ steps.get_version.outputs.VERSION }}.zip application/zip
+    #  env:
+    #    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -18,6 +18,7 @@ jobs:
       run: python3 tools/config_style_checker.py
     - name: Validate Stringtables
       run: python3 tools/stringtable_validator.py
+      continue-on-error: true
     - name: Check Strings
       run: python3 tools/check_strings.py
     - name: Check for BOM
@@ -31,17 +32,3 @@ jobs:
     - name: Lint (sqflint)
       uses: arma-actions/sqflint@master
       continue-on-error: true # No failure due to many false-positives
-
-  build:
-    runs-on: ubuntu-latest
-    container: acemod/armake:master
-    steps:
-    - name: Checkout the source code
-      uses: actions/checkout@master
-    - name: Build (armake)
-      run: armake --version
-    - name: Upload Artifact
-      uses: actions/upload-artifact@master
-      with:
-        name: 7CavAddon-${{ github.sha }}-nobin
-        path: '@7CavAddon'
