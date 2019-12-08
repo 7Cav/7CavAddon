@@ -1,0 +1,9 @@
+{
+  "name": "7CavAddon",
+  "prefix": "7CavAddon",
+  "author": "Andreas Broström",
+  "files": [
+    "mod.cpp"
+  ],
+  "sigversion": 3
+}

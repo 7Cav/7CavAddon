@@ -113,7 +113,7 @@ def main(argv):
 
 
     d,h,m,s = Fract_Sec(timeit.default_timer() - start_time)
-    print("\n# Done with {0} errors [took: {1:2}h {2:2}m {3:4.5f}s]".format(len(errors),h,m,s))
+    print("\n# Done with {0} errrors [took: {1:2}h {2:2}m {3:4.5f}s]".format(len(errors),h,m,s))
 
     if (len(errors) > 0):
         if "full" in argv:
