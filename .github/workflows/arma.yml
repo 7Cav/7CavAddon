@@ -21,8 +21,8 @@ jobs:
       continue-on-error: true
     - name: Check Strings
       run: python3 tools/check_strings.py
-    - name: Check for BOM
-      uses: arma-actions/bom-check@master
+    # - name: Check for BOM
+    #   uses: arma-actions/bom-check@master
 
   lint:
     runs-on: ubuntu-latest
