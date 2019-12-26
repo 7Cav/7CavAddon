@@ -13,7 +13,6 @@ jobs:
       uses: arma-actions/hemtt@master
       with:
         command: build --ci --release
-        command: build zip
     - name: Upload Release
       uses: JasonEtco/upload-to-release@master
       with:
