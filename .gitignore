@@ -8,4 +8,8 @@ texHeaders.bin
 .vscode
 Thumbs.db
 Releases/*
+releases/*
 Release/*
+release/*
+Keys/*
+keys/*
