@@ -72,8 +72,10 @@ dssignfile = ""
 prefix = "cav"
 pbo_name_prefix = "cav_"
 signature_blacklist = []
-importantFiles = ["mod.cpp", "README.md", "docs\\README_DE.md", "docs\\README_PL.md", "docs\\README.zh-TW.md", "AUTHORS.txt", "LICENSE", "logo_cav_ca.paa", "meta.cpp"]
-versionFiles = ["README.md", "docs\\README_DE.md", "docs\\README_PL.md", "mod.cpp"]
+#importantFiles = ["mod.cpp", "README.md", "docs\\README_DE.md", "docs\\README_PL.md", "docs\\README.zh-TW.md", "AUTHORS.txt", "LICENSE", "logo_cav_ca.paa", "meta.cpp"]
+#versionFiles = ["README.md", "docs\\README_DE.md", "docs\\README_PL.md", "mod.cpp"]
+importantFiles = ["mod.cpp", "README.md"]
+versionFiles = ["README.md", "mod.cpp"]
 
 ciBuild = False # Used for CI builds
 
