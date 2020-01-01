@@ -5,7 +5,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 class CfgFactionClasses {
-    class BLU_CAV_USAF {
+    class BLU_CAV_USAF_F {
         displayName = "United States Armed Forces";
         side = 1;
         flag = "\rhsusf\addons\rhsusf_main\data\flag_us_co.paa";
@@ -17,7 +17,7 @@ class CfgFactionClasses {
 class CfgGroups {
     class WEST {
 
-        class BLU_CAV_USAF {
+        class BLU_CAV_USAF_F {
             name = "United States Armed Forces";
 
             class Infantry {
@@ -26,7 +26,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_infantry_army_squad {
                     name = "ARMY Squad";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
                     rarityGroup = 0.5;
 
@@ -89,7 +89,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_infantry_army_maaws_squad {
                     name = "ARMY MAAWS Squad";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
                     rarityGroup = 0.5;
 
@@ -152,7 +152,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_infantry_army_javelin_squad {
                     name = "ARMY Javelin Squad";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
                     rarityGroup = 0.5;
 
@@ -215,7 +215,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_infantry_army_mg_squad {
                     name = "ARMY MG Squad";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
                     rarityGroup = 0.5;
 
@@ -278,7 +278,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_infantry_army_squad_02 {
                     name = "ARMY Squad";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
                     rarityGroup = 0.5;
 
@@ -341,7 +341,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_infantry_army_squad_03 {
                     name = "ARMY Squad";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
                     rarityGroup = 0.5;
 
@@ -404,7 +404,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_infantry_usmc_squad {
                     name = "USMC Squad";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
                     rarityGroup = 0.5;
 
@@ -467,7 +467,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_infantry_usmc_smaw_squad {
                     name = "USMC SMAW Squad";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
                     rarityGroup = 0.5;
 
@@ -530,7 +530,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_infantry_usmc_javelin_squad {
                     name = "USMC Javelin Squad";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
                     rarityGroup = 0.5;
 
@@ -593,7 +593,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_infantry_usmc_mg_squad {
                     name = "USMC MG Squad";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
                     rarityGroup = 0.5;
 
@@ -656,7 +656,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_infantry_usmc_squad_02 {
                     name = "USMC Squad";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
                     rarityGroup = 0.5;
 
@@ -719,7 +719,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_infantry_usmc_squad_03 {
                     name = "USMC Squad";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
                     rarityGroup = 0.5;
 
@@ -787,7 +787,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_specops_marsoc_group {
                     name = "MARSOC Group";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_recon.paa";
                     rarityGroup = 0.5;
 
@@ -850,7 +850,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_specops_marsoc_group_02 {
                     name = "MARSOC Group";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_recon.paa";
                     rarityGroup = 0.5;
 
@@ -913,7 +913,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_specops_marsoc_group_03 {
                     name = "MARSOC Group";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_recon.paa";
                     rarityGroup = 0.5;
 
@@ -976,7 +976,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_specops_marsoc_jtac_squad {
                     name = "MARSOC JTAC Squad";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_recon.paa";
                     rarityGroup = 0.5;
 
@@ -1039,7 +1039,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_specops_marson_recon_squad {
                     name = "MARSON Recon Squad";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_recon.paa";
                     rarityGroup = 0.5;
 
@@ -1107,7 +1107,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_motorized_army_m1043a2_m2_group {
                     name = "ARMY M1043A2 M2 Group";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
                     rarityGroup = 0.5;
 
@@ -1164,7 +1164,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_motorized_army_m1043a2_mk19_group {
                     name = "ARMY M1043A2 Mk19 Group";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
                     rarityGroup = 0.5;
 
@@ -1221,7 +1221,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_motorized_army_m1043a2_mixed_group {
                     name = "ARMY M1043A2 Mixed Group";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
                     rarityGroup = 0.5;
 
@@ -1278,7 +1278,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_motorized_army_m1043a2_at_group {
                     name = "ARMY M1043A2 AT Group";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
                     rarityGroup = 0.5;
 
@@ -1335,7 +1335,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_motorized_usmc_m1043a2_m2_group {
                     name = "USMC M1043A2 M2 Group";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
                     rarityGroup = 0.5;
 
@@ -1392,7 +1392,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_motorized_usmc_m1043a2_mk19_group {
                     name = "USMC M1043A2 Mk19 Group";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
                     rarityGroup = 0.5;
 
@@ -1449,7 +1449,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_motorized_usmc_m1043a2_mixed_group {
                     name = "USMC M1043A2 Mixed Group";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
                     rarityGroup = 0.5;
 
@@ -1506,7 +1506,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_motorized_usmc_m1043a2_at_group {
                     name = "USMC M1043A2 AT Group";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
                     rarityGroup = 0.5;
 
@@ -1563,7 +1563,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_motorized_army_m1220_m2 {
                     name = "ARMY M1220 M2";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
                     rarityGroup = 0.5;
 
@@ -1620,7 +1620,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_motorized_army_m1220_mk19 {
                     name = "ARMY M1220 Mk19";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
                     rarityGroup = 0.5;
 
@@ -1677,7 +1677,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_motorized_army_m1230_m2 {
                     name = "ARMY M1230 M2";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
                     rarityGroup = 0.5;
 
@@ -1734,7 +1734,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_motorized_army_m1230_mk19 {
                     name = "ARMY M1230 Mk19";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
                     rarityGroup = 0.5;
 
@@ -1791,7 +1791,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_motorized_army_m1240_m2 {
                     name = "ARMY M1240 M2";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
                     rarityGroup = 0.5;
 
@@ -1848,7 +1848,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_motorized_army_m1240_mk19 {
                     name = "ARMY M1240 Mk19";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
                     rarityGroup = 0.5;
 
@@ -1905,7 +1905,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_motorized_army_m1240_m240 {
                     name = "ARMY M1240 M240";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
                     rarityGroup = 0.5;
 
@@ -1962,7 +1962,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_motorized_army_m1232_m2 {
                     name = "ARMY M1232 M2";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
                     rarityGroup = 0.5;
 
@@ -2019,7 +2019,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_motorized_army_m1232_mk19 {
                     name = "ARMY M1232 Mk19";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
                     rarityGroup = 0.5;
 
@@ -2076,7 +2076,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_motorized_usmc_cgr_cat1a2_m2 {
                     name = "USMC CGR CAT1A2 M2";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
                     rarityGroup = 0.5;
 
@@ -2133,7 +2133,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_motorized_usmc_cgr_cat1a2_mk19 {
                     name = "USMC CGR CAT1A2 MK19";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
                     rarityGroup = 0.5;
 
@@ -2190,7 +2190,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_motorized_usmc_cgr_cat1a2_m2_02 {
                     name = "USMC CGR CAT1A2 M2";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
                     rarityGroup = 0.5;
 
@@ -2247,7 +2247,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_motorized_usmc_cgr_cat1a2_mk19_02 {
                     name = "USMC CGR CAT1A2 MK19";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
                     rarityGroup = 0.5;
 
@@ -2304,7 +2304,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_motorized_army_m1083a1p2_m2 {
                     name = "ARMY M1083A1P2 M2";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
                     rarityGroup = 0.5;
 
@@ -2383,7 +2383,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_support_army_m2_squad {
                     name = "ARMY M2 Squad";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_support.paa";
                     rarityGroup = 0.5;
 
@@ -2446,7 +2446,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_support_army_mk19_squad {
                     name = "ARMY Mk19 Squad";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_support.paa";
                     rarityGroup = 0.5;
 
@@ -2509,7 +2509,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_support_army_m252_squad {
                     name = "ARMY M252 Squad";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_support.paa";
                     rarityGroup = 0.5;
 
@@ -2572,7 +2572,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_support_army_tow_squad {
                     name = "ARMY TOW Squad";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_support.paa";
                     rarityGroup = 0.5;
 
@@ -2635,7 +2635,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_support_usmc_m2_squad {
                     name = "USMC M2 Squad";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_support.paa";
                     rarityGroup = 0.5;
 
@@ -2698,7 +2698,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_support_usmc_m252_squad {
                     name = "USMC M252 Squad";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_support.paa";
                     rarityGroup = 0.5;
 
@@ -2761,7 +2761,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_support_usmc_tow_squad {
                     name = "USMC TOW Squad";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_support.paa";
                     rarityGroup = 0.5;
 
@@ -2829,7 +2829,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_mechanized_army_m113a3_m2 {
                     name = "ARMY M113A3 M2";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
                     rarityGroup = 0.5;
 
@@ -2898,7 +2898,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_mechanized_army_m113a3_mk19 {
                     name = "ARMY M113A3 Mk19";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
                     rarityGroup = 0.5;
 
@@ -2967,7 +2967,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_mechanized_army_m1126_m2 {
                     name = "ARMY M1126 M2";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
                     rarityGroup = 0.5;
 
@@ -3036,7 +3036,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_mechanized_army_m113a3_m240 {
                     name = "ARMY M113A3 M240";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
                     rarityGroup = 0.5;
 
@@ -3105,7 +3105,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_mechanized_army_m2a2ods {
                     name = "ARMY M2A2ODS";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
                     rarityGroup = 0.5;
 
@@ -3174,7 +3174,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_mechanized_army_m2a2ods_busk {
                     name = "ARMY M2A2ODS (BUSK I)";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
                     rarityGroup = 0.5;
 
@@ -3243,7 +3243,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_mechanized_army_m2a3 {
                     name = "ARMY M2A3";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
                     rarityGroup = 0.5;
 
@@ -3312,7 +3312,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_mechanized_army_m2a3_busk {
                     name = "ARMY M2A3 (BUSK I)";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
                     rarityGroup = 0.5;
 
@@ -3381,7 +3381,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_mechanized_army_m2a3_busk_iii {
                     name = "ARMY M2A3 (BUSK III)";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
                     rarityGroup = 0.5;
 
@@ -3450,7 +3450,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_mechanized_army_m6a2 {
                     name = "ARMY M6A2";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
                     rarityGroup = 0.5;
 
@@ -3524,7 +3524,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_armored_army_m1a1_sa_group {
                     name = "ARMY M1A1 SA Group";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_armor.paa";
                     rarityGroup = 0.5;
 
@@ -3545,7 +3545,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_armored_army_m1a1_sa_patrol {
                     name = "ARMY M1A1 SA Patrol";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_armor.paa";
                     rarityGroup = 0.5;
 
@@ -3614,7 +3614,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_armored_army_m1a1_sa_tusk_igroup {
                     name = "ARMY M1A1 SA (TUSK I) Group";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_armor.paa";
                     rarityGroup = 0.5;
 
@@ -3635,7 +3635,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_armored_army_m1a1_sa_tusk_ipatrol {
                     name = "ARMY M1A1 SA (TUSK I) Patrol";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_armor.paa";
                     rarityGroup = 0.5;
 
@@ -3704,7 +3704,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_armored_army_m1a2sepv1_group {
                     name = "ARMY M1A2SEPv1 Group";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_armor.paa";
                     rarityGroup = 0.5;
 
@@ -3725,7 +3725,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_armored_army_m1a2sepv1_patrol {
                     name = "ARMY M1A2SEPv1 Patrol";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_armor.paa";
                     rarityGroup = 0.5;
 
@@ -3794,7 +3794,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_armored_army_m1a2sepv1_tusk_igroup {
                     name = "ARMY M1A2SEPv1 (TUSK I) Group";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_armor.paa";
                     rarityGroup = 0.5;
 
@@ -3815,7 +3815,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_armored_army_m1a2sepv1_tusk_ipatrol {
                     name = "ARMY M1A2SEPv1 (TUSK I) Patrol";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_armor.paa";
                     rarityGroup = 0.5;
 
@@ -3884,7 +3884,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_armored_army_m1a2sepv1_tusk_ii_group {
                     name = "ARMY M1A2SEPv1 (TUSK II) Group";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_armor.paa";
                     rarityGroup = 0.5;
 
@@ -3905,7 +3905,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_armored_army_m1a2sepv1_tusk_ii_patrol {
                     name = "ARMY M1A2SEPv1 (TUSK II) Patrol";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_armor.paa";
                     rarityGroup = 0.5;
 
@@ -3974,7 +3974,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_armored_usmc_m1a1fep_patrol {
                     name = "USMC M1A1FEP Patrol";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_armor.paa";
                     rarityGroup = 0.5;
 
@@ -4043,7 +4043,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_armored_usmc_m1a1fep_group {
                     name = "USMC M1A1FEP Group";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_armor.paa";
                     rarityGroup = 0.5;
 
@@ -4064,7 +4064,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_armored_usmc_m1a1fep_patrol_01 {
                     name = "USMC M1A1FEP Patrol";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_armor.paa";
                     rarityGroup = 0.5;
 
@@ -4133,7 +4133,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_armored_usmc_m1a1fep_group_02 {
                     name = "USMC M1A1FEP Group";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_armor.paa";
                     rarityGroup = 0.5;
 
@@ -4154,7 +4154,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_armored_usmc_m1a1fep_group_01 {
                     name = "USMC M1A1FEP Group";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_armor.paa";
                     rarityGroup = 0.5;
 
@@ -4175,7 +4175,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_armored_usmc_m1a1fep_patrol_02 {
                     name = "USMC M1A1FEP Patrol";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_armor.paa";
                     rarityGroup = 0.5;
 
@@ -4249,7 +4249,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_artillery_army_m142_himars_group {
                     name = "ARMY M142 HIMARS Group";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_art.paa";
                     rarityGroup = 0.5;
 
@@ -4270,7 +4270,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_artillery_army_m252_group {
                     name = "ARMY M252 Group";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_art.paa";
                     rarityGroup = 0.5;
 
@@ -4297,7 +4297,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_artillery_army_m119a2_group {
                     name = "ARMY M119A2 Group";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_art.paa";
                     rarityGroup = 0.5;
 
@@ -4324,7 +4324,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_artillery_army_m109a6_group {
                     name = "ARMY M109A6 Group";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_art.paa";
                     rarityGroup = 0.5;
 
@@ -4345,7 +4345,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_artillery_usmc_m252_group {
                     name = "USMC M252 Group";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_art.paa";
                     rarityGroup = 0.5;
 
@@ -4377,7 +4377,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_naval_assault_patrol_usmc {
                     name = "Assault Patrol USMC";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_naval.paa";
                     rarityGroup = 0.5;
 
@@ -4440,7 +4440,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_naval_mk_vsoc_usmc {
                     name = "MK V SOC USMC";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_naval.paa";
                     rarityGroup = 0.5;
 
@@ -4455,7 +4455,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_naval_mixed_usmc {
                     name = "Mixed USMC";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_naval.paa";
                     rarityGroup = 0.5;
 
@@ -4518,7 +4518,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_naval_rhib_usmc {
                     name = "RHIB USMC";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_naval.paa";
                     rarityGroup = 0.5;
 
@@ -4574,7 +4574,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_air_army_ah_64d_group {
                     name = "ARMY AH-64D Group";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_air.paa";
                     rarityGroup = 0.5;
 
@@ -4595,7 +4595,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_air_usmc_ah_1z_group {
                     name = "USMC AH-1Z Group";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_air.paa";
                     rarityGroup = 0.5;
 
@@ -4616,7 +4616,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_air_usmc_uh_1y_support_group {
                     name = "USMC UH-1Y Support Group";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_air.paa";
                     rarityGroup = 0.5;
 
@@ -4637,7 +4637,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_air_army_ah_6m_group {
                     name = "ARMY AH-6M Group";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_air.paa";
                     rarityGroup = 0.5;
 
@@ -4658,7 +4658,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_air_army_ah_6m_support_group {
                     name = "ARMY AH-6M Support Group";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_air.paa";
                     rarityGroup = 0.5;
 
@@ -4679,7 +4679,7 @@ class CfgGroups {
                 class b_unitedstatesarmedforces_air_usmc_ch_53e_support {
                     name = "USMC CH-53E Support";
                     side = 1;
-                    faction = "BLU_CAV_USAF";
+                    faction = "BLU_CAV_USAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\b_air.paa";
                     rarityGroup = 0.5;
 
@@ -6330,7 +6330,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Rifleman ARMY";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
@@ -6368,7 +6368,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Rifleman ARMY (M4)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
@@ -6406,7 +6406,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Rifleman ARMY (M16)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
@@ -6444,7 +6444,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Breacher ARMY";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
@@ -6484,7 +6484,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Rifleman ARMY (Light)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
@@ -6522,7 +6522,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Rifleman ARMY (M136)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
@@ -6560,7 +6560,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Grenadier ARMY";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
@@ -6600,7 +6600,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Auto Rifleman ARMY (M249)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
@@ -6640,7 +6640,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Auto Rifleman Assistant ARMY";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
@@ -6680,7 +6680,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Machine Gunner ARMY";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
@@ -6720,7 +6720,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Machine Gunner Assistant ARMY";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
@@ -6760,7 +6760,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Marksman ARMY";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
@@ -6798,7 +6798,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Officer ARMY";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
@@ -6836,7 +6836,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Squad Leader ARMY";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
@@ -6874,7 +6874,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Team Leader ARMY";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
@@ -6912,7 +6912,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Joint Fires Observer ARMY";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
@@ -6952,7 +6952,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Fire Support Officer ARMY";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
@@ -6992,7 +6992,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "AT Specialist ARMY (Javelin)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
@@ -7030,7 +7030,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "AT Assistant ARMY (Javelin)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
@@ -7070,7 +7070,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "AT Specialist ARMY (MAAWS)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
@@ -7110,7 +7110,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "AA Specialist ARMY (FIM-92F)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
@@ -7148,7 +7148,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "UAV Operator ARMY";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
@@ -7188,7 +7188,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Combat Medic ARMY";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
@@ -7228,7 +7228,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Engineer ARMY";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
@@ -7268,7 +7268,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Explosives Speciliast ARMY";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
@@ -7308,7 +7308,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Sniper ARMY";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
@@ -7346,7 +7346,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Sniper ARMY (M24 SWS)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
@@ -7384,7 +7384,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Sniper ARMY (M107)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
@@ -7422,7 +7422,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Crew ARMY";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
@@ -7460,7 +7460,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Crew ARMY (Combat)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
@@ -7498,7 +7498,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Driver ARMY";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
@@ -7536,7 +7536,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Driver ARMY (Armoured)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
@@ -7574,7 +7574,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Helicopter Pilot ARMY";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
@@ -7612,7 +7612,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "AH-64 Pilot ARMY";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
@@ -7650,7 +7650,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Helicopter Crew ARMY";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
@@ -7688,7 +7688,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M113A3 ARMY (M2)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Crew_ARMY_Combat_01";
 
         class Turrets : Turrets {
@@ -7719,7 +7719,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M113A3 ARMY (Ammo)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Crew_ARMY_Combat_01";
 
         class Turrets : Turrets {
@@ -7750,7 +7750,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M113A3 ARMY (Unarmed)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Crew_ARMY_Combat_01";
 
         class Turrets : Turrets {
@@ -7781,7 +7781,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M113A3 ARMY (MEV)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Crew_ARMY_Combat_01";
 
         class Turrets : Turrets {
@@ -7812,7 +7812,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M113A3 ARMY (M240)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Crew_ARMY_Combat_01";
 
         class Turrets : Turrets {
@@ -7843,7 +7843,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M113A3 ARMY (Mk19)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Crew_ARMY_Combat_01";
 
         class Turrets : Turrets {
@@ -7874,7 +7874,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1126 ARMY (M2)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Crew_ARMY_Combat_01";
 
         class Turrets : Turrets {
@@ -7907,7 +7907,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M142 HIMARS ARMY";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Driver_ARMY_Armoured_01";
 
         class Turrets : Turrets {
@@ -7937,7 +7937,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M2A2ODS ARMY (BUSK I)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Crew_ARMY_Combat_01";
 
         class Turrets : Turrets {
@@ -7966,7 +7966,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M252 ARMY";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "rhsusf_army_ocp_rifleman";
 
         class Turrets : Turrets {
@@ -7995,7 +7995,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M119A2 ARMY";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "rhsusf_army_ocp_rifleman";
 
         class Turrets : Turrets {
@@ -8024,7 +8024,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1097A2 ARMY (2D/Open)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Driver_ARMY_Armoured_01";
 
         class Turrets : Turrets {
@@ -8055,7 +8055,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1097A2 ARMY (2D/Half)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Driver_ARMY_Armoured_01";
 
         class Turrets : Turrets {
@@ -8085,7 +8085,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1097A2 ARMY (2D)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Driver_ARMY_Armoured_01";
 
         class Turrets : Turrets {
@@ -8115,7 +8115,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1097A2 ARMY (4D/Open)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Driver_ARMY_Armoured_01";
 
         class Turrets : Turrets {
@@ -8148,7 +8148,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1097A2 ARMY (4D/Half)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Driver_ARMY_Armoured_01";
 
         class Turrets : Turrets {
@@ -8178,7 +8178,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1097A2 ARMY (4D)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Driver_ARMY_Armoured_01";
 
 
@@ -8202,7 +8202,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1025A2 ARMY (Unarmed)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Driver_ARMY_Armoured_01";
 
         class Turrets : Turrets {
@@ -8233,7 +8233,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1025A2 ARMY (M2)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Driver_ARMY_Armoured_01";
 
         class Turrets : Turrets {
@@ -8265,7 +8265,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1025A2 ARMY (Mk19)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Driver_ARMY_Armoured_01";
 
         class Turrets : Turrets {
@@ -8297,7 +8297,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M966A1 ARMY (M220A2)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Driver_ARMY_Armoured_01";
 
         class Turrets : Turrets {
@@ -8329,7 +8329,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1043A2 ARMY (Unarmed)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Driver_ARMY_Armoured_01";
 
         class Turrets : Turrets {
@@ -8360,7 +8360,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1043A2 ARMY (M2)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Driver_ARMY_Armoured_01";
 
         class Turrets : Turrets {
@@ -8392,7 +8392,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1043A2 ARMY (Mk19)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Driver_ARMY_Armoured_01";
 
         class Turrets : Turrets {
@@ -8424,7 +8424,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1043A2 ARMY (M220A2)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Driver_ARMY_Armoured_01";
 
         class Turrets : Turrets {
@@ -8456,7 +8456,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "AH-64D ARMY";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_AH_64_Pilot_ARMY_01";
 
         class Turrets : Turrets {
@@ -8485,7 +8485,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "CH-47F ARMY";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Helicopter_Pilot_ARMY_01";
 
         class Turrets : Turrets {
@@ -8518,7 +8518,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "UH-60M ARMY";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Helicopter_Pilot_ARMY_01";
 
         class Turrets : Turrets {
@@ -8553,7 +8553,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "UH-60M ARMY (Unarmed)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Helicopter_Pilot_ARMY_01";
 
         class Turrets : Turrets {
@@ -8586,7 +8586,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "UH-60M ARMY MEV (ESSS)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Helicopter_Pilot_ARMY_01";
 
         class Turrets : Turrets {
@@ -8615,7 +8615,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "UH-60M ARMY (EWS)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Helicopter_Pilot_ARMY_01";
 
         class Turrets : Turrets {
@@ -8648,7 +8648,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "UH-60M MEV ARMY";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Helicopter_Pilot_ARMY_01";
 
         class Turrets : Turrets {
@@ -8681,7 +8681,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M2A2ODS ARMY";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Crew_ARMY_Combat_01";
 
         class Turrets : Turrets {
@@ -8710,7 +8710,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M2A3 ARMY (BUSK I)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Crew_ARMY_Combat_01";
 
         class Turrets : Turrets {
@@ -8739,7 +8739,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M6A2 ARMY";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Crew_ARMY_Combat_01";
 
         class Turrets : Turrets {
@@ -8768,7 +8768,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M2A3 ARMY";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Crew_ARMY_Combat_01";
 
         class Turrets : Turrets {
@@ -8797,7 +8797,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M2A3 ARMY (BUSK III)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Crew_ARMY_Combat_01";
 
         class Turrets : Turrets {
@@ -8826,7 +8826,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M109A6 ARMY";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Crew_ARMY_Combat_01";
 
         class Turrets : Turrets {
@@ -8855,7 +8855,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1220 ARMY";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Driver_ARMY_Armoured_01";
 
 
@@ -8879,7 +8879,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1220 ARMY (M2)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Driver_ARMY_Armoured_01";
 
         class Turrets : Turrets {
@@ -8908,7 +8908,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1220 ARMY (Mk19)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Driver_ARMY_Armoured_01";
 
         class Turrets : Turrets {
@@ -8937,7 +8937,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1220 ARMY (M2 CROWS)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Driver_ARMY_Armoured_01";
 
         class Turrets : Turrets {
@@ -8966,7 +8966,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1220 ARMY (MK19 CROWS)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Driver_ARMY_Armoured_01";
 
         class Turrets : Turrets {
@@ -8995,7 +8995,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1230 ARMY (M2)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Driver_ARMY_Armoured_01";
 
         class Turrets : Turrets {
@@ -9024,7 +9024,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1230 ARMY (MK19)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Driver_ARMY_Armoured_01";
 
         class Turrets : Turrets {
@@ -9053,7 +9053,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1230A1 ARMY (MEDEVAC)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Driver_ARMY_Armoured_01";
 
 
@@ -9077,7 +9077,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1117 ASV ARMY";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Crew_ARMY_Combat_01";
 
         class Turrets : Turrets {
@@ -9108,7 +9108,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1240 ARMY";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Driver_ARMY_Armoured_01";
 
 
@@ -9132,7 +9132,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1240 ARMY (M2)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Driver_ARMY_Armoured_01";
 
         class Turrets : Turrets {
@@ -9161,7 +9161,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1240 ARMY (Mk19)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Driver_ARMY_Armoured_01";
 
         class Turrets : Turrets {
@@ -9190,7 +9190,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1240 ARMY (M240)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Driver_ARMY_Armoured_01";
 
         class Turrets : Turrets {
@@ -9219,7 +9219,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1240 ARMY (M2 CROWS)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Driver_ARMY_Armoured_01";
 
         class Turrets : Turrets {
@@ -9248,7 +9248,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1240 ARMY (Mk19 CROWS)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Driver_ARMY_Armoured_01";
 
         class Turrets : Turrets {
@@ -9277,7 +9277,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1232 ARMY";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Driver_ARMY_Armoured_01";
 
         class Turrets : Turrets {
@@ -9309,7 +9309,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1232 ARMY (M2)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Driver_ARMY_Armoured_01";
 
         class Turrets : Turrets {
@@ -9342,7 +9342,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1232 ARMY (Mk19)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Driver_ARMY_Armoured_01";
 
         class Turrets : Turrets {
@@ -9375,7 +9375,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1237 ARMY (M2)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Driver_ARMY_Armoured_01";
 
         class Turrets : Turrets {
@@ -9408,7 +9408,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1237 ARMY (Mk19)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Driver_ARMY_Armoured_01";
 
         class Turrets : Turrets {
@@ -9441,7 +9441,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1A1SA ARMY";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Crew_ARMY_Combat_01";
 
         class Turrets : Turrets {
@@ -9470,7 +9470,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1A1SA ARMY (TUSK I)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Crew_ARMY_Combat_01";
 
         class Turrets : Turrets {
@@ -9499,7 +9499,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1A2SEPv1 ARMY";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Crew_ARMY_Combat_01";
 
         class Turrets : Turrets {
@@ -9528,7 +9528,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1A2SEPv1 ARMY (TUSK I)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Crew_ARMY_Combat_01";
 
         class Turrets : Turrets {
@@ -9557,7 +9557,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1A2SEPv1 ARMY (TUSK II)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Crew_ARMY_Combat_01";
 
         class Turrets : Turrets {
@@ -9586,7 +9586,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1078A1P2-B ARMY (M2)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Driver_ARMY_Armoured_01";
 
         class Turrets : Turrets {
@@ -9617,7 +9617,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1078A1P2-B ARMY";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Driver_ARMY_Armoured_01";
 
         class Turrets : Turrets {
@@ -9647,7 +9647,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1078A1P2-B CP Box ARMY";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Driver_ARMY_Armoured_01";
 
 
@@ -9671,7 +9671,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1078A1P2-B ARMY (M2/Flatbed)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Driver_ARMY_Armoured_01";
 
         class Turrets : Turrets {
@@ -9700,7 +9700,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1078A1P2-B ARMY (Flatbed)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Driver_ARMY_Armoured_01";
 
 
@@ -9724,7 +9724,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1083A1P2-B ARMY";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Driver_ARMY_Armoured_01";
 
         class Turrets : Turrets {
@@ -9754,7 +9754,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1083A1P2-B ARMY (M2)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Driver_ARMY_Armoured_01";
 
         class Turrets : Turrets {
@@ -9785,7 +9785,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1083A1P2-B ARMY (Flatbed)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Driver_ARMY_Armoured_01";
 
 
@@ -9809,7 +9809,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1083A1P2-B ARMY (M2/Flatbed)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Driver_ARMY_Armoured_01";
 
         class Turrets : Turrets {
@@ -9838,7 +9838,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1084A1P2-B ARMY (M2)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Driver_ARMY_Armoured_01";
 
         class Turrets : Turrets {
@@ -9867,7 +9867,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1084A1P2-B ARMY";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Driver_ARMY_Armoured_01";
 
 
@@ -9891,7 +9891,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1085A1P2-B ARMY (CBPS)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Driver_ARMY_Armoured_01";
 
 
@@ -9915,7 +9915,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M977A4-B ARMY";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Driver_ARMY_Armoured_01";
 
 
@@ -9939,7 +9939,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M977A4-B ARMY (M2)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Driver_ARMY_Armoured_01";
 
         class Turrets : Turrets {
@@ -9968,7 +9968,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M977A4-B ARMY (Repair)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Driver_ARMY_Armoured_01";
 
 
@@ -9992,7 +9992,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M977A4-B ARMY (M2/Repair)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Driver_ARMY_Armoured_01";
 
         class Turrets : Turrets {
@@ -10021,7 +10021,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M977A4-B ARMY (Ammo)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Driver_ARMY_Armoured_01";
 
 
@@ -10045,7 +10045,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M977A4-B ARMY (M2/Ammo)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Driver_ARMY_Armoured_01";
 
         class Turrets : Turrets {
@@ -10074,7 +10074,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M978A4-B ARMY";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Driver_ARMY_Armoured_01";
 
 
@@ -10098,7 +10098,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Rifleman USMC (M16)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_usmc"};
 
@@ -10136,7 +10136,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Rifleman USMC (Light)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_usmc"};
 
@@ -10174,7 +10174,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Rifleman USMC (M4)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_usmc"};
 
@@ -10212,7 +10212,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Rifleman USMC (M136)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_usmc"};
 
@@ -10250,7 +10250,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Rifleman USMC (M72)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_usmc"};
 
@@ -10288,7 +10288,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Breacher USMC";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_usmc"};
 
@@ -10328,7 +10328,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Grenadier USMC";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_usmc"};
 
@@ -10368,7 +10368,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Grenadier USMC (M32)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_usmc"};
 
@@ -10408,7 +10408,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Automatic Rifleman USMC (M27)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_usmc"};
 
@@ -10448,7 +10448,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "AUtomatic Rifleman USMC (M249)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_usmc"};
 
@@ -10488,7 +10488,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Automatic Rifleman Assistant USMC";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_usmc"};
 
@@ -10528,7 +10528,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Machine Gunner USMC";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_usmc"};
 
@@ -10568,7 +10568,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Machine Gunner Assistant USMC";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_usmc"};
 
@@ -10608,7 +10608,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Officer USMC";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_usmc"};
 
@@ -10646,7 +10646,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Squad Leader USMC";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_usmc"};
 
@@ -10684,7 +10684,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Team Leader USMC";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_usmc"};
 
@@ -10724,7 +10724,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Fire Support Officer USMC";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_usmc"};
 
@@ -10762,7 +10762,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Joint Fires Observer USMC";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_usmc"};
 
@@ -10802,7 +10802,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Combat Engineer USMC";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_usmc"};
 
@@ -10842,7 +10842,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "EOD Tech USMC";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_usmc"};
 
@@ -10882,7 +10882,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "UAV Operator USMC";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_usmc"};
 
@@ -10922,7 +10922,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Assaultman USMC (SMAW)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_usmc"};
 
@@ -10962,7 +10962,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "AT Missileman USMC (Javelin)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_usmc"};
 
@@ -11000,7 +11000,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Helicopter Crew USMC";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_usmc"};
 
@@ -11038,7 +11038,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "AT Assistant USMC (Javelin)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_usmc"};
 
@@ -11078,7 +11078,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Designated Marksman USMC";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_usmc"};
 
@@ -11116,7 +11116,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Scout Spotter USMC";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_usmc"};
 
@@ -11154,7 +11154,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Scout Sniper USMC (M40)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_usmc"};
 
@@ -11192,7 +11192,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Scout Sniper USMC (M110)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_usmc"};
 
@@ -11230,7 +11230,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Sniper USMC (M107)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_usmc"};
 
@@ -11268,7 +11268,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Crew USMC";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_usmc"};
 
@@ -11306,7 +11306,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Crew USMC (Combat)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_usmc"};
 
@@ -11344,7 +11344,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Driver USMC";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_usmc"};
 
@@ -11382,7 +11382,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Gunner USMC";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_usmc"};
 
@@ -11420,7 +11420,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Helicopter Pilot USMC";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_usmc"};
 
@@ -11458,7 +11458,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "AA Specialist USMC (FIM-92F)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_usmc"};
 
@@ -11498,7 +11498,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M2 Operator ARMY";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
@@ -11538,7 +11538,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M2 Assistant ARMY";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
@@ -11578,7 +11578,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Mk19 Operator ARMY";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
@@ -11618,7 +11618,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Mk19 Assistant ARMY";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
@@ -11658,7 +11658,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M252 Operator ARMY";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
@@ -11698,7 +11698,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M252 Assistant ARMY";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
@@ -11738,7 +11738,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "TOW Operator ARMY";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
@@ -11778,7 +11778,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "TOW Assistant ARMY";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F"};
 
@@ -11818,7 +11818,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M2 Operator USMC";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_usmc"};
 
@@ -11858,7 +11858,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M2 Assistant USMC";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_usmc"};
 
@@ -11898,7 +11898,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M252 Operator USMC";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_usmc"};
 
@@ -11938,7 +11938,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M252 Assistant USMC";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_usmc"};
 
@@ -11978,7 +11978,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "TOW Operator USMC";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_usmc"};
 
@@ -12018,7 +12018,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "TOW Assistant USMC";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_usmc"};
 
@@ -12058,7 +12058,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Corspman USMC";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_usmc"};
 
@@ -12098,7 +12098,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M252 USMC";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "rhsusf_usmc_marpat_d_rifleman";
 
         class Turrets : Turrets {
@@ -12127,7 +12127,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1123 USMC (2D/Open/Snorkel)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Driver_USMC_01";
 
         class Turrets : Turrets {
@@ -12158,7 +12158,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1123 USMC (2D/Half/Snorkel)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Driver_USMC_01";
 
         class Turrets : Turrets {
@@ -12188,7 +12188,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1123 USMC (2D/Snorkel)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Driver_USMC_01";
 
         class Turrets : Turrets {
@@ -12218,7 +12218,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1123 USMC (4D/Open/Snorkel)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Driver_USMC_01";
 
         class Turrets : Turrets {
@@ -12251,7 +12251,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1123 USMC (4D/Half/Snorkel)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Driver_USMC_01";
 
         class Turrets : Turrets {
@@ -12281,7 +12281,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1123 USMC (4D/Snorkel)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Driver_USMC_01";
 
 
@@ -12305,7 +12305,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1025A2 USMC (Unarmed/Snorkel)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Driver_USMC_01";
 
         class Turrets : Turrets {
@@ -12336,7 +12336,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1025A2 USMC (M2/Snorkel)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Driver_USMC_01";
 
         class Turrets : Turrets {
@@ -12368,7 +12368,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1025A2 USMC (Mk19/Snorkel)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Driver_USMC_01";
 
         class Turrets : Turrets {
@@ -12400,7 +12400,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1043A2 USMC (Unarmed/Snorkel)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Driver_USMC_01";
 
         class Turrets : Turrets {
@@ -12431,7 +12431,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1043A2 USMC (M2/Snorkel)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Driver_USMC_01";
 
         class Turrets : Turrets {
@@ -12463,7 +12463,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1043A2 USMC (Mk19/Snorkel)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Driver_USMC_01";
 
         class Turrets : Turrets {
@@ -12495,7 +12495,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1043A2 USMC (M220A2/Snorkel)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Driver_USMC_01";
 
         class Turrets : Turrets {
@@ -12527,7 +12527,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "AH-1Z USMC";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Helicopter_Pilot_USMC_01";
 
         class Turrets : Turrets {
@@ -12556,7 +12556,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "UH-1Y USMC (MG)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Helicopter_Pilot_USMC_01";
 
         class Turrets : Turrets {
@@ -12593,7 +12593,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "UH-1Y USMC";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Helicopter_Pilot_USMC_01";
 
         class Turrets : Turrets {
@@ -12630,7 +12630,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "UH-1Y USMC (Unarmed)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Helicopter_Pilot_USMC_01";
 
         class Turrets : Turrets {
@@ -12667,7 +12667,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "CH-53E USMC";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Helicopter_Pilot_USMC_01";
 
         class Turrets : Turrets {
@@ -12696,7 +12696,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "CH-5E USMC (GAU-21)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Helicopter_Pilot_USMC_01";
 
         class Turrets : Turrets {
@@ -12726,7 +12726,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "CGR CAT1A2 USMC";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Driver_USMC_01";
 
         class Turrets : Turrets {
@@ -12755,7 +12755,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "CGR CAT1A2 USMC (M2)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Driver_USMC_01";
 
         class Turrets : Turrets {
@@ -12785,7 +12785,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "CGR CAT1A2 USMC (Mk19)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Driver_USMC_01";
 
         class Turrets : Turrets {
@@ -12815,7 +12815,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M1A1FEP USMC";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Crew_USMC_Combat_01";
 
         class Turrets : Turrets {
@@ -12844,7 +12844,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Jet Pilot USAF";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_usmc"};
 
@@ -12882,7 +12882,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Pilot USAF";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_usmc"};
 
@@ -12920,7 +12920,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "RHIB USMC";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Rifleman_USMC_M16_01";
 
         class Turrets : Turrets {
@@ -12955,7 +12955,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Mk.V SOC USMC";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Operator_EOD_Tech_USMC_01";
 
         class Turrets : Turrets {
@@ -12989,7 +12989,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Assault Boat USMC";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Rifleman_USMC_M16_01";
 
         class Turrets : Turrets {
@@ -13021,7 +13021,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "MRZR 4 SOCOM";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Operator_USMC_01";
 
         class Turrets : Turrets {
@@ -13054,7 +13054,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "OH-6M SOCOM";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Pilot_USAF_01";
 
         class Turrets : Turrets {
@@ -13085,7 +13085,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "AH-6M SOCOM";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Pilot_USAF_01";
 
         class Turrets : Turrets {
@@ -13114,7 +13114,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "MH-6M SOCOM";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Pilot_USAF_01";
 
         class Turrets : Turrets {
@@ -13149,7 +13149,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Operator USMC";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_army"};
 
@@ -13187,7 +13187,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Operator USMC (Mk17)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_army"};
 
@@ -13225,7 +13225,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Operator USMC (CQB)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_army"};
 
@@ -13263,7 +13263,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Operator USMC (Light)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_army"};
 
@@ -13301,7 +13301,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Operator USMC (Light/Mk17)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_army"};
 
@@ -13339,7 +13339,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Operator USMC (Breacher)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_army"};
 
@@ -13379,7 +13379,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Operator Grenadier USMC";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_army"};
 
@@ -13419,7 +13419,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Operator Team Leader USMC";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_army"};
 
@@ -13457,7 +13457,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Team Chief USMC";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_army"};
 
@@ -13495,7 +13495,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Element Leader USMC";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_army"};
 
@@ -13533,7 +13533,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "JTAC USMC";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_army"};
 
@@ -13571,7 +13571,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Joint Fires Observer USMC";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_army"};
 
@@ -13609,7 +13609,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Operator EOD Tech USMC";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_army"};
 
@@ -13649,7 +13649,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Operator Mechanic USMC";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_army"};
 
@@ -13689,7 +13689,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "SARC Medic USMC";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_army"};
 
@@ -13729,7 +13729,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Operator Scout Spotter USMC";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_army"};
 
@@ -13767,7 +13767,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Operator Scout Sniper USMC (M110)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","rhsusf_g_army"};
 
@@ -13805,7 +13805,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "A-10C Thunderbolt II USAF";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Jet_Pilot_USAF_01";
 
 
@@ -13829,7 +13829,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "F-22A Raptor USAF (Heavy)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Jet_Pilot_USAF_01";
 
 
@@ -13853,7 +13853,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "F-222A Raptor USAF (EWP-AA)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Jet_Pilot_USAF_01";
 
 
@@ -13877,7 +13877,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "F-22A Raptor USAF (EWP-AG)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Jet_Pilot_USAF_01";
 
 
@@ -13901,7 +13901,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "F-22A Raptor USAF";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Jet_Pilot_USAF_01";
 
 
@@ -13925,7 +13925,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "F-35A Lightning II USAF (Heavy)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Jet_Pilot_USAF_01";
 
 
@@ -13949,7 +13949,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "F-35A Lightning II USAF";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Jet_Pilot_USAF_01";
 
 
@@ -13973,7 +13973,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "C-130J Super Hercules USAF";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Pilot_USAF_01";
 
         class Turrets : Turrets {
@@ -14004,7 +14004,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "C-130J Super Hercules USAF (Cargo)";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Pilot_USAF_01";
 
         class Turrets : Turrets {
@@ -14035,7 +14035,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "C-17 Globemaster III USAF";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Pilot_USAF_01";
 
         class Turrets : Turrets {
@@ -14064,7 +14064,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "KC-135 Stratotanker USAF";
         side = 1;
-        faction = "BLU_CAV_USAF";
+        faction = "BLU_CAV_USAF_F";
         crew = "B_UnitedStatesArmedForces_Pilot_USAF_01";
 
         class Turrets : Turrets {

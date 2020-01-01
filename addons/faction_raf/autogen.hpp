@@ -5,7 +5,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 class CfgFactionClasses {
-    class OPF_CAV_RAF {
+    class OPF_CAV_RAF_F {
         displayName = "Russian Armed Forces";
         side = 0;
         flag = "\rhsafrf\addons\rhs_main\data\flag_rus_co.paa";
@@ -17,7 +17,7 @@ class CfgFactionClasses {
 class CfgGroups {
     class EAST {
 
-        class OPF_CAV_RAF {
+        class OPF_CAV_RAF_F {
             name = "Russian Armed Forces";
 
             class Infantry {
@@ -26,7 +26,7 @@ class CfgGroups {
                 class o_russianarmedforces_infantry_vdv_squad {
                     name = "VDV Squad";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
                     rarityGroup = 0.5;
 
@@ -89,7 +89,7 @@ class CfgGroups {
                 class o_russianarmedforces_infantry_vdv_squad_at {
                     name = "VDV Squad AT";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
                     rarityGroup = 0.5;
 
@@ -152,7 +152,7 @@ class CfgGroups {
                 class o_russianarmedforces_infantry_vdv_squad_mg {
                     name = "VDV Squad MG";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
                     rarityGroup = 0.5;
 
@@ -215,7 +215,7 @@ class CfgGroups {
                 class o_russianarmedforces_infantry_vdv_mixed {
                     name = "VDV Mixed";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
                     rarityGroup = 0.5;
 
@@ -278,7 +278,7 @@ class CfgGroups {
                 class o_russianarmedforces_infantry_vdv_squad_2 {
                     name = "VDV Squad";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
                     rarityGroup = 0.5;
 
@@ -346,7 +346,7 @@ class CfgGroups {
                 class o_russianarmedforces_specops_gru_squad {
                     name = "GRU Squad";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_recon.paa";
                     rarityGroup = 0.5;
 
@@ -409,7 +409,7 @@ class CfgGroups {
                 class o_russianarmedforces_specops_gru_squad_02 {
                     name = "GRU Squad ";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_recon.paa";
                     rarityGroup = 0.5;
 
@@ -472,7 +472,7 @@ class CfgGroups {
                 class o_russianarmedforces_specops_gru_squad_recon {
                     name = "GRU Squad Recon";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_recon.paa";
                     rarityGroup = 0.5;
 
@@ -535,7 +535,7 @@ class CfgGroups {
                 class o_russianarmedforces_specops_gru_mixed_squad {
                     name = "GRU Mixed Squad";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_recon.paa";
                     rarityGroup = 0.5;
 
@@ -598,7 +598,7 @@ class CfgGroups {
                 class o_russianarmedforces_specops_gru_at_squad {
                     name = "GRU AT Squad";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_recon.paa";
                     rarityGroup = 0.5;
 
@@ -661,7 +661,7 @@ class CfgGroups {
                 class o_russianarmedforces_specops_gru_mg_squad {
                     name = "GRU MG Squad";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_recon.paa";
                     rarityGroup = 0.5;
 
@@ -729,7 +729,7 @@ class CfgGroups {
                 class o_russianarmedforces_motorized_msv_gaz_group {
                     name = "MSV GAZ Group";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
                     rarityGroup = 0.5;
 
@@ -804,7 +804,7 @@ class CfgGroups {
                 class o_russianarmedforces_motorized_msv_gaz_group_02 {
                     name = "MSV GAZ Group";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
                     rarityGroup = 0.5;
 
@@ -879,7 +879,7 @@ class CfgGroups {
                 class o_russianarmedforces_motorized_msv_gaz_group_03 {
                     name = "MSV GAZ Group";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
                     rarityGroup = 0.5;
 
@@ -954,7 +954,7 @@ class CfgGroups {
                 class o_russianarmedforces_motorized_msv_gaz_group_04 {
                     name = "MSV GAZ Group";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
                     rarityGroup = 0.5;
 
@@ -1023,7 +1023,7 @@ class CfgGroups {
                 class o_russianarmedforces_motorized_msv_gaz_group_05 {
                     name = "MSV GAZ Group";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
                     rarityGroup = 0.5;
 
@@ -1092,7 +1092,7 @@ class CfgGroups {
                 class o_russianarmedforces_motorized_msv_ural_squad {
                     name = "MSV Ural Squad";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
                     rarityGroup = 0.5;
 
@@ -1161,7 +1161,7 @@ class CfgGroups {
                 class o_russianarmedforces_motorized_msv_gaz_squad {
                     name = "MSV GAZ Squad";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
                     rarityGroup = 0.5;
 
@@ -1230,7 +1230,7 @@ class CfgGroups {
                 class o_russianarmedforces_motorized_msv_kamaz_group {
                     name = "MSV Kamaz Group";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
                     rarityGroup = 0.5;
 
@@ -1309,7 +1309,7 @@ class CfgGroups {
                 class o_russianarmedforces_support_msv_mortar_squad {
                     name = "MSV Mortar Squad";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_support.paa";
                     rarityGroup = 0.5;
 
@@ -1372,7 +1372,7 @@ class CfgGroups {
                 class o_russianarmedforces_support_msv_metis_squad {
                     name = "MSV Metis Squad";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_support.paa";
                     rarityGroup = 0.5;
 
@@ -1435,7 +1435,7 @@ class CfgGroups {
                 class o_russianarmedforces_support_msv_kornet_squad {
                     name = "MSV Kornet Squad";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_support.paa";
                     rarityGroup = 0.5;
 
@@ -1498,7 +1498,7 @@ class CfgGroups {
                 class o_russianarmedforces_support_msv_ags_30_squad {
                     name = "MSV AGS-30 Squad";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_support.paa";
                     rarityGroup = 0.5;
 
@@ -1561,7 +1561,7 @@ class CfgGroups {
                 class o_russianarmedforces_support_msv_kord_squad {
                     name = "MSV KORD Squad";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_support.paa";
                     rarityGroup = 0.5;
 
@@ -1624,7 +1624,7 @@ class CfgGroups {
                 class o_russianarmedforces_support_msv_nsv_squad {
                     name = "MSV NSV Squad";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_support.paa";
                     rarityGroup = 0.5;
 
@@ -1687,7 +1687,7 @@ class CfgGroups {
                 class o_russianarmedforces_support_msv_spg_squad {
                     name = "MSV SPG Squad";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_support.paa";
                     rarityGroup = 0.5;
 
@@ -1755,7 +1755,7 @@ class CfgGroups {
                 class o_russianarmedforces_mechanized_msv_btr_70_squad {
                     name = "MSV BTR-70 Squad";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
                     rarityGroup = 0.5;
 
@@ -1824,7 +1824,7 @@ class CfgGroups {
                 class o_russianarmedforces_mechanized_msv_btr_80_squad {
                     name = "MSV BTR-80 Squad";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
                     rarityGroup = 0.5;
 
@@ -1893,7 +1893,7 @@ class CfgGroups {
                 class o_russianarmedforces_mechanized_msv_btr_80a_squad {
                     name = "MSV BTR-80A Squad";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
                     rarityGroup = 0.5;
 
@@ -1962,7 +1962,7 @@ class CfgGroups {
                 class o_russianarmedforces_mechanized_msv_bmp_3squad {
                     name = "MSV BMP-3 Squad";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
                     rarityGroup = 0.5;
 
@@ -2031,7 +2031,7 @@ class CfgGroups {
                 class o_russianarmedforces_mechanized_msv_bmp_1squad {
                     name = "MSV BMP-1 Squad";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
                     rarityGroup = 0.5;
 
@@ -2100,7 +2100,7 @@ class CfgGroups {
                 class o_russianarmedforces_mechanized_msv_bmp_1p_squad {
                     name = "MSV BMP-1P Squad";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
                     rarityGroup = 0.5;
 
@@ -2169,7 +2169,7 @@ class CfgGroups {
                 class o_russianarmedforces_mechanized_msv_bmp_1k_squad {
                     name = "MSV BMP-1K Squad";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
                     rarityGroup = 0.5;
 
@@ -2238,7 +2238,7 @@ class CfgGroups {
                 class o_russianarmedforces_mechanized_msv_bmp_1d_squad {
                     name = "MSV BMP-1D Squad";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
                     rarityGroup = 0.5;
 
@@ -2307,7 +2307,7 @@ class CfgGroups {
                 class o_russianarmedforces_mechanized_msv_bmp_2k_squad {
                     name = "MSV BMP-2K Squad";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
                     rarityGroup = 0.5;
 
@@ -2376,7 +2376,7 @@ class CfgGroups {
                 class o_russianarmedforces_mechanized_msv_bmp_2d_squad {
                     name = "MSV BMP-2D Squad";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
                     rarityGroup = 0.5;
 
@@ -2445,7 +2445,7 @@ class CfgGroups {
                 class o_russianarmedforces_mechanized_msv_obyekt_squad {
                     name = "MSV Obyekt Squad";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
                     rarityGroup = 0.5;
 
@@ -2514,7 +2514,7 @@ class CfgGroups {
                 class o_russianarmedforces_mechanized_msv_brm_1k_squad {
                     name = "MSV BRM-1K Squad";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
                     rarityGroup = 0.5;
 
@@ -2588,7 +2588,7 @@ class CfgGroups {
                 class o_russianarmedforces_armored_tv_t72b3_group {
                     name = "TV T-72B3 Group";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
                     rarityGroup = 0.5;
 
@@ -2609,7 +2609,7 @@ class CfgGroups {
                 class o_russianarmedforces_armored_tv_t72b3_patrol {
                     name = "TV T-72B3 Patrol";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
                     rarityGroup = 0.5;
 
@@ -2678,7 +2678,7 @@ class CfgGroups {
                 class o_russianarmedforces_armored_tv_t90a_group {
                     name = "TV T-90A Group";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
                     rarityGroup = 0.5;
 
@@ -2699,7 +2699,7 @@ class CfgGroups {
                 class o_russianarmedforces_armored_tv_t90a_patrol {
                     name = "TV T-90A Patrol";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
                     rarityGroup = 0.5;
 
@@ -2768,7 +2768,7 @@ class CfgGroups {
                 class o_russianarmedforces_armored_tv_t90sa_group {
                     name = "TV T-90SA Group";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
                     rarityGroup = 0.5;
 
@@ -2789,7 +2789,7 @@ class CfgGroups {
                 class o_russianarmedforces_armored_tv_t90sa_patrol {
                     name = "TV T-90SA Patrol";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
                     rarityGroup = 0.5;
 
@@ -2858,7 +2858,7 @@ class CfgGroups {
                 class o_russianarmedforces_armored_tv_t90sa2_group {
                     name = "TV T-90SA2 Group";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
                     rarityGroup = 0.5;
 
@@ -2879,7 +2879,7 @@ class CfgGroups {
                 class o_russianarmedforces_armored_tv_t90sa2_patrol {
                     name = "TV T-90SA2 Patrol";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
                     rarityGroup = 0.5;
 
@@ -2948,7 +2948,7 @@ class CfgGroups {
                 class o_russianarmedforces_armored_tv_t80um_group {
                     name = "TV T-80UM Group";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
                     rarityGroup = 0.5;
 
@@ -2969,7 +2969,7 @@ class CfgGroups {
                 class o_russianarmedforces_armored_tv_t80um_patrol {
                     name = "TV T-80UM Patrol";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
                     rarityGroup = 0.5;
 
@@ -3038,7 +3038,7 @@ class CfgGroups {
                 class o_russianarmedforces_armored_tv_t80b_group {
                     name = "TV T-80B Group";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
                     rarityGroup = 0.5;
 
@@ -3059,7 +3059,7 @@ class CfgGroups {
                 class o_russianarmedforces_armored_tv_t80b_patrol {
                     name = "TV T-80B Patrol";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
                     rarityGroup = 0.5;
 
@@ -3128,7 +3128,7 @@ class CfgGroups {
                 class o_russianarmedforces_armored_tv_t80uk {
                     name = "TV T-80UK Group";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
                     rarityGroup = 0.5;
 
@@ -3149,7 +3149,7 @@ class CfgGroups {
                 class o_russianarmedforces_armored_tv_t80uk_patrol {
                     name = "TV T-80UK Patrol";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
                     rarityGroup = 0.5;
 
@@ -3218,7 +3218,7 @@ class CfgGroups {
                 class o_russianarmedforces_armored_tv_t80a_group {
                     name = "TV T-80A Group";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
                     rarityGroup = 0.5;
 
@@ -3239,7 +3239,7 @@ class CfgGroups {
                 class o_russianarmedforces_armored_tv_t80a_patrol {
                     name = "TV T-80A Patrol";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
                     rarityGroup = 0.5;
 
@@ -3313,7 +3313,7 @@ class CfgGroups {
                 class o_russianarmedforces_artillery_podnos_squad {
                     name = "Podnos Squad";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_art.paa";
                     rarityGroup = 0.5;
 
@@ -3340,7 +3340,7 @@ class CfgGroups {
                 class o_russianarmedforces_artillery_d30_squad {
                     name = "D-30 Squad";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_art.paa";
                     rarityGroup = 0.5;
 
@@ -3367,7 +3367,7 @@ class CfgGroups {
                 class o_russianarmedforces_artillery_d30_at_squad {
                     name = "D-30 AT Squad";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_art.paa";
                     rarityGroup = 0.5;
 
@@ -3394,7 +3394,7 @@ class CfgGroups {
                 class o_russianarmedforces_artillery_msv_bm_21_squad {
                     name = "MSV BM-21 Squad";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_art.paa";
                     rarityGroup = 0.5;
 
@@ -3415,7 +3415,7 @@ class CfgGroups {
                 class o_russianarmedforces_artillery_tv_2sm1_group {
                     name = "TV 2SM1 Group";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_art.paa";
                     rarityGroup = 0.5;
 
@@ -3436,7 +3436,7 @@ class CfgGroups {
                 class o_russianarmedforces_artillery_tv_s21_group {
                     name = "TV S21 Group";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_art.paa";
                     rarityGroup = 0.5;
 
@@ -3462,7 +3462,7 @@ class CfgGroups {
                 class o_russianarmedforces_naval_vmf_assault_boat_patrol {
                     name = "VMF Assault Boat Patrol";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_naval.paa";
                     rarityGroup = 0.5;
 
@@ -3525,7 +3525,7 @@ class CfgGroups {
                 class o_russianarmedforces_naval_vmf_rhib {
                     name = "VMF RHIB";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_naval.paa";
                     rarityGroup = 0.5;
 
@@ -3582,7 +3582,7 @@ class CfgGroups {
                 class o_russianarmedforces_naval_vmf_patrol {
                     name = "VMF Patrol";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_naval.paa";
                     rarityGroup = 0.5;
 
@@ -3639,7 +3639,7 @@ class CfgGroups {
                 class o_russianarmedforces_naval_vmf_mixed {
                     name = "VMF Mixed";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_naval.paa";
                     rarityGroup = 0.5;
 
@@ -3707,7 +3707,7 @@ class CfgGroups {
                 class o_russianarmedforces_air_vdv_mi_24_group {
                     name = "VDV Mi-24 Group";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_air.paa";
                     rarityGroup = 0.5;
 
@@ -3728,7 +3728,7 @@ class CfgGroups {
                 class o_russianarmedforces_air_vdv_mi_8mt_group {
                     name = "VDV Mi-8MT Group";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_air.paa";
                     rarityGroup = 0.5;
 
@@ -3749,7 +3749,7 @@ class CfgGroups {
                 class o_russianarmedforces_air_vdv_mi_8mtv3_group {
                     name = "VDV Mi-8MTV3 Group";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_air.paa";
                     rarityGroup = 0.5;
 
@@ -3770,7 +3770,7 @@ class CfgGroups {
                 class o_russianarmedforces_air_vdv_mixed_group {
                     name = "VDV Mixed Group";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_air.paa";
                     rarityGroup = 0.5;
 
@@ -3791,7 +3791,7 @@ class CfgGroups {
                 class o_russianarmedforces_air_vvs_grey_mi_24_group {
                     name = "VVS Grey Mi-24 Group";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_air.paa";
                     rarityGroup = 0.5;
 
@@ -3812,7 +3812,7 @@ class CfgGroups {
                 class o_russianarmedforces_air_vvs_grey_mi_8mtv3_group {
                     name = "VVS Grey Mi-8MTV3 Group";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_air.paa";
                     rarityGroup = 0.5;
 
@@ -3833,7 +3833,7 @@ class CfgGroups {
                 class o_russianarmedforces_air_vvs_grey_ka_52_group {
                     name = "VVS Grey Ka-52 Group";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_air.paa";
                     rarityGroup = 0.5;
 
@@ -3854,7 +3854,7 @@ class CfgGroups {
                 class o_russianarmedforces_air_vvs_grey_mi_28_group {
                     name = "VVS Grey Mi-28 Group";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_air.paa";
                     rarityGroup = 0.5;
 
@@ -3875,7 +3875,7 @@ class CfgGroups {
                 class o_russianarmedforces_air_vvs_grey_mixed {
                     name = "VVS Grey Mixed";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_air.paa";
                     rarityGroup = 0.5;
 
@@ -3896,7 +3896,7 @@ class CfgGroups {
                 class o_russianarmedforces_air_vvs_camo_mi_group {
                     name = "VVS Camo Mi Group";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_air.paa";
                     rarityGroup = 0.5;
 
@@ -3917,7 +3917,7 @@ class CfgGroups {
                 class o_russianarmedforces_air_vvs_camo_mi_24_grroup {
                     name = "VVS Camo Mi-24 Grroup";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_air.paa";
                     rarityGroup = 0.5;
 
@@ -3938,7 +3938,7 @@ class CfgGroups {
                 class o_russianarmedforces_air_vvs_camo_mi_8mtv3_group {
                     name = "VVS Camo Mi-8MTV3 Group";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_air.paa";
                     rarityGroup = 0.5;
 
@@ -3959,7 +3959,7 @@ class CfgGroups {
                 class o_russianarmedforces_air_vvs_camo_ka_52_group {
                     name = "VVS Camo Ka-52 Group";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_air.paa";
                     rarityGroup = 0.5;
 
@@ -3980,7 +3980,7 @@ class CfgGroups {
                 class o_russianarmedforces_air_vvs_camo_mi_28_group {
                     name = "VVS Camo Mi-28 Group";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_air.paa";
                     rarityGroup = 0.5;
 
@@ -4001,7 +4001,7 @@ class CfgGroups {
                 class o_russianarmedforces_air_vvs_camo_mixed {
                     name = "VVS Camo Mixed";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_air.paa";
                     rarityGroup = 0.5;
 
@@ -4022,7 +4022,7 @@ class CfgGroups {
                 class o_russianarmedforces_air_vvs_grey_mi_group {
                     name = "VVS Grey Mi Group";
                     side = 0;
-                    faction = "OPF_CAV_RAF";
+                    faction = "OPF_CAV_RAF_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_air.paa";
                     rarityGroup = 0.5;
 
@@ -5046,25 +5046,37 @@ class CfgVehicles {
     class rhs_2s1_tv;
     class rhs_2s1_tv_OCimport_01 : rhs_2s1_tv { scope = 0; class EventHandlers; class Turrets; };
     class rhs_2s1_tv_OCimport_02 : rhs_2s1_tv_OCimport_01 { 
-        class EventHandlers; 
+        class EventHandlers;
+        class Turrets : Turrets {
+            class MainTurret;
+        };
     };
 
     class rhs_t72be_tv;
     class rhs_t72be_tv_OCimport_01 : rhs_t72be_tv { scope = 0; class EventHandlers; class Turrets; };
     class rhs_t72be_tv_OCimport_02 : rhs_t72be_tv_OCimport_01 { 
-        class EventHandlers; 
+        class EventHandlers;
+        class Turrets : Turrets {
+            class MainTurret;
+        };
     };
 
     class rhs_t90a_tv;
     class rhs_t90a_tv_OCimport_01 : rhs_t90a_tv { scope = 0; class EventHandlers; class Turrets; };
     class rhs_t90a_tv_OCimport_02 : rhs_t90a_tv_OCimport_01 { 
-        class EventHandlers; 
+        class EventHandlers;
+        class Turrets : Turrets {
+            class MainTurret;
+        };
     };
 
     class rhs_t90saa_tv;
     class rhs_t90saa_tv_OCimport_01 : rhs_t90saa_tv { scope = 0; class EventHandlers; class Turrets; };
     class rhs_t90saa_tv_OCimport_02 : rhs_t90saa_tv_OCimport_01 { 
         class EventHandlers; 
+        class Turrets : Turrets {
+            class MainTurret;
+        };
     };
 
     class rhs_msv_at;
@@ -5074,37 +5086,55 @@ class CfgVehicles {
     class rhs_t80um;
     class rhs_t80um_OCimport_01 : rhs_t80um { scope = 0; class EventHandlers; class Turrets; };
     class rhs_t80um_OCimport_02 : rhs_t80um_OCimport_01 { 
-        class EventHandlers; 
+        class EventHandlers;
+        class Turrets : Turrets {
+            class MainTurret;
+        };
     };
 
     class rhs_t80b;
     class rhs_t80b_OCimport_01 : rhs_t80b { scope = 0; class EventHandlers; class Turrets; };
     class rhs_t80b_OCimport_02 : rhs_t80b_OCimport_01 { 
-        class EventHandlers; 
+        class EventHandlers;
+        class Turrets : Turrets {
+            class MainTurret;
+        };
     };
 
     class rhs_t80uk;
     class rhs_t80uk_OCimport_01 : rhs_t80uk { scope = 0; class EventHandlers; class Turrets; };
     class rhs_t80uk_OCimport_02 : rhs_t80uk_OCimport_01 { 
-        class EventHandlers; 
+        class EventHandlers;
+        class Turrets : Turrets {
+            class MainTurret;
+        };
     };
 
     class rhs_t80a;
     class rhs_t80a_OCimport_01 : rhs_t80a { scope = 0; class EventHandlers; class Turrets; };
     class rhs_t80a_OCimport_02 : rhs_t80a_OCimport_01 { 
-        class EventHandlers; 
+        class EventHandlers;
+        class Turrets : Turrets {
+            class MainTurret;
+        };        
     };
 
     class rhs_zsu234_aa;
     class rhs_zsu234_aa_OCimport_01 : rhs_zsu234_aa { scope = 0; class EventHandlers; class Turrets; };
     class rhs_zsu234_aa_OCimport_02 : rhs_zsu234_aa_OCimport_01 { 
-        class EventHandlers; 
+        class EventHandlers;
+        class Turrets : Turrets {
+            class MainTurret;
+        };
     };
 
     class rhs_pchela1t_vvs;
     class rhs_pchela1t_vvs_OCimport_01 : rhs_pchela1t_vvs { scope = 0; class EventHandlers; class Turrets; };
     class rhs_pchela1t_vvs_OCimport_02 : rhs_pchela1t_vvs_OCimport_01 { 
-        class EventHandlers; 
+        class EventHandlers;
+        class Turrets : Turrets {
+            class MainTurret;
+        };
     };
 
     class RHS_Mi24P_vvs;
@@ -5795,7 +5825,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Rifleman MSV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -5833,7 +5863,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Rifleman MSV (RPG-26)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -5871,7 +5901,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Rifleman MSV (RShG-2)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -5909,7 +5939,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Rifleman MSV (GP-25)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -5947,7 +5977,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Automatic Rifleman MSV (PKP)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -5987,7 +6017,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Machine Gunner MSV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -6027,7 +6057,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Machine Gunner Assistant MSV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -6067,7 +6097,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Grenadier MSV (RPG-7V2)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -6107,7 +6137,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Grenadier Assistant MSV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -6147,7 +6177,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Marksman MSV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -6185,7 +6215,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Efreitor MSV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -6223,7 +6253,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Sergeant MSV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -6261,7 +6291,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Officer MSV (Armoured) ";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -6299,7 +6329,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Officer MSV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -6337,7 +6367,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "AT Specialist MSV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -6377,7 +6407,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "AA Specialist MSV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -6415,7 +6445,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Engineer MSV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -6455,7 +6485,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Medic MSV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -6495,7 +6525,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Driver MSV (Armoured)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -6533,7 +6563,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Driver MSV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -6571,7 +6601,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Crew MSV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -6609,7 +6639,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Crew MSV (Armoured)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -6647,7 +6677,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Crew MSV (Combat)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -6685,7 +6715,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Crew Commander MSV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -6723,7 +6753,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "BTR-70 MSV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Crew_MSV_01";
 
         class Turrets : Turrets {
@@ -6762,7 +6792,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "BTR-80 MSV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Crew_MSV_01";
 
         class Turrets : Turrets {
@@ -6802,7 +6832,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "BTR-80A MSV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Crew_MSV_01";
 
         class Turrets : Turrets {
@@ -6842,7 +6872,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "BTR-60PB MSV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Crew_MSV_01";
 
         class Turrets : Turrets {
@@ -6881,7 +6911,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "2B14-1 'Podnos' MSV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "rhs_msv_rifleman";
 
         class Turrets : Turrets {
@@ -6910,7 +6940,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "2A18M MSV (D-30A) ";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "rhs_msv_rifleman";
 
         class Turrets : Turrets {
@@ -6939,7 +6969,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "2A18M MSV (D-30A) AT";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "rhs_msv_rifleman";
 
         class Turrets : Turrets {
@@ -6968,7 +6998,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "BM-21 MSV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Driver_MSV_01";
 
         class Turrets : Turrets {
@@ -6997,7 +7027,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "UAZ-3151 MSV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Driver_MSV_01";
 
 
@@ -7021,7 +7051,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "UAZ-3151 MSV (Open)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Driver_MSV_Armoured_01";
 
         class Turrets : Turrets {
@@ -7054,7 +7084,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "GAZ-233011 MSV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Driver_MSV_Armoured_01";
 
         class Turrets : Turrets {
@@ -7084,7 +7114,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "GAZ-233011 MSV (Camo)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Driver_MSV_01";
 
         class Turrets : Turrets {
@@ -7114,7 +7144,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "GAZ-233014 MSV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Driver_MSV_01";
 
         class Turrets : Turrets {
@@ -7144,7 +7174,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "GAZ-233014 MSV (Camo)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Driver_MSV_01";
 
         class Turrets : Turrets {
@@ -7174,7 +7204,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "GAZ-2331114 MSV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Driver_MSV_01";
 
         class Turrets : Turrets {
@@ -7203,7 +7233,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "GAZ-2331114 MSV (Camo)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Driver_MSV_01";
 
         class Turrets : Turrets {
@@ -7232,7 +7262,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "BMP-3 MSV (Late)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Crew_MSV_01";
 
         class Turrets : Turrets {
@@ -7263,7 +7293,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "BMP-3 MSV (Vesna-K)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Crew_MSV_01";
 
         class Turrets : Turrets {
@@ -7294,7 +7324,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "BMP-3 MSV (Vesna-K/A)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Crew_MSV_Combat_01";
 
         class Turrets : Turrets {
@@ -7325,7 +7355,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "BMP-1 MSV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Crew_MSV_01";
 
         class Turrets : Turrets {
@@ -7365,7 +7395,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "BMP-1P MSV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Crew_MSV_01";
 
         class Turrets : Turrets {
@@ -7405,7 +7435,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "BMP-1K MSV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Crew_MSV_Combat_01";
 
         class Turrets : Turrets {
@@ -7445,7 +7475,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "BMP-1D MSV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Crew_MSV_01";
 
         class Turrets : Turrets {
@@ -7485,7 +7515,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "PRP-3 MSV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Crew_MSV_Combat_01";
 
         class Turrets : Turrets {
@@ -7516,7 +7546,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "BMP-2K MSV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Crew_MSV_Combat_01";
 
         class Turrets : Turrets {
@@ -7555,7 +7585,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "BMP-2D MSV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Crew_MSV_Combat_01";
 
         class Turrets : Turrets {
@@ -7594,7 +7624,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Obyekt-681-2 MSV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Crew_MSV_Combat_01";
 
         class Turrets : Turrets {
@@ -7633,7 +7663,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "BRM-1K MSV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Crew_MSV_Combat_01";
 
         class Turrets : Turrets {
@@ -7665,7 +7695,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "BRDM-2 MSV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Crew_MSV_01";
 
         class Turrets : Turrets {
@@ -7701,7 +7731,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "BRDM-2 MSV (9P148)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Crew_MSV_Combat_01";
 
         class Turrets : Turrets {
@@ -7735,7 +7765,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "BRDM-2UM MSV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Crew_MSV_01";
 
         class Turrets : Turrets {
@@ -7770,7 +7800,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "BRDM-2UM MSV (Armed)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Crew_MSV_Combat_01";
 
         class Turrets : Turrets {
@@ -7805,7 +7835,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "GAZ-66 MSV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Driver_MSV_01";
 
         class Turrets : Turrets {
@@ -7835,7 +7865,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "GAZ-66 MSV (Flatbed)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Driver_MSV_01";
 
 
@@ -7859,7 +7889,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "GAZ-66 MSV (Open)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Driver_MSV_01";
 
         class Turrets : Turrets {
@@ -7891,7 +7921,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "GAZ-66 MSV (Open/Flatbed)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Driver_MSV_01";
 
 
@@ -7915,7 +7945,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "GAZ-66 MSV (R-142N)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Driver_MSV_01";
 
 
@@ -7939,7 +7969,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "GAZ-66-ESB-8IM MSV ";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Driver_MSV_01";
 
 
@@ -7963,7 +7993,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "GAZ-66-AP-2 MSV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Driver_MSV_01";
 
 
@@ -7987,7 +8017,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "GAZ-66 MSV (Ammo)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Driver_MSV_01";
 
 
@@ -8011,7 +8041,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "GAZ-66 MSV (ZU-23-2)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Driver_MSV_01";
 
         class Turrets : Turrets {
@@ -8042,7 +8072,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "ZiL-131 MSV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Driver_MSV_Armoured_01";
 
         class Turrets : Turrets {
@@ -8074,7 +8104,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "ZiL-131 MSV (Open)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Driver_MSV_Armoured_01";
 
         class Turrets : Turrets {
@@ -8106,7 +8136,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "ZiL-131 MSV (Flatbed)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Driver_MSV_Armoured_01";
 
 
@@ -8130,7 +8160,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Ural-4320 MSV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Driver_MSV_Armoured_01";
 
         class Turrets : Turrets {
@@ -8160,7 +8190,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Ural-4320 MSV (Flatbed)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Driver_MSV_Armoured_01";
 
 
@@ -8184,7 +8214,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Ural-4320 MSV (Open)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Driver_MSV_Armoured_01";
 
         class Turrets : Turrets {
@@ -8216,7 +8246,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Ural-4320 MSV (Open/Flatbed)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Driver_MSV_Armoured_01";
 
 
@@ -8240,7 +8270,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Ural-4320 MSV (Fuel)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Driver_MSV_Armoured_01";
 
 
@@ -8264,7 +8294,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Ural-4320 MSV (Repair)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Driver_MSV_Armoured_01";
 
 
@@ -8288,7 +8318,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Ural-4320 MSV (ZU-23-2)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Driver_MSV_Armoured_01";
 
         class Turrets : Turrets {
@@ -8320,7 +8350,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "KamAZ-5350 MSV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Driver_MSV_Armoured_01";
 
         class Turrets : Turrets {
@@ -8351,7 +8381,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "KamAZ-5350 MSV (Open)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Driver_MSV_01";
 
         class Turrets : Turrets {
@@ -8384,7 +8414,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "KamAZ-5350 MSV (Open/Flatbed)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Driver_MSV_01";
 
         class Turrets : Turrets {
@@ -8413,7 +8443,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "KamAZ-5350 MSV (Flatbed)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Driver_MSV_01";
 
         class Turrets : Turrets {
@@ -8442,7 +8472,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Rifleman VDV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -8480,7 +8510,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Rifleman VDV (Light)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -8518,7 +8548,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Efreitor VDV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -8556,7 +8586,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Rifleman VDV (GP-25)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -8594,7 +8624,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Grenadier VDV (RPG-7V2)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -8634,7 +8664,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Machine Gunner VDV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -8674,7 +8704,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Machine Gunner Assistant VDV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -8714,7 +8744,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "AT Specialist VDV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -8754,7 +8784,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "AA Specialist VDV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -8792,7 +8822,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Grenadier Assistant VDV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -8832,7 +8862,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Marksman VDV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -8870,7 +8900,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Officer VDV (Armoured)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -8908,7 +8938,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Officer VDV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -8946,7 +8976,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Sergeant VDV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -8984,7 +9014,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Junior Sergeant VDV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -9022,7 +9052,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Engineer VDV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -9062,7 +9092,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Driver VDV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -9100,7 +9130,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Driver VDV (Armoured)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -9138,7 +9168,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Medic VDV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -9178,7 +9208,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Rifleman VDV (RPG-26)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -9216,7 +9246,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Rifleman VDV (RShG-2)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -9254,7 +9284,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Crew VDV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -9292,7 +9322,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Crew Commander VDV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -9330,7 +9360,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Crew VDV (Armoured)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -9368,7 +9398,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Crew VDV (Combat)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -9406,7 +9436,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "2B14-1 'Podnos' VDV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "rhs_vdv_rifleman";
 
         class Turrets : Turrets {
@@ -9435,7 +9465,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Mi-24P VDV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Crew_VDV_01";
 
         class Turrets : Turrets {
@@ -9468,7 +9498,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Mi-24V VDV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Crew_VDV_01";
 
         class Turrets : Turrets {
@@ -9501,7 +9531,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Mi-8MT VDV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Crew_VDV_01";
 
         class Turrets : Turrets {
@@ -9532,7 +9562,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Mi-8MT VDV (Cargo)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Crew_VDV_Armoured_01";
 
         class Turrets : Turrets {
@@ -9564,7 +9594,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Mi-8MTV-3 VDV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Crew_VDV_01";
 
         class Turrets : Turrets {
@@ -9596,7 +9626,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Mi-8MTV-3 (Heavy)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Crew_VDV_01";
 
         class Turrets : Turrets {
@@ -9628,7 +9658,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Mi-8MTV-3 (VDV) Cargo";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Crew_VDV_01";
 
         class Turrets : Turrets {
@@ -9661,7 +9691,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Mi-8T VDV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Crew_VDV_01";
 
         class Turrets : Turrets {
@@ -9693,7 +9723,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Mi-8AMT VDV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Crew_VDV_01";
 
         class Turrets : Turrets {
@@ -9725,7 +9755,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "BKM Tug VMF";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Driver_VMF_Armored_01";
 
 
@@ -9749,7 +9779,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "MiG-29S VMF";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Pilot_VVS_Grey_Tan_01";
 
 
@@ -9773,7 +9803,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "MiG-29SM VMF";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Pilot_VVS_Grey_Tan_01";
 
 
@@ -9797,7 +9827,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Mi-8MT VV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "rhs_pilot_transport_heli";
 
         class Turrets : Turrets {
@@ -9828,7 +9858,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Mi-8MT VV (Cargo)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "rhs_pilot_transport_heli";
 
         class Turrets : Turrets {
@@ -9860,7 +9890,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Mi-8T VV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "rhs_pilot_transport_heli";
 
         class Turrets : Turrets {
@@ -9892,7 +9922,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "2S3M1 TV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Crew_MSV_01";
 
         class Turrets : Turrets {
@@ -9921,7 +9951,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "2S1 TV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Crew_MSV_01";
 
         class Turrets : Turrets {
@@ -9950,7 +9980,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "T-72B3 TV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Crew_MSV_Combat_01";
 
         class Turrets : Turrets {
@@ -9979,7 +10009,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "T-90A TV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Crew_MSV_Combat_01";
 
         class Turrets : Turrets {
@@ -10008,7 +10038,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "T-90SA TV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Crew_MSV_Armoured_01";
 
         class Turrets : Turrets {
@@ -10037,7 +10067,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "SPG Assistant MSV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -10077,7 +10107,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "T-80UM TV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Crew_MSV_Combat_01";
 
         class Turrets : Turrets {
@@ -10106,7 +10136,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "T-80B TV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Crew_MSV_Armoured_01";
 
         class Turrets : Turrets {
@@ -10135,7 +10165,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "T-80UK TV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Crew_MSV_Armoured_01";
 
         class Turrets : Turrets {
@@ -10164,7 +10194,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "T-80A TV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Crew_MSV_Armoured_01";
 
         class Turrets : Turrets {
@@ -10191,7 +10221,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "ZSU-23-4V VPVO";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Crew_MSV_Combat_01";
 
         class Turrets : Turrets {
@@ -10220,7 +10250,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Pcheala-1T (VVS Grey)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_UAV_AI";
 
         class Turrets : Turrets {
@@ -10249,7 +10279,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Mi-24P VVS Grey";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Pilot_VVS_Grey_Combat_Pilot_01";
 
         class Turrets : Turrets {
@@ -10282,7 +10312,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Mi-24V VVS Grey";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Pilot_VVS_Grey_Combat_Pilot_01";
 
         class Turrets : Turrets {
@@ -10315,7 +10345,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Mi-24VT VVS Grey";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Pilot_VVS_Grey_Combat_Pilot_01";
 
         class Turrets : Turrets {
@@ -10348,7 +10378,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Mi-8MT VVS Grey";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Pilot_VVS_Grey_Transport_01";
 
         class Turrets : Turrets {
@@ -10379,7 +10409,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Mi-8MT VVS Grey (Camo)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Pilot_VVS_Grey_Transport_01";
 
         class Turrets : Turrets {
@@ -10411,7 +10441,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Mi-8MTV-3 VVS Grey (Cargo)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Pilot_VVS_Grey_Transport_01";
 
         class Turrets : Turrets {
@@ -10444,7 +10474,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Mi-8MTV-3 VVS Grey (Heavy)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Pilot_VVS_Grey_Transport_01";
 
         class Turrets : Turrets {
@@ -10476,7 +10506,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Mi-8T VVS Grey";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Pilot_VVS_Grey_Transport_01";
 
         class Turrets : Turrets {
@@ -10508,7 +10538,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Mi-8MTV-3 VVS Grey";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Pilot_VVS_Grey_Transport_01";
 
         class Turrets : Turrets {
@@ -10540,7 +10570,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Mi-8AMT VVS Grey";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Pilot_VVS_Grey_Transport_01";
 
         class Turrets : Turrets {
@@ -10572,7 +10602,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Mi-8AMTSh VVS Grey";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Pilot_VVS_Grey_Transport_01";
 
         class Turrets : Turrets {
@@ -10604,7 +10634,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Ka-52 VVS Grey";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Pilot_VVS_Grey_Combat_Pilot_01";
 
         class Turrets : Turrets {
@@ -10633,7 +10663,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Ka-60 VVS Grey";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Pilot_VVS_Grey_Transport_01";
 
         class Turrets : Turrets {
@@ -10662,7 +10692,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Mi-28N VVS Grey";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Pilot_VVS_Grey_Combat_Pilot_01";
 
         class Turrets : Turrets {
@@ -10691,7 +10721,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Pilot VVS Grey";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -10729,7 +10759,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Pilot VVS Grey (Tan)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -10767,7 +10797,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Pilot VVS Grey (Combat Pilot)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -10805,7 +10835,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Pilot VVS Grey (Transport)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -10843,7 +10873,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Su-25 VVS Grey";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Pilot_VVS_Grey_01";
 
 
@@ -10867,7 +10897,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "T-50 VVS Grey";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Pilot_VVS_Grey_01";
 
 
@@ -10891,7 +10921,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "T-50 VVS Grey (External Pylons)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Pilot_VVS_Grey_01";
 
 
@@ -10915,7 +10945,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "T-50 VVS Grey (051)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Pilot_VVS_Grey_01";
 
 
@@ -10939,7 +10969,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "T-50 VVS Grey (052)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Pilot_VVS_Grey_01";
 
 
@@ -10963,7 +10993,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "T-50 VVS Grey (053)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Pilot_VVS_Grey_01";
 
 
@@ -10987,7 +11017,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "T-50 VVS Grey (054)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Pilot_VVS_Grey_01";
 
 
@@ -11011,7 +11041,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "T-50 VVS Grey (055)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Pilot_VVS_Grey_01";
 
 
@@ -11035,7 +11065,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "MiG-29S VVS Grey";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Pilot_VVS_Grey_01";
 
 
@@ -11059,7 +11089,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "MiG-29SM VVS Grey";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Pilot_VVS_Grey_01";
 
 
@@ -11083,7 +11113,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Su-25 VVS Camo";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "rhs_pilot";
 
 
@@ -11107,7 +11137,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "MiG-29S VVS Camo";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Pilot_VVS_Grey_01";
 
 
@@ -11131,7 +11161,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "9P129-1M RVA (9M79-1-F)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Driver_MSV_Armoured_01";
 
         class Turrets : Turrets {
@@ -11160,7 +11190,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "9P129-1M RVA (RM79-1-K)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Driver_MSV_01";
 
         class Turrets : Turrets {
@@ -11189,7 +11219,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "9P129-1M RVA (9M79B)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Driver_MSV_01";
 
         class Turrets : Turrets {
@@ -11218,7 +11248,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Rifleman GRU";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Russian","LanguageRUS_F","Head_Russian_camo_arid","Head_Russian_camo_lush","Head_Russian_camo_semiarid","rhs_scarf"};
 
@@ -11256,7 +11286,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Rifleman GRU (Light)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Russian","LanguageRUS_F","Head_Russian_camo_arid","Head_Russian_camo_lush","Head_Russian_camo_semiarid","rhs_scarf"};
 
@@ -11294,7 +11324,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Rifleman GRU (AKMS)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Russian","LanguageRUS_F","Head_Russian_camo_arid","Head_Russian_camo_lush","Head_Russian_camo_semiarid","rhs_scarf"};
 
@@ -11332,7 +11362,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Rifleman GRU (AK-103)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Russian","LanguageRUS_F","Head_Russian_camo_arid","Head_Russian_camo_lush","Head_Russian_camo_semiarid","rhs_scarf"};
 
@@ -11370,7 +11400,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Rifleman GRU (RPG-26)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Russian","LanguageRUS_F","Head_Russian_camo_arid","Head_Russian_camo_lush","Head_Russian_camo_semiarid","rhs_scarf"};
 
@@ -11408,7 +11438,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Rifleman GRU (GP-25)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Russian","LanguageRUS_F","Head_Russian_camo_arid","Head_Russian_camo_lush","Head_Russian_camo_semiarid","rhs_scarf"};
 
@@ -11446,7 +11476,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Rifleman GRU (AS-Val)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Russian","LanguageRUS_F","Head_Russian_camo_arid","Head_Russian_camo_lush","Head_Russian_camo_semiarid","rhs_scarf"};
 
@@ -11484,7 +11514,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Automatic Rifleman GRU (PKP)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Russian","LanguageRUS_F","Head_Russian_camo_arid","Head_Russian_camo_lush","Head_Russian_camo_semiarid","rhs_scarf"};
 
@@ -11524,7 +11554,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Machine Gunner Assistant GRU";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Russian","LanguageRUS_F","Head_Russian_camo_arid","Head_Russian_camo_lush","Head_Russian_camo_semiarid","rhs_scarf"};
 
@@ -11564,7 +11594,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Efreitor GRU";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Russian","LanguageRUS_F","Head_Russian_camo_arid","Head_Russian_camo_lush","Head_Russian_camo_semiarid","rhs_scarf"};
 
@@ -11602,7 +11632,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Sergeant GRU";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Russian","LanguageRUS_F","Head_Russian_camo_arid","Head_Russian_camo_lush","Head_Russian_camo_semiarid","rhs_scarf"};
 
@@ -11640,7 +11670,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Officer GRU (Armoured)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Russian","LanguageRUS_F","Head_Russian_camo_arid","Head_Russian_camo_lush","Head_Russian_camo_semiarid","rhs_scarf"};
 
@@ -11678,7 +11708,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Officer GRU";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Russian","LanguageRUS_F","Head_Russian_camo_arid","Head_Russian_camo_lush","Head_Russian_camo_semiarid","rhs_scarf"};
 
@@ -11716,7 +11746,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Marksman GRU";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Russian","LanguageRUS_F","Head_Russian_camo_arid","Head_Russian_camo_lush","Head_Russian_camo_semiarid","rhs_scarf"};
 
@@ -11754,7 +11784,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Marksman GRU (AS Val)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Russian","LanguageRUS_F","Head_Russian_camo_arid","Head_Russian_camo_lush","Head_Russian_camo_semiarid","rhs_scarf"};
 
@@ -11792,7 +11822,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Marksman GRU (VSS)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Russian","LanguageRUS_F","Head_Russian_camo_arid","Head_Russian_camo_lush","Head_Russian_camo_semiarid","rhs_scarf"};
 
@@ -11830,7 +11860,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Medic GRU";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Russian","LanguageRUS_F","Head_Russian_camo_arid","Head_Russian_camo_lush","Head_Russian_camo_semiarid","rhs_scarf"};
 
@@ -11870,7 +11900,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Scout GRU (AK-74)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"LanguageRUS_F","Head_Russian_camo_arid","Head_Russian_camo_lush","Head_Russian_camo_semiarid","rhs_scarf"};
 
@@ -11910,7 +11940,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Scout GRU";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"LanguageRUS_F","Head_Russian_camo_arid","Head_Russian_camo_lush","Head_Russian_camo_semiarid","rhs_scarf"};
 
@@ -11950,7 +11980,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Scout GRU (GP-25)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"LanguageRUS_F","Head_Russian_camo_arid","Head_Russian_camo_lush","Head_Russian_camo_semiarid","rhs_scarf"};
 
@@ -11990,7 +12020,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Scout GRU (PKP)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"LanguageRUS_F","Head_Russian_camo_arid","Head_Russian_camo_lush","Head_Russian_camo_semiarid","rhs_scarf"};
 
@@ -12030,7 +12060,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Mi-24P VVS Camo";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Pilot_VVS_Grey_Combat_Pilot_01";
 
         class Turrets : Turrets {
@@ -12063,7 +12093,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Mi-24V VVS Camo";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Pilot_VVS_Grey_Combat_Pilot_01";
 
         class Turrets : Turrets {
@@ -12096,7 +12126,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Mi-24VT VVS Camo";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Pilot_VVS_Grey_Combat_Pilot_01";
 
         class Turrets : Turrets {
@@ -12129,7 +12159,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Mi-8MT VVS Camo";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Pilot_VVS_Grey_Transport_01";
 
         class Turrets : Turrets {
@@ -12160,7 +12190,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Mi-8MT VVS Camo (Cargo)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Pilot_VVS_Grey_Transport_01";
 
         class Turrets : Turrets {
@@ -12192,7 +12222,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Mi-8MTV-3 VVS Camo";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Pilot_VVS_Grey_Transport_01";
 
         class Turrets : Turrets {
@@ -12224,7 +12254,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Mi-8MTV-3 VVS Camo (Cargo)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Pilot_VVS_Grey_Transport_01";
 
         class Turrets : Turrets {
@@ -12257,7 +12287,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Mi-8T VVS Camo";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Pilot_VVS_Grey_Transport_01";
 
         class Turrets : Turrets {
@@ -12289,7 +12319,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Mi-8AMT VVS Camo";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Pilot_VVS_Grey_Transport_01";
 
         class Turrets : Turrets {
@@ -12321,7 +12351,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Mi-8AMTSh VVS Camo";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Pilot_VVS_Grey_Transport_01";
 
         class Turrets : Turrets {
@@ -12353,7 +12383,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Ka-52 VVS Camo";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Pilot_VVS_Grey_Combat_Pilot_01";
 
         class Turrets : Turrets {
@@ -12382,7 +12412,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Ka-60 VVS Camo";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Pilot_VVS_Grey_Transport_01";
 
         class Turrets : Turrets {
@@ -12411,7 +12441,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Mi-28N VVS Camo";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Pilot_VVS_Grey_Combat_Pilot_01";
 
         class Turrets : Turrets {
@@ -12440,7 +12470,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Mortar Operator MSV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -12480,7 +12510,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Mortar Assistant MSV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -12520,7 +12550,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Metis Operator MSV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -12560,7 +12590,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Metis Assistant MSV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -12600,7 +12630,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Kornet Operator MSV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -12640,7 +12670,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Kornet Assistant MSV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -12680,7 +12710,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "AGS-30 Operator MSV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -12720,7 +12750,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "AGS-30 Assistant MSV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -12760,7 +12790,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "KORD Operator MSV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -12800,7 +12830,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "KORD Assistant MSV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -12840,7 +12870,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "NSV Operator MSV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -12880,7 +12910,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "NSV Assistant MSV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -12920,7 +12950,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "SPG Operator MSV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -12960,7 +12990,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "T-90SA2 TV";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Crew_MSV_Armoured_01";
 
         class Turrets : Turrets {
@@ -12989,7 +13019,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Rifleman VMF";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -13027,7 +13057,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Efreitor VMF";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -13065,7 +13095,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Rifleman VMF (GP-25)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -13103,7 +13133,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Grenadier VMF (RPG-7V2)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -13143,7 +13173,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Machine Gunner VMF";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -13183,7 +13213,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Driver VMF (Armored)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -13221,7 +13251,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Machine Gunner Assistant VMF";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -13261,7 +13291,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "AT Specialist VMF";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -13301,7 +13331,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "AA Specialist VMF";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -13339,7 +13369,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Grenadier Assistant VMF";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -13379,7 +13409,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Marksman VMF";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -13417,7 +13447,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Officer VMF (Armored)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -13455,7 +13485,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Officer VMF";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -13493,7 +13523,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Driver VMF";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -13531,7 +13561,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Junior Sergeant VMF";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -13569,7 +13599,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Engineer VMF";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -13609,7 +13639,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Assault Boat VMF";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Driver_VMF_Armored_01";
 
         class Turrets : Turrets {
@@ -13641,7 +13671,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Sergeant VMF";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -13679,7 +13709,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Rifleman VMF (RPG-26)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -13717,7 +13747,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Rifleman VMF (RShG-2)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -13755,7 +13785,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Crew VMF";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -13793,7 +13823,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Medic VMF";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -13833,7 +13863,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Crew VMF (Armored)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -13871,7 +13901,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Crew VMF (Combat)";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -13909,7 +13939,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Crew Commander VMF";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F"};
 
@@ -13947,7 +13977,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Patrol Boat VMF";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Driver_VMF_Armored_01";
 
         class Turrets : Turrets {
@@ -13978,7 +14008,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "RHIB VMF";
         side = 0;
-        faction = "OPF_CAV_RAF";
+        faction = "OPF_CAV_RAF_F";
         crew = "O_RussianArmedForces_Driver_VMF_Armored_01";
 
         class Turrets : Turrets {

@@ -247,10 +247,7 @@ class CfgPatches {
         };
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {
-            "cav_main",
-            "rhs_main"
-        };
+        requiredAddons[] = {"cav_main"};
         author = ECSTRING(main,CavModTeam);
         authors[] = {"CPL.Bates.J", "Brostrom.A (Evul)"};
         url = ECSTRING(main,URL);
