@@ -26,8 +26,8 @@ class CfgVehicles {
     
     class Cav_Charlie_m1025_d_m2_f : rhsusf_m1025_d_m2 {
         _generalMacro = "Cav_Charlie_m1025_d_m2_f";
-        scope = 1;
-        scopeCurator = 1;
+        scope = 2;
+        scopeCurator = 2;
         author = ECSTRING(Main,CavModTeam);
         editorSubcategory = "Cav_EdSubcat_Vehicles_Charlie_D";
 
@@ -42,8 +42,8 @@ class CfgVehicles {
     };
     class Cav_Charlie_m1025_d_Mk19_f : rhsusf_m1025_d_Mk19 {
         _generalMacro = "Cav_Charlie_m1025_d_Mk19_f";
-        scope = 1;
-        scopeCurator = 1;
+        scope = 2;
+        scopeCurator = 2;
         author = ECSTRING(Main,CavModTeam);
         editorSubcategory = "Cav_EdSubcat_Vehicles_Charlie_D";
 
@@ -58,8 +58,8 @@ class CfgVehicles {
     };
     class Cav_Charlie_m1025_d_f : rhsusf_m1025_d {
         _generalMacro = "Cav_Charlie_m1025_d_f";
-        scope = 1;
-        scopeCurator = 1;
+        scope = 2;
+        scopeCurator = 2;
         author = ECSTRING(Main,CavModTeam);
         editorSubcategory = "Cav_EdSubcat_Vehicles_Charlie_D";
 
@@ -74,8 +74,8 @@ class CfgVehicles {
     };
     class Cav_Charlie_m1043_d_m2_f : rhsusf_m1043_d_m2 {
         _generalMacro = "Cav_Charlie_m1043_d_m2_f";
-        scope = 1;
-        scopeCurator = 1;
+        scope = 2;
+        scopeCurator = 2;
         author = ECSTRING(Main,CavModTeam);
         editorSubcategory = "Cav_EdSubcat_Vehicles_Charlie_D";
 
@@ -90,8 +90,8 @@ class CfgVehicles {
     };
     class Cav_Charlie_m1043_d_mk19_f : rhsusf_m1043_d_mk19 {
         _generalMacro = "Cav_Charlie_m1043_d_mk19_f";
-        scope = 1;
-        scopeCurator = 1;
+        scope = 2;
+        scopeCurator = 2;
         author = ECSTRING(Main,CavModTeam);
         editorSubcategory = "Cav_EdSubcat_Vehicles_Charlie_D";
 
@@ -106,8 +106,8 @@ class CfgVehicles {
     };
     class Cav_Charlie_m1043_d_f : rhsusf_m1043_d {
         _generalMacro = "Cav_Charlie_m1043_d_f";
-        scope = 1;
-        scopeCurator = 1;
+        scope = 2;
+        scopeCurator = 2;
         author = ECSTRING(Main,CavModTeam);
         editorSubcategory = "Cav_EdSubcat_Vehicles_Charlie_D";
 
@@ -122,8 +122,8 @@ class CfgVehicles {
     };
     class Cav_Charlie_m1045_d_f : rhsusf_m1045_d {
         _generalMacro = "Cav_Charlie_m1045_d_f";
-        scope = 1;
-        scopeCurator = 1;
+        scope = 2;
+        scopeCurator = 2;
         author = ECSTRING(Main,CavModTeam);
         editorSubcategory = "Cav_EdSubcat_Vehicles_Charlie_D";
 
@@ -138,8 +138,8 @@ class CfgVehicles {
     };
     class Cav_Charlie_m998_d_2dr_fulltop_f : rhsusf_m998_d_2dr_fulltop {
         _generalMacro = "Cav_Charlie_m998_d_2dr_fulltop_f";
-        scope = 1;
-        scopeCurator = 1;
+        scope = 2;
+        scopeCurator = 2;
         author = ECSTRING(Main,CavModTeam);
         editorSubcategory = "Cav_EdSubcat_Vehicles_Charlie_D";
 
@@ -154,8 +154,8 @@ class CfgVehicles {
     };
     class Cav_Charlie_m998_d_2dr_halftop_f : rhsusf_m998_d_2dr_halftop {
         _generalMacro = "Cav_Charlie_m998_d_2dr_halftop_f";
-        scope = 1;
-        scopeCurator = 1;
+        scope = 2;
+        scopeCurator = 2;
         author = ECSTRING(Main,CavModTeam);
         editorSubcategory = "Cav_EdSubcat_Vehicles_Charlie_D";
 
@@ -170,8 +170,8 @@ class CfgVehicles {
     };
     class Cav_Charlie_m998_d_2dr_f : rhsusf_m998_d_2dr {
         _generalMacro = "Cav_Charlie_m998_d_2dr_f";
-        scope = 1;
-        scopeCurator = 1;
+        scope = 2;
+        scopeCurator = 2;
         author = ECSTRING(Main,CavModTeam);
         editorSubcategory = "Cav_EdSubcat_Vehicles_Charlie_D";
 
@@ -186,8 +186,8 @@ class CfgVehicles {
     };
     class Cav_Charlie_m998_d_4dr_fulltop_f : rhsusf_m998_d_4dr_fulltop {
         _generalMacro = "Cav_Charlie_m998_d_4dr_fulltop_f";
-        scope = 1;
-        scopeCurator = 1;
+        scope = 2;
+        scopeCurator = 2;
         author = ECSTRING(Main,CavModTeam);
         editorSubcategory = "Cav_EdSubcat_Vehicles_Charlie_D";
 
@@ -202,8 +202,8 @@ class CfgVehicles {
     };
     class Cav_Charlie_m998_d_4dr_halftop_f : rhsusf_m998_d_4dr_halftop {
         _generalMacro = "Cav_Charlie_m998_d_4dr_halftop_f";
-        scope = 1;
-        scopeCurator = 1;
+        scope = 2;
+        scopeCurator = 2;
         author = ECSTRING(Main,CavModTeam);
         editorSubcategory = "Cav_EdSubcat_Vehicles_Charlie_D";
 
@@ -218,8 +218,8 @@ class CfgVehicles {
     };
     class Cav_Charlie_m998_d_4dr_f : rhsusf_m998_d_4dr {
         _generalMacro = "Cav_Charlie_m998_d_4dr_f";
-        scope = 1;
-        scopeCurator = 1;
+        scope = 2;
+        scopeCurator = 2;
         author = ECSTRING(Main,CavModTeam);
         editorSubcategory = "Cav_EdSubcat_Vehicles_Charlie_D";
 
@@ -234,8 +234,8 @@ class CfgVehicles {
     };
     class Cav_Charlie_m966_d_f : rhsusf_m966_d {
         _generalMacro = "Cav_Charlie_m966_d_f";
-        scope = 1;
-        scopeCurator = 1;
+        scope = 2;
+        scopeCurator = 2;
         author = ECSTRING(Main,CavModTeam);
         editorSubcategory = "Cav_EdSubcat_Vehicles_Charlie_D";
 
@@ -267,8 +267,8 @@ class CfgVehicles {
 
     class Cav_Charlie_m1025_w_m2_f : rhsusf_m1025_w_m2 {
         _generalMacro = "Cav_Charlie_m1025_w_m2_f";
-        scope = 1;
-        scopeCurator = 1;
+        scope = 2;
+        scopeCurator = 2;
         author = ECSTRING(Main,CavModTeam);
         editorSubcategory = "Cav_EdSubcat_Vehicles_Charlie_W";
 
@@ -283,8 +283,8 @@ class CfgVehicles {
     };
     class Cav_Charlie_m1025_w_Mk19_f : rhsusf_m1025_w_Mk19 {
         _generalMacro = "Cav_Charlie_m1025_w_Mk19_f";
-        scope = 1;
-        scopeCurator = 1;
+        scope = 2;
+        scopeCurator = 2;
         author = ECSTRING(Main,CavModTeam);
         editorSubcategory = "Cav_EdSubcat_Vehicles_Charlie_W";
 
@@ -299,8 +299,8 @@ class CfgVehicles {
     };
     class Cav_Charlie_m1025_w_f : rhsusf_m1025_w {
         _generalMacro = "Cav_Charlie_m1025_w_f";
-        scope = 1;
-        scopeCurator = 1;
+        scope = 2;
+        scopeCurator = 2;
         author = ECSTRING(Main,CavModTeam);
         editorSubcategory = "Cav_EdSubcat_Vehicles_Charlie_W";
 
@@ -315,8 +315,8 @@ class CfgVehicles {
     };
     class Cav_Charlie_m1043_w_m2_f : rhsusf_m1043_w_m2 {
         _generalMacro = "Cav_Charlie_m1043_w_m2_f";
-        scope = 1;
-        scopeCurator = 1;
+        scope = 2;
+        scopeCurator = 2;
         author = ECSTRING(Main,CavModTeam);
         editorSubcategory = "Cav_EdSubcat_Vehicles_Charlie_W";
 
@@ -331,8 +331,8 @@ class CfgVehicles {
     };
     class Cav_Charlie_m1043_w_mk19_f : rhsusf_m1043_w_mk19 {
         _generalMacro = "Cav_Charlie_m1043_w_mk19_f";
-        scope = 1;
-        scopeCurator = 1;
+        scope = 2;
+        scopeCurator = 2;
         author = ECSTRING(Main,CavModTeam);
         editorSubcategory = "Cav_EdSubcat_Vehicles_Charlie_W";
 
@@ -347,8 +347,8 @@ class CfgVehicles {
     };
     class Cav_Charlie_m1043_w_f : rhsusf_m1043_w {
         _generalMacro = "Cav_Charlie_m1043_w_f";
-        scope = 1;
-        scopeCurator = 1;
+        scope = 2;
+        scopeCurator = 2;
         author = ECSTRING(Main,CavModTeam);
         editorSubcategory = "Cav_EdSubcat_Vehicles_Charlie_W";
 
@@ -363,8 +363,8 @@ class CfgVehicles {
     };
     class Cav_Charlie_m1045_w_f : rhsusf_m1045_w {
         _generalMacro = "Cav_Charlie_m1045_w_f";
-        scope = 1;
-        scopeCurator = 1;
+        scope = 2;
+        scopeCurator = 2;
         author = ECSTRING(Main,CavModTeam);
         editorSubcategory = "Cav_EdSubcat_Vehicles_Charlie_W";
 
@@ -379,8 +379,8 @@ class CfgVehicles {
     };
     class Cav_Charlie_m998_w_2dr_fulltop_f : rhsusf_m998_w_2dr_fulltop {
         _generalMacro = "Cav_Charlie_m998_w_2dr_fulltop_f";
-        scope = 1;
-        scopeCurator = 1;
+        scope = 2;
+        scopeCurator = 2;
         author = ECSTRING(Main,CavModTeam);
         editorSubcategory = "Cav_EdSubcat_Vehicles_Charlie_W";
 
@@ -395,8 +395,8 @@ class CfgVehicles {
     };
     class Cav_Charlie_m998_w_2dr_halftop_f : rhsusf_m998_w_2dr_halftop {
         _generalMacro = "Cav_Charlie_m998_w_2dr_halftop_f";
-        scope = 1;
-        scopeCurator = 1;
+        scope = 2;
+        scopeCurator = 2;
         author = ECSTRING(Main,CavModTeam);
         editorSubcategory = "Cav_EdSubcat_Vehicles_Charlie_W";
 
@@ -411,8 +411,8 @@ class CfgVehicles {
     };
     class Cav_Charlie_m998_w_2dr_f : rhsusf_m998_w_2dr {
         _generalMacro = "Cav_Charlie_m998_w_2dr_f";
-        scope = 1;
-        scopeCurator = 1;
+        scope = 2;
+        scopeCurator = 2;
         author = ECSTRING(Main,CavModTeam);
         editorSubcategory = "Cav_EdSubcat_Vehicles_Charlie_W";
 
@@ -427,8 +427,8 @@ class CfgVehicles {
     };
     class Cav_Charlie_m998_w_4dr_fulltop_f : rhsusf_m998_w_4dr_fulltop {
         _generalMacro = "Cav_Charlie_m998_w_4dr_fulltop_f";
-        scope = 1;
-        scopeCurator = 1;
+        scope = 2;
+        scopeCurator = 2;
         author = ECSTRING(Main,CavModTeam);
         editorSubcategory = "Cav_EdSubcat_Vehicles_Charlie_W";
 
@@ -443,8 +443,8 @@ class CfgVehicles {
     };
     class Cav_Charlie_m998_w_4dr_halftop_f : rhsusf_m998_w_4dr_halftop {
         _generalMacro = "Cav_Charlie_m998_w_4dr_halftop_f";
-        scope = 1;
-        scopeCurator = 1;
+        scope = 2;
+        scopeCurator = 2;
         author = ECSTRING(Main,CavModTeam);
         editorSubcategory = "Cav_EdSubcat_Vehicles_Charlie_W";
 
@@ -459,8 +459,8 @@ class CfgVehicles {
     };
     class Cav_Charlie_m998_w_4dr_f : rhsusf_m998_w_4dr {
         _generalMacro = "Cav_Charlie_m998_w_4dr_f";
-        scope = 1;
-        scopeCurator = 1;
+        scope = 2;
+        scopeCurator = 2;
         author = ECSTRING(Main,CavModTeam);
         editorSubcategory = "Cav_EdSubcat_Vehicles_Charlie_W";
 
@@ -475,8 +475,8 @@ class CfgVehicles {
     };
     class Cav_Charlie_m966_w_f : rhsusf_m966_w {
         _generalMacro = "Cav_Charlie_m966_w_f";
-        scope = 1;
-        scopeCurator = 1;
+        scope = 2;
+        scopeCurator = 2;
         author = ECSTRING(Main,CavModTeam);
         editorSubcategory = "Cav_EdSubcat_Vehicles_Charlie_W";
 
@@ -506,8 +506,8 @@ class CfgVehicles {
 
     class Cav_Charlie_M1220_usarmy_d : rhsusf_M1220_usarmy_d {
         _generalMacro = "Cav_Charlie_M1220_usarmy_d";
-        scope = 1;
-        scopeCurator = 1;
+        scope = 2;
+        scopeCurator = 2;
         author = ECSTRING(Main,CavModTeam);
         editorSubcategory = "Cav_EdSubcat_Vehicles_Charlie_D";
 
@@ -519,8 +519,8 @@ class CfgVehicles {
     };
     class Cav_Charlie_M1220_M153_M2_usarmy_d : rhsusf_M1220_M153_M2_usarmy_d {
         _generalMacro = "Cav_Charlie_M1220_M153_M2_usarmy_d";
-        scope = 1;
-        scopeCurator = 1;
+        scope = 2;
+        scopeCurator = 2;
         author = ECSTRING(Main,CavModTeam);
         editorSubcategory = "Cav_EdSubcat_Vehicles_Charlie_D";
 
@@ -532,8 +532,8 @@ class CfgVehicles {
     };
     class Cav_Charlie_M1220_M2_usarmy_d : rhsusf_M1220_M2_usarmy_d {
         _generalMacro = "Cav_Charlie_M1220_M2_usarmy_d";
-        scope = 1;
-        scopeCurator = 1;
+        scope = 2;
+        scopeCurator = 2;
         author = ECSTRING(Main,CavModTeam);
         editorSubcategory = "Cav_EdSubcat_Vehicles_Charlie_D";
 
@@ -545,8 +545,8 @@ class CfgVehicles {
     };
     class Cav_Charlie_M1220_MK19_usarmy_d : rhsusf_M1220_MK19_usarmy_d {
         _generalMacro = "Cav_Charlie_M1220_MK19_usarmy_d";
-        scope = 1;
-        scopeCurator = 1;
+        scope = 2;
+        scopeCurator = 2;
         author = ECSTRING(Main,CavModTeam);
         editorSubcategory = "Cav_EdSubcat_Vehicles_Charlie_D";
 
@@ -558,8 +558,8 @@ class CfgVehicles {
     };
     class Cav_Charlie_M1230_M2_usarmy_d : rhsusf_M1230_M2_usarmy_d {
         _generalMacro = "Cav_Charlie_M1230_M2_usarmy_d";
-        scope = 1;
-        scopeCurator = 1;
+        scope = 2;
+        scopeCurator = 2;
         author = ECSTRING(Main,CavModTeam);
         editorSubcategory = "Cav_EdSubcat_Vehicles_Charlie_D";
 
@@ -571,8 +571,8 @@ class CfgVehicles {
     };
     class Cav_Charlie_M1230_MK19_usarmy_d : rhsusf_M1230_MK19_usarmy_d {
         _generalMacro = "Cav_Charlie_M1230_MK19_usarmy_d";
-        scope = 1;
-        scopeCurator = 1;
+        scope = 2;
+        scopeCurator = 2;
         author = ECSTRING(Main,CavModTeam);
         editorSubcategory = "Cav_EdSubcat_Vehicles_Charlie_D";
 
@@ -584,8 +584,8 @@ class CfgVehicles {
     };
     class Cav_Charlie_M1230a1_usarmy_d : rhsusf_M1230a1_usarmy_d {
         _generalMacro = "Cav_Charlie_M1230a1_usarmy_d";
-        scope = 1;
-        scopeCurator = 1;
+        scope = 2;
+        scopeCurator = 2;
         author = ECSTRING(Main,CavModTeam);
         editorSubcategory = "Cav_EdSubcat_Vehicles_Charlie_D";
 
@@ -597,8 +597,8 @@ class CfgVehicles {
     };
     class Cav_Charlie_M1232_usarmy_d : rhsusf_M1232_usarmy_d {
         _generalMacro = "Cav_Charlie_M1232_usarmy_d";
-        scope = 1;
-        scopeCurator = 1;
+        scope = 2;
+        scopeCurator = 2;
         author = ECSTRING(Main,CavModTeam);
         editorSubcategory = "Cav_EdSubcat_Vehicles_Charlie_D";
 
@@ -610,8 +610,8 @@ class CfgVehicles {
     };
     class Cav_Charlie_M1232_M2_usarmy_d : rhsusf_M1232_M2_usarmy_d {
         _generalMacro = "Cav_Charlie_M1232_M2_usarmy_d";
-        scope = 1;
-        scopeCurator = 1;
+        scope = 2;
+        scopeCurator = 2;
         author = ECSTRING(Main,CavModTeam);
         editorSubcategory = "Cav_EdSubcat_Vehicles_Charlie_D";
 
@@ -623,8 +623,8 @@ class CfgVehicles {
     };
     class Cav_Charlie_M1232_MK19_usarmy_d : rhsusf_M1232_MK19_usarmy_d {
         _generalMacro = "Cav_Charlie_M1232_MK19_usarmy_d";
-        scope = 1;
-        scopeCurator = 1;
+        scope = 2;
+        scopeCurator = 2;
         author = ECSTRING(Main,CavModTeam);
         editorSubcategory = "Cav_EdSubcat_Vehicles_Charlie_D";
 
@@ -636,8 +636,8 @@ class CfgVehicles {
     };
     class Cav_Charlie_M1237_M2_usarmy_d : rhsusf_M1237_M2_usarmy_d {
         _generalMacro = "Cav_Charlie_M1237_M2_usarmy_d";
-        scope = 1;
-        scopeCurator = 1;
+        scope = 2;
+        scopeCurator = 2;
         author = ECSTRING(Main,CavModTeam);
         editorSubcategory = "Cav_EdSubcat_Vehicles_Charlie_D";
 
@@ -649,8 +649,8 @@ class CfgVehicles {
     };
     class Cav_Charlie_M1237_MK19_usarmy_d : rhsusf_M1237_MK19_usarmy_d {
         _generalMacro = "Cav_Charlie_M1237_MK19_usarmy_d";
-        scope = 1;
-        scopeCurator = 1;
+        scope = 2;
+        scopeCurator = 2;
         author = ECSTRING(Main,CavModTeam);
         editorSubcategory = "Cav_EdSubcat_Vehicles_Charlie_D";
 
@@ -677,8 +677,8 @@ class CfgVehicles {
 
     class Cav_Charlie_M1220_usarmy_wd : rhsusf_M1220_usarmy_wd {
         _generalMacro = "Cav_Charlie_M1220_usarmy_wd";
-        scope = 1;
-        scopeCurator = 1;
+        scope = 2;
+        scopeCurator = 2;
         author = ECSTRING(Main,CavModTeam);
         editorSubcategory = "Cav_EdSubcat_Vehicles_Charlie_W";
 
@@ -690,8 +690,8 @@ class CfgVehicles {
     };
     class Cav_Charlie_M1220_M153_M2_usarmy_wd : rhsusf_M1220_M153_M2_usarmy_wd {
         _generalMacro = "Cav_Charlie_M1220_M153_M2_usarmy_wd";
-        scope = 1;
-        scopeCurator = 1;
+        scope = 2;
+        scopeCurator = 2;
         author = ECSTRING(Main,CavModTeam);
         editorSubcategory = "Cav_EdSubcat_Vehicles_Charlie_W";
 
@@ -703,8 +703,8 @@ class CfgVehicles {
     };
     class Cav_Charlie_M1220_M2_usarmy_wd : rhsusf_M1220_M2_usarmy_wd {
         _generalMacro = "Cav_Charlie_M1220_M2_usarmy_wd";
-        scope = 1;
-        scopeCurator = 1;
+        scope = 2;
+        scopeCurator = 2;
         author = ECSTRING(Main,CavModTeam);
         editorSubcategory = "Cav_EdSubcat_Vehicles_Charlie_W";
 
@@ -716,8 +716,8 @@ class CfgVehicles {
     };
     class Cav_Charlie_M1220_MK19_usarmy_wd : rhsusf_M1220_MK19_usarmy_wd {
         _generalMacro = "Cav_Charlie_M1220_MK19_usarmy_wd";
-        scope = 1;
-        scopeCurator = 1;
+        scope = 2;
+        scopeCurator = 2;
         author = ECSTRING(Main,CavModTeam);
         editorSubcategory = "Cav_EdSubcat_Vehicles_Charlie_W";
 
@@ -729,8 +729,8 @@ class CfgVehicles {
     };
     class Cav_Charlie_M1230_M2_usarmy_wd : rhsusf_M1230_M2_usarmy_wd {
         _generalMacro = "Cav_Charlie_M1230_M2_usarmy_wd";
-        scope = 1;
-        scopeCurator = 1;
+        scope = 2;
+        scopeCurator = 2;
         author = ECSTRING(Main,CavModTeam);
         editorSubcategory = "Cav_EdSubcat_Vehicles_Charlie_W";
 
@@ -742,8 +742,8 @@ class CfgVehicles {
     };
     class Cav_Charlie_M1230_MK19_usarmy_wd : rhsusf_M1230_MK19_usarmy_wd {
         _generalMacro = "Cav_Charlie_M1230_MK19_usarmy_wd";
-        scope = 1;
-        scopeCurator = 1;
+        scope = 2;
+        scopeCurator = 2;
         author = ECSTRING(Main,CavModTeam);
         editorSubcategory = "Cav_EdSubcat_Vehicles_Charlie_W";
 
@@ -755,8 +755,8 @@ class CfgVehicles {
     };
     class Cav_Charlie_M1230a1_usarmy_wd : rhsusf_M1230a1_usarmy_wd {
         _generalMacro = "Cav_Charlie_M1230a1_usarmy_wd";
-        scope = 1;
-        scopeCurator = 1;
+        scope = 2;
+        scopeCurator = 2;
         author = ECSTRING(Main,CavModTeam);
         editorSubcategory = "Cav_EdSubcat_Vehicles_Charlie_W";
 
@@ -768,8 +768,8 @@ class CfgVehicles {
     };
     class Cav_Charlie_M1232_usarmy_wd : rhsusf_M1232_usarmy_wd {
         _generalMacro = "Cav_Charlie_M1232_usarmy_wd";
-        scope = 1;
-        scopeCurator = 1;
+        scope = 2;
+        scopeCurator = 2;
         author = ECSTRING(Main,CavModTeam);
         editorSubcategory = "Cav_EdSubcat_Vehicles_Charlie_W";
 
@@ -781,8 +781,8 @@ class CfgVehicles {
     };
     class Cav_Charlie_M1232_M2_usarmy_wd : rhsusf_M1232_M2_usarmy_wd {
         _generalMacro = "Cav_Charlie_M1232_M2_usarmy_wd";
-        scope = 1;
-        scopeCurator = 1;
+        scope = 2;
+        scopeCurator = 2;
         author = ECSTRING(Main,CavModTeam);
         editorSubcategory = "Cav_EdSubcat_Vehicles_Charlie_W";
 
@@ -794,8 +794,8 @@ class CfgVehicles {
     };
     class Cav_Charlie_M1232_MK19_usarmy_wd : rhsusf_M1232_MK19_usarmy_wd {
         _generalMacro = "Cav_Charlie_M1232_MK19_usarmy_wd";
-        scope = 1;
-        scopeCurator = 1;
+        scope = 2;
+        scopeCurator = 2;
         author = ECSTRING(Main,CavModTeam);
         editorSubcategory = "Cav_EdSubcat_Vehicles_Charlie_W";
 
@@ -807,8 +807,8 @@ class CfgVehicles {
     };
     class Cav_Charlie_M1237_M2_usarmy_wd : rhsusf_M1237_M2_usarmy_wd {
         _generalMacro = "Cav_Charlie_M1237_M2_usarmy_wd";
-        scope = 1;
-        scopeCurator = 1;
+        scope = 2;
+        scopeCurator = 2;
         author = ECSTRING(Main,CavModTeam);
         editorSubcategory = "Cav_EdSubcat_Vehicles_Charlie_W";
 
@@ -820,8 +820,8 @@ class CfgVehicles {
     };
     class Cav_Charlie_M1237_MK19_usarmy_wd : rhsusf_M1237_MK19_usarmy_wd {
         _generalMacro = "Cav_Charlie_M1237_MK19_usarmy_wd";
-        scope = 1;
-        scopeCurator = 1;
+        scope = 2;
+        scopeCurator = 2;
         author = ECSTRING(Main,CavModTeam);
         editorSubcategory = "Cav_EdSubcat_Vehicles_Charlie_W";
 
