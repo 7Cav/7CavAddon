@@ -8,7 +8,7 @@
  <a href="https://github.com/7Cav/7CavAddon/releases/latest"><img src="https://img.shields.io/github/downloads/7cav/7CavAddon/total.svg?style=for-the-badge&label=Downloads" alt="7CavAddon Downloads"></a>
  <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=1696706969"><img src="https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-steam-workshop.jross.me%2F1696706969&style=for-the-badge" alt="Steam Workshop"></a>
  <a href="https://github.com/7Cav/7CavAddon/issues"><img src="https://img.shields.io/github/issues-raw/7cav/7CavAddon.svg?style=for-the-badge&label=Issues" alt="7CavAddon Issues"></a>
- <a href="https://travis-ci.org/7Cav/7CavAddon"><img src="https://img.shields.io/travis/7Cav/7CavAddon.svg?style=for-the-badge&logo=Travis-CI" alt="7CavAddon Build"></a>
+<a href="https://github.com/7Cav/7CavAddon/actions?query=workflow%3AArma"><img src="https://img.shields.io/github/workflow/status/7Cav/7CavAddon/Arma/master?logo=GitHub&style=for-the-badge" alt="cScripts Build"></a>
 </p>
 The 7th Cavalry Community Addon is a mod for Arma 3 that adds new units, vehicles, groups, markers, objects, and functions tailored to fit the needs of the [7th Cavalry Gaming Community](https://7cav.us/).
 

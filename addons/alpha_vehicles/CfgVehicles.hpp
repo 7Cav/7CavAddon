@@ -93,7 +93,6 @@ class CfgVehicles {
 
     class RHS_C130J;
     class RHS_A10;
-    class FIR_F16C;
 
     class Cav_Alpha_C130J : RHS_C130J {
         _generalMacro = "Cav_Alpha_C130J";
@@ -127,10 +126,10 @@ class CfgVehicles {
 
         MACRO_VEH_CARGO;
     };
-    class Cav_Alpha_F16C : FIR_F16C {
+    class Cav_Alpha_F16C : Cav_Alpha_A10 {
         _generalMacro = "Cav_Alpha_F16C";
-        scope = 2;
-        scopeCurator = 2;
+        scope = 1;
+        scopeCurator = 0;
         author = ECSTRING(Main,CavModTeam);
         editorSubcategory = "Cav_EdSubcat_Vehicles_Alpha";
 
@@ -139,13 +138,6 @@ class CfgVehicles {
 
         crew = "Cav_B_A_Plane_Fighter_Pilot_F";
         typicalCargo[] = {"Cav_B_A_Plane_Fighter_Pilot_F"};
-
-        hiddenselectionstextures[] = {
-            QPATHTOF(data\cav_F16_body_co.paa),
-            QPATHTOF(data\cav_F16_wing_co.paa),
-            QPATHTOF(data\cav_F16_body_co.paa),
-            ""
-        };
 
         MACRO_VEH_CARGO;
     };

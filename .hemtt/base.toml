@@ -1,0 +1,9 @@
+name = "7CavAddon"
+prefix = "cav"
+author = "Brostrom.A"
+template = "cba"
+mainprefix = "z"
+include = ["./include"]
+files = ["mod.cpp"]
+folder_optionals = true
+sig_version = 3

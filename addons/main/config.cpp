@@ -880,8 +880,10 @@ class CfgPatches {
             "3den",
             "map_vr",
 
-            // RHS
+            // Mods
             "rhsusf_main",
+            "rhs_main",
+            "USAF_Main",
 
             // CBA
             "cba_ui",
