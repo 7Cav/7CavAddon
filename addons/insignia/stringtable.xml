@@ -131,6 +131,9 @@
         </Key>
 
         <Key ID="STR_Cav_Insignia_Specialized_Airborne">
+            <English>[7CAV] Pegasus</English>
+        </Key>
+        <Key ID="STR_Cav_Insignia_Specialized_Airborne">
             <English>[7CAV] CAG</English>
         </Key>
         <Key ID="STR_Cav_Insignia_Specialized_CLS">
