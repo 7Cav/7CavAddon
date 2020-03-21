@@ -16,6 +16,10 @@
             <English>Banner (7th Cavalry - Red and White)</English>
         </Key>
 
+        <Key ID="STR_Cav_Flag_alpha_1_flag">
+            <English>Flag (7th Cavalry - Alpha)</English>
+        </Key>
+
         <Key ID="STR_Cav_Flag_charlie_1_flag">
             <English>Flag (7th Cavalry - Bandit)</English>
         </Key>

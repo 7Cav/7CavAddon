@@ -67,6 +67,7 @@ class CfgUnitInsignia {
 
 
     // Specialized
+    MACRO_UNITINSIGNIA(Specialized_Pegasus);
     MACRO_UNITINSIGNIA(Specialized_Airborne);
     MACRO_UNITINSIGNIA(Specialized_CLS);
     MACRO_UNITINSIGNIA(Specialized_Ranger);
