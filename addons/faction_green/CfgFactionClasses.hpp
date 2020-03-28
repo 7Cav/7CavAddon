@@ -6,10 +6,10 @@
 
 class CfgFactionClasses {
     class OPF_CAV_GREN_F {
-        displayName = "Armed Forces of Transnistria";
+        displayName = "Armed Forces of Kurdistan";
         side = 0;
-        flag = "\rhsafrf\addons\rhs_main\data\flag_map\Flag_trn_CO.paa";
-        icon = "\rhsafrf\addons\rhs_main\data\flag_map\Flag_trn_CO.paa";
+        flag = "\po_main\data\ui\markers\Flag_pesh_CO.paa";
+        icon = "\po_main\data\ui\markers\Flag_pesh_CO.paa";
         priority = 0;
     };
 };

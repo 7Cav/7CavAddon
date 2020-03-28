@@ -5,11 +5,11 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 class CfgFactionClasses {
-    class OPF_CAV_ISIS_F {
-        displayName = "Retards With Guns";
+    class OPF_CAV_GREN_F {
+        displayName = "Armed Forces of Kurdistan";
         side = 0;
-        flag = "\po_main\data\ui\markers\Flag_isis_CO.paa";
-        icon = "\po_main\data\ui\markers\Flag_isis_CO.paa";
+        flag = "\po_main\data\ui\markers\Flag_pesh_CO.paa";
+        icon = "\po_main\data\ui\markers\Flag_pesh_CO.paa";
         priority = 0;
     };
 };

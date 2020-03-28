@@ -9,107 +9,29 @@ class CBA_Extended_EventHandlers_base;
 
 class CfgVehicles {
 
-    class O_Soldier_F;
-    class O_Soldier_F_OCimport_01 : O_Soldier_F { scope = 0; class EventHandlers; };
-    class O_Soldier_F_OCimport_02 : O_Soldier_F_OCimport_01 { class EventHandlers; };
+    class O_Soldier_SL_F;
+    class O_Soldier_SL_F_OCimport_01 : O_Soldier_SL_F { scope = 0; class EventHandlers; };
+    class O_Soldier_SL_F_OCimport_02 : O_Soldier_SL_F_OCimport_01 { class EventHandlers; };
 
-    class I_C_Offroad_02_unarmed_F;
-    class I_C_Offroad_02_unarmed_F_OCimport_01 : I_C_Offroad_02_unarmed_F { scope = 0; class EventHandlers; class Turrets; };
-    class I_C_Offroad_02_unarmed_F_OCimport_02 : I_C_Offroad_02_unarmed_F_OCimport_01 { 
-        class EventHandlers; 
-        class Turrets : Turrets {
-            class CargoTurret_01;
-            class CargoTurret_02;
-            class CargoTurret_03;
-        };
-    };
+    class O_recon_F;
+    class O_recon_F_OCimport_01 : O_recon_F { scope = 0; class EventHandlers; };
+    class O_recon_F_OCimport_02 : O_recon_F_OCimport_01 { class EventHandlers; };
 
-    class I_C_Offroad_02_LMG_F;
-    class I_C_Offroad_02_LMG_F_OCimport_01 : I_C_Offroad_02_LMG_F { scope = 0; class EventHandlers; class Turrets; };
-    class I_C_Offroad_02_LMG_F_OCimport_02 : I_C_Offroad_02_LMG_F_OCimport_01 { 
-        class EventHandlers; 
-        class Turrets : Turrets {
-            class LMG_Turret;
-            class CargoTurret_01;
-        };
-    };
-
-    class I_C_Offroad_02_AT_F;
-    class I_C_Offroad_02_AT_F_OCimport_01 : I_C_Offroad_02_AT_F { scope = 0; class EventHandlers; class Turrets; };
-    class I_C_Offroad_02_AT_F_OCimport_02 : I_C_Offroad_02_AT_F_OCimport_01 { 
-        class EventHandlers; 
-        class Turrets : Turrets {
-            class AT_Turret;
-            class CargoTurret_01;
-        };
-    };
-
-    class LOP_IRA_Landrover_M2;
-    class LOP_IRA_Landrover_M2_OCimport_01 : LOP_IRA_Landrover_M2 { scope = 0; class EventHandlers; class Turrets; };
-    class LOP_IRA_Landrover_M2_OCimport_02 : LOP_IRA_Landrover_M2_OCimport_01 { 
+    class rhs_brm1k_tv;
+    class rhs_brm1k_tv_OCimport_01 : rhs_brm1k_tv { scope = 0; class EventHandlers; class Turrets; };
+    class rhs_brm1k_tv_OCimport_02 : rhs_brm1k_tv_OCimport_01 { 
         class EventHandlers; 
         class Turrets : Turrets {
             class MainTurret;
+            class NavTurret;
+            class LeftBack;
+            class RightBack;
         };
     };
 
-    class LOP_IRA_Landrover_SPG9;
-    class LOP_IRA_Landrover_SPG9_OCimport_01 : LOP_IRA_Landrover_SPG9 { scope = 0; class EventHandlers; class Turrets; };
-    class LOP_IRA_Landrover_SPG9_OCimport_02 : LOP_IRA_Landrover_SPG9_OCimport_01 { 
-        class EventHandlers; 
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
-
-    class rhsgref_BRDM2UM_msv;
-    class rhsgref_BRDM2UM_msv_OCimport_01 : rhsgref_BRDM2UM_msv { scope = 0; class EventHandlers; class Turrets; };
-    class rhsgref_BRDM2UM_msv_OCimport_02 : rhsgref_BRDM2UM_msv_OCimport_01 { 
-        class EventHandlers; 
-        class Turrets : Turrets {
-            class CommanderOptics;
-            class CargoTurret_01;
-            class CargoTurret_02;
-            class CargoTurret_03;
-            class CargoTurret_04;
-            class CargoTurret_05;
-            class CargoTurret_06;
-        };
-    };
-
-    class rhsgref_BRDM2_msv;
-    class rhsgref_BRDM2_msv_OCimport_01 : rhsgref_BRDM2_msv { scope = 0; class EventHandlers; class Turrets; };
-    class rhsgref_BRDM2_msv_OCimport_02 : rhsgref_BRDM2_msv_OCimport_01 { 
-        class EventHandlers; 
-        class Turrets : Turrets {
-            class CommanderOptics;
-            class MainTurret;
-            class CargoTurret_01;
-            class CargoTurret_02;
-            class CargoTurret_03;
-            class CargoTurret_04;
-            class CargoTurret_05;
-            class CargoTurret_06;
-        };
-    };
-
-    class rhsgref_BRDM2_ATGM_msv;
-    class rhsgref_BRDM2_ATGM_msv_OCimport_01 : rhsgref_BRDM2_ATGM_msv { scope = 0; class EventHandlers; class Turrets; };
-    class rhsgref_BRDM2_ATGM_msv_OCimport_02 : rhsgref_BRDM2_ATGM_msv_OCimport_01 { 
-        class EventHandlers; 
-        class Turrets : Turrets {
-            class MainTurret;
-            class CargoTurret_01;
-            class CargoTurret_02;
-            class CargoTurret_03;
-            class CargoTurret_04;
-            class CargoTurret_05;
-        };
-    };
-
-    class rhs_btr60_msv;
-    class rhs_btr60_msv_OCimport_01 : rhs_btr60_msv { scope = 0; class EventHandlers; class Turrets; };
-    class rhs_btr60_msv_OCimport_02 : rhs_btr60_msv_OCimport_01 { 
+    class rhs_btr70_msv;
+    class rhs_btr70_msv_OCimport_01 : rhs_btr70_msv { scope = 0; class EventHandlers; class Turrets; };
+    class rhs_btr70_msv_OCimport_02 : rhs_btr70_msv_OCimport_01 { 
         class EventHandlers; 
         class Turrets : Turrets {
             class MainTurret;
@@ -126,97 +48,34 @@ class CfgVehicles {
         };
     };
 
-    class rhs_zsu234_aa;
-    class rhs_zsu234_aa_OCimport_01 : rhs_zsu234_aa { scope = 0; class EventHandlers; class Turrets; };
-    class rhs_zsu234_aa_OCimport_02 : rhs_zsu234_aa_OCimport_01 { 
+    class rhsgref_cdf_reg_uaz_dshkm;
+    class rhsgref_cdf_reg_uaz_dshkm_OCimport_01 : rhsgref_cdf_reg_uaz_dshkm { scope = 0; class EventHandlers; class Turrets; };
+    class rhsgref_cdf_reg_uaz_dshkm_OCimport_02 : rhsgref_cdf_reg_uaz_dshkm_OCimport_01 { 
         class EventHandlers; 
         class Turrets : Turrets {
             class MainTurret;
-        };
-    };
-
-    class LOP_ISTS_OPF_T55;
-    class LOP_ISTS_OPF_T55_OCimport_01 : LOP_ISTS_OPF_T55 { scope = 0; class EventHandlers; class Turrets; };
-    class LOP_ISTS_OPF_T55_OCimport_02 : LOP_ISTS_OPF_T55_OCimport_01 { 
-        class EventHandlers; 
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
-
-    class LOP_ISTS_OPF_T34;
-    class LOP_ISTS_OPF_T34_OCimport_01 : LOP_ISTS_OPF_T34 { scope = 0; class EventHandlers; class Turrets; };
-    class LOP_ISTS_OPF_T34_OCimport_02 : LOP_ISTS_OPF_T34_OCimport_01 { 
-        class EventHandlers; 
-        class Turrets : Turrets {
-            class MainTurret;
-            class FrontGunner;
-        };
-    };
-
-    class rhs_bmp1p_msv;
-    class rhs_bmp1p_msv_OCimport_01 : rhs_bmp1p_msv { scope = 0; class EventHandlers; class Turrets; };
-    class rhs_bmp1p_msv_OCimport_02 : rhs_bmp1p_msv_OCimport_01 { 
-        class EventHandlers; 
-        class Turrets : Turrets {
-            class MainTurret;
-            class Com_BMP1;
             class CargoTurret_01;
-            class CargoTurret_02;
-            class CargoTurret_03;
-            class CargoTurret_04;
-            class CargoTurret_05;
-            class CargoTurret_06;
-            class CargoTurret_07;
-            class CargoTurret_08;
-            class CargoTurret_09;
-            class CargoTurret_10;
         };
     };
 
-    class rhsgref_hidf_m113a3_m2;
-    class rhsgref_hidf_m113a3_m2_OCimport_01 : rhsgref_hidf_m113a3_m2 { scope = 0; class EventHandlers; class Turrets; };
-    class rhsgref_hidf_m113a3_m2_OCimport_02 : rhsgref_hidf_m113a3_m2_OCimport_01 { 
+    class rhsgref_cdf_reg_uaz_spg9;
+    class rhsgref_cdf_reg_uaz_spg9_OCimport_01 : rhsgref_cdf_reg_uaz_spg9 { scope = 0; class EventHandlers; class Turrets; };
+    class rhsgref_cdf_reg_uaz_spg9_OCimport_02 : rhsgref_cdf_reg_uaz_spg9_OCimport_01 { 
+        class EventHandlers; 
+        class Turrets : Turrets {
+            class MainTurret;
+            class CargoTurret_01;
+        };
+    };
+
+    class rhs_gaz66_zu23_msv;
+    class rhs_gaz66_zu23_msv_OCimport_01 : rhs_gaz66_zu23_msv { scope = 0; class EventHandlers; class Turrets; };
+    class rhs_gaz66_zu23_msv_OCimport_02 : rhs_gaz66_zu23_msv_OCimport_01 { 
         class EventHandlers; 
         class Turrets : Turrets {
             class MainTurret;
             class CargoTurret_01;
             class CargoTurret_02;
-        };
-    };
-
-    class B_Heli_Light_01_dynamicLoadout_F;
-    class B_Heli_Light_01_dynamicLoadout_F_OCimport_01 : B_Heli_Light_01_dynamicLoadout_F { scope = 0; class EventHandlers; class Turrets; };
-    class B_Heli_Light_01_dynamicLoadout_F_OCimport_02 : B_Heli_Light_01_dynamicLoadout_F_OCimport_01 { 
-        class EventHandlers; 
-        class Turrets : Turrets {
-            class CopilotTurret;
-        };
-    };
-
-    class B_Heli_Light_01_F;
-    class B_Heli_Light_01_F_OCimport_01 : B_Heli_Light_01_F { scope = 0; class EventHandlers; class Turrets; };
-    class B_Heli_Light_01_F_OCimport_02 : B_Heli_Light_01_F_OCimport_01 { 
-        class EventHandlers; 
-        class Turrets : Turrets {
-            class CopilotTurret;
-            class CargoTurret_01;
-            class CargoTurret_02;
-            class CargoTurret_03;
-            class CargoTurret_04;
-        };
-    };
-
-    class I_Plane_Fighter_03_dynamicLoadout_F;
-    class I_Plane_Fighter_03_dynamicLoadout_F_OCimport_01 : I_Plane_Fighter_03_dynamicLoadout_F { scope = 0; class EventHandlers; };
-    class I_Plane_Fighter_03_dynamicLoadout_F_OCimport_02 : I_Plane_Fighter_03_dynamicLoadout_F_OCimport_01 { scope = 0; class EventHandlers; };
-
-    class RHS_BM21_MSV_01;
-    class RHS_BM21_MSV_01_OCimport_01 : RHS_BM21_MSV_01 { scope = 0; class EventHandlers; class Turrets; };
-    class RHS_BM21_MSV_01_OCimport_02 : RHS_BM21_MSV_01_OCimport_01 { 
-        class EventHandlers; 
-        class Turrets : Turrets {
-            class MainTurret;
         };
     };
 
@@ -232,15 +91,72 @@ class CfgVehicles {
     class RHS_Ural_Repair_MSV_01_OCimport_01 : RHS_Ural_Repair_MSV_01 { scope = 0; class EventHandlers; };
     class RHS_Ural_Repair_MSV_01_OCimport_02 : RHS_Ural_Repair_MSV_01_OCimport_01 { scope = 0; class EventHandlers; };
 
-    class RHS_Ural_Zu23_MSV_01;
-    class RHS_Ural_Zu23_MSV_01_OCimport_01 : RHS_Ural_Zu23_MSV_01 { scope = 0; class EventHandlers; class Turrets; };
-    class RHS_Ural_Zu23_MSV_01_OCimport_02 : RHS_Ural_Zu23_MSV_01_OCimport_01 { 
+    class rhsgref_cdf_reg_uaz;
+    class rhsgref_cdf_reg_uaz_OCimport_01 : rhsgref_cdf_reg_uaz { scope = 0; class EventHandlers; };
+    class rhsgref_cdf_reg_uaz_OCimport_02 : rhsgref_cdf_reg_uaz_OCimport_01 { scope = 0; class EventHandlers; };
+
+    class rhs_sprut_vdv;
+    class rhs_sprut_vdv_OCimport_01 : rhs_sprut_vdv { scope = 0; class EventHandlers; class Turrets; };
+    class rhs_sprut_vdv_OCimport_02 : rhs_sprut_vdv_OCimport_01 { 
+        class EventHandlers; 
+        class Turrets : Turrets {
+            class MainTurret;
+        };
+    };
+
+    class RHS_BM21_MSV_01;
+    class RHS_BM21_MSV_01_OCimport_01 : RHS_BM21_MSV_01 { scope = 0; class EventHandlers; class Turrets; };
+    class RHS_BM21_MSV_01_OCimport_02 : RHS_BM21_MSV_01_OCimport_01 { 
+        class EventHandlers; 
+        class Turrets : Turrets {
+            class MainTurret;
+        };
+    };
+
+    class I_Heli_light_03_dynamicLoadout_F;
+    class I_Heli_light_03_dynamicLoadout_F_OCimport_01 : I_Heli_light_03_dynamicLoadout_F { scope = 0; class EventHandlers; class Turrets; };
+    class I_Heli_light_03_dynamicLoadout_F_OCimport_02 : I_Heli_light_03_dynamicLoadout_F_OCimport_01 { 
+        class EventHandlers; 
+        class Turrets : Turrets {
+            class MainTurret;
+            class CargoTurret_01;
+            class CargoTurret_02;
+        };
+    };
+
+    class I_Heli_light_03_unarmed_F;
+    class I_Heli_light_03_unarmed_F_OCimport_01 : I_Heli_light_03_unarmed_F { scope = 0; class EventHandlers; class Turrets; };
+    class I_Heli_light_03_unarmed_F_OCimport_02 : I_Heli_light_03_unarmed_F_OCimport_01 { 
+        class EventHandlers; 
+        class Turrets : Turrets {
+            class MainTurret;
+        };
+    };
+
+    class I_Plane_Fighter_03_dynamicLoadout_F;
+    class I_Plane_Fighter_03_dynamicLoadout_F_OCimport_01 : I_Plane_Fighter_03_dynamicLoadout_F { scope = 0; class EventHandlers; };
+    class I_Plane_Fighter_03_dynamicLoadout_F_OCimport_02 : I_Plane_Fighter_03_dynamicLoadout_F_OCimport_01 { scope = 0; class EventHandlers; };
+
+    class I_Plane_Fighter_04_F;
+    class I_Plane_Fighter_04_F_OCimport_01 : I_Plane_Fighter_04_F { scope = 0; class EventHandlers; };
+    class I_Plane_Fighter_04_F_OCimport_02 : I_Plane_Fighter_04_F_OCimport_01 { scope = 0; class EventHandlers; };
+
+    class rhs_Ob_681_2;
+    class rhs_Ob_681_2_OCimport_01 : rhs_Ob_681_2 { scope = 0; class EventHandlers; class Turrets; };
+    class rhs_Ob_681_2_OCimport_02 : rhs_Ob_681_2_OCimport_01 { 
         class EventHandlers; 
         class Turrets : Turrets {
             class MainTurret;
             class CargoTurret_01;
             class CargoTurret_02;
             class CargoTurret_03;
+            class CargoTurret_04;
+            class CargoTurret_05;
+            class CargoTurret_06;
+            class CargoTurret_07;
+            class CargoTurret_08;
+            class CargoTurret_09;
+            class CargoTurret_10;
         };
     };
 
@@ -255,30 +171,30 @@ class CfgVehicles {
     };
 
 
-    class OPF_CAV_RIFLEMAN : O_Soldier_F_OCimport_02 {
+    class OPF_CAV_Squadleader : O_Soldier_SL_F_OCimport_02 {
         author = "CPL.Citarelli.D";
         scope = 2;
         scopeCurator = 2;
-        displayName = "Rifleman";
+        displayName = "Squad Leader";
         side = 0;
-        faction = "OPF_CAV_ISIS_F";
+        faction = "OPF_CAV_GREN_F";
 
         identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
 
-        uniformClass = "LOP_U_ISTS_Fatigue_12";
+        uniformClass = "LOP_U_UKR_Fatigue_TTsKO";
 
-        linkedItems[] = {"LOP_V_6Sh92_Radio_WDL","LOP_H_Shemag_OLV","ItemMap","ItemGPS","ItemCompass","ItemWatch"};
-        respawnlinkedItems[] = {"LOP_V_6Sh92_Radio_WDL","LOP_H_Shemag_OLV","ItemMap","ItemGPS","ItemCompass","ItemWatch"};
+        linkedItems[] = {"LOP_V_6Sh92_OLV","LOP_H_Fieldcap_UKR","ItemMap","ItemRadioAcreFlagged","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"LOP_V_6Sh92_OLV","LOP_H_Fieldcap_UKR","ItemMap","ItemRadioAcreFlagged","ItemCompass","ItemWatch"};
 
-        weapons[] = {"rhs_weap_akmn","launch_RPG7_F","rhs_weap_pya"};
-        respawnWeapons[] = {"rhs_weap_akmn","launch_RPG7_F","rhs_weap_pya"};
+        weapons[] = {"rhs_weap_vhsd2_ct15x","Binocular"};
+        respawnWeapons[] = {"rhs_weap_vhsd2_ct15x","Binocular"};
 
-        magazines[] = {"rhs_30Rnd_762x39mm_bakelite","RPG7_F","rhs_mag_9x19_17","rhs_30Rnd_762x39mm_bakelite","rhs_mag_9x19_17"};
-        respawnMagazines[] = {"rhs_30Rnd_762x39mm_bakelite","RPG7_F","rhs_mag_9x19_17","rhs_30Rnd_762x39mm_bakelite","rhs_mag_9x19_17"};
+        magazines[] = {"rhsgref_30rnd_556x45_vhs2","rhsgref_30rnd_556x45_vhs2"};
+        respawnMagazines[] = {"rhsgref_30rnd_556x45_vhs2","rhsgref_30rnd_556x45_vhs2"};
 
-        backpack = "rhs_sidor";
+        backpack = "rhsusf_falconii";
 
-        ALiVE_orbatCreator_loadout[] = {{"rhs_weap_akmn","rhs_acc_dtkakm","","",{"rhs_30Rnd_762x39mm_bakelite",30},{},""},{"launch_RPG7_F","","","",{"RPG7_F",1},{},""},{"rhs_weap_pya","","","",{"rhs_mag_9x19_17",17},{},""},{"LOP_U_ISTS_Fatigue_12",{{"ACE_fieldDressing",4},{"ACE_packingBandage",4},{"ACE_morphine",4},{"ACE_tourniquet",4},{"rhs_30Rnd_762x39mm_bakelite",1,30}}},{"LOP_V_6Sh92_Radio_WDL",{{"SmokeShell",4,1},{"SmokeShellBlue",1,1},{"rhs_10Rnd_762x54mmR_7N14",8,10},{"rhs_30Rnd_762x39mm_bakelite",2,30}}},{"rhs_sidor",{{"rhs_30Rnd_762x39mm_bakelite",3,30},{"rhs_rpg7_PG7V_mag",2,1}}},"LOP_H_Shemag_OLV","",{},{"ItemMap","ItemGPS","","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"rhs_weap_vhsd2_ct15x","","rhs_acc_perst1ik_ris","",{"rhsgref_30rnd_556x45_vhs2",30},{},"rhsusf_acc_kac_grip"},{},{},{"LOP_U_UKR_Fatigue_TTsKO",{{"ACE_tourniquet",4},{"ACE_quikclot",10},{"ACE_epinephrine",2},{"ACE_morphine",2},{"ACE_splint",4},{"ACE_EarPlugs",1},{"rhsgref_30rnd_556x45_vhs2",1,30}}},{"LOP_V_6Sh92_OLV",{{"rhs_mag_rgn",4,1},{"rhs_mag_rdg2_black",2,1},{"rhsgref_30rnd_556x45_vhs2",6,30}}},{"rhsusf_falconii",{{"rhsgref_30rnd_556x45_vhs2",8,30}}},"LOP_H_Fieldcap_UKR","",{"Binocular","","","",{},{},""},{"ItemMap","","ItemRadioAcreFlagged","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -295,30 +211,30 @@ class CfgVehicles {
 
     };
 
-    class OPF_CAV_CIV_RIFLE : OPF_CAV_RIFLEMAN {
+    class OPF_CAV_TeamLeader : OPF_CAV_Squadleader {
         author = "CPL.Citarelli.D";
         scope = 2;
         scopeCurator = 2;
-        displayName = "Civilain Rifleman";
+        displayName = "Team Leader";
         side = 0;
-        faction = "OPF_CAV_ISIS_F";
+        faction = "OPF_CAV_GREN_F";
 
         identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
 
-        uniformClass = "LOP_U_AM_Fatigue_02";
+        uniformClass = "LOP_U_UKR_Fatigue_TTsKO";
 
-        linkedItems[] = {"LOP_V_6Sh92_Radio_WDL","LOP_H_Turban_mask","ItemMap","ItemGPS","ItemCompass","ItemWatch"};
-        respawnlinkedItems[] = {"LOP_V_6Sh92_Radio_WDL","LOP_H_Turban_mask","ItemMap","ItemGPS","ItemCompass","ItemWatch"};
+        linkedItems[] = {"LOP_V_6Sh92_OLV","LOP_H_6B27M_ess_UKR","ItemMap","ItemRadioAcreFlagged","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"LOP_V_6Sh92_OLV","LOP_H_6B27M_ess_UKR","ItemMap","ItemRadioAcreFlagged","ItemCompass","ItemWatch"};
 
-        weapons[] = {"rhs_weap_akms","rhs_weap_panzerfaust60","rhs_weap_pya"};
-        respawnWeapons[] = {"rhs_weap_akms","rhs_weap_panzerfaust60","rhs_weap_pya"};
+        weapons[] = {"rhs_weap_vhsd2_bg_ct15x","Binocular"};
+        respawnWeapons[] = {"rhs_weap_vhsd2_bg_ct15x","Binocular"};
 
-        magazines[] = {"rhs_30Rnd_762x39mm_bakelite","rhs_mag_9x19_17","rhs_30Rnd_762x39mm_bakelite","rhs_mag_9x19_17"};
-        respawnMagazines[] = {"rhs_30Rnd_762x39mm_bakelite","rhs_mag_9x19_17","rhs_30Rnd_762x39mm_bakelite","rhs_mag_9x19_17"};
+        magazines[] = {"rhsgref_30rnd_556x45_vhs2","rhsgref_30rnd_556x45_vhs2"};
+        respawnMagazines[] = {"rhsgref_30rnd_556x45_vhs2","rhsgref_30rnd_556x45_vhs2"};
 
-        backpack = "rhs_sidor";
+        backpack = "rhsusf_falconii";
 
-        ALiVE_orbatCreator_loadout[] = {{"rhs_weap_akms","rhs_acc_dtkakm","","",{"rhs_30Rnd_762x39mm_bakelite",30},{},""},{"rhs_weap_panzerfaust60","","","",{},{},""},{"rhs_weap_pya","","","",{"rhs_mag_9x19_17",17},{},""},{"LOP_U_AM_Fatigue_02",{{"FirstAidKit",4},{"rhs_30Rnd_762x39mm_bakelite",3,30}}},{"LOP_V_6Sh92_Radio_WDL",{{"SmokeShell",4,1},{"SmokeShellBlue",1,1},{"rhs_10Rnd_762x54mmR_7N14",8,10},{"rhs_mag_9x19_17",3,17}}},{"rhs_sidor",{{"rhs_VOG25P",6,1}}},"LOP_H_Turban_mask","",{},{"ItemMap","ItemGPS","","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"rhs_weap_vhsd2_bg_ct15x","","rhs_acc_perst1ik_ris","",{"rhsgref_30rnd_556x45_vhs2",30},{},""},{},{},{"LOP_U_UKR_Fatigue_TTsKO",{{"ACE_tourniquet",4},{"ACE_quikclot",10},{"ACE_epinephrine",2},{"ACE_morphine",2},{"ACE_splint",4},{"ACE_EarPlugs",1},{"rhsgref_30rnd_556x45_vhs2",1,30},{"rhs_mag_M441_HE",1,1}}},{"LOP_V_6Sh92_OLV",{{"rhs_mag_rgn",4,1},{"rhs_mag_rdg2_black",2,1},{"rhsgref_30rnd_556x45_vhs2",5,30},{"rhs_mag_M441_HE",2,1}}},{"rhsusf_falconii",{{"rhsgref_30rnd_556x45_vhs2",6,30},{"rhs_mag_m713_Red",10,1},{"rhs_mag_m662_red",10,1}}},"LOP_H_6B27M_ess_UKR","",{"Binocular","","","",{},{},""},{"ItemMap","","ItemRadioAcreFlagged","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -335,30 +251,30 @@ class CfgVehicles {
 
     };
 
-    class OPF_CAV_SPECOP_RIFLE : OPF_CAV_RIFLEMAN {
+    class OPF_CAV_RifleAT : OPF_CAV_Squadleader {
         author = "CPL.Citarelli.D";
         scope = 2;
         scopeCurator = 2;
-        displayName = "Specop Rifleman";
+        displayName = "Rifleman (AT)";
         side = 0;
-        faction = "OPF_CAV_ISIS_F";
+        faction = "OPF_CAV_GREN_F";
 
         identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
 
-        uniformClass = "LOP_U_IRA_Fatigue_DPM_GSW";
+        uniformClass = "LOP_U_UKR_Fatigue_TTsKO";
 
-        linkedItems[] = {"LOP_V_6Sh92_Radio_WDL","LOP_H_Shemag_BLK","ItemMap","ItemGPS","ItemCompass","ItemWatch","ACE_NVG_Gen1"};
-        respawnlinkedItems[] = {"LOP_V_6Sh92_Radio_WDL","LOP_H_Shemag_BLK","ItemMap","ItemGPS","ItemCompass","ItemWatch","ACE_NVG_Gen1"};
+        linkedItems[] = {"LOP_V_6Sh92_OLV","LOP_H_6B27M_UKR","ItemMap","ItemRadioAcreFlagged","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"LOP_V_6Sh92_OLV","LOP_H_6B27M_UKR","ItemMap","ItemRadioAcreFlagged","ItemCompass","ItemWatch"};
 
-        weapons[] = {"rhs_weap_akmn","rhs_weap_rshg2","rhs_weap_pya"};
-        respawnWeapons[] = {"rhs_weap_akmn","rhs_weap_rshg2","rhs_weap_pya"};
+        weapons[] = {"rhs_weap_vhsd2","rhs_weap_rpg75","Binocular"};
+        respawnWeapons[] = {"rhs_weap_vhsd2","rhs_weap_rpg75","Binocular"};
 
-        magazines[] = {"rhs_30Rnd_762x39mm_bakelite","rhs_mag_9x19_17","rhs_30Rnd_762x39mm_bakelite","rhs_mag_9x19_17"};
-        respawnMagazines[] = {"rhs_30Rnd_762x39mm_bakelite","rhs_mag_9x19_17","rhs_30Rnd_762x39mm_bakelite","rhs_mag_9x19_17"};
+        magazines[] = {"rhsgref_30rnd_556x45_vhs2","rhsgref_30rnd_556x45_vhs2"};
+        respawnMagazines[] = {"rhsgref_30rnd_556x45_vhs2","rhsgref_30rnd_556x45_vhs2"};
 
-        backpack = "rhs_sidor";
+        backpack = "rhsusf_falconii";
 
-        ALiVE_orbatCreator_loadout[] = {{"rhs_weap_akmn","rhs_acc_pbs1","","rhs_acc_okp7_dovetail",{"rhs_30Rnd_762x39mm_bakelite",30},{},""},{"rhs_weap_rshg2","","","",{},{},""},{"rhs_weap_pya","","","",{"rhs_mag_9x19_17",17},{},""},{"LOP_U_IRA_Fatigue_DPM_GSW",{{"FirstAidKit",4},{"rhs_30Rnd_762x39mm_bakelite",3,30}}},{"LOP_V_6Sh92_Radio_WDL",{{"SmokeShell",4,1},{"SmokeShellBlue",1,1},{"rhs_10Rnd_762x54mmR_7N14",8,10},{"rhs_30Rnd_762x39mm_bakelite",2,30}}},{"rhs_sidor",{{"rhs_VOG25P",5,1},{"rhs_30Rnd_762x39mm_bakelite",3,30}}},"LOP_H_Shemag_BLK","",{},{"ItemMap","ItemGPS","","ItemCompass","ItemWatch","ACE_NVG_Gen1"}};
+        ALiVE_orbatCreator_loadout[] = {{"rhs_weap_vhsd2","","rhs_acc_perst1ik_ris","optic_Aco",{"rhsgref_30rnd_556x45_vhs2",30},{},"rhsusf_acc_kac_grip"},{"rhs_weap_rpg75","","","",{},{},""},{},{"LOP_U_UKR_Fatigue_TTsKO",{{"ACE_tourniquet",4},{"ACE_quikclot",10},{"ACE_epinephrine",2},{"ACE_morphine",2},{"ACE_splint",4},{"ACE_EarPlugs",1}}},{"LOP_V_6Sh92_OLV",{{"rhsgref_30rnd_556x45_vhs2",6,30},{"rhs_mag_rgn",4,1},{"rhs_mag_rdg2_black",2,1}}},{"rhsusf_falconii",{}},"LOP_H_6B27M_UKR","",{"Binocular","","","",{},{},""},{"ItemMap","","ItemRadioAcreFlagged","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -375,30 +291,70 @@ class CfgVehicles {
 
     };
 
-    class OPF_CAV_GREN : OPF_CAV_RIFLEMAN {
+    class OPF_CAV_Medic : OPF_CAV_Squadleader {
+        author = "CPL.Citarelli.D";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Rifleman (Medic)";
+        side = 0;
+        faction = "OPF_CAV_GREN_F";
+
+        identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
+
+        uniformClass = "LOP_U_UKR_Fatigue_TTsKO";
+
+        linkedItems[] = {"LOP_V_6Sh92_OLV","LOP_H_6B27M_UKR","ItemMap","ItemRadioAcreFlagged","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"LOP_V_6Sh92_OLV","LOP_H_6B27M_UKR","ItemMap","ItemRadioAcreFlagged","ItemCompass","ItemWatch"};
+
+        weapons[] = {"rhs_weap_vhsd2","Binocular"};
+        respawnWeapons[] = {"rhs_weap_vhsd2","Binocular"};
+
+        magazines[] = {"rhsgref_30rnd_556x45_vhs2","rhsgref_30rnd_556x45_vhs2"};
+        respawnMagazines[] = {"rhsgref_30rnd_556x45_vhs2","rhsgref_30rnd_556x45_vhs2"};
+
+        backpack = "rhsusf_falconii";
+
+        ALiVE_orbatCreator_loadout[] = {{"rhs_weap_vhsd2","","rhs_acc_perst1ik_ris","optic_Aco",{"rhsgref_30rnd_556x45_vhs2",30},{},"rhsusf_acc_kac_grip"},{},{},{"LOP_U_UKR_Fatigue_TTsKO",{{"ACE_tourniquet",4},{"ACE_quikclot",10},{"ACE_epinephrine",2},{"ACE_morphine",2},{"ACE_splint",4},{"ACE_EarPlugs",1}}},{"LOP_V_6Sh92_OLV",{{"rhsgref_30rnd_556x45_vhs2",6,30},{"rhs_mag_rgn",4,1},{"rhs_mag_rdg2_black",2,1}}},{"rhsusf_falconii",{}},"LOP_H_6B27M_UKR","",{"Binocular","","","",{},{},""},{"ItemMap","","ItemRadioAcreFlagged","ItemCompass","ItemWatch",""}};
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class OPF_CAV_Gren : OPF_CAV_Squadleader {
         author = "CPL.Citarelli.D";
         scope = 2;
         scopeCurator = 2;
         displayName = "Grenadier";
         side = 0;
-        faction = "OPF_CAV_ISIS_F";
+        faction = "OPF_CAV_GREN_F";
 
         identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
 
-        uniformClass = "LOP_U_ISTS_Fatigue_12";
+        uniformClass = "LOP_U_UKR_Fatigue_TTsKO";
 
-        linkedItems[] = {"LOP_V_6Sh92_Radio_WDL","LOP_H_Shemag_OLV","ItemMap","ItemGPS","ItemCompass","ItemWatch"};
-        respawnlinkedItems[] = {"LOP_V_6Sh92_Radio_WDL","LOP_H_Shemag_OLV","ItemMap","ItemGPS","ItemCompass","ItemWatch"};
+        linkedItems[] = {"LOP_V_6Sh92_Vog_OLV","LOP_H_6B27M_UKR","ItemMap","ItemRadioAcreFlagged","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"LOP_V_6Sh92_Vog_OLV","LOP_H_6B27M_UKR","ItemMap","ItemRadioAcreFlagged","ItemCompass","ItemWatch"};
 
-        weapons[] = {"rhs_weap_akmn_gp25","rhs_weap_pya"};
-        respawnWeapons[] = {"rhs_weap_akmn_gp25","rhs_weap_pya"};
+        weapons[] = {"rhs_weap_vhsd2_bg","Binocular"};
+        respawnWeapons[] = {"rhs_weap_vhsd2_bg","Binocular"};
 
-        magazines[] = {"rhs_VOG25","rhs_mag_9x19_17","rhs_VOG25","rhs_mag_9x19_17"};
-        respawnMagazines[] = {"rhs_VOG25","rhs_mag_9x19_17","rhs_VOG25","rhs_mag_9x19_17"};
+        magazines[] = {"rhsgref_30rnd_556x45_vhs2","rhsgref_30rnd_556x45_vhs2"};
+        respawnMagazines[] = {"rhsgref_30rnd_556x45_vhs2","rhsgref_30rnd_556x45_vhs2"};
 
-        backpack = "rhs_sidor";
+        backpack = "rhsusf_falconii";
 
-        ALiVE_orbatCreator_loadout[] = {{"rhs_weap_akmn_gp25","rhs_acc_dtkakm","","",{},{"rhs_VOG25",1},""},{},{"rhs_weap_pya","","","",{"rhs_mag_9x19_17",17},{},""},{"LOP_U_ISTS_Fatigue_12",{{"ACE_fieldDressing",4},{"ACE_packingBandage",4},{"ACE_morphine",4},{"ACE_tourniquet",4},{"rhs_30Rnd_762x39mm_bakelite",1,30},{"rhs_VOG25",2,1}}},{"LOP_V_6Sh92_Radio_WDL",{{"SmokeShell",4,1},{"SmokeShellBlue",1,1},{"rhs_10Rnd_762x54mmR_7N14",8,10},{"rhs_30Rnd_762x39mm_bakelite",2,30}}},{"rhs_sidor",{{"rhs_VOG25P",7,1},{"rhs_30Rnd_762x39mm_bakelite",3,30},{"rhs_VOG25",4,1}}},"LOP_H_Shemag_OLV","",{},{"ItemMap","ItemGPS","","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"rhs_weap_vhsd2_bg","","rhs_acc_perst1ik_ris","optic_Aco",{"rhsgref_30rnd_556x45_vhs2",30},{},""},{},{},{"LOP_U_UKR_Fatigue_TTsKO",{{"ACE_tourniquet",4},{"ACE_quikclot",10},{"ACE_epinephrine",2},{"ACE_morphine",2},{"ACE_splint",4},{"ACE_EarPlugs",1},{"rhsgref_30rnd_556x45_vhs2",1,30},{"rhs_mag_M441_HE",1,1}}},{"LOP_V_6Sh92_Vog_OLV",{{"rhs_mag_rgn",4,1},{"rhs_mag_rdg2_black",2,1},{"rhsgref_30rnd_556x45_vhs2",6,30},{"rhs_mag_M441_HE",5,1}}},{"rhsusf_falconii",{{"rhs_mag_M441_HE",14,1},{"rhs_mag_m713_Red",8,1},{"rhs_mag_m662_red",8,1}}},"LOP_H_6B27M_UKR","",{"Binocular","","","",{},{},""},{"ItemMap","","ItemRadioAcreFlagged","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -415,30 +371,30 @@ class CfgVehicles {
 
     };
 
-    class OPF_CAV_CIV_GREN : OPF_CAV_RIFLEMAN {
+    class OPF_CAV_Gunner : OPF_CAV_Squadleader {
         author = "CPL.Citarelli.D";
         scope = 2;
         scopeCurator = 2;
-        displayName = "Civilian Grenadier";
+        displayName = "Gunner (MG42)";
         side = 0;
-        faction = "OPF_CAV_ISIS_F";
+        faction = "OPF_CAV_GREN_F";
 
         identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
 
-        uniformClass = "LOP_U_AM_Fatigue_02";
+        uniformClass = "LOP_U_UKR_Fatigue_TTsKO";
 
-        linkedItems[] = {"LOP_V_6Sh92_Radio_WDL","LOP_H_Turban_mask","ItemMap","ItemGPS","ItemCompass","ItemWatch"};
-        respawnlinkedItems[] = {"LOP_V_6Sh92_Radio_WDL","LOP_H_Turban_mask","ItemMap","ItemGPS","ItemCompass","ItemWatch"};
+        linkedItems[] = {"LOP_V_6Sh92_OLV","LOP_H_6B27M_ess_UKR","ItemMap","ItemRadioAcreFlagged","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"LOP_V_6Sh92_OLV","LOP_H_6B27M_ess_UKR","ItemMap","ItemRadioAcreFlagged","ItemCompass","ItemWatch"};
 
-        weapons[] = {"rhs_weap_akms_gp25","rhs_weap_pya"};
-        respawnWeapons[] = {"rhs_weap_akms_gp25","rhs_weap_pya"};
+        weapons[] = {"rhs_weap_mg42","Binocular"};
+        respawnWeapons[] = {"rhs_weap_mg42","Binocular"};
 
-        magazines[] = {"rhs_VOG25","rhs_mag_9x19_17","rhs_VOG25","rhs_mag_9x19_17"};
-        respawnMagazines[] = {"rhs_VOG25","rhs_mag_9x19_17","rhs_VOG25","rhs_mag_9x19_17"};
+        magazines[] = {"rhsgref_50Rnd_792x57_SmE_drum","rhsgref_50Rnd_792x57_SmE_drum"};
+        respawnMagazines[] = {"rhsgref_50Rnd_792x57_SmE_drum","rhsgref_50Rnd_792x57_SmE_drum"};
 
-        backpack = "rhs_sidor";
+        backpack = "rhsusf_falconii";
 
-        ALiVE_orbatCreator_loadout[] = {{"rhs_weap_akms_gp25","rhs_acc_dtkakm","","",{},{"rhs_VOG25",1},""},{},{"rhs_weap_pya","","","",{"rhs_mag_9x19_17",17},{},""},{"LOP_U_AM_Fatigue_02",{{"FirstAidKit",4},{"rhs_30Rnd_762x39mm_bakelite",3,30},{"rhs_VOG25",3,1}}},{"LOP_V_6Sh92_Radio_WDL",{{"SmokeShell",4,1},{"SmokeShellBlue",1,1},{"rhs_10Rnd_762x54mmR_7N14",8,10},{"rhs_30Rnd_762x39mm_bakelite",2,30}}},{"rhs_sidor",{{"rhs_VOG25P",5,1},{"rhs_30Rnd_762x39mm_bakelite",5,30}}},"LOP_H_Turban_mask","",{},{"ItemMap","ItemGPS","","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"rhs_weap_mg42","","","",{"rhsgref_50Rnd_792x57_SmE_drum",50},{},""},{},{},{"LOP_U_UKR_Fatigue_TTsKO",{{"ACE_tourniquet",4},{"ACE_quikclot",10},{"ACE_epinephrine",2},{"ACE_morphine",2},{"ACE_splint",4},{"ACE_EarPlugs",1}}},{"LOP_V_6Sh92_OLV",{{"rhs_mag_rgn",4,1},{"rhs_mag_rdg2_black",2,1},{"rhsgref_50Rnd_792x57_SmE_drum",2,50}}},{"rhsusf_falconii",{{"rhsgref_50Rnd_792x57_SmE_drum",8,50}}},"LOP_H_6B27M_ess_UKR","",{"Binocular","","","",{},{},""},{"ItemMap","","ItemRadioAcreFlagged","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -455,308 +411,28 @@ class CfgVehicles {
 
     };
 
-    class OPF_CAV_SPECOP_GREN : OPF_CAV_RIFLEMAN {
-        author = "CPL.Citarelli.D";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Specop Grenadier";
-        side = 0;
-        faction = "OPF_CAV_ISIS_F";
-
-        identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
-
-        uniformClass = "LOP_U_IRA_Fatigue_DPM_GSW";
-
-        linkedItems[] = {"LOP_V_6Sh92_Radio_WDL","LOP_H_Shemag_BLK","ItemMap","ItemGPS","ItemCompass","ItemWatch","ACE_NVG_Gen1"};
-        respawnlinkedItems[] = {"LOP_V_6Sh92_Radio_WDL","LOP_H_Shemag_BLK","ItemMap","ItemGPS","ItemCompass","ItemWatch","ACE_NVG_Gen1"};
-
-        weapons[] = {"rhs_weap_akmn_gp25","rhs_weap_pya"};
-        respawnWeapons[] = {"rhs_weap_akmn_gp25","rhs_weap_pya"};
-
-        magazines[] = {"rhs_30Rnd_762x39mm_bakelite","rhs_mag_9x19_17","rhs_30Rnd_762x39mm_bakelite","rhs_mag_9x19_17"};
-        respawnMagazines[] = {"rhs_30Rnd_762x39mm_bakelite","rhs_mag_9x19_17","rhs_30Rnd_762x39mm_bakelite","rhs_mag_9x19_17"};
-
-        backpack = "rhs_sidor";
-
-        ALiVE_orbatCreator_loadout[] = {{"rhs_weap_akmn_gp25","rhs_acc_pbs1","","rhs_acc_okp7_dovetail",{"rhs_30Rnd_762x39mm_bakelite",30},{},""},{},{"rhs_weap_pya","","","",{"rhs_mag_9x19_17",17},{},""},{"LOP_U_IRA_Fatigue_DPM_GSW",{{"ACE_fieldDressing",4},{"ACE_packingBandage",4},{"ACE_morphine",4},{"ACE_tourniquet",4},{"rhs_30Rnd_762x39mm_bakelite",3,30},{"rhs_VOG25",3,1}}},{"LOP_V_6Sh92_Radio_WDL",{{"SmokeShell",4,1},{"SmokeShellBlue",1,1},{"rhs_10Rnd_762x54mmR_7N14",8,10},{"rhs_VOG25",4,1}}},{"rhs_sidor",{{"rhs_30Rnd_762x39mm_bakelite",6,30},{"rhs_VOG25",11,1}}},"LOP_H_Shemag_BLK","",{},{"ItemMap","ItemGPS","","ItemCompass","ItemWatch","ACE_NVG_Gen1"}};
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
-    };
-
-    class OPF_CAV_GUNNER : OPF_CAV_RIFLEMAN {
-        author = "CPL.Citarelli.D";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Gunner";
-        side = 0;
-        faction = "OPF_CAV_ISIS_F";
-
-        identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
-
-        uniformClass = "LOP_U_ISTS_Fatigue_12";
-
-        linkedItems[] = {"LOP_V_6Sh92_Radio_WDL","LOP_H_Shemag_OLV","ItemMap","ItemGPS","ItemCompass","ItemWatch"};
-        respawnlinkedItems[] = {"LOP_V_6Sh92_Radio_WDL","LOP_H_Shemag_OLV","ItemMap","ItemGPS","ItemCompass","ItemWatch"};
-
-        weapons[] = {"rhs_weap_pkm","rhs_weap_pya"};
-        respawnWeapons[] = {"rhs_weap_pkm","rhs_weap_pya"};
-
-        magazines[] = {"rhs_100Rnd_762x54mmR","rhs_mag_9x19_17","rhs_100Rnd_762x54mmR","rhs_mag_9x19_17"};
-        respawnMagazines[] = {"rhs_100Rnd_762x54mmR","rhs_mag_9x19_17","rhs_100Rnd_762x54mmR","rhs_mag_9x19_17"};
-
-        backpack = "rhs_sidor";
-
-        ALiVE_orbatCreator_loadout[] = {{"rhs_weap_pkm","","","",{"rhs_100Rnd_762x54mmR",100},{},""},{},{"rhs_weap_pya","","","",{"rhs_mag_9x19_17",17},{},""},{"LOP_U_ISTS_Fatigue_12",{{"ACE_fieldDressing",4},{"ACE_packingBandage",4},{"ACE_morphine",4},{"ACE_tourniquet",4}}},{"LOP_V_6Sh92_Radio_WDL",{{"SmokeShell",4,1},{"SmokeShellBlue",1,1},{"rhs_10Rnd_762x54mmR_7N14",8,10}}},{"rhs_sidor",{{"rhs_VOG25P",7,1},{"rhs_100Rnd_762x54mmR",1,100}}},"LOP_H_Shemag_OLV","",{},{"ItemMap","ItemGPS","","ItemCompass","ItemWatch",""}};
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
-    };
-
-    class OPF_CAV_SPECOP_GUNNER : OPF_CAV_RIFLEMAN {
-        author = "CPL.Citarelli.D";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Specop Gunner";
-        side = 0;
-        faction = "OPF_CAV_ISIS_F";
-
-        identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
-
-        uniformClass = "LOP_U_IRA_Fatigue_DPM_GSW";
-
-        linkedItems[] = {"LOP_V_6Sh92_Radio_WDL","LOP_H_Shemag_BLK","ItemMap","ItemGPS","ItemCompass","ItemWatch","ACE_NVG_Gen1"};
-        respawnlinkedItems[] = {"LOP_V_6Sh92_Radio_WDL","LOP_H_Shemag_BLK","ItemMap","ItemGPS","ItemCompass","ItemWatch","ACE_NVG_Gen1"};
-
-        weapons[] = {"rhs_weap_pkm","rhs_weap_pya"};
-        respawnWeapons[] = {"rhs_weap_pkm","rhs_weap_pya"};
-
-        magazines[] = {"rhs_100Rnd_762x54mmR","rhs_mag_9x19_17","rhs_100Rnd_762x54mmR","rhs_mag_9x19_17"};
-        respawnMagazines[] = {"rhs_100Rnd_762x54mmR","rhs_mag_9x19_17","rhs_100Rnd_762x54mmR","rhs_mag_9x19_17"};
-
-        backpack = "rhs_sidor";
-
-        ALiVE_orbatCreator_loadout[] = {{"rhs_weap_pkm","","","",{"rhs_100Rnd_762x54mmR",100},{},""},{},{"rhs_weap_pya","","","",{"rhs_mag_9x19_17",17},{},""},{"LOP_U_IRA_Fatigue_DPM_GSW",{{"FirstAidKit",4},{"rhs_100Rnd_762x54mmR",1,100}}},{"LOP_V_6Sh92_Radio_WDL",{{"SmokeShell",4,1},{"SmokeShellBlue",1,1},{"rhs_10Rnd_762x54mmR_7N14",8,10}}},{"rhs_sidor",{{"rhs_100Rnd_762x54mmR",2,100}}},"LOP_H_Shemag_BLK","",{},{"ItemMap","ItemGPS","","ItemCompass","ItemWatch","ACE_NVG_Gen1"}};
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
-    };
-
-    class OPF_CAV_SPECOP_LEADER : OPF_CAV_RIFLEMAN {
-        author = "CPL.Citarelli.D";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Leader";
-        side = 0;
-        faction = "OPF_CAV_ISIS_F";
-
-        identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
-
-        uniformClass = "LOP_U_ISTS_Fatigue_12";
-
-        linkedItems[] = {"LOP_V_6Sh92_CDF","LOP_H_Shemag_OLV","ItemMap","ItemGPS","ItemCompass","ItemWatch"};
-        respawnlinkedItems[] = {"LOP_V_6Sh92_CDF","LOP_H_Shemag_OLV","ItemMap","ItemGPS","ItemCompass","ItemWatch"};
-
-        weapons[] = {"rhs_weap_l1a1_wood","rhs_weap_pya"};
-        respawnWeapons[] = {"rhs_weap_l1a1_wood","rhs_weap_pya"};
-
-        magazines[] = {"rhs_mag_20Rnd_762x51_m80_fnfal","rhs_mag_9x19_17","rhs_mag_20Rnd_762x51_m80_fnfal","rhs_mag_9x19_17"};
-        respawnMagazines[] = {"rhs_mag_20Rnd_762x51_m80_fnfal","rhs_mag_9x19_17","rhs_mag_20Rnd_762x51_m80_fnfal","rhs_mag_9x19_17"};
-
-        backpack = "rhs_sidor";
-
-        ALiVE_orbatCreator_loadout[] = {{"rhs_weap_l1a1_wood","rhsgref_acc_falMuzzle_l1a1","","",{"rhs_mag_20Rnd_762x51_m80_fnfal",20},{},""},{},{"rhs_weap_pya","","","",{"rhs_mag_9x19_17",17},{},""},{"LOP_U_ISTS_Fatigue_12",{{"ACE_fieldDressing",4},{"ACE_packingBandage",4},{"ACE_morphine",4},{"ACE_tourniquet",4}}},{"LOP_V_6Sh92_CDF",{{"SmokeShell",4,1},{"SmokeShellBlue",1,1},{"rhs_mag_20Rnd_762x51_m80_fnfal",4,20}}},{"rhs_sidor",{{"rhs_VOG25P",7,1},{"rhs_mag_9x19_17",6,17},{"rhs_mag_20Rnd_762x51_m80_fnfal",3,20}}},"LOP_H_Shemag_OLV","",{},{"ItemMap","ItemGPS","","ItemCompass","ItemWatch",""}};
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
-    };
-
-    class OPF_CAV_SNIPER : OPF_CAV_RIFLEMAN {
-        author = "CPL.Citarelli.D";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Sniper";
-        side = 0;
-        faction = "OPF_CAV_ISIS_F";
-
-        identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
-
-        uniformClass = "LOP_U_ISTS_Fatigue_12";
-
-        linkedItems[] = {"LOP_V_6Sh92_CDF","LOP_H_Shemag_OLV","ItemMap","ItemGPS","ItemCompass","ItemWatch"};
-        respawnlinkedItems[] = {"LOP_V_6Sh92_CDF","LOP_H_Shemag_OLV","ItemMap","ItemGPS","ItemCompass","ItemWatch"};
-
-        weapons[] = {"rhs_weap_m76","rhs_weap_pya"};
-        respawnWeapons[] = {"rhs_weap_m76","rhs_weap_pya"};
-
-        magazines[] = {"rhsgref_10Rnd_792x57_m76","rhs_mag_9x19_17","rhsgref_10Rnd_792x57_m76","rhs_mag_9x19_17"};
-        respawnMagazines[] = {"rhsgref_10Rnd_792x57_m76","rhs_mag_9x19_17","rhsgref_10Rnd_792x57_m76","rhs_mag_9x19_17"};
-
-        backpack = "rhs_sidor";
-
-        ALiVE_orbatCreator_loadout[] = {{"rhs_weap_m76","","","rhs_acc_pso1m2",{"rhsgref_10Rnd_792x57_m76",10},{},""},{},{"rhs_weap_pya","","","",{"rhs_mag_9x19_17",17},{},""},{"LOP_U_ISTS_Fatigue_12",{{"ACE_fieldDressing",4},{"ACE_packingBandage",4},{"ACE_morphine",4},{"ACE_tourniquet",4},{"rhsgref_10Rnd_792x57_m76",3,10}}},{"LOP_V_6Sh92_CDF",{{"SmokeShell",4,1},{"SmokeShellBlue",1,1},{"rhs_10Rnd_762x54mmR_7N14",8,10}}},{"rhs_sidor",{{"rhs_VOG25P",7,1},{"rhsgref_10Rnd_792x57_m76",7,10},{"rhs_mag_9x19_17",6,17}}},"LOP_H_Shemag_OLV","",{},{"ItemMap","ItemGPS","","ItemCompass","ItemWatch",""}};
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
-    };
-
-    class OPF_CAV_SPECOP_SNIPER : OPF_CAV_RIFLEMAN {
-        author = "CPL.Citarelli.D";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Specop Sniper";
-        side = 0;
-        faction = "OPF_CAV_ISIS_F";
-
-        identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
-
-        uniformClass = "LOP_U_IRA_Fatigue_DPM_GSW";
-
-        linkedItems[] = {"LOP_V_6Sh92_Radio_WDL","LOP_H_Shemag_BLK","ItemMap","ItemGPS","ItemCompass","ItemWatch","ACE_NVG_Gen1"};
-        respawnlinkedItems[] = {"LOP_V_6Sh92_Radio_WDL","LOP_H_Shemag_BLK","ItemMap","ItemGPS","ItemCompass","ItemWatch","ACE_NVG_Gen1"};
-
-        weapons[] = {"rhs_weap_svdp_wd","rhs_weap_pya"};
-        respawnWeapons[] = {"rhs_weap_svdp_wd","rhs_weap_pya"};
-
-        magazines[] = {"rhs_10Rnd_762x54mmR_7N1","rhs_mag_9x19_17","rhs_10Rnd_762x54mmR_7N1","rhs_mag_9x19_17"};
-        respawnMagazines[] = {"rhs_10Rnd_762x54mmR_7N1","rhs_mag_9x19_17","rhs_10Rnd_762x54mmR_7N1","rhs_mag_9x19_17"};
-
-        backpack = "rhs_sidor";
-
-        ALiVE_orbatCreator_loadout[] = {{"rhs_weap_svdp_wd","rhs_acc_tgpv2","","rhs_acc_pso1m21",{"rhs_10Rnd_762x54mmR_7N1",10},{},""},{},{"rhs_weap_pya","","","",{"rhs_mag_9x19_17",17},{},""},{"LOP_U_IRA_Fatigue_DPM_GSW",{{"FirstAidKit",4},{"rhs_10Rnd_762x54mmR_7N1",3,10}}},{"LOP_V_6Sh92_Radio_WDL",{{"SmokeShell",4,1},{"SmokeShellBlue",1,1},{"rhs_10Rnd_762x54mmR_7N14",3,10}}},{"rhs_sidor",{{"rhs_VOG25P",5,1},{"10Rnd_762x54_Mag",5,10}}},"LOP_H_Shemag_BLK","",{},{"ItemMap","ItemGPS","","ItemCompass","ItemWatch","ACE_NVG_Gen1"}};
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
-    };
-
-    class OPF_CAV_SPECOP_LR_SNIPER : OPF_CAV_RIFLEMAN {
-        author = "CPL.Citarelli.D";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Specop LR Sniper";
-        side = 0;
-        faction = "OPF_CAV_ISIS_F";
-
-        identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
-
-        uniformClass = "LOP_U_IRA_Fatigue_DPM_GSW";
-
-        linkedItems[] = {"LOP_V_6Sh92_Radio_WDL","LOP_H_Shemag_BLK","ItemMap","ItemGPS","ItemCompass","ItemWatch","ACE_NVG_Gen1"};
-        respawnlinkedItems[] = {"LOP_V_6Sh92_Radio_WDL","LOP_H_Shemag_BLK","ItemMap","ItemGPS","ItemCompass","ItemWatch","ACE_NVG_Gen1"};
-
-        weapons[] = {"rhs_weap_t5000","rhs_weap_pya"};
-        respawnWeapons[] = {"rhs_weap_t5000","rhs_weap_pya"};
-
-        magazines[] = {"rhs_5Rnd_338lapua_t5000","rhs_mag_9x19_17","rhs_5Rnd_338lapua_t5000","rhs_mag_9x19_17"};
-        respawnMagazines[] = {"rhs_5Rnd_338lapua_t5000","rhs_mag_9x19_17","rhs_5Rnd_338lapua_t5000","rhs_mag_9x19_17"};
-
-        backpack = "rhs_sidor";
-
-        ALiVE_orbatCreator_loadout[] = {{"rhs_weap_t5000","","","rhs_acc_dh520x56",{"rhs_5Rnd_338lapua_t5000",5},{},"rhs_acc_harris_swivel"},{},{"rhs_weap_pya","","","",{"rhs_mag_9x19_17",17},{},""},{"LOP_U_IRA_Fatigue_DPM_GSW",{{"ACE_fieldDressing",4},{"ACE_packingBandage",4},{"ACE_morphine",4},{"ACE_tourniquet",4},{"rhs_5Rnd_338lapua_t5000",3,5}}},{"LOP_V_6Sh92_Radio_WDL",{{"SmokeShell",4,1},{"SmokeShellBlue",1,1},{"rhs_10Rnd_762x54mmR_7N14",3,10},{"rhs_5Rnd_338lapua_t5000",6,5},{"rhs_mag_9x19_17",4,17}}},{"rhs_sidor",{{"rhs_VOG25P",5,1},{"10Rnd_762x54_Mag",5,10}}},"LOP_H_Shemag_BLK","",{},{"ItemMap","ItemGPS","","ItemCompass","ItemWatch","ACE_NVG_Gen1"}};
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
-    };
-
-    class OPF_CAV_CREWMAN : OPF_CAV_RIFLEMAN {
+    class OPF_CAV_Crewman : OPF_CAV_Squadleader {
         author = "CPL.Citarelli.D";
         scope = 2;
         scopeCurator = 2;
         displayName = "Crewman";
         side = 0;
-        faction = "OPF_CAV_ISIS_F";
+        faction = "OPF_CAV_GREN_F";
 
         identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
 
-        uniformClass = "LOP_U_IRA_Fatigue_DPM_GSW";
+        uniformClass = "LOP_U_UKR_Fatigue_TTsKO";
 
-        linkedItems[] = {"LOP_6sh46","H_Tank_black_F","ItemMap","ItemGPS","ItemCompass","ItemWatch"};
-        respawnlinkedItems[] = {"LOP_6sh46","H_Tank_black_F","ItemMap","ItemGPS","ItemCompass","ItemWatch"};
+        linkedItems[] = {"LOP_V_6B23_TTKO","rhsusf_cvc_green_helmet","ItemMap","ItemRadioAcreFlagged","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"LOP_V_6B23_TTKO","rhsusf_cvc_green_helmet","ItemMap","ItemRadioAcreFlagged","ItemCompass","ItemWatch"};
 
-        weapons[] = {"rhs_weap_akms","rhs_weap_pya"};
-        respawnWeapons[] = {"rhs_weap_akms","rhs_weap_pya"};
+        weapons[] = {"rhs_weap_pp2000","Binocular"};
+        respawnWeapons[] = {"rhs_weap_pp2000","Binocular"};
 
-        magazines[] = {"rhs_30Rnd_762x39mm_bakelite","rhs_mag_9x19_17","rhs_30Rnd_762x39mm_bakelite","rhs_mag_9x19_17"};
-        respawnMagazines[] = {"rhs_30Rnd_762x39mm_bakelite","rhs_mag_9x19_17","rhs_30Rnd_762x39mm_bakelite","rhs_mag_9x19_17"};
+        magazines[] = {"rhs_mag_9x19mm_7n21_20","rhs_mag_9x19mm_7n21_20"};
+        respawnMagazines[] = {"rhs_mag_9x19mm_7n21_20","rhs_mag_9x19mm_7n21_20"};
 
-        ALiVE_orbatCreator_loadout[] = {{"rhs_weap_akms","rhs_acc_dtkakm","","",{"rhs_30Rnd_762x39mm_bakelite",30},{},""},{},{"rhs_weap_pya","","","",{"rhs_mag_9x19_17",17},{},""},{"LOP_U_IRA_Fatigue_DPM_GSW",{{"FirstAidKit",4},{"rhs_30Rnd_762x39mm_bakelite",3,30}}},{"LOP_6sh46",{{"SmokeShell",4,1},{"SmokeShellBlue",1,1},{"rhs_10Rnd_762x54mmR_7N14",3,10},{"rhs_30Rnd_762x39mm_bakelite",3,30}}},{},"H_Tank_black_F","",{},{"ItemMap","ItemGPS","","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"rhs_weap_pp2000","","","optic_Yorris",{"rhs_mag_9x19mm_7n21_20",20},{},""},{},{},{"LOP_U_UKR_Fatigue_TTsKO",{{"ACE_tourniquet",4},{"ACE_quikclot",10},{"ACE_epinephrine",2},{"ACE_morphine",2},{"ACE_splint",4},{"ACE_EarPlugs",1},{"rhs_mag_9x19mm_7n21_20",1,20}}},{"LOP_V_6B23_TTKO",{{"rhs_mag_rgn",2,1}}},{},"rhsusf_cvc_green_helmet","",{"Binocular","","","",{},{},""},{"ItemMap","","ItemRadioAcreFlagged","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -773,28 +449,28 @@ class CfgVehicles {
 
     };
 
-    class OPF_CAV_PILOT : OPF_CAV_RIFLEMAN {
+    class OPF_CAV_Pilot : OPF_CAV_Squadleader {
         author = "CPL.Citarelli.D";
         scope = 2;
         scopeCurator = 2;
         displayName = "Pilot";
         side = 0;
-        faction = "OPF_CAV_ISIS_F";
+        faction = "OPF_CAV_GREN_F";
 
         identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
 
-        uniformClass = "LOP_U_ISTS_Fatigue_12";
+        uniformClass = "LOP_U_UKR_Fatigue_TTsKO";
 
-        linkedItems[] = {"LOP_6sh46","H_HeadSet_black_F","ItemMap","ItemGPS","ItemCompass","ItemWatch"};
-        respawnlinkedItems[] = {"LOP_6sh46","H_HeadSet_black_F","ItemMap","ItemGPS","ItemCompass","ItemWatch"};
+        linkedItems[] = {"LOP_V_6B23_TTKO","rhsusf_hgu56p_visor_mask","ItemMap","ItemRadioAcreFlagged","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"LOP_V_6B23_TTKO","rhsusf_hgu56p_visor_mask","ItemMap","ItemRadioAcreFlagged","ItemCompass","ItemWatch"};
 
-        weapons[] = {"rhs_weap_akms","rhs_weap_pya"};
-        respawnWeapons[] = {"rhs_weap_akms","rhs_weap_pya"};
+        weapons[] = {"rhs_weap_pp2000","Binocular"};
+        respawnWeapons[] = {"rhs_weap_pp2000","Binocular"};
 
-        magazines[] = {"rhs_30Rnd_762x39mm_bakelite","rhs_mag_9x19_17","rhs_30Rnd_762x39mm_bakelite","rhs_mag_9x19_17"};
-        respawnMagazines[] = {"rhs_30Rnd_762x39mm_bakelite","rhs_mag_9x19_17","rhs_30Rnd_762x39mm_bakelite","rhs_mag_9x19_17"};
+        magazines[] = {"rhs_mag_9x19mm_7n21_20","rhs_mag_9x19mm_7n21_20"};
+        respawnMagazines[] = {"rhs_mag_9x19mm_7n21_20","rhs_mag_9x19mm_7n21_20"};
 
-        ALiVE_orbatCreator_loadout[] = {{"rhs_weap_akms","rhs_acc_dtkakm","","",{"rhs_30Rnd_762x39mm_bakelite",30},{},""},{},{"rhs_weap_pya","","","",{"rhs_mag_9x19_17",17},{},""},{"LOP_U_ISTS_Fatigue_12",{{"ACE_fieldDressing",4},{"ACE_packingBandage",4},{"ACE_morphine",4},{"ACE_tourniquet",4},{"rhs_30Rnd_762x39mm_bakelite",1,30}}},{"LOP_6sh46",{{"SmokeShell",4,1},{"SmokeShellBlue",1,1},{"rhs_10Rnd_762x54mmR_7N14",3,10},{"rhs_30Rnd_762x39mm_bakelite",3,30}}},{},"H_HeadSet_black_F","G_Bandanna_aviator",{},{"ItemMap","ItemGPS","","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"rhs_weap_pp2000","","","optic_Yorris",{"rhs_mag_9x19mm_7n21_20",20},{},""},{},{},{"LOP_U_UKR_Fatigue_TTsKO",{{"ACE_tourniquet",4},{"ACE_quikclot",10},{"ACE_epinephrine",2},{"ACE_morphine",2},{"ACE_splint",4},{"ACE_EarPlugs",1},{"rhs_mag_9x19mm_7n21_20",1,20}}},{"LOP_V_6B23_TTKO",{{"rhs_mag_rgn",2,1}}},{},"rhsusf_hgu56p_visor_mask","",{"Binocular","","","",{},{},""},{"ItemMap","","ItemRadioAcreFlagged","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -811,19 +487,260 @@ class CfgVehicles {
 
     };
 
-    class OPF_CAV_JEEP_UNARMED : I_C_Offroad_02_unarmed_F_OCimport_02 {
+    class OPF_CAV_SpecopRifleman : O_recon_F_OCimport_02 {
         author = "CPL.Citarelli.D";
         scope = 2;
         scopeCurator = 2;
-        displayName = "Jeep (Un-Armed)";
+        displayName = "Specop Rifleman";
         side = 0;
-        faction = "OPF_CAV_ISIS_F";
-        crew = "OPF_CAV_CIV_RIFLE";
+        faction = "OPF_CAV_GREN_F";
+
+        identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
+
+        uniformClass = "LOP_U_SLA_Fatigue_01";
+
+        linkedItems[] = {"V_TacChestrig_oli_F","rhs_6b27m_green_bala","ItemMap","ItemRadioAcreFlagged","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"V_TacChestrig_oli_F","rhs_6b27m_green_bala","ItemMap","ItemRadioAcreFlagged","ItemCompass","ItemWatch"};
+
+        weapons[] = {"rhs_weap_vhsd2","launch_RPG32_green_F","Binocular"};
+        respawnWeapons[] = {"rhs_weap_vhsd2","launch_RPG32_green_F","Binocular"};
+
+        magazines[] = {"rhsgref_30rnd_556x45_vhs2","RPG32_F","rhsgref_30rnd_556x45_vhs2"};
+        respawnMagazines[] = {"rhsgref_30rnd_556x45_vhs2","RPG32_F","rhsgref_30rnd_556x45_vhs2"};
+
+        backpack = "B_Kitbag_sgg";
+
+        ALiVE_orbatCreator_loadout[] = {{"rhs_weap_vhsd2","rhsusf_acc_nt4_black","rhs_acc_perst1ik_ris","optic_Aco",{"rhsgref_30rnd_556x45_vhs2",30},{},"rhsusf_acc_kac_grip"},{"launch_RPG32_green_F","","","",{"RPG32_F",1},{},""},{},{"LOP_U_SLA_Fatigue_01",{{"ACE_tourniquet",4},{"ACE_quikclot",10},{"ACE_epinephrine",2},{"ACE_morphine",2},{"ACE_splint",4},{"ACE_EarPlugs",1},{"rhsgref_30rnd_556x45_vhs2",1,30}}},{"V_TacChestrig_oli_F",{{"rhs_mag_rgn",3,1},{"rhs_mag_rdg2_white",3,1},{"rhsgref_30rnd_556x45_vhs2",6,30}}},{"B_Kitbag_sgg",{{"RPG32_F",3,1},{"rhsgref_30rnd_556x45_vhs2",2,30},{"RPG32_HE_F",1,1}}},"rhs_6b27m_green_bala","",{"Binocular","","","",{},{},""},{"ItemMap","","ItemRadioAcreFlagged","ItemCompass","ItemWatch",""}};
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class OPF_CAV_SpecopGren : OPF_CAV_SpecopRifleman {
+        author = "CPL.Citarelli.D";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Specop Grenadier";
+        side = 0;
+        faction = "OPF_CAV_GREN_F";
+
+        identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
+
+        uniformClass = "LOP_U_SLA_Fatigue_01";
+
+        linkedItems[] = {"V_TacChestrig_oli_F","rhs_6b27m_green_bala","ItemMap","ItemRadioAcreFlagged","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"V_TacChestrig_oli_F","rhs_6b27m_green_bala","ItemMap","ItemRadioAcreFlagged","ItemCompass","ItemWatch"};
+
+        weapons[] = {"rhs_weap_vhsd2_bg_ct15x","Binocular"};
+        respawnWeapons[] = {"rhs_weap_vhsd2_bg_ct15x","Binocular"};
+
+        magazines[] = {"rhsgref_30rnd_556x45_vhs2","rhsgref_30rnd_556x45_vhs2"};
+        respawnMagazines[] = {"rhsgref_30rnd_556x45_vhs2","rhsgref_30rnd_556x45_vhs2"};
+
+        backpack = "B_FieldPack_oli";
+
+        ALiVE_orbatCreator_loadout[] = {{"rhs_weap_vhsd2_bg_ct15x","rhsusf_acc_nt4_black","rhs_acc_perst1ik_ris","",{"rhsgref_30rnd_556x45_vhs2",30},{},""},{},{},{"LOP_U_SLA_Fatigue_01",{{"ACE_tourniquet",4},{"ACE_quikclot",10},{"ACE_epinephrine",2},{"ACE_morphine",2},{"ACE_splint",4},{"ACE_EarPlugs",1},{"rhsgref_30rnd_556x45_vhs2",1,30},{"rhs_mag_M441_HE",1,1}}},{"V_TacChestrig_oli_F",{{"rhs_mag_rgn",3,1},{"rhs_mag_rdg2_white",3,1},{"rhsgref_30rnd_556x45_vhs2",6,30},{"rhs_mag_M441_HE",4,1}}},{"B_FieldPack_oli",{{"rhs_mag_M441_HE",20,1},{"rhsgref_30rnd_556x45_vhs2_t",6,30}}},"rhs_6b27m_green_bala","",{"Binocular","","","",{},{},""},{"ItemMap","","ItemRadioAcreFlagged","ItemCompass","ItemWatch",""}};
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class OPF_CAV_SpecopGunner : OPF_CAV_SpecopGren {
+        author = "CPL.Citarelli.D";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Specop gunner";
+        side = 0;
+        faction = "OPF_CAV_GREN_F";
+
+        identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
+
+        uniformClass = "LOP_U_SLA_Fatigue_01";
+
+        linkedItems[] = {"V_TacChestrig_oli_F","rhs_6b27m_green_bala","ItemMap","ItemRadioAcreFlagged","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"V_TacChestrig_oli_F","rhs_6b27m_green_bala","ItemMap","ItemRadioAcreFlagged","ItemCompass","ItemWatch"};
+
+        weapons[] = {"rhs_weap_m249_light_S","Binocular"};
+        respawnWeapons[] = {"rhs_weap_m249_light_S","Binocular"};
+
+        magazines[] = {"rhsusf_200Rnd_556x45_box","rhsusf_200Rnd_556x45_box"};
+        respawnMagazines[] = {"rhsusf_200Rnd_556x45_box","rhsusf_200Rnd_556x45_box"};
+
+        backpack = "B_FieldPack_oli";
+
+        ALiVE_orbatCreator_loadout[] = {{"rhs_weap_m249_light_S","rhsusf_acc_nt4_black","rhs_acc_perst1ik_ris","optic_Aco",{"rhsusf_200Rnd_556x45_box",200},{},"rhsusf_acc_saw_lw_bipod"},{},{},{"LOP_U_SLA_Fatigue_01",{{"ACE_tourniquet",4},{"ACE_quikclot",10},{"ACE_epinephrine",2},{"ACE_morphine",2},{"ACE_splint",4},{"ACE_EarPlugs",1}}},{"V_TacChestrig_oli_F",{{"rhs_mag_rgn",3,1},{"rhs_mag_rdg2_white",3,1},{"rhsusf_200Rnd_556x45_box",1,200}}},{"B_FieldPack_oli",{{"rhsgref_30rnd_556x45_vhs2_t",6,30},{"rhsusf_200Rnd_556x45_box",2,200}}},"rhs_6b27m_green_bala","",{"Binocular","","","",{},{},""},{"ItemMap","","ItemRadioAcreFlagged","ItemCompass","ItemWatch",""}};
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class OPF_CAV_SpecopSniper : OPF_CAV_SpecopGunner {
+        author = "CPL.Citarelli.D";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Specop Sniper";
+        side = 0;
+        faction = "OPF_CAV_GREN_F";
+
+        identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
+
+        uniformClass = "LOP_U_SLA_Fatigue_01";
+
+        linkedItems[] = {"V_TacChestrig_oli_F","rhs_beanie_green","ItemMap","ItemRadioAcreFlagged","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"V_TacChestrig_oli_F","rhs_beanie_green","ItemMap","ItemRadioAcreFlagged","ItemCompass","ItemWatch"};
+
+        weapons[] = {"srifle_LRR_camo_F","rhs_weap_pb_6p9","Binocular"};
+        respawnWeapons[] = {"srifle_LRR_camo_F","rhs_weap_pb_6p9","Binocular"};
+
+        magazines[] = {"7Rnd_408_Mag","rhs_mag_9x18_8_57N181S","7Rnd_408_Mag","rhs_mag_9x18_8_57N181S"};
+        respawnMagazines[] = {"7Rnd_408_Mag","rhs_mag_9x18_8_57N181S","7Rnd_408_Mag","rhs_mag_9x18_8_57N181S"};
+
+        backpack = "B_FieldPack_oli";
+
+        ALiVE_orbatCreator_loadout[] = {{"srifle_LRR_camo_F","","","optic_LRPS",{"7Rnd_408_Mag",7},{},""},{},{"rhs_weap_pb_6p9","rhs_acc_6p9_suppressor","","",{"rhs_mag_9x18_8_57N181S",8},{},""},{"LOP_U_SLA_Fatigue_01",{{"ACE_tourniquet",4},{"ACE_quikclot",10},{"ACE_epinephrine",2},{"ACE_morphine",2},{"ACE_splint",4},{"ACE_EarPlugs",1},{"rhs_mag_9x18_8_57N181S",2,8}}},{"V_TacChestrig_oli_F",{{"rhs_mag_rgn",3,1},{"rhs_mag_rdg2_white",3,1},{"7Rnd_408_Mag",6,7}}},{"B_FieldPack_oli",{{"rhs_mag_9x18_8_57N181S",4,8},{"7Rnd_408_Mag",12,7}}},"rhs_beanie_green","",{"Binocular","","","",{},{},""},{"ItemMap","","ItemRadioAcreFlagged","ItemCompass","ItemWatch",""}};
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class OPF_CAV_SpecopSquadLeader : OPF_CAV_SpecopSniper {
+        author = "CPL.Citarelli.D";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Specop Squad Leader";
+        side = 0;
+        faction = "OPF_CAV_GREN_F";
+
+        identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
+
+        uniformClass = "LOP_U_SLA_Fatigue_01";
+
+        linkedItems[] = {"V_TacChestrig_oli_F","rhs_beret_mvd","ItemMap","ItemRadioAcreFlagged","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"V_TacChestrig_oli_F","rhs_beret_mvd","ItemMap","ItemRadioAcreFlagged","ItemCompass","ItemWatch"};
+
+        weapons[] = {"rhs_weap_savz58v_ris","Binocular"};
+        respawnWeapons[] = {"rhs_weap_savz58v_ris","Binocular"};
+
+        magazines[] = {"rhs_30Rnd_762x39mm_Savz58","rhs_30Rnd_762x39mm_Savz58"};
+        respawnMagazines[] = {"rhs_30Rnd_762x39mm_Savz58","rhs_30Rnd_762x39mm_Savz58"};
+
+        backpack = "B_FieldPack_oli";
+
+        ALiVE_orbatCreator_loadout[] = {{"rhs_weap_savz58v_ris","rhsgref_acc_zendl","rhs_acc_perst1ik_ris","rhsusf_acc_mrds",{"rhs_30Rnd_762x39mm_Savz58",30},{},"rhsusf_acc_kac_grip"},{},{},{"LOP_U_SLA_Fatigue_01",{{"ACE_tourniquet",4},{"ACE_quikclot",10},{"ACE_epinephrine",2},{"ACE_morphine",2},{"ACE_splint",4},{"ACE_EarPlugs",1}}},{"V_TacChestrig_oli_F",{{"rhs_mag_rgn",3,1},{"rhs_mag_rdg2_white",3,1},{"rhs_30Rnd_762x39mm_Savz58",3,30}}},{"B_FieldPack_oli",{}},"rhs_beret_mvd","",{"Binocular","","","",{},{},""},{"ItemMap","","ItemRadioAcreFlagged","ItemCompass","ItemWatch",""}};
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class OPF_CAV_SpecopTeamLeader : OPF_CAV_SpecopSquadLeader {
+        author = "CPL.Citarelli.D";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Specop Team Leader";
+        side = 0;
+        faction = "OPF_CAV_GREN_F";
+
+        identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
+
+        uniformClass = "LOP_U_SLA_Fatigue_01";
+
+        linkedItems[] = {"V_TacChestrig_oli_F","rhs_6b27m_green_bala","ItemMap","ItemRadioAcreFlagged","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"V_TacChestrig_oli_F","rhs_6b27m_green_bala","ItemMap","ItemRadioAcreFlagged","ItemCompass","ItemWatch"};
+
+        weapons[] = {"rhs_weap_vhsd2_ct15x","Binocular"};
+        respawnWeapons[] = {"rhs_weap_vhsd2_ct15x","Binocular"};
+
+        magazines[] = {"rhsgref_30rnd_556x45_vhs2","rhsgref_30rnd_556x45_vhs2"};
+        respawnMagazines[] = {"rhsgref_30rnd_556x45_vhs2","rhsgref_30rnd_556x45_vhs2"};
+
+        backpack = "B_FieldPack_oli";
+
+        ALiVE_orbatCreator_loadout[] = {{"rhs_weap_vhsd2_ct15x","rhsusf_acc_nt4_black","rhs_acc_perst1ik_ris","",{"rhsgref_30rnd_556x45_vhs2",30},{},"rhsusf_acc_kac_grip"},{},{},{"LOP_U_SLA_Fatigue_01",{{"ACE_tourniquet",4},{"ACE_quikclot",10},{"ACE_epinephrine",2},{"ACE_morphine",2},{"ACE_splint",4},{"ACE_EarPlugs",1},{"rhsgref_30rnd_556x45_vhs2",1,30}}},{"V_TacChestrig_oli_F",{{"rhs_mag_rgn",3,1},{"rhsgref_30rnd_556x45_vhs2",8,30},{"rhs_mag_rdg2_white",3,1}}},{"B_FieldPack_oli",{}},"rhs_6b27m_green_bala","",{"Binocular","","","",{},{},""},{"ItemMap","","ItemRadioAcreFlagged","ItemCompass","ItemWatch",""}};
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class OPF_CAV_BMP : rhs_brm1k_tv_OCimport_02 {
+        author = "CPL.Citarelli.D";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "BMP";
+        side = 0;
+        faction = "OPF_CAV_GREN_F";
+        crew = "OPF_CAV_Crewman";
 
         class Turrets : Turrets {
-            class CargoTurret_01 : CargoTurret_01 { gunnerType = "OPF_CAV_CIV_GREN"; };
-            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
-            class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
+            class MainTurret : MainTurret { gunnerType = "OPF_CAV_Crewman"; };
+            class NavTurret : NavTurret { gunnerType = "OPF_CAV_Crewman"; };
+            class LeftBack : LeftBack { gunnerType = ""; };
+            class RightBack : RightBack { gunnerType = ""; };
         };
 
 
@@ -832,259 +749,29 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_ext_black_co.paa'];_unit setObjectTextureGlobal [1,'\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_ext_black_co.paa'];_unit setObjectTextureGlobal [2,'\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_int_black_co.paa'];_unit setObjectTextureGlobal [3,'\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_int_black_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\po_factions_me\aa\Data\bmp_1_ana_co.paa'];_unit setObjectTextureGlobal [1,'\po_factions_me\aa\Data\bmp_2_ana_co.paa'];_unit setObjectTextureGlobal [2,'\po_factions_me\aa\Data\bmp_3_ana_co.paa'];_unit setObjectTextureGlobal [3,'\po_factions_me\aa\Data\bmp_4_ana_co.paa'];_unit setObjectTextureGlobal [4,'\po_factions_me\aa\Data\bmp_5_ana_co.paa'];_unit setObjectTextureGlobal [5,'\po_factions_me\aa\Data\bmp_6_ana_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "Black";
+        ALiVE_orbatCreator_texture = "LOP_Afghani_C";
 
     };
 
-    class OPF_CAV_JEEP_LMG : I_C_Offroad_02_LMG_F_OCimport_02 {
+    class OPF_CAV_BTR : rhs_btr70_msv_OCimport_02 {
         author = "CPL.Citarelli.D";
         scope = 2;
         scopeCurator = 2;
-        displayName = "Jeep (LMG)";
+        displayName = "BTR";
         side = 0;
-        faction = "OPF_CAV_ISIS_F";
-        crew = "OPF_CAV_CIV_RIFLE";
+        faction = "OPF_CAV_GREN_F";
+        crew = "OPF_CAV_Crewman";
 
         class Turrets : Turrets {
-            class LMG_Turret : LMG_Turret { gunnerType = "OPF_CAV_SPECOP_GREN"; };
-            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_ext_brown_co.paa'];_unit setObjectTextureGlobal [1,'\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_ext_brown_co.paa'];_unit setObjectTextureGlobal [2,'\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_int_brown_co.paa'];_unit setObjectTextureGlobal [3,'\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_int_brown_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "Brown";
-
-    };
-
-    class OPF_CAV_JEEP_SPG : I_C_Offroad_02_AT_F_OCimport_02 {
-        author = "CPL.Citarelli.D";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Jeep (SPG)";
-        side = 0;
-        faction = "OPF_CAV_ISIS_F";
-        crew = "OPF_CAV_CIV_RIFLE";
-
-        class Turrets : Turrets {
-            class AT_Turret : AT_Turret { gunnerType = "OPF_CAV_CIV_GREN"; };
-            class CargoTurret_01 : CargoTurret_01 { gunnerType = "OPF_CAV_CIV_GREN"; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_ext_brown_co.paa'];_unit setObjectTextureGlobal [1,'\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_ext_brown_co.paa'];_unit setObjectTextureGlobal [2,'\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_int_brown_co.paa'];_unit setObjectTextureGlobal [3,'\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_int_brown_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "Brown";
-
-    };
-
-    class OPF_CAV_ROVER_M2 : LOP_IRA_Landrover_M2_OCimport_02 {
-        author = "CPL.Citarelli.D";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Land Rover (M2)";
-        side = 0;
-        faction = "OPF_CAV_ISIS_F";
-        crew = "OPF_CAV_RIFLEMAN";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "OPF_CAV_GUNNER"; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'po_vehicles\lr\data\camo\lr_base_ists_co.paa'];_unit setObjectTextureGlobal [1,'po_vehicles\lr\data\camo\lr_special_w_baf_co.paa'];_unit setObjectTextureGlobal [2,'po_vehicles\lr\data\camo\lr_mg-spg9_w_baf_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "LOP_ISTS";
-
-    };
-
-    class OPF_CAV_ROVER_SPG : LOP_IRA_Landrover_SPG9_OCimport_02 {
-        author = "CPL.Citarelli.D";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Land Rover (SPG)";
-        side = 0;
-        faction = "OPF_CAV_ISIS_F";
-        crew = "OPF_CAV_GREN";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "OPF_CAV_GUNNER"; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'po_vehicles\lr\data\camo\lr_base_ists_co.paa'];_unit setObjectTextureGlobal [1,'po_vehicles\lr\data\camo\lr_special_w_baf_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "LOP_ISTS";
-
-    };
-
-    class OPF_CAV_BRDM_UNARMED : rhsgref_BRDM2UM_msv_OCimport_02 {
-        author = "CPL.Citarelli.D";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "BRDM (Un-Armed)";
-        side = 0;
-        faction = "OPF_CAV_ISIS_F";
-        crew = "OPF_CAV_CREWMAN";
-
-        class Turrets : Turrets {
-            class CommanderOptics : CommanderOptics { gunnerType = "OPF_CAV_CREWMAN"; };
-            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
-            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
-            class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
-            class CargoTurret_04 : CargoTurret_04 { gunnerType = ""; };
-            class CargoTurret_05 : CargoTurret_05 { gunnerType = ""; };
-            class CargoTurret_06 : CargoTurret_06 { gunnerType = ""; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\rhsgref\addons\rhsgref_a2port_armor\brdm2\data\BRDM2_01_TKA_CO.paa'];_unit setObjectTextureGlobal [1,'\rhsgref\addons\rhsgref_a2port_armor\brdm2\data\brdm2_02_camo_co.paa'];_unit setObjectTextureGlobal [2,'\rhsgref\addons\rhsgref_a2port_armor\brdm2\data\zbik_04_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "takistan";
-
-    };
-
-    class OPF_CAV_BRDM_127 : rhsgref_BRDM2_msv_OCimport_02 {
-        author = "CPL.Citarelli.D";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "BRDM (12.7)";
-        side = 0;
-        faction = "OPF_CAV_ISIS_F";
-        crew = "OPF_CAV_CREWMAN";
-
-        class Turrets : Turrets {
-            class CommanderOptics : CommanderOptics { gunnerType = "OPF_CAV_CREWMAN"; };
-            class MainTurret : MainTurret { gunnerType = "OPF_CAV_CREWMAN"; };
-            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
-            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
-            class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
-            class CargoTurret_04 : CargoTurret_04 { gunnerType = ""; };
-            class CargoTurret_05 : CargoTurret_05 { gunnerType = ""; };
-            class CargoTurret_06 : CargoTurret_06 { gunnerType = ""; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\rhsgref\addons\rhsgref_a2port_armor\brdm2\data\BRDM2_3tone_01_co.paa'];_unit setObjectTextureGlobal [1,'\rhsgref\addons\rhsgref_a2port_armor\brdm2\data\brdm2_3tone_02_co.paa'];_unit setObjectTextureGlobal [2,'\rhsgref\addons\rhsgref_a2port_armor\brdm2\data\zbik_04_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "3tone";
-
-    };
-
-    class OPF_CAV_BRDM_AT : rhsgref_BRDM2_ATGM_msv_OCimport_02 {
-        author = "CPL.Citarelli.D";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "BRDM (AT)";
-        side = 0;
-        faction = "OPF_CAV_ISIS_F";
-        crew = "OPF_CAV_CREWMAN";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "OPF_CAV_CREWMAN"; };
-            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
-            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
-            class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
-            class CargoTurret_04 : CargoTurret_04 { gunnerType = ""; };
-            class CargoTurret_05 : CargoTurret_05 { gunnerType = ""; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\rhsgref\addons\rhsgref_a2port_armor\brdm2\data\brdm2_atgm_01_co.paa'];_unit setObjectTextureGlobal [1,'\rhsgref\addons\rhsgref_a2port_armor\brdm2\data\brdm2_02_camo_co.paa'];_unit setObjectTextureGlobal [2,'\rhsgref\addons\rhsgref_a2port_armor\brdm2\data\zbik_04_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "chdkz";
-
-    };
-
-    class OPF_CAV_BTR : rhs_btr60_msv_OCimport_02 {
-        author = "CPL.Citarelli.D";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "BTR 60";
-        side = 0;
-        faction = "OPF_CAV_ISIS_F";
-        crew = "OPF_CAV_CREWMAN";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "OPF_CAV_CREWMAN"; };
-            class CommanderOptics : CommanderOptics { gunnerType = "OPF_CAV_CREWMAN"; };
+            class MainTurret : MainTurret { gunnerType = "OPF_CAV_Crewman"; };
+            class CommanderOptics : CommanderOptics { gunnerType = "OPF_CAV_Crewman"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
@@ -1102,28 +789,29 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\po_factions_me\ists\Data\btr60_body_ists_co.paa'];_unit setObjectTextureGlobal [1,'\rhsafrf\addons\rhs_a2port_armor\data\btr60_details_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'rhsafrf\addons\rhs_btr70_camo\data\btr70_omon1_1_co.paa'];_unit setObjectTextureGlobal [1,'rhsafrf\addons\rhs_btr70_camo\data\btr70_omon1_2_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "LOP_ISTS";
+        ALiVE_orbatCreator_texture = "Omon1";
 
     };
 
-    class OPF_CAV_ZSU : rhs_zsu234_aa_OCimport_02 {
+    class OPF_CAV_UAZArmed : rhsgref_cdf_reg_uaz_dshkm_OCimport_02 {
         author = "CPL.Citarelli.D";
         scope = 2;
         scopeCurator = 2;
-        displayName = "ZSU";
+        displayName = "UAZ )DSHK)";
         side = 0;
-        faction = "OPF_CAV_ISIS_F";
-        crew = "OPF_CAV_CREWMAN";
+        faction = "OPF_CAV_GREN_F";
+        crew = "OPF_CAV_TeamLeader";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "OPF_CAV_CREWMAN"; };
+            class MainTurret : MainTurret { gunnerType = "OPF_CAV_Gunner"; };
+            class CargoTurret_01 : CargoTurret_01 { gunnerType = "OPF_CAV_Gunner"; };
         };
 
 
@@ -1132,28 +820,29 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\po_factions_me\aa\Data\zsu_01_aa_co.paa'];_unit setObjectTextureGlobal [1,'\po_factions_me\ists\Data\zsu_02_ists_co.paa'];_unit setObjectTextureGlobal [2,'\po_factions_me\aa\Data\zsu_03_aa_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'rhsafrf\addons\rhs_a2port_car\uaz\data\uaz_main_ind_co.paa'];_unit setObjectTextureGlobal [1,'rhsafrf\addons\rhs_a2port_car\uaz\data\uaz_mount_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "LOP_ISTS";
+        ALiVE_orbatCreator_texture = "standard";
 
     };
 
-    class OPF_CAV_T55 : LOP_ISTS_OPF_T55_OCimport_02 {
+    class OPF_CAV_UAZSPG : rhsgref_cdf_reg_uaz_spg9_OCimport_02 {
         author = "CPL.Citarelli.D";
         scope = 2;
         scopeCurator = 2;
-        displayName = "T-55";
+        displayName = "UAZ (SPG)";
         side = 0;
-        faction = "OPF_CAV_ISIS_F";
-        crew = "OPF_CAV_CREWMAN";
+        faction = "OPF_CAV_GREN_F";
+        crew = "OPF_CAV_Squadleader";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "OPF_CAV_CREWMAN"; };
+            class MainTurret : MainTurret { gunnerType = "OPF_CAV_Gunner"; };
+            class CargoTurret_01 : CargoTurret_01 { gunnerType = "OPF_CAV_Gunner"; };
         };
 
 
@@ -1162,29 +851,30 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\po_vehicles\T55\data\t55_body_DES_co'];_unit setObjectTextureGlobal [1,'\po_vehicles\T55\data\t55_tower_ISTS_co'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'rhsafrf\addons\rhs_a2port_car\uaz\data\uaz_main_ind_co.paa'];_unit setObjectTextureGlobal [1,'rhsafrf\addons\rhs_a2port_car\uaz\data\uaz_mount_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "LOP_ISTS";
+        ALiVE_orbatCreator_texture = "standard";
 
     };
 
-    class OPF_CAV_T34 : LOP_ISTS_OPF_T34_OCimport_02 {
+    class OPF_CAV_GunTruck : rhs_gaz66_zu23_msv_OCimport_02 {
         author = "CPL.Citarelli.D";
         scope = 2;
         scopeCurator = 2;
-        displayName = "T-34-85";
+        displayName = "Gun Truck";
         side = 0;
-        faction = "OPF_CAV_ISIS_F";
-        crew = "OPF_CAV_CREWMAN";
+        faction = "OPF_CAV_GREN_F";
+        crew = "OPF_CAV_Squadleader";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "OPF_CAV_CREWMAN"; };
-            class FrontGunner : FrontGunner { gunnerType = "OPF_CAV_CREWMAN"; };
+            class MainTurret : MainTurret { gunnerType = "OPF_CAV_Gunner"; };
+            class CargoTurret_01 : CargoTurret_01 { gunnerType = "OPF_CAV_Gren"; };
+            class CargoTurret_02 : CargoTurret_02 { gunnerType = "OPF_CAV_RifleAT"; };
         };
 
 
@@ -1193,29 +883,296 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\po_vehicles\T34\Data\T34_Body01_DES_CO.paa'];_unit setObjectTextureGlobal [1,'\po_vehicles\T34\Data\T34_Body02_DES_CO.paa'];_unit setObjectTextureGlobal [2,'\po_vehicles\T34\Data\T34_Turret_ISTS_CO.paa'];_unit setObjectTextureGlobal [3,'\po_vehicles\T34\Data\T34_Wheels_DES_CO.paa'];_unit setObjectTextureGlobal [4,'\po_vehicles\T34\Data\T34_Body03_DES_CO.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\rhsafrf\addons\rhs_gaz66\data\gaz66_co.paa'];_unit setObjectTextureGlobal [1,'\rhsafrf\addons\rhs_gaz66\data\tent_co.paa'];_unit setObjectTextureGlobal [2,'\rhsafrf\addons\rhs_gaz66\data\rhs_gaz66_kung_co.paa'];_unit setObjectTextureGlobal [3,'\rhsafrf\addons\rhs_gaz66\data\rhs_gaz66_ap2kung_co.paa'];_unit setObjectTextureGlobal [4,'\rhsafrf\addons\rhs_gaz66\data\rhs_gaz66_repkung_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "LOP_ISTS";
+        ALiVE_orbatCreator_texture = "standard";
 
     };
 
-    class OPF_CAV_BMP : rhs_bmp1p_msv_OCimport_02 {
+    class OPF_CAV_GAZAmmo : rhs_gaz66_ammo_msv_OCimport_02 {
         author = "CPL.Citarelli.D";
         scope = 2;
         scopeCurator = 2;
-        displayName = "BMP";
+        displayName = "GAZ (Ammo)";
         side = 0;
-        faction = "OPF_CAV_ISIS_F";
-        crew = "OPF_CAV_CREWMAN";
+        faction = "OPF_CAV_GREN_F";
+        crew = "OPF_CAV_Squadleader";
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class OPF_CAV_UralFuel : RHS_Ural_Fuel_MSV_01_OCimport_02 {
+        author = "CPL.Citarelli.D";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Ural (Fuel)";
+        side = 0;
+        faction = "OPF_CAV_GREN_F";
+        crew = "OPF_CAV_Squadleader";
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'rhsafrf\addons\rhs_a2port_car\ural\data\ural_kabina_khk_co.paa'];_unit setObjectTextureGlobal [1,'rhsafrf\addons\rhs_a2port_car\ural\data\ural_open_co.paa'];_unit setObjectTextureGlobal [2,'rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa'];_unit setObjectTextureGlobal [3,'rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa'];_unit setObjectTextureGlobal [4,'rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa'];_unit setObjectTextureGlobal [5,'rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa'];_unit setObjectTextureGlobal [6,'rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa'];_unit setObjectTextureGlobal [7,'rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa'];_unit setObjectTextureGlobal [8,'rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa'];_unit setObjectTextureGlobal [9,'rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa'];_unit setObjectTextureGlobal [10,'rhsafrf\addons\rhs_a2port_car\ural\data\ural_fuel_khk_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+        ALiVE_orbatCreator_texture = "standard";
+
+    };
+
+    class OPF_CAV_UralRepair : RHS_Ural_Repair_MSV_01_OCimport_02 {
+        author = "CPL.Citarelli.D";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Ural (Repair)";
+        side = 0;
+        faction = "OPF_CAV_GREN_F";
+        crew = "OPF_CAV_Squadleader";
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class OPF_CAV_UAZTransport : rhsgref_cdf_reg_uaz_OCimport_02 {
+        author = "CPL.Citarelli.D";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "UAZ (Trahsport)";
+        side = 0;
+        faction = "OPF_CAV_GREN_F";
+        crew = "OPF_CAV_Squadleader";
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'rhsafrf\addons\rhs_a2port_car\uaz\data\uaz_main_ind_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+        ALiVE_orbatCreator_texture = "standard";
+
+    };
+
+    class OPF_CAV_TankDestroyer : rhs_sprut_vdv_OCimport_02 {
+        author = "CPL.Citarelli.D";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Tank Destroyer";
+        side = 0;
+        faction = "OPF_CAV_GREN_F";
+        crew = "OPF_CAV_Crewman";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "OPF_CAV_CREWMAN"; };
-            class Com_BMP1 : Com_BMP1 { gunnerType = "OPF_CAV_CREWMAN"; };
+            class MainTurret : MainTurret { gunnerType = "OPF_CAV_Crewman"; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class OPF_CAV_BM21 : RHS_BM21_MSV_01_OCimport_02 {
+        author = "CPL.Citarelli.D";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "BM21";
+        side = 0;
+        faction = "OPF_CAV_GREN_F";
+        crew = "OPF_CAV_Squadleader";
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = "OPF_CAV_Gunner"; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class OPF_CAV_WildCat : I_Heli_light_03_dynamicLoadout_F_OCimport_02 {
+        author = "CPL.Citarelli.D";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "WildCat";
+        side = 0;
+        faction = "OPF_CAV_GREN_F";
+        crew = "OPF_CAV_Pilot";
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = "OPF_CAV_Pilot"; };
+            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
+            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\A3\Air_F_Enoch\Heli_Light_03\data\Heli_Light_03_base_EAF_CO.paa'];_unit setObjectTextureGlobal [1,'\a3\Supplies_F_Enoch\Ammoboxes\Data\AmmoBox_EAF_CO.paa'];_unit setObjectTextureGlobal [2,'\a3\Supplies_F_Enoch\Ammoboxes\Data\AmmoBox_signs_EAF_CA.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+        ALiVE_orbatCreator_texture = "EAF";
+
+    };
+
+    class OPF_CAV_WildcatUnarmed : I_Heli_light_03_unarmed_F_OCimport_02 {
+        author = "CPL.Citarelli.D";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Wildcat Unarmed";
+        side = 0;
+        faction = "OPF_CAV_GREN_F";
+        crew = "I_helipilot_F";
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\A3\Air_F_Enoch\Heli_Light_03\data\Heli_Light_03_base_EAF_CO.paa'];_unit setObjectTextureGlobal [1,'\a3\Supplies_F_Enoch\Ammoboxes\Data\AmmoBox_EAF_CO.paa'];_unit setObjectTextureGlobal [2,'\a3\Supplies_F_Enoch\Ammoboxes\Data\AmmoBox_signs_EAF_CA.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+        ALiVE_orbatCreator_texture = "EAF";
+
+    };
+
+    class OPF_CAV_CasPlane : I_Plane_Fighter_03_dynamicLoadout_F_OCimport_02 {
+        author = "CPL.Citarelli.D";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "CAS Plane";
+        side = 0;
+        faction = "OPF_CAV_GREN_F";
+        crew = "OPF_CAV_Pilot";
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\a3\Air_F_Gamma\Plane_Fighter_03\Data\Plane_Fighter_03_body_1_greyhex_CO.paa'];_unit setObjectTextureGlobal [1,'\a3\Air_F_Gamma\Plane_Fighter_03\Data\Plane_Fighter_03_body_2_greyhex_CO.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+        ALiVE_orbatCreator_texture = "Grey";
+
+    };
+
+    class OPF_CAV_AAPlane : I_Plane_Fighter_04_F_OCimport_02 {
+        author = "CPL.Citarelli.D";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "AA Plane";
+        side = 0;
+        faction = "OPF_CAV_GREN_F";
+        crew = "OPF_CAV_Pilot";
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'a3\air_f_jets\plane_fighter_04\data\Fighter_04_fuselage_01_co.paa'];_unit setObjectTextureGlobal [1,'a3\air_f_jets\plane_fighter_04\data\Fighter_04_fuselage_02_co.paa'];_unit setObjectTextureGlobal [2,'a3\air_f_jets\plane_fighter_04\data\fighter_04_misc_01_co.paa'];_unit setObjectTextureGlobal [3,'a3\air_f_jets\plane_fighter_04\data\Numbers\Fighter_04_number_04_ca.paa'];_unit setObjectTextureGlobal [4,'a3\air_f_jets\plane_fighter_04\data\Numbers\Fighter_04_number_04_ca.paa'];_unit setObjectTextureGlobal [5,'a3\air_f_jets\plane_fighter_04\data\Numbers\Fighter_04_number_08_ca.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+        ALiVE_orbatCreator_texture = "CamoGrey";
+
+    };
+
+    class OPF_CAV_BMPHeavy : rhs_Ob_681_2_OCimport_02 {
+        author = "CPL.Citarelli.D";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "BMP Heavy";
+        side = 0;
+        faction = "OPF_CAV_GREN_F";
+        crew = "OPF_CAV_Crewman";
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = "OPF_CAV_Crewman"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
@@ -1245,275 +1202,18 @@ class CfgVehicles {
 
     };
 
-    class OPF_CAV_M113 : rhsgref_hidf_m113a3_m2_OCimport_02 {
-        author = "CPL.Citarelli.D";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "M113";
-        side = 0;
-        faction = "OPF_CAV_ISIS_F";
-        crew = "OPF_CAV_CREWMAN";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "OPF_CAV_CREWMAN"; };
-            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
-            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'rhsgref\addons\rhsgref_vehicles_ret\data\hidf\m113a3_01_sv_h_90s_co.paa'];_unit setObjectTextureGlobal [1,'rhsgref\addons\rhsgref_vehicles_ret\data\hidf\m113a3_02_sv_h_90s_co.paa'];_unit setObjectTextureGlobal [2,'rhsgref\addons\rhsgref_vehicles_ret\data\hidf\m113a3_03_lg_co.paa'];_unit setObjectTextureGlobal [3,'rhsusf\addons\rhsusf_m113\data_new\m113a3_int03_wd_co.paa'];_unit setObjectTextureGlobal [4,'rhsusf\addons\rhsusf_m113\data_new\m23_pintle_wd_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "MERDC_SV";
-
-    };
-
-    class OPF_CAV_LBA : B_Heli_Light_01_dynamicLoadout_F_OCimport_02 {
-        author = "CPL.Citarelli.D";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Littlebird (Armed)";
-        side = 0;
-        faction = "OPF_CAV_ISIS_F";
-        crew = "OPF_CAV_PILOT";
-
-        class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = "OPF_CAV_PILOT"; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
-    };
-
-    class OPF_CAV_LBUA : B_Heli_Light_01_F_OCimport_02 {
-        author = "CPL.Citarelli.D";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Littlebird (Un-Armed)";
-        side = 0;
-        faction = "OPF_CAV_ISIS_F";
-        crew = "OPF_CAV_PILOT";
-
-        class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = "OPF_CAV_PILOT"; };
-            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
-            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
-            class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
-            class CargoTurret_04 : CargoTurret_04 { gunnerType = ""; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
-    };
-
-    class OPF_CAV_PLANE : I_Plane_Fighter_03_dynamicLoadout_F_OCimport_02 {
-        author = "CPL.Citarelli.D";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Plane";
-        side = 0;
-        faction = "OPF_CAV_ISIS_F";
-        crew = "OPF_CAV_PILOT";
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\a3\Air_F_Gamma\Plane_Fighter_03\Data\Plane_Fighter_03_body_1_brownhex_CO.paa'];_unit setObjectTextureGlobal [1,'\a3\Air_F_Gamma\Plane_Fighter_03\Data\Plane_Fighter_03_body_2_brownhex_CO.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "Hex";
-
-    };
-
-    class OPF_CAV_BM21 : RHS_BM21_MSV_01_OCimport_02 {
-        author = "CPL.Citarelli.D";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "BM21";
-        side = 0;
-        faction = "OPF_CAV_ISIS_F";
-        crew = "OPF_CAV_CREWMAN";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "OPF_CAV_CREWMAN"; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\po_factions_me\ia\data\ural_kabina_ia_co.paa'];_unit setObjectTextureGlobal [1,'\po_factions_me\ia\data\ural_bm21_ia_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "LOP_IA";
-
-    };
-
-    class OPF_CAV_AMMO : rhs_gaz66_ammo_msv_OCimport_02 {
-        author = "CPL.Citarelli.D";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Truck (AMMO)";
-        side = 0;
-        faction = "OPF_CAV_ISIS_F";
-        crew = "OPF_CAV_SPECOP_LEADER";
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\rhsafrf\addons\rhs_gaz66_camo\data\gaz66_sand_co.paa'];_unit setObjectTextureGlobal [1,'\rhsafrf\addons\rhs_gaz66\data\tent_co.paa'];_unit setObjectTextureGlobal [2,'\rhsafrf\addons\rhs_gaz66_camo\data\rhs_gaz66_kung_sand_co.paa'];_unit setObjectTextureGlobal [3,'\rhsafrf\addons\rhs_gaz66_camo\data\rhs_gaz66_ap2kung_sand_co.paa'];_unit setObjectTextureGlobal [4,'\rhsafrf\addons\rhs_gaz66_camo\data\rhs_gaz66_repkung_sand_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "rhs_sand";
-
-    };
-
-    class OPF_CAV_FUEL : RHS_Ural_Fuel_MSV_01_OCimport_02 {
-        author = "CPL.Citarelli.D";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Truck (FUEL)";
-        side = 0;
-        faction = "OPF_CAV_ISIS_F";
-        crew = "OPF_CAV_SPECOP_LEADER";
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'rhsafrf\addons\rhs_a2port_car_camo\data\ural_kabina_sand_co.paa'];_unit setObjectTextureGlobal [1,'rhsafrf\addons\rhs_a2port_car_camo\data\ural_open_sand_co.paa'];_unit setObjectTextureGlobal [2,'rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa'];_unit setObjectTextureGlobal [3,'rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa'];_unit setObjectTextureGlobal [4,'rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa'];_unit setObjectTextureGlobal [5,'rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa'];_unit setObjectTextureGlobal [6,'rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa'];_unit setObjectTextureGlobal [7,'rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa'];_unit setObjectTextureGlobal [8,'rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa'];_unit setObjectTextureGlobal [9,'rhsafrf\addons\RHS_Decals\Data\Labels\Misc\no_ca.paa'];_unit setObjectTextureGlobal [10,'rhsafrf\addons\rhs_a2port_car_camo\data\ural_fuel_sand_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "rhs_sand";
-
-    };
-
-    class OPF_CAV_REPAIR : RHS_Ural_Repair_MSV_01_OCimport_02 {
-        author = "CPL.Citarelli.D";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Truck (Repair)";
-        side = 0;
-        faction = "OPF_CAV_ISIS_F";
-        crew = "OPF_CAV_SPECOP_LEADER";
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'rhsafrf\addons\rhs_a2port_car_camo\data\ural_kabina_sand_co.paa'];_unit setObjectTextureGlobal [1,'rhsafrf\addons\rhs_a2port_car\ural\data\ural_repair_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "rhs_sand";
-
-    };
-
-    class OPF_CAV_TRUCK_ARMED : RHS_Ural_Zu23_MSV_01_OCimport_02 {
-        author = "CPL.Citarelli.D";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Truck (Armed)";
-        side = 0;
-        faction = "OPF_CAV_ISIS_F";
-        crew = "OPF_CAV_SPECOP_LEADER";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "OPF_CAV_GUNNER"; };
-            class CargoTurret_01 : CargoTurret_01 { gunnerType = "rhs_msv_sergeant"; };
-            class CargoTurret_02 : CargoTurret_02 { gunnerType = "OPF_CAV_GREN"; };
-            class CargoTurret_03 : CargoTurret_03 { gunnerType = "OPF_CAV_GUNNER"; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'rhsafrf\addons\rhs_a2port_car\ural\data\ural_kabina_tka_co.paa'];_unit setObjectTextureGlobal [1,'rhsafrf\addons\rhs_a2port_car\ural\data\ural_open_tka_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "Camo1";
-
-    };
-
-    class OPF_CAV_BOAT : O_Boat_Armed_01_hmg_F_OCimport_02 {
+    class OPF_CAV_Boat : O_Boat_Armed_01_hmg_F_OCimport_02 {
         author = "CPL.Citarelli.D";
         scope = 2;
         scopeCurator = 2;
         displayName = "Boat";
         side = 0;
-        faction = "OPF_CAV_ISIS_F";
-        crew = "OPF_CAV_SPECOP_LEADER";
+        faction = "OPF_CAV_GREN_F";
+        crew = "OPF_CAV_Squadleader";
 
         class Turrets : Turrets {
-            class FrontTurret : FrontTurret { gunnerType = "OPF_CAV_SPECOP_LEADER"; };
-            class RearTurret : RearTurret { gunnerType = "OPF_CAV_GUNNER"; };
+            class FrontTurret : FrontTurret { gunnerType = "OPF_CAV_Gunner"; };
+            class RearTurret : RearTurret { gunnerType = "OPF_CAV_Gren"; };
         };
 
 
@@ -1522,14 +1222,13 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\A3\Boat_F\Boat_Armed_01\Data\Boat_Armed_01_ext_opfor_CO.paa'];_unit setObjectTextureGlobal [1,'\A3\boat_f\Boat_Armed_01\data\Boat_Armed_01_int_opfor_co.paa'];_unit setObjectTextureGlobal [2,'\A3\boat_f\Boat_Armed_01\data\Boat_Armed_01_crows_OPFOR_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "Opfor";
 
     };
 
