@@ -6,7 +6,7 @@
 
 class CfgFactionClasses {
     class OPF_CAV_AFRF_F {
-        displayName = "Armed Forces of the Russian Federation";
+        displayName = "Armed Forces of the Russian Federation (AFRF)";
         side = 0;
         flag = "\a3\UI_F_Enoch\Data\CfgMarkers\Russia_CA.paa";
         icon = "\a3\UI_F_Enoch\Data\CfgMarkers\Russia_CA.paa";
