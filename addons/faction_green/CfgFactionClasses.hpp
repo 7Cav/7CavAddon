@@ -7,7 +7,7 @@
 class CfgFactionClasses {
     class OPF_CAV_GREN_F {
         displayName = "Armed Forces of Kurdistan";
-        side = 0;
+        side = 2;
         flag = "\po_main\data\ui\markers\Flag_pesh_CO.paa";
         icon = "\po_main\data\ui\markers\Flag_pesh_CO.paa";
         priority = 0;
