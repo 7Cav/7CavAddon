@@ -15,7 +15,7 @@ class CfgGroups {
 
                 class OPF_CAV_RifleSquad {
                     name = "Rifle Squad";
-                    side = 0;
+                    side = 2;
                     faction = "OPF_CAV_GREN_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
                     rarityGroup = 0.5;
@@ -23,62 +23,62 @@ class CfgGroups {
                     class Unit0 {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_Squadleader";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_TeamLeader";
                     };
                     class Unit2 {
                         position[] = {10,-10,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_RifleAT";
                     };
                     class Unit3 {
                         position[] = {-10,-10,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_Gren";
                     };
                     class Unit4 {
                         position[] = {15,-15,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_Gunner";
                     };
                     class Unit5 {
                         position[] = {-15,-15,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_TeamLeader";
                     };
                     class Unit6 {
                         position[] = {20,-20,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_Medic";
                     };
                     class Unit7 {
                         position[] = {-20,-20,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_Gren";
                     };
                     class Unit8 {
                         position[] = {20,-20,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_Gunner";
                     };
                 };
 
                 class OPF_CAV_ATSection {
                     name = "AT Section";
-                    side = 0;
+                    side = 2;
                     faction = "OPF_CAV_GREN_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
                     rarityGroup = 0.5;
@@ -86,31 +86,31 @@ class CfgGroups {
                     class Unit0 {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_TeamLeader";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_Gren";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_RifleAT";
                     };
                     class Unit3 {
                         position[] = {10,-10,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_RifleAT";
                     };
                     class Unit4 {
                         position[] = {-10,-10,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_Medic";
                     };
                 };
@@ -122,7 +122,7 @@ class CfgGroups {
 
                 class OPF_CAV_SpecopSniperSection {
                     name = "Sniper Section";
-                    side = 0;
+                    side = 2;
                     faction = "OPF_CAV_GREN_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_recon.paa";
                     rarityGroup = 0.5;
@@ -130,32 +130,32 @@ class CfgGroups {
                     class Unit0 {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_SpecopSquadLeader";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_SpecopSniper";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_SpecopGren";
                     };
                     class Unit3 {
                         position[] = {10,-10,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_SpecopTeamLeader";
                     };
                 };
 
                 class OPF_CAV_InfilSection {
                     name = "Infiltration Section";
-                    side = 0;
+                    side = 2;
                     faction = "OPF_CAV_GREN_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_recon.paa";
                     rarityGroup = 0.5;
@@ -163,38 +163,38 @@ class CfgGroups {
                     class Unit0 {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_SpecopSquadLeader";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_SpecopTeamLeader";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_SpecopGren";
                     };
                     class Unit3 {
                         position[] = {10,-10,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_SpecopRifleman";
                     };
                     class Unit4 {
                         position[] = {-10,-10,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_SpecopGunner";
                     };
                 };
 
                 class OPF_CAV_MotorSpecop {
                     name = "Motorized Infiltration Squad";
-                    side = 0;
+                    side = 2;
                     faction = "OPF_CAV_GREN_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_recon.paa";
                     rarityGroup = 0.5;
@@ -202,73 +202,73 @@ class CfgGroups {
                     class Unit0 {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_UAZTransport";
                     };
                     class Unit1 {
                         position[] = {5,-7,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_UAZSPG";
                     };
                     class Unit2 {
                         position[] = {-5,-7,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_UAZTransport";
                     };
                     class Unit3 {
                         position[] = {10,-12,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_SpecopSquadLeader";
                     };
                     class Unit4 {
                         position[] = {-10,-12,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_SpecopTeamLeader";
                     };
                     class Unit5 {
                         position[] = {15,-17,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_SpecopTeamLeader";
                     };
                     class Unit6 {
                         position[] = {-15,-17,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_SpecopGren";
                     };
                     class Unit7 {
                         position[] = {20,-22,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_SpecopGren";
                     };
                     class Unit8 {
                         position[] = {-20,-22,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_SpecopGunner";
                     };
                     class Unit9 {
                         position[] = {25,-27,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_SpecopSniper";
                     };
                     class Unit10 {
                         position[] = {-25,-27,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_SpecopRifleman";
                     };
                     class Unit11 {
                         position[] = {30,-32,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_SpecopRifleman";
                     };
                 };
@@ -280,7 +280,7 @@ class CfgGroups {
 
                 class OPF_CAV_AssSquad {
                     name = "Assault Squad";
-                    side = 0;
+                    side = 2;
                     faction = "OPF_CAV_GREN_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
                     rarityGroup = 0.5;
@@ -288,26 +288,26 @@ class CfgGroups {
                     class Unit0 {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_UAZArmed";
                     };
                     class Unit1 {
                         position[] = {5,-7,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_UAZArmed";
                     };
                     class Unit2 {
                         position[] = {-5,-7,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_UAZSPG";
                     };
                 };
 
                 class OPF_CAV_MotorSection {
                     name = "Motor Section";
-                    side = 0;
+                    side = 2;
                     faction = "OPF_CAV_GREN_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
                     rarityGroup = 0.5;
@@ -315,80 +315,80 @@ class CfgGroups {
                     class Unit0 {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_UAZArmed";
                     };
                     class Unit1 {
                         position[] = {5,-7,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_UAZTransport";
                     };
                     class Unit2 {
                         position[] = {-5,-7,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_UAZTransport";
                     };
                     class Unit3 {
                         position[] = {10,-12,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_Squadleader";
                     };
                     class Unit4 {
                         position[] = {-10,-12,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_TeamLeader";
                     };
                     class Unit5 {
                         position[] = {15,-17,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_Gren";
                     };
                     class Unit6 {
                         position[] = {-15,-17,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_Gunner";
                     };
                     class Unit7 {
                         position[] = {20,-22,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_RifleAT";
                     };
                     class Unit8 {
                         position[] = {-20,-22,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_TeamLeader";
                     };
                     class Unit9 {
                         position[] = {25,-27,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_Gren";
                     };
                     class Unit10 {
                         position[] = {-25,-27,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_Gunner";
                     };
                     class Unit11 {
                         position[] = {30,-32,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_Medic";
                     };
                 };
 
                 class OPF_CAV_HeavyMotor {
                     name = "Heavy Motorized";
-                    side = 0;
+                    side = 2;
                     faction = "OPF_CAV_GREN_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
                     rarityGroup = 0.5;
@@ -396,67 +396,67 @@ class CfgGroups {
                     class Unit0 {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_BTR";
                     };
                     class Unit1 {
                         position[] = {7,-15,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_BTR";
                     };
                     class Unit2 {
                         position[] = {-7,-15,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_Squadleader";
                     };
                     class Unit3 {
                         position[] = {12,-20,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_TeamLeader";
                     };
                     class Unit4 {
                         position[] = {-12,-20,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_TeamLeader";
                     };
                     class Unit5 {
                         position[] = {17,-25,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_RifleAT";
                     };
                     class Unit6 {
                         position[] = {-17,-25,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_Medic";
                     };
                     class Unit7 {
                         position[] = {22,-30,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_Gren";
                     };
                     class Unit8 {
                         position[] = {-22,-30,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_Gren";
                     };
                     class Unit9 {
                         position[] = {27,-35,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_Gunner";
                     };
                     class Unit10 {
                         position[] = {-27,-35,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_Gunner";
                     };
                 };
@@ -478,7 +478,7 @@ class CfgGroups {
 
                 class OPF_CAV_LightMechanized {
                     name = "Light Mechanized";
-                    side = 0;
+                    side = 2;
                     faction = "OPF_CAV_GREN_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
                     rarityGroup = 0.5;
@@ -486,74 +486,74 @@ class CfgGroups {
                     class Unit0 {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_BMP";
                     };
                     class Unit1 {
                         position[] = {6,-12,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_BMP";
                     };
                     class Unit2 {
                         position[] = {-6,-12,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_Squadleader";
                     };
                     class Unit3 {
                         position[] = {11,-17,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_TeamLeader";
                     };
                     class Unit4 {
                         position[] = {-11,-17,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_TeamLeader";
                     };
                     class Unit5 {
                         position[] = {16,-22,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_RifleAT";
                     };
                     class Unit6 {
                         position[] = {-16,-22,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_Medic";
                     };
                     class Unit7 {
                         position[] = {21,-27,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_Gren";
                     };
                     class Unit8 {
                         position[] = {-21,-27,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_Gren";
                     };
                     class Unit9 {
                         position[] = {26,-32,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_Gunner";
                     };
                     class Unit10 {
                         position[] = {-26,-32,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_Gunner";
                     };
                 };
 
                 class OPF_CAV_HeavyMech {
                     name = "Heavy Mechanized";
-                    side = 0;
+                    side = 2;
                     faction = "OPF_CAV_GREN_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
                     rarityGroup = 0.5;
@@ -561,67 +561,67 @@ class CfgGroups {
                     class Unit0 {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_BMPHeavy";
                     };
                     class Unit1 {
                         position[] = {8,-13,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_BMPHeavy";
                     };
                     class Unit2 {
                         position[] = {-8,-13,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_Squadleader";
                     };
                     class Unit3 {
                         position[] = {13,-18,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_TeamLeader";
                     };
                     class Unit4 {
                         position[] = {-13,-18,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_TeamLeader";
                     };
                     class Unit5 {
                         position[] = {18,-23,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_RifleAT";
                     };
                     class Unit6 {
                         position[] = {-18,-23,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_Medic";
                     };
                     class Unit7 {
                         position[] = {23,-28,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_Gren";
                     };
                     class Unit8 {
                         position[] = {-23,-28,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_Gren";
                     };
                     class Unit9 {
                         position[] = {28,-33,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_Gunner";
                     };
                     class Unit10 {
                         position[] = {-28,-33,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_Gunner";
                     };
                 };
@@ -633,7 +633,7 @@ class CfgGroups {
 
                 class OPF_CAV_TDSection {
                     name = "TD Section";
-                    side = 0;
+                    side = 2;
                     faction = "OPF_CAV_GREN_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
                     rarityGroup = 0.5;
@@ -641,32 +641,32 @@ class CfgGroups {
                     class Unit0 {
                         position[] = {0,0,0};
                         rank = "CORPORAL";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_TankDestroyer";
                     };
                     class Unit1 {
                         position[] = {10,-17,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_TankDestroyer";
                     };
                     class Unit2 {
                         position[] = {-10,-17,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_TankDestroyer";
                     };
                     class Unit3 {
                         position[] = {18,-23,0};
                         rank = "SERGEANT";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_BMPHeavy";
                     };
                 };
 
                 class OPF_CAV_TDMixed {
                     name = "TD Mixed";
-                    side = 0;
+                    side = 2;
                     faction = "OPF_CAV_GREN_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
                     rarityGroup = 0.5;
@@ -674,32 +674,32 @@ class CfgGroups {
                     class Unit0 {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_BMPHeavy";
                     };
                     class Unit1 {
                         position[] = {10,-17,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_TankDestroyer";
                     };
                     class Unit2 {
                         position[] = {-10,-17,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_GunTruck";
                     };
                     class Unit3 {
                         position[] = {16,-22,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_BMP";
                     };
                 };
 
                 class OPF_CAV_AASection {
                     name = "AA Section";
-                    side = 0;
+                    side = 2;
                     faction = "OPF_CAV_GREN_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
                     rarityGroup = 0.5;
@@ -707,26 +707,26 @@ class CfgGroups {
                     class Unit0 {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_BMPHeavy";
                     };
                     class Unit1 {
                         position[] = {7,-10,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_GunTruck";
                     };
                     class Unit2 {
                         position[] = {-7,-10,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_GunTruck";
                     };
                 };
 
                 class OPF_CAV_LightArmor {
                     name = "Light Armor";
-                    side = 0;
+                    side = 2;
                     faction = "OPF_CAV_GREN_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
                     rarityGroup = 0.5;
@@ -734,25 +734,25 @@ class CfgGroups {
                     class Unit0 {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_BMPHeavy";
                     };
                     class Unit1 {
                         position[] = {8,-13,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_BMPHeavy";
                     };
                     class Unit2 {
                         position[] = {-8,-13,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_BMP";
                     };
                     class Unit3 {
                         position[] = {14,-20,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_BMP";
                     };
                 };
@@ -764,7 +764,7 @@ class CfgGroups {
 
                 class OPF_CAV_RocketBatt {
                     name = "Rocket Battery";
-                    side = 0;
+                    side = 2;
                     faction = "OPF_CAV_GREN_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_art.paa";
                     rarityGroup = 0.5;
@@ -772,25 +772,25 @@ class CfgGroups {
                     class Unit0 {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_BM21";
                     };
                     class Unit1 {
                         position[] = {5,-12,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_BM21";
                     };
                     class Unit2 {
                         position[] = {-5,-12,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_BM21";
                     };
                     class Unit3 {
                         position[] = {10,-17,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_BM21";
                     };
                 };
@@ -802,7 +802,7 @@ class CfgGroups {
 
                 class OPF_CAV_PatrolSection {
                     name = "Patrol Section";
-                    side = 0;
+                    side = 2;
                     faction = "OPF_CAV_GREN_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_naval.paa";
                     rarityGroup = 0.5;
@@ -810,61 +810,61 @@ class CfgGroups {
                     class Unit0 {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_Boat";
                     };
                     class Unit1 {
                         position[] = {9,-19,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_Boat";
                     };
                     class Unit2 {
                         position[] = {-9,-19,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_Squadleader";
                     };
                     class Unit3 {
                         position[] = {-14,-24,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_TeamLeader";
                     };
                     class Unit4 {
                         position[] = {19,-29,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_RifleAT";
                     };
                     class Unit5 {
                         position[] = {-14,-34,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_Medic";
                     };
                     class Unit6 {
                         position[] = {14,-34,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_Gren";
                     };
                     class Unit7 {
                         position[] = {-9,-39,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_Gren";
                     };
                     class Unit8 {
                         position[] = {9,-39,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_Gunner";
                     };
                     class Unit9 {
                         position[] = {-4,-44,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_Gunner";
                     };
                 };
@@ -876,7 +876,7 @@ class CfgGroups {
 
                 class OPF_CAV_AirAssault {
                     name = "Air Assault";
-                    side = 0;
+                    side = 2;
                     faction = "OPF_CAV_GREN_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_air.paa";
                     rarityGroup = 0.5;
@@ -884,74 +884,74 @@ class CfgGroups {
                     class Unit0 {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_WildCat";
                     };
                     class Unit1 {
                         position[] = {20,-23,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_WildcatUnarmed";
                     };
                     class Unit2 {
                         position[] = {-20,-23,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_Squadleader";
                     };
                     class Unit3 {
                         position[] = {25,-28,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_TeamLeader";
                     };
                     class Unit4 {
                         position[] = {-25,-28,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_TeamLeader";
                     };
                     class Unit5 {
                         position[] = {30,-33,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_RifleAT";
                     };
                     class Unit6 {
                         position[] = {-30,-33,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_Medic";
                     };
                     class Unit7 {
                         position[] = {35,-38,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_Gren";
                     };
                     class Unit8 {
                         position[] = {-35,-38,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_Gren";
                     };
                     class Unit9 {
                         position[] = {40,-43,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_Gunner";
                     };
                     class Unit10 {
                         position[] = {-40,-43,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_Gunner";
                     };
                 };
 
                 class OPF_CAV_WildcatWing {
                     name = "WildCat Wing";
-                    side = 0;
+                    side = 2;
                     faction = "OPF_CAV_GREN_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_air.paa";
                     rarityGroup = 0.5;
@@ -959,20 +959,20 @@ class CfgGroups {
                     class Unit0 {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_WildCat";
                     };
                     class Unit1 {
                         position[] = {20,-23,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_WildCat";
                     };
                 };
 
                 class OPF_CAV_CASPlane {
                     name = "CAS Wing";
-                    side = 0;
+                    side = 2;
                     faction = "OPF_CAV_GREN_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_plane.paa";
                     rarityGroup = 0.5;
@@ -980,20 +980,20 @@ class CfgGroups {
                     class Unit0 {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_CasPlane";
                     };
                     class Unit1 {
                         position[] = {15,-20,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_CasPlane";
                     };
                 };
 
                 class OPF_CAV_AAWing {
                     name = "AA Wing";
-                    side = 0;
+                    side = 2;
                     faction = "OPF_CAV_GREN_F";
                     icon = "\A3\ui_f\data\map\markers\nato\o_plane.paa";
                     rarityGroup = 0.5;
@@ -1001,13 +1001,13 @@ class CfgGroups {
                     class Unit0 {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_AAPlane";
                     };
                     class Unit1 {
                         position[] = {13,-26,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "OPF_CAV_AAPlane";
                     };
                 };
