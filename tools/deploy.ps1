@@ -20,4 +20,4 @@ py make.py release
 
 # Clean up
 git checkout origin/master ../addons/main/script_version.hpp
-git checkout origin/master ../addons/main/mod.cpp
+git checkout origin/master ../mod.cpp
