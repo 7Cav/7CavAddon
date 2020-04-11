@@ -139,56 +139,87 @@ class CfgVehicles {
     };
 
     // Viking
-    class Cav_B_B_Scout_Team_Leader_F;
-    class Cav_B_B_Scout_Officer_F;
-    class Cav_B_B_Scout_Platoon_Medic_F;
+    class Cav_B_B_CavScout_SquadLead_F;
+    class Cav_B_B_CavScout_TeamLead_F;
+    class Cav_B_B_CavScout_AutomaticRifleman_F;
+    class Cav_B_B_CavScout_Grenadier_F;
+    class Cav_B_B_CavScout_Rifleman_F;
+    class Cav_B_B_CavScout_CombatLifeSaver_F;
+    class Cav_B_B_CavScout_PlatoonLeader_F;
+    class Cav_B_B_CavScout_PlatoonSergeant_F;
+    class Cav_B_B_CavScout_Crew_F;
+    class Cav_B_B_CavScout_Gunner_F;
+    class Cav_B_B_CavScout_Driver_F;
+    class Cav_B_B_CavScout_PlatoonMedic_F;
 
-    class Cav_B_B_Scout_Platoon_Medic_2_7_F : Cav_B_B_Scout_Platoon_Medic_F {
-        _generalMacro = "Cav_B_B_Scout_Platoon_Medic_2_7_F";
+    class Cav_B_B_CavScout_PlatoonMedic_2_7_F : Cav_B_B_Scout_PlatoonMedic_F {
+        _generalMacro = "Cav_B_B_Scout_PlatoonMedic_2_7_F";
         scope = 1;
         scopeCurator = 0;
-        displayName = CSTRING(B_Scout_Platoon_Medic_2_7);
+        displayName = CSTRING(B_Scout_PlatoonMedic_2_7);
         author = ECSTRING(Main,CavModTeam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_Rifleman_F.jpg);
         cavPlatoon = 2;
     };
 
-    class Cav_B_B_Scout_Team_Leader_2_1_F : Cav_B_B_Scout_Officer_F {
-        _generalMacro = "Cav_B_B_Scout_Team_Leader_2_1_F";
+    class Cav_B_B_CavScout_PlatoonLeader_2_6_F : Cav_B_B_CavScout_PlatoonLeader_F {
+        _generalMacro = "Cav_B_B_CavScout_PlatoonLeader_2_6_F";
         scope = 1;
         scopeCurator = 0;
-        displayName = CSTRING(B_Scout_Team_Leader_2_1);
+        displayName = CSTRING(B_CavScout_PlatoonLeader_2_6);
         author = ECSTRING(Main,CavModTeam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_Rifleman_F.jpg);
         cavPlatoon = 2;
     };
-    class Cav_B_B_Scout_Team_Leader_2_2_F : Cav_B_B_Scout_Team_Leader_F {
-        _generalMacro = "Cav_B_B_Scout_Team_Leader_2_2_F";
+    
+    class Cav_B_B_CavScout_PlatoonSergeant_2_5_F : Cav_B_B_CavScout_PlatoonSergeant_F {
+        _generalMacro = "Cav_B_B_CavScout_PlatoonSergeant_2_5_F";
         scope = 1;
         scopeCurator = 0;
-        displayName = CSTRING(B_Scout_Team_Leader_2_2);
+        displayName = CSTRING(B_CavScout_PlatoonLeader_2_5);
         author = ECSTRING(Main,CavModTeam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_Rifleman_F.jpg);
         cavPlatoon = 2;
     };
-    class Cav_B_B_Scout_Team_Leader_2_3_F : Cav_B_B_Scout_Team_Leader_F {
-        _generalMacro = "Cav_B_B_Scout_Team_Leader_2_3_F";
+    class Cav_B_B_CavScout_SquadLead_2_1_F : Cav_B_B_CavScout_SquadLead_F {
+        _generalMacro = "Cav_B_B_CavScout_SquadLead_2_1_F";
         scope = 1;
         scopeCurator = 0;
-        displayName = CSTRING(B_Scout_Team_Leader_2_3);
+        displayName = CSTRING(B_CavScout_SquadLead_2_1);
         author = ECSTRING(Main,CavModTeam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_Rifleman_F.jpg);
         cavPlatoon = 2;
     };
-    class Cav_B_B_Scout_Team_Leader_2_4_F : Cav_B_B_Scout_Team_Leader_F {
-        _generalMacro = "Cav_B_B_Scout_Team_Leader_2_4_F";
+    class Cav_B_B_CavScout_SquadLead_2_2_F : Cav_B_B_CavScout_SquadLead_F {
+        _generalMacro = "Cav_B_B_CavScout_SquadLead_2_2_F";
         scope = 1;
         scopeCurator = 0;
-        displayName = CSTRING(B_Scout_Team_Leader_2_4);
+        displayName = CSTRING(B_CavScout_SquadLead_2_2);
         author = ECSTRING(Main,CavModTeam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_Rifleman_F.jpg);
         cavPlatoon = 2;
     };
+    
+    class Cav_B_B_CavScout_SquadLead_2_3_F : Cav_B_B_CavScout_SquadLead_F {
+        _generalMacro = "Cav_B_B_CavScout_SquadLead_2_3_F";
+        scope = 1;
+        scopeCurator = 0;
+        displayName = CSTRING(B_CavScout_SquadLead_2_3);
+        author = ECSTRING(Main,CavModTeam);
+        //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_Rifleman_F.jpg);
+        cavPlatoon = 2;
+    };
+    
+    class Cav_B_B_CavScout_SquadLead_2_4_F : Cav_B_B_CavScout_SquadLead_F {
+        _generalMacro = "Cav_B_B_CavScout_SquadLead_2_4_F";
+        scope = 1;
+        scopeCurator = 0;
+        displayName = CSTRING(B_CavScout_SquadLead_2_4);
+        author = ECSTRING(Main,CavModTeam);
+        //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_Rifleman_F.jpg);
+        cavPlatoon = 2;
+    }; 
+    
 
     class Cav_B_B_Ifv_Commander_F;
     class Cav_B_B_Ifv_Commander_B_1_F : Cav_B_B_Ifv_Commander_F {
