@@ -68,44 +68,62 @@ class CfgGroups {
 
                 class Cav_B_B_Viking_Squad {
                     name = CSTRING(B_Squad_Viking);
-                    icon = "\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_recon.paa";
                     faction = "BLU_USA_7CAV_F";
                     side = 1;
                     class Unit0 {
                         position[] = {0, 0, 0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "Cav_B_B_Scout_Team_Leader_F";
+                        vehicle = "Cav_B_B_CavScout_SquadLead_F";
                     };
                     class Unit1 {
+                        position[] = {1.5, -1.0, 0.0};
+                        rank = "CORPORAL";
+                        side = 1;
+                        vehicle = "Cav_B_B_CavScout_TeamLead_F";
+                    };
+                    class Unit2 {
+                        position[] = {0.5, -1.0, 0.0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "Cav_B_B_CavScout_AutomaticRifleman_F";
+                    };
+                    class Unit3 {
                         position[] = {-0.5, -1.0, 0.0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "Cav_B_B_Scout_Trooper_F";
-                    };
-                    class Unit2 {
-                        position[] = {-0.5, -2.0, 0.0};
-                        rank = "PRIVATE";
-                        side = 1;
-                        vehicle = "Cav_B_B_Scout_Trooper_F";
-                    };
-                    class Unit3 {
-                        position[] = {-0.5, -3.0, 0.0};
-                        rank = "PRIVATE";
-                        side = 1;
-                        vehicle = "Cav_B_B_Scout_Trooper_F";
+                        vehicle = "Cav_B_B_CavScout_Grenadier_F";
                     };
                     class Unit4 {
-                        position[] = {0.5, -1.0, 0.0};
+                        position[] = {1.5, -2.0, 0.0};
                         rank = "CORPORAL";
                         side = 1;
-                        vehicle = "Cav_B_B_Scout_Gunner_F";
+                        vehicle = "Cav_B_B_CavScout_TeamLead_F";
                     };
                     class Unit5 {
                         position[] = {0.5, -2.0, 0.0};
-                        rank = "CORPORAL";
+                        rank = "PRIVATE";
                         side = 1;
-                        vehicle = "Cav_B_B_Scout_Driver_F";
+                        vehicle = "Cav_B_B_CavScout_AutomaticRifleman_F";
+                    };
+                    class Unit6 {
+                        position[] = {-1.5, -2.0, 0.0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "Cav_B_B_CavScout_CombatLifeSaver_F";
+                    };
+                    class Unit7 {
+                        position[] = {-2.0, -2.0, 0.0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "Cav_B_B_CavScout_Driver_F";
+                    };
+                    class Unit8 {
+                        position[] = {-2.0, -2.5, 0.0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "Cav_B_B_CavScout_Gunner_F";
                     };
                 };
 
@@ -180,18 +198,6 @@ class CfgGroups {
                     };
                     class Unit1 {
                         position[] = {1.0, -1.0, 0.0};
-                        rank = "PRIVATE";
-                        side = 1;
-                        vehicle = "Cav_B_B_Mustang_CombatMedic_F";
-                    };
-                    class Unit2 {
-                        position[] = {0.0, -1.0, 0.0};
-                        rank = "PRIVATE";
-                        side = 1;
-                        vehicle = "Cav_B_B_Mustang_CombatMedic_F";
-                    };
-                    class Unit3 {
-                        position[] = {-1.0, -1.0, 0.0};
                         rank = "PRIVATE";
                         side = 1;
                         vehicle = "Cav_B_B_Mustang_CombatMedic_F";
