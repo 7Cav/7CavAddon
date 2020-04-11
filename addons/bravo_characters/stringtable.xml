@@ -145,10 +145,13 @@
         </Key>
 
         <!-- Viking -->
-        <Key ID="STR_Cav_Bravo_Characters_B_CavScout_Officer">
-            <English>Scout Officer</English>
+        <Key ID="STR_Cav_Bravo_Characters_B_CavScout_PlatoonLeader">
+            <English>Scout Platoon Leader</English>
         </Key>
-        <Key ID="STR_Cav_Bravo_Characters_B_CavScout_Platoon_Medic">
+        <Key ID="STR_Cav_Bravo_Characters_B_CavScout_PlatoonSergeant">
+            <English>Scout Platoon Sergeant</English>
+        </Key>
+        <Key ID="STR_Cav_Bravo_Characters_B_CavScout_PlatoonMedic">
             <English>Scout Platoon Medic</English>
         </Key>
         <Key ID="STR_Cav_Bravo_Characters_B_CavScout_SquadLead">
