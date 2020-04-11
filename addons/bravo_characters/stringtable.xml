@@ -163,19 +163,19 @@
         <Key ID="STR_Cav_Bravo_Characters_B_CavScout_Grenadier">
             <English>Scout Grenadier</English>
         </Key>
-        <Key ID="STR_Cav_Bravo_Characters_B_Scout_Rifleman">
+        <Key ID="STR_Cav_Bravo_Characters_B_CavScout_Rifleman">
             <English>Scout Rifleman</English>
         </Key>
         <Key ID="STR_Cav_Bravo_Characters_B_CavScout_CombatLifeSaver">
             <English>Scout Combat LifeSaver</English>
         </Key>
-        <Key ID="STR_Cav_Bravo_Characters_B_Scout_Crew">
+        <Key ID="STR_Cav_Bravo_Characters_B_CavScout_Crew">
             <English>Scout Crew</English>
         </Key>
-        <Key ID="STR_Cav_Bravo_Characters_B_Scout_Gunner">
+        <Key ID="STR_Cav_Bravo_Characters_B_CavScout_Gunner">
             <English>Scout Gunner</English>
         </Key>
-        <Key ID="STR_Cav_Bravo_Characters_B_Scout_Driver">
+        <Key ID="STR_Cav_Bravo_Characters_B_CavScout_Driver">
             <English>Scout Driver</English>
         </Key>
 
