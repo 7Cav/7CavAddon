@@ -145,32 +145,44 @@
         </Key>
 
         <!-- Viking -->
-        <Key ID="STR_Cav_Bravo_Characters_B_Scout_Officer">
-            <English>Officer</English>
+        <Key ID="STR_Cav_Bravo_Characters_B_CavScout_Officer">
+            <English>Scout Officer</English>
         </Key>
-        <Key ID="STR_Cav_Bravo_Characters_B_Scout_Platoon_Medic">
-            <English>Platoon Medic</English>
+        <Key ID="STR_Cav_Bravo_Characters_B_CavScout_Platoon_Medic">
+            <English>Scout Platoon Medic</English>
         </Key>
-        <Key ID="STR_Cav_Bravo_Characters_B_Scout_Team_Leader">
-            <English>Team Leader</English>
+        <Key ID="STR_Cav_Bravo_Characters_B_CavScout_SquadLead">
+            <English>Scout Squad Leader</English>
         </Key>
-        <Key ID="STR_Cav_Bravo_Characters_B_Scout_Trooper">
-            <English>Team Member</English>
+        <Key ID="STR_Cav_Bravo_Characters_B_CavScout_TeamLead">
+            <English>Scout Team Leader</English>
+        </Key>
+        <Key ID="STR_Cav_Bravo_Characters_B_CavScout_AutomaticRifleman">
+            <English>Scout Automatic Rifleman</English>
+        </Key>
+        <Key ID="STR_Cav_Bravo_Characters_B_CavScout_Grenadier">
+            <English>Scout Grenadier</English>
+        </Key>
+        <Key ID="STR_Cav_Bravo_Characters_B_Scout_Rifleman">
+            <English>Scout Rifleman</English>
+        </Key>
+        <Key ID="STR_Cav_Bravo_Characters_B_CavScout_CombatLifeSaver">
+            <English>Scout Combat LifeSaver</English>
         </Key>
         <Key ID="STR_Cav_Bravo_Characters_B_Scout_Crew">
-            <English>Crew</English>
+            <English>Scout Crew</English>
         </Key>
         <Key ID="STR_Cav_Bravo_Characters_B_Scout_Gunner">
-            <English>Gunner</English>
+            <English>Scout Gunner</English>
         </Key>
         <Key ID="STR_Cav_Bravo_Characters_B_Scout_Driver">
-            <English>Driver</English>
+            <English>Scout Driver</English>
         </Key>
 
 
         <!-- SQUADS -->
         <Key ID="STR_Cav_Bravo_Characters_B_Squad_Viking">
-            <English>Team Viking</English>
+            <English>Scout Squad Viking</English>
         </Key>
         <Key ID="STR_Cav_Bravo_Characters_B_Squad_Lancer">
             <English>Squad Lancer</English>
