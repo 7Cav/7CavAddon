@@ -38,13 +38,16 @@ def main():
     errors = 0
 
     for addon in addons:
+        addonName = addon
+        addon = addon.title()
+
         requestedStrings[addon] = []
         existingStrings[addon] = []
 
-        addonFiles = get_addon_files(addon)
+        addonFiles = get_addon_files(addonName)
         for file in addonFiles:
             if '.hpp' in file:
-                cfgFile = open(rootDir + '/addons/' + addon + '/' + file , 'r')
+                cfgFile = open(rootDir + '/addons/' + addonName + '/' + file , 'r')
                 CfgVehicles = cfgFile.read()
                 strings = re.findall('%s(.*)%s' % ('displayName =', ';'), CfgVehicles)
                 for string in strings:
@@ -57,7 +60,7 @@ def main():
                         string = "STR_cav_{}_{}".format(addon,string)
                     requestedStrings[addon].append(string)
             if file == 'stringtable.xml':
-                cfgFile = open(rootDir + '/addons/' + addon + '/' + file , 'r')
+                cfgFile = open(rootDir + '/addons/' + addonName + '/' + file , 'r')
                 stringtable = cfgFile.read()
                 strings = re.findall('%s(.*)%s' % ('<Key ID="', '"'), stringtable)
                 for string in strings:
