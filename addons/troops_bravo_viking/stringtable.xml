@@ -1,0 +1,30 @@
+<Project name="cav">
+    <Package name="Troops_Bravo_Viking">
+        <Key ID="STR_cav_Troops_Bravo_Viking_B_Scout_Officer">
+            <English>Officer</English>
+        </Key>
+        <Key ID="STR_cav_Troops_Bravo_Viking_B_Scout_Platoon_Medic">
+            <English>Platoon Medic</English>
+        </Key>
+        <Key ID="STR_cav_Troops_Bravo_Viking_B_Scout_Team_Leader">
+            <English>Team Leader</English>
+        </Key>
+        <Key ID="STR_cav_Troops_Bravo_Viking_B_Scout_Trooper">
+            <English>Team Member</English>
+        </Key>
+        <Key ID="STR_cav_Troops_Bravo_Viking_B_Scout_Crew">
+            <English>Crew</English>
+        </Key>
+        <Key ID="STR_cav_Troops_Bravo_Viking_B_Scout_Gunner">
+            <English>Gunner</English>
+        </Key>
+        <Key ID="STR_cav_Troops_Bravo_Viking_B_Scout_Driver">
+            <English>Driver</English>
+        </Key>
+
+        <!-- SQUADS -->
+        <Key ID="STR_cav_Troops_Bravo_Viking_B_Squad_Viking">
+            <English>Team Viking</English>
+        </Key>
+    </Package>
+</Project>
