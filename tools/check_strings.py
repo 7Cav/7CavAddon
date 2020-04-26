@@ -22,7 +22,6 @@ def get_addons():
         if "faction_" in dir:
             continue
         addonList.append(dir)
-    addonList = [addon.title() for addon in addonList]
     return addonList
 
 def get_addon_files(addon=''):
