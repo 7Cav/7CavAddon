@@ -1,193 +1,193 @@
-<Project name="Cav">
+<Project name="cav">
     <Package name="Bravo_Characters">
-        <Key ID="STR_Cav_Bravo_Characters_Cat_Bravo_Company_Inf">
+        <Key ID="STR_cav_Bravo_Characters_Cat_Bravo_Company_Inf">
             <English>Bravo Co. - Infantry</English>
         </Key>
-        <Key ID="STR_Cav_Bravo_Characters_Cat_Bravo_Company_Inf_Weap">
+        <Key ID="STR_cav_Bravo_Characters_Cat_Bravo_Company_Inf_Weap">
             <English>Bravo Co. - Infantry (Heavy Weapons Squad)</English>
         </Key>
-        <Key ID="STR_Cav_Bravo_Characters_Cat_Bravo_Company_Logi">
+        <Key ID="STR_cav_Bravo_Characters_Cat_Bravo_Company_Logi">
             <English>Bravo Co. - Logistics</English>
         </Key>
 
 
-        <Key ID="STR_Cav_Bravo_Characters_Trooper">
+        <Key ID="STR_cav_Bravo_Characters_Trooper">
             <English>Trooper</English>
         </Key>
 
 
-        <Key ID="STR_Cav_Bravo_Characters_B_PlatoonSergeant">
+        <Key ID="STR_cav_Bravo_Characters_B_PlatoonSergeant">
             <English>Platoon Sergeant</English>
         </Key>
-        <Key ID="STR_Cav_Bravo_Characters_B_PlatoonLeader">
+        <Key ID="STR_cav_Bravo_Characters_B_PlatoonLeader">
             <English>Platoon Leader</English>
         </Key>
-        <Key ID="STR_Cav_Bravo_Characters_B_PlatoonMedic">
+        <Key ID="STR_cav_Bravo_Characters_B_PlatoonMedic">
             <English>Platoon Medic</English>
         </Key>
 
 
-        <Key ID="STR_Cav_Bravo_Characters_B_Tank_Commander">
+        <Key ID="STR_cav_Bravo_Characters_B_Tank_Commander">
             <English>Tank Commander</English>
         </Key>
-        <Key ID="STR_Cav_Bravo_Characters_B_Tank_Driver">
+        <Key ID="STR_cav_Bravo_Characters_B_Tank_Driver">
             <English>Tank Driver</English>
         </Key>
-        <Key ID="STR_Cav_Bravo_Characters_B_Tank_Gunner">
+        <Key ID="STR_cav_Bravo_Characters_B_Tank_Gunner">
             <English>Tank Gunner</English>
         </Key>
-        <Key ID="STR_Cav_Bravo_Characters_B_Tank_Loader">
+        <Key ID="STR_cav_Bravo_Characters_B_Tank_Loader">
             <English>Tank Loader</English>
         </Key>
 
-       <Key ID="STR_Cav_Bravo_Characters_B_Ifv_Commander">
+       <Key ID="STR_cav_Bravo_Characters_B_Ifv_Commander">
             <English>IFV Commander</English>
         </Key>
-       <Key ID="STR_Cav_Bravo_Characters_B_Ifv_Driver">
+       <Key ID="STR_cav_Bravo_Characters_B_Ifv_Driver">
             <English>IFV Driver</English>
         </Key>
-       <Key ID="STR_Cav_Bravo_Characters_B_Ifv_Gunner">
+       <Key ID="STR_cav_Bravo_Characters_B_Ifv_Gunner">
             <English>IFV Gunner</English>
         </Key>
 
 
-        <Key ID="STR_Cav_Bravo_Characters_B_SquadLeader">
+        <Key ID="STR_cav_Bravo_Characters_B_SquadLeader">
             <English>Squad Leader</English>
         </Key>
 
-        <Key ID="STR_Cav_Bravo_Characters_B_FireTeamLeader">
+        <Key ID="STR_cav_Bravo_Characters_B_FireTeamLeader">
             <English>Fire Team Leader</English>
         </Key>
-        <Key ID="STR_Cav_Bravo_Characters_B_AutomaticRifleman">
+        <Key ID="STR_cav_Bravo_Characters_B_AutomaticRifleman">
             <English>Automatic Rifleman</English>
         </Key>
-        <Key ID="STR_Cav_Bravo_Characters_B_Grenadier">
+        <Key ID="STR_cav_Bravo_Characters_B_Grenadier">
             <English>Grenadier</English>
         </Key>
-        <Key ID="STR_Cav_Bravo_Characters_B_Rifleman">
+        <Key ID="STR_cav_Bravo_Characters_B_Rifleman">
             <English>Rifleman</English>
         </Key>
-        <Key ID="STR_Cav_Bravo_Characters_B_RiflemanAT">
+        <Key ID="STR_cav_Bravo_Characters_B_RiflemanAT">
             <English>Rifleman (AT)</English>
         </Key>
-        <Key ID="STR_Cav_Bravo_Characters_B_RiflemanLAT">
+        <Key ID="STR_cav_Bravo_Characters_B_RiflemanLAT">
             <English>Rifleman (LAT)</English>
         </Key>
-        <Key ID="STR_Cav_Bravo_Characters_B_CombatLifeSaver">
+        <Key ID="STR_cav_Bravo_Characters_B_CombatLifeSaver">
             <English>Combat Life Saver</English>
         </Key>
 
-        <Key ID="STR_Cav_Bravo_Characters_B_Alpha_FireTeamLeader">
+        <Key ID="STR_cav_Bravo_Characters_B_Alpha_FireTeamLeader">
             <English>Alpha Fire Team Leader</English>
         </Key>
-        <Key ID="STR_Cav_Bravo_Characters_B_Alpha_AutomaticRifleman">
+        <Key ID="STR_cav_Bravo_Characters_B_Alpha_AutomaticRifleman">
             <English>Alpha Automatic Rifleman</English>
         </Key>
-        <Key ID="STR_Cav_Bravo_Characters_B_Alpha_Grenadier">
+        <Key ID="STR_cav_Bravo_Characters_B_Alpha_Grenadier">
             <English>Alpha Grenadier</English>
         </Key>
-        <Key ID="STR_Cav_Bravo_Characters_B_Alpha_Rifleman">
+        <Key ID="STR_cav_Bravo_Characters_B_Alpha_Rifleman">
             <English>Alpha Rifleman</English>
         </Key>
-        <Key ID="STR_Cav_Bravo_Characters_B_Alpha_RiflemanAT">
+        <Key ID="STR_cav_Bravo_Characters_B_Alpha_RiflemanAT">
             <English>Alpha Rifleman (AT)</English>
         </Key>
-        <Key ID="STR_Cav_Bravo_Characters_B_Alpha_RiflemanLAT">
+        <Key ID="STR_cav_Bravo_Characters_B_Alpha_RiflemanLAT">
             <English>Alpha Rifleman (LAT)</English>
         </Key>
-        <Key ID="STR_Cav_Bravo_Characters_B_Alpha_CombatLifeSaver">
+        <Key ID="STR_cav_Bravo_Characters_B_Alpha_CombatLifeSaver">
             <English>Alpha Combat Life Saver</English>
         </Key>
 
-        <Key ID="STR_Cav_Bravo_Characters_B_Bravo_FireTeamLeader">
+        <Key ID="STR_cav_Bravo_Characters_B_Bravo_FireTeamLeader">
             <English>Bravo Fire Team Leader</English>
         </Key>
-        <Key ID="STR_Cav_Bravo_Characters_B_Bravo_AutomaticRifleman">
+        <Key ID="STR_cav_Bravo_Characters_B_Bravo_AutomaticRifleman">
             <English>Bravo Automatic Rifleman</English>
         </Key>
-        <Key ID="STR_Cav_Bravo_Characters_B_Bravo_Grenadier">
+        <Key ID="STR_cav_Bravo_Characters_B_Bravo_Grenadier">
             <English>Bravo Grenadier</English>
         </Key>
-        <Key ID="STR_Cav_Bravo_Characters_B_Bravo_Rifleman">
+        <Key ID="STR_cav_Bravo_Characters_B_Bravo_Rifleman">
             <English>Bravo Rifleman</English>
         </Key>
-        <Key ID="STR_Cav_Bravo_Characters_B_Bravo_RiflemanAT">
+        <Key ID="STR_cav_Bravo_Characters_B_Bravo_RiflemanAT">
             <English>Bravo Rifleman (AT)</English>
         </Key>
-        <Key ID="STR_Cav_Bravo_Characters_B_Bravo_RiflemanLAT">
+        <Key ID="STR_cav_Bravo_Characters_B_Bravo_RiflemanLAT">
             <English>Bravo Rifleman (LAT)</English>
         </Key>
-        <Key ID="STR_Cav_Bravo_Characters_B_Bravo_CombatLifeSaver">
+        <Key ID="STR_cav_Bravo_Characters_B_Bravo_CombatLifeSaver">
             <English>Bravo Combat Life Saver</English>
         </Key>
 
 
-        <Key ID="STR_Cav_Bravo_Characters_B_TeamLeader_Mustang">
+        <Key ID="STR_cav_Bravo_Characters_B_TeamLeader_Mustang">
             <English>Team Leader</English>
         </Key>
-        <Key ID="STR_Cav_Bravo_Characters_B_CombatMedic_Mustang">
+        <Key ID="STR_cav_Bravo_Characters_B_CombatMedic_Mustang">
             <English>Combat Medic</English>
         </Key>
 
 
-        <Key ID="STR_Cav_Bravo_Characters_B_LogisticsOpsOfficer">
+        <Key ID="STR_cav_Bravo_Characters_B_LogisticsOpsOfficer">
             <English>Ops Officer</English>
         </Key>
-        <Key ID="STR_Cav_Bravo_Characters_B_LogisticsOpsNCO">
+        <Key ID="STR_cav_Bravo_Characters_B_LogisticsOpsNCO">
             <English>Ops NCO</English>
         </Key>
 
-        <Key ID="STR_Cav_Bravo_Characters_B_LogisticTeamLeader">
+        <Key ID="STR_cav_Bravo_Characters_B_LogisticTeamLeader">
             <English>Logistic Team Leader</English>
         </Key>
-        <Key ID="STR_Cav_Bravo_Characters_B_LogisticsTeamMember">
+        <Key ID="STR_cav_Bravo_Characters_B_LogisticsTeamMember">
             <English>Logistics Team Member</English>
         </Key>
 
         <!-- Viking -->
-        <Key ID="STR_Cav_Bravo_Characters_B_Scout_Officer">
+        <Key ID="STR_cav_Bravo_Characters_B_Scout_Officer">
             <English>Officer</English>
         </Key>
-        <Key ID="STR_Cav_Bravo_Characters_B_Scout_Platoon_Medic">
+        <Key ID="STR_cav_Bravo_Characters_B_Scout_Platoon_Medic">
             <English>Platoon Medic</English>
         </Key>
-        <Key ID="STR_Cav_Bravo_Characters_B_Scout_Team_Leader">
+        <Key ID="STR_cav_Bravo_Characters_B_Scout_Team_Leader">
             <English>Team Leader</English>
         </Key>
-        <Key ID="STR_Cav_Bravo_Characters_B_Scout_Trooper">
+        <Key ID="STR_cav_Bravo_Characters_B_Scout_Trooper">
             <English>Team Member</English>
         </Key>
-        <Key ID="STR_Cav_Bravo_Characters_B_Scout_Crew">
+        <Key ID="STR_cav_Bravo_Characters_B_Scout_Crew">
             <English>Crew</English>
         </Key>
-        <Key ID="STR_Cav_Bravo_Characters_B_Scout_Gunner">
+        <Key ID="STR_cav_Bravo_Characters_B_Scout_Gunner">
             <English>Gunner</English>
         </Key>
-        <Key ID="STR_Cav_Bravo_Characters_B_Scout_Driver">
+        <Key ID="STR_cav_Bravo_Characters_B_Scout_Driver">
             <English>Driver</English>
         </Key>
 
 
         <!-- SQUADS -->
-        <Key ID="STR_Cav_Bravo_Characters_B_Squad_Viking">
+        <Key ID="STR_cav_Bravo_Characters_B_Squad_Viking">
             <English>Team Viking</English>
         </Key>
-        <Key ID="STR_Cav_Bravo_Characters_B_Squad_Lancer">
+        <Key ID="STR_cav_Bravo_Characters_B_Squad_Lancer">
             <English>Squad Lancer</English>
         </Key>
 
-        <Key ID="STR_Cav_Bravo_Characters_B_Squad_Banshee">
+        <Key ID="STR_cav_Bravo_Characters_B_Squad_Banshee">
             <English>Team Banshee</English>
         </Key>
-        <Key ID="STR_Cav_Bravo_Characters_B_Squad_Saber">
+        <Key ID="STR_cav_Bravo_Characters_B_Squad_Saber">
             <English>Team Saber</English>
         </Key>
 
-        <Key ID="STR_Cav_Bravo_Characters_B_Squad_Mustang">
+        <Key ID="STR_cav_Bravo_Characters_B_Squad_Mustang">
             <English>Team Mustang</English>
         </Key>
 
-        <Key ID="STR_Cav_Bravo_Characters_B_Squad_Apollo">
+        <Key ID="STR_cav_Bravo_Characters_B_Squad_Apollo">
             <English>Team Apollo</English>
         </Key>
         
