@@ -1,43 +1,43 @@
-<Project name="Cav">
+<Project name="cav">
     <Package name="Flag">
-        <Key ID="STR_Cav_Flag_00_Display">
+        <Key ID="STR_cav_Flag_00_Display">
             <English>Flag (7th Cavalry)</English>
         </Key>
-        <Key ID="STR_Cav_Flag_01_Display">
+        <Key ID="STR_cav_Flag_01_Display">
             <English>Flag (7th Cavalry - Red and White)</English>
         </Key>
-        <Key ID="STR_Cav_Flag_02_Display">
+        <Key ID="STR_cav_Flag_02_Display">
             <English>Flag (7th Cavalry - Red and White Slit)</English>
         </Key>
-        <Key ID="STR_Cav_Flag_00_Banner_Display">
+        <Key ID="STR_cav_Flag_00_Banner_Display">
             <English>Banner (7th Cavalry)</English>
         </Key>
-        <Key ID="STR_Cav_Flag_01_Banner_Display">
+        <Key ID="STR_cav_Flag_01_Banner_Display">
             <English>Banner (7th Cavalry - Red and White)</English>
         </Key>
 
-        <Key ID="STR_Cav_Flag_alpha_1_flag">
+        <Key ID="STR_cav_Flag_alpha_1_flag">
             <English>Flag (7th Cavalry - Alpha)</English>
         </Key>
 
-        <Key ID="STR_Cav_Flag_charlie_1_flag">
+        <Key ID="STR_cav_Flag_charlie_1_flag">
             <English>Flag (7th Cavalry - Bandit)</English>
         </Key>
-        <Key ID="STR_Cav_Flag_charlie_1_banner">
+        <Key ID="STR_cav_Flag_charlie_1_banner">
             <English>Banner (7th Cavalry - Bandit)</English>
         </Key>
 
-        <Key ID="STR_Cav_Flag_charlie_2_flag">
+        <Key ID="STR_cav_Flag_charlie_2_flag">
             <English>Flag (7th Cavalry - Misfit)</English>
         </Key>
-        <Key ID="STR_Cav_Flag_charlie_2_banner">
+        <Key ID="STR_cav_Flag_charlie_2_banner">
             <English>Banner (7th Cavalry - Misfit)</English>
         </Key>
 
-        <Key ID="STR_Cav_Flag_bravo_2_flag">
+        <Key ID="STR_cav_Flag_bravo_2_flag">
             <English>Flag (7th Cavalry - Viking)</English>
         </Key>
-        <Key ID="STR_Cav_Flag_bravo_2_banner">
+        <Key ID="STR_cav_Flag_bravo_2_banner">
             <English>Banner (7th Cavalry - Viking)</English>
         </Key>
     </Package>

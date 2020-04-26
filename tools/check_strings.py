@@ -1,101 +1,87 @@
 #!/usr/bin/env python3
-# PabstMirror
-# Checks all strings are defined, run with -u to return all unused strings
+import sys, os, re, json
 
-import fnmatch
-import os
-import re
-import sys
+__version__ = 1.0
 
-def getDefinedStrings(filepath):
-    # print("getDefinedStrings {0}".format(filepath))
-    with open(filepath, 'r', encoding="latin-1") as file:
-        content = file.read()
-        srch = re.compile('Key ID\=\"(STR_ACE_[_a-zA-Z0-9]*)"', re.IGNORECASE)
-        modStrings = srch.findall(content)
-    modStrings = [s.lower() for s in modStrings]
-    return modStrings
+# set projecty path
+scriptPath = os.path.realpath(__file__)
+scriptDir = os.path.dirname(scriptPath)
+rootDir = os.path.dirname(os.path.dirname(scriptPath))
+os.chdir(rootDir)
 
-def getStringUsage(filepath):
-    selfmodule = (re.search('addons[\W]*([_a-zA-Z0-9]*)', filepath)).group(1)
-    # print("Checking {0} from {1}".format(filepath,selfmodule))
-    fileStrings = []
+def strip_path_from_filename(pathfile=''):
+    filenamepath = pathfile.split('/')
+    filename = filenamepath[-1]
+    filename = str(filename)
+    return filename
 
-    with open(filepath, 'r') as file:
-        content = file.read()
+def get_addons():
+    addonDir = os.listdir(rootDir + '/addons')
+    addonList = []
+    for dir in addonDir:
+        if "faction_" in dir:
+            continue
+        addonList.append(dir)
+    addonList = [addon.title() for addon in addonList]
+    return addonList
 
-        srch = re.compile('(STR_ACE_[_a-zA-Z0-9]*)', re.IGNORECASE)
-        fileStrings = srch.findall(content)
+def get_addon_files(addon=''):
+    addonFiles = os.listdir(rootDir + '/addons/' + addon)
+    return addonFiles
 
-        srch = re.compile('[^E][CL]STRING\(([_a-zA-Z0-9]*)\)', re.IGNORECASE)
-        modStrings = srch.findall(content)
-        for localString in modStrings:
-            fileStrings.append("STR_ACE_{0}_{1}".format(selfmodule, localString))
+def main():
+    addons = get_addons()
+    
+    requestedStrings = {}
+    existingStrings = {}
+    missingStrings = {}
+    errors = 0
 
-        srch = re.compile('E[CL]STRING\(([_a-zA-Z0-9]*),([_a-zA-Z0-9]*)\)')
-        exStrings = srch.findall(content)
-        for (exModule, exString) in exStrings:
-            fileStrings.append("STR_ACE_{0}_{1}".format(exModule, exString))
+    for addon in addons:
+        requestedStrings[addon] = []
+        existingStrings[addon] = []
 
-        srch = re.compile('IGNORE_STRING_WARNING\([\'"]*([_a-zA-Z0-9]*)[\'"]*\)')
-        ignoreWarnings = srch.findall(content)
+        addonFiles = get_addon_files(addon)
+        for file in addonFiles:
+            if '.hpp' in file:
+                cfgFile = open(rootDir + '/addons/' + addon + '/' + file , 'r')
+                CfgVehicles = cfgFile.read()
+                strings = re.findall('%s(.*)%s' % ('displayName =', ';'), CfgVehicles)
+                for string in strings:
+                    string = string.strip()
+                    if "var1" in string:
+                        continue
+                    if "CSTRING" in string:
+                        string = string.strip('CSTRING')
+                        string = string.strip('()')
+                        string = "STR_cav_{}_{}".format(addon,string)
+                    requestedStrings[addon].append(string)
+            if file == 'stringtable.xml':
+                cfgFile = open(rootDir + '/addons/' + addon + '/' + file , 'r')
+                stringtable = cfgFile.read()
+                strings = re.findall('%s(.*)%s' % ('<Key ID="', '"'), stringtable)
+                for string in strings:
+                    string = string.strip()
+                    existingStrings[addon].append(string)
 
-    fileStrings = [s.lower() for s in fileStrings]
-    return [s for s in fileStrings if s not in (i.lower() for i in ignoreWarnings)]
+    for addon, values in requestedStrings.items():
+        missingStrings[addon] = []
+        for string in values:
+            if string in existingStrings[addon]:
+                continue
+            missingStrings[addon].append(string)
+            errors += 1
 
-def main(argv):
-    print("### check_strings.py {} ###".format(argv))
-    sqf_list = []
-    xml_list = []
-
-    allDefinedStrings = []
-    allUsedStrings = []
-
-    # Allow running from root directory as well as from inside the tools directory
-    rootDir = "../addons"
-    if (os.path.exists("addons")):
-        rootDir = "addons"
-
-    for root, dirnames, filenames in os.walk(rootDir):
-      for filename in fnmatch.filter(filenames, '*.sqf'):
-        sqf_list.append(os.path.join(root, filename))
-      for filename in fnmatch.filter(filenames, '*.cpp'):
-        sqf_list.append(os.path.join(root, filename))
-      for filename in fnmatch.filter(filenames, '*.hpp'):
-        sqf_list.append(os.path.join(root, filename))
-      for filename in fnmatch.filter(filenames, '*.h'):
-        sqf_list.append(os.path.join(root, filename))
-
-      for filename in fnmatch.filter(filenames, '*.xml'):
-        xml_list.append(os.path.join(root, filename))
-
-    for filename in xml_list:
-        allDefinedStrings = allDefinedStrings + getDefinedStrings(filename)
-    for filename in sqf_list:
-        allUsedStrings = allUsedStrings + getStringUsage(filename)
-
-    allDefinedStrings = list(sorted(set(allDefinedStrings)))
-    allUsedStrings = list(sorted(set(allUsedStrings)))
-
-    print("-----------")
-    countUnusedStrings = 0
-    countUndefinedStrings = 0
-    for s in allDefinedStrings:
-        if (not (s in allUsedStrings)):
-            countUnusedStrings = countUnusedStrings + 1;
-            if ("-u" in argv):
-                print("String {} defined but not used".format(s))
-    print("-----------")
-    for s in allUsedStrings:
-        if (not (s in allDefinedStrings)):
-            print("String {} not defined".format(s))
-            countUndefinedStrings = countUndefinedStrings + 1;
-    print("-----------")
-
-    print("Defined Strings:{0} Used Strings:{1}".format(len(allDefinedStrings),len(allUsedStrings)))
-    print("Unused Strings:{0} Undefined Strings:{1}".format(countUnusedStrings,countUndefinedStrings))
-
-    return countUndefinedStrings
-
+    if errors >= 1:
+        for addon, values in missingStrings.items():
+            if values == []:
+                continue
+            print(addon)
+            for string in values:
+                print("  {:3}{}".format(">", string))
+        exit("\nTotal of {} missing strings.".format(errors))
+    
+    print("No missing strings")
+        
 if __name__ == "__main__":
-    main(sys.argv)
+    sys.exit(main())

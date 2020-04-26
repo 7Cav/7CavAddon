@@ -1,9 +1,9 @@
-<Project name="Cav">
+<Project name="cav">
     <Package name="Bravo_Vehicles">
-        <Key ID="STR_Cav_Bravo_Vehicles_Cat_Bravo_Company_Veh_D">
+        <Key ID="STR_cav_Bravo_Vehicles_Cat_Bravo_Company_Veh_D">
             <English>Bravo Co. - Vehicles (Desert)</English>
         </Key>
-        <Key ID="STR_Cav_Bravo_Vehicles_Cat_Bravo_Company_Veh_W">
+        <Key ID="STR_cav_Bravo_Vehicles_Cat_Bravo_Company_Veh_W">
             <English>Bravo Co. - Vehicles (Woodland)</English>
         </Key>
     </Package>

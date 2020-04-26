@@ -1,170 +1,170 @@
-<Project name="Cav">
+<Project name="cav">
     <Package name="Charlie_Characters">
-        <Key ID="STR_Cav_Charlie_Characters_Cat_Charlie_Company_Inf">
+        <Key ID="STR_cav_Charlie_Characters_Cat_Charlie_Company_Inf">
             <English>Charlie Co. - Infantry</English>
         </Key>
-        <Key ID="STR_Cav_Charlie_Characters_Cat_Charlie_Company_Inf_Weap">
+        <Key ID="STR_cav_Charlie_Characters_Cat_Charlie_Company_Inf_Weap">
             <English>Charlie Co. - Infantry (Heavy Weapons Squad)</English>
         </Key>
 
-        <Key ID="STR_Cav_Charlie_Characters_Trooper">
+        <Key ID="STR_cav_Charlie_Characters_Trooper">
             <English>Trooper</English>
         </Key>
 
-        <Key ID="STR_Cav_Charlie_Characters_C_Officer">
+        <Key ID="STR_cav_Charlie_Characters_C_Officer">
             <English>Officer</English>
         </Key>
 
-        <Key ID="STR_Cav_Charlie_Characters_C_PlatoonSergeant">
+        <Key ID="STR_cav_Charlie_Characters_C_PlatoonSergeant">
             <English>Platoon Sergeant</English>
         </Key>
-        <Key ID="STR_Cav_Charlie_Characters_C_PlatoonLeader">
+        <Key ID="STR_cav_Charlie_Characters_C_PlatoonLeader">
             <English>Platoon Leader</English>
         </Key>
-        <Key ID="STR_Cav_Charlie_Characters_C_PlatoonMedic">
+        <Key ID="STR_cav_Charlie_Characters_C_PlatoonMedic">
             <English>Platoon Medic</English>
         </Key>
 
 
-        <Key ID="STR_Cav_Charlie_Characters_C_SquadLeader">
+        <Key ID="STR_cav_Charlie_Characters_C_SquadLeader">
             <English>Squad Leader</English>
         </Key>
 
-        <Key ID="STR_Cav_Charlie_Characters_C_FireTeamLeader">
+        <Key ID="STR_cav_Charlie_Characters_C_FireTeamLeader">
             <English>Fire Team Leader</English>
         </Key>
-        <Key ID="STR_Cav_Charlie_Characters_C_AutomaticRifleman">
+        <Key ID="STR_cav_Charlie_Characters_C_AutomaticRifleman">
             <English>Automatic Rifleman</English>
         </Key>
-        <Key ID="STR_Cav_Charlie_Characters_C_Grenadier">
+        <Key ID="STR_cav_Charlie_Characters_C_Grenadier">
             <English>Grenadier</English>
         </Key>
-        <Key ID="STR_Cav_Charlie_Characters_C_Rifleman">
+        <Key ID="STR_cav_Charlie_Characters_C_Rifleman">
             <English>Rifleman</English>
         </Key>
-        <Key ID="STR_Cav_Charlie_Characters_C_RiflemanAT">
+        <Key ID="STR_cav_Charlie_Characters_C_RiflemanAT">
             <English>Rifleman (AT)</English>
         </Key>
-        <Key ID="STR_Cav_Charlie_Characters_C_RiflemanLAT">
+        <Key ID="STR_cav_Charlie_Characters_C_RiflemanLAT">
             <English>Rifleman (LAT)</English>
         </Key>
-        <Key ID="STR_Cav_Charlie_Characters_C_CombatLifeSaver">
+        <Key ID="STR_cav_Charlie_Characters_C_CombatLifeSaver">
             <English>Combat Life Saver</English>
         </Key>
 
-        <Key ID="STR_Cav_Charlie_Characters_C_Alpha_FireTeamLeader">
+        <Key ID="STR_cav_Charlie_Characters_C_Alpha_FireTeamLeader">
             <English>Alpha Fire Team Leader</English>
         </Key>
-        <Key ID="STR_Cav_Charlie_Characters_C_Alpha_AutomaticRifleman">
+        <Key ID="STR_cav_Charlie_Characters_C_Alpha_AutomaticRifleman">
             <English>Alpha Automatic Rifleman</English>
         </Key>
-        <Key ID="STR_Cav_Charlie_Characters_C_Alpha_Grenadier">
+        <Key ID="STR_cav_Charlie_Characters_C_Alpha_Grenadier">
             <English>Alpha Grenadier</English>
         </Key>
-        <Key ID="STR_Cav_Charlie_Characters_C_Alpha_Rifleman">
+        <Key ID="STR_cav_Charlie_Characters_C_Alpha_Rifleman">
             <English>Alpha Rifleman</English>
         </Key>
-        <Key ID="STR_Cav_Charlie_Characters_C_Alpha_RiflemanAT">
+        <Key ID="STR_cav_Charlie_Characters_C_Alpha_RiflemanAT">
             <English>Alpha Rifleman (AT)</English>
         </Key>
-        <Key ID="STR_Cav_Charlie_Characters_C_Alpha_RiflemanLAT">
+        <Key ID="STR_cav_Charlie_Characters_C_Alpha_RiflemanLAT">
             <English>Alpha Rifleman (LAT)</English>
         </Key>
-        <Key ID="STR_Cav_Charlie_Characters_C_Alpha_CombatLifeSaver">
+        <Key ID="STR_cav_Charlie_Characters_C_Alpha_CombatLifeSaver">
             <English>Alpha Combat Life Saver</English>
         </Key>
 
-        <Key ID="STR_Cav_Charlie_Characters_C_Bravo_FireTeamLeader">
+        <Key ID="STR_cav_Charlie_Characters_C_Bravo_FireTeamLeader">
             <English>Bravo Fire Team Leader</English>
         </Key>
-        <Key ID="STR_Cav_Charlie_Characters_C_Bravo_AutomaticRifleman">
+        <Key ID="STR_cav_Charlie_Characters_C_Bravo_AutomaticRifleman">
             <English>Bravo Automatic Rifleman</English>
         </Key>
-        <Key ID="STR_Cav_Charlie_Characters_C_Bravo_Grenadier">
+        <Key ID="STR_cav_Charlie_Characters_C_Bravo_Grenadier">
             <English>Bravo Grenadier</English>
         </Key>
-        <Key ID="STR_Cav_Charlie_Characters_C_Bravo_Rifleman">
+        <Key ID="STR_cav_Charlie_Characters_C_Bravo_Rifleman">
             <English>Bravo Rifleman</English>
         </Key>
-        <Key ID="STR_Cav_Charlie_Characters_C_Bravo_RiflemanAT">
+        <Key ID="STR_cav_Charlie_Characters_C_Bravo_RiflemanAT">
             <English>Bravo Rifleman (AT)</English>
         </Key>
-        <Key ID="STR_Cav_Charlie_Characters_C_Bravo_RiflemanLAT">
+        <Key ID="STR_cav_Charlie_Characters_C_Bravo_RiflemanLAT">
             <English>Bravo Rifleman (LAT)</English>
         </Key>
-        <Key ID="STR_Cav_Charlie_Characters_C_Bravo_CombatLifeSaver">
+        <Key ID="STR_cav_Charlie_Characters_C_Bravo_CombatLifeSaver">
             <English>Bravo Combat Life Saver</English>
         </Key>
 
 
         <!-- Havoc -->
-        <Key ID="STR_Cav_Charlie_Characters_C_Weap_SquadLeader">
+        <Key ID="STR_cav_Charlie_Characters_C_Weap_SquadLeader">
             <English>Squad Leader</English>
         </Key>
 
-        <Key ID="STR_Cav_Charlie_Characters_C_Weap_FireTeamLeader">
+        <Key ID="STR_cav_Charlie_Characters_C_Weap_FireTeamLeader">
             <English>Fire Team Leader</English>
         </Key>
-        <Key ID="STR_Cav_Charlie_Characters_C_Weap_AutomaticRifleman">
+        <Key ID="STR_cav_Charlie_Characters_C_Weap_AutomaticRifleman">
             <English>Automatic Rifleman</English>
         </Key>
-        <Key ID="STR_Cav_Charlie_Characters_C_Weap_Grenadier">
+        <Key ID="STR_cav_Charlie_Characters_C_Weap_Grenadier">
             <English>Grenadier</English>
         </Key>
-        <Key ID="STR_Cav_Charlie_Characters_C_Weap_Rifleman">
+        <Key ID="STR_cav_Charlie_Characters_C_Weap_Rifleman">
             <English>Rifleman</English>
         </Key>
-        <Key ID="STR_Cav_Charlie_Characters_C_Weap_RiflemanAT">
+        <Key ID="STR_cav_Charlie_Characters_C_Weap_RiflemanAT">
             <English>Rifleman (AT)</English>
         </Key>
-        <Key ID="STR_Cav_Charlie_Characters_C_Weap_RiflemanLAT">
+        <Key ID="STR_cav_Charlie_Characters_C_Weap_RiflemanLAT">
             <English>Rifleman (LAT)</English>
         </Key>
-        <Key ID="STR_Cav_Charlie_Characters_C_Weap_CombatLifeSaver">
+        <Key ID="STR_cav_Charlie_Characters_C_Weap_CombatLifeSaver">
             <English>Combat Life Saver</English>
         </Key>
 
-        <Key ID="STR_Cav_Charlie_Characters_C_Weap_Alpha_FireTeamLeader">
+        <Key ID="STR_cav_Charlie_Characters_C_Weap_Alpha_FireTeamLeader">
             <English>Alpha Fire Team Leader</English>
         </Key>
-        <Key ID="STR_Cav_Charlie_Characters_C_Weap_Alpha_AutomaticRifleman">
+        <Key ID="STR_cav_Charlie_Characters_C_Weap_Alpha_AutomaticRifleman">
             <English>Alpha Automatic Rifleman</English>
         </Key>
-        <Key ID="STR_Cav_Charlie_Characters_C_Weap_Alpha_Grenadier">
+        <Key ID="STR_cav_Charlie_Characters_C_Weap_Alpha_Grenadier">
             <English>Alpha Grenadier</English>
         </Key>
-        <Key ID="STR_Cav_Charlie_Characters_C_Weap_Alpha_Rifleman">
+        <Key ID="STR_cav_Charlie_Characters_C_Weap_Alpha_Rifleman">
             <English>Alpha Rifleman</English>
         </Key>
-        <Key ID="STR_Cav_Charlie_Characters_C_Weap_Alpha_RiflemanAT">
+        <Key ID="STR_cav_Charlie_Characters_C_Weap_Alpha_RiflemanAT">
             <English>Alpha Rifleman (AT)</English>
         </Key>
-        <Key ID="STR_Cav_Charlie_Characters_C_Weap_Alpha_RiflemanLAT">
+        <Key ID="STR_cav_Charlie_Characters_C_Weap_Alpha_RiflemanLAT">
             <English>Alpha Rifleman (LAT)</English>
         </Key>
-        <Key ID="STR_Cav_Charlie_Characters_C_Weap_Alpha_CombatLifeSaver">
+        <Key ID="STR_cav_Charlie_Characters_C_Weap_Alpha_CombatLifeSaver">
             <English>Alpha Combat Life Saver</English>
         </Key>
 
-        <Key ID="STR_Cav_Charlie_Characters_C_Weap_Bravo_FireTeamLeader">
+        <Key ID="STR_cav_Charlie_Characters_C_Weap_Bravo_FireTeamLeader">
             <English>Bravo Fire Team Leader</English>
         </Key>
-        <Key ID="STR_Cav_Charlie_Characters_C_Weap_Bravo_AutomaticRifleman">
+        <Key ID="STR_cav_Charlie_Characters_C_Weap_Bravo_AutomaticRifleman">
             <English>Bravo Automatic Rifleman</English>
         </Key>
-        <Key ID="STR_Cav_Charlie_Characters_C_Weap_Bravo_Grenadier">
+        <Key ID="STR_cav_Charlie_Characters_C_Weap_Bravo_Grenadier">
             <English>Bravo Grenadier</English>
         </Key>
-        <Key ID="STR_Cav_Charlie_Characters_C_Weap_Bravo_Rifleman">
+        <Key ID="STR_cav_Charlie_Characters_C_Weap_Bravo_Rifleman">
             <English>Bravo Rifleman</English>
         </Key>
-        <Key ID="STR_Cav_Charlie_Characters_C_Weap_Bravo_RiflemanAT">
+        <Key ID="STR_cav_Charlie_Characters_C_Weap_Bravo_RiflemanAT">
             <English>Bravo Rifleman (AT)</English>
         </Key>
-        <Key ID="STR_Cav_Charlie_Characters_C_Weap_Bravo_RiflemanLAT">
+        <Key ID="STR_cav_Charlie_Characters_C_Weap_Bravo_RiflemanLAT">
             <English>Bravo Rifleman (LAT)</English>
         </Key>
-        <Key ID="STR_Cav_Charlie_Characters_C_Weap_Bravo_CombatLifeSaver">
+        <Key ID="STR_cav_Charlie_Characters_C_Weap_Bravo_CombatLifeSaver">
             <English>Bravo Combat Life Saver</English>
         </Key>
 
@@ -172,13 +172,13 @@
 
 
         <!-- SQUADS -->
-        <Key ID="STR_Cav_Charlie_Characters_C_Squad_Bandit">
+        <Key ID="STR_cav_Charlie_Characters_C_Squad_Bandit">
             <English>Squad Bandit</English>
         </Key>
-        <Key ID="STR_Cav_Charlie_Characters_C_Squad_Misfit">
+        <Key ID="STR_cav_Charlie_Characters_C_Squad_Misfit">
             <English>Squad Misfit</English>
         </Key>
-        <Key ID="STR_Cav_Charlie_Characters_C_Squad_Havoc">
+        <Key ID="STR_cav_Charlie_Characters_C_Squad_Havoc">
             <English>Squad Havoc</English>
         </Key>
 
