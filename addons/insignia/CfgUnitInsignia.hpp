@@ -56,7 +56,7 @@ class CfgUnitInsignia {
     MACRO_UNITINSIGNIA(Charlie_2);
     MACRO_UNITINSIGNIA(Charlie_2_1);
     MACRO_UNITINSIGNIA(Charlie_2_2);
-    //MACRO_UNITINSIGNIA(Charlie_2_3);
+    MACRO_UNITINSIGNIA(Charlie_2_3);
     MACRO_UNITINSIGNIA(Charlie_2_4);
 
 
