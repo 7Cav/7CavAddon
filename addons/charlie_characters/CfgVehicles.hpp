@@ -101,8 +101,170 @@ class CfgVehicles {
             "rhsusf_ANPVS_14"
         };
     };
+    
+    class Cav_B_C_WSL_F : Cav_B_Charlie_Weap_base_F {
+        _generalMacro = "Cav_B_C_WSL_F";
+        scope = 2;
+        scopeCurator = 0;
+        displayName = CSTRING(C_WeaponSquadLeader);
+        author = ECSTRING(Main,CavModTeam);
+        //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_Rifleman_F.jpg);
 
+        icon = "iconManLeader";
 
+        linkedItems[] = {
+            "rhsusf_iotv_ocp_Squadleader",
+            "rhsusf_ach_helmet_ocp",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio",
+            "rhsusf_ANPVS_14"
+        };
+        respawnLinkedItems[] = {
+            "rhsusf_iotv_ocp_Squadleader",
+            "rhsusf_ach_helmet_ocp",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio",
+            "rhsusf_ANPVS_14"
+        };
+    };
+    
+    class Cav_B_C_MMGTeamLead_F : Cav_B_Charlie_Weap_base_F {
+        _generalMacro = "Cav_B_C_MMGTeamLead_F";
+        scope = 2;
+        scopeCurator = 0;
+        displayName = CSTRING(C_MMGTeamLead);
+        author = ECSTRING(Main,CavModTeam);
+        //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_Rifleman_F.jpg);
+
+        icon = "iconManLeader";
+
+        linkedItems[] = {
+            "rhsusf_iotv_ocp_Teamleader",
+            "rhsusf_ach_helmet_ocp",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio",
+            "rhsusf_ANPVS_14"
+        };
+        respawnLinkedItems[] = {
+            "rhsusf_iotv_ocp_Teamleader",
+            "rhsusf_ach_helmet_ocp",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio",
+            "rhsusf_ANPVS_14"
+        };
+    };
+    class Cav_B_C_MMGGunner_F : Cav_B_Charlie_Weap_base_F {
+        _generalMacro = "Cav_B_C_MMGGunner_F";
+        scope = 2;
+        scopeCurator = 0;
+        displayName = CSTRING(C_MMGGunner);
+        author = ECSTRING(Main,CavModTeam);
+        //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_Rifleman_F.jpg);
+
+        icon = "iconManMG";
+
+        linkedItems[] = {
+            "rhsusf_iotv_ocp_machinegunner",
+            "rhsusf_ach_helmet_ocp",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio",
+            "rhsusf_ANPVS_14"
+        };
+        respawnLinkedItems[] = {
+            "rhsusf_iotv_ocp_machinegunner",
+            "rhsusf_ach_helmet_ocp",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio",
+            "rhsusf_ANPVS_14"
+        };
+    };
+    class Cav_B_C_MMGAssistant_F : Cav_B_Charlie_Weap_base_F {
+        _generalMacro = "Cav_B_C_MMGAssistant_F";
+        scope = 2;
+        scopeCurator = 0;
+        displayName = CSTRING(C_MMGAssistant);
+        author = ECSTRING(Main,CavModTeam);
+        //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_Rifleman_F.jpg);
+
+        linkedItems[] = {
+            "rhsusf_iotv_ocp_machinegunner",
+            "rhsusf_ach_helmet_ocp",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio",
+            "rhsusf_ANPVS_14"
+        };
+        respawnLinkedItems[] = {
+            "rhsusf_iotv_ocp_machinegunner",
+            "rhsusf_ach_helmet_ocp",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio",
+            "rhsusf_ANPVS_14"
+        };
+    };
+    class Cav_B_C_SLMTeamLead_F : Cav_B_Charlie_Weap_base_F {
+        _generalMacro = "Cav_B_C_SLMTeamLead_F";
+        scope = 2;
+        scopeCurator = 0;
+        displayName = CSTRING(C_SLMTeamLead);
+        author = ECSTRING(Main,CavModTeam);
+        //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_Rifleman_F.jpg);
+
+        icon = "iconManLeader";
+
+        linkedItems[] = {
+            "rhsusf_iotv_ocp_Teamleader",
+            "rhsusf_ach_helmet_ocp",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio",
+            "rhsusf_ANPVS_14"
+        };
+        respawnLinkedItems[] = {
+            "rhsusf_iotv_ocp_Teamleader",
+            "rhsusf_ach_helmet_ocp",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio",
+            "rhsusf_ANPVS_14"
+        };
+    };
+    class Cav_B_C_SLMGunner_F : Cav_B_Charlie_Weap_base_F {
+        _generalMacro = "Cav_B_C_SLMGunner_F";
+        scope = 2;
+        scopeCurator = 0;
+        displayName = CSTRING(C_SLMGunner);
+        author = ECSTRING(Main,CavModTeam);
+        //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_Rifleman_F.jpg);
+
+        icon = "iconManAT";
+    };
+    class Cav_B_C_SLMAmmoBearer_F : Cav_B_Charlie_Weap_base_F {
+        _generalMacro = "Cav_B_C_SLMAmmoBearer_F";
+        scope = 2;
+        scopeCurator = 0;
+        displayName = CSTRING(C_SLMAmmoBearer);
+        author = ECSTRING(Main,CavModTeam);
+        //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_Rifleman_F.jpg);
+    };
+    
     class Cav_B_C_FireTeamLeader_F : Cav_B_Charlie_base_F {
         _generalMacro = "Cav_B_C_FireTeamLeader_F";
         scope = 2;
