@@ -15,7 +15,7 @@ class CfgVehicles {
         _generalMacro = "Cav_Alpha_AH64D";
         scope = 1;
         scopeCurator = 1;
-        author = ECSTRING(Main,CavModTeam);
+        author = ECSTRING(main,cavmodteam);
         editorSubcategory = "Cav_EdSubcat_Vehicles_Alpha";
 
         side = 1;
@@ -34,7 +34,7 @@ class CfgVehicles {
         _generalMacro = "Cav_Alpha_UH60M";
         scope = 1;
         scopeCurator = 1;
-        author = ECSTRING(Main,CavModTeam);
+        author = ECSTRING(main,cavmodteam);
         editorSubcategory = "Cav_EdSubcat_Vehicles_Alpha";
 
         side = 1;
@@ -49,7 +49,7 @@ class CfgVehicles {
         _generalMacro = "Cav_Alpha_UH60M2";
         scope = 1;
         scopeCurator = 1;
-        author = ECSTRING(Main,CavModTeam);
+        author = ECSTRING(main,cavmodteam);
         editorSubcategory = "Cav_EdSubcat_Vehicles_Alpha";
 
         side = 1;
@@ -64,7 +64,7 @@ class CfgVehicles {
         _generalMacro = "Cav_Alpha_UH60M_MEV2";
         scope = 1;
         scopeCurator = 1;
-        author = ECSTRING(Main,CavModTeam);
+        author = ECSTRING(main,cavmodteam);
         editorSubcategory = "Cav_EdSubcat_Vehicles_Alpha";
 
         side = 1;
@@ -79,7 +79,7 @@ class CfgVehicles {
         _generalMacro = "Cav_Alpha_CH_47F";
         scope = 1;
         scopeCurator = 1;
-        author = ECSTRING(Main,CavModTeam);
+        author = ECSTRING(main,cavmodteam);
         editorSubcategory = "Cav_EdSubcat_Vehicles_Alpha";
 
         side = 1;
@@ -98,7 +98,7 @@ class CfgVehicles {
         _generalMacro = "Cav_Alpha_C130J";
         scope = 1;
         scopeCurator = 1;
-        author = ECSTRING(Main,CavModTeam);
+        author = ECSTRING(main,cavmodteam);
         editorSubcategory = "Cav_EdSubcat_Vehicles_Alpha";
 
         side = 1;
@@ -115,7 +115,7 @@ class CfgVehicles {
         _generalMacro = "Cav_Alpha_A10";
         scope = 1;
         scopeCurator = 1;
-        author = ECSTRING(Main,CavModTeam);
+        author = ECSTRING(main,cavmodteam);
         editorSubcategory = "Cav_EdSubcat_Vehicles_Alpha";
 
         side = 1;
@@ -130,7 +130,7 @@ class CfgVehicles {
         _generalMacro = "Cav_Alpha_F16C";
         scope = 1;
         scopeCurator = 0;
-        author = ECSTRING(Main,CavModTeam);
+        author = ECSTRING(main,cavmodteam);
         editorSubcategory = "Cav_EdSubcat_Vehicles_Alpha";
 
         side = 1;

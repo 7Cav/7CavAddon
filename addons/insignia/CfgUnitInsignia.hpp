@@ -1,75 +1,75 @@
 
 #define MACRO_UNITINSIGNIA(var1) \
-class TRIPLES(Cav,Insignia,var1) { \
+class TRIPLES(cav,insignia,var1) { \
     displayName = CSTRING(var1); \
-    author = ECSTRING(Main,CavModTeam); \
+    author = ECSTRING(main,cavmodteam); \
     texture = QPATHTOF(data\var1.paa); \
     textureVehicle = ""; \
 }
 
 class CfgUnitInsignia {
     // Alpha first platoon
-    //MACRO_UNITINSIGNIA(Alpha_1);
-    //MACRO_UNITINSIGNIA(Alpha_1_A);
-    //MACRO_UNITINSIGNIA(Alpha_1_B);
-    MACRO_UNITINSIGNIA(Alpha_1_C);
-    //MACRO_UNITINSIGNIA(Alpha_1_D);
+    //MACRO_UNITINSIGNIA(alpha_1);
+    //MACRO_UNITINSIGNIA(alpha_1_a);
+    //MACRO_UNITINSIGNIA(alpha_1_b);
+    MACRO_UNITINSIGNIA(alpha_1_c);
+    //MACRO_UNITINSIGNIA(alpha_1_d);
 
     // Alpha second platoon
-    MACRO_UNITINSIGNIA(Alpha_2);
-    MACRO_UNITINSIGNIA(Alpha_2_A);
-    MACRO_UNITINSIGNIA(Alpha_2_B);
-    MACRO_UNITINSIGNIA(Alpha_2_C);
-    //MACRO_UNITINSIGNIA(Alpha_2_D);
+    MACRO_UNITINSIGNIA(alpha_2);
+    MACRO_UNITINSIGNIA(alpha_2_a);
+    MACRO_UNITINSIGNIA(alpha_2_b);
+    MACRO_UNITINSIGNIA(alpha_2_c);
+    //MACRO_UNITINSIGNIA(alpha_2_d);
 
 
     // Bravo first platoon
-    MACRO_UNITINSIGNIA(Bravo_1);
-    //MACRO_UNITINSIGNIA(Bravo_1_1);
-    //MACRO_UNITINSIGNIA(Bravo_1_2);
-    //MACRO_UNITINSIGNIA(Bravo_1_3);
-    //MACRO_UNITINSIGNIA(Bravo_1_4);
+    MACRO_UNITINSIGNIA(bravo_1);
+    //MACRO_UNITINSIGNIA(bravo_1_1);
+    //MACRO_UNITINSIGNIA(bravo_1_2);
+    //MACRO_UNITINSIGNIA(bravo_1_3);
+    //MACRO_UNITINSIGNIA(bravo_1_4);
 
     // Bravo second platoon
-    MACRO_UNITINSIGNIA(Bravo_2);
-    MACRO_UNITINSIGNIA(Bravo_2_1);
-    MACRO_UNITINSIGNIA(Bravo_2_2);
-    //MACRO_UNITINSIGNIA(Bravo_2_3);
-    //MACRO_UNITINSIGNIA(Bravo_2_4);
+    MACRO_UNITINSIGNIA(bravo_2);
+    MACRO_UNITINSIGNIA(bravo_2_1);
+    MACRO_UNITINSIGNIA(bravo_2_2);
+    //MACRO_UNITINSIGNIA(bravo_2_3);
+    //MACRO_UNITINSIGNIA(bravo_2_4);
     
-    MACRO_UNITINSIGNIA(Bravo_3);
-    //MACRO_UNITINSIGNIA(Bravo_2_1);
-    //MACRO_UNITINSIGNIA(Bravo_2_2);
-    //MACRO_UNITINSIGNIA(Bravo_2_3);
-    //MACRO_UNITINSIGNIA(Bravo_2_4);
-    MACRO_UNITINSIGNIA(Specialized_Apollo);
-    MACRO_UNITINSIGNIA(Specialized_Mustang);
+    MACRO_UNITINSIGNIA(bravo_3);
+    //MACRO_UNITINSIGNIA(bravo_2_1);
+    //MACRO_UNITINSIGNIA(bravo_2_2);
+    //MACRO_UNITINSIGNIA(bravo_2_3);
+    //MACRO_UNITINSIGNIA(bravo_2_4);
+    MACRO_UNITINSIGNIA(specialized_apollo);
+    MACRO_UNITINSIGNIA(specialized_mustang);
 
     // Charlie first platoon
-    MACRO_UNITINSIGNIA(Charlie_1);
-    MACRO_UNITINSIGNIA(Charlie_1_1);
-    MACRO_UNITINSIGNIA(Charlie_1_2);
-    MACRO_UNITINSIGNIA(Charlie_1_3);
-    MACRO_UNITINSIGNIA(Charlie_1_4);
+    MACRO_UNITINSIGNIA(charlie_1);
+    MACRO_UNITINSIGNIA(charlie_1_1);
+    MACRO_UNITINSIGNIA(charlie_1_2);
+    MACRO_UNITINSIGNIA(charlie_1_3);
+    MACRO_UNITINSIGNIA(charlie_1_4);
 
     // Charlie second platoon
-    MACRO_UNITINSIGNIA(Charlie_2);
-    MACRO_UNITINSIGNIA(Charlie_2_1);
-    MACRO_UNITINSIGNIA(Charlie_2_2);
-    MACRO_UNITINSIGNIA(Charlie_2_3);
-    MACRO_UNITINSIGNIA(Charlie_2_4);
+    MACRO_UNITINSIGNIA(charlie_2);
+    MACRO_UNITINSIGNIA(charlie_2_1);
+    MACRO_UNITINSIGNIA(charlie_2_2);
+    MACRO_UNITINSIGNIA(charlie_2_3);
+    MACRO_UNITINSIGNIA(charlie_2_4);
 
 
     // Other Insignias
-    MACRO_UNITINSIGNIA(Custom_Cav_7);
-    MACRO_UNITINSIGNIA(Custom_Cav_7_m81);
-    MACRO_UNITINSIGNIA(Custom_Cav_7_ocp);
+    MACRO_UNITINSIGNIA(custom_cav_7);
+    MACRO_UNITINSIGNIA(custom_cav_7_m81);
+    MACRO_UNITINSIGNIA(custom_cav_7_ocp);
 
 
     // Specialized
-    MACRO_UNITINSIGNIA(Specialized_Pegasus);
-    MACRO_UNITINSIGNIA(Specialized_Airborne);
-    MACRO_UNITINSIGNIA(Specialized_CLS);
-    MACRO_UNITINSIGNIA(Specialized_Ranger);
-    MACRO_UNITINSIGNIA(Specialized_FollowMe);
+    MACRO_UNITINSIGNIA(specialized_pegasus);
+    MACRO_UNITINSIGNIA(specialized_airborne);
+    MACRO_UNITINSIGNIA(specialized_cls);
+    MACRO_UNITINSIGNIA(specialized_ranger);
+    MACRO_UNITINSIGNIA(specialized_followme);
 };
