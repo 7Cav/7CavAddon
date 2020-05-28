@@ -4,7 +4,7 @@ class CfgGroups {
             name = ECSTRING(common,faction_display);
             class Cav_Bravo_Atlas_Squads {
                 name = CSTRING(cat_bravo_atlas_squads);
-                
+
                 class Cav_B_B_Atlas_Medical_Squad {
                     name = CSTRING(b_atlas_medical_squad);
                     icon = "\A3\ui_f\data\map\markers\nato\b_med.paa";
@@ -202,6 +202,31 @@ class CfgGroups {
                         rank = "PRIVATE";
                         side = 1;
                         vehicle = "Cav_B_B_Atlas_Logistics_TeamMember_F";
+                    };
+                };
+
+                class Cav_B_B_Atlas_HQ_3_5_Squad {
+                    name = CSTRING(B_Atlas_HQ_3_5_Squad);
+                    icon = "\A3\ui_f\data\map\markers\nato\b_hq.paa";
+                    faction = "BLU_USA_7CAV_F";
+                    side = 1;
+                    class Unit0 {
+                        position[] = {0, 0, 0};
+                        rank = "LIEUTENANT";
+                        side = 1;
+                        vehicle = "Cav_B_B_Atlas_Logistics_OpsNCO_3_5_F";
+                    };
+                };
+                class Cav_B_B_Atlas_HQ_3_6_Squad {
+                    name = CSTRING(B_Atlas_HQ_3_6_Squad);
+                    icon = "\A3\ui_f\data\map\markers\nato\b_hq.paa";
+                    faction = "BLU_USA_7CAV_F";
+                    side = 1;
+                    class Unit0 {
+                        position[] = {0, 0, 0};
+                        rank = "LIEUTENANT";
+                        side = 1;
+                        vehicle = "Cav_B_B_Atlas_Logistics_OpsOfficer_3_6_F";
                     };
                 };
             };

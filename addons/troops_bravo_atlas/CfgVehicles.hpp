@@ -185,5 +185,23 @@ class CfgVehicles {
         scopeCurator = 0;
         displayName = CSTRING(B_Atlas_Logistics_TeamLeader_3_4);
         author = ECSTRING(main,cavmodteam);
+    };    
+
+    class Cav_B_B_Atlas_Logistics_OpsOfficer_3_6_F : Cav_B_B_Atlas_Logistics_OpsOfficer_F {
+        _generalMacro = "Cav_B_B_Atlas_Logistics_OpsOfficer_3_6_F";
+        scope = 1;
+        scopeCurator = 0;
+        displayName = CSTRING(B_Atlas_Logistics_OpsOfficer_3_6);
+        author = ECSTRING(main,cavmodteam);
+        
     };
+    class Cav_B_B_Atlas_Logistics_OpsNCO_3_5_F : Cav_B_B_Atlas_Logistics_OpsNCO_F {
+        _generalMacro = "Cav_B_B_Atlas_Logistics_OpsNCO_3_5_F";
+        scope = 1;
+        scopeCurator = 0;
+        displayName = CSTRING(B_Atlas_Logistics_OpsNCO_3_5);
+        author = ECSTRING(main,cavmodteam);
+        
+    };
+
 };

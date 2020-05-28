@@ -442,6 +442,28 @@ class CfgVehicles {
         displayName = CSTRING(b_scout_squadleader_2_4);
         author = ECSTRING(main,cavmodteam);
     };
+    
+    class Cav_B_B_Scout_PlatoonLead_2_5_F : Cav_B_B_Scout_PlatoonLead_F {
+        _generalMacro = "Cav_B_B_Scout_PlatoonLead_2_5_F";
+        scope = 1;
+        scopeCurator = 0;
+        displayName = CSTRING(b_scout_platoonlead_2_5);
+        author = ECSTRING(main,cavmodteam);
+    };
+    class Cav_B_B_Scout_PlatoonLead_2_6_F : Cav_B_B_Scout_PlatoonLead_F {
+        _generalMacro = "Cav_B_B_Scout_PlatoonLead_2_6_F";
+        scope = 1;
+        scopeCurator = 0;
+        displayName = CSTRING(b_scout_platoonlead_2_6);
+        author = ECSTRING(main,cavmodteam);
+    };
+    class Cav_B_B_Scout_PlatoonMedic_2_7_F : Cav_B_B_Scout_PlatoonMedic_F {
+        _generalMacro = "Cav_B_B_Scout_PlatoonMedic_2_7_F";
+        scope = 1;
+        scopeCurator = 0;
+        displayName = CSTRING(b_scout_platoonmedic_2_7);
+        author = ECSTRING(main,cavmodteam);
+    };
 
 
     // Depricated
