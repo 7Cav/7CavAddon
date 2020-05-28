@@ -114,11 +114,11 @@ class CfgVehicles {
         _generalMacro = "Cav_B_B_Atlas_Logistics_OpsNCO_F";
         scope = 2;
         scopeCurator = 0;
-        displayName = CSTRING(B_Atlas_Logistics_OpsNCO);
+        displayName = CSTRING(b_atlas_logistics_opsnco);
         author = ECSTRING(main,cavmodteam);
         
     };
-
+    
     class Cav_B_B_Atlas_Logistics_TeamLeader_F : Cav_B_Bravo_Atlas_base_F {
         _generalMacro = "Cav_B_B_Atlas_Logistics_TeamLeader_F";
         scope = 2;
@@ -148,13 +148,14 @@ class CfgVehicles {
             "rhsusf_ANPVS_14"
         };
     };
-    class Cav_B_B_Atlas_Logistics_TeamMember_F : Cav_B_Bravo_Atlas_base_F {
+        class Cav_B_B_Atlas_Logistics_TeamMember_F : Cav_B_Bravo_Atlas_base_F {
         _generalMacro = "Cav_B_B_Atlas_Logistics_TeamMember_F";
         scope = 2;
         scopeCurator = 0;
-        displayName = CSTRING(B_Atlas_Logistics_TeamMember);
+        displayName = CSTRING(b_atlas_logistics_teammember);
         author = ECSTRING(main,cavmodteam);
     };
+
 
     // Named
     class Cav_B_B_Atlas_Medic_TeamLeader_3_1_F : Cav_B_B_Atlas_Medic_TeamLeader_F {
@@ -187,21 +188,19 @@ class CfgVehicles {
         author = ECSTRING(main,cavmodteam);
     };    
 
-    class Cav_B_B_Atlas_Logistics_OpsOfficer_3_6_F : Cav_B_B_Atlas_Logistics_OpsOfficer_F {
-        _generalMacro = "Cav_B_B_Atlas_Logistics_OpsOfficer_3_6_F";
-        scope = 1;
-        scopeCurator = 0;
-        displayName = CSTRING(B_Atlas_Logistics_OpsOfficer_3_6);
-        author = ECSTRING(main,cavmodteam);
-        
-    };
     class Cav_B_B_Atlas_Logistics_OpsNCO_3_5_F : Cav_B_B_Atlas_Logistics_OpsNCO_F {
         _generalMacro = "Cav_B_B_Atlas_Logistics_OpsNCO_3_5_F";
         scope = 1;
         scopeCurator = 0;
         displayName = CSTRING(B_Atlas_Logistics_OpsNCO_3_5);
         author = ECSTRING(main,cavmodteam);
-        
+    };
+    class Cav_B_B_Atlas_Logistics_OpsOfficer_3_6_F : Cav_B_B_Atlas_Logistics_OpsOfficer_F {
+        _generalMacro = "Cav_B_B_Atlas_Logistics_OpsOfficer_3_6_F";
+        scope = 1;
+        scopeCurator = 0;
+        displayName = CSTRING(B_Atlas_Logistics_OpsOfficer_3_6);
+        author = ECSTRING(main,cavmodteam);
     };
 
 };

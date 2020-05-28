@@ -314,7 +314,7 @@ class CfgGroups {
                         position[] = {0, 0, 0};
                         rank = "LIEUTENANT";
                         side = 1;
-                        vehicle = "Cav_B_B_Atlas_Logistics_OpsOfficer_3_5_F";
+                        vehicle = "Cav_B_B_Scout_PlatoonLead_2_5_F";
                     };
                 };
                 class Cav_B_B_Scout_HQ_6_Squad {
@@ -326,7 +326,7 @@ class CfgGroups {
                         position[] = {0, 0, 0};
                         rank = "LIEUTENANT";
                         side = 1;
-                        vehicle = "Cav_B_B_Atlas_Logistics_OpsNCO_F_3_6_F";
+                        vehicle = "Cav_B_B_Scout_PlatoonLead_2_6_F";
                     };
                 };
                 class Cav_B_B_Scout_HQ_7_Squad {
@@ -338,7 +338,7 @@ class CfgGroups {
                         position[] = {0, 0, 0};
                         rank = "LIEUTENANT";
                         side = 1;
-                        vehicle = "Cav_B_B_Scout_PlatoonMedic_4.7_F";
+                        vehicle = "Cav_B_B_Scout_PlatoonMedic_2_7_F";
                     };
                 };
             };
