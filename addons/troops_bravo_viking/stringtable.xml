@@ -103,6 +103,15 @@
         <Key ID="str_cav_troops_bravo_viking_b_scout_squadleader_2_4">
             <English>Squad Leader (Viking-4)</English>
         </Key>
+        <Key ID="str_cav_troops_bravo_viking_b_scout_platoonlead_2_5">
+            <English>Platoon Sergant (Viking-5)</English>
+        </Key>
+        <Key ID="str_cav_troops_bravo_viking_b_scout_platoonlead_2_6">
+            <English>Platoon Lead (Viking-6)</English>
+        </Key>
+        <Key ID="str_cav_troops_bravo_viking_b_scout_platoonmedic_2_7">
+            <English>Platoon Medic (Viking-7)</English>
+        </Key>
 
         <!-- Squads -->
         <Key ID="str_cav_troops_bravo_viking_b_scout_squad">
@@ -119,6 +128,15 @@
         </Key>
         <Key ID="str_cav_troops_bravo_viking_b_scout_2_4_squad">
             <English>Squad Viking-4</English>
+        </Key>
+        <Key ID="str_cav_troops_bravo_viking_b_scout_hq_5_squad">
+            <English>HQ Viking-5</English>
+        </Key>
+        <Key ID="str_cav_troops_bravo_viking_b_scout_hq_6_squad">
+            <English>HQ Viking-6</English>
+        </Key>
+        <Key ID="str_cav_troops_bravo_viking_b_scout_hq_7_squad">
+            <English>HQ Viking-7</English>
         </Key>
     </Package>
 </Project>
