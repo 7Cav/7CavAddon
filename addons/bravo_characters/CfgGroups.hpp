@@ -1,7 +1,7 @@
 class CfgGroups {
     class West {
         class BLU_USA_7CAV_F {
-            name = ECSTRING(common,Faction_Display);
+            name = ECSTRING(common,faction_display);
             class Cav_Bravo_Infantry_Squads {
                 name = CSTRING(Cat_Bravo_Company_Inf);
 

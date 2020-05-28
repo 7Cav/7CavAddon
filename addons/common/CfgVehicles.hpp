@@ -4,8 +4,8 @@ class CfgVehicles {
         _generalMacro = "Cav_B_base_F";
         scope = 1;
         scopeCurator = 0;
-        displayName = CSTRING(Trooper);
-        author = ECSTRING(Main,CavModTeam);
+        displayName = CSTRING(trooper);
+        author = ECSTRING(main,cavmodteam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_base_F.jpg);
         cavCompany = "";
         cavPlatoon = -1;

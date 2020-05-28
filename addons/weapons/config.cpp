@@ -13,7 +13,7 @@ class CfgPatches {
             "tf47_m3maaws",
             "cav_fix_tf47_m3maaws"
         };
-        author = ECSTRING(main,CavModTeam);
+        author = ECSTRING(main,cavmodteam);
         authors[] = {"Grey.V", "Brostrom.A (Evul)"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;
