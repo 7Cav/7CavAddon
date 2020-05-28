@@ -1,3 +1,8 @@
+if ( ![bool](Test-Path -Path "P:")) {
+     Write-Host "Arma 3 P: is not mounted..." -ForegroundColor Red
+     exit 1
+}
+
 # Set version
 $tagVersion = git describe --tags --abbrev=0
 Write-Host "Build version $tagVersion"
@@ -16,8 +21,9 @@ Set-Content -Path '../addons/main/script_version.hpp' -Value "#define MAJOR $ver
 #define BUILD $versionBuild"
 
 # Build release
-py make.py release
+py make.py release ci
 
 # Clean up
+Write-Host "Restoring version files..."
 git checkout origin/master ../addons/main/script_version.hpp
 git checkout origin/master ../mod.cpp
