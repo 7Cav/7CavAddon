@@ -1,0 +1,13 @@
+<Project name="cav">
+    <Package name="faction_misc">
+        <Key ID="str_cav_faction_misc_french_soldier">
+            <English>French Soldier</English>
+        </Key>
+        <Key ID="str_cav_faction_misc_french_soldier_2">
+            <English>French Soldier (Modern)</English>
+        </Key>
+        <Key ID="str_cav_faction_misc_british_soldier">
+            <English>British Soldier</English>
+        </Key>
+    </Package>
+</Project>
