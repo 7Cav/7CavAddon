@@ -22,5 +22,4 @@ class CfgPatches {
     };
 };
 
-#include "CfgVehicleClasses.hpp"
 #include "CfgWeapons.hpp"
