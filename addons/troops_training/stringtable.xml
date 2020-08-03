@@ -1,0 +1,16 @@
+<Project name="Cav">
+    <Package name="Troops_Training">
+        <Key ID="STR_Cav_Troops_Training_Cat">
+            <English>Training Units</English>
+        </Key>
+        <Key ID="STR_Cav_Troops_Training_Cadre">
+            <English>Cadre</English>
+        </Key>
+        <Key ID="STR_Cav_Troops_Training_Cadet">
+            <English>Cadet</English>
+        </Key>
+        <Key ID="STR_Cav_Troops_Training_Drill_Instructor">
+            <English>Drill_Instructor</English>
+        </Key>
+    </Package>
+</Project>
