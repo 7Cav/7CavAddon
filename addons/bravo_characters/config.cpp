@@ -77,7 +77,7 @@ class CfgPatches {
             "cav_main",
             "cav_common"
         };
-        author = ECSTRING(main,CavModTeam);
+        author = ECSTRING(main,cavmodteam);
         authors[] = {"Brostrom.A (Evul)", "Poentis.K"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;

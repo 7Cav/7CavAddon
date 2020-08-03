@@ -1,30 +1,142 @@
 <Project name="cav">
-    <Package name="Troops_Bravo_Viking">
-        <Key ID="STR_cav_Troops_Bravo_Viking_B_Scout_Officer">
-            <English>Officer</English>
+    <Package name="troops_bravo_viking">
+        <Key ID="str_cav_troops_bravo_viking_personnel_bravo_viking">
+            <English>Bravo Company Viking</English>
         </Key>
-        <Key ID="STR_cav_Troops_Bravo_Viking_B_Scout_Platoon_Medic">
-            <English>Platoon Medic</English>
-        </Key>
-        <Key ID="STR_cav_Troops_Bravo_Viking_B_Scout_Team_Leader">
-            <English>Team Leader</English>
-        </Key>
-        <Key ID="STR_cav_Troops_Bravo_Viking_B_Scout_Trooper">
-            <English>Team Member</English>
-        </Key>
-        <Key ID="STR_cav_Troops_Bravo_Viking_B_Scout_Crew">
-            <English>Crew</English>
-        </Key>
-        <Key ID="STR_cav_Troops_Bravo_Viking_B_Scout_Gunner">
-            <English>Gunner</English>
-        </Key>
-        <Key ID="STR_cav_Troops_Bravo_Viking_B_Scout_Driver">
-            <English>Driver</English>
+        <Key ID="str_cav_troops_bravo_viking_cat_bravo_viking_squads">
+            <English>Bravo Company Viking Squads</English>
         </Key>
 
-        <!-- SQUADS -->
-        <Key ID="STR_cav_Troops_Bravo_Viking_B_Squad_Viking">
-            <English>Team Viking</English>
+        <Key ID="str_cav_troops_bravo_viking_b_scout_officer">
+            <English>Officer</English>
+        </Key>
+        <Key ID="str_cav_troops_bravo_viking_b_scout_platoonlead">
+            <English>Platoon Lead</English>
+        </Key>
+        <Key ID="str_cav_troops_bravo_viking_b_scout_platoonmedic">
+            <English>Platoon Medic</English>
+        </Key>
+
+
+        <Key ID="str_cav_troops_bravo_viking_b_scout_squadleader">
+            <English>Squad Leader</English>
+        </Key>
+
+        <Key ID="str_cav_troops_bravo_viking_b_scout_teamlead">
+            <English>Team Leader</English>
+        </Key>
+        <Key ID="str_cav_troops_bravo_viking_b_scout_teamlead_320">
+            <English>Team Leader (M320)</English>
+        </Key>
+        <Key ID="str_cav_troops_bravo_viking_b_scout_automaticrifleman">
+            <English>Automatic Rifleman</English>
+        </Key>
+        <Key ID="str_cav_troops_bravo_viking_b_scout_grenadier">
+            <English>Grenadier</English>
+        </Key>
+        <Key ID="str_cav_troops_bravo_viking_b_scout_rifleman">
+            <English>Rifleman</English>
+        </Key>
+        <Key ID="str_cav_troops_bravo_viking_b_scout_combatlifesaver">
+            <English>Combat Life Saver</English>
+        </Key>
+
+        <Key ID="str_cav_troops_bravo_viking_b_scout_crew">
+            <English>Crew</English>
+        </Key>
+        <Key ID="str_cav_troops_bravo_viking_b_scout_driver">
+            <English>Driver</English>
+        </Key>
+        <Key ID="str_cav_troops_bravo_viking_b_scout_gunner">
+            <English>Gunner</English>
+        </Key>
+
+        <!-- Fire Teams-->
+        <Key ID="str_cav_troops_bravo_viking_b_scout_alpha_teamlead">
+            <English>Alpha Team Leader</English>
+        </Key>
+        <Key ID="str_cav_troops_bravo_viking_b_scout_alpha_teamlead_320">
+            <English>Alpha Team Leader (M320)</English>
+        </Key>
+        <Key ID="str_cav_troops_bravo_viking_b_scout_alpha_automaticrifleman">
+            <English>Alpha Automatic Rifleman</English>
+        </Key>
+        <Key ID="str_cav_troops_bravo_viking_b_scout_alpha_grenadier">
+            <English>Alpha Grenadier</English>
+        </Key>
+        <Key ID="str_cav_troops_bravo_viking_b_scout_alpha_rifleman">
+            <English>Alpha Rifleman</English>
+        </Key>
+        <Key ID="str_cav_troops_bravo_viking_b_scout_alpha_combatlifesaver">
+            <English>Alpha Combat Life Saver</English>
+        </Key>
+
+        <Key ID="str_cav_troops_bravo_viking_b_scout_bravo_teamlead">
+            <English>Bravo Team Leader</English>
+        </Key>
+        <Key ID="str_cav_troops_bravo_viking_b_scout_bravo_teamlead_320">
+            <English>Bravo Team Leader (M320)</English>
+        </Key>
+        <Key ID="str_cav_troops_bravo_viking_b_scout_bravo_automaticrifleman">
+            <English>Bravo Automatic Rifleman</English>
+        </Key>
+        <Key ID="str_cav_troops_bravo_viking_b_scout_bravo_grenadier">
+            <English>Bravo Grenadier</English>
+        </Key>
+        <Key ID="str_cav_troops_bravo_viking_b_scout_bravo_rifleman">
+            <English>Bravo Rifleman</English>
+        </Key>
+        <Key ID="str_cav_troops_bravo_viking_b_scout_bravo_combatlifesaver">
+            <English>Bravo Combat Life Saver</English>
+        </Key>
+
+        <!-- Named -->
+        <Key ID="str_cav_troops_bravo_viking_b_scout_squadleader_2_1">
+            <English>Squad Leader (Viking-1)</English>
+        </Key>
+        <Key ID="str_cav_troops_bravo_viking_b_scout_squadleader_2_2">
+            <English>Squad Leader (Viking-2)</English>
+        </Key>
+        <Key ID="str_cav_troops_bravo_viking_b_scout_squadleader_2_3">
+            <English>Squad Leader (Viking-3)</English>
+        </Key>
+        <Key ID="str_cav_troops_bravo_viking_b_scout_squadleader_2_4">
+            <English>Squad Leader (Viking-4)</English>
+        </Key>
+        <Key ID="str_cav_troops_bravo_viking_b_scout_platoonlead_2_5">
+            <English>Platoon Sergant (Viking-5)</English>
+        </Key>
+        <Key ID="str_cav_troops_bravo_viking_b_scout_platoonlead_2_6">
+            <English>Platoon Lead (Viking-6)</English>
+        </Key>
+        <Key ID="str_cav_troops_bravo_viking_b_scout_platoonmedic_2_7">
+            <English>Platoon Medic (Viking-7)</English>
+        </Key>
+
+        <!-- Squads -->
+        <Key ID="str_cav_troops_bravo_viking_b_scout_squad">
+            <English>Squad Viking</English>
+        </Key>
+        <Key ID="str_cav_troops_bravo_viking_b_scout_2_1_squad">
+            <English>Squad Viking-1</English>
+        </Key>
+        <Key ID="str_cav_troops_bravo_viking_b_scout_2_2_squad">
+            <English>Squad Viking-2</English>
+        </Key>
+        <Key ID="str_cav_troops_bravo_viking_b_scout_2_3_squad">
+            <English>Squad Viking-3</English>
+        </Key>
+        <Key ID="str_cav_troops_bravo_viking_b_scout_2_4_squad">
+            <English>Squad Viking-4</English>
+        </Key>
+        <Key ID="str_cav_troops_bravo_viking_b_scout_hq_5_squad">
+            <English>HQ Viking-5</English>
+        </Key>
+        <Key ID="str_cav_troops_bravo_viking_b_scout_hq_6_squad">
+            <English>HQ Viking-6</English>
+        </Key>
+        <Key ID="str_cav_troops_bravo_viking_b_scout_hq_7_squad">
+            <English>HQ Viking-7</English>
         </Key>
     </Package>
 </Project>

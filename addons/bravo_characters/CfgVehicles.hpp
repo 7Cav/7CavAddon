@@ -5,7 +5,7 @@ class CfgVehicles {
         scope = 1;
         scopeCurator = 0;
         displayName = CSTRING(Trooper);
-        author = ECSTRING(Main,CavModTeam);
+        author = ECSTRING(main,cavmodteam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_base_F.jpg);
         cavCompany = "Bravo";
         cavPlatoon = -1;
@@ -40,7 +40,7 @@ class CfgVehicles {
         scope = 1;
         scopeCurator = 0;
         displayName = CSTRING(Trooper);
-        author = ECSTRING(Main,CavModTeam);
+        author = ECSTRING(main,cavmodteam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_base_F.jpg);
         linkedItems[] = {
             "rhsusf_spcs_ocp_crewman",
@@ -54,40 +54,6 @@ class CfgVehicles {
         respawnLinkedItems[] = {
             "rhsusf_spcs_ocp_crewman",
             "rhsusf_cvc_helmet",
-            "ItemMap",
-            "ItemCompass",
-            "ItemWatch",
-            "ItemRadio",
-            "rhsusf_ANPVS_14"
-        };
-    };
-    class Cav_B_Bravo_Logi_base_F : Cav_B_base_F {
-        _generalMacro = "Cav_B_Bravo_base_F";
-        scope = 1;
-        scopeCurator = 0;
-        displayName = CSTRING(Trooper);
-        author = ECSTRING(Main,CavModTeam);
-        //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_base_F.jpg);
-        cavCompany = "Bravo";
-        cavPlatoon = -1;
-
-        editorSubcategory = "Cav_EdSubcat_Personnel_Logi_Bravo";
-
-        role = "Rifleman";
-
-        uniformClass = "rhs_uniform_cu_ocp_1stcav";
-        linkedItems[] = {
-            "rhsusf_spcs_ocp_rifleman_alt",
-            "rhsusf_ach_helmet_ocp",
-            "ItemMap",
-            "ItemCompass",
-            "ItemWatch",
-            "ItemRadio",
-            "rhsusf_ANPVS_14"
-        };
-        respawnLinkedItems[] = {
-            "rhsusf_spcs_ocp_rifleman_alt",
-            "rhsusf_ach_helmet_ocp",
             "ItemMap",
             "ItemCompass",
             "ItemWatch",
@@ -102,7 +68,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 0;
         displayName = CSTRING(B_PlatoonSergeant);
-        author = ECSTRING(Main,CavModTeam);
+        author = ECSTRING(main,cavmodteam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_Rifleman_F.jpg);
 
         icon = "iconManOfficer";
@@ -112,7 +78,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 0;
         displayName = CSTRING(B_PlatoonLeader);
-        author = ECSTRING(Main,CavModTeam);
+        author = ECSTRING(main,cavmodteam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_Rifleman_F.jpg);
 
         icon = "iconManOfficer";
@@ -122,7 +88,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 0;
         displayName = CSTRING(B_PlatoonMedic);
-        author = ECSTRING(Main,CavModTeam);
+        author = ECSTRING(main,cavmodteam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_Rifleman_F.jpg);
 
         role = "CombatLifeSaver";
@@ -135,7 +101,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 0;
         displayName = CSTRING(B_Tank_Commander);
-        author = ECSTRING(Main,CavModTeam);
+        author = ECSTRING(main,cavmodteam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_Rifleman_F.jpg);
 
         icon = "iconManLeader";
@@ -145,7 +111,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 0;
         displayName = CSTRING(B_Tank_Driver);
-        author = ECSTRING(Main,CavModTeam);
+        author = ECSTRING(main,cavmodteam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_Rifleman_F.jpg);
     };
     class Cav_B_B_Tank_Gunner_F : Cav_B_Bravo_Crew_base_F {
@@ -153,7 +119,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 0;
         displayName = CSTRING(B_Tank_Gunner);
-        author = ECSTRING(Main,CavModTeam);
+        author = ECSTRING(main,cavmodteam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_Rifleman_F.jpg);
     };
     class Cav_B_B_Tank_Loader_F : Cav_B_Bravo_Crew_base_F {
@@ -161,7 +127,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 0;
         displayName = CSTRING(B_Tank_Loader);
-        author = ECSTRING(Main,CavModTeam);
+        author = ECSTRING(main,cavmodteam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_Rifleman_F.jpg);
     };
 
@@ -170,7 +136,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 0;
         displayName = CSTRING(B_Ifv_Commander);
-        author = ECSTRING(Main,CavModTeam);
+        author = ECSTRING(main,cavmodteam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_Rifleman_F.jpg);
 
         icon = "iconManLeader";
@@ -180,7 +146,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 0;
         displayName = CSTRING(B_Ifv_Driver);
-        author = ECSTRING(Main,CavModTeam);
+        author = ECSTRING(main,cavmodteam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_Rifleman_F.jpg);
     };
     class Cav_B_B_Ifv_Gunner_F : Cav_B_Bravo_Crew_base_F {
@@ -188,7 +154,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 0;
         displayName = CSTRING(B_Ifv_Gunner);
-        author = ECSTRING(Main,CavModTeam);
+        author = ECSTRING(main,cavmodteam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_Rifleman_F.jpg);
     };
 
@@ -198,7 +164,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 0;
         displayName = CSTRING(B_SquadLeader);
-        author = ECSTRING(Main,CavModTeam);
+        author = ECSTRING(main,cavmodteam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_Rifleman_F.jpg);
 
         icon = "iconManLeader";
@@ -228,7 +194,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 0;
         displayName = CSTRING(B_FireTeamLeader);
-        author = ECSTRING(Main,CavModTeam);
+        author = ECSTRING(main,cavmodteam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_Rifleman_F.jpg);
 
         icon = "iconManLeader";
@@ -271,7 +237,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 0;
         displayName = CSTRING(B_AutomaticRifleman);
-        author = ECSTRING(Main,CavModTeam);
+        author = ECSTRING(main,cavmodteam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_Rifleman_F.jpg);
 
         role = "MachineGunner";
@@ -310,7 +276,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 0;
         displayName = CSTRING(B_Grenadier);
-        author = ECSTRING(Main,CavModTeam);
+        author = ECSTRING(main,cavmodteam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_Rifleman_F.jpg);
         
         weapons[] = {"rhs_weap_m4a1_m320","Throw","Put"};
@@ -348,7 +314,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 0;
         displayName = CSTRING(B_Rifleman);
-        author = ECSTRING(Main,CavModTeam);
+        author = ECSTRING(main,cavmodteam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_Rifleman_F.jpg);
     };
     class Cav_B_B_RiflemanAT_F : Cav_B_Bravo_base_F {
@@ -356,7 +322,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 0;
         displayName = CSTRING(B_RiflemanAT);
-        author = ECSTRING(Main,CavModTeam);
+        author = ECSTRING(main,cavmodteam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_Rifleman_F.jpg);
 
         icon = "iconManAT";
@@ -366,7 +332,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 0;
         displayName = CSTRING(B_RiflemanLAT);
-        author = ECSTRING(Main,CavModTeam);
+        author = ECSTRING(main,cavmodteam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_Rifleman_F.jpg);
 
         icon = "iconManAT";
@@ -376,7 +342,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 0;
         displayName = CSTRING(B_CombatLifeSaver);
-        author = ECSTRING(Main,CavModTeam);
+        author = ECSTRING(main,cavmodteam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_Rifleman_F.jpg);
 
         role = "CombatLifeSaver";
@@ -407,7 +373,7 @@ class CfgVehicles {
         scope = 1;
         scopeCurator = 0;
         displayName = CSTRING(B_Alpha_FireTeamLeader);
-        author = ECSTRING(Main,CavModTeam);
+        author = ECSTRING(main,cavmodteam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_Rifleman_F.jpg);
     };
     class Cav_B_B_Alpha_AutomaticRifleman_F : Cav_B_B_AutomaticRifleman_F {
@@ -415,7 +381,7 @@ class CfgVehicles {
         scope = 1;
         scopeCurator = 0;
         displayName = CSTRING(B_Alpha_AutomaticRifleman);
-        author = ECSTRING(Main,CavModTeam);
+        author = ECSTRING(main,cavmodteam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_Rifleman_F.jpg);
     };
     class Cav_B_B_Alpha_Grenadier_F : Cav_B_B_Grenadier_F {
@@ -423,7 +389,7 @@ class CfgVehicles {
         scope = 1;
         scopeCurator = 0;
         displayName = CSTRING(B_Alpha_Grenadier);
-        author = ECSTRING(Main,CavModTeam);
+        author = ECSTRING(main,cavmodteam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_Rifleman_F.jpg);
     };
     class Cav_B_B_Alpha_Rifleman_F : Cav_B_B_Rifleman_F {
@@ -431,7 +397,7 @@ class CfgVehicles {
         scope = 1;
         scopeCurator = 0;
         displayName = CSTRING(B_Alpha_Rifleman);
-        author = ECSTRING(Main,CavModTeam);
+        author = ECSTRING(main,cavmodteam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_Rifleman_F.jpg);
     };
     class Cav_B_B_Alpha_RiflemanAT_F : Cav_B_B_RiflemanAT_F {
@@ -439,7 +405,7 @@ class CfgVehicles {
         scope = 1;
         scopeCurator = 0;
         displayName = CSTRING(B_Alpha_RiflemanAT);
-        author = ECSTRING(Main,CavModTeam);
+        author = ECSTRING(main,cavmodteam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_Rifleman_F.jpg);
     };
     class Cav_B_B_Alpha_RiflemanLAT_F : Cav_B_B_RiflemanLAT_F {
@@ -447,7 +413,7 @@ class CfgVehicles {
         scope = 1;
         scopeCurator = 0;
         displayName = CSTRING(B_Alpha_RiflemanLAT);
-        author = ECSTRING(Main,CavModTeam);
+        author = ECSTRING(main,cavmodteam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_Rifleman_F.jpg);
     };
     class Cav_B_B_Alpha_CombatLifeSaver_F : Cav_B_B_CombatLifeSaver_F {
@@ -455,7 +421,7 @@ class CfgVehicles {
         scope = 1;
         scopeCurator = 0;
         displayName = CSTRING(B_Alpha_CombatLifeSaver);
-        author = ECSTRING(Main,CavModTeam);
+        author = ECSTRING(main,cavmodteam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_Rifleman_F.jpg);
     };
 
@@ -465,7 +431,7 @@ class CfgVehicles {
         scope = 1;
         scopeCurator = 0;
         displayName = CSTRING(B_Bravo_FireTeamLeader);
-        author = ECSTRING(Main,CavModTeam);
+        author = ECSTRING(main,cavmodteam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_Rifleman_F.jpg);
     };
     class Cav_B_B_Bravo_AutomaticRifleman_F : Cav_B_B_AutomaticRifleman_F {
@@ -473,7 +439,7 @@ class CfgVehicles {
         scope = 1;
         scopeCurator = 0;
         displayName = CSTRING(B_Bravo_AutomaticRifleman);
-        author = ECSTRING(Main,CavModTeam);
+        author = ECSTRING(main,cavmodteam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_Rifleman_F.jpg);
     };
     class Cav_B_B_Bravo_Grenadier_F : Cav_B_B_Grenadier_F {
@@ -481,7 +447,7 @@ class CfgVehicles {
         scope = 1;
         scopeCurator = 0;
         displayName = CSTRING(B_Bravo_Grenadier);
-        author = ECSTRING(Main,CavModTeam);
+        author = ECSTRING(main,cavmodteam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_Rifleman_F.jpg);
     };
     class Cav_B_B_Bravo_Rifleman_F : Cav_B_B_Rifleman_F {
@@ -489,7 +455,7 @@ class CfgVehicles {
         scope = 1;
         scopeCurator = 0;
         displayName = CSTRING(B_Bravo_Rifleman);
-        author = ECSTRING(Main,CavModTeam);
+        author = ECSTRING(main,cavmodteam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_Rifleman_F.jpg);
     };
     class Cav_B_B_Bravo_RiflemanAT_F : Cav_B_B_RiflemanAT_F {
@@ -497,7 +463,7 @@ class CfgVehicles {
         scope = 1;
         scopeCurator = 0;
         displayName = CSTRING(B_Bravo_RiflemanAT);
-        author = ECSTRING(Main,CavModTeam);
+        author = ECSTRING(main,cavmodteam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_Rifleman_F.jpg);
     };
     class Cav_B_B_Bravo_RiflemanLAT_F : Cav_B_B_RiflemanLAT_F {
@@ -505,7 +471,7 @@ class CfgVehicles {
         scope = 1;
         scopeCurator = 0;
         displayName = CSTRING(B_Bravo_RiflemanLAT);
-        author = ECSTRING(Main,CavModTeam);
+        author = ECSTRING(main,cavmodteam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_Rifleman_F.jpg);
     };
     class Cav_B_B_Bravo_CombatLifeSaver_F : Cav_B_B_CombatLifeSaver_F {
@@ -513,127 +479,47 @@ class CfgVehicles {
         scope = 1;
         scopeCurator = 0;
         displayName = CSTRING(B_Bravo_CombatLifeSaver);
-        author = ECSTRING(Main,CavModTeam);
+        author = ECSTRING(main,cavmodteam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_Rifleman_F.jpg);
     };
 
-    class Cav_B_B_TeamLeader_Mustang_F : Cav_B_Bravo_Logi_base_F {
+    // Depricated
+    class Cav_B_B_Atlas_Medic_TeamLeader_F;
+    class Cav_B_B_TeamLeader_Mustang_F : Cav_B_B_Atlas_Medic_TeamLeader_F {
         _generalMacro = "Cav_B_B_TeamLeader_Mustang_F";
-        scope = 2;
+        scope = 1;
         scopeCurator = 0;
-        displayName = CSTRING(B_TeamLeader_Mustang);
-        author = ECSTRING(Main,CavModTeam);
-        //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_Rifleman_F.jpg);
-
-        icon = "iconManLeader";
-
-        linkedItems[] = {
-            "rhsusf_spcs_ocp_squadleader",
-            "rhsusf_ach_helmet_ocp",
-            "ItemMap",
-            "ItemCompass",
-            "ItemWatch",
-            "ItemRadio",
-            "rhsusf_ANPVS_14"
-        };
-        respawnLinkedItems[] = {
-            "rhsusf_spcs_ocp_squadleader",
-            "rhsusf_ach_helmet_ocp",
-            "ItemMap",
-            "ItemCompass",
-            "ItemWatch",
-            "ItemRadio",
-            "rhsusf_ANPVS_14"
-        };
     };
-    class Cav_B_B_Mustang_CombatMedic_F : Cav_B_Bravo_Logi_base_F {
+    class Cav_B_B_Atlas_Medic_CombatMedic_F;
+    class Cav_B_B_Mustang_CombatMedic_F : Cav_B_B_Atlas_Medic_CombatMedic_F {
         _generalMacro = "Cav_B_B_Mustang_CombatMedic_F";
-        scope = 2;
+        scope = 1;
         scopeCurator = 0;
-        displayName = CSTRING(B_CombatMedic_Mustang);
-        author = ECSTRING(Main,CavModTeam);
-        //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_Rifleman_F.jpg);
-
-        role = "CombatLifeSaver";
-        icon = "iconManMedic";
-
-        linkedItems[] = {
-            "rhsusf_spcs_ocp_medic",
-            "rhsusf_ach_helmet_ocp",
-            "ItemMap",
-            "ItemCompass",
-            "ItemWatch",
-            "ItemRadio",
-            "rhsusf_ANPVS_14"
-        };
-        respawnLinkedItems[] = {
-            "rhsusf_spcs_ocp_medic",
-            "rhsusf_ach_helmet_ocp",
-            "ItemMap",
-            "ItemCompass",
-            "ItemWatch",
-            "ItemRadio",
-            "rhsusf_ANPVS_14"
-        };
     };
 
-    // Logistical
-    class Cav_B_B_LogisticsOpsOfficer_F : Cav_B_Bravo_Logi_base_F {
+    class Cav_B_B_Atlas_Logistics_OpsOfficer_F;
+    class Cav_B_B_LogisticsOpsOfficer_F : Cav_B_B_Atlas_Logistics_OpsOfficer_F {
         _generalMacro = "Cav_B_B_LogisticsOpsOfficer_F";
-        scope = 2;
+        scope = 1;
         scopeCurator = 0;
-        displayName = CSTRING(B_LogisticsOpsOfficer);
-        author = ECSTRING(Main,CavModTeam);
-        //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_Rifleman_F.jpg);
-
-        icon = "iconManOfficer";
     };
-    class Cav_B_B_LogisticsOpsNCO_F : Cav_B_Bravo_Logi_base_F {
+    class Cav_B_B_Atlas_Logistics_OpsNCO_F;
+    class Cav_B_B_LogisticsOpsNCO_F : Cav_B_B_Atlas_Logistics_OpsNCO_F {
         _generalMacro = "Cav_B_B_LogisticsOpsNCO_F";
-        scope = 2;
+        scope = 1;
         scopeCurator = 0;
-        displayName = CSTRING(B_LogisticsOpsNCO);
-        author = ECSTRING(Main,CavModTeam);
-        //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_Rifleman_F.jpg);
-
-        icon = "iconManOfficer";
     };
 
-    class Cav_B_B_LogisticTeamLeader_F : Cav_B_Bravo_Logi_base_F {
+    class Cav_B_B_Atlas_Logistics_TeamLeader_F;
+    class Cav_B_B_LogisticTeamLeader_F : Cav_B_B_Atlas_Logistics_TeamLeader_F {
         _generalMacro = "Cav_B_B_LogisticTeamLeader_F";
-        scope = 2;
+        scope = 1;
         scopeCurator = 0;
-        displayName = CSTRING(B_LogisticTeamLeader);
-        author = ECSTRING(Main,CavModTeam);
-        //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_Rifleman_F.jpg);
-
-        icon = "iconManLeader";
-
-        linkedItems[] = {
-            "rhsusf_spcs_ocp_squadleader",
-            "rhsusf_ach_helmet_ocp",
-            "ItemMap",
-            "ItemCompass",
-            "ItemWatch",
-            "ItemRadio",
-            "rhsusf_ANPVS_14"
-        };
-        respawnLinkedItems[] = {
-            "rhsusf_spcs_ocp_squadleader",
-            "rhsusf_ach_helmet_ocp",
-            "ItemMap",
-            "ItemCompass",
-            "ItemWatch",
-            "ItemRadio",
-            "rhsusf_ANPVS_14"
-        };
     };
-    class Cav_B_B_LogisticsTeamMember_F : Cav_B_Bravo_Logi_base_F {
+    class Cav_B_B_Atlas_Logistics_TeamMember_F;
+    class Cav_B_B_LogisticsTeamMember_F : Cav_B_B_Atlas_Logistics_TeamMember_F {
         _generalMacro = "Cav_B_B_LogisticsTeamMember_F";
-        scope = 2;
+        scope = 1;
         scopeCurator = 0;
-        displayName = CSTRING(B_LogisticsTeamMember);
-        author = ECSTRING(Main,CavModTeam);
-        //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Bravo_Rifleman_F.jpg);
     };
 };

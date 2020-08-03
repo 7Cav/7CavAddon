@@ -11,7 +11,7 @@ def getDefinedStrings(filepath):
     # print("getDefinedStrings {0}".format(filepath))
     with open(filepath, 'r', encoding="latin-1") as file:
         content = file.read()
-        srch = re.compile('Key ID\=\"(STR_ACE_[_a-zA-Z0-9]*)"', re.IGNORECASE)
+        srch = re.compile('Key ID\=\"(STR_CAV_[_a-zA-Z0-9]*)"', re.IGNORECASE)
         modStrings = srch.findall(content)
     modStrings = [s.lower() for s in modStrings]
     return modStrings
@@ -24,18 +24,18 @@ def getStringUsage(filepath):
     with open(filepath, 'r') as file:
         content = file.read()
 
-        srch = re.compile('(STR_ACE_[_a-zA-Z0-9]*)', re.IGNORECASE)
+        srch = re.compile('(STR_CAV_[_a-zA-Z0-9]*)', re.IGNORECASE)
         fileStrings = srch.findall(content)
 
         srch = re.compile('[^E][CL]STRING\(([_a-zA-Z0-9]*)\)', re.IGNORECASE)
         modStrings = srch.findall(content)
         for localString in modStrings:
-            fileStrings.append("STR_ACE_{0}_{1}".format(selfmodule, localString))
+            fileStrings.append("STR_CAV_{0}_{1}".format(selfmodule, localString))
 
         srch = re.compile('E[CL]STRING\(([_a-zA-Z0-9]*),([_a-zA-Z0-9]*)\)')
         exStrings = srch.findall(content)
         for (exModule, exString) in exStrings:
-            fileStrings.append("STR_ACE_{0}_{1}".format(exModule, exString))
+            fileStrings.append("STR_CAV_{0}_{1}".format(exModule, exString))
 
         srch = re.compile('IGNORE_STRING_WARNING\([\'"]*([_a-zA-Z0-9]*)[\'"]*\)')
         ignoreWarnings = srch.findall(content)
