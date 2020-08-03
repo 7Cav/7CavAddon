@@ -58,7 +58,7 @@ class cfgWeapons {
                 QPATHTOF(Data\Maroon_BeretArmyUSA\headgear_beret03_co.paa)
             };
         };
-    };	
+    };
     
     class Cav_JMCap_Blk_F : ItemCore {
         scope = 2;
@@ -87,7 +87,7 @@ class cfgWeapons {
                 QPATHTOF(Data\BlackJumpMaster\capb_black_co.paa)
             };
         };
-    };	
+    };
     
     class Cav_RngrCap_Blk_F : ItemCore {
         scope = 2;
@@ -116,5 +116,5 @@ class cfgWeapons {
                 QPATHTOF(Data\BlackJumpMaster\capb_black_ranger_co.paa)
             };
         };
-    };	
+    };
 };
