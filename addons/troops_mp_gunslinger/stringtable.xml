@@ -1,0 +1,132 @@
+<Project name="cav">
+    <Package name="troops_mp_gunslinger">
+        <Key ID="str_cav_troops_mp_gunslinger_personnel_mp_gunslinger">
+            <English>Tactical Realism 2 - Gunslinger</English>
+        </Key>
+        <Key ID="str_cav_troops_mp_gunslinger_cat_mp_gunslinger_squads">
+            <English>Gunslinger Squads</English>
+        </Key>
+
+        <Key ID="str_cav_troops_mp_gunslinger_gunslinger_officer">
+            <English>Officer</English>
+        </Key>
+        <Key ID="str_cav_troops_mp_gunslinger_gunslinger_platoonlead">
+            <English>Platoon Lead</English>
+        </Key>
+        <Key ID="str_cav_troops_mp_gunslinger_gunslinger_platoonmedic">
+            <English>Platoon Medic</English>
+        </Key>
+
+
+        <Key ID="str_cav_troops_mp_gunslinger_gunslinger_squadleader">
+            <English>Squad Leader</English>
+        </Key>
+
+        <Key ID="str_cav_troops_mp_gunslinger_gunslinger_teamlead">
+            <English>Team Leader</English>
+        </Key>
+        <Key ID="str_cav_troops_mp_gunslinger_gunslinger_teamlead_320">
+            <English>Team Leader (M320)</English>
+        </Key>
+        <Key ID="str_cav_troops_mp_gunslinger_gunslinger_automaticrifleman">
+            <English>Automatic Rifleman</English>
+        </Key>
+        <Key ID="str_cav_troops_mp_gunslinger_gunslinger_grenadier">
+            <English>Grenadier</English>
+        </Key>
+        <Key ID="str_cav_troops_mp_gunslinger_gunslinger_rifleman">
+            <English>Rifleman</English>
+        </Key>
+        <Key ID="str_cav_troops_mp_gunslinger_gunslinger_combatlifesaver">
+            <English>Combat Life Saver</English>
+        </Key>
+
+        <!-- Fire Teams-->
+        <Key ID="str_cav_troops_mp_gunslinger_gunslinger_alpha_teamlead">
+            <English>Alpha Team Leader</English>
+        </Key>
+        <Key ID="str_cav_troops_mp_gunslinger_gunslinger_alpha_teamlead_320">
+            <English>Alpha Team Leader (M320)</English>
+        </Key>
+        <Key ID="str_cav_troops_mp_gunslinger_gunslinger_alpha_automaticrifleman">
+            <English>Alpha Automatic Rifleman</English>
+        </Key>
+        <Key ID="str_cav_troops_mp_gunslinger_gunslinger_alpha_grenadier">
+            <English>Alpha Grenadier</English>
+        </Key>
+        <Key ID="str_cav_troops_mp_gunslinger_gunslinger_alpha_rifleman">
+            <English>Alpha Rifleman</English>
+        </Key>
+        <Key ID="str_cav_troops_mp_gunslinger_gunslinger_alpha_combatlifesaver">
+            <English>Alpha Combat Life Saver</English>
+        </Key>
+
+        <Key ID="str_cav_troops_mp_gunslinger_gunslinger_bravo_teamlead">
+            <English>Bravo Team Leader</English>
+        </Key>
+        <Key ID="str_cav_troops_mp_gunslinger_gunslinger_bravo_teamlead_320">
+            <English>Bravo Team Leader (M320)</English>
+        </Key>
+        <Key ID="str_cav_troops_mp_gunslinger_gunslinger_bravo_automaticrifleman">
+            <English>Bravo Automatic Rifleman</English>
+        </Key>
+        <Key ID="str_cav_troops_mp_gunslinger_gunslinger_bravo_grenadier">
+            <English>Bravo Grenadier</English>
+        </Key>
+        <Key ID="str_cav_troops_mp_gunslinger_gunslinger_bravo_rifleman">
+            <English>Bravo Rifleman</English>
+        </Key>
+        <Key ID="str_cav_troops_mp_gunslinger_gunslinger_bravo_combatlifesaver">
+            <English>Bravo Combat Life Saver</English>
+        </Key>
+
+        <!-- Named -->
+        <Key ID="str_cav_troops_mp_gunslinger_gunslinger_squadleader_2_1">
+            <English>Squad Leader (Gunslinger-1)</English>
+        </Key>
+        <Key ID="str_cav_troops_mp_gunslinger_gunslinger_squadleader_2_2">
+            <English>Squad Leader (Gunslinger-2)</English>
+        </Key>
+        <Key ID="str_cav_troops_mp_gunslinger_gunslinger_squadleader_2_3">
+            <English>Squad Leader (Gunslinger-3)</English>
+        </Key>
+        <Key ID="str_cav_troops_mp_gunslinger_gunslinger_squadleader_2_4">
+            <English>Squad Leader (Gunslinger-4)</English>
+        </Key>
+        <Key ID="str_cav_troops_mp_gunslinger_gunslinger_platoonlead_2_5">
+            <English>Platoon Sergant (Gunslinger-5)</English>
+        </Key>
+        <Key ID="str_cav_troops_mp_gunslinger_gunslinger_platoonlead_2_6">
+            <English>Platoon Lead (Gunslinger-6)</English>
+        </Key>
+        <Key ID="str_cav_troops_mp_gunslinger_gunslinger_platoonmedic_2_7">
+            <English>Platoon Medic (Gunslinger-7)</English>
+        </Key>
+
+        <!-- Squads -->
+        <Key ID="str_cav_troops_mp_gunslinger_gunslinger_squad">
+            <English>Squad Gunslinger</English>
+        </Key>
+        <Key ID="str_cav_troops_mp_gunslinger_gunslinger_2_1_squad">
+            <English>Squad Gunslinger-1</English>
+        </Key>
+        <Key ID="str_cav_troops_mp_gunslinger_gunslinger_2_2_squad">
+            <English>Squad Gunslinger-2</English>
+        </Key>
+        <Key ID="str_cav_troops_mp_gunslinger_gunslinger_2_3_squad">
+            <English>Squad Gunslinger-3</English>
+        </Key>
+        <Key ID="str_cav_troops_mp_gunslinger_gunslinger_2_4_squad">
+            <English>Squad Gunslinger-4</English>
+        </Key>
+        <Key ID="str_cav_troops_mp_gunslinger_gunslinger_hq_5_squad">
+            <English>HQ Gunslinger-5</English>
+        </Key>
+        <Key ID="str_cav_troops_mp_gunslinger_gunslinger_hq_6_squad">
+            <English>HQ Gunslinger-6</English>
+        </Key>
+        <Key ID="str_cav_troops_mp_gunslinger_gunslinger_hq_7_squad">
+            <English>HQ Gunslinger-7</English>
+        </Key>
+    </Package>
+</Project>
