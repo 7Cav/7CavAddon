@@ -1,6 +1,6 @@
-name = "7CavAddon"
+name = "CavAddon"
 prefix = "cav"
-author = "Brostrom.A"
+author = "7th Cavalry Gaming"
 template = "cba"
 mainprefix = "z"
 include = ["./include"]
