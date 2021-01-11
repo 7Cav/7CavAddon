@@ -9,7 +9,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 2;
         displayName = CSTRING(00_Display);
-        author = ECSTRING(main,cavmodteam);
+        author = ECSTRING(main,modteam);
         //editorPreview = QPATHTOF(EditorPreviews\Cav_Flag_00_Flag_F.jpg);
 
         class EventHandlers {
@@ -20,7 +20,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 2;
         displayName = CSTRING(00_Banner_Display);
-        author = ECSTRING(main,cavmodteam);
+        author = ECSTRING(main,modteam);
         //editorPreview = QPATHTOF(EditorPreviews\Cav_Flag_00_Banner_F.jpg);
 
         hiddenSelectionsTextures[] = {
@@ -31,7 +31,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 2;
         displayName = CSTRING(01_Display);
-        author = ECSTRING(main,cavmodteam);
+        author = ECSTRING(main,modteam);
         //editorPreview = QPATHTOF(EditorPreviews\Cav_Flag_01_Flag_F.jpg);
 
         class EventHandlers {
@@ -42,7 +42,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 2;
         displayName = CSTRING(01_Banner_Display);
-        author = ECSTRING(main,cavmodteam);
+        author = ECSTRING(main,modteam);
         //editorPreview = QPATHTOF(EditorPreviews\Cav_Flag_01_Banner_F.jpg);
 
         hiddenSelectionsTextures[] = {
@@ -54,7 +54,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 2;
         displayName = CSTRING(02_Display);
-        author = ECSTRING(main,cavmodteam);
+        author = ECSTRING(main,modteam);
         //editorPreview = QPATHTOF(EditorPreviews\Cav_Flag_02_Flag_F.jpg);
 
         class EventHandlers {
@@ -65,7 +65,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 2;
         displayName = CSTRING(alpha_1_flag);
-        author = ECSTRING(main,cavmodteam);
+        author = ECSTRING(main,modteam);
         //editorPreview = QPATHTOF(EditorPreviews\Cav_Flag_02_Flag_F.jpg);
 
         class EventHandlers {
@@ -76,7 +76,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 2;
         displayName = CSTRING(bravo_2_flag);
-        author = ECSTRING(main,cavmodteam);
+        author = ECSTRING(main,modteam);
         //editorPreview = QPATHTOF(EditorPreviews\Cav_Flag_01_Flag_F.jpg);
 
         class EventHandlers {
@@ -87,7 +87,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 2;
         displayName = CSTRING(bravo_2_banner);
-        author = ECSTRING(main,cavmodteam);
+        author = ECSTRING(main,modteam);
         //editorPreview = QPATHTOF(EditorPreviews\Cav_Flag_01_Banner_F.jpg);
 
         hiddenSelectionsTextures[] = {
@@ -98,7 +98,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 2;
         displayName = CSTRING(charlie_1_flag);
-        author = ECSTRING(main,cavmodteam);
+        author = ECSTRING(main,modteam);
         //editorPreview = QPATHTOF(EditorPreviews\Cav_Flag_01_Flag_F.jpg);
 
         class EventHandlers {
@@ -109,7 +109,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 2;
         displayName = CSTRING(charlie_1_banner);
-        author = ECSTRING(main,cavmodteam);
+        author = ECSTRING(main,modteam);
         //editorPreview = QPATHTOF(EditorPreviews\Cav_Flag_01_Banner_F.jpg);
 
         hiddenSelectionsTextures[] = {
@@ -120,7 +120,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 2;
         displayName = CSTRING(charlie_2_flag);
-        author = ECSTRING(main,cavmodteam);
+        author = ECSTRING(main,modteam);
         //editorPreview = QPATHTOF(EditorPreviews\Cav_Flag_01_Flag_F.jpg);
 
         class EventHandlers {
@@ -131,7 +131,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 2;
         displayName = CSTRING(charlie_2_banner);
-        author = ECSTRING(main,cavmodteam);
+        author = ECSTRING(main,modteam);
         //editorPreview = QPATHTOF(EditorPreviews\Cav_Flag_01_Banner_F.jpg);
 
         hiddenSelectionsTextures[] = {
