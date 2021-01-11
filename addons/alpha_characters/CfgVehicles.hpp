@@ -6,7 +6,7 @@ class CfgVehicles {
         scope = 1;
         scopeCurator = 0;
         displayName = CSTRING(Trooper);
-        author = ECSTRING(main,cavmodteam);
+        author = ECSTRING(main,modteam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_base_F.jpg);
         cavCompany = "Alpha";
         cavPlatoon = -1;
@@ -43,7 +43,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 0;
         displayName = CSTRING(A_AirController);
-        author = ECSTRING(main,cavmodteam);
+        author = ECSTRING(main,modteam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_Rifleman_F.jpg);
 
         icon = "iconManOfficer";
@@ -54,7 +54,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 0;
         displayName = CSTRING(A_Officer);
-        author = ECSTRING(main,cavmodteam);
+        author = ECSTRING(main,modteam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_Rifleman_F.jpg);
 
         icon = "iconManOfficer";
@@ -81,7 +81,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 0;
         displayName = CSTRING(A_JFO);
-        author = ECSTRING(main,cavmodteam);
+        author = ECSTRING(main,modteam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_Rifleman_F.jpg);
 
         icon = "iconManOfficer";
@@ -109,7 +109,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 0;
         displayName = CSTRING(A_Helicopter_Tra_Pilot);
-        author = ECSTRING(main,cavmodteam);
+        author = ECSTRING(main,modteam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_Rifleman_F.jpg);
     };
     class Cav_B_A_Helicopter_Tra_coPilot_F : Cav_B_Alpha_base_F {
@@ -117,7 +117,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 0;
         displayName = CSTRING(A_Helicopter_Tra_coPilot);
-        author = ECSTRING(main,cavmodteam);
+        author = ECSTRING(main,modteam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_Rifleman_F.jpg);
     };
     class Cav_B_A_Helicopter_Tra_CrewChief_F : Cav_B_Alpha_base_F {
@@ -125,7 +125,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 0;
         displayName = CSTRING(A_Helicopter_Tra_CrewChief);
-        author = ECSTRING(main,cavmodteam);
+        author = ECSTRING(main,modteam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_Rifleman_F.jpg);
 
         linkedItems[] = {
@@ -152,7 +152,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 0;
         displayName = CSTRING(A_Helicopter_Tra_DoorGunner);
-        author = ECSTRING(main,cavmodteam);
+        author = ECSTRING(main,modteam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_Rifleman_F.jpg);
 
         linkedItems[] = {
@@ -181,7 +181,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 0;
         displayName = CSTRING(A_Helicopter_Att_Pilot);
-        author = ECSTRING(main,cavmodteam);
+        author = ECSTRING(main,modteam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_Rifleman_F.jpg);
                 
         linkedItems[] = {
@@ -208,7 +208,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 0;
         displayName = CSTRING(A_Helicopter_Att_coPilot);
-        author = ECSTRING(main,cavmodteam);
+        author = ECSTRING(main,modteam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_Rifleman_F.jpg);
 
         linkedItems[] = {
@@ -237,7 +237,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 0;
         displayName = CSTRING(A_Plane_Fighter_Pilot);
-        author = ECSTRING(main,cavmodteam);
+        author = ECSTRING(main,modteam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_Rifleman_F.jpg);
 
         ACE_GForceCoef = 0.55;
@@ -268,7 +268,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 0;
         displayName = CSTRING(A_Plane_Transport_Pilot);
-        author = ECSTRING(main,cavmodteam);
+        author = ECSTRING(main,modteam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_Rifleman_F.jpg);
     };
     class Cav_B_A_Plane_Transport_coPilot_F : Cav_B_Alpha_base_F {
@@ -276,7 +276,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 0;
         displayName = CSTRING(A_Plane_Transport_coPilot);
-        author = ECSTRING(main,cavmodteam);
+        author = ECSTRING(main,modteam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_Rifleman_F.jpg);
     };
 };

@@ -889,7 +889,7 @@ class CfgPatches {
             "cba_xeh",
             "cba_jr"
         };
-        author = CSTRING(CavModTeam);
+        author = CSTRING(modteam);
         authors[] = {"Brostrom.A (Evul)"};
         url = CSTRING(URL);
         VERSION_CONFIG;
