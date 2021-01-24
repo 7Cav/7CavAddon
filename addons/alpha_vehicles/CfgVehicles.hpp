@@ -13,9 +13,9 @@ class CfgVehicles {
 
     class Cav_Alpha_AH64D : RHS_AH64D_wd {
         _generalMacro = "Cav_Alpha_AH64D";
-        scope = 2;
-        scopeCurator = 2;
-        author = ECSTRING(Main,CavModTeam);
+        scope = 1;
+        scopeCurator = 1;
+        author = ECSTRING(main,cavmodteam);
         editorSubcategory = "Cav_EdSubcat_Vehicles_Alpha";
 
         side = 1;
@@ -32,9 +32,9 @@ class CfgVehicles {
 
     class Cav_Alpha_UH60M : RHS_UH60M {
         _generalMacro = "Cav_Alpha_UH60M";
-        scope = 2;
-        scopeCurator = 2;
-        author = ECSTRING(Main,CavModTeam);
+        scope = 1;
+        scopeCurator = 1;
+        author = ECSTRING(main,cavmodteam);
         editorSubcategory = "Cav_EdSubcat_Vehicles_Alpha";
 
         side = 1;
@@ -47,9 +47,9 @@ class CfgVehicles {
     };
     class Cav_Alpha_UH60M2 : RHS_UH60M2 {
         _generalMacro = "Cav_Alpha_UH60M2";
-        scope = 2;
-        scopeCurator = 2;
-        author = ECSTRING(Main,CavModTeam);
+        scope = 1;
+        scopeCurator = 1;
+        author = ECSTRING(main,cavmodteam);
         editorSubcategory = "Cav_EdSubcat_Vehicles_Alpha";
 
         side = 1;
@@ -62,9 +62,9 @@ class CfgVehicles {
     };
     class Cav_Alpha_UH60M_MEV2 : RHS_UH60M_MEV2 {
         _generalMacro = "Cav_Alpha_UH60M_MEV2";
-        scope = 2;
-        scopeCurator = 2;
-        author = ECSTRING(Main,CavModTeam);
+        scope = 1;
+        scopeCurator = 1;
+        author = ECSTRING(main,cavmodteam);
         editorSubcategory = "Cav_EdSubcat_Vehicles_Alpha";
 
         side = 1;
@@ -77,9 +77,9 @@ class CfgVehicles {
     };
     class Cav_Alpha_CH_47F : RHS_CH_47F {
         _generalMacro = "Cav_Alpha_CH_47F";
-        scope = 2;
-        scopeCurator = 2;
-        author = ECSTRING(Main,CavModTeam);
+        scope = 1;
+        scopeCurator = 1;
+        author = ECSTRING(main,cavmodteam);
         editorSubcategory = "Cav_EdSubcat_Vehicles_Alpha";
 
         side = 1;
@@ -96,9 +96,9 @@ class CfgVehicles {
 
     class Cav_Alpha_C130J : RHS_C130J {
         _generalMacro = "Cav_Alpha_C130J";
-        scope = 2;
-        scopeCurator = 2;
-        author = ECSTRING(Main,CavModTeam);
+        scope = 1;
+        scopeCurator = 1;
+        author = ECSTRING(main,cavmodteam);
         editorSubcategory = "Cav_EdSubcat_Vehicles_Alpha";
 
         side = 1;
@@ -113,9 +113,9 @@ class CfgVehicles {
     };
     class Cav_Alpha_A10 : RHS_A10 {
         _generalMacro = "Cav_Alpha_A10";
-        scope = 2;
-        scopeCurator = 2;
-        author = ECSTRING(Main,CavModTeam);
+        scope = 1;
+        scopeCurator = 1;
+        author = ECSTRING(main,cavmodteam);
         editorSubcategory = "Cav_EdSubcat_Vehicles_Alpha";
 
         side = 1;
@@ -130,7 +130,7 @@ class CfgVehicles {
         _generalMacro = "Cav_Alpha_F16C";
         scope = 1;
         scopeCurator = 0;
-        author = ECSTRING(Main,CavModTeam);
+        author = ECSTRING(main,cavmodteam);
         editorSubcategory = "Cav_EdSubcat_Vehicles_Alpha";
 
         side = 1;

@@ -1,0 +1,16 @@
+<Project name="cav">
+    <Package name="gear">
+        <Key ID="str_cav_gear_beret_mar">
+            <English>Beret - Maroon</English>
+        </Key>
+        <Key ID="str_cav_gear_beret_blk">
+            <English>Beret - Black</English>
+        </Key>
+        <Key ID="str_cav_gear_jmcap_blk">
+            <English>Jump Master Cap - Black</English>
+        </Key>
+        <Key ID="str_cav_gear_rngrcap_blk">
+            <English>Ranger Cap - Black</English>
+        </Key>
+    </Package>
+</Project>

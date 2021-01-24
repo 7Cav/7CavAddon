@@ -67,7 +67,7 @@ class CfgPatches {
             
             "cav_bravo_characters"
         };
-        author = ECSTRING(main,CavModTeam);
+        author = ECSTRING(main,cavmodteam);
         authors[] = {"Brostrom.A (Evul)"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;

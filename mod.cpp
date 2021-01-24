@@ -1,11 +1,11 @@
-name = "7th Cavalry Gaming Community Addon";
+name = "7th Cavalry Gaming Community Addon DevBuild";
 picture = "logo_cav_ca.paa";
 actionName = "GitHub";
 action = "https://github.com/7cav/7CavAddon";
 description = "7th Cavalry Gaming Community Addon";
 logo = "logo_cav_ca.paa";
 logoOver = "logo_cav_ca.paa";
-tooltip = "7th Cavalry Gaming Community Addon";
+tooltip = "7th Cavalry Gaming Community Addon DevBuild";
 tooltipOwned = "7th Cavalry Gaming Owned";
 overview = "7th Cavalry Gaming Community Addon...";
 author = "7th Cavalry S3 Mod Team";

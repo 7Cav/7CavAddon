@@ -1,0 +1,85 @@
+<Project name="cav">
+    <Package name="troops_bravo_atlas">
+        <Key ID="str_cav_troops_bravo_atlas_personnel_bravo_atlas">
+            <English>Bravo Company Atlas</English>
+        </Key>
+        <Key ID="str_cav_troops_bravo_atlas_cat_bravo_atlas_squads">
+            <English>Bravo Company Atlas Squads</English>
+        </Key>
+
+        <!-- Soldiers -->
+        <Key ID="str_cav_troops_bravo_atlas_b_atlas_logistics_officer">
+            <English>Officer</English>
+        </Key>
+        <Key ID="str_cav_troops_bravo_atlas_b_atlas_logistics_opsofficer">
+            <English>Ops Officer</English>
+        </Key>
+        <Key ID="str_cav_troops_bravo_atlas_b_atlas_logistics_opsnco">
+            <English>Ops NCO Officer</English>
+        </Key>
+        <Key ID="str_cav_troops_bravo_atlas_b_atlas_logistics_teamleader">
+            <English>Logistical Team Leader</English>
+        </Key>
+        <Key ID="str_cav_troops_bravo_atlas_b_atlas_logistics_teammember">
+            <English>Team Member</English>
+        </Key>
+
+        <Key ID="str_cav_troops_bravo_atlas_b_atlas_medic_teamleader">
+            <English>Medical Team Leader</English>
+        </Key>
+        <Key ID="str_cav_troops_bravo_atlas_b_atlas_medic_combatmedic">
+            <English>Combat Medic</English>
+        </Key>
+
+        <!-- Named -->
+        <Key ID="str_cav_troops_bravo_atlas_b_atlas_medic_teamleader_3_1">
+            <English>Team Leader (Atlas-1)</English>
+        </Key>
+        <Key ID="str_cav_troops_bravo_atlas_b_atlas_medic_teamleader_3_2">
+            <English>Team Leader (Atlas-2)</English>
+        </Key>
+        <Key ID="str_cav_troops_bravo_atlas_b_atlas_logistics_teamleader_3_3">
+            <English>Team Leader (Atlas-3)</English>
+        </Key>
+        <Key ID="str_cav_troops_bravo_atlas_b_atlas_logistics_teamleader_3_4">
+            <English>Team Leader (Atlas-4)</English>
+        </Key>
+
+        <Key ID="str_cav_troops_bravo_atlas_b_atlas_logistics_opsnco_3_5">
+            <English>Ops NCO Officer (Atlas-5)</English>
+        </Key>
+        <Key ID="str_cav_troops_bravo_atlas_b_atlas_logistics_opsofficer_3_6">
+            <English>Ops Officer (Atlas-6)</English>
+        </Key>
+
+        <!-- Squads -->
+        <Key ID="str_cav_troops_bravo_atlas_b_atlas_medical_squad">
+            <English>Atlas Medical-Team</English>
+        </Key>
+        <Key ID="str_cav_troops_bravo_atlas_b_atlas_logistics_squad">
+            <English>Atlas Logistical Squad</English>
+        </Key>
+        <Key ID="str_cav_troops_bravo_atlas_b_atlas_logistics_squad">
+            <English>Atlas Logistical Squad</English>
+        </Key>
+
+        <Key ID="str_cav_troops_bravo_atlas_b_atlas_medical_3_1_squad">
+            <English>Team Atlas 1</English>
+        </Key>
+        <Key ID="str_cav_troops_bravo_atlas_b_atlas_medical_3_2_squad">
+            <English>Team Atlas 2</English>
+        </Key>
+        <Key ID="str_cav_troops_bravo_atlas_b_atlas_logistics_3_3_squad">
+            <English>Squad Atlas 3</English>
+        </Key>
+        <Key ID="str_cav_troops_bravo_atlas_b_atlas_logistics_3_4_squad">
+            <English>Squad Atlas 4</English>
+        </Key>
+        <Key ID="str_cav_troops_bravo_atlas_b_atlas_hq_3_5_squad">
+            <English>HQ Atlas 5</English>
+        </Key>
+        <Key ID="str_cav_troops_bravo_atlas_b_atlas_hq_3_6_squad">
+            <English>HQ Atlas 6</English>
+        </Key>
+    </Package>
+</Project>
