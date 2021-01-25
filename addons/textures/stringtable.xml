@@ -1,4 +1,22 @@
 <Project name="Cav">
     <Package name="Textures">
+        <Key ID="STR_Cav_Textures_Cat_Callsigns_Black">
+            <English>7th Cavalry Callsigns Black</English>
+        </Key>
+        <Key ID="STR_Cav_Textures_Cat_Callsigns_White">
+            <English>7th Cavalry Callsigns White</English>
+        </Key>
+        <Key ID="STR_Cav_Textures_Cat_Terrain_Black">
+            <English>7th Cavalry Terrain Black</English>
+        </Key>
+        <Key ID="STR_Cav_Textures_Cat_Terrain_White">
+            <English>7th Cavalry Terrain White</English>
+        </Key>
+        <Key ID="STR_Cav_Textures_Cat_Arlington">
+            <English>7th Cavalry Arlington</English>
+        </Key>
+        <Key ID="STR_Cav_Textures_Cat_Vehicle_Labels">
+            <English>7th Cavalry Vehicle Labels</English>
+        </Key>
     </Package>
 </Project>
