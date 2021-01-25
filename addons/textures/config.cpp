@@ -16,3 +16,6 @@ class CfgPatches {
         VERSION_CONFIG;
     };
 };
+
+#include "CfgVehicles.hpp"
+#include "CfgEditorSubcategories.hpp"
