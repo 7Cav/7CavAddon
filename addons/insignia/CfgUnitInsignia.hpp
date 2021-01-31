@@ -34,14 +34,14 @@ class CfgUnitInsignia {
     MACRO_UNITINSIGNIA(bravo_2);
     MACRO_UNITINSIGNIA(bravo_2_1);
     MACRO_UNITINSIGNIA(bravo_2_2);
-    //MACRO_UNITINSIGNIA(bravo_2_3);
+    MACRO_UNITINSIGNIA(bravo_2_3);
     //MACRO_UNITINSIGNIA(bravo_2_4);
     
     MACRO_UNITINSIGNIA(bravo_3);
-    //MACRO_UNITINSIGNIA(bravo_2_1);
-    //MACRO_UNITINSIGNIA(bravo_2_2);
-    //MACRO_UNITINSIGNIA(bravo_2_3);
-    //MACRO_UNITINSIGNIA(bravo_2_4);
+    //MACRO_UNITINSIGNIA(bravo_3_1);
+    //MACRO_UNITINSIGNIA(bravo_3_2);
+    //MACRO_UNITINSIGNIA(bravo_3_3);
+    //MACRO_UNITINSIGNIA(bravo_3_4);
     MACRO_UNITINSIGNIA(specialized_apollo);
     MACRO_UNITINSIGNIA(specialized_mustang);
 
