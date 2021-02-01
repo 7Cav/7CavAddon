@@ -9,8 +9,8 @@ class TRIPLES(cav,insignia,var1) { \
 
 class CfgUnitInsignia {
     // Alpha first platoon
-    //MACRO_UNITINSIGNIA(alpha_1);
-    //MACRO_UNITINSIGNIA(alpha_1_a);
+    MACRO_UNITINSIGNIA(alpha_1);
+    MACRO_UNITINSIGNIA(alpha_1_a);
     //MACRO_UNITINSIGNIA(alpha_1_b);
     MACRO_UNITINSIGNIA(alpha_1_c);
     //MACRO_UNITINSIGNIA(alpha_1_d);
