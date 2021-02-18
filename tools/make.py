@@ -51,7 +51,7 @@ import traceback
 import time
 import timeit
 import re
-import fileinput
+from tempfile import mkstemp
 
 if sys.platform == "win32":
     import winreg
@@ -72,8 +72,6 @@ dssignfile = ""
 prefix = "cav"
 pbo_name_prefix = "cav_"
 signature_blacklist = []
-#importantFiles = ["mod.cpp", "README.md", "docs\\README_DE.md", "docs\\README_PL.md", "docs\\README.zh-TW.md", "AUTHORS.txt", "LICENSE", "logo_cav_ca.paa", "meta.cpp"]
-#versionFiles = ["README.md", "docs\\README_DE.md", "docs\\README_PL.md", "mod.cpp"]
 importantFiles = ["mod.cpp", "README.md", "logo_cav_ca.paa"]
 versionFiles = ["README.md", "mod.cpp"]
 
@@ -584,9 +582,15 @@ def get_project_version(version_increments=[]):
 
 
 def replace_file(filePath, oldSubstring, newSubstring):
-    for line in fileinput.input(filePath, inplace=True):
-        # Use stdout directly, print() adds newlines automatically
-        sys.stdout.write(line.replace(oldSubstring,newSubstring))
+    fh, absPath = mkstemp()
+    with open(absPath, "w", encoding="utf-8") as newFile:
+        with open(filePath, encoding="utf-8") as oldFile:
+            for line in oldFile:
+                newFile.write(line.replace(oldSubstring, newSubstring))
+
+    newFile.close()
+    os.remove(filePath)
+    shutil.move(absPath, filePath)
 
 
 def set_version_in_files():
@@ -605,7 +609,7 @@ def set_version_in_files():
         try:
             # Save the file contents to a variable if the file exists
             if os.path.isfile(filePath):
-                f = open(filePath, "r+")
+                f = open(filePath, "r+", encoding="utf-8")
                 fileText = f.read()
                 f.close()
 
@@ -838,7 +842,6 @@ make.py [help] [test] [force] [key <name>] [target <name>] [release <version>]
 test -- Copy result to Arma 3.
 release <version> -- Make archive with <version>.
 force -- Ignore cache and build all.
-checkexternal -- Check External Files
 target <name> -- Use rules in make.cfg under heading [<name>] rather than
    default [Make]
 key <name> -- Use key in working directory with <name> to sign. If it does not
@@ -896,12 +899,6 @@ See the make.cfg file for additional build options.
         quiet = True
         argv.remove("quiet")
 
-    if "checkexternal" in argv:
-        argv.remove("checkexternal")
-        check_external = True
-    else:
-        check_external = False
-
     if "version" in argv:
         argv.remove("version")
         version_update = True
@@ -925,8 +922,6 @@ See the make.cfg file for additional build options.
     if "ci" in argv:
         argv.remove("ci")
         ciBuild = True
-
-    print_yellow("\nCheck external references is set to {}".format(str(check_external)))
 
     # Get the directory the make script is in.
     make_root = os.path.dirname(os.path.realpath(__file__))
@@ -1270,13 +1265,10 @@ See the make.cfg file for additional build options.
 
                     if os.path.isfile(nobinFilePath):
                         print_green("$NOBIN$ Found. Proceeding with non-binarizing!")
-                        cmd = [makepboTool, "-P","-A","-G","-N","-X=*.backup", os.path.join(work_drive, prefix, module),os.path.join(module_root, release_dir, project,"addons")]
+                        cmd = [makepboTool, "-P","-A","-X=*.backup", os.path.join(work_drive, prefix, module),os.path.join(module_root, release_dir, project,"addons")]
 
                     else:
-                        if check_external:
-                            cmd = [pboproject, "-P", os.path.join(work_drive, prefix, module), "+Engine=Arma3", "-S","+Noisy", "+X", "+Clean", "+Mod="+os.path.join(module_root, release_dir, project), "-Key"]
-                        else:
-                            cmd = [pboproject, "-P", os.path.join(work_drive, prefix, module), "+Engine=Arma3", "-S","+Noisy", "-X", "+Clean", "+Mod="+os.path.join(module_root, release_dir, project), "-Key"]
+                        cmd = [pboproject, "-P", os.path.join(work_drive, prefix, module), "+Engine=Arma3", "-S", "+Noisy", "+Clean", "-Warnings", "+Mod="+os.path.join(module_root, release_dir, project), "-Key"]
 
                     color("grey")
                     if quiet:
@@ -1507,6 +1499,9 @@ if __name__ == "__main__":
     print("\nTotal Program time elapsed: {0:2}h {1:2}m {2:4.5f}s".format(h,m,s))
 
     if ciBuild:
-        sys.exit(0)
+        if len(failedBuilds) > 0:
+            sys.exit(1)
+        else:
+            sys.exit(0)
 
     input("Press Enter to continue...")
