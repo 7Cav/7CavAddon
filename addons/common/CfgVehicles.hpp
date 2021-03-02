@@ -5,7 +5,7 @@ class CfgVehicles {
         scope = 1;
         scopeCurator = 0;
         displayName = CSTRING(trooper);
-        author = ECSTRING(main,cavmodteam);
+        author = ECSTRING(main,modteam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_base_F.jpg);
         cavCompany = "";
         cavPlatoon = -1;
