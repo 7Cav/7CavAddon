@@ -6,7 +6,7 @@ class CfgVehicles {
         scope = 1;
         scopeCurator = 0;
         displayName = CSTRING(Training);
-        author = ECSTRING(Main,CavModTeam);
+        author = ECSTRING(Main,modteam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_base_F.jpg);
         cavCompany = "Training";
         cavPlatoon = -1;
@@ -22,7 +22,7 @@ class CfgVehicles {
         scope = 1;
         scopeCurator = 0;
         displayName = CSTRING(Cadet);
-        author = ECSTRING(Main,CavModTeam);
+        author = ECSTRING(Main,modteam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_base_F.jpg);
 
         editorSubcategory = "Cav_EdSubcat_Personnel_Weap_Charlie";
@@ -34,7 +34,7 @@ class CfgVehicles {
         scope = 1;
         scopeCurator = 0;
         displayName = CSTRING(Cadre);
-        author = ECSTRING(Main,CavModTeam);
+        author = ECSTRING(Main,modteam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_base_F.jpg);
 
         editorSubcategory = "Cav_EdSubcat_Personnel_Weap_Charlie";
@@ -48,7 +48,7 @@ class CfgVehicles {
         scope = 1;
         scopeCurator = 0;
         displayName = CSTRING(Drill_Instructor);
-        author = ECSTRING(Main,CavModTeam);
+        author = ECSTRING(Main,modteam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_base_F.jpg);
 
         editorSubcategory = "Cav_EdSubcat_Personnel_Weap_Charlie";

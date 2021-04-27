@@ -9,6 +9,17 @@ MAINPREFIX = "z"
 PREFIX = "cav_"
 ##########################
 
+def tryHemttBuild(projectpath):
+    hemttExe = os.path.join(projectpath, "hemtt.exe")
+    if os.path.isfile(hemttExe):
+        os.chdir(projectpath)
+        ret = subprocess.call([hemttExe, "pack"], stderr=subprocess.STDOUT)
+        print("Using hemtt: {}".format(ret));
+        return True
+    else:
+        print("  hemtt not installed using makepbo")
+    return False
+    
 def mod_time(path):
     if not os.path.isdir(path):
         return os.path.getmtime(path)
@@ -32,7 +43,7 @@ def check_for_obsolete_pbos(addonspath, file):
 def main():
     print("""
   ####################
-  # 7Cav Debug Build #
+  # ACE3 Debug Build #
   ####################
 """)
 
@@ -40,21 +51,23 @@ def main():
     projectpath = os.path.dirname(os.path.dirname(scriptpath))
     addonspath = os.path.join(projectpath, "addons")
 
+    if (tryHemttBuild(projectpath)): return
+
     os.chdir(addonspath)
 
     made = 0
     failed = 0
     skipped = 0
     removed = 0
-    
+
     for file in os.listdir(addonspath):
         if os.path.isfile(file):
             if check_for_obsolete_pbos(addonspath, file):
                 removed += 1
                 print("  Removing obsolete file => " + file)
                 os.remove(file)
-    print("")        
-    
+    print("")
+
     for p in os.listdir(addonspath):
         path = os.path.join(addonspath, p)
         if not os.path.isdir(path):
@@ -69,11 +82,19 @@ def main():
         print("# Making {} ...".format(p))
 
         try:
+            #print(
+            #    "  DEBUG:",
+            #    "makepbo",
+            #    "-P",
+            #    "-@={}\\{}\\addons\\{}".format(MAINPREFIX,PREFIX.rstrip("_"),p),
+            #    "P:\\{}\\{}\\addons\\{}".format(MAINPREFIX,PREFIX.rstrip("_"),p),
+            #    "{}{}.pbo".format(PREFIX,p)
+            #)
             subprocess.check_output([
                 "makepbo",
-                "-NUP",
+                "-P",
                 "-@={}\\{}\\addons\\{}".format(MAINPREFIX,PREFIX.rstrip("_"),p),
-                p,
+                "P:\\{}\\{}\\addons\\{}".format(MAINPREFIX,PREFIX.rstrip("_"),p),
                 "{}{}.pbo".format(PREFIX,p)
             ], stderr=subprocess.STDOUT)
         except:

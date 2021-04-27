@@ -7,7 +7,7 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"cav_main"};
-        author = ECSTRING(main,cavmodteam);
+        author = ECSTRING(main,modteam);
         authors[] = {"Brostrom.A (Evul)"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;

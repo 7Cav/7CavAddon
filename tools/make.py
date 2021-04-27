@@ -838,7 +838,6 @@ def main(argv):
         print ("""
 make.py [help] [test] [force] [key <name>] [target <name>] [release <version>]
         [module name] [module name] [...]
-
 test -- Copy result to Arma 3.
 release <version> -- Make archive with <version>.
 force -- Ignore cache and build all.
@@ -847,9 +846,7 @@ target <name> -- Use rules in make.cfg under heading [<name>] rather than
 key <name> -- Use key in working directory with <name> to sign. If it does not
    exist, create key.
 quiet -- Suppress command line output from build tool.
-
 If module names are specified, only those modules will be built.
-
 Examples:
    make.py force test
       Build all modules (ignoring cache) and copy the mod folder to the Arma 3
@@ -859,10 +856,7 @@ Examples:
    make.py force key MyNewKey release 1.0
       Build all modules (ignoring cache), sign them with NewKey, and pack them
       into a zip file for release with version 1.0.
-
-
 If a file called $NOBIN$ is found in the module directory, that module will not be binarized.
-
 See the make.cfg file for additional build options.
 """)
         sys.exit(0)
