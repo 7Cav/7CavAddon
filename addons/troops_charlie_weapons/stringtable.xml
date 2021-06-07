@@ -1,0 +1,95 @@
+<Project name="cav">
+    <Package name="troops_charlie_weapons">
+        <Key ID="STR_cav_troops_charlie_weapons_display">
+            <English>Charlie Company Weapons Squad</English>
+        </Key>
+
+        <!-- Soldiers -->
+        <Key ID="STR_cav_troops_charlie_weapons_squadleader">
+            <English>Squad Leader</English>
+        </Key>
+        <Key ID="STR_cav_troops_charlie_weapons_m240b_fireteamleader">
+            <English>M240B Team Lead</English>
+        </Key>
+        <Key ID="STR_cav_troops_charlie_weapons_m240b_grenadier">
+            <English>M240B Grenadier</English>
+        </Key>
+        <Key ID="STR_cav_troops_charlie_weapons_m240b_machinegunnerammobearer">
+            <English>M240B Assistant</English>
+        </Key>
+        <Key ID="STR_cav_troops_charlie_weapons_m240b_machinegunner">
+            <English>M240B Gunner</English>
+        </Key>
+
+        <Key ID="STR_cav_troops_charlie_weapons_maaws_fireteamleader">
+            <English>MAAWS Team Lead</English>
+        </Key>
+        <Key ID="STR_cav_troops_charlie_weapons_maaws_grenadier">
+            <English>MAAWS Grenadier</English>
+        </Key>
+        <Key ID="STR_cav_troops_charlie_weapons_maaws_automaticrifleman">
+            <English>MAAWS Automatic Rifleman</English>
+        </Key>
+        <Key ID="STR_cav_troops_charlie_weapons_maaws_maawsgunner">
+            <English>MAAWS Gunner</English>
+        </Key>
+
+        <Key ID="STR_cav_troops_charlie_weapons_mortar_fireteamleader">
+            <English>Mortar Fire Team Leader</English>
+        </Key>
+        <Key ID="STR_cav_troops_charlie_weapons_mortar_m224">
+            <English>Mortar M224</English>
+        </Key>
+        <Key ID="STR_cav_troops_charlie_weapons_mortar_assistant">
+            <English>Mortar Assistant</English>
+        </Key>
+        <Key ID="STR_cav_troops_charlie_weapons_mortar_automaticrifleman">
+            <English>Mortar M249</English>
+        </Key>
+
+        <!-- Named -->
+        <Key ID="STR_cav_troops_charlie_weapons_squadleader_1_4">
+            <English>Weapons Squad Leader (Bandit-4)</English>
+        </Key>
+        <Key ID="STR_cav_troops_charlie_weapons_squadleader_2_4">
+            <English>Weapons Squad Leader (Misfit-4)</English>
+        </Key>
+        
+        <Key ID="STR_cav_troops_charlie_weapons_alpha_fireteamleader">
+            <English>Alpha Team Lead</English>
+        </Key>
+        <Key ID="STR_cav_troops_charlie_weapons_alpha_grenadier">
+            <English>Alpha Grenadier</English>
+        </Key>
+        <Key ID="STR_cav_troops_charlie_weapons_alpha_machinegunnerammobearer">
+            <English>Alpha Assistant</English>
+        </Key>
+        <Key ID="STR_cav_troops_charlie_weapons_alpha_machinegunner">
+            <English>Alpha Gunner</English>
+        </Key>
+
+        <Key ID="STR_cav_troops_charlie_weapons_bravo_fireteamleader">
+            <English>Bravo Team Lead</English>
+        </Key>
+        <Key ID="STR_cav_troops_charlie_weapons_bravo_grenadier">
+            <English>Bravo Grenadier</English>
+        </Key>
+        <Key ID="STR_cav_troops_charlie_weapons_bravo_automaticrifleman">
+            <English>Bravo Automatic Rifleman</English>
+        </Key>
+        <Key ID="STR_cav_troops_charlie_weapons_bravo_MAAWSgunner">
+            <English>Bravo Gunner</English>
+        </Key>
+
+        <!-- Squads -->
+        <Key ID="STR_cav_troops_charlie_weapons_basic_squad">
+            <English>Weapons Squad</English>
+        </Key>
+        <Key ID="STR_cav_troops_charlie_weapons_1_4_squad">
+            <English>Weapons Squad Bandit-4</English>
+        </Key>
+        <Key ID="STR_cav_troops_charlie_weapons_2_4_squad">
+            <English>Weapons Squad Misfit-4</English>
+        </Key>
+    </Package>
+</Project>
