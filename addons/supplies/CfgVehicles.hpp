@@ -6,7 +6,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 2;
         displayName = CSTRING(cargonet_01_ammo);
-        author = ECSTRING(main,cavmodteam);
+        author = ECSTRING(main,modteam);
 
         hiddenSelectionsTextures[] = {
             "\A3\Weapons_F\Ammoboxes\Data\AmmoBox_CO.paa",
@@ -24,12 +24,11 @@ class CfgVehicles {
     };
 
     class Box_NATO_Ammo_F;
-    class Cav_Box_Ammo_F : Box_NATO_Ammo_F {
+    class Cav_Box_Ammo_Base_F : Box_NATO_Ammo_F {
         _generalMacro = "Cav_Box_Ammo_F";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = CSTRING(Box_Ammo);
-        author = ECSTRING(main,cavmodteam);
+        scope = 0;
+        scopeCurator = 0;
+        author = ECSTRING(main,modteam);
 
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\Ammobox_7CAV_co.paa),
@@ -41,22 +40,58 @@ class CfgVehicles {
         class TransportItems {
         };
         class TransportMagazines {
-            MACRO_ADDMAGAZINE(rhs_mag_30Rnd_556x45_M855A1_Stanag,18);
+        };
+        class TransportWeapons {
+        };
+    };
+    class Cav_Box_Ammo_Mix_F : Cav_Box_Ammo_Base_F {
+        _generalMacro = "Cav_Box_Ammo_Mix_F";
+        displayName = CSTRING(box_ammo_mix);
+        scope = 2;
+        scopeCurator = 2;
+        class TransportMagazines {
+            MACRO_ADDMAGAZINE(rhs_mag_30Rnd_556x45_M855A1_Stanag,22);
             MACRO_ADDMAGAZINE(rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red,18);
             MACRO_ADDMAGAZINE(rhsusf_200rnd_556x45_mixed_box,6);
             MACRO_ADDMAGAZINE(rhsusf_100Rnd_762x51_m62_tracer,4);
         };
-        class TransportWeapons {
+    };
+    class Cav_Box_Ammo_STANAG_F : Cav_Box_Ammo_Base_F {
+        _generalMacro = "Cav_Box_Ammo_STANAG_F";
+        displayName = CSTRING(box_ammo_stanag);
+        scope = 2;
+        scopeCurator = 2;
+        class TransportMagazines {
+            MACRO_ADDMAGAZINE(rhs_mag_30Rnd_556x45_M855A1_Stanag,32);
+            MACRO_ADDMAGAZINE(rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red,32);
+        };
+    };
+    class Cav_Box_Ammo_BOX_F : Cav_Box_Ammo_Base_F {
+        _generalMacro = "Cav_Box_Ammo_BOX_F";
+        displayName = CSTRING(box_ammo_box);
+        scope = 2;
+        scopeCurator = 2;
+        class TransportMagazines {
+            MACRO_ADDMAGAZINE(rhsusf_200rnd_556x45_mixed_box,22);
+        };
+    };
+    class Cav_Box_Ammo_BOX7_F : Cav_Box_Ammo_Base_F {
+        _generalMacro = "Cav_Box_Ammo_BOX7_F";
+        displayName = CSTRING(box_ammo_box7);
+        scope = 2;
+        scopeCurator = 2;
+        class TransportMagazines {
+            MACRO_ADDMAGAZINE(rhsusf_100Rnd_762x51_m62_tracer,18);
         };
     };
 
     class Box_NATO_Wps_F;
     class Cav_Box_Wps_F : Box_NATO_Wps_F {
         _generalMacro = "Cav_Box_Wps_F";
-        scope = 2;
-        scopeCurator = 2;
+        scope = 0;
+        scopeCurator = 0;
         displayName = CSTRING(Box_Wps);
-        author = ECSTRING(main,cavmodteam);
+        author = ECSTRING(main,modteam);
 
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\Ammobox_7CAV_co.paa),
@@ -75,10 +110,10 @@ class CfgVehicles {
     class Box_NATO_Equip_F;
     class Cav_Box_Equip_F : Box_NATO_Equip_F {
         _generalMacro = "Cav_Box_Equip_F";
-        scope = 2;
-        scopeCurator = 2;
+        scope = 0;
+        scopeCurator = 0;
         displayName = CSTRING(Box_Equip);
-        author = ECSTRING(main,cavmodteam);
+        author = ECSTRING(main,modteam);
 
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\Ammobox_7CAV_co.paa),
@@ -97,10 +132,10 @@ class CfgVehicles {
     class Box_NATO_AmmoOrd_F;
     class Cav_Box_AmmoOrd_F : Box_NATO_AmmoOrd_F {
         _generalMacro = "Cav_Box_AmmoOrd_F";
-        scope = 2;
-        scopeCurator = 2;
+        scope = 0;
+        scopeCurator = 0;
         displayName = CSTRING(Box_AmmoOrd);
-        author = ECSTRING(main,cavmodteam);
+        author = ECSTRING(main,modteam);
 
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\Ammobox_7CAV_co.paa),
@@ -119,10 +154,10 @@ class CfgVehicles {
     class Box_NATO_Grenades_F;
     class Cav_Box_Grenades_F : Box_NATO_Grenades_F {
         _generalMacro = "Cav_Box_Grenades_F";
-        scope = 2;
-        scopeCurator = 2;
+        scope = 0;
+        scopeCurator = 0;
         displayName = CSTRING(Box_Grenades);
-        author = ECSTRING(main,cavmodteam);
+        author = ECSTRING(main,modteam);
 
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\Ammobox_7CAV_co.paa),
@@ -151,10 +186,10 @@ class CfgVehicles {
     class Box_NATO_WpsLaunch_F;
     class Cav_Box_WpsLaunch_F : Box_NATO_WpsLaunch_F {
         _generalMacro = "Cav_Box_WpsLaunch_F";
-        scope = 2;
-        scopeCurator = 2;
+        scope = 0;
+        scopeCurator = 0;
         displayName = CSTRING(Box_WpsLaunch);
-        author = ECSTRING(main,cavmodteam);
+        author = ECSTRING(main,modteam);
 
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\Ammobox_7CAV_co.paa),
@@ -173,10 +208,10 @@ class CfgVehicles {
     class Box_NATO_WpsSpecial_F;
     class Cav_Box_WpsSpecial_F : Box_NATO_WpsSpecial_F {
         _generalMacro = "Cav_Box_WpsSpecial_F";
-        scope = 2;
-        scopeCurator = 2;
+        scope = 0;
+        scopeCurator = 0;
         displayName = CSTRING(Box_WpsLaunch);
-        author = ECSTRING(main,cavmodteam);
+        author = ECSTRING(main,modteam);
 
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\Ammobox_7CAV_co.paa),
@@ -195,10 +230,10 @@ class CfgVehicles {
     class B_supplyCrate_F;
     class Cav_B_supplyCrate_F : B_supplyCrate_F {
         _generalMacro = "Cav_B_supplyCrate_F";
-        scope = 2;
-        scopeCurator = 2;
+        scope = 0;
+        scopeCurator = 0;
         displayName = CSTRING(B_supplyCrate);
-        author = ECSTRING(main,cavmodteam);
+        author = ECSTRING(main,modteam);
         
         /*class AttributeCategories {
             class Cav_Starter_Crate_Category  {
