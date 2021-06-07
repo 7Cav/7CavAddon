@@ -17,49 +17,49 @@ class CfgGroups {
                         position[] = {1.5, -1.0, 0.0};
                         rank = "CORPORAL";
                         side = 1;
-                        vehicle = "Cav_B_C_Weapons_M240B_FireTeamLeader_F";
+                        vehicle = "Cav_B_C_Weapons_Alpha_FireTeamLeader_F";
                     };
                     class Unit2 {
                         position[] = {0.5, -1.0, 0.0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "Cav_B_C_Weapons_M240B_Grenadier_F";
+                        vehicle = "Cav_B_C_Weapons_Alpha_Trooper_2_F";
                     };
                     class Unit3 {
                         position[] = {-0.5, -1.0, 0.0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "Cav_B_C_Weapons_M240B_MachinegunnerAmmoBearer_F";
+                        vehicle = "Cav_B_C_Weapons_Alpha_Trooper_3_F";
                     };
                     class Unit4 {
                         position[] = {-1.5, -1.0, 0.0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "Cav_B_C_Weapons_M240B_Machinegunner_F";
+                        vehicle = "Cav_B_C_Weapons_Alpha_Trooper_4_F";
                     };
                     class Unit5 {
                         position[] = {1.5, -2.0, 0.0};
                         rank = "CORPORAL";
                         side = 1;
-                        vehicle = "Cav_B_C_Weapons_MAAWS_FireTeamLeader_F";
+                        vehicle = "Cav_B_C_Weapons_Bravo_FireTeamLeader_F";
                     };
                     class Unit6 {
                         position[] = {0.5, -2.0, 0.0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "Cav_B_C_Weapons_MAAWS_Grenadier_F";
+                        vehicle = "Cav_B_C_Weapons_Bravo_Trooper_2_F";
                     };
                     class Unit7 {
                         position[] = {-0.5, -2.0, 0.0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "Cav_B_C_Weapons_MAAWS_AutomaticRifleman_F";
+                        vehicle = "Cav_B_C_Weapons_Bravo_Trooper_3_F";
                     };
                     class Unit8 {
                         position[] = {-1.5, -2.0, 0.0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "Cav_B_C_Weapons_MAAWS_MAAWSGunner_F";
+                        vehicle = "Cav_B_C_Weapons_Bravo_Trooper_4_F";
                     };
                 };
                 class Cav_B_C_Weapons_1_4_Squad {
@@ -71,55 +71,55 @@ class CfgGroups {
                         position[] = {0, 0, 0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "Cav_B_C_Weapons_SquadLeader_1_4_F";
+                        vehicle = "Cav_B_C_Weapons_SquadLeader_2_4_F";
                     };
                     class Unit1 {
                         position[] = {1.5, -1.0, 0.0};
                         rank = "CORPORAL";
                         side = 1;
-                        vehicle = "Cav_B_C_Weapons_M240B_FireTeamLeader_F";
+                        vehicle = "Cav_B_C_Weapons_Alpha_FireTeamLeader_F";
                     };
                     class Unit2 {
                         position[] = {0.5, -1.0, 0.0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "Cav_B_C_Weapons_M240B_Grenadier_F";
+                        vehicle = "Cav_B_C_Weapons_Alpha_Trooper_2_F";
                     };
                     class Unit3 {
                         position[] = {-0.5, -1.0, 0.0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "Cav_B_C_Weapons_M240B_MachinegunnerAmmoBearer_F";
+                        vehicle = "Cav_B_C_Weapons_Alpha_Trooper_3_F";
                     };
                     class Unit4 {
                         position[] = {-1.5, -1.0, 0.0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "Cav_B_C_Weapons_M240B_Machinegunner_F";
+                        vehicle = "Cav_B_C_Weapons_Alpha_Trooper_4_F";
                     };
                     class Unit5 {
                         position[] = {1.5, -2.0, 0.0};
                         rank = "CORPORAL";
                         side = 1;
-                        vehicle = "Cav_B_C_Weapons_MAAWS_FireTeamLeader_F";
+                        vehicle = "Cav_B_C_Weapons_Bravo_FireTeamLeader_F";
                     };
                     class Unit6 {
                         position[] = {0.5, -2.0, 0.0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "Cav_B_C_Weapons_MAAWS_Grenadier_F";
+                        vehicle = "Cav_B_C_Weapons_Bravo_Trooper_2_F";
                     };
                     class Unit7 {
                         position[] = {-0.5, -2.0, 0.0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "Cav_B_C_Weapons_MAAWS_AutomaticRifleman_F";
+                        vehicle = "Cav_B_C_Weapons_Bravo_Trooper_3_F";
                     };
                     class Unit8 {
                         position[] = {-1.5, -2.0, 0.0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "Cav_B_C_Weapons_MAAWS_MAAWSGunner_F";
+                        vehicle = "Cav_B_C_Weapons_Bravo_Trooper_4_F";
                     };
                 };
                 class Cav_B_C_Weapons_2_4_Squad {
@@ -137,49 +137,49 @@ class CfgGroups {
                         position[] = {1.5, -1.0, 0.0};
                         rank = "CORPORAL";
                         side = 1;
-                        vehicle = "Cav_B_C_Weapons_M240B_FireTeamLeader_F";
+                        vehicle = "Cav_B_C_Weapons_Alpha_FireTeamLeader_F";
                     };
                     class Unit2 {
                         position[] = {0.5, -1.0, 0.0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "Cav_B_C_Weapons_M240B_Grenadier_F";
+                        vehicle = "Cav_B_C_Weapons_Alpha_Trooper_2_F";
                     };
                     class Unit3 {
                         position[] = {-0.5, -1.0, 0.0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "Cav_B_C_Weapons_M240B_MachinegunnerAmmoBearer_F";
+                        vehicle = "Cav_B_C_Weapons_Alpha_Trooper_3_F";
                     };
                     class Unit4 {
                         position[] = {-1.5, -1.0, 0.0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "Cav_B_C_Weapons_M240B_Machinegunner_F";
+                        vehicle = "Cav_B_C_Weapons_Alpha_Trooper_4_F";
                     };
                     class Unit5 {
                         position[] = {1.5, -2.0, 0.0};
                         rank = "CORPORAL";
                         side = 1;
-                        vehicle = "Cav_B_C_Weapons_MAAWS_FireTeamLeader_F";
+                        vehicle = "Cav_B_C_Weapons_Bravo_FireTeamLeader_F";
                     };
                     class Unit6 {
                         position[] = {0.5, -2.0, 0.0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "Cav_B_C_Weapons_MAAWS_Grenadier_F";
+                        vehicle = "Cav_B_C_Weapons_Bravo_Trooper_2_F";
                     };
                     class Unit7 {
                         position[] = {-0.5, -2.0, 0.0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "Cav_B_C_Weapons_MAAWS_AutomaticRifleman_F";
+                        vehicle = "Cav_B_C_Weapons_Bravo_Trooper_3_F";
                     };
                     class Unit8 {
                         position[] = {-1.5, -2.0, 0.0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "Cav_B_C_Weapons_MAAWS_MAAWSGunner_F";
+                        vehicle = "Cav_B_C_Weapons_Bravo_Trooper_4_F";
                     };
                 };
             };
