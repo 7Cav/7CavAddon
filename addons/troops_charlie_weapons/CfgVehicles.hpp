@@ -57,7 +57,7 @@ class CfgVehicles {
     };
 
     class Cav_B_C_Weapons_M240B_FireTeamLeader_F : Cav_B_Charlie_Weapons_base_F {
-        _generalMacro = "Cav_B_C_Weapons_FireTeamLeader_F ";
+        _generalMacro = "Cav_B_C_Weapons_FireTeamLeader_F";
         scope = 2;
         scopeCurator = 0;
         displayName = CSTRING(m240b_fireteamleader);
@@ -66,24 +66,8 @@ class CfgVehicles {
 
         icon = "iconManLeader";
     };
-    class Cav_B_C_Weapons_M240B_Grenadier_F : Cav_B_Charlie_Weapons_base_F {
-        _generalMacro = "Cav_B_C_Weapons_Grenadier_F ";
-        scope = 2;
-        scopeCurator = 0;
-        displayName = CSTRING(m240b_grenadier);
-        author = ECSTRING(main,modteam);
-        //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_Rifleman_F.jpg);
-    };
-    class Cav_B_C_Weapons_M240B_MachinegunnerAmmoBearer_F : Cav_B_Charlie_Weapons_base_F {
-        _generalMacro = "Cav_B_C_Weapons_MachinegunnerAmmoBearer_F ";
-        scope = 2;
-        scopeCurator = 0;
-        displayName = CSTRING(m240b_machinegunnerammobearer);
-        author = ECSTRING(main,modteam);
-        //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_Rifleman_F.jpg);
-    };
     class Cav_B_C_Weapons_M240B_Machinegunner_F : Cav_B_Charlie_Weapons_base_F {
-        _generalMacro = "Cav_B_C_Weapons_Machinegunner_F ";
+        _generalMacro = "Cav_B_C_Weapons_M240B_Machinegunner_F";
         scope = 2;
         scopeCurator = 0;
         displayName = CSTRING(m240b_machinegunner);
@@ -92,9 +76,17 @@ class CfgVehicles {
 
         icon = "iconManMG";
     };
+    class Cav_B_C_Weapons_M240B_MachinegunnerAmmoBearer_F : Cav_B_Charlie_Weapons_base_F {
+        _generalMacro = "Cav_B_C_Weapons_M240B_MachinegunnerAmmoBearer_F";
+        scope = 2;
+        scopeCurator = 0;
+        displayName = CSTRING(m240b_machinegunnerammobearer);
+        author = ECSTRING(main,modteam);
+        //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_Rifleman_F.jpg);
+    };
 
     class Cav_B_C_Weapons_MAAWS_FireTeamLeader_F : Cav_B_Charlie_Weapons_base_F {
-        _generalMacro = "Cav_B_C_Weapons_MAAWS_FireTeamLeader_F ";
+        _generalMacro = "Cav_B_C_Weapons_MAAWS_FireTeamLeader_F";
         scope = 2;
         scopeCurator = 0;
         displayName = CSTRING(maaws_fireteamleader);
@@ -103,26 +95,8 @@ class CfgVehicles {
 
         icon = "iconManLeader";
     };
-    class Cav_B_C_Weapons_MAAWS_Grenadier_F : Cav_B_Charlie_Weapons_base_F {
-        _generalMacro = "Cav_B_C_Weapons_MAAWS_Grenadier_F ";
-        scope = 2;
-        scopeCurator = 0;
-        displayName = CSTRING(maaws_grenadier);
-        author = ECSTRING(main,modteam);
-        //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_Rifleman_F.jpg);
-    };
-    class Cav_B_C_Weapons_MAAWS_AutomaticRifleman_F : Cav_B_Charlie_Weapons_base_F {
-        _generalMacro = "Cav_B_C_Weapons_MAAWS_AutomaticRifleman_F ";
-        scope = 2;
-        scopeCurator = 0;
-        displayName = CSTRING(maaws_automaticrifleman);
-        author = ECSTRING(main,modteam);
-        //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_Rifleman_F.jpg);
-
-        icon = "iconManMG";
-    };
     class Cav_B_C_Weapons_MAAWS_MAAWSGunner_F : Cav_B_Charlie_Weapons_base_F {
-        _generalMacro = "Cav_B_C_Weapons_MAAWS_MAAWSGunner_F ";
+        _generalMacro = "Cav_B_C_Weapons_MAAWS_MAAWSGunner_F";
         scope = 2;
         scopeCurator = 0;
         displayName = CSTRING(maaws_maawsgunner);
@@ -131,9 +105,19 @@ class CfgVehicles {
 
         icon = "iconManAT";
     };
+    class Cav_B_C_Weapons_MAAWS_MAAWSAssistant_F : Cav_B_Charlie_Weapons_base_F {
+        _generalMacro = "Cav_B_C_Weapons_MAAWS_MAAWSAssistant_F";
+        scope = 2;
+        scopeCurator = 0;
+        displayName = CSTRING(maaws_maawsassistant);
+        author = ECSTRING(main,modteam);
+        //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_Rifleman_F.jpg);
+
+        icon = "iconManMG";
+    };
     
     class Cav_B_C_Weapons_Mortar_FireTeamLeader_F : Cav_B_Charlie_Weapons_base_F {
-        _generalMacro = "Cav_B_C_Weapons_Mortar_FireTeamLeader_F ";
+        _generalMacro = "Cav_B_C_Weapons_Mortar_FireTeamLeader_F";
         scope = 2;
         scopeCurator = 0;
         displayName = CSTRING(mortar_fireteamleader);
@@ -143,7 +127,7 @@ class CfgVehicles {
         icon = "iconManLeader";
     };
     class Cav_B_C_Weapons_Mortar_M224_F : Cav_B_Charlie_Weapons_base_F {
-        _generalMacro = "Cav_B_C_Weapons_Mortar_M224_F ";
+        _generalMacro = "Cav_B_C_Weapons_Mortar_M224_F";
         scope = 2;
         scopeCurator = 0;
         displayName = CSTRING(mortar_m224);
@@ -151,7 +135,7 @@ class CfgVehicles {
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_Rifleman_F.jpg);
     };
     class Cav_B_C_Weapons_Mortar_Assistant_F : Cav_B_Charlie_Weapons_base_F {
-        _generalMacro = "Cav_B_C_Weapons_Mortar_Assistant_F ";
+        _generalMacro = "Cav_B_C_Weapons_Mortar_Assistant_F";
         scope = 2;
         scopeCurator = 0;
         displayName = CSTRING(mortar_assistant);
@@ -159,7 +143,7 @@ class CfgVehicles {
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_Rifleman_F.jpg);
     };
     class Cav_B_C_Weapons_Mortar_AutomaticRifleman_F : Cav_B_Charlie_Weapons_base_F {
-        _generalMacro = "Cav_B_C_Weapons_Mortar_AutomaticRifleman_F ";
+        _generalMacro = "Cav_B_C_Weapons_Mortar_AutomaticRifleman_F";
         scope = 2;
         scopeCurator = 0;
         displayName = CSTRING(mortar_automaticrifleman);
@@ -190,67 +174,67 @@ class CfgVehicles {
     };
 
     class Cav_B_C_Weapons_Alpha_FireTeamLeader_F : Cav_B_C_Weapons_M240B_FireTeamLeader_F {
-        _generalMacro = "Cav_B_C_Weapons_Alpha_FireTeamLeader_F ";
+        _generalMacro = "Cav_B_C_Weapons_Alpha_FireTeamLeader_F";
         scope = 1;
         scopeCurator = 0;
         displayName = CSTRING(alpha_fireteamleader);
         author = ECSTRING(main,modteam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_Rifleman_F.jpg);
     };
-    class Cav_B_C_Weapons_Alpha_Grenadier_F : Cav_B_C_Weapons_M240B_Grenadier_F {
-        _generalMacro = "Cav_B_C_Weapons_Alpha_Grenadier_F ";
+    class Cav_B_C_Weapons_Alpha_Trooper_2_F : Cav_B_C_Weapons_M240B_Machinegunner_F {
+        _generalMacro = "Cav_B_C_Weapons_Alpha_Trooper_1_F";
         scope = 1;
         scopeCurator = 0;
-        displayName = CSTRING(alpha_grenadier);
+        displayName = CSTRING(alpha_trooper_2);
         author = ECSTRING(main,modteam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_Rifleman_F.jpg);
     };
-    class Cav_B_C_Weapons_Alpha_MachinegunnerAmmoBearer_F : Cav_B_C_Weapons_M240B_MachinegunnerAmmoBearer_F {
-        _generalMacro = "Cav_B_C_Weapons_SquadLeader_1_4_F ";
+    class Cav_B_C_Weapons_Alpha_Trooper_3_F : Cav_B_C_Weapons_M240B_Machinegunner_F {
+        _generalMacro = "Cav_B_C_Weapons_Alpha_Trooper_1_F";
         scope = 1;
         scopeCurator = 0;
-        displayName = CSTRING(alpha_machinegunnerammobearer);
+        displayName = CSTRING(alpha_trooper_3);
         author = ECSTRING(main,modteam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_Rifleman_F.jpg);
     };
-    class Cav_B_C_Weapons_Alpha_Machinegunner_F : Cav_B_C_Weapons_M240B_Machinegunner_F {
-        _generalMacro = "Cav_B_C_Weapons_Alpha_Machinegunner_F ";
+    class Cav_B_C_Weapons_Alpha_Trooper_4_F : Cav_B_C_Weapons_M240B_Machinegunner_F {
+        _generalMacro = "Cav_B_C_Weapons_Alpha_Trooper_1_F";
         scope = 1;
         scopeCurator = 0;
-        displayName = CSTRING(alpha_machinegunner);
+        displayName = CSTRING(alpha_trooper_4);
         author = ECSTRING(main,modteam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_Rifleman_F.jpg);
     };
 
-    class Cav_B_C_Weapons_Bravo_FireTeamLeader_F : Cav_B_C_Weapons_MAAWS_FireTeamLeader_F {
-        _generalMacro = "Cav_B_C_Weapons_Bravo_FireTeamLeader_F ";
+    class Cav_B_C_Weapons_Bravo_FireTeamLeader_F : Cav_B_C_Weapons_M240B_FireTeamLeader_F {
+        _generalMacro = "Cav_B_C_Weapons_Bravo_FireTeamLeader_F";
         scope = 1;
         scopeCurator = 0;
         displayName = CSTRING(bravo_fireteamleader);
         author = ECSTRING(main,modteam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_Rifleman_F.jpg);
     };
-    class Cav_B_C_Weapons_Bravo_Grenadier_F : Cav_B_C_Weapons_MAAWS_Grenadier_F {
-        _generalMacro = "Cav_B_C_Weapons_Bravo_Grenadier_F ";
+    class Cav_B_C_Weapons_Bravo_Trooper_2_F : Cav_B_C_Weapons_M240B_Machinegunner_F {
+        _generalMacro = "Cav_B_C_Weapons_Bravo_Trooper_1_F";
         scope = 1;
         scopeCurator = 0;
-        displayName = CSTRING(bravo_grenadier);
+        displayName = CSTRING(bravo_trooper_2);
         author = ECSTRING(main,modteam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_Rifleman_F.jpg);
     };
-    class Cav_B_C_Weapons_Bravo_AutomaticRifleman_F : Cav_B_C_Weapons_MAAWS_AutomaticRifleman_F {
-        _generalMacro = "Cav_B_C_Weapons_Bravo_AutomaticRifleman_F ";
+    class Cav_B_C_Weapons_Bravo_Trooper_3_F : Cav_B_C_Weapons_M240B_Machinegunner_F {
+        _generalMacro = "Cav_B_C_Weapons_Bravo_Trooper_1_F";
         scope = 1;
         scopeCurator = 0;
-        displayName = CSTRING(bravo_automaticrifleman);
+        displayName = CSTRING(bravo_trooper_3);
         author = ECSTRING(main,modteam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_Rifleman_F.jpg);
     };
-    class Cav_B_C_Weapons_Bravo_MAAWSGunner_F : Cav_B_C_Weapons_MAAWS_MAAWSGunner_F {
-        _generalMacro = "Cav_B_C_Weapons_Bravo_MAAWSGunner_F ";
+    class Cav_B_C_Weapons_Bravo_Trooper_4_F : Cav_B_C_Weapons_M240B_Machinegunner_F {
+        _generalMacro = "Cav_B_C_Weapons_Bravo_Trooper_1_F";
         scope = 1;
         scopeCurator = 0;
-        displayName = CSTRING(bravo_maawsgunner);
+        displayName = CSTRING(bravo_trooper_4);
         author = ECSTRING(main,modteam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_Rifleman_F.jpg);
     };

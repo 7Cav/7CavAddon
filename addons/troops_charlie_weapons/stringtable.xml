@@ -6,32 +6,26 @@
 
         <!-- Soldiers -->
         <Key ID="STR_cav_troops_charlie_weapons_squadleader">
-            <English>Squad Leader</English>
+            <English>Weapons Squad Leader</English>
         </Key>
         <Key ID="STR_cav_troops_charlie_weapons_m240b_fireteamleader">
             <English>M240B Team Lead</English>
         </Key>
-        <Key ID="STR_cav_troops_charlie_weapons_m240b_grenadier">
-            <English>M240B Grenadier</English>
+        <Key ID="STR_cav_troops_charlie_weapons_m240b_machinegunner">
+            <English>M240B Gunner</English>
         </Key>
         <Key ID="STR_cav_troops_charlie_weapons_m240b_machinegunnerammobearer">
             <English>M240B Assistant</English>
-        </Key>
-        <Key ID="STR_cav_troops_charlie_weapons_m240b_machinegunner">
-            <English>M240B Gunner</English>
         </Key>
 
         <Key ID="STR_cav_troops_charlie_weapons_maaws_fireteamleader">
             <English>MAAWS Team Lead</English>
         </Key>
-        <Key ID="STR_cav_troops_charlie_weapons_maaws_grenadier">
-            <English>MAAWS Grenadier</English>
-        </Key>
-        <Key ID="STR_cav_troops_charlie_weapons_maaws_automaticrifleman">
-            <English>MAAWS Automatic Rifleman</English>
-        </Key>
         <Key ID="STR_cav_troops_charlie_weapons_maaws_maawsgunner">
             <English>MAAWS Gunner</English>
+        </Key>
+        <Key ID="STR_cav_troops_charlie_weapons_maaws_maawsassistant">
+            <English>MAAWS Ammo Handler</English>
         </Key>
 
         <Key ID="STR_cav_troops_charlie_weapons_mortar_fireteamleader">
@@ -56,28 +50,29 @@
         </Key>
         
         <Key ID="STR_cav_troops_charlie_weapons_alpha_fireteamleader">
-            <English>Alpha Team Lead</English>
+            <English>Bravo Fire Team Lead</English>
         </Key>
-        <Key ID="STR_cav_troops_charlie_weapons_alpha_grenadier">
-            <English>Alpha Grenadier</English>
+        <Key ID="STR_cav_troops_charlie_weapons_alpha_trooper_2">
+            <English>Alpha Gunner</English>
         </Key>
-        <Key ID="STR_cav_troops_charlie_weapons_alpha_machinegunnerammobearer">
+        <Key ID="STR_cav_troops_charlie_weapons_alpha_trooper_3">
             <English>Alpha Assistant</English>
         </Key>
-        <Key ID="STR_cav_troops_charlie_weapons_alpha_machinegunner">
+        <Key ID="STR_cav_troops_charlie_weapons_alpha_trooper_4">
             <English>Alpha Gunner</English>
         </Key>
 
+
         <Key ID="STR_cav_troops_charlie_weapons_bravo_fireteamleader">
-            <English>Bravo Team Lead</English>
+            <English>Bravo Fire Team Lead</English>
         </Key>
-        <Key ID="STR_cav_troops_charlie_weapons_bravo_grenadier">
-            <English>Bravo Grenadier</English>
+        <Key ID="STR_cav_troops_charlie_weapons_bravo_trooper_2">
+            <English>Bravo Gunner</English>
         </Key>
-        <Key ID="STR_cav_troops_charlie_weapons_bravo_automaticrifleman">
-            <English>Bravo Automatic Rifleman</English>
+        <Key ID="STR_cav_troops_charlie_weapons_bravo_trooper_3">
+            <English>Bravo Assistant</English>
         </Key>
-        <Key ID="STR_cav_troops_charlie_weapons_bravo_MAAWSgunner">
+        <Key ID="STR_cav_troops_charlie_weapons_bravo_trooper_4">
             <English>Bravo Gunner</English>
         </Key>
 
