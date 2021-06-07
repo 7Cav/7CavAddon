@@ -1,4 +1,16 @@
 <Project name="cav">
     <Package name="supplies">
+        <Key ID="STR_cav_supplies_box_ammo_mix">
+            <English>[7CAV] Ammobox (MIX)</English>
+        </Key>
+        <Key ID="STR_cav_supplies_box_ammo_stanag">
+            <English>[7CAV] Ammobox (STANAG)</English>
+        </Key>
+        <Key ID="STR_cav_supplies_box_ammo_box">
+            <English>[7CAV] Ammobox (BOX)</English>
+        </Key>
+        <Key ID="STR_cav_supplies_box_ammo_box7">
+            <English>[7CAV] Ammobox (BOX - 7.62x51)</English>
+        </Key>
     </Package>
 </Project>
