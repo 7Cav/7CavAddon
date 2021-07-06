@@ -14,3 +14,5 @@ release/*
 Keys/*
 keys/*
 .hemtt/local
+temp/*
+tmp/*
