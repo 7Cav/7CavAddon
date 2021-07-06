@@ -1,7 +1,0 @@
-<Project name="Cav">
-    <Package name="Alpha_Vehicles">
-        <Key ID="STR_Cav_Alpha_Vehicles_Cat_Alpha_Company_Veh">
-            <English>Alpha Co. - Vehicles</English>
-        </Key>
-    </Package>
-</Project>
