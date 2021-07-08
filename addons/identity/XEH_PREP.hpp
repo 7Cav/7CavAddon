@@ -1,0 +1,3 @@
+
+PREP(allowApplication);
+PREP(getTexture);
