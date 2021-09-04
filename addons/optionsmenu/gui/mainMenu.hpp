@@ -13,8 +13,8 @@ class RscDisplayMain : RscStandardDisplay {
                 class Campaigns;
                 class joinTac2 : Campaigns {
                     idc = -1;
-                    text = "Join Tactical Realism 2";
-                    tooltip = "Join our public Tactical Realism 2 server!";
+                    text = "Join Tactical Realism";
+                    tooltip = "Join our public Tactical Realism server!";
                     y = "(3 *     1.5) *     (pixelH * pixelGrid * 2) +     (pixelH)";
                     action = "";
                     onbuttonclick = "connectToServer ['45.59.151.34', 2302, ''];";
