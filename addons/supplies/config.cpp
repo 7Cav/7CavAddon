@@ -4,6 +4,7 @@ class CfgPatches {
     class ADDON {
         name = COMPONENT_NAME;
         units[] = {
+            "Cav_Wps_Heavy_F"
         };
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
