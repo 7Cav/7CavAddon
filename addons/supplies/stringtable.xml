@@ -1,0 +1,7 @@
+<Project name="cav">
+    <Package name="supplies">
+        <Key ID="STR_cav_supplies_wps_heavy">
+            <English>[7CAV] Heavy Weapons Crate</English>
+        </Key>
+    </Package>
+</Project>

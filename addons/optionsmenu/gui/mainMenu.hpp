@@ -24,17 +24,17 @@ class RscDisplayMain : RscStandardDisplay {
                     text = "Join Training Server 1";
                     tooltip = "Join the member only training server!";
                     y = "(4 *     1.5) *     (pixelH * pixelGrid * 2) +     (pixelH)";
-                    onbuttonclick = "connectToServer ['51.222.10.77', 2302, ''];";
+                    onbuttonclick = "connectToServer ['45.59.151.34', 2402, ''];";
                 };
                 class joinTS2 : joinTS1 {
                     text = "Join Training Server 2";
                     y = "(5 *     1.5) *     (pixelH * pixelGrid * 2) +     (pixelH)";
-                    onbuttonclick = "connectToServer ['51.222.10.77', 2402, ''];";
+                    onbuttonclick = "connectToServer ['45.59.151.34', 2502, ''];";
                 };
                 class joinTS3 : joinTS1 {
                     text = "Join Training Server 3";
                     y = "(6 *     1.5) *     (pixelH * pixelGrid * 2) +     (pixelH)";
-                    onbuttonclick = "connectToServer ['51.222.10.77', 2502, ''];";
+                    onbuttonclick = "connectToServer ['45.59.151.34', 2602, ''];";
                 };
                 class joinTS4 : joinTS1 {
                     text = "Join Training Server 4";
