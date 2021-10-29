@@ -39,7 +39,10 @@
             <English>[7CAV] Bravo Co. 1st platoon</English>
         </Key>
         <Key ID="str_cav_insignia_bravo_1_1">
-            <English>[7CAV] Bravo Co. 1st platoon - Alpha Squad</English>
+            <English>[7CAV] Bravo Co. 1st platoon - Saber</English>
+        </Key>
+        <Key ID="str_cav_insignia_bravo_1_1b">
+            <English>[7CAV] Bravo Co. 1st platoon - Saber 2</English>
         </Key>
         <Key ID="str_cav_insignia_bravo_1_2">
             <English>[7CAV] Bravo Co. 1st platoon - Bravo Squad</English>
