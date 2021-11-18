@@ -132,7 +132,7 @@ class ACE_Medical_Treatment_Actions {
         category = "advanced";
         allowedSelections[] = {"LeftArm", "RightArm", "LeftLeg", "RightLeg"};
         items[] = {"kat_IV_16"};
-        condition = QUOTE(!(_patient getVariable [ARR_2(QQGVAR(IVplaced), false)]) && FUNC(checkIV));
+        condition = QUOTE(!(_patient getVariable [ARR_2(QQGVAR(IVplaced), false)]) && call FUNC(checkIV));
         treatmentTime = QGVAR(IVestablish);
         callbackSuccess = QFUNC(applyIV);
         litter[] = {};
