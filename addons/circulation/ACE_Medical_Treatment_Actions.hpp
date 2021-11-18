@@ -10,7 +10,7 @@ class ACE_Medical_Treatment_Actions {
     class BloodIV: BasicBandage {
         allowedSelections[] = {"Body", "LeftArm", "RightArm", "LeftLeg", "RightLeg"};
         medicRequired = QUOTE(ace_medical_medicIV);
-        condition = QUOTE(_patient getVariable [ARR_2(QQGVAR(IVplaced), true)]) && QFUNC(removeIV);
+        condition = QUOTE(_patient getVariable [ARR_2(QQGVAR(IVplaced), true)] && FUNC(removeIV));
     };
     class Painkillers: Morphine {
         displayName = CSTRING(Inject_Box_Painkillers);
@@ -35,7 +35,7 @@ class ACE_Medical_Treatment_Actions {
         medicRequired = 1;
         treatmentTime = QGVAR(carboApp);
         items[] = {"kat_carbonate"};
-        condition = QUOTE(!([_patient] call ace_common_fnc_isAwake)) && QGVAR(carbonateActive);
+        condition = QUOTE(!([_patient] call ace_common_fnc_isAwake) && GVAR(carbonateActive));
         patientStateCondition = 0;
         callbackSuccess = QUOTE([ARR_3(_player, _patient, 'Carbonate')] call FUNC(treatmentAdvanced_Carbonate));
         callbackFailure = "";
@@ -68,7 +68,7 @@ class ACE_Medical_Treatment_Actions {
         medicRequired = 1;
         treatmentTime = QGVAR(IVtime);
         items[] = {"kat_TXA"};
-        condition = QUOTE(_patient getVariable [ARR_2(QQGVAR(IVplaced), true)]) && QGVAR(txaActive) && QFUNC(removeIV);
+        condition = QUOTE(_patient getVariable [ARR_2(QQGVAR(IVplaced), true)] && GVAR(txaActive) && call FUNC(removeIV));
         patientStateCondition = 0;
         callbackSuccess = QUOTE([ARR_2(_player, _patient)] call FUNC(treatmentAdvanced_TXA));
     };
@@ -79,7 +79,7 @@ class ACE_Medical_Treatment_Actions {
         medicRequired = 1;
         treatmentTime = QGVAR(IVtime);
         items[] = {"kat_norepinephrine"};
-        condition = QUOTE(_patient getVariable [ARR_2(QQGVAR(IVplaced), true)]) && QFUNC(removeIV);
+        condition = QUOTE(_patient getVariable [ARR_2(QQGVAR(IVplaced), true)] && call FUNC(removeIV));
         patientStateCondition = 0;
         callbackSuccess = "ace_medical_treatment_fnc_medication";
     };
@@ -90,7 +90,7 @@ class ACE_Medical_Treatment_Actions {
         medicRequired = 1;
         treatmentTime = QGVAR(IVtime);
         items[] = {"kat_phenylephrine"};
-        condition = QUOTE(_patient getVariable [ARR_2(QQGVAR(IVplaced), true)]) && QFUNC(removeIV);
+        condition = QUOTE(_patient getVariable [ARR_2(QQGVAR(IVplaced), true)] && call FUNC(removeIV));
         patientStateCondition = 0;
         callbackSuccess = "ace_medical_treatment_fnc_medication";
     };
@@ -101,7 +101,7 @@ class ACE_Medical_Treatment_Actions {
         medicRequired = 1;
         treatmentTime = QGVAR(IVtime);
         items[] = {"kat_nitroglycerin"};
-        condition = QUOTE(_patient getVariable [ARR_2(QQGVAR(IVplaced), true)]) && QFUNC(removeIV);
+        condition = QUOTE(_patient getVariable [ARR_2(QQGVAR(IVplaced), true)] && call FUNC(removeIV));
         patientStateCondition = 0;
         callbackSuccess = "ace_medical_treatment_fnc_medication";
     };
@@ -132,7 +132,7 @@ class ACE_Medical_Treatment_Actions {
         category = "advanced";
         allowedSelections[] = {"LeftArm", "RightArm", "LeftLeg", "RightLeg"};
         items[] = {"kat_IV_16"};
-        condition = QUOTE(!(_patient getVariable [ARR_2(QQGVAR(IVplaced), false)])) && QFUNC(checkIV);
+        condition = QUOTE(!(_patient getVariable [ARR_2(QQGVAR(IVplaced), false)]) && FUNC(checkIV));
         treatmentTime = QGVAR(IVestablish);
         callbackSuccess = QFUNC(applyIV);
         litter[] = {};
@@ -198,7 +198,7 @@ class ACE_Medical_Treatment_Actions {
         displayName = CSTRING(X_Action_Use);
         displayNameProgress = CSTRING(X_Action_Progress);
         items[] = {"kat_X_AED"};
-        condition = QUOTE(!(_patient getVariable [ARR_2(QQGVAR(X), false)])) && QUOTE(!(_patient getVariable [ARR_2(QQGVAR(vehicleTrue), false)]));
+        condition = QUOTE(!(_patient getVariable [ARR_2(QQGVAR(X), false)]) && !(_patient getVariable [ARR_2(QQGVAR(vehicleTrue), false)]));
         consumeItem = 1;
         medicRequired = QGVAR(medLvl_AED_X);
         callbackProgress = "";
@@ -212,7 +212,7 @@ class ACE_Medical_Treatment_Actions {
         displayName = CSTRING(X_Action_Remove);
         displayNameProgress = CSTRING(X_Remove_Action_Progress);
         items[] = {};
-        condition = QUOTE(_patient getVariable [ARR_2(QQGVAR(X), true)]) && QUOTE(!(_patient getVariable [ARR_2(QQGVAR(vehicleTrue), false)]));
+        condition = QUOTE(_patient getVariable [ARR_2(QQGVAR(X), true)] && !(_patient getVariable [ARR_2(QQGVAR(vehicleTrue), false)]));
         treatmentTime = 5;
         medicRequired = 0;
         callbackProgress = "";
@@ -236,7 +236,7 @@ class ACE_Medical_Treatment_Actions {
         displayName = CSTRING(AED_Vehicle_Action_Use);
         displayNameProgress = CSTRING(X_Action_Progress);
         items[] = {};
-        condition = QUOTE(!(_patient getVariable [ARR_2(QQGVAR(X), false)])) && QFUNC(vehicleCheck);
+        condition = QUOTE(!(_patient getVariable [ARR_2(QQGVAR(X), false)]) && call FUNC(vehicleCheck));
         consumeItem = 1;
         medicRequired = QGVAR(medLvl_AED_X);
         callbackProgress = "";
@@ -250,7 +250,7 @@ class ACE_Medical_Treatment_Actions {
         displayName = CSTRING(Vehicle_Action_Remove);
         displayNameProgress = CSTRING(X_Remove_Action_Progress);
         items[] = {};
-        condition = QUOTE(_patient getVariable [ARR_2(QQGVAR(vehicleTrue), true)]) && QUOTE(_patient getVariable [ARR_2(QQGVAR(X), true)]);
+        condition = QUOTE(_patient getVariable [ARR_2(QQGVAR(vehicleTrue), true)] && _patient getVariable [ARR_2(QQGVAR(X), true)]);
         treatmentTime = 5;
         medicRequired = 0;
         callbackProgress = "";
