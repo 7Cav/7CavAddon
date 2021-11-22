@@ -33,4 +33,40 @@ class CfgVehicles {
             MACRO_ADDWEAPON(ace_compat_rhs_usf3_tow_carry,1);
         };
     };
+    class Cav_Wps_Mortar82_F : Box_NATO_WpsSpecial_F {
+        _generalMacro = "Cav_Wps_Mortar82_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(wps_mortar82);
+        author = ECSTRING(main,modteam);
+
+        class TransportBackpacks {
+        };
+        class TransportItems {
+        };
+        class TransportMagazines {
+            MACRO_ADDMAGAZINE(ACE_1Rnd_82mm_Mo_HE,22);
+            MACRO_ADDMAGAZINE(ACE_1Rnd_82mm_Mo_Smoke,10);
+            MACRO_ADDMAGAZINE(ACE_1Rnd_82mm_Mo_Illum,8);
+            MACRO_ADDMAGAZINE(ace_compat_rhs_usf3_tow_carry,1);
+        };
+        class TransportWeapons {
+        };
+    };
+    class Cav_Wps_Mortar60_F : Box_NATO_WpsSpecial_F {
+        _generalMacro = "Cav_Wps_Mortar60_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(wps_mortar60);
+        author = ECSTRING(main,modteam);
+
+        class TransportBackpacks {
+        };
+        class TransportItems {
+        };
+        class TransportMagazines {
+        };
+        class TransportWeapons {
+        };
+    };
 };

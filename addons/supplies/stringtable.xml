@@ -3,5 +3,11 @@
         <Key ID="STR_cav_supplies_wps_heavy">
             <English>[7CAV] Heavy Weapons Crate</English>
         </Key>
+        <Key ID="STR_cav_supplies_wps_mortar60">
+            <English>[7CAV] Mortar 60. Crate</English>
+        </Key>
+        <Key ID="STR_cav_supplies_wps_mortar82">
+            <English>[7CAV] Mortar 82. Crate</English>
+        </Key>
     </Package>
 </Project>
