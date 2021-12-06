@@ -49,8 +49,20 @@
             <Turkish>Farklı ekipman adı</Turkish>
             <Italian>Loadoutname diverso</Italian>
         </Key>
-        <Key ID="STR_cav_circulation_MEDICATION_TIME">
-            <English>Application time for all IV Medications</English>
+        <Key ID="STR_cav_circulation_IV_MEDIC">
+            <English>Changes what medical level is required to set IVs/IOs</English>
+            <German>Anderer Loadoutname</German>
+            <Polish>Inny  loadoutname</Polish>
+            <Spanish>Diferente nombre de equipamiento</Spanish>
+            <Chinese>不同配置名稱</Chinese>
+            <Czech>Jiný název vybavení</Czech>
+            <Korean>다른 구성이름</Korean>
+            <French>Nom d'équipement différent</French>
+            <Turkish>Farklı ekipman adı</Turkish>
+            <Italian>Loadoutname diverso</Italian>
+        </Key>]
+        <Key ID="STR_cav_circulation_IV_DROP">
+            <English>Changes the time at which IVs/IOs fall out of a patient</English>
             <German>Anderer Loadoutname</German>
             <Polish>Inny  loadoutname</Polish>
             <Spanish>Diferente nombre de equipamiento</Spanish>
@@ -61,8 +73,8 @@
             <Turkish>Farklı ekipman adı</Turkish>
             <Italian>Loadoutname diverso</Italian>
         </Key>
-        <Key ID="STR_cav_circulation_NALOXONE_TIME">
-            <English>Application time for Naloxone</English>
+        <Key ID="STR_cav_circulation_IV_REUSE">
+            <English>Sets if IV/IO needles are reusable</English>
             <German>Anderer Loadoutname</German>
             <Polish>Inny  loadoutname</Polish>
             <Spanish>Diferente nombre de equipamiento</Spanish>
@@ -73,8 +85,8 @@
             <Turkish>Farklı ekipman adı</Turkish>
             <Italian>Loadoutname diverso</Italian>
         </Key>
-        <Key ID="STR_cav_circulation_CARBONATE_TIME">
-            <English>Application time for Carbonate</English>
+        <Key ID="STR_cav_circulation_PUSH_TIME">
+            <English>Push time for all IV Medications</English>
             <German>Anderer Loadoutname</German>
             <Polish>Inny  loadoutname</Polish>
             <Spanish>Diferente nombre de equipamiento</Spanish>
@@ -98,7 +110,7 @@
             <Italian>Loadoutname diverso</Italian>
         </Key>
         <Key ID="STR_cav_circulation_IO_TIME">
-            <English>Time to establish IVs</English>
+            <English>Time to establish IOs</English>
             <German>Anderer Loadoutname</German>
             <Polish>Inny  loadoutname</Polish>
             <Spanish>Diferente nombre de equipamiento</Spanish>

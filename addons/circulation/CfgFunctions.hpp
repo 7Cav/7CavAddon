@@ -16,6 +16,9 @@ class CfgFunctions {
             class treatment {
                 file = QPATHTOF(functions\fnc_treatment.sqf);
             };
+            class fullHealLocal {
+                file = QPATHTOF(functions\fnc_fullHealLocal.sqf);
+            };
         };
     };
     class overwrite_ace_medical_status {

@@ -21,7 +21,7 @@ params ["_medic", "_patient", "_medication"];
 if (local _patient) then {
     ["treatmentCarbonate", [_medic, _patient, _medication]] call CBA_fnc_localEvent;
 } else {
-    ["treatmentCarbonate", [_medic, _patient, _medication], _patient] call CBA_fnc_patientEvent;
+    ["treatmentCarbonate", [_medic, _patient, _medication], _patient] call CBA_fnc_targetEvent;
 };
 
 true;

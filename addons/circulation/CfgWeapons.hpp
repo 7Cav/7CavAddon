@@ -10,14 +10,22 @@ class CfgWeapons {
             mass = 0;
         };
     };
+    class kat_CarbonateItem: ACE_ItemCore {
+        scope = 1; // no mistake, just a placeholder, cause ACE can't handle magazines. DO NOT USE!
+        author = "Mazinski.H";
+        displayName = CSTRING(Carbonate_Box_Display);
+        class ItemInfo: CBA_MiscItem_ItemInfo {
+            mass = 0;
+        };
+    };
     class kat_AED: ACE_ItemCore {
         scope = 2;
         author = "Katalam";
         displayName = CSTRING(AED_DISPLAYNAME);
         picture = QPATHTOF(ui\defib.paa);
         model = "\A3\Structures_F_EPA\Items\Medical\Defibrillator_F.p3d";
-        descriptionShort = "$STR_cav_circulation_AED_DESCRIPTION";
-        descriptionUse = "$STR_cav_circulation_AED_DESCRIPTION";
+        descriptionShort = "$STR_ACEP_circulation_AED_DESCRIPTION";
+        descriptionUse = "$STR_ACEP_circulation_AED_DESCRIPTION";
         class ItemInfo: CBA_MiscItem_ItemInfo {
             mass = 30;
         };
@@ -51,17 +59,6 @@ class CfgWeapons {
         model = "\A3\Structures_F_EPA\Items\Medical\Painkillers_F.p3d";
         descriptionShort = CSTRING(IO_DescShort);
         descriptionUse = CSTRING(IV_DescUse);
-        class ItemInfo: CBA_MiscItem_ItemInfo {
-            mass = 0.5;
-        }; 
-    };
-    class kat_carbonate: ACE_ItemCore {
-        scope = 2;
-        displayName = CSTRING(Carbonate_Box_Display);
-        picture = QPATHTOF(ui\icon_Carbonate.paa);
-        model = "\A3\Structures_F_EPA\Items\Medical\Painkillers_F.p3d";
-        descriptionShort = CSTRING(Carbonate_DescShort);
-        descriptionUse = CSTRING(Carbonate_DescUse);
         class ItemInfo: CBA_MiscItem_ItemInfo {
             mass = 0.5;
         }; 

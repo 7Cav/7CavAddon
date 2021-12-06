@@ -33,40 +33,29 @@ class ACE_Medical_Treatment_Actions {
         allowedSelections[] = {"Head"};
         allowSelfTreatment = 0;
         medicRequired = 1;
-        treatmentTime = QGVAR(carboApp);
-        items[] = {"kat_carbonate"};
-        condition = QUOTE(!([_patient] call ace_common_fnc_isAwake) && GVAR(carbonateActive));
+        treatmentTime = 5;
+        items[] = {};
+        condition = "[_medic, 'kat_Carbonate'] call ace_common_fnc_hasMagazine || [_patient, 'kat_Carbonate'] call ace_common_fnc_hasMagazine";
         patientStateCondition = 0;
-        callbackSuccess = QUOTE([ARR_3(_player, _patient, 'Carbonate')] call FUNC(treatmentAdvanced_Carbonate));
-        callbackFailure = "";
-        callbackProgress = "";
-        consumeItem = 1;
-        animationPatient = "";
-        animationPatientUnconscious = "";
-        animationPatientUnconsciousExcludeOn[] = {""};
-        animationMedic = "AinvPknlMstpSlayWrflDnon_medicOther";
-        animationMedicProne = "AinvPpneMstpSlayW[wpn]Dnon_medicOther";
-        animationMedicSelf = "AinvPknlMstpSlayW[wpn]Dnon_medic";
-        animationMedicSelfProne = "AinvPpneMstpSlayW[wpn]Dnon_medic";
-        litter[] = {};
+        callbackSuccess = QUOTE([ARR_2(_player, _patient)] call FUNC(treatmentAdvanced_Carbonate));
     };
     class Naloxone: Carbonate {
         displayName = CSTRING(Take_Naloxone);
         allowedSelections[] = {"Head"};
         allowSelfTreatment = 0;
         medicRequired = 1;
-        treatmentTime = QGVAR(naloApp);
+        treatmentTime = 5;
         items[] = {"kat_naloxone"};
         condition = QGVAR(naloxoneActive);
         patientStateCondition = 0;
-        callbackSuccess = QUOTE([ARR_3(_player, _patient, 'Naloxone')] call FUNC(treatmentAdvanced_Naloxone));
+        callbackSuccess = QUOTE([ARR_2(_player, _patient)] call FUNC(treatmentAdvanced_Naloxone));
     };
     class TXA: Carbonate {
         displayName = CSTRING(Take_TXA);
         allowedSelections[] = {"Body", "LeftArm", "RightArm", "LeftLeg", "RightLeg"};
         allowSelfTreatment = 0;
         medicRequired = 1;
-        treatmentTime = QGVAR(IVtime);
+        treatmentTime = QGVAR(PushTime);
         items[] = {"kat_TXA"};
         condition = QUOTE(_patient getVariable [ARR_2(QQGVAR(IVplaced), true)] && GVAR(txaActive) && call FUNC(removeIV));
         patientStateCondition = 0;
@@ -77,7 +66,7 @@ class ACE_Medical_Treatment_Actions {
         allowedSelections[] = {"Body", "LeftArm", "RightArm", "LeftLeg", "RightLeg"};
         allowSelfTreatment = 0;
         medicRequired = 1;
-        treatmentTime = QGVAR(IVtime);
+        treatmentTime = QGVAR(PushTime);
         items[] = {"kat_norepinephrine"};
         condition = QUOTE(_patient getVariable [ARR_2(QQGVAR(IVplaced), true)] && call FUNC(removeIV));
         patientStateCondition = 0;
@@ -88,7 +77,7 @@ class ACE_Medical_Treatment_Actions {
         allowedSelections[] = {"Body", "LeftArm", "RightArm", "LeftLeg", "RightLeg"};
         allowSelfTreatment = 0;
         medicRequired = 1;
-        treatmentTime = QGVAR(IVtime);
+        treatmentTime = QGVAR(PushTime);
         items[] = {"kat_phenylephrine"};
         condition = QUOTE(_patient getVariable [ARR_2(QQGVAR(IVplaced), true)] && call FUNC(removeIV));
         patientStateCondition = 0;
@@ -99,7 +88,7 @@ class ACE_Medical_Treatment_Actions {
         allowedSelections[] = {"Body", "LeftArm", "RightArm", "LeftLeg", "RightLeg"};
         allowSelfTreatment = 0;
         medicRequired = 1;
-        treatmentTime = QGVAR(IVtime);
+        treatmentTime = QGVAR(PushTime);
         items[] = {"kat_nitroglycerin"};
         condition = QUOTE(_patient getVariable [ARR_2(QQGVAR(IVplaced), true)] && call FUNC(removeIV));
         patientStateCondition = 0;
@@ -128,7 +117,7 @@ class ACE_Medical_Treatment_Actions {
     class ApplyIV: ApplyTourniquet {
         displayName = CSTRING(Apply_IV_16);
         displayNameProgress = CSTRING(Applying_IV);
-        medicRequired = QUOTE(ace_medical_medicIV);
+        medicRequired = QGVAR(IVmedic);
         category = "advanced";
         allowedSelections[] = {"LeftArm", "RightArm", "LeftLeg", "RightLeg"};
         items[] = {"kat_IV_16"};
@@ -140,7 +129,7 @@ class ACE_Medical_Treatment_Actions {
     class ApplyIO: ApplyIV {
         displayName = CSTRING(Apply_IO_45);
         displayNameProgress = CSTRING(Applying_IV);
-        medicRequired = QUOTE(ace_medical_medicIV);
+        medicRequired = QGVAR(IVmedic);
         category = "advanced";
         allowedSelections[] = {"Body"};
         items[] = {"kat_IO_FAST"};

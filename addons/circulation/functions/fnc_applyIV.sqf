@@ -48,6 +48,11 @@ if (_usedItem == "kat_IV_16") then {
 };
 
 [{
+    private _patient = _this select 0;
+    [_patient, _patient] call cav_circulation_fnc_retrieveIV;
+}, [_patient], GVAR(IVdrop)] call CBA_fnc_waitAndExecute;
+
+[{
     params ["_args", "_idPFH"];
     _args params ["_patient", "_bodyPart"];
 

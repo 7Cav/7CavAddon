@@ -48,29 +48,29 @@ PREP_RECOMPILE_END;
 ] call CBA_Settings_fnc_init;
 
 [
-    QGVAR(IVtime),
-    "SLIDER",
-    [LLSTRING(NALOXONE_TIME)],
+    QGVAR(IVreuse),
+    "CHECKBOX",
+    [LLSTRING(IV_REUSE)],
     "ACE Pharmacy - Medications",
-    [0.1, 10, 5, 1],
+    [false],
     true
 ] call CBA_Settings_fnc_init;
 
 [
-    QGVAR(carboApp),
-    "SLIDER",
-    [LLSTRING(CARBONATE_TIME)],
+    QGVAR(IVmedic),
+    "LIST",
+    [LLSTRING(IV_MEDIC)],
     "ACE Pharmacy - Medications",
-    [0.1, 10, 5, 1],
+    [[0, 1, 2], ["Anyone", "Medics", "Doctors"], 2],
     true
 ] call CBA_Settings_fnc_init;
 
 [
-    QGVAR(IVtime),
+    QGVAR(IVdrop),
     "SLIDER",
-    [LLSTRING(MEDICATION_TIME)],
+    [LLSTRING(IV_DROP)],
     "ACE Pharmacy - Medications",
-    [0.1, 10, 5, 1],
+    [60, 1200, 600, 0],
     true
 ] call CBA_Settings_fnc_init;
 
@@ -87,6 +87,15 @@ PREP_RECOMPILE_END;
     QGVAR(IOestablish),
     "SLIDER",
     [LLSTRING(IO_TIME)],
+    "ACE Pharmacy - Medications",
+    [0.1, 10, 7, 1],
+    true
+] call CBA_Settings_fnc_init;
+
+[
+    QGVAR(PushTime),
+    "SLIDER",
+    [LLSTRING(PUSH_TIME)],
     "ACE Pharmacy - Medications",
     [0.1, 10, 7, 1],
     true

@@ -23,7 +23,7 @@ playSound3D [QPATHTOF_SOUND(sounds\slap.ogg), _patient, false, getPosASL _patien
 if (local _patient) then {
     ["treatmentReorientation", [_medic, _patient]] call CBA_fnc_localEvent;
 } else {
-    ["treatmentReorientation", [_medic, _patient], _patient] call CBA_fnc_patientEvent;
+    ["treatmentReorientation", [_medic, _patient], _patient] call CBA_fnc_targetEvent;
 };
 
 true;
