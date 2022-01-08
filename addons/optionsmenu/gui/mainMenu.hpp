@@ -36,11 +36,6 @@ class RscDisplayMain : RscStandardDisplay {
                     y = "(6 *     1.5) *     (pixelH * pixelGrid * 2) +     (pixelH)";
                     onbuttonclick = "connectToServer ['45.59.151.34', 2602, ''];";
                 };
-                class joinTS4 : joinTS1 {
-                    text = "Join Training Server 4";
-                    y = "(7 *     1.5) *     (pixelH * pixelGrid * 2) +     (pixelH)";
-                    onbuttonclick = "connectToServer ['51.222.10.77', 2602, ''];";
-                };
             };
         };
         
