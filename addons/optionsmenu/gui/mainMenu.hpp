@@ -17,24 +17,24 @@ class RscDisplayMain : RscStandardDisplay {
                     tooltip = "Join our public Tactical Realism server!";
                     y = "(3 *     1.5) *     (pixelH * pixelGrid * 2) +     (pixelH)";
                     action = "";
-                    onbuttonclick = "connectToServer ['75.6.53.6', 2302, ''];";
+                    onbuttonclick = "connectToServer ['75.6.53.62', 2302, ''];";
                     Onload = "";
                 };
                 class joinTS1 : joinTac2 {
                     text = "Join Training Server 1";
                     tooltip = "Join the member only training server!";
                     y = "(4 *     1.5) *     (pixelH * pixelGrid * 2) +     (pixelH)";
-                    onbuttonclick = "connectToServer ['75.6.53.6', 2402, ''];";
+                    onbuttonclick = "connectToServer ['75.6.53.62', 2402, ''];";
                 };
                 class joinTS2 : joinTS1 {
                     text = "Join Training Server 2";
                     y = "(5 *     1.5) *     (pixelH * pixelGrid * 2) +     (pixelH)";
-                    onbuttonclick = "connectToServer ['75.6.53.6', 2502, ''];";
+                    onbuttonclick = "connectToServer ['75.6.53.62', 2502, ''];";
                 };
                 class joinTS3 : joinTS1 {
                     text = "Join Training Server 3";
                     y = "(6 *     1.5) *     (pixelH * pixelGrid * 2) +     (pixelH)";
-                    onbuttonclick = "connectToServer ['75.6.53.6', 2602, ''];";
+                    onbuttonclick = "connectToServer ['75.6.53.62', 2602, ''];";
                 };
             };
         };
