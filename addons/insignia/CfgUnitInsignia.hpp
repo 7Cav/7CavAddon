@@ -74,4 +74,6 @@ class CfgUnitInsignia {
     MACRO_UNITINSIGNIA(specialized_followme);
     MACRO_UNITINSIGNIA(Specialized_Medic0);
     MACRO_UNITINSIGNIA(Specialized_Medic1);
+
+    MACRO_UNITINSIGNIA(Specialized_S3);
 };

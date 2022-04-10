@@ -158,5 +158,10 @@
             <English>[7CAV] Medic (Green)</English>
         </Key>
 
+        <Key ID="str_cav_insignia_specialized_s3">
+            <English>[7CAV] S3</English>
+        </Key>
+
+
     </Package>
 </Project>
