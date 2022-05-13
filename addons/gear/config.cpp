@@ -3,17 +3,22 @@
 class CfgPatches {
     class ADDON {
         name = COMPONENT_NAME;
-        units[] = {};
+        units[] = {
+            "Cav_B_RRD_Parade"
+        };
         weapons[] = {
             "Cav_Beret_Mar_F",
             "Cav_Beret_Blk_F",
             "Cav_JMCap_Blk_F",
-            "Cav_RngrCap_Blk_F"
+            "Cav_RngrCap_Blk_F",
+			"Cav_B_RRD_Parade_Uniform",
+			"Cav_Stetson"
         };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "cav_main",
-            "cav_common"
+            "cav_common",
+			"A3_Characters_F_Aow"
         };
         author = ECSTRING(main,modteam);
         authors[] = {"Brostrom.A (Evul)", "Richards.D"};
@@ -23,3 +28,4 @@ class CfgPatches {
 };
 
 #include "CfgWeapons.hpp"
+#include "CfgVehicles.hpp"
