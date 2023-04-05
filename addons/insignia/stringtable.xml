@@ -151,10 +151,10 @@
         <Key ID="str_cav_insignia_specialized_followme">
             <English>[7CAV] Follow Me</English>
         </Key>
-        <Key ID="str_cav_insignia_specialized_followme">
+        <Key ID="str_cav_insignia_specialized_medic0">
             <English>[7CAV] Medic</English>
         </Key>
-        <Key ID="str_cav_insignia_specialized_followme">
+        <Key ID="str_cav_insignia_specialized_medic1">
             <English>[7CAV] Medic (Green)</English>
         </Key>
 
