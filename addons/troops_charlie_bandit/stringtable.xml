@@ -1,0 +1,53 @@
+<Project name="Cav">
+    <Package name="troops_charlie_bandit">
+
+        <Key ID="STR_Cav_Charlie_troops_charlie_bandit_C_PlatoonSergeant_Bandit_5">
+            <English>Platoon Sergeant (Bandit-5)</English>
+        </Key>
+        <Key ID="STR_Cav_Charlie_troops_charlie_bandit_C_PlatoonLeader_Bandit_6">
+            <English>Platoon Leader (Bandit-6)</English>
+        </Key>
+        <Key ID="STR_Cav_Charlie_troops_charlie_bandit_C_PlatoonMedic_Bandit_7">
+            <English>Platoon Medic (Bandit-7)</English>
+        </Key>
+
+         <Key ID="STR_Cav_Charlie_troops_charlie_bandit_C_SquadLeader_Bandit_1">
+            <English>Squad Leader (Bandit-1)</English>
+        </Key>
+         <Key ID="STR_Cav_Charlie_troops_charlie_bandit_C_SquadLeader_Bandit_2">
+            <English>Squad Leader (Bandit-2)</English>
+        </Key>
+         <Key ID="STR_Cav_Charlie_troops_charlie_bandit_C_SquadLeader_Bandit_3">
+            <English>Squad Leader (Bandit-3)</English>
+        </Key>
+         <Key ID="STR_Cav_Charlie_troops_charlie_bandit_C_SquadLeader_Bandit_4">
+            <English>Squad Leader (Bandit-4)</English>
+        </Key>
+
+
+
+        <!-- SQUADS -->
+        <Key ID="STR_Cav_Charlie_troops_charlie_bandit_C_Squad_Bandit_1">
+            <English>Squad Bandit-1</English>
+        </Key>
+        <Key ID="STR_Cav_Charlie_troops_charlie_bandit_C_Squad_Bandit_2">
+            <English>Squad Bandit-2</English>
+        </Key>
+        <Key ID="STR_Cav_Charlie_troops_charlie_bandit_C_Squad_Bandit_3">
+            <English>Squad Bandit-3</English>
+        </Key>
+        <Key ID="STR_Cav_Charlie_troops_charlie_bandit_C_Squad_Bandit_4">
+            <English>Squad Bandit-4</English>
+        </Key>
+        
+        <Key ID="STR_Cav_Charlie_troops_charlie_bandit_C_Squad_Bandit_5">
+            <English>HQ Bandit-5</English>
+        </Key>
+        <Key ID="STR_Cav_Charlie_troops_charlie_bandit_C_Squad_Bandit_6">
+            <English>HQ Bandit-6</English>
+        </Key>
+        <Key ID="STR_Cav_Charlie_troops_charlie_bandit_C_Squad_Bandit_7">
+            <English>HQ Bandit-7</English>
+        </Key>
+    </Package>
+</Project>

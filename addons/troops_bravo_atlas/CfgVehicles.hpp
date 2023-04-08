@@ -1,6 +1,6 @@
 class CfgVehicles {
-    class Cav_B_base_F;
-    class Cav_B_Bravo_Atlas_base_F : Cav_B_base_F {
+    class Cav_B_Soldier_base_F;
+    class Cav_B_Bravo_Atlas_base_F : Cav_B_Soldier_base_F {
         _generalMacro = "Cav_B_Bravo_Atlas_base_F";
         scope = 1;
         scopeCurator = 0;

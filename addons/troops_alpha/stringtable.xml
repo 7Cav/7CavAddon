@@ -1,0 +1,68 @@
+<Project name="Cav">
+    <Package name="troops_alpha">
+        <Key ID="STR_Cav_troops_alpha_Cat_Alpha_Company_Inf">
+            <English>Alpha Co. - Infantry</English>
+        </Key>
+        
+       <Key ID="STR_Cav_troops_alpha_A_AirController">
+            <English>Air Controller</English>
+        </Key>
+       <Key ID="STR_Cav_troops_alpha_A_Officer">
+            <English>Officer</English>
+        </Key>
+       <Key ID="STR_Cav_troops_alpha_A_JFO">
+            <English>Joint Fires Observer</English>
+        </Key>
+
+
+        <Key ID="STR_Cav_troops_alpha_A_Helicopter_Tra_Pilot">
+            <English>Helicopter Pilot</English>
+        </Key>
+        <Key ID="STR_Cav_troops_alpha_A_Helicopter_Tra_coPilot">
+            <English>Helicopter Co-Pilot</English>
+        </Key>
+        <Key ID="STR_Cav_troops_alpha_A_Helicopter_Tra_CrewChief">
+            <English>Helicopter Crew Chief</English>
+        </Key>
+        <Key ID="STR_Cav_troops_alpha_A_Helicopter_Tra_DoorGunner">
+            <English>Helicopter Door Gunner</English>
+        </Key>
+
+        <Key ID="STR_Cav_troops_alpha_A_Helicopter_Att_Pilot">
+            <English>Attack Helicopter Pilot</English>
+        </Key>
+        <Key ID="STR_Cav_troops_alpha_A_Helicopter_Att_coPilot">
+            <English>Attack Helicopter Co-Pilot</English>
+        </Key>
+
+        <Key ID="STR_Cav_troops_alpha_A_Plane_Fighter_Pilot">
+            <English>Fighter Pilot</English>
+        </Key>
+
+        <Key ID="STR_Cav_troops_alpha_A_Plane_Transport_Pilot">
+            <English>Fixed Wing Pilot</English>
+        </Key>
+        <Key ID="STR_Cav_troops_alpha_A_Plane_Transport_coPilot">
+            <English>Fixed Wing Co-Pilot</English>
+        </Key>
+
+        <!-- SQUADS -->
+        <Key ID="STR_Cav_troops_alpha_A_Team_Buffalo">
+            <English>Team Buffalo</English>
+        </Key>
+        <Key ID="STR_Cav_troops_alpha_A_Team_Raider">
+            <English>Team Raider</English>
+        </Key>
+        <Key ID="STR_Cav_troops_alpha_A_Team_Raven">
+            <English>Team Raven</English>
+        </Key>
+        <Key ID="STR_Cav_troops_alpha_A_Team_Hog">
+            <English>Team Hog</English>
+        </Key>
+        <Key ID="STR_Cav_troops_alpha_A_Team_Titan">
+            <English>Team Titan</English>
+        </Key>
+
+
+    </Package>
+</Project>

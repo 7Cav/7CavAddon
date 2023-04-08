@@ -1,6 +1,6 @@
 class CfgVehicles {
-    class Cav_B_base_F;
-    class Cav_B_Charlie_Weapons_base_F : Cav_B_base_F {
+    class Cav_B_Charlie_Weap_base_F;
+    class Cav_B_Charlie_Weapons_base_F : Cav_B_Charlie_Weap_base_F {
         _generalMacro = "Cav_B_Charlie_Weapons_base_F";
         scope = 1;
         scopeCurator = 0;
@@ -45,6 +45,8 @@ class CfgVehicles {
             "rhsusf_ANPVS_14"
         };
     };
+
+
     class Cav_B_C_Weapons_SquadLeader_F : Cav_B_Charlie_Weapons_base_F {
         _generalMacro = "Cav_B_C_Weapons_SquadLeader_F";
         scope = 2;
@@ -54,6 +56,18 @@ class CfgVehicles {
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_Rifleman_F.jpg);
 
         icon = "iconManLeader";
+    };
+
+
+    class Cav_B_C_Weapons_Trooper_F : Cav_B_Charlie_Weapons_base_F {
+        _generalMacro = "Cav_B_C_Weapons_M240B_Machinegunner_F";
+        scope = 2;
+        scopeCurator = 0;
+        displayName = CSTRING(m240b_machinegunner);
+        author = ECSTRING(main,modteam);
+        //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_Rifleman_F.jpg);
+
+        icon = "iconManMG";
     };
 
     class Cav_B_C_Weapons_M240B_FireTeamLeader_F : Cav_B_Charlie_Weapons_base_F {
@@ -181,7 +195,7 @@ class CfgVehicles {
         author = ECSTRING(main,modteam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_Rifleman_F.jpg);
     };
-    class Cav_B_C_Weapons_Alpha_Trooper_2_F : Cav_B_C_Weapons_M240B_Machinegunner_F {
+    class Cav_B_C_Weapons_Alpha_Trooper_2_F : Cav_B_C_Weapons_Trooper_F {
         _generalMacro = "Cav_B_C_Weapons_Alpha_Trooper_1_F";
         scope = 1;
         scopeCurator = 0;
@@ -189,7 +203,7 @@ class CfgVehicles {
         author = ECSTRING(main,modteam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_Rifleman_F.jpg);
     };
-    class Cav_B_C_Weapons_Alpha_Trooper_3_F : Cav_B_C_Weapons_M240B_Machinegunner_F {
+    class Cav_B_C_Weapons_Alpha_Trooper_3_F : Cav_B_C_Weapons_Trooper_F {
         _generalMacro = "Cav_B_C_Weapons_Alpha_Trooper_1_F";
         scope = 1;
         scopeCurator = 0;
@@ -197,7 +211,7 @@ class CfgVehicles {
         author = ECSTRING(main,modteam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_Rifleman_F.jpg);
     };
-    class Cav_B_C_Weapons_Alpha_Trooper_4_F : Cav_B_C_Weapons_M240B_Machinegunner_F {
+    class Cav_B_C_Weapons_Alpha_Trooper_4_F : Cav_B_C_Weapons_Trooper_F {
         _generalMacro = "Cav_B_C_Weapons_Alpha_Trooper_1_F";
         scope = 1;
         scopeCurator = 0;
@@ -214,7 +228,7 @@ class CfgVehicles {
         author = ECSTRING(main,modteam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_Rifleman_F.jpg);
     };
-    class Cav_B_C_Weapons_Bravo_Trooper_2_F : Cav_B_C_Weapons_M240B_Machinegunner_F {
+    class Cav_B_C_Weapons_Bravo_Trooper_2_F : Cav_B_C_Weapons_Trooper_F {
         _generalMacro = "Cav_B_C_Weapons_Bravo_Trooper_1_F";
         scope = 1;
         scopeCurator = 0;
@@ -222,7 +236,7 @@ class CfgVehicles {
         author = ECSTRING(main,modteam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_Rifleman_F.jpg);
     };
-    class Cav_B_C_Weapons_Bravo_Trooper_3_F : Cav_B_C_Weapons_M240B_Machinegunner_F {
+    class Cav_B_C_Weapons_Bravo_Trooper_3_F : Cav_B_C_Weapons_Trooper_F {
         _generalMacro = "Cav_B_C_Weapons_Bravo_Trooper_1_F";
         scope = 1;
         scopeCurator = 0;
@@ -230,7 +244,7 @@ class CfgVehicles {
         author = ECSTRING(main,modteam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_Rifleman_F.jpg);
     };
-    class Cav_B_C_Weapons_Bravo_Trooper_4_F : Cav_B_C_Weapons_M240B_Machinegunner_F {
+    class Cav_B_C_Weapons_Bravo_Trooper_4_F : Cav_B_C_Weapons_Trooper_F {
         _generalMacro = "Cav_B_C_Weapons_Bravo_Trooper_1_F";
         scope = 1;
         scopeCurator = 0;

@@ -32,6 +32,5 @@ class CfgPatches {
     };
 };
 
-#include "CfgEditorSubcategories.hpp"
 #include "CfgVehicles.hpp"
 #include "CfgGroups.hpp"

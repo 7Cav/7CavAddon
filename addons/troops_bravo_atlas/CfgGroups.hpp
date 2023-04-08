@@ -1,6 +1,6 @@
 class CfgGroups {
     class West {
-        class BLU_USA_7CAV_F {
+        class cav_blu_usa_7cav_f {
             name = ECSTRING(common,faction_display);
             class Cav_Bravo_Atlas_Squads {
                 name = CSTRING(cat_bravo_atlas_squads);
@@ -8,7 +8,7 @@ class CfgGroups {
                 class Cav_B_B_Atlas_Medical_Squad {
                     name = CSTRING(medical_squad);
                     icon = "\A3\ui_f\data\map\markers\nato\b_med.paa";
-                    faction = "BLU_USA_7CAV_F";
+                    faction = "cav_blu_usa_7cav_f";
                     side = 1;
                     class Unit0 {
                         position[] = {0, 0, 0};
@@ -26,7 +26,7 @@ class CfgGroups {
                 class Cav_B_B_Atlas_Medical_3_1_Squad {
                     name = CSTRING(medical_3_1_squad);
                     icon = "\A3\ui_f\data\map\markers\nato\b_med.paa";
-                    faction = "BLU_USA_7CAV_F";
+                    faction = "cav_blu_usa_7cav_f";
                     side = 1;
                     class Unit0 {
                         position[] = {0, 0, 0};
@@ -44,7 +44,7 @@ class CfgGroups {
                 class Cav_B_B_Atlas_Medical_3_2_Squad {
                     name = CSTRING(medical_3_2_squad);
                     icon = "\A3\ui_f\data\map\markers\nato\b_med.paa";
-                    faction = "BLU_USA_7CAV_F";
+                    faction = "cav_blu_usa_7cav_f";
                     side = 1;
                     class Unit0 {
                         position[] = {0, 0, 0};
@@ -63,7 +63,7 @@ class CfgGroups {
                 class Cav_B_B_Atlas_Logistics_Squad {
                     name = CSTRING(logistics_squad);
                     icon = "\A3\ui_f\data\map\markers\nato\b_maint.paa";
-                    faction = "BLU_USA_7CAV_F";
+                    faction = "cav_blu_usa_7cav_f";
                     side = 1;
                     class Unit0 {
                         position[] = {0, 0, 0};
@@ -111,7 +111,7 @@ class CfgGroups {
                 class Cav_B_B_Atlas_Logistics_3_3_Squad {
                     name = CSTRING(logistics_3_3_squad);
                     icon = "\A3\ui_f\data\map\markers\nato\b_maint.paa";
-                    faction = "BLU_USA_7CAV_F";
+                    faction = "cav_blu_usa_7cav_f";
                     side = 1;
                     class Unit0 {
                         position[] = {0, 0, 0};
@@ -159,7 +159,7 @@ class CfgGroups {
                 class Cav_B_B_Atlas_Logistics_3_4_Squad {
                     name = CSTRING(logistics_3_4_squad);
                     icon = "\A3\ui_f\data\map\markers\nato\b_maint.paa";
-                    faction = "BLU_USA_7CAV_F";
+                    faction = "cav_blu_usa_7cav_f";
                     side = 1;
                     class Unit0 {
                         position[] = {0, 0, 0};
@@ -208,7 +208,7 @@ class CfgGroups {
                 class Cav_B_B_Atlas_HQ_3_5_Squad {
                     name = CSTRING(HQ_3_5_Squad);
                     icon = "\A3\ui_f\data\map\markers\nato\b_hq.paa";
-                    faction = "BLU_USA_7CAV_F";
+                    faction = "cav_blu_usa_7cav_f";
                     side = 1;
                     class Unit0 {
                         position[] = {0, 0, 0};
@@ -220,7 +220,7 @@ class CfgGroups {
                 class Cav_B_B_Atlas_HQ_3_6_Squad {
                     name = CSTRING(HQ_3_6_Squad);
                     icon = "\A3\ui_f\data\map\markers\nato\b_hq.paa";
-                    faction = "BLU_USA_7CAV_F";
+                    faction = "cav_blu_usa_7cav_f";
                     side = 1;
 
                     class Unit0 {

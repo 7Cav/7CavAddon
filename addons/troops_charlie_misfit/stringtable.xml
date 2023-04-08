@@ -1,0 +1,53 @@
+<Project name="Cav">
+    <Package name="troops_charlie_units">
+    
+        <Key ID="STR_Cav_Charlie_troops_charlie_units_C_PlatoonSergeant_Misfit_5">
+            <English>Platoon Sergeant (Misfit-5)</English>
+        </Key>
+        <Key ID="STR_Cav_Charlie_troops_charlie_units_C_PlatoonLeader_Misfit_6">
+            <English>Platoon Leader (Misfit-6)</English>
+        </Key>
+        <Key ID="STR_Cav_Charlie_troops_charlie_units_C_PlatoonMedic_Misfit_7">
+            <English>Platoon Medic (Misfit-7)</English>
+        </Key>
+
+         <Key ID="STR_Cav_Charlie_troops_charlie_units_C_SquadLeader_Misfit_1">
+            <English>Squad Leader (Misfit-1)</English>
+        </Key>
+         <Key ID="STR_Cav_Charlie_troops_charlie_units_C_SquadLeader_Misfit_2">
+            <English>Squad Leader (Misfit-2)</English>
+        </Key>
+         <Key ID="STR_Cav_Charlie_troops_charlie_units_C_SquadLeader_Misfit_3">
+            <English>Squad Leader (Misfit-3)</English>
+        </Key>
+         <Key ID="STR_Cav_Charlie_troops_charlie_units_C_SquadLeader_Misfit_4">
+            <English>Squad Leader (Misfit-4)</English>
+        </Key>
+
+
+
+        <!-- SQUADS -->
+        <Key ID="STR_Cav_Charlie_troops_charlie_units_C_Squad_Misfit_1">
+            <English>Squad Misfit-1</English>
+        </Key>
+        <Key ID="STR_Cav_Charlie_troops_charlie_units_C_Squad_Misfit_2">
+            <English>Squad Misfit-2</English>
+        </Key>
+        <Key ID="STR_Cav_Charlie_troops_charlie_units_C_Squad_Misfit_3">
+            <English>Squad Misfit-3</English>
+        </Key>
+        <Key ID="STR_Cav_Charlie_troops_charlie_units_C_Squad_Misfit_4">
+            <English>Squad Misfit-4</English>
+        </Key>
+        
+        <Key ID="STR_Cav_Charlie_troops_charlie_units_C_Squad_Misfit_5">
+            <English>HQ Misfit-5</English>
+        </Key>
+        <Key ID="STR_Cav_Charlie_troops_charlie_units_C_Squad_Misfit_6">
+            <English>HQ Misfit-6</English>
+        </Key>
+        <Key ID="STR_Cav_Charlie_troops_charlie_units_C_Squad_Misfit_7">
+            <English>HQ Misfit-7</English>
+        </Key>
+    </Package>
+</Project>

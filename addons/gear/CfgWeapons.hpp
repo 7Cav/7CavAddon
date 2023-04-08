@@ -120,8 +120,7 @@ class cfgWeapons {
     
     class UniformItem;
     
-    class Cav_B_RRD_Parade_Uniform : ItemCore
-    {
+    class Cav_B_RRD_Parade_Uniform : ItemCore {
         author = "Dunn.W";
         scope = 2;
         scopeCurator = 2;
