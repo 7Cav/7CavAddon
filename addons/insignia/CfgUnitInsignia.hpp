@@ -11,9 +11,9 @@ class CfgUnitInsignia {
     // Alpha first platoon
     MACRO_UNITINSIGNIA(alpha_1);
     MACRO_UNITINSIGNIA(alpha_1_a);
-    //MACRO_UNITINSIGNIA(alpha_1_b);
+    MACRO_UNITINSIGNIA(alpha_1_b);
     MACRO_UNITINSIGNIA(alpha_1_c);
-    //MACRO_UNITINSIGNIA(alpha_1_d);
+    MACRO_UNITINSIGNIA(alpha_1_d);
 
     // Alpha second platoon
     MACRO_UNITINSIGNIA(alpha_2);
@@ -25,10 +25,9 @@ class CfgUnitInsignia {
 
     // Bravo first platoon
     MACRO_UNITINSIGNIA(bravo_1);
-    //MACRO_UNITINSIGNIA(bravo_1_1);
-    MACRO_UNITINSIGNIA(bravo_1_1b);
+    MACRO_UNITINSIGNIA(bravo_1_1);
     //MACRO_UNITINSIGNIA(bravo_1_2);
-    //MACRO_UNITINSIGNIA(bravo_1_3);
+    MACRO_UNITINSIGNIA(bravo_1_3);
     MACRO_UNITINSIGNIA(bravo_1_4);
 
     // Bravo second platoon
