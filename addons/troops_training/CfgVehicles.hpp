@@ -43,7 +43,7 @@ class CfgVehicles {
 
         uniformClass = "rhs_uniform_cu_ocp_1stcav";
     };
-    class Cav_B_Training_DrillInstructor_F : Cav_B_Training_base_F {
+    class Cav_B_Training_Drill_Instructor_F : Cav_B_Training_base_F {
         _generalMacro = "Cav_B_Training_Drill_Instructor_F";
         scope = 1;
         scopeCurator = 0;
@@ -57,4 +57,6 @@ class CfgVehicles {
 
         uniformClass = "rhs_uniform_cu_ocp_1stcav";
     };
+    // Depricated
+    class Cav_B_Training_DrillInstructor_F : Cav_B_Training_Drill_Instructor_F {};
 };
