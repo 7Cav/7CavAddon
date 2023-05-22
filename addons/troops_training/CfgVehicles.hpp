@@ -19,7 +19,7 @@ class CfgVehicles {
     };
     class Cav_B_Training_Cadet_F : Cav_B_Training_base_F {
         _generalMacro = "Cav_B_Training_Cadet_F";
-        scope = 1;
+        scope = 2;
         scopeCurator = 0;
         displayName = CSTRING(Cadet);
         author = ECSTRING(main,modteam);
@@ -31,7 +31,7 @@ class CfgVehicles {
     };
     class Cav_B_Training_Cadre_F : Cav_B_Training_base_F {
         _generalMacro = "Cav_B_Training_Cadre_F";
-        scope = 1;
+        scope = 2;
         scopeCurator = 0;
         displayName = CSTRING(Cadre);
         author = ECSTRING(main,modteam);
@@ -45,7 +45,7 @@ class CfgVehicles {
     };
     class Cav_B_Training_Drill_Instructor_F : Cav_B_Training_base_F {
         _generalMacro = "Cav_B_Training_Drill_Instructor_F";
-        scope = 1;
+        scope = 2;
         scopeCurator = 0;
         displayName = CSTRING(Drill_Instructor);
         author = ECSTRING(main,modteam);
@@ -58,5 +58,5 @@ class CfgVehicles {
         uniformClass = "rhs_uniform_cu_ocp_1stcav";
     };
     // Depricated
-    class Cav_B_Training_DrillInstructor_F : Cav_B_Training_Drill_Instructor_F {};
+    class Cav_B_Training_DrillInstructor_F : Cav_B_Training_Drill_Instructor_F { scope = 1; };
 };
