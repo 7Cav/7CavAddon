@@ -15,13 +15,6 @@ The 7th Cavalry Community Addon is a mod for Arma 3 that adds new units, vehicle
 ## Addons required
 - [CBA](https://github.com/CBATeam/CBA_A3)
 - [RHS: United States Armed Forces](http://www.rhsmods.org/)
-- [F-16 Fighting Falcon](https://steamcommunity.com/workshop/filedetails/?id=366423278)
-- [TF47 Launchers](https://steamcommunity.com/workshop/filedetails/?id=508476583)
-
-## Optional mod support
-_These optional addons enhance the user experience by adding to or changing the core mod, but are not required. These addons are located in the optionals folder._
-
-- [cTab](https://github.com/Riouken/cTab) - _Needs manual activation or version 'b' of CavPack_
 
 ## What does the 7th Cavalry Community Addon provide?
 - Units and groups based on 7th Cavalry Platoon and Company naming and setup.
