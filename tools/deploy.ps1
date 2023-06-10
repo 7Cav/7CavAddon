@@ -4,7 +4,7 @@ cd ..
 
 # Set version
 $tagVersion = git describe --tags --abbrev=0
-Write-Host "Build version $tagVersion"
+Write-Host "Build version $tagVersion" -ForegroundColor yellow
 
 $version = $tagVersion.Split(".")
 $versionMajor = $version[0]
@@ -14,17 +14,14 @@ $versionBuild = 0
 
 sed -e "s/DevBuild/$tagVersion/g" "mod.cpp" | Set-Content "mod.cpp"
 
-Set-Content -Path 'addons/main/script_version.hpp' -Value "#define MAJOR $versionMajor
-#define MINOR $versionMinor
-#define PATCHLVL $versionPatch
-#define BUILD $versionBuild"
+sed -e "s/major = 0/major = $versionMajor/g" ".hemtt/project.toml" |  Set-Content ".hemtt/project.toml"
+sed -e "s/minor = 0/minor = $versionMinor/g" ".hemtt/project.toml" |  Set-Content ".hemtt/project.toml"
+sed -e "s/patch = 0/patch = $versionPatch/g" ".hemtt/project.toml" |  Set-Content ".hemtt/project.toml"
+sed -e "s/build = 0/build = $versionBuild/g" ".hemtt/project.toml" |  Set-Content ".hemtt/project.toml"
 
-# Build release
-# py make.py release ci
-hemtt.exe build --release --force-release --ci 
-hemtt.exe zip
+hemtt.exe release
 
 # Clean up
 Write-Host "Restoring version files..."
-git checkout origin/master addons/main/script_version.hpp
 git checkout origin/master mod.cpp
+git checkout origin/master .hemtt/project.toml
