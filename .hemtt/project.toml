@@ -1,0 +1,24 @@
+name = "7th Cavalry Community Addon"
+prefix = "cav"
+author = "7th Cavalry S3 Mod Team"
+mainprefix = "z"
+
+[files]
+include = [
+    "mod.cpp",
+    "README*.md",  # Translated READMEs get moved to root in a hook (virtual file system)
+    "LICENSE",
+    "logo_cav_ca.paa",
+    "meta.cpp",
+]
+
+[version]
+git_hash = 0
+
+[hemtt.config]
+preset = "Hemtt"
+
+[hemtt.launch]
+workshop = [
+    "450814997", # CBA_A3's Workshop ID
+]

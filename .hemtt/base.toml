@@ -1,9 +1,0 @@
-name = "CavAddon"
-prefix = "cav"
-author = "7th Cavalry Gaming"
-template = "cba"
-mainprefix = "z"
-include = ["./include"]
-files = ["mod.cpp"]
-folder_optionals = true
-sig_version = 3
