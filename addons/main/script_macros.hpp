@@ -4,6 +4,8 @@
 // Default versioning level
 #define DEFAULT_VERSIONING_LEVEL 2
 
+#define DGVAR(varName)    if(isNil "ACE_DEBUG_NAMESPACE") then { ACE_DEBUG_NAMESPACE = []; }; if(!(QUOTE(GVAR(varName)) in ACE_DEBUG_NAMESPACE)) then { PUSH(ACE_DEBUG_NAMESPACE, QUOTE(GVAR(varName))); }; GVAR(varName)
+#define DVAR(varName)     if(isNil "ACE_DEBUG_NAMESPACE") then { ACE_DEBUG_NAMESPACE = []; }; if(!(QUOTE(varName) in ACE_DEBUG_NAMESPACE)) then { PUSH(ACE_DEBUG_NAMESPACE, QUOTE(varName)); }; varName
 #define DFUNC(var1) TRIPLES(ADDON,fnc,var1)
 #define DEFUNC(var1,var2) TRIPLES(DOUBLES(PREFIX,var1),fnc,var2)
 
@@ -17,11 +19,11 @@
 #define SETPVAR_SYS(var1,var2) setVariable [ARR_3(QUOTE(var1),var2,true)]
 
 #undef GETVAR
-#define GETVAR(var1,var2,var3) var1 GETVAR_SYS(var2,var3)
-#define GETMVAR(var1,var2) missionNamespace GETVAR_SYS(var1,var2)
-#define GETUVAR(var1,var2) uiNamespace GETVAR_SYS(var1,var2)
-#define GETPRVAR(var1,var2) profileNamespace GETVAR_SYS(var1,var2)
-#define GETPAVAR(var1,var2) parsingNamespace GETVAR_SYS(var1,var2)
+#define GETVAR(var1,var2,var3) (var1 GETVAR_SYS(var2,var3))
+#define GETMVAR(var1,var2) (missionNamespace GETVAR_SYS(var1,var2))
+#define GETUVAR(var1,var2) (uiNamespace GETVAR_SYS(var1,var2))
+#define GETPRVAR(var1,var2) (profileNamespace GETVAR_SYS(var1,var2))
+#define GETPAVAR(var1,var2) (parsingNamespace GETVAR_SYS(var1,var2))
 
 #undef SETVAR
 #define SETVAR(var1,var2,var3) var1 SETVAR_SYS(var2,var3)
@@ -34,7 +36,7 @@
 #define GETGVAR(var1,var2) GETMVAR(GVAR(var1),var2)
 #define GETEGVAR(var1,var2,var3) GETMVAR(EGVAR(var1,var2),var3)
 
-#define ARR_SELECT(ARRAY,INDEX,DEFAULT) if (count ARRAY > INDEX) then {ARRAY select INDEX} else {DEFAULT}
+#define ARR_SELECT(ARRAY,INDEX,DEFAULT) (if (count ARRAY > INDEX) then {ARRAY select INDEX} else {DEFAULT})
 
 
 #define MACRO_ADDWEAPON(WEAPON,COUNT) class _xx_##WEAPON { \
@@ -77,27 +79,27 @@
     item = ##BARREL; \
 }
 
-#define MULT_OBJ_0(a)
-#define MULT_OBJ_1(a)  a
-#define MULT_OBJ_2(a)  a, a
-#define MULT_OBJ_3(a)  a, a, a
-#define MULT_OBJ_4(a)  a, a, a, a
-#define MULT_OBJ_5(a)  a, a, a, a, a
-#define MULT_OBJ_6(a)  a, a, a, a, a, a
-#define MULT_OBJ_7(a)  a, a, a, a, a, a, a
-#define MULT_OBJ_8(a)  a, a, a, a, a, a, a, a
-#define MULT_OBJ_9(a)  a, a, a, a, a, a, a, a, a
-#define MULT_OBJ_10(a) a, a, a, a, a, a, a, a, a, a
-#define MULT_OBJ_11(a) a, a, a, a, a, a, a, a, a, a, a
-#define MULT_OBJ_12(a) a, a, a, a, a, a, a, a, a, a, a, a
-#define MULT_OBJ_13(a) a, a, a, a, a, a, a, a, a, a, a, a, a
-#define MULT_OBJ_14(a) a, a, a, a, a, a, a, a, a, a, a, a, a, a
-#define MULT_OBJ_15(a) a, a, a, a, a, a, a, a, a, a, a, a, a, a, a
-#define MULT_OBJ_16(a) a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a
-#define MULT_OBJ_17(a) a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a
-#define MULT_OBJ_18(a) a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a
-#define MULT_OBJ_19(a) a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a
-#define MULT_OBJ_20(a) a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a
+#define MULT_OBJ_0(a)  
+#define MULT_OBJ_1(a)  QUOTE(a)
+#define MULT_OBJ_2(a)  MULT_OBJ_1(a), QUOTE(a)
+#define MULT_OBJ_3(a)  MULT_OBJ_2(a), QUOTE(a)
+#define MULT_OBJ_4(a)  MULT_OBJ_3(a), QUOTE(a)
+#define MULT_OBJ_5(a)  MULT_OBJ_4(a), QUOTE(a)
+#define MULT_OBJ_6(a)  MULT_OBJ_5(a), QUOTE(a)
+#define MULT_OBJ_7(a)  MULT_OBJ_6(a), QUOTE(a)
+#define MULT_OBJ_8(a)  MULT_OBJ_7(a), QUOTE(a)
+#define MULT_OBJ_9(a)  MULT_OBJ_8(a), QUOTE(a)
+#define MULT_OBJ_10(a) MULT_OBJ_8(a), QUOTE(a)
+#define MULT_OBJ_11(a) MULT_OBJ_10(a), QUOTE(a)
+#define MULT_OBJ_12(a) MULT_OBJ_11(a), QUOTE(a)
+#define MULT_OBJ_13(a) MULT_OBJ_12(a), QUOTE(a)
+#define MULT_OBJ_14(a) MULT_OBJ_13(a), QUOTE(a)
+#define MULT_OBJ_15(a) MULT_OBJ_14(a), QUOTE(a)
+#define MULT_OBJ_16(a) MULT_OBJ_15(a), QUOTE(a)
+#define MULT_OBJ_17(a) MULT_OBJ_16(a), QUOTE(a)
+#define MULT_OBJ_18(a) MULT_OBJ_17(a), QUOTE(a)
+#define MULT_OBJ_19(a) MULT_OBJ_18(a), QUOTE(a)
+#define MULT_OBJ_20(a) MULT_OBJ_19(a), QUOTE(a)
 
 #ifdef DISABLE_COMPILE_CACHE
     #undef PREP
