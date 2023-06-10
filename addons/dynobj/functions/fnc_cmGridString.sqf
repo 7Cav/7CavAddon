@@ -48,7 +48,7 @@ if (_accuracy == 0) then {
 LOG_1("Accuracy: %1",_accuracy);
 
 private _divisor = 10 ^ ((10 - _accuracy) / 2);
-LOG("Divisor: %1",_divisor);
+LOG_1("Divisor: %1",_divisor);
 
 private _x = floor ((_position#0)/_divisor);
 private _y = floor ((_position#1)/_divisor);
