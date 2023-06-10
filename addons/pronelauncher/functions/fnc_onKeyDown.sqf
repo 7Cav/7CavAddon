@@ -39,29 +39,16 @@ if (_stance in ["STAND", "CROUCH"] && {(_key in _keysMoveDown) || (_key in _keys
 };
 
 if (_stance isEqualTo "PRONE") exitWith {
-    if (_key in _keysMoveDown) exitWith {
-        ACE_player playMoveNow "AmovPpneMstpSrasWlnrDnon";
-        ACE_player playMove "AmovPpneMstpSrasWlnrDnon_AmovPknlMstpSrasWlnrDnon";
-        ACE_player playMove "AmovPknlMstpSrasWlnrDnon_AmovPercMstpSrasWlnrDnon";
-        true
-    };
-    if (_key in _keysMoveUp) exitWith {
-        ACE_player playMoveNow "AmovPpneMstpSrasWlnrDnon";
-        ACE_player playMove "AmovPpneMstpSrasWlnrDnon_AmovPknlMstpSrasWlnrDnon";
-        true
-    };
-    if (_key in _keysCrouch) exitWith {
-        ACE_player playMoveNow "AmovPpneMstpSrasWlnrDnon";
-        ACE_player playMove "AmovPpneMstpSrasWlnrDnon_AmovPknlMstpSrasWlnrDnon";
-        true
-    };
-    if (_key in _keysStand) exitWith {
-        ACE_player playMoveNow "AmovPpneMstpSrasWlnrDnon";
-        ACE_player playMove "AmovPpneMstpSrasWlnrDnon_AmovPknlMstpSrasWlnrDnon";
-        ACE_player playMove "AmovPknlMstpSrasWlnrDnon_AmovPercMstpSrasWlnrDnon";
-        true
-    };
     if (_key in _keysProne) exitWith {
+        true
+    };
+    if ((_key in _keysCrouch) || (_key in _keysMoveUp)) exitWith {
+        ACE_player playMoveNow "AmovPpneMstpSrasWlnrDnon_AmovPknlMstpSrasWlnrDnon";
+        true
+    };
+    if ((_key in _keysMoveDown) || (_key in _keysStand)) exitWith {
+        ACE_player playMoveNow "AmovPpneMstpSrasWlnrDnon_AmovPknlMstpSrasWlnrDnon";
+        ACE_player playMove "AmovPknlMstpSrasWlnrDnon_AmovPercMstpSrasWlnrDnon";
         true
     };
     false

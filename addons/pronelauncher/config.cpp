@@ -15,10 +15,9 @@ class CfgPatches {
         authors[] = {"PiZZADOX"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;
-
     };
 };
 
-#include "CfgEventHandlers.hpp"
 #include "CfgMovesBasic.hpp"
 #include "CfgMovesMaleSdr.hpp"
+#include "CfgEventHandlers.hpp"

@@ -89,9 +89,6 @@ class CfgMovesMaleSdr: CfgMovesBasic {
             enableMissile = 0;
             canPullTrigger = 0;
             actions = "ACE_LauncherProneActions";
-            interpolateTo[] += {
-                "AmovPpneMrunSrasWlnrDfr", 0.02
-            };
         };
         class AmovPpneMrunSrasWlnrDfl: AmovPpneMrunSrasWlnrDf {
             speed = 0.833333;
@@ -195,10 +192,6 @@ class CfgMovesMaleSdr: CfgMovesBasic {
         };
         class AmovPpneMstpSrasWlnrDnon_AmovPknlMstpSrasWlnrDnon: TransAnimBase {
             blockMobileSwitching = 0;
-            disableWeapons = 1;
-            disableWeaponsLong = 1;
-            enableMissile = 0;
-            canPullTrigger = 0;
             ConnectTo[] = {};
             InterpolateTo[] += {
                 "AmovPknlMstpSrasWlnrDnon", 0.02,
