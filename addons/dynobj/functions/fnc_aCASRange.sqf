@@ -98,7 +98,7 @@ private _objectiveText = format ["%1 %2 (%3)",_actionText,_thisRangeIndex,_vehic
 // Subtitle for global hint later on
 private _hintSubtitle = _actionText;
 
-LOG_3("Spawning %1",_objectiveText);
+LOG_1("Spawning %1",_objectiveText);
 
 /*
 Down to business
@@ -236,7 +236,7 @@ if (_error) then {
                     INC(_runCount);
                     if(_runCount % 5 == 0) then {
                         _gradient = (_runCount / 50);
-                        LOG_1("Vehicle %1: Trying gradient %2",_forEachIndex,_gradient);
+                        LOG_2("Vehicle %1: Trying gradient %2",_forEachIndex,_gradient);
                     };
                     private _testPos = [_centerPos, _radius * 0.3, _radius, 5, 0, _gradient, 0] call BIS_fnc_findSafePos;
                     private _posValid = true;
