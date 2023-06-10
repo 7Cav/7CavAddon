@@ -11,9 +11,9 @@ class CfgPatches {
             "cav_main",
             "cav_common"
         };
-        author = ECSTRING(main,modteam);
+        author = ECSTRING(Main,ModTeam);
         authors[] = {"PiZZADOX"};
-        url = ECSTRING(main,URL);
+        url = ECSTRING(Main,Url);
         VERSION_CONFIG;
 
     };

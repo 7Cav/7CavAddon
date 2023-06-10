@@ -10,7 +10,7 @@ class CfgVehicles {
         scope = 1;
         scopeCurator = 0;
         displayName = CSTRING(C_PlatoonSergeant_Bandit_5);
-        author = ECSTRING(main,modteam);
+        author = ECSTRING(Main,ModTeam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_Rifleman_F.jpg);
         cavPlatoon = 1;
     };
@@ -19,7 +19,7 @@ class CfgVehicles {
         scope = 1;
         scopeCurator = 0;
         displayName = CSTRING(C_PlatoonLeader_Bandit_6);
-        author = ECSTRING(main,modteam);
+        author = ECSTRING(Main,ModTeam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_Rifleman_F.jpg);
         cavPlatoon = 1;
     };
@@ -28,7 +28,7 @@ class CfgVehicles {
         scope = 1;
         scopeCurator = 0;
         displayName = CSTRING(C_PlatoonMedic_Bandit_7);
-        author = ECSTRING(main,modteam);
+        author = ECSTRING(Main,ModTeam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_Rifleman_F.jpg);
         cavPlatoon = 1;
     };
@@ -38,7 +38,7 @@ class CfgVehicles {
         scope = 1;
         scopeCurator = 0;
         displayName = CSTRING(C_SquadLeader_Bandit_1);
-        author = ECSTRING(main,modteam);
+        author = ECSTRING(Main,ModTeam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_Rifleman_F.jpg);
         cavPlatoon = 1;
     };
@@ -47,7 +47,7 @@ class CfgVehicles {
         scope = 1;
         scopeCurator = 0;
         displayName = CSTRING(C_SquadLeader_Bandit_2);
-        author = ECSTRING(main,modteam);
+        author = ECSTRING(Main,ModTeam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_Rifleman_F.jpg);
         cavPlatoon = 1;
     };
@@ -56,7 +56,7 @@ class CfgVehicles {
         scope = 1;
         scopeCurator = 0;
         displayName = CSTRING(C_SquadLeader_Bandit_3);
-        author = ECSTRING(main,modteam);
+        author = ECSTRING(Main,ModTeam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_Rifleman_F.jpg);
         cavPlatoon = 1;
     };
@@ -65,7 +65,7 @@ class CfgVehicles {
         scope = 1;
         scopeCurator = 0;
         displayName = CSTRING(C_SquadLeader_Bandit_4);
-        author = ECSTRING(main,modteam);
+        author = ECSTRING(Main,ModTeam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_Rifleman_F.jpg);
         cavPlatoon = 1;
     };
@@ -76,7 +76,7 @@ class CfgVehicles {
         scope = 1;
         scopeCurator = 0;
         displayName = CSTRING(C_PlatoonSergeant_Misfit_5);
-        author = ECSTRING(main,modteam);
+        author = ECSTRING(Main,ModTeam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_Rifleman_F.jpg);
         cavPlatoon = 2;
     };
@@ -85,7 +85,7 @@ class CfgVehicles {
         scope = 1;
         scopeCurator = 0;
         displayName = CSTRING(C_PlatoonLeader_Misfit_6);
-        author = ECSTRING(main,modteam);
+        author = ECSTRING(Main,ModTeam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_Rifleman_F.jpg);
         cavPlatoon = 2;
     };
@@ -94,7 +94,7 @@ class CfgVehicles {
         scope = 1;
         scopeCurator = 0;
         displayName = CSTRING(C_PlatoonMedic_Misfit_7);
-        author = ECSTRING(main,modteam);
+        author = ECSTRING(Main,ModTeam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_Rifleman_F.jpg);
         cavPlatoon = 2;
     };
@@ -104,7 +104,7 @@ class CfgVehicles {
         scope = 1;
         scopeCurator = 0;
         displayName = CSTRING(C_SquadLeader_Misfit_1);
-        author = ECSTRING(main,modteam);
+        author = ECSTRING(Main,ModTeam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_Rifleman_F.jpg);
         cavPlatoon = 2;
     };
@@ -113,7 +113,7 @@ class CfgVehicles {
         scope = 1;
         scopeCurator = 0;
         displayName = CSTRING(C_SquadLeader_Misfit_2);
-        author = ECSTRING(main,modteam);
+        author = ECSTRING(Main,ModTeam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_Rifleman_F.jpg);
         cavPlatoon = 2;
     };
@@ -122,7 +122,7 @@ class CfgVehicles {
         scope = 1;
         scopeCurator = 0;
         displayName = CSTRING(C_SquadLeader_Misfit_3);
-        author = ECSTRING(main,modteam);
+        author = ECSTRING(Main,ModTeam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_Rifleman_F.jpg);
         cavPlatoon = 2;
     };
@@ -131,7 +131,7 @@ class CfgVehicles {
         scope = 1;
         scopeCurator = 0;
         displayName = CSTRING(C_SquadLeader_Misfit_4);
-        author = ECSTRING(main,modteam);
+        author = ECSTRING(Main,ModTeam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_Rifleman_F.jpg);
         cavPlatoon = 2;
     };
@@ -142,7 +142,7 @@ class CfgVehicles {
         scope = 1;
         scopeCurator = 0;
         displayName = CSTRING(C_Weap_SquadLeader_Havoc_1);
-        author = ECSTRING(main,modteam);
+        author = ECSTRING(Main,ModTeam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_Charlie_Rifleman_F.jpg);
         cavPlatoon = 2;
     };

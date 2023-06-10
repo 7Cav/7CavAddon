@@ -11,10 +11,10 @@
 
 // MINIMAL required version for the Mod. Components can specify others..
 #define REQUIRED_VERSION 2.02
-#define REQUIRED_CBA_VERSION {3,15,2}
+#define REQUIRED_CBA_VERSION {3,15,8}
 
 #ifdef COMPONENT_BEAUTIFIED
-    #define COMPONENT_NAME QUOTE(7th Cavalry Addon - COMPONENT_BEAUTIFIED)
+    #define COMPONENT_NAME QUOTE(7th Cavalry Community Addon - COMPONENT_BEAUTIFIED)
 #else
     #define COMPONENT_NAME QUOTE(PREFIX - COMPONENT)
 #endif
