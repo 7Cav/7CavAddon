@@ -1,5 +1,5 @@
-<Project name="Cav">
-    <Package name="Main">
+<Project name="cav">
+    <Package name="main">
         <Key ID="str_cav_main_display">
             <English>7th Cavalry Community Addon</English>
         </Key>
