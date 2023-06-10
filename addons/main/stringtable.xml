@@ -1,12 +1,12 @@
-<Project name="cav">
-    <Package name="main">
-        <Key ID="str_cav_main_display">
+<Project name="Cav">
+    <Package name="Main">
+        <Key ID="STR_Cav_Main_Display">
             <English>7th Cavalry Community Addon</English>
         </Key>
-        <Key ID="str_cav_main_modteam">
+        <Key ID="STR_Cav_Main_ModTeam">
             <English>7th Cavalry S3 Mod Team</English>
         </Key>
-        <Key ID="str_cav_main_url">
+        <Key ID="STR_Cav_Main_Url">
             <English>http://7cav.us</English>
         </Key>
     </Package>
