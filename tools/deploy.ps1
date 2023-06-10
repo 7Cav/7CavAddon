@@ -1,4 +1,3 @@
-
 cd $PSScriptRoot
 cd ..
 
