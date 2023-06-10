@@ -5,7 +5,7 @@ class CfgVehicles {
         scope = 1;
         scopeCurator = 0;
         displayName = ECSTRING(common,trooper);
-        author = ECSTRING(main,modteam);
+        author = ECSTRING(Main,ModTeam);
         cavCompany = "Bravo";
         cavPlatoon = 2;
 
@@ -39,21 +39,21 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 0;
         displayName = CSTRING(b_scout_officer);
-        author = ECSTRING(main,modteam);
+        author = ECSTRING(Main,ModTeam);
     };
     class Cav_B_B_Scout_PlatoonLead_F : Cav_B_Bravo_Scout_base_F {
         _generalMacro = "Cav_B_B_Scout_PlatoonLead_F";
         scope = 2;
         scopeCurator = 0;
         displayName = CSTRING(b_scout_platoonlead);
-        author = ECSTRING(main,modteam);
+        author = ECSTRING(Main,ModTeam);
     };
     class Cav_B_B_Scout_PlatoonMedic_F : Cav_B_Bravo_Scout_base_F {
         _generalMacro = "Cav_B_B_Scout_PlatoonMedic_F";
         scope = 2;
         scopeCurator = 0;
         displayName = CSTRING(b_scout_platoonmedic);
-        author = ECSTRING(main,modteam);
+        author = ECSTRING(Main,ModTeam);
         
         role = "CombatLifeSaver";
         icon = "iconManMedic";
@@ -83,7 +83,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 0;
         displayName = CSTRING(b_scout_squadleader);
-        author = ECSTRING(main,modteam);
+        author = ECSTRING(Main,ModTeam);
 
         icon = "iconManLeader";
 
@@ -125,7 +125,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 0;
         displayName = CSTRING(b_scout_teamlead);
-        author = ECSTRING(main,modteam);
+        author = ECSTRING(Main,ModTeam);
 
         icon = "iconManLeader";
 
@@ -167,7 +167,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 0;
         displayName = CSTRING(b_scout_teamlead_320);
-        author = ECSTRING(main,modteam);
+        author = ECSTRING(Main,ModTeam);
 
         icon = "iconManLeader";
 
@@ -209,7 +209,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 0;
         displayName = CSTRING(b_scout_automaticrifleman);
-        author = ECSTRING(main,modteam);
+        author = ECSTRING(Main,ModTeam);
 
         role = "MachineGunner";
         icon = "iconManMG";
@@ -247,21 +247,21 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 0;
         displayName = CSTRING(b_scout_grenadier);
-        author = ECSTRING(main,modteam);
+        author = ECSTRING(Main,ModTeam);
     };
     class Cav_B_B_Scout_Rifleman_F : Cav_B_Bravo_Scout_base_F {
         _generalMacro = "Cav_B_B_Scout_Rifleman_F";
         scope = 2;
         scopeCurator = 0;
         displayName = CSTRING(b_scout_rifleman);
-        author = ECSTRING(main,modteam);
+        author = ECSTRING(Main,ModTeam);
     };
     class Cav_B_B_Scout_CombatLifeSaver_F : Cav_B_Bravo_Scout_base_F {
         _generalMacro = "Cav_B_B_Scout_CombatLifeSaver_F";
         scope = 2;
         scopeCurator = 0;
         displayName = CSTRING(b_scout_combatlifesaver);
-        author = ECSTRING(main,modteam);
+        author = ECSTRING(Main,ModTeam);
 
         role = "CombatLifeSaver";
         icon = "iconManMedic";
@@ -291,7 +291,7 @@ class CfgVehicles {
         scope = 1;
         scopeCurator = 0;
         displayName = CSTRING(b_scout_crew);
-        author = ECSTRING(main,modteam);
+        author = ECSTRING(Main,ModTeam);
         
         linkedItems[] = {
             "rhsusf_spcs_ocp_crewman",
@@ -317,14 +317,14 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 0;
         displayName = CSTRING(b_scout_gunner);
-        author = ECSTRING(main,modteam);
+        author = ECSTRING(Main,ModTeam);
     };
     class Cav_B_B_Scout_Driver_F : Cav_B_B_Scout_Crew_F {
         _generalMacro = "Cav_B_B_Scout_Driver_F";
         scope = 2;
         scopeCurator = 0;
         displayName = CSTRING(b_scout_driver);
-        author = ECSTRING(main,modteam);
+        author = ECSTRING(Main,ModTeam);
     };
 
     // Team Named
@@ -333,84 +333,84 @@ class CfgVehicles {
         scope = 1;
         scopeCurator = 0;
         displayName = CSTRING(b_scout_alpha_teamlead);
-        author = ECSTRING(main,modteam);
+        author = ECSTRING(Main,ModTeam);
     };
     class Cav_B_B_Scout_Alpha_TeamLead_320_F : Cav_B_B_Scout_TeamLead_320_F {
         _generalMacro = "Cav_B_B_Scout_Alpha_TeamLead_320_F";
         scope = 1;
         scopeCurator = 0;
         displayName = CSTRING(b_scout_alpha_teamlead_320);
-        author = ECSTRING(main,modteam);
+        author = ECSTRING(Main,ModTeam);
     };
     class Cav_B_B_Scout_Alpha_AutomaticRifleman_F : Cav_B_B_Scout_AutomaticRifleman_F {
         _generalMacro = "Cav_B_B_Scout_Alpha_AutomaticRifleman_F";
         scope = 1;
         scopeCurator = 0;
         displayName = CSTRING(b_scout_alpha_automaticrifleman);
-        author = ECSTRING(main,modteam);
+        author = ECSTRING(Main,ModTeam);
     };
     class Cav_B_B_Scout_Alpha_Grenadier_F : Cav_B_B_Scout_Grenadier_F {
         _generalMacro = "Cav_B_B_Scout_Alpha_Grenadier_F";
         scope = 1;
         scopeCurator = 0;
         displayName = CSTRING(b_scout_alpha_grenadier);
-        author = ECSTRING(main,modteam);
+        author = ECSTRING(Main,ModTeam);
     };
     class Cav_B_B_Scout_Alpha_Rifleman_F : Cav_B_B_Scout_Rifleman_F {
         _generalMacro = "Cav_B_B_Scout_Alpha_Rifleman_F";
         scope = 1;
         scopeCurator = 0;
         displayName = CSTRING(b_scout_alpha_rifleman);
-        author = ECSTRING(main,modteam);
+        author = ECSTRING(Main,ModTeam);
     };
     class Cav_B_B_Scout_Alpha_CombatLifeSaver_F : Cav_B_B_Scout_CombatLifeSaver_F {
         _generalMacro = "Cav_B_B_Scout_Alpha_CombatLifeSaver_F";
         scope = 1;
         scopeCurator = 0;
         displayName = CSTRING(b_scout_alpha_combatlifesaver);
-        author = ECSTRING(main,modteam);
+        author = ECSTRING(Main,ModTeam);
     };
     class Cav_B_B_Scout_Bravo_TeamLead_F : Cav_B_B_Scout_TeamLead_F {
         _generalMacro = "Cav_B_B_Scout_Bravo_TeamLead_F";
         scope = 1;
         scopeCurator = 0;
         displayName = CSTRING(b_scout_bravo_teamlead);
-        author = ECSTRING(main,modteam);
+        author = ECSTRING(Main,ModTeam);
     };
     class Cav_B_B_Scout_Bravo_TeamLead_320_F : Cav_B_B_Scout_TeamLead_320_F {
         _generalMacro = "Cav_B_B_Scout_Bravo_TeamLead_320_F";
         scope = 1;
         scopeCurator = 0;
         displayName = CSTRING(b_scout_bravo_teamlead_320);
-        author = ECSTRING(main,modteam);
+        author = ECSTRING(Main,ModTeam);
     };
     class Cav_B_B_Scout_Bravo_AutomaticRifleman_F : Cav_B_B_Scout_AutomaticRifleman_F {
         _generalMacro = "Cav_B_B_Scout_Bravo_AutomaticRifleman_F";
         scope = 1;
         scopeCurator = 0;
         displayName = CSTRING(b_scout_bravo_automaticrifleman);
-        author = ECSTRING(main,modteam);
+        author = ECSTRING(Main,ModTeam);
     };
     class Cav_B_B_Scout_Bravo_Grenadier_F : Cav_B_B_Scout_Grenadier_F {
         _generalMacro = "Cav_B_B_Scout_Bravo_Grenadier_F";
         scope = 1;
         scopeCurator = 0;
         displayName = CSTRING(b_scout_bravo_grenadier);
-        author = ECSTRING(main,modteam);
+        author = ECSTRING(Main,ModTeam);
     };
     class Cav_B_B_Scout_Bravo_Rifleman_F : Cav_B_B_Scout_Rifleman_F {
         _generalMacro = "Cav_B_B_Scout_Bravo_Rifleman_F";
         scope = 1;
         scopeCurator = 0;
         displayName = CSTRING(b_scout_bravo_rifleman);
-        author = ECSTRING(main,modteam);
+        author = ECSTRING(Main,ModTeam);
     };
     class Cav_B_B_Scout_Bravo_CombatLifeSaver_F : Cav_B_B_Scout_CombatLifeSaver_F {
         _generalMacro = "Cav_B_B_Scout_Bravo_CombatLifeSaver_F";
         scope = 1;
         scopeCurator = 0;
         displayName = CSTRING(b_scout_bravo_combatlifesaver);
-        author = ECSTRING(main,modteam);
+        author = ECSTRING(Main,ModTeam);
     };
 
     // Named
@@ -419,28 +419,28 @@ class CfgVehicles {
         scope = 1;
         scopeCurator = 0;
         displayName = CSTRING(b_scout_squadleader_2_1);
-        author = ECSTRING(main,modteam);
+        author = ECSTRING(Main,ModTeam);
     };
     class Cav_B_B_Scout_SquadLeader_2_2_F : Cav_B_B_Scout_SquadLeader_F {
         _generalMacro = "Cav_B_B_Scout_SquadLeader_2_2_F";
         scope = 1;
         scopeCurator = 0;
         displayName = CSTRING(b_scout_squadleader_2_2);
-        author = ECSTRING(main,modteam);
+        author = ECSTRING(Main,ModTeam);
     };
     class Cav_B_B_Scout_SquadLeader_2_3_F : Cav_B_B_Scout_SquadLeader_F {
         _generalMacro = "Cav_B_B_Scout_SquadLeader_2_3_F";
         scope = 1;
         scopeCurator = 0;
         displayName = CSTRING(b_scout_squadleader_2_3);
-        author = ECSTRING(main,modteam);
+        author = ECSTRING(Main,ModTeam);
     };
     class Cav_B_B_Scout_SquadLeader_2_4_F : Cav_B_B_Scout_SquadLeader_F {
         _generalMacro = "Cav_B_B_Scout_SquadLeader_2_4_F";
         scope = 1;
         scopeCurator = 0;
         displayName = CSTRING(b_scout_squadleader_2_4);
-        author = ECSTRING(main,modteam);
+        author = ECSTRING(Main,ModTeam);
     };
     
     class Cav_B_B_Scout_PlatoonLead_2_5_F : Cav_B_B_Scout_PlatoonLead_F {
@@ -448,21 +448,21 @@ class CfgVehicles {
         scope = 1;
         scopeCurator = 0;
         displayName = CSTRING(b_scout_platoonlead_2_5);
-        author = ECSTRING(main,modteam);
+        author = ECSTRING(Main,ModTeam);
     };
     class Cav_B_B_Scout_PlatoonLead_2_6_F : Cav_B_B_Scout_PlatoonLead_F {
         _generalMacro = "Cav_B_B_Scout_PlatoonLead_2_6_F";
         scope = 1;
         scopeCurator = 0;
         displayName = CSTRING(b_scout_platoonlead_2_6);
-        author = ECSTRING(main,modteam);
+        author = ECSTRING(Main,ModTeam);
     };
     class Cav_B_B_Scout_PlatoonMedic_2_7_F : Cav_B_B_Scout_PlatoonMedic_F {
         _generalMacro = "Cav_B_B_Scout_PlatoonMedic_2_7_F";
         scope = 1;
         scopeCurator = 0;
         displayName = CSTRING(b_scout_platoonmedic_2_7);
-        author = ECSTRING(main,modteam);
+        author = ECSTRING(Main,ModTeam);
     };
 
 

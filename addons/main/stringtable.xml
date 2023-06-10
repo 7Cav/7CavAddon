@@ -1,6 +1,6 @@
 <Project name="Cav">
     <Package name="Main">
-        <Key ID="STR_Cav_Main_Display">
+        <Key ID="STR_Cav_Main_Name">
             <English>7th Cavalry Community Addon</English>
         </Key>
         <Key ID="STR_Cav_Main_ModTeam">

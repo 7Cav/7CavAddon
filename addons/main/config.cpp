@@ -899,12 +899,12 @@ class CfgPatches {
 class CfgMods {
     class PREFIX {
         dir = "@cavmod";
-        name = "7th Cavalry Gaming Community Mod";
+        name = CSTRING(Name);
         picture = "A3\Ui_f\data\Logos\arma3_expansion_alpha_ca";
         hidePicture = "true";
         hideName = "true";
         actionName = "Website";
-        action = CSTRING(URL);
+        action = CSTRING(Url);
         description = "Issue Tracker: https://github.com/7cav/CavMod/issues";
     };
 };

@@ -5,7 +5,7 @@ class CfgVehicles {
         scope = 1;
         scopeCurator = 0;
         displayName = ECSTRING(common,trooper);
-        author = ECSTRING(main,modteam);
+        author = ECSTRING(Main,ModTeam);
         cavCompany = "Bravo";
         cavPlatoon = 3;
 
@@ -38,7 +38,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 0;
         displayName = CSTRING(medic_teamleader);
-        author = ECSTRING(main,modteam);
+        author = ECSTRING(Main,ModTeam);
 
         icon = "iconManLeader";
 
@@ -66,7 +66,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 0;
         displayName = CSTRING(medic_combatmedic);
-        author = ECSTRING(main,modteam);
+        author = ECSTRING(Main,ModTeam);
         
 
         role = "CombatLifeSaver";
@@ -97,7 +97,7 @@ class CfgVehicles {
         scope = 1;
         scopeCurator = 0;
         displayName = CSTRING(logistics_officer);
-        author = ECSTRING(main,modteam);
+        author = ECSTRING(Main,ModTeam);
         
 
         icon = "iconManOfficer";
@@ -107,7 +107,7 @@ class CfgVehicles {
         scope = 1;
         scopeCurator = 0;
         displayName = CSTRING(logistics_opsofficer);
-        author = ECSTRING(main,modteam);
+        author = ECSTRING(Main,ModTeam);
         
     };
     class Cav_B_B_Atlas_Logistics_OpsNCO_F : Cav_B_B_Atlas_Logistics_Officer_F {
@@ -115,7 +115,7 @@ class CfgVehicles {
         scope = 1;
         scopeCurator = 0;
         displayName = CSTRING(logistics_opsnco);
-        author = ECSTRING(main,modteam);
+        author = ECSTRING(Main,ModTeam);
         
     };
     class Cav_B_B_Atlas_Logistics_TeamLeader_F : Cav_B_Bravo_Atlas_base_F {
@@ -123,7 +123,7 @@ class CfgVehicles {
         scope = 1;
         scopeCurator = 0;
         displayName = CSTRING(logistics_teamleader);
-        author = ECSTRING(main,modteam);
+        author = ECSTRING(Main,ModTeam);
         
 
         icon = "iconManLeader";
@@ -152,7 +152,7 @@ class CfgVehicles {
         scope = 1;
         scopeCurator = 0;
         displayName = CSTRING(logistics_teammember);
-        author = ECSTRING(main,modteam);
+        author = ECSTRING(Main,ModTeam);
     };
 
 
@@ -162,14 +162,14 @@ class CfgVehicles {
         scope = 1;
         scopeCurator = 0;
         displayName = CSTRING(medic_teamleader_3_1);
-        author = ECSTRING(main,modteam);
+        author = ECSTRING(Main,ModTeam);
     };
     class Cav_B_B_Atlas_Medic_TeamLeader_3_2_F : Cav_B_B_Atlas_Medic_TeamLeader_F {
         _generalMacro = "Cav_B_B_Atlas_Medic_TeamLeader_3_2_F";
         scope = 1;
         scopeCurator = 0;
         displayName = CSTRING(medic_teamleader_3_2);
-        author = ECSTRING(main,modteam);
+        author = ECSTRING(Main,ModTeam);
     };
 
     class Cav_B_B_Atlas_Logistics_TeamLeader_3_3_F : Cav_B_B_Atlas_Logistics_TeamLeader_F {
@@ -177,14 +177,14 @@ class CfgVehicles {
         scope = 1;
         scopeCurator = 0;
         displayName = CSTRING(logistics_teamleader_3_3);
-        author = ECSTRING(main,modteam);
+        author = ECSTRING(Main,ModTeam);
     };
     class Cav_B_B_Atlas_Logistics_TeamLeader_3_4_F : Cav_B_B_Atlas_Logistics_TeamLeader_F {
         _generalMacro = "Cav_B_B_Atlas_Medic_TeamLeader_3_4_F";
         scope = 1;
         scopeCurator = 0;
         displayName = CSTRING(logistics_teamleader_3_4);
-        author = ECSTRING(main,modteam);
+        author = ECSTRING(Main,ModTeam);
     };    
 
     class Cav_B_B_Atlas_Logistics_OpsNCO_3_5_F : Cav_B_B_Atlas_Logistics_OpsNCO_F {
@@ -192,13 +192,13 @@ class CfgVehicles {
         scope = 1;
         scopeCurator = 0;
         displayName = CSTRING(logistics_opsnco_3_5);
-        author = ECSTRING(main,modteam);
+        author = ECSTRING(Main,ModTeam);
     };
     class Cav_B_B_Atlas_Logistics_OpsOfficer_3_6_F : Cav_B_B_Atlas_Logistics_OpsOfficer_F {
         _generalMacro = "Cav_B_B_Atlas_Logistics_OpsOfficer_3_6_F";
         scope = 1;
         scopeCurator = 0;
         displayName = CSTRING(logistics_opsofficer_3_6);
-        author = ECSTRING(main,modteam);
+        author = ECSTRING(Main,ModTeam);
     };
 };

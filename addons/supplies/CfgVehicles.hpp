@@ -15,7 +15,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 2;
         displayName = CSTRING(wps_heavy);
-        author = ECSTRING(main,modteam);
+        author = ECSTRING(Main,ModTeam);
 
         class TransportBackpacks {
         };
