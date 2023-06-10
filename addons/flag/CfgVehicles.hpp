@@ -13,7 +13,7 @@ class CfgVehicles {
         //editorPreview = QPATHTOF(EditorPreviews\Cav_Flag_00_Flag_F.jpg);
 
         class EventHandlers {
-            init = QUOTE(_this select 0 setFlagTexture QUOTE(QPATHTOF(data\flag_00_ca.paa)));
+            init = QUOTE(_this select 0 setFlagTexture QQPATHTOF(data\flag_00_ca.paa));
         };
     };
     class Cav_Flag_00_Banner_F : Banner_01_base_F {
@@ -35,7 +35,7 @@ class CfgVehicles {
         //editorPreview = QPATHTOF(EditorPreviews\Cav_Flag_01_Flag_F.jpg);
 
         class EventHandlers {
-            init = QUOTE(_this select 0 setFlagTexture QUOTE(QPATHTOF(data\flag_01_ca.paa)));
+            init = QUOTE(_this select 0 setFlagTexture QQPATHTOF(data\flag_01_ca.paa));
         };
     };
     class Cav_Flag_01_Banner_F : Banner_01_base_F {
@@ -58,7 +58,7 @@ class CfgVehicles {
         //editorPreview = QPATHTOF(EditorPreviews\Cav_Flag_02_Flag_F.jpg);
 
         class EventHandlers {
-            init = QUOTE(_this select 0 setFlagTexture QUOTE(QPATHTOF(data\flag_02_ca.paa)));
+            init = QUOTE(_this select 0 setFlagTexture QQPATHTOF(data\flag_02_ca.paa));
         };
     };
     class Cav_Flag_alpha_1_Flag_F : FlagCarrier {
@@ -69,7 +69,7 @@ class CfgVehicles {
         //editorPreview = QPATHTOF(EditorPreviews\Cav_Flag_02_Flag_F.jpg);
 
         class EventHandlers {
-            init = QUOTE(_this select 0 setFlagTexture QUOTE(QPATHTOF(data\flag_alpha1_ca.paa)));
+            init = QUOTE(_this select 0 setFlagTexture QQPATHTOF(data\flag_alpha1_ca.paa));
         };
     };
     class Cav_Flag_bravo_2_flag_F : FlagCarrier_Asym {
@@ -80,7 +80,7 @@ class CfgVehicles {
         //editorPreview = QPATHTOF(EditorPreviews\Cav_Flag_01_Flag_F.jpg);
 
         class EventHandlers {
-            init = QUOTE(_this select 0 setFlagTexture QUOTE(QPATHTOF(data\flag_bravo2_ca.paa)));
+            init = QUOTE(_this select 0 setFlagTexture QQPATHTOF(data\flag_bravo2_ca.paa));
         };
     };
     class Cav_Flag_bravo_2_banner_F : Banner_01_base_F {
@@ -102,7 +102,7 @@ class CfgVehicles {
         //editorPreview = QPATHTOF(EditorPreviews\Cav_Flag_01_Flag_F.jpg);
 
         class EventHandlers {
-            init = QUOTE(_this select 0 setFlagTexture QUOTE(QPATHTOF(data\flag_charlie1_ca.paa)));
+            init = QUOTE(_this select 0 setFlagTexture QQPATHTOF(data\flag_charlie1_ca.paa));
         };
     };
     class Cav_Flag_charlie_1_banner_F : Banner_01_base_F {
@@ -124,7 +124,7 @@ class CfgVehicles {
         //editorPreview = QPATHTOF(EditorPreviews\Cav_Flag_01_Flag_F.jpg);
 
         class EventHandlers {
-            init = QUOTE(_this select 0 setFlagTexture QUOTE(QPATHTOF(data\flag_charlie2_ca.paa)));
+            init = QUOTE(_this select 0 setFlagTexture QQPATHTOF(data\flag_charlie2_ca.paa));
         };
     };
     class Cav_Flag_charlie_2_banner_F : Banner_01_base_F {
