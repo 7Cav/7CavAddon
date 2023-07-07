@@ -250,7 +250,7 @@ class CfgVehicles {
                 raw = 1;
             };
             class showCamonetHull {
-                displayName = CSTRING("$STR_A3_animationsources_showcamonethull0");
+                displayName = "$STR_A3_animationsources_showcamonethull0";
                 author = ECSTRING(main,modteam);
                 source = "user";
                 animPeriod = 0.001;
@@ -258,7 +258,7 @@ class CfgVehicles {
                 mass = -50;
             };
             class showBags {
-                displayName = CSTRING("$STR_A3_animationsources_showbagshull0");
+                displayName = "$STR_A3_animationsources_showbagshull0";
                 author = ECSTRING(main,modteam);
                 source = "user";
                 animPeriod = 0.001;
@@ -266,7 +266,7 @@ class CfgVehicles {
                 mass = -50;
             };
             class showBags2 {
-                displayName = CSTRING("$STR_A3_animationsources_showbagsturret0");
+                displayName = "$STR_A3_animationsources_showbagsturret0";
                 author = ECSTRING(main,modteam);
                 source = "user";
                 animPeriod = 0.001;
@@ -274,7 +274,7 @@ class CfgVehicles {
                 mass = -50;
             };
             class showTools {
-                displayName = CSTRING("$STR_A3_animationsources_showtoolshull0");
+                displayName = "$STR_A3_animationsources_showtoolshull0";
                 author = ECSTRING(main,modteam);
                 source = "user";
                 animPeriod = 0.001;
@@ -282,7 +282,7 @@ class CfgVehicles {
                 mass = -50;
             };
             class showSLATHull {
-                displayName = CSTRING("$STR_A3_animationsources_showslathull0");
+                displayName = "$STR_A3_animationsources_showslathull0";
                 author = ECSTRING(main,modteam);
                 source = "user";
                 animPeriod = 0.001;
@@ -297,7 +297,6 @@ class CfgVehicles {
         forceInGarage = 1;
         scope = 0;
         scopeCurator = 0;
-        class EventHandlers;
         class EventHandlers: EventHandlers {
             init = "if (local (_this select 0)) then {{(_this select 0) animate [_x, 1]} forEach ['HideHull','HideTurret']}";
         };
