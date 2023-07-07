@@ -49,3 +49,4 @@ class CfgPatches {
 };
 
 #include "CfgVehicles.hpp"
+#include "CfgEditorSubcategories.hpp"

@@ -337,6 +337,7 @@ class CfgVehicles {
         forceInGarage = 1;
         crew = "B_crew_F";
         typicalCargo[] = {"B_soldier_F"};
+        editorSubcategory = "Cav_EdSubcat_vehicles_woodland";
         hiddenSelectionsTextures[] = {QPATHTOF(data\atl\dragoon_01_ext_wd_atl.paa),QPATHTOF(data\atl\dragoon_02_ext_wd_atl.paa),QPATHTOF(data\dragoon_turret_wd.paa),QPATHTOF(data\dragoon_03_ext_wd.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
     };
     class cav_dragoon_Unarmed_D: cav_dragoon_unarmed_base_F {
@@ -348,6 +349,7 @@ class CfgVehicles {
         forceInGarage = 0;
         crew = "B_crew_F";
         typicalCargo[] = {"B_soldier_F"};
+        editorSubcategory = "Cav_EdSubcat_vehicles_desert";
         hiddenSelectionsTextures[] = {QPATHTOF(data\atl\dragoon_01_ext_d_atl.paa),QPATHTOF(data\atl\dragoon_02_ext_d_atl.paa),QPATHTOF(data\dragoon_turret_wd.paa),QPATHTOF(data\dragoon_03_ext_wd.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
     };
     class cav_dragoon_Unarmed_A: cav_dragoon_unarmed_base_F {
@@ -359,6 +361,8 @@ class CfgVehicles {
         forceInGarage = 0;
         crew = "B_crew_F";
         typicalCargo[] = {"B_soldier_F"};
+        editorSubcategory = "Cav_EdSubcat_vehicles_arctic";
+        
         hiddenSelectionsTextures[] = {QPATHTOF(data\atl\dragoon_01_ext_wd_atl.paa),QPATHTOF(data\atl\dragoon_02_ext_wd_atl.paa),QPATHTOF(data\dragoon_turret_wd.paa),QPATHTOF(data\dragoon_03_ext_wd.paa),QPATHTOF(data\camonet_arctic_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
     };
     class cav_dragoon_WD: cav_dragoon_base_F {
@@ -368,6 +372,7 @@ class CfgVehicles {
         forceInGarage = 0;
         crew = "B_crew_F";
         typicalCargo[] = {"B_soldier_F"};
+        editorSubcategory = "Cav_EdSubcat_vehicles_woodland";
         hiddenSelectionsTextures[] = {QPATHTOF(data\dragoon_01_ext_wd.paa),QPATHTOF(data\dragoon_02_ext_wd.paa),QPATHTOF(data\dragoon_turret_wd.paa),QPATHTOF(data\dragoon_03_ext_wd.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
     };
     class cav_dragoon_WD_PA: cav_dragoon_WD {
@@ -479,6 +484,7 @@ class CfgVehicles {
         forceInGarage = 0;
         crew = "B_crew_F";
         typicalCargo[] = {"B_soldier_F"};
+        editorSubcategory = "Cav_EdSubcat_vehicles_desert";
         hiddenSelectionsTextures[] = {QPATHTOF(data\dragoon_01_ext_d.paa),QPATHTOF(data\dragoon_02_ext_d.paa),QPATHTOF(data\dragoon_turret_d.paa),QPATHTOF(data\dragoon_03_ext_d.paa),QPATHTOF(data\camonet_desert_co.paa),QPATHTOF(data\cage_desert_co.paa)};
     };
     class cav_dragoon_D_V1: cav_dragoon_D {
@@ -537,6 +543,7 @@ class CfgVehicles {
         forceInGarage = 1;
         crew = "B_crew_F";
         typicalCargo[] = {"B_soldier_F"};
+        editorSubcategory = "Cav_EdSubcat_vehicles_arctic";
         hiddenSelectionsTextures[] = {QPATHTOF(data\dragoon_01_ext_wd.paa),QPATHTOF(data\dragoon_02_ext_wd.paa),QPATHTOF(data\dragoon_turret_wd.paa),QPATHTOF(data\dragoon_03_ext_wd.paa),QPATHTOF(data\camonet_arctic_co.paa),QPATHTOF(data\cage_desert_co.paa)};
     };
     class cav_dragoon_A_V1: cav_dragoon_A {
