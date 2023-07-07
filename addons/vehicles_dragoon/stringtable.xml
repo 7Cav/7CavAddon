@@ -1,5 +1,15 @@
 <Project name="cav">
     <Package name="vehicles_dragoon">
+        <Key ID="STR_cav_vehicles_dragoon_Cav_EdSubcat_vehicles_woodland">
+            <English>APC (Woodland)</English>
+        </Key>
+        <Key ID="STR_cav_vehicles_dragoon_Cav_EdSubcat_vehicles_desert">
+            <English>APC (Desert)</English>
+        </Key>
+        <Key ID="STR_cav_vehicles_dragoon_Cav_EdSubcat_vehicles_arctic">
+            <English>APC (Arctic)</English>
+        </Key>
+
         <Key ID="STR_cav_vehicles_dragoon_cav_dragoon_base_F">
             <English>M1296 Dragoon</English>
         </Key>
