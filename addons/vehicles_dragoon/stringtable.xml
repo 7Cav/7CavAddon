@@ -1,0 +1,154 @@
+<Project name="cav">
+    <Package name="vehicles_dragoon">
+        <Key ID="STR_cav_vehicles_dragoon_cav_dragoon_base_F">
+            <English>M1296 Dragoon</English>
+        </Key>
+        <Key ID="STR_cav_vehicles_dragoon_Blu_Woodland">
+            <English>Woodland</English>
+        </Key>
+        <Key ID="STR_cav_vehicles_dragoon_Blu_Desert">
+            <English>Desert</English>
+        </Key>
+        <Key ID="STR_cav_vehicles_dragoon_Blu_Alpine">
+            <English>Arctic</English>
+        </Key>
+        <Key ID="STR_cav_vehicles_dragoon_Blu_Woodland_V1">
+            <English>Woodland (Viking-1)</English>
+        </Key>
+        <Key ID="STR_cav_vehicles_dragoon_Blu_Woodland_V2">
+            <English>Woodland (Viking-2)</English>
+        </Key>
+        <Key ID="STR_cav_vehicles_dragoon_Blu_Woodland_V3">
+            <English>Woodland (Viking-3)</English>
+        </Key>
+        <Key ID="STR_cav_vehicles_dragoon_Blu_Woodland_V4">
+            <English>Woodland (Viking-4)</English>
+        </Key>
+        <Key ID="STR_cav_vehicles_dragoon_Blu_Woodland_V5">
+            <English>Woodland (Viking-5)</English>
+        </Key>
+        <Key ID="STR_cav_vehicles_dragoon_Blu_Woodland_V6">
+            <English>Woodland (Viking-6)</English>
+        </Key>
+        <Key ID="STR_cav_vehicles_dragoon_Blu_Woodland_WH7">
+            <English>Woodland (Warhorse-7)</English>
+        </Key>
+        <Key ID="STR_cav_vehicles_dragoon_Blu_Desert_V1">
+            <English>Desert (Viking-1)</English>
+        </Key>
+        <Key ID="STR_cav_vehicles_dragoon_Blu_Desert_V2">
+            <English>Desert (Viking-2)</English>
+        </Key>
+        <Key ID="STR_cav_vehicles_dragoon_Blu_Desert_V3">
+            <English>Desert (Viking-3)</English>
+        </Key>
+        <Key ID="STR_cav_vehicles_dragoon_Blu_Desert_V4">
+            <English>Desert (Viking-4)</English>
+        </Key>
+        <Key ID="STR_cav_vehicles_dragoon_Blu_Desert_V5">
+            <English>Desert (Viking-5)</English>
+        </Key>
+        <Key ID="STR_cav_vehicles_dragoon_Blu_Desert_V6">
+            <English>Desert (Viking-6)</English>
+        </Key>
+        <Key ID="STR_cav_vehicles_dragoon_Blu_Desert_WH7">
+            <English>Desert (Warhorse-7)</English>
+        </Key>
+        <Key ID="STR_cav_vehicles_dragoon_Blu_Arctic_V1">
+            <English>Arctic (Viking-1)</English>
+        </Key>
+        <Key ID="STR_cav_vehicles_dragoon_Blu_Arctic_V2">
+            <English>Arctic (Viking-2)</English>
+        </Key>
+        <Key ID="STR_cav_vehicles_dragoon_Blu_Arctic_V3">
+            <English>Arctic (Viking-3)</English>
+        </Key>
+        <Key ID="STR_cav_vehicles_dragoon_Blu_Arctic_V4">
+            <English>Arctic (Viking-4)</English>
+        </Key>
+        <Key ID="STR_cav_vehicles_dragoon_Blu_Arctic_V5">
+            <English>Arctic (Viking-5)</English>
+        </Key>
+        <Key ID="STR_cav_vehicles_dragoon_Blu_Arctic_V6">
+            <English>Arctic (Viking-6)</English>
+        </Key>
+        <Key ID="STR_cav_vehicles_dragoon_Blu_Arctic_WH7">
+            <English>Arctic (Warhorse-7)</English>
+        </Key>
+        <Key ID="STR_cav_vehicles_dragoon_cav_dragoon_Unarmed_WD">
+            <English>M1133 MEV (Woodland)</English>
+        </Key>
+        <Key ID="STR_cav_vehicles_dragoon_cav_dragoon_Unarmed_D">
+            <English>M1133 MEV (Desert)</English>
+        </Key>
+        <Key ID="STR_cav_vehicles_dragoon_cav_dragoon_Unarmed_A">
+            <English>M1133 MEV (Arctic)</English>
+        </Key>
+        <Key ID="STR_cav_vehicles_dragoon_cav_dragoon_wd_pa">
+            <English>M1296 Dragoon Performance Adjusted</English>
+        </Key>
+        <Key ID="STR_cav_vehicles_dragoon_cav_dragoon_WD_V1">
+            <English>M1296 Dragoon (Viking-1)</English>
+        </Key>
+        <Key ID="STR_cav_vehicles_dragoon_cav_dragoon_WD_V2">
+            <English>M1296 Dragoon (Viking-2)</English>
+        </Key>
+        <Key ID="STR_cav_vehicles_dragoon_cav_dragoon_WD_V3">
+            <English>M1296 Dragoon (Viking-3)</English>
+        </Key>
+        <Key ID="STR_cav_vehicles_dragoon_cav_dragoon_WD_V4">
+            <English>M1296 Dragoon (Viking-4)</English>
+        </Key>
+        <Key ID="STR_cav_vehicles_dragoon_cav_dragoon_WD_V5">
+            <English>M1296 Dragoon (Viking-5)</English>
+        </Key>
+        <Key ID="STR_cav_vehicles_dragoon_cav_dragoon_WD_V6">
+            <English>M1296 Dragoon (Viking-6)</English>
+        </Key>
+        <Key ID="STR_cav_vehicles_dragoon_cav_dragoon_WD_WH7">
+            <English>M1296 Dragoon (Warhorse-7)</English>
+        </Key>
+        <Key ID="STR_cav_vehicles_dragoon_cav_dragoon_D_V1">
+            <English>M1296 Dragoon (Viking-1)</English>
+        </Key>
+        <Key ID="STR_cav_vehicles_dragoon_cav_dragoon_D_V2">
+            <English>M1296 Dragoon (Viking-2)</English>
+        </Key>
+        <Key ID="STR_cav_vehicles_dragoon_cav_dragoon_D_V3">
+            <English>M1296 Dragoon (Viking-3)</English>
+        </Key>
+        <Key ID="STR_cav_vehicles_dragoon_cav_dragoon_D_V4">
+            <English>M1296 Dragoon (Viking-4)</English>
+        </Key>
+        <Key ID="STR_cav_vehicles_dragoon_cav_dragoon_D_V5">
+            <English>M1296 Dragoon (Viking-5)</English>
+        </Key>
+        <Key ID="STR_cav_vehicles_dragoon_cav_dragoon_D_V6">
+            <English>M1296 Dragoon (Viking-6)</English>
+        </Key>
+        <Key ID="STR_cav_vehicles_dragoon_cav_dragoon_D_WH7">
+            <English>M1296 Dragoon (Warhorse-7)</English>
+        </Key>
+        <Key ID="STR_cav_vehicles_dragoon_cav_dragoon_A_V1">
+            <English>M1296 Dragoon (Viking-1)</English>
+        </Key>
+        <Key ID="STR_cav_vehicles_dragoon_cav_dragoon_A_V2">
+            <English>M1296 Dragoon (Viking-2)</English>
+        </Key>
+        <Key ID="STR_cav_vehicles_dragoon_cav_dragoon_A_V3">
+            <English>M1296 Dragoon (Viking-3)</English>
+        </Key>
+        <Key ID="STR_cav_vehicles_dragoon_cav_dragoon_A_V4">
+            <English>M1296 Dragoon (Viking-4)</English>
+        </Key>
+        <Key ID="STR_cav_vehicles_dragoon_cav_dragoon_A_V5">
+            <English>M1296 Dragoon (Viking-5)</English>
+        </Key>
+        <Key ID="STR_cav_vehicles_dragoon_cav_dragoon_A_V6">
+            <English>M1296 Dragoon (Viking-6)</English>
+        </Key>
+        <Key ID="STR_cav_vehicles_dragoon_cav_dragoon_A_WH7">
+            <English>M1296 Dragoon (Warhorse-7)</English>
+        </Key>
+    </Package>
+</Project>
