@@ -540,6 +540,7 @@ class CfgVehicles {
     class cav_dragoon_A: cav_dragoon_base_F {
         scope = 2;
         scopeCurator = 2;
+        faction = "BLU_USA_7CAV_F";
         forceInGarage = 1;
         crew = "B_crew_F";
         typicalCargo[] = {"B_soldier_F"};
