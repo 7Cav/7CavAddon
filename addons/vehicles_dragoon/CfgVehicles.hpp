@@ -305,19 +305,19 @@ class CfgVehicles {
             class Blu_Woodland {
                 displayName = CSTRING(Blu_Woodland);
                 author = ECSTRING(main,modteam);
-                textures[] = {QPATHTOF(data\dragoon_01_ext_wd.paa),QPATHTOF(data\dragoon_02_ext_wd.paa),QPATHTOF(data\dragoon_turret_wd.paa),QPATHTOF(data\dragoon_03_ext_wd.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
+                textures[] = {QPATHTOF(data\atl\dragoon_01_ext_wd_atl.paa),QPATHTOF(data\atl\dragoon_02_ext_wd_atl.paa),QPATHTOF(data\dragoon_turret_wd.paa),QPATHTOF(data\dragoon_03_ext_wd.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
                 factions[] = {"BLU_USA_7CAV_F"};
             };
             class Blu_Desert {
                 displayName = CSTRING(Blu_Desert);
                 author = ECSTRING(main,modteam);
-                textures[] = {QPATHTOF(data\dragoon_01_ext_d.paa),QPATHTOF(data\dragoon_02_ext_d.paa),QPATHTOF(data\dragoon_turret_d.paa),QPATHTOF(data\dragoon_03_ext_d.paa),QPATHTOF(data\camonet_desert_co.paa),QPATHTOF(data\cage_desert_co.paa)};
+                textures[] = {QPATHTOF(data\atl\dragoon_01_ext_d_atl.paa),QPATHTOF(data\atl\dragoon_02_ext_d_atl.paa),QPATHTOF(data\dragoon_turret_d.paa),QPATHTOF(data\dragoon_03_ext_d.paa),QPATHTOF(data\camonet_desert_co.paa),QPATHTOF(data\cage_desert_co.paa)};
                 factions[] = {"BLU_USA_7CAV_F"};
             };
             class Blu_Alpine {
                 displayName = CSTRING(Blu_Alpine);
                 author = ECSTRING(main,modteam);
-                textures[] = {QPATHTOF(data\dragoon_01_ext_wd.paa),QPATHTOF(data\dragoon_02_ext_wd.paa),QPATHTOF(data\dragoon_turret_wd.paa),QPATHTOF(data\dragoon_03_ext_wd.paa),QPATHTOF(data\camonet_arctic_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
+                textures[] = {QPATHTOF(data\atl\dragoon_01_ext_wd_atl.paa),QPATHTOF(data\atl\dragoon_02_ext_wd_atl.paa),QPATHTOF(data\dragoon_turret_wd.paa),QPATHTOF(data\dragoon_03_ext_wd.paa),QPATHTOF(data\camonet_arctic_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
                 factions[] = {"BLU_USA_7CAV_F"};
             };
         };
@@ -350,7 +350,7 @@ class CfgVehicles {
         crew = "B_crew_F";
         typicalCargo[] = {"B_soldier_F"};
         editorSubcategory = "Cav_EdSubcat_vehicles_desert";
-        hiddenSelectionsTextures[] = {QPATHTOF(data\atl\dragoon_01_ext_d_atl.paa),QPATHTOF(data\atl\dragoon_02_ext_d_atl.paa),QPATHTOF(data\dragoon_turret_wd.paa),QPATHTOF(data\dragoon_03_ext_wd.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\atl\dragoon_01_ext_d_atl.paa),QPATHTOF(data\atl\dragoon_02_ext_d_atl.paa),QPATHTOF(data\dragoon_turret_d.paa),QPATHTOF(data\dragoon_03_ext_d.paa),QPATHTOF(data\camonet_desert_co.paa),QPATHTOF(data\cage_desert_co.paa)};
     };
     class cav_dragoon_Unarmed_A: cav_dragoon_unarmed_base_F {
         displayName = CSTRING(cav_dragoon_Unarmed_A);
