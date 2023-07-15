@@ -1,6 +1,8 @@
 class CfgVehicles {
     class APC_Wheeled_03_base_F;
-    class I_APC_Wheeled_03_cannon_F;
+    class I_APC_Wheeled_03_cannon_F: APC_Wheeled_03_base_F {
+        class Turrets;
+    };
     class cav_dragoon_base_F: I_APC_Wheeled_03_cannon_F {
         scope = 1;
         scopeCurator = 1;
@@ -290,6 +292,9 @@ class CfgVehicles {
                 mass = -50;
             };
         };
+        class Turrets: Turrets {
+            class MainTurret;
+        };
     };
     class cav_dragoon_unarmed_base_F: cav_dragoon_base_F {
         supplyRadius = 10;
@@ -374,6 +379,12 @@ class CfgVehicles {
         typicalCargo[] = {"B_soldier_F"};
         editorSubcategory = "Cav_EdSubcat_vehicles_woodland";
         hiddenSelectionsTextures[] = {QPATHTOF(data\dragoon_01_ext_wd.paa),QPATHTOF(data\dragoon_02_ext_wd.paa),QPATHTOF(data\dragoon_turret_wd.paa),QPATHTOF(data\dragoon_03_ext_wd.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
+        class Turrets: Turrets {
+            class MainTurret: MainTurret {
+                magazines[] = {"140Rnd_30mm_MP_shells_Tracer_Yellow","60Rnd_30mm_APFSDS_shells_Tracer_Yellow","60Rnd_30mm_APFSDS_shells_Tracer_Yellow","rhs_mag_762x51_M240_200","rhs_mag_762x51_M240_200","rhs_mag_762x51_M240_200","rhs_mag_762x51_M240_200","rhs_mag_762x51_M240_200","rhs_mag_762x51_M240_200","rhs_mag_762x51_M240_200","rhs_mag_762x51_M240_200","rhs_mag_2Rnd_TOW2B_AERO","rhs_mag_2Rnd_TOW2B_AERO","rhs_mag_2Rnd_TOW2BB"};
+                weapons[] = {"autocannon_30mm_CTWS","rhs_weap_m240_bradley_coax","rhs_weap_TOW_Launcher"};
+            };
+        };
     };
     class cav_dragoon_WD_PA: cav_dragoon_WD {
         displayName = CSTRING(cav_dragoon_WD_PA);
@@ -486,6 +497,12 @@ class CfgVehicles {
         typicalCargo[] = {"B_soldier_F"};
         editorSubcategory = "Cav_EdSubcat_vehicles_desert";
         hiddenSelectionsTextures[] = {QPATHTOF(data\dragoon_01_ext_d.paa),QPATHTOF(data\dragoon_02_ext_d.paa),QPATHTOF(data\dragoon_turret_d.paa),QPATHTOF(data\dragoon_03_ext_d.paa),QPATHTOF(data\camonet_desert_co.paa),QPATHTOF(data\cage_desert_co.paa)};
+        class Turrets: Turrets {
+            class MainTurret: MainTurret {
+                magazines[] = {"140Rnd_30mm_MP_shells_Tracer_Yellow","60Rnd_30mm_APFSDS_shells_Tracer_Yellow","60Rnd_30mm_APFSDS_shells_Tracer_Yellow","rhs_mag_762x51_M240_200","rhs_mag_762x51_M240_200","rhs_mag_762x51_M240_200","rhs_mag_762x51_M240_200","rhs_mag_762x51_M240_200","rhs_mag_762x51_M240_200","rhs_mag_762x51_M240_200","rhs_mag_762x51_M240_200","rhs_mag_2Rnd_TOW2B_AERO","rhs_mag_2Rnd_TOW2B_AERO","rhs_mag_2Rnd_TOW2BB"};
+                weapons[] = {"autocannon_30mm_CTWS","rhs_weap_m240_bradley_coax","rhs_weap_TOW_Launcher"};
+            };
+        };
     };
     class cav_dragoon_D_V1: cav_dragoon_D {
         forceInGarage = 0;
@@ -546,6 +563,12 @@ class CfgVehicles {
         typicalCargo[] = {"B_soldier_F"};
         editorSubcategory = "Cav_EdSubcat_vehicles_arctic";
         hiddenSelectionsTextures[] = {QPATHTOF(data\dragoon_01_ext_wd.paa),QPATHTOF(data\dragoon_02_ext_wd.paa),QPATHTOF(data\dragoon_turret_wd.paa),QPATHTOF(data\dragoon_03_ext_wd.paa),QPATHTOF(data\camonet_arctic_co.paa),QPATHTOF(data\cage_desert_co.paa)};
+        class Turrets: Turrets {
+            class MainTurret: MainTurret {
+                magazines[] = {"140Rnd_30mm_MP_shells_Tracer_Yellow","60Rnd_30mm_APFSDS_shells_Tracer_Yellow","60Rnd_30mm_APFSDS_shells_Tracer_Yellow","rhs_mag_762x51_M240_200","rhs_mag_762x51_M240_200","rhs_mag_762x51_M240_200","rhs_mag_762x51_M240_200","rhs_mag_762x51_M240_200","rhs_mag_762x51_M240_200","rhs_mag_762x51_M240_200","rhs_mag_762x51_M240_200","rhs_mag_2Rnd_TOW2B_AERO","rhs_mag_2Rnd_TOW2B_AERO","rhs_mag_2Rnd_TOW2BB"};
+                weapons[] = {"autocannon_30mm_CTWS","rhs_weap_m240_bradley_coax","rhs_weap_TOW_Launcher"};
+            };
+        };
     };
     class cav_dragoon_A_V1: cav_dragoon_A {
         displayName = CSTRING(cav_dragoon_A_V1);
