@@ -35,7 +35,11 @@ class CfgPatches {
             "cav_dragoon_A_V6",
             "cav_dragoon_A_WH7"
         };
-        weapons[] = {};
+        weapons[] = {
+            "cav_dragoon_coax",
+            "cav_dragoon_autocannon_30mm_CTWS",
+            "cav_dragoon_missile_launcher"
+        };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "cav_main",
@@ -48,5 +52,8 @@ class CfgPatches {
     };
 };
 
+#include "CfgAmmo.hpp"
+#include "CfgMagazines.hpp"
+#include "CfgWeapons.hpp"
 #include "CfgVehicles.hpp"
 #include "CfgEditorSubcategories.hpp"

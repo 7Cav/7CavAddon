@@ -175,11 +175,11 @@ class CfgVehicles {
             };
             class muzzle_rot {
                 source = "ammorandom";
-                weapon = "autocannon_30mm_CTWS";
+                weapon = "cav_dragoon_autocannon_30mm_CTWS";
             };
             class muzzle_hide {
                 source = "reload";
-                weapon = "autocannon_30mm_CTWS";
+                weapon = "cav_dragoon_autocannon_30mm_CTWS";
             };
             class HitEngine_src {
                 source = "Hit";
@@ -381,8 +381,15 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = {QPATHTOF(data\dragoon_01_ext_wd.paa),QPATHTOF(data\dragoon_02_ext_wd.paa),QPATHTOF(data\dragoon_turret_wd.paa),QPATHTOF(data\dragoon_03_ext_wd.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
         class Turrets: Turrets {
             class MainTurret: MainTurret {
-                magazines[] = {"140Rnd_30mm_MP_shells_Tracer_Yellow","60Rnd_30mm_APFSDS_shells_Tracer_Yellow","60Rnd_30mm_APFSDS_shells_Tracer_Yellow","rhs_mag_762x51_M240_200","rhs_mag_762x51_M240_200","rhs_mag_762x51_M240_200","rhs_mag_762x51_M240_200","rhs_mag_762x51_M240_200","rhs_mag_762x51_M240_200","rhs_mag_762x51_M240_200","rhs_mag_762x51_M240_200","rhs_mag_2Rnd_TOW2B_AERO","rhs_mag_2Rnd_TOW2B_AERO","rhs_mag_2Rnd_TOW2BB"};
-                weapons[] = {"autocannon_30mm_CTWS","rhs_weap_m240_bradley_coax","rhs_weap_TOW_Launcher"};
+                // TODO: ACE FCS Air Burst System & UI
+                // ace_fcs_Enabled = 1;
+                // ace_fcs_MinDistance = 50;
+                // ace_fcs_MaxDistance = 1500;
+                // discreteDistance[] = {};
+                // discreteDistanceInitIndex = 0;
+                // turretinfotype = "ACE_RscOptics_APC_Wheeled_03_gunner";
+                magazines[] = {"78Rnd_30mm_MP_shells_Tracer_Red","78Rnd_30mm_MP_shells_Tracer_Red","78Rnd_30mm_HEI_shells_Tracer_Red","78Rnd_30mm_APFSDS_shells_Tracer_Red","78Rnd_30mm_APFSDS_shells_Tracer_Red","78Rnd_30mm_APFSDS_shells_Tracer_Red","cav_mag_300Rnd_762x51_Belt_Red","cav_mag_300Rnd_762x51_Belt_Red","cav_mag_300Rnd_762x51_Belt_Red","cav_mag_300Rnd_762x51_Belt_Red","cav_mag_300Rnd_762x51_Belt_Red","cav_mag_300Rnd_762x51_Belt_Red","cav_mag_300Rnd_762x51_Belt_Red","cav_mag_300Rnd_762x51_Belt_Red","2Rnd_GAT_missiles","2Rnd_GAT_missiles","rhs_mag_2Rnd_TOW2BB"};
+                weapons[] = {"cav_dragoon_autocannon_30mm_CTWS","cav_dragoon_coax","cav_dragoon_missile_launcher"};
             };
         };
     };
@@ -499,8 +506,15 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = {QPATHTOF(data\dragoon_01_ext_d.paa),QPATHTOF(data\dragoon_02_ext_d.paa),QPATHTOF(data\dragoon_turret_d.paa),QPATHTOF(data\dragoon_03_ext_d.paa),QPATHTOF(data\camonet_desert_co.paa),QPATHTOF(data\cage_desert_co.paa)};
         class Turrets: Turrets {
             class MainTurret: MainTurret {
-                magazines[] = {"140Rnd_30mm_MP_shells_Tracer_Yellow","60Rnd_30mm_APFSDS_shells_Tracer_Yellow","60Rnd_30mm_APFSDS_shells_Tracer_Yellow","rhs_mag_762x51_M240_200","rhs_mag_762x51_M240_200","rhs_mag_762x51_M240_200","rhs_mag_762x51_M240_200","rhs_mag_762x51_M240_200","rhs_mag_762x51_M240_200","rhs_mag_762x51_M240_200","rhs_mag_762x51_M240_200","rhs_mag_2Rnd_TOW2B_AERO","rhs_mag_2Rnd_TOW2B_AERO","rhs_mag_2Rnd_TOW2BB"};
-                weapons[] = {"autocannon_30mm_CTWS","rhs_weap_m240_bradley_coax","rhs_weap_TOW_Launcher"};
+                // TODO: ACE FCS Air Burst System & UI
+                // ace_fcs_Enabled = 1;
+                // ace_fcs_MinDistance = 50;
+                // ace_fcs_MaxDistance = 1500;
+                // discreteDistance[] = {};
+                // discreteDistanceInitIndex = 0;
+                // turretinfotype = "ACE_RscOptics_APC_Wheeled_03_gunner";
+                magazines[] = {"78Rnd_30mm_MP_shells_Tracer_Red","78Rnd_30mm_MP_shells_Tracer_Red","78Rnd_30mm_HEI_shells_Tracer_Red","78Rnd_30mm_APFSDS_shells_Tracer_Red","78Rnd_30mm_APFSDS_shells_Tracer_Red","78Rnd_30mm_APFSDS_shells_Tracer_Red","cav_mag_300Rnd_762x51_Belt_Red","cav_mag_300Rnd_762x51_Belt_Red","cav_mag_300Rnd_762x51_Belt_Red","cav_mag_300Rnd_762x51_Belt_Red","cav_mag_300Rnd_762x51_Belt_Red","cav_mag_300Rnd_762x51_Belt_Red","cav_mag_300Rnd_762x51_Belt_Red","cav_mag_300Rnd_762x51_Belt_Red","2Rnd_GAT_missiles","2Rnd_GAT_missiles","rhs_mag_2Rnd_TOW2BB"};
+                weapons[] = {"cav_dragoon_autocannon_30mm_CTWS","cav_dragoon_coax","cav_dragoon_missile_launcher"};
             };
         };
     };
@@ -565,8 +579,15 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = {QPATHTOF(data\dragoon_01_ext_wd.paa),QPATHTOF(data\dragoon_02_ext_wd.paa),QPATHTOF(data\dragoon_turret_wd.paa),QPATHTOF(data\dragoon_03_ext_wd.paa),QPATHTOF(data\camonet_arctic_co.paa),QPATHTOF(data\cage_desert_co.paa)};
         class Turrets: Turrets {
             class MainTurret: MainTurret {
-                magazines[] = {"140Rnd_30mm_MP_shells_Tracer_Yellow","60Rnd_30mm_APFSDS_shells_Tracer_Yellow","60Rnd_30mm_APFSDS_shells_Tracer_Yellow","rhs_mag_762x51_M240_200","rhs_mag_762x51_M240_200","rhs_mag_762x51_M240_200","rhs_mag_762x51_M240_200","rhs_mag_762x51_M240_200","rhs_mag_762x51_M240_200","rhs_mag_762x51_M240_200","rhs_mag_762x51_M240_200","rhs_mag_2Rnd_TOW2B_AERO","rhs_mag_2Rnd_TOW2B_AERO","rhs_mag_2Rnd_TOW2BB"};
-                weapons[] = {"autocannon_30mm_CTWS","rhs_weap_m240_bradley_coax","rhs_weap_TOW_Launcher"};
+                // TODO: ACE FCS Air Burst System & UI
+                // ace_fcs_Enabled = 1;
+                // ace_fcs_MinDistance = 50;
+                // ace_fcs_MaxDistance = 1500;
+                // discreteDistance[] = {};
+                // discreteDistanceInitIndex = 0;
+                // turretinfotype = "ACE_RscOptics_APC_Wheeled_03_gunner";
+                magazines[] = {"78Rnd_30mm_MP_shells_Tracer_Red","78Rnd_30mm_MP_shells_Tracer_Red","78Rnd_30mm_HEI_shells_Tracer_Red","78Rnd_30mm_APFSDS_shells_Tracer_Red","78Rnd_30mm_APFSDS_shells_Tracer_Red","78Rnd_30mm_APFSDS_shells_Tracer_Red","cav_mag_300Rnd_762x51_Belt_Red","cav_mag_300Rnd_762x51_Belt_Red","cav_mag_300Rnd_762x51_Belt_Red","cav_mag_300Rnd_762x51_Belt_Red","cav_mag_300Rnd_762x51_Belt_Red","cav_mag_300Rnd_762x51_Belt_Red","cav_mag_300Rnd_762x51_Belt_Red","cav_mag_300Rnd_762x51_Belt_Red","2Rnd_GAT_missiles","2Rnd_GAT_missiles","rhs_mag_2Rnd_TOW2BB"};
+                weapons[] = {"cav_dragoon_autocannon_30mm_CTWS","cav_dragoon_coax","cav_dragoon_missile_launcher"};
             };
         };
     };
