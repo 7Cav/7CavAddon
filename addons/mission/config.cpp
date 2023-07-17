@@ -10,11 +10,9 @@ class CfgPatches {
             "cav_main",
             "cav_common"
         };
-        author = ECSTRING(Main,ModTeam);
+        author = ECSTRING(main,modteam);
         authors[] = {"Brostrom.A (Evul)"};
-        url = ECSTRING(Main,Url);
+        url = ECSTRING(main,URL);
         VERSION_CONFIG;
     };
 };
-
-//#include "CfgOrbat.hpp"
