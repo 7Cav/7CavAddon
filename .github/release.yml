@@ -1,0 +1,4 @@
+﻿changelog:
+  exclude:
+    labels:
+      - ignore changelog
