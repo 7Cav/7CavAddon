@@ -20,7 +20,12 @@ sed -e "s/build = 0/build = $versionBuild/g" ".hemtt/project.toml" |  Set-Conten
 
 hemtt.exe release
 
+Expand-Archive -Path "releases/cav-latest.zip" -DestinationPath "releases/." -Force
+Remove-Item "releases/*.*"
+Move-Item -Path "releases/@cav" -Destination "releases/@7CavAddon" -Force
+Compress-Archive -Path "releases/@7CavAddon" -DestinationPath "releases/7CavAddon_$tagVersion.zip" -Force
+
 # Clean up
 Write-Host "Restoring version files..."
-git checkout origin/master mod.cpp
-git checkout origin/master .hemtt/project.toml
+git checkout origin/main mod.cpp
+git checkout origin/main .hemtt/project.toml

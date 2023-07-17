@@ -23,7 +23,18 @@ sed -i "s/build = 0/build = $versionBuild/g" ".hemtt/project.toml"
 
 hemtt release
 
+cd releases
+echo "Unziping archive"
+unzip cav-latest.zip
+rm *.*
+echo "Renamed folder"
+mv @cav @7CavAddon
+echo "Ziping archive"
+zip 7CavAddon_$tagVersion-hemtt.zip -r @7CavAddon
+rm -rf releases
+cd ..
+
 # Clean up
-#echo "Restoring version files..."
-#git checkout origin/master mod.cpp
-#git checkout origin/master .hemtt/project.toml
+echo "Restoring version files..."
+git checkout origin/main mod.cpp
+git checkout origin/main .hemtt/project.toml
