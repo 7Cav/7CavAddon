@@ -17,7 +17,8 @@ class CfgWeapons {
 	class cav_dragoon_missile_launcher: missiles_titan {
 		scope = 2;
 		displayName = CSTRING(cav_dragoon_missile_launcher);
-		magazines[] = {"2Rnd_GAT_missiles","cav_2Rnd_GAA_missiles","rhs_mag_2Rnd_TOW","rhs_mag_2Rnd_TOWB","rhs_mag_2Rnd_ITOW","rhs_mag_2Rnd_TOW2","rhs_mag_2Rnd_TOW2A","rhs_mag_2Rnd_TOW2B","rhs_mag_2Rnd_TOW2B_AERO","rhs_mag_2Rnd_TOW2BB"};
+		magazines[] = {"1Rnd_GAT_missiles"};
+		magazineReloadTime = 60;
 	};
 	class LMG_coax_ext;
 	class cav_dragoon_coax_base: LMG_coax_ext {

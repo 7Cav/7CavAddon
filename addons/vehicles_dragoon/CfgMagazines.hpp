@@ -3,6 +3,7 @@ class CfgMagazines {
 	class 78Rnd_30mm_MP_shells_Tracer_Red: 140Rnd_30mm_MP_shells_Tracer_Red {
 		displayName = CSTRING(78Rnd_30mm_MP_shells_Tracer_Red);
 		displayNameShort = CSTRING(78Rnd_30mm_MP_shells_Tracer_Red_dispShort);
+		displayNameMFDFormat = "MP-T";
 		count=78;
 	};
 	class 60Rnd_30mm_APFSDS_shells_Tracer_Red;
@@ -13,6 +14,7 @@ class CfgMagazines {
 	};
 	class 78Rnd_30mm_HEI_shells_Tracer_Red: 78Rnd_30mm_MP_shells_Tracer_Red {
 		ammo = "cav_B_30mm_HEI_Tracer_Red";
+		displayNameMFDFormat = "HEI-T";
 		displayName = CSTRING(78Rnd_30mm_HEI_shells_Tracer_Red);
 		displayNameShort = CSTRING(78Rnd_30mm_HEI_shells_Tracer_Red_dispShort);
 	};

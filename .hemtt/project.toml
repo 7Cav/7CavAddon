@@ -32,3 +32,6 @@ preset = "Hemtt"
 workshop = [
     "450814997", # CBA_A3's Workshop ID
 ]
+
+[hemtt.dev]
+exclude = ["addons/gear"]
