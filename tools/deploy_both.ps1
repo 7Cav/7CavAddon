@@ -29,9 +29,9 @@ cd $PSScriptRoot
 cd $PSScriptRoot\..
 
 Write-Host "Renaming and saving hemtt release in temp"
-New-Item -ItemType Directory -Path temp -Force >$null 2>&1
+New-Item -ItemType Directory -Path tools\temp -Force >$null 2>&1
 Rename-Item -Path .\releases\7CavAddon_$tagVersion.zip -NewName 7CavAddon_$tagVersion-hemtt.zip
-Move-Item -Path .\releases\7CavAddon_$tagVersion-hemtt.zip -Destination .\temp\.
+Move-Item -Path .\releases\7CavAddon_$tagVersion-hemtt.zip -Destination .\tools\temp\.
 
 
 # Pbo Project
@@ -42,5 +42,5 @@ cd $PSScriptRoot\..
 
 # Rename hemtt zip
 Rename-Item -Path .\releases\7CavAddon_$tagVersion.zip -NewName 7CavAddon_$tagVersion-pboProject.zip
-Move-Item -Path .\temp\7CavAddon_$tagVersion-hemtt.zip -Destination .\releases\.
+Move-Item -Path .\tools\temp\7CavAddon_$tagVersion-hemtt.zip -Destination .\releases\.
 Remove-Item .\temp -Force -Recurse -ErrorAction 'silentlycontinue'
