@@ -8,5 +8,7 @@ texHeaders.bin
 *.biprivatekey
 [Rr]eleases/*
 [Rr]elease/*
-[Ki]eys/*
+[Kk]eys/*
 .hemttout
+[Tt]emp
+[.Tt]emp
