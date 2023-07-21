@@ -43,4 +43,4 @@ cd $PSScriptRoot\..
 # Rename hemtt zip
 Rename-Item -Path .\releases\7CavAddon_$tagVersion.zip -NewName 7CavAddon_$tagVersion-pboProject.zip
 Move-Item -Path .\tools\temp\7CavAddon_$tagVersion-hemtt.zip -Destination .\releases\.
-Remove-Item .\temp -Force -Recurse -ErrorAction 'silentlycontinue'
+Remove-Item .\tools\temp -Force -Recurse -ErrorAction 'SilentlyContinue'
