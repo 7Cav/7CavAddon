@@ -1,5 +1,4 @@
 class CfgVehicles {
-    class APC_Wheeled_03_base_F;
     class I_APC_Wheeled_03_cannon_F;
     class cav_dragoon_base_F: I_APC_Wheeled_03_cannon_F {
         scope = 1;
