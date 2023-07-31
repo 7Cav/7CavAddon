@@ -1,6 +1,6 @@
 class CfgVehicles {
     class Cav_B_Soldier_base_F;
-    class Cav_B_Training_base_F : Cav_B_Soldier_base_F {
+    class Cav_B_Training_base_F: Cav_B_Soldier_base_F {
         _generalMacro = "Cav_B_Training_base_F";
         scope = 1;
         scopeCurator = 0;
@@ -40,7 +40,7 @@ class CfgVehicles {
         };
     };
 
-    class Cav_B_Training_Cadre_F : Cav_B_Training_base_F {
+    class Cav_B_Training_Cadre_F: Cav_B_Training_base_F {
         _generalMacro = "Cav_B_Training_base_F";
         scope = 2;
         scopeCurator = 0;
@@ -48,7 +48,7 @@ class CfgVehicles {
 
         icon = "iconManLeader";
     };
-    class Cav_B_Training_Drill_Instructor_F : Cav_B_Training_base_F {
+    class Cav_B_Training_Drill_Instructor_F: Cav_B_Training_base_F {
         _generalMacro = "Cav_B_Training_base_F";
         scope = 2;
         scopeCurator = 0;
@@ -57,14 +57,14 @@ class CfgVehicles {
         icon = "iconManOfficer";
     };
 
-    class Cav_B_Training_Cadet_F : Cav_B_Training_base_F {
+    class Cav_B_Training_Cadet_F: Cav_B_Training_base_F {
         _generalMacro = "Cav_B_Training_base_F";
         scope = 2;
         scopeCurator = 0;
         displayName = CSTRING(Cav_B_Training_Cadet_F);
     };
 
-    class Cav_B_Training_Instructor_F : Cav_B_Training_base_F {
+    class Cav_B_Training_Instructor_F: Cav_B_Training_base_F {
         _generalMacro = "Cav_B_Training_base_F";
         scope = 2;
         scopeCurator = 0;
@@ -72,13 +72,13 @@ class CfgVehicles {
         
         icon = "iconManLeader";
     };
-    class Cav_B_Training_Trainee_F : Cav_B_Training_base_F {
+    class Cav_B_Training_Trainee_F: Cav_B_Training_base_F {
         _generalMacro = "Cav_B_Training_base_F";
         scope = 2;
         scopeCurator = 0;
         displayName = CSTRING(Cav_B_Training_Trainee_F);
     };
-    class Cav_B_Training_Recruit_F : Cav_B_Training_base_F {
+    class Cav_B_Training_Recruit_F: Cav_B_Training_base_F {
         _generalMacro = "Cav_B_Training_base_F";
         scope = 2;
         scopeCurator = 0;

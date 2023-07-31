@@ -1,6 +1,6 @@
 class CfgVehicles {
     class B_Soldier_base_F;
-    class Cav_B_Soldier_base_F : B_Soldier_base_F {
+    class Cav_B_Soldier_base_F: B_Soldier_base_F {
         _generalMacro = "Cav_B_Soldier_base_F";
         scope = 1;
         scopeCurator = 0;
@@ -8,6 +8,7 @@ class CfgVehicles {
         author = ECSTRING(Main,ModTeam);
         //editorPreview = QPATHTOF(EditorPreviews\I_Cav_base_F.jpg);
 
+        cav_regiment = "7th Cavalry"
         cav_company = "";
         cav_platoon = -1;
         cav_squad = -1;
@@ -67,7 +68,7 @@ class CfgVehicles {
             "rhsusf_ANPVS_14"
         };
     };
-    class Cav_I_Soldier_base_F : Cav_B_Soldier_base_F {
+    class Cav_I_Soldier_base_F: Cav_B_Soldier_base_F {
         _generalMacro = "Cav_I_Soldier_base_F";
 
         side = 0;
