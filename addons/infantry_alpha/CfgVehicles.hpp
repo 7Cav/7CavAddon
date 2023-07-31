@@ -13,6 +13,8 @@ class CfgVehicles {
         icon = "iconMan";
         editorSubcategory = "Cav_EdSubcat_Infantry_Alpha";
 
+        ACE_GForceCoef = 0.55;
+
         uniformClass = "rhs_uniform_cu_ocp_1stcav";
 
         weapons[] = {"rhs_weap_m4a1_carryhandle","Throw","Put"};
@@ -55,6 +57,8 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 0;
         displayName = CSTRING(Cav_B_Training_Cadre_F);
+
+        ACE_GForceCoef = 1;
     };
 
     class Cav_B_A_Pilot_F: Cav_B_Alpha_Company_base_F {
