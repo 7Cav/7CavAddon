@@ -544,7 +544,7 @@ class CfgVehicles {
         crew = "B_crew_F";
         typicalCargo[] = {"B_soldier_F"};
         editorSubcategory = "Cav_EdSubcat_vehicles_arctic";
-        hiddenSelectionsTextures[] = {QPATHTOF(data\dragoon_01_ext_wd.paa),QPATHTOF(data\dragoon_02_ext_wd.paa),QPATHTOF(data\dragoon_turret_wd.paa),QPATHTOF(data\dragoon_03_ext_wd.paa),QPATHTOF(data\camonet_arctic_co.paa),QPATHTOF(data\cage_desert_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\dragoon_01_ext_wd.paa),QPATHTOF(data\dragoon_02_ext_wd.paa),QPATHTOF(data\dragoon_turret_wd.paa),QPATHTOF(data\dragoon_03_ext_wd.paa),QPATHTOF(data\camonet_arctic_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
     };
     class cav_dragoon_A_V1: cav_dragoon_A {
         displayName = CSTRING(cav_dragoon_A_V1);
