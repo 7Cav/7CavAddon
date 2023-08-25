@@ -1,0 +1,46 @@
+<Project name="cav">
+    <Package name="infantry_alpha">
+        <Key ID="STR_cav_infantry_alpha_Cav_EdSubcat_Infantry_Charlie">
+            <English>Men</English>
+        </Key>
+
+
+        <Key ID="STR_cav_infantry_alpha_Cav_B_A_Officer_F">
+            <English>Officer</English>
+        </Key>
+        <Key ID="STR_cav_infantry_alpha_Cav_B_A_JTAC_F">
+            <English>JTAC</English>
+        </Key>
+
+        <Key ID="STR_cav_infantry_alpha_Cav_B_A_Pilot_F">
+            <English>Pilot</English>
+        </Key>
+        <Key ID="STR_cav_infantry_alpha_Cav_B_A_CoPilot_F">
+            <English>CoPilot</English>
+        </Key>
+
+        <Key ID="STR_cav_infantry_alpha_Cav_B_A_PilotLite_F">
+            <English>Pilot (Lite)</English>
+        </Key>
+        <Key ID="STR_cav_infantry_alpha_Cav_B_A_CoPilotLite_F">
+            <English>CoPilot (Lite)</English>
+        </Key>
+        <Key ID="STR_cav_infantry_alpha_Cav_B_A_CrewLite_F">
+            <English>Crew (Lite)</English>
+        </Key>
+
+        <Key ID="STR_cav_infantry_alpha_Cav_B_A_HelicopterPilot_F">
+            <English>Helicopter Pilot</English>
+        </Key>
+        <Key ID="STR_cav_infantry_alpha_Cav_B_A_HelicopterCrew_F">
+            <English>Helicopter Crew</English>
+        </Key>
+
+        <Key ID="STR_cav_infantry_alpha_Cav_B_A_HelicopterAttackPilot_F">
+            <English>Attack Helicopter Pilot</English>
+        </Key>
+        <Key ID="STR_cav_infantry_alpha_Cav_B_A_HelicopterAttackCoPilot_F">
+            <English>Attack Helicopter CoPilot</English>
+        </Key>
+    </Package>
+</Project>
