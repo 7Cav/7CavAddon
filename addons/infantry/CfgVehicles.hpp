@@ -119,7 +119,7 @@ class CfgVehicles {
         displayName = CSTRING(Cav_B_Officer_F);
         author = ECSTRING(Main,ModTeam);
 
-        icon = "iconManOfficer";
+        icon = "iconManMedic";
         role = "CombatLifeSaver";
     };
 
