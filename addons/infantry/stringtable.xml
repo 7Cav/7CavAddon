@@ -3,5 +3,84 @@
         <Key ID="STR_cav_infantry_trooper">
             <English>Trooper</English>
         </Key>
+
+
+        <Key ID="STR_cav_infantry_alpha_Cav_B_Officer_F">
+            <English>Officer</English>
+        </Key>
+        <Key ID="STR_cav_infantry_alpha_Cav_B_JTAC_F">
+            <English>JTAC</English>
+        </Key>
+        <Key ID="STR_cav_infantry_alpha_Cav_B_TACP_F">
+            <English>TACP</English>
+        </Key>
+
+        <Key ID="STR_cav_infantry_alpha_Cav_B_PlatoonSergeant_F">
+            <English>Platoon Sergeant</English>
+        </Key>
+        <Key ID="STR_cav_infantry_alpha_Cav_B_PlatoonLeader_F">
+            <English>Platoon Leader</English>
+        </Key>
+        <Key ID="STR_cav_infantry_alpha_Cav_B_PlatoonMedic_F">
+            <English>Platoon Medic</English>
+        </Key>
+        <Key ID="STR_cav_infantry_alpha_Cav_B_Rifleman_F">
+            <English>Rifleman</English>
+        </Key>
+        <Key ID="STR_cav_infantry_alpha_Cav_B_SquadLeader_F">
+            <English>Squad Leader</English>
+        </Key>
+        <Key ID="STR_cav_infantry_alpha_Cav_B_FireTeamLeader_F">
+            <English>Fire Team Leader</English>
+        </Key>
+        <Key ID="STR_cav_infantry_alpha_Cav_B_AutomaticRifleman_F">
+            <English>Automatic Rifleman</English>
+        </Key>
+        <Key ID="STR_cav_infantry_alpha_Cav_B_Grenadier_F">
+            <English>Grenadier</English>
+        </Key>
+        <Key ID="STR_cav_infantry_alpha_Cav_B_RiflemanAT_F">
+            <English>Rifleman (AT)</English>
+        </Key>
+        <Key ID="STR_cav_infantry_alpha_Cav_B_RiflemanLAT_F">
+            <English>Rifleman (LAT)</English>
+        </Key>
+        <Key ID="STR_cav_infantry_alpha_Cav_B_CombatLifeSaver_F">
+            <English>Combat Life Saver</English>
+        </Key>
+
+
+
+        <Key ID="STR_cav_infantry_alpha_Cav_B_A_Pilot_F">
+            <English>Pilot</English>
+        </Key>
+        <Key ID="STR_cav_infantry_alpha_Cav_B_A_CoPilot_F">
+            <English>CoPilot</English>
+        </Key>
+
+        <Key ID="STR_cav_infantry_alpha_Cav_B_A_PilotLite_F">
+            <English>Pilot (Lite)</English>
+        </Key>
+        <Key ID="STR_cav_infantry_alpha_Cav_B_A_CoPilotLite_F">
+            <English>CoPilot (Lite)</English>
+        </Key>
+        <Key ID="STR_cav_infantry_alpha_Cav_B_A_CrewLite_F">
+            <English>Crew (Lite)</English>
+        </Key>
+
+        <Key ID="STR_cav_infantry_alpha_Cav_B_A_HelicopterPilot_F">
+            <English>Helicopter Pilot</English>
+        </Key>
+        <Key ID="STR_cav_infantry_alpha_Cav_B_A_HelicopterCrew_F">
+            <English>Helicopter Crew</English>
+        </Key>
+
+        <Key ID="STR_cav_infantry_alpha_Cav_B_A_HelicopterAttackPilot_F">
+            <English>Attack Helicopter Pilot</English>
+        </Key>
+        <Key ID="STR_cav_infantry_alpha_Cav_B_A_HelicopterAttackCoPilot_F">
+            <English>Attack Helicopter CoPilot</English>
+        </Key>
+
     </Package>
 </Project>
