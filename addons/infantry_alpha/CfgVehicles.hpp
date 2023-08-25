@@ -61,6 +61,21 @@ class CfgVehicles {
         ACE_GForceCoef = 1;
     };
 
+    class Cav_B_A_JTAC_F: Cav_B_A_Officer_F {
+        _generalMacro = "Cav_B_A_JTAC_F";
+        scope = 2;
+        scopeCurator = 0;
+        displayName = CSTRING(Cav_B_A_JTAC_F);
+        author = ECSTRING(Main,ModTeam);
+    };
+    class Cav_B_A_TACP_F: Cav_B_A_Officer_F {
+        _generalMacro = "Cav_B_A_TACP_F";
+        scope = 2;
+        scopeCurator = 0;
+        displayName = CSTRING(Cav_B_A_TACP_F);
+        author = ECSTRING(Main,ModTeam);
+    };
+
     class Cav_B_A_Pilot_F: Cav_B_Alpha_Company_base_F {
         _generalMacro = "Cav_B_Training_base_F";
         scope = 2;
