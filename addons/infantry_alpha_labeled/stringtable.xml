@@ -1,0 +1,32 @@
+<Project name="cav">
+    <Package name="infantry_alpha_labeled">
+        <Key ID="STR_cav_infantry_alpha_Cav_EdSubcat_Infantry_Alpha">
+            <English>Men (Air - Named)</English>
+        </Key>
+        <Key ID="STR_cav_infantry_alpha_Cav_B_A_Groups">
+            <English>Alpha Company</English>
+        </Key>
+        
+
+        <Key ID="STR_cav_infantry_alpha_Cav_B_A_JTAC_1_F">
+            <English>JTAC (CHAOS-1)</English>
+        </Key>
+        <Key ID="STR_cav_infantry_alpha_Cav_B_A_JTAC_2_F">
+            <English>JTAC (CHAOS-2)</English>
+        </Key>
+        <Key ID="STR_cav_infantry_alpha_Cav_B_A_TACP_1_F">
+            <English>TACP (VANQUISH-1)</English>
+        </Key>
+        
+        
+        <Key ID="STR_cav_infantry_alpha_Cav_B_A_JTAC_1_Group_F">
+            <English>CHAOS-1</English>
+        </Key>
+        <Key ID="STR_cav_infantry_alpha_Cav_B_A_JTAC_2_Group_F">
+            <English>CHAOS-2</English>
+        </Key>
+        <Key ID="STR_cav_infantry_alpha_Cav_B_A_TACP_1_Group_F">
+            <English>VANQUISH-1</English>
+        </Key>
+    </Package>
+</Project>
