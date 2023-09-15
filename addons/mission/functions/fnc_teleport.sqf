@@ -28,11 +28,11 @@ params [
 ];
 
 if (isNil "_dest") exitWith {
-    ERROR_MSG_2("No valid destination given for teleporter %1 (Action named; %2).", _object, _action)
+    ERROR_MSG_2("No valid destination given for teleporter %1 (Action named; %2).", _object, _action);
 };
 
 #ifdef DEBUG_MODE_NORMAL
-    INFO_3("Teleporter action, named '%1', added to %2 with destination: %3.", _action, _object, _dest)
+    INFO_3("Teleporter action, named '%1', added to %2 with destination: %3.", _action, _object, _dest);
 #endif
 
 _object addAction [
@@ -67,7 +67,7 @@ _object addAction [
         [player, _height] call CBA_fnc_setHeight;
         titleText ["", "BLACK IN", 3];
         #ifdef DEBUG_MODE_NORMAL
-            INFO_3("%1 have been teleportet to %2 at height %3.", name player, _dest, _height)
+            INFO_3("%1 have been teleportet to %2 at height %3.", name player, _dest, _height);
         #endif
 
     }, _dest, 1.5, true, true, "", "true", 10
