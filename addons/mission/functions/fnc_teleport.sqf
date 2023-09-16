@@ -1,4 +1,4 @@
-#include "..\script_component.hpp";
+#include "..\script_component.hpp"
 /*
  * Author: CPL.Brostrom.A
  * This teleports a target to a given marker or any other kind of object.
