@@ -1,17 +1,21 @@
 name: Build
 on:
   release:
-      types: [ published, prereleased ]
+      types: [ published ]
 jobs:
-    build:
-        runs-on: ubuntu-latest
-        steps:
-            - uses: actions/checkout@v2
-            - name: Setup HEMTT
-              uses: arma-actions/hemtt@v1
-            - name: Run HEMTT build
-              run: ./tools/deploy.sh
-            - name: Upload Release
-              uses: actions/upload-artifact@v2
-              with:
-                  path: release/*.zip
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup HEMTT
+        uses: arma-actions/hemtt@v1
+      - name: Run HEMTT build
+        run: ./tools/deploy.sh
+      - name: Upload release
+        uses: svenstaro/upload-release-action@v2
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          tag: ${{ github.ref }}
+          file: release/*.zip
+          overwrite: true
+          file_glob: true
