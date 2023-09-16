@@ -35,6 +35,6 @@ rm -rf releases
 cd ..
 
 # Clean up
-echo "Restoring version files..."
-git checkout origin/main mod.cpp
-git checkout origin/main .hemtt/project.toml
+#echo "Restoring version files..."
+#git checkout origin/main mod.cpp
+#git checkout origin/main .hemtt/project.toml
