@@ -4,7 +4,7 @@ SCRIPTPATH=`dirname $(readlink -f $0)`
 cd $SCRIPTPATH
 
 # Set version
-tagVersion=$(git describe --tags --abbrev=0)
+tagVersion=$*
 echo "Build version $tagVersion"
 
 versionMajor=$(echo "$tagVersion" | cut -d. -f1)
