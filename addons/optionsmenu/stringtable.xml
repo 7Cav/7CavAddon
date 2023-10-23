@@ -10,7 +10,7 @@
         <Key ID="STR_cav_optionsmenu_joinTS1_text">
             <English>Join Training Server 1</English>
         </Key>
-        <Key ID="STR_cav_optionsmenu_joinTac1_tooltip">
+        <Key ID="STR_cav_optionsmenu_joinTS_tooltip">
             <English>Join the member only training server!</English>
         </Key>
         <Key ID="STR_cav_optionsmenu_joinTS2_text">
@@ -21,6 +21,9 @@
         </Key>
         <Key ID="STR_cav_optionsmenu_joinTSE_text">
             <English>Join Event Server</English>
+        </Key>
+        <Key ID="STR_cav_optionsmenu_joinTSE_tooltip">
+            <English>Join the 7Cav Event Server!</English>
         </Key>
 
         <Key ID="STR_cav_optionsmenu_CavJoin_tooltip">
