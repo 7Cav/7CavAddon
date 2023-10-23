@@ -17,24 +17,29 @@ class RscDisplayMain : RscStandardDisplay {
                     tooltip = CSTRING(joinTac2_tooltip);
                     y = "(3 *     1.5) *     (pixelH * pixelGrid * 2) +     (pixelH)";
                     action = "";
-                    onbuttonclick = "connectToServer ['75.6.53.62', 2302, ''];";
+                    onbuttonclick = "connectToServer ['75.6.53.50', 2302, ''];";
                     Onload = "";
                 };
                 class joinTS1 : joinTac2 {
                     text = CSTRING(joinTS1_text);
                     tooltip = CSTRING(joinTS1_tooltip);
                     y = "(4 *     1.5) *     (pixelH * pixelGrid * 2) +     (pixelH)";
-                    onbuttonclick = "connectToServer ['75.6.53.62', 2402, ''];";
+                    onbuttonclick = "connectToServer ['75.6.53.50', 2402, ''];";
                 };
                 class joinTS2 : joinTS1 {
                     text = CSTRING(joinTS2_text);
                     y = "(5 *     1.5) *     (pixelH * pixelGrid * 2) +     (pixelH)";
-                    onbuttonclick = "connectToServer ['75.6.53.62', 2502, ''];";
+                    onbuttonclick = "connectToServer ['75.6.53.50', 2502, ''];";
                 };
                 class joinTS3 : joinTS1 {
                     text = CSTRING(joinTS3_text);
                     y = "(6 *     1.5) *     (pixelH * pixelGrid * 2) +     (pixelH)";
-                    onbuttonclick = "connectToServer ['75.6.53.62', 2602, ''];";
+                    onbuttonclick = "connectToServer ['75.6.53.50', 2602, ''];";
+                };
+                class joinTSE : joinTS1 {
+                    text = CSTRING(joinTSE_text);
+                    y = "(7 *     1.5) *     (pixelH * pixelGrid * 2) +     (pixelH)";
+                    onbuttonclick = "connectToServer ['75.6.53.50', 2902, ''];";
                 };
             };
         };
