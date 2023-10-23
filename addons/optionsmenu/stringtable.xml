@@ -14,10 +14,13 @@
             <English>Join the member only training server!</English>
         </Key>
         <Key ID="STR_cav_optionsmenu_joinTS2_text">
-            <English>Join Training Server 1</English>
+            <English>Join Training Server 2</English>
         </Key>
         <Key ID="STR_cav_optionsmenu_joinTS3_text">
-            <English>Join Training Server 1</English>
+            <English>Join Training Server 3</English>
+        </Key>
+        <Key ID="STR_cav_optionsmenu_joinTSE_text">
+            <English>Join Event Server</English>
         </Key>
 
         <Key ID="STR_cav_optionsmenu_CavJoin_tooltip">
