@@ -17,4 +17,5 @@ class CfgPatches {
     };
 };
 
+#include "CfgMarkerColors.hpp"
 #include "CfgMarkers.hpp"
