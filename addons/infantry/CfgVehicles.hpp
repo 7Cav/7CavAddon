@@ -85,6 +85,8 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = CSTRING(Cav_B_JTAC_F);
         author = ECSTRING(Main,ModTeam);
+
+        icon = "iconManOfficer";
     };
     class Cav_B_TACP_F: Cav_B_Officer_F {
         _generalMacro = "Cav_B_TACP_F";
@@ -92,6 +94,8 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = CSTRING(Cav_B_TACP_F);
         author = ECSTRING(Main,ModTeam);
+        
+        icon = "iconManOfficer";
     };
 
     class Cav_B_PlatoonSergeant_F: Cav_B_Officer_F {
@@ -112,16 +116,7 @@ class CfgVehicles {
 
         icon = "iconManOfficer";
     };
-    class Cav_B_PlatoonMedic_F: Cav_B_Officer_F {
-        _generalMacro = "Cav_B_PlatoonLeader_F";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = CSTRING(Cav_B_Officer_F);
-        author = ECSTRING(Main,ModTeam);
 
-        icon = "iconManMedic";
-        role = "CombatLifeSaver";
-    };
 
     class Cav_B_Rifleman_F: Cav_B_Soldier_base_F {
         _generalMacro = "Cav_B_Rifleman_F";
@@ -186,42 +181,204 @@ class CfgVehicles {
             "rhsusf_ANPVS_14"
         };
     };
-
-    class Cav_B_Grenadier_F: Cav_B_Rifleman_F {
-        _generalMacro = "Cav_B_SquadLeader_F";
+    class Cav_B_AssistantAutomaticRifleman_F: Cav_B_Rifleman_F {
+        _generalMacro = "Cav_B_AssistantAutomaticRifleman_F";
         scope = 2;
         scopeCurator = 2;
-        displayName = CSTRING(Cav_B_SquadLeader_F);
+        displayName = CSTRING(Cav_B_AssistantAutomaticRifleman_F);
+        author = ECSTRING(Main,ModTeam);
+
+        linkedItems[] = {
+            "rhsusf_iotv_ocp_SAW",
+            "rhsusf_ach_helmet_ocp",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio",
+            "rhsusf_ANPVS_14"
+        };
+        respawnLinkedItems[] = {
+            "rhsusf_iotv_ocp_SAW",
+            "rhsusf_ach_helmet_ocp",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio",
+            "rhsusf_ANPVS_14"
+        };
+    };
+
+    class Cav_B_MachineGunner_F: Cav_B_Rifleman_F {
+        _generalMacro = "Cav_B_MachineGunner_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_B_MachineGunner_F);
+        author = ECSTRING(Main,ModTeam);
+
+        icon = "iconManLeader";
+        role = "MachineGunner";
+
+        weapons[] = {"rhs_weap_m240B","Throw","Put"};
+        respawnWeapons[] = {"rhs_weap_m240B","Throw","Put"};
+
+        magazines[] = {
+            MULT_OBJ_3(rhsusf_100Rnd_762x51_m62_tracer)
+        };
+        respawnMagazines[] = {
+            MULT_OBJ_3(rhsusf_100Rnd_762x51_m62_tracer)
+        };
+        linkedItems[] = {
+            "rhsusf_iotv_ocp_SAW",
+            "rhsusf_ach_helmet_ocp",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio",
+            "rhsusf_ANPVS_14"
+        };
+        respawnLinkedItems[] = {
+            "rhsusf_iotv_ocp_SAW",
+            "rhsusf_ach_helmet_ocp",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio",
+            "rhsusf_ANPVS_14"
+        };
+    };
+    class Cav_B_AssistantMachineGunner_F: Cav_B_Rifleman_F {
+        _generalMacro = "Cav_B_AssistantMachineGunner_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_B_AssistantMachineGunner_F);
+        author = ECSTRING(Main,ModTeam);
+
+        linkedItems[] = {
+            "rhsusf_iotv_ocp_SAW",
+            "rhsusf_ach_helmet_ocp",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio",
+            "rhsusf_ANPVS_14"
+        };
+        respawnLinkedItems[] = {
+            "rhsusf_iotv_ocp_SAW",
+            "rhsusf_ach_helmet_ocp",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio",
+            "rhsusf_ANPVS_14"
+        };
+    };
+
+    class Cav_B_Grenadier_F: Cav_B_Rifleman_F {
+        _generalMacro = "Cav_B_Grenadier_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_B_Grenadier_F);
+        author = ECSTRING(Main,ModTeam);
+    };
+
+    // AT
+    class Cav_B_RiflemanLAT_F: Cav_B_Rifleman_F {
+        _generalMacro = "Cav_B_RiflemanLAT_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_B_RiflemanLAT_F);
         author = ECSTRING(Main,ModTeam);
     };
 
     class Cav_B_RiflemanAT_F: Cav_B_Rifleman_F {
-        _generalMacro = "Cav_B_SquadLeader_F";
+        _generalMacro = "Cav_B_RiflemanAT_F";
         scope = 2;
         scopeCurator = 2;
-        displayName = CSTRING(Cav_B_SquadLeader_F);
-        author = ECSTRING(Main,ModTeam);
-    };
-    class Cav_B_RiflemanLAT_F: Cav_B_Rifleman_F {
-        _generalMacro = "Cav_B_SquadLeader_F";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = CSTRING(Cav_B_SquadLeader_F);
+        displayName = CSTRING(Cav_B_RiflemanAT_F);
         author = ECSTRING(Main,ModTeam);
 
         icon = "iconManAT";
     };
-
-    class Cav_B_CombatLifeSaver_F: Cav_B_Rifleman_F {
-        _generalMacro = "Cav_B_SquadLeader_F";
+    class Cav_B_RiflemanATAssistant_F: Cav_B_Rifleman_F {
+        _generalMacro = "Cav_B_RiflemanATAssistant_F";
         scope = 2;
         scopeCurator = 2;
-        displayName = CSTRING(Cav_B_SquadLeader_F);
+        displayName = CSTRING(Cav_B_RiflemanATAssistant_F);
+        author = ECSTRING(Main,ModTeam);
+    };
+
+    class Cav_B_RiflemanAA_F : Cav_B_Rifleman_F {
+        _generalMacro = "Cav_B_RiflemanAA_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_B_RiflemanAA_F);
+        author = ECSTRING(Main,ModTeam);
+
+        icon = "iconManAT";
+    };
+    class Cav_B_RiflemanAAAssistant_F: Cav_B_Rifleman_F {
+        _generalMacro = "Cav_B_RiflemanAAAssistant_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_B_RiflemanAAAssistant_F);
+        author = ECSTRING(Main,ModTeam);
+    };
+
+    class Cav_B_RiflemanATR_F : Cav_B_Rifleman_F {
+        _generalMacro = "Cav_B_RiflemanATR_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_B_RiflemanATR_F);
+        author = ECSTRING(Main,ModTeam);
+
+        icon = "iconManAT";
+    };
+    class Cav_B_RiflemanATRAssistant_F: Cav_B_Rifleman_F {
+        _generalMacro = "Cav_B_RiflemanATRAssistant_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_B_RiflemanATRAssistant_F);
+        author = ECSTRING(Main,ModTeam);
+    };
+
+
+    // Medical personal
+    class Cav_B_PlatoonMedic_F: Cav_B_Officer_F {
+        _generalMacro = "Cav_B_PlatoonMedic_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_B_Officer_F);
         author = ECSTRING(Main,ModTeam);
 
         icon = "iconManMedic";
         role = "CombatLifeSaver";
-    }
+
+        trait = "Medic";
+    };
+    class Cav_B_Medic_F: Cav_B_Rifleman_F {
+        _generalMacro = "Cav_B_Medic_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_B_Medic_F);
+        author = ECSTRING(Main,ModTeam);
+
+        icon = "iconManMedic";
+        role = "CombatLifeSaver";
+
+        trait = "Medic";
+    };
+    class Cav_B_CombatLifeSaver_F: Cav_B_Rifleman_F {
+        _generalMacro = "Cav_B_CombatLifeSaver_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_B_CombatLifeSaver_F);
+        author = ECSTRING(Main,ModTeam);
+
+        icon = "iconManMedic";
+        role = "CombatLifeSaver";
+
+        trait = "Medic";
+    };
 
 
     // Air - Fixed-Wings
