@@ -23,9 +23,6 @@
             <English>Platoon Leader</English>
         </Key>
 
-        <Key ID="STR_cav_infantry_Cav_B_PlatoonMedic_F">
-            <English>Platoon Medic</English>
-        </Key>
         <Key ID="STR_cav_infantry_Cav_B_Rifleman_F">
             <English>Rifleman</English>
         </Key>
@@ -76,19 +73,25 @@
         </Key>
 
 
-        <Key ID="STR_cav_infantry_Cav_B_Crew_F">
-            <English>Crew</English>
+        <Key ID="STR_cav_infantry_Cav_B_IFV_Crew_F">
+            <English>Crew (APC/IFV)</English>
         </Key>
-        <Key ID="STR_cav_infantry_Cav_B_Commander_F">
-            <English>Commander</English>
+        <Key ID="STR_cav_infantry_Cav_B_IFV_Driver_F">
+            <English>Driver (APC/IFV)</English>
         </Key>
-        <Key ID="STR_cav_infantry_Cav_B_Gunner_F">
-            <English>Gunner</English>
+        <Key ID="STR_cav_infantry_Cav_B_IFV_Commander_F">
+            <English>Commander (APC/IFV)</English>
         </Key>
-        <Key ID="STR_cav_infantry_Cav_B_Driver_F">
-            <English>Driver</English>
+        <Key ID="STR_cav_infantry_Cav_B_IFV_Gunner_F">
+            <English>Gunner (APC/IFV)</English>
         </Key>
-        
+        <Key ID="STR_cav_infantry_Cav_B_IFV_Driver_F">
+            <English>Driver (APC/IFV)</English>
+        </Key>
+
+        <Key ID="STR_cav_infantry_Cav_B_Armor_Crew_F">
+            <English>Crew (Armor)</English>
+        </Key>
         <Key ID="STR_cav_infantry_Cav_B_Armor_Commander_F">
             <English>Commander (Armor)</English>
         </Key>
@@ -96,12 +99,11 @@
             <English>Gunner (Armor)</English>
         </Key>
         <Key ID="STR_cav_infantry_Cav_B_Armor_Driver_F">
-            <English>Commander (Driver)</English>
+            <English>Driver (Armor)</English>
         </Key>
         <Key ID="STR_cav_infantry_Cav_B_Armor_Loader_F">
-            <English>Commander (Loader)</English>
+            <English>Loader (Armor)</English>
         </Key>
-
 
 
         <Key ID="STR_cav_infantry_Cav_B_Pilot_F">

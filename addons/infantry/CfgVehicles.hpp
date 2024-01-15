@@ -382,60 +382,74 @@ class CfgVehicles {
 
 
     // Crew
-    class Cav_B_Crew_F: Cav_B_Soldier_base_F {
+    class Cav_B_Crew_base_F: Cav_B_Soldier_base_F {
         _generalMacro = "Cav_B_Crew_base_F";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = CSTRING(Cav_B_Crew_F);
+        scope = 0;
+        scopeCurator = 0;
+        displayName = CSTRING(trooper);
         author = ECSTRING(Main,ModTeam);
     };
 
     // Crew - IFV/APC
-    class Cav_B_Commander_F: Cav_B_Crew_F {
-        _generalMacro = "Cav_B_Commander_F";
+    class Cav_B_IFV_Crew_F: Cav_B_Crew_base_F {
+        _generalMacro = "Cav_B_IFV_Crew_F";
         scope = 2;
         scopeCurator = 2;
-        displayName = CSTRING(Cav_B_Commander_F);
+        displayName = CSTRING(Cav_B_IFV_Crew_F);
         author = ECSTRING(Main,ModTeam);
     };
-    class Cav_B_Gunner_F: Cav_B_Crew_F {
-        _generalMacro = "Cav_B_Gunner_F";
+    class Cav_B_IFV_Commander_F: Cav_B_IFV_Crew_F {
+        _generalMacro = "Cav_B_IFV_Commander_F";
         scope = 2;
         scopeCurator = 2;
-        displayName = CSTRING(Cav_B_Gunner_F);
+        displayName = CSTRING(Cav_B_IFV_Commander_F);
         author = ECSTRING(Main,ModTeam);
     };
-    class Cav_B_Driver_F: Cav_B_Crew_F {
-        _generalMacro = "Cav_B_Driver_F";
+    class Cav_B_IFV_Gunner_F: Cav_B_IFV_Crew_F {
+        _generalMacro = "Cav_B_IFV_Gunner_F";
         scope = 2;
         scopeCurator = 2;
-        displayName = CSTRING(Cav_B_Driver_F);
+        displayName = CSTRING(Cav_B_IFV_Gunner_F);
+        author = ECSTRING(Main,ModTeam);
+    };
+    class Cav_B_IFV_Driver_F: Cav_B_IFV_Crew_F {
+        _generalMacro = "Cav_B_IFV_Driver_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_B_IFV_Driver_F);
         author = ECSTRING(Main,ModTeam);
     };
 
     // Crew - Armor
-    class Cav_B_Armor_Commander_F: Cav_B_Crew_F {
+    class Cav_B_Armor_Crew_F: Cav_B_Crew_base_F {
+        _generalMacro = "Cav_B_Armor_Crew_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_B_Armor_Crew_F);
+        author = ECSTRING(Main,ModTeam);
+    };
+    class Cav_B_Armor_Commander_F: Cav_B_Armor_Crew_F {
         _generalMacro = "Cav_B_Armor_Commander_F";
         scope = 2;
         scopeCurator = 2;
         displayName = CSTRING(Cav_B_Armor_Commander_F);
         author = ECSTRING(Main,ModTeam);
     };
-    class Cav_B_Armor_Gunner_F: Cav_B_Crew_F {
+    class Cav_B_Armor_Gunner_F: Cav_B_Armor_Crew_F {
         _generalMacro = "Cav_B_Armor_Gunner_F";
         scope = 2;
         scopeCurator = 2;
         displayName = CSTRING(Cav_B_Armor_Gunner_F);
         author = ECSTRING(Main,ModTeam);
     };
-    class Cav_B_Armor_Driver_F: Cav_B_Crew_F {
+    class Cav_B_Armor_Driver_F: Cav_B_Armor_Crew_F {
         _generalMacro = "Cav_B_Armor_Driver_F";
         scope = 2;
         scopeCurator = 2;
         displayName = CSTRING(Cav_B_Armor_Driver_F);
         author = ECSTRING(Main,ModTeam);
     };
-    class Cav_B_Armor_Loader_F: Cav_B_Crew_F {
+    class Cav_B_Armor_Loader_F: Cav_B_Armor_Crew_F {
         _generalMacro = "Cav_B_Armor_Loader_F";
         scope = 2;
         scopeCurator = 2;
