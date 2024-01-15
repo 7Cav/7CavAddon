@@ -2,7 +2,7 @@ class CfgVehicles {
     class B_Soldier_base_F;
     class Cav_B_Soldier_base_F: B_Soldier_base_F {
         _generalMacro = "Cav_B_Soldier_base_F";
-        scope = 1;
+        scope = 0;
         scopeCurator = 0;
         displayName = CSTRING(trooper);
         author = ECSTRING(Main,ModTeam);
@@ -379,6 +379,70 @@ class CfgVehicles {
 
         trait = "Medic";
     };
+
+
+    // Crew
+    class Cav_B_Crew_F: Cav_B_Soldier_base_F {
+        _generalMacro = "Cav_B_Crew_base_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_B_Crew_F);
+        author = ECSTRING(Main,ModTeam);
+    };
+
+    // Crew - IFV/APC
+    class Cav_B_Commander_F: Cav_B_Crew_F {
+        _generalMacro = "Cav_B_Commander_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_B_Commander_F);
+        author = ECSTRING(Main,ModTeam);
+    };
+    class Cav_B_Gunner_F: Cav_B_Crew_F {
+        _generalMacro = "Cav_B_Gunner_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_B_Gunner_F);
+        author = ECSTRING(Main,ModTeam);
+    };
+    class Cav_B_Driver_F: Cav_B_Crew_F {
+        _generalMacro = "Cav_B_Driver_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_B_Driver_F);
+        author = ECSTRING(Main,ModTeam);
+    };
+
+    // Crew - Armor
+    class Cav_B_Armor_Commander_F: Cav_B_Crew_F {
+        _generalMacro = "Cav_B_Armor_Commander_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_B_Armor_Commander_F);
+        author = ECSTRING(Main,ModTeam);
+    };
+    class Cav_B_Armor_Gunner_F: Cav_B_Crew_F {
+        _generalMacro = "Cav_B_Armor_Gunner_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_B_Armor_Gunner_F);
+        author = ECSTRING(Main,ModTeam);
+    };
+    class Cav_B_Armor_Driver_F: Cav_B_Crew_F {
+        _generalMacro = "Cav_B_Armor_Driver_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_B_Armor_Driver_F);
+        author = ECSTRING(Main,ModTeam);
+    };
+    class Cav_B_Armor_Loader_F: Cav_B_Crew_F {
+        _generalMacro = "Cav_B_Armor_Loader_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_B_Armor_Loader_F);
+        author = ECSTRING(Main,ModTeam);
+    };
+
 
 
     // Air - Fixed-Wings

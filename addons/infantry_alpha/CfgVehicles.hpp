@@ -1,7 +1,7 @@
 class CfgVehicles {
     class Cav_B_Officer_F;
     class Cav_B_A_Officer_F: Cav_B_Officer_F {
-        _generalMacro = "Cav_B_Training_base_F";
+        _generalMacro = "Cav_B_A_Officer_F";
         scope = 2;
         scopeCurator = 0;
 
@@ -128,7 +128,6 @@ class CfgVehicles {
         _generalMacro = "Cav_B_A_HelicopterAttackCoPilot_F";
         scope = 2;
         scopeCurator = 0;
-        displayName = CSTRING(Cav_B_A_HelicopterAttackCoPilot_F);
 
         editorSubcategory = "Cav_EdSubcat_Infantry_Alpha";
 
