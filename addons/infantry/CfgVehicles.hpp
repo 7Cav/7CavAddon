@@ -208,11 +208,11 @@ class CfgVehicles {
         };
     };
 
-    class Cav_B_MachineGunner_F: Cav_B_Rifleman_F {
-        _generalMacro = "Cav_B_MachineGunner_F";
+    class Cav_B_Machinegunner_F: Cav_B_Rifleman_F {
+        _generalMacro = "Cav_B_Machinegunner_F";
         scope = 2;
         scopeCurator = 2;
-        displayName = CSTRING(Cav_B_MachineGunner_F);
+        displayName = CSTRING(Cav_B_Machinegunner_F);
         author = ECSTRING(Main,ModTeam);
 
         icon = "iconManLeader";
@@ -246,7 +246,7 @@ class CfgVehicles {
             "rhsusf_ANPVS_14"
         };
     };
-    class Cav_B_AssistantMachineGunner_F: Cav_B_Rifleman_F {
+    class Cav_B_AssistantMachinegunner_F: Cav_B_Rifleman_F {
         _generalMacro = "Cav_B_AssistantMachineGunner_F";
         scope = 2;
         scopeCurator = 2;
