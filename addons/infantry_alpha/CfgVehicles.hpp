@@ -92,8 +92,8 @@ class CfgVehicles {
 
         cav_company = "alpha";
     };
-    class Cav_B_A_HelicopterCoPilot_F;
-    class Cav_B_A_HelicopterCoPilot_F: Cav_B_A_HelicopterCoPilot_F {
+    class Cav_B_HelicopterCoPilot_F;
+    class Cav_B_A_HelicopterCoPilot_F: Cav_B_HelicopterCoPilot_F {
         _generalMacro = "Cav_B_A_HelicopterCoPilot_F";
         scope = 2;
         scopeCurator = 0;
