@@ -33,16 +33,14 @@
         <Key ID="STR_cav_infantry_Cav_B_FireTeamLeader_F">
             <English>Fire Team Leader</English>
         </Key>
+        
         <Key ID="STR_cav_infantry_Cav_B_AutomaticRifleman_F">
             <English>Automatic Rifleman</English>
         </Key>
-        <Key ID="STR_cav_infantry_Cav_B_AutomaticRifleman_F">
-            <English>Automatic Rifleman</English>
-        </Key>
-
         <Key ID="STR_cav_infantry_Cav_B_AssistantAutomaticRifleman_F">
             <English>Automatic Rifleman Assistant</English>
         </Key>
+
         <Key ID="STR_cav_infantry_Cav_B_Machinegunner_F">
             <English>Machinegunner</English>
         </Key>

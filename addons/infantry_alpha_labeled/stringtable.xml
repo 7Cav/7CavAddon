@@ -1,7 +1,7 @@
 <Project name="cav">
     <Package name="infantry_alpha_labeled">
         <Key ID="STR_cav_infantry_alpha_labeled_Cav_EdSubcat_Infantry_Alpha_Labeled">
-            <English>Men (Alpha Named)</English>
+            <English>Men (Air - Alpha)</English>
         </Key>
     </Package>
 </Project>

@@ -461,7 +461,7 @@ class CfgVehicles {
 
     // Air - Fixed-Wings
     class Cav_B_Pilot_base_F: Cav_B_Rifleman_F {
-        _generalMacro = "Cav_B_HelicopterPilot_base_F";
+        _generalMacro = "Cav_B_Pilot_base_F";
         scope = 0;
         scopeCurator = 0;
         displayName = CSTRING(trooper);
@@ -513,7 +513,7 @@ class CfgVehicles {
     };
 
     class Cav_B_HelicopterPilot_F: Cav_B_HelicopterPilot_base_F {
-        _generalMacro = "Cav_B_TCav_B_HelicopterPilot_Fraining_base_F";
+        _generalMacro = "Cav_B_HelicopterPilot_F";
         scope = 2;
         scopeCurator = 2;
         displayName = CSTRING(Cav_B_HelicopterPilot_F);
@@ -544,6 +544,200 @@ class CfgVehicles {
         displayName = CSTRING(Cav_B_HelicopterAttackCoPilot_F);
     };
 
+    // SQUAD TEAM
+    class Cav_B_Rifleman_Alpha_F: Cav_B_Rifleman_F {
+        _generalMacro = "Cav_B_Rifleman_Alpha_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_B_Rifleman_Alpha_F);
+    };
+    class Cav_B_FireTeamLeader_Alpha_F: Cav_B_FireTeamLeader_F {
+        _generalMacro = "Cav_B_FireTeamLeader_Alpha_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_B_FireTeamLeader_Alpha_F);
+    };
+    class Cav_B_AutomaticRifleman_Alpha_F: Cav_B_AutomaticRifleman_F {
+        _generalMacro = "Cav_B_AutomaticRifleman_Alpha_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_B_AutomaticRifleman_Alpha_F);
+    };
+    class Cav_B_AssistantAutomaticRifleman_Alpha_F: Cav_B_AssistantAutomaticRifleman_F {
+        _generalMacro = "Cav_B_AssistantAutomaticRifleman_Alpha_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_B_AssistantAutomaticRifleman_Alpha_F);
+    };
+    class Cav_B_Machinegunner_Alpha_F: Cav_B_Machinegunner_F {
+        _generalMacro = "Cav_B_Machinegunner_Alpha_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_B_Machinegunner_Alpha_F);
+    };
+    class Cav_B_AssistantMachinegunner_Alpha_F: Cav_B_AssistantMachinegunner_F {
+        _generalMacro = "Cav_B_AssistantMachinegunner_Alpha_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_B_AssistantMachinegunner_Alpha_F);
+    };
+    class Cav_B_Grenadier_Alpha_F: Cav_B_Grenadier_F {
+        _generalMacro = "Cav_B_Grenadier_Alpha_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_B_Grenadier_Alpha_F);
+    };
+    class Cav_B_RiflemanLAT_Alpha_F: Cav_B_RiflemanLAT_F {
+        _generalMacro = "Cav_B_RiflemanLAT_Alpha_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_B_RiflemanLAT_Alpha_F);
+    };
+    class Cav_B_RiflemanAT_Alpha_F: Cav_B_RiflemanAT_F {
+        _generalMacro = "Cav_B_RiflemanAT_Alpha_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_B_RiflemanAT_Alpha_F);
+    };
+    class Cav_B_RiflemanATAssistant_Alpha_F: Cav_B_RiflemanATAssistant_F {
+        _generalMacro = "Cav_B_RiflemanATAssistant_Alpha_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_B_RiflemanATAssistant_Alpha_F);
+    };
+    class Cav_B_RiflemanAA_Alpha_F: Cav_B_RiflemanAA_F {
+        _generalMacro = "Cav_B_RiflemanAA_Alpha_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_B_RiflemanAA_Alpha_F);
+    };
+    class Cav_B_RiflemanAAAssistant_Alpha_F: Cav_B_RiflemanAAAssistant_F {
+        _generalMacro = "Cav_B_RiflemanAAAssistant_Alpha_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_B_RiflemanAAAssistant_Alpha_F);
+    };
+    class Cav_B_RiflemanATR_Alpha_F: Cav_B_RiflemanATR_F {
+        _generalMacro = "Cav_B_RiflemanATR_Alpha_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_B_RiflemanATR_Alpha_F);
+    };
+    class Cav_B_RiflemanATRAssistant_Alpha_F: Cav_B_RiflemanATRAssistant_F {
+        _generalMacro = "Cav_B_RiflemanATRAssistant_Alpha_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_B_RiflemanATRAssistant_Alpha_F);
+    };
+    class Cav_B_PlatoonMedic_Alpha_F: Cav_B_PlatoonMedic_F {
+        _generalMacro = "Cav_B_PlatoonMedic_Alpha_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_B_PlatoonMedic_Alpha_F);
+    };
+    class Cav_B_CombatLifeSaver_Alpha_F: Cav_B_CombatLifeSaver_F {
+        _generalMacro = "Cav_B_CombatLifeSaver_Alpha_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_B_CombatLifeSaver_Alpha_F);
+    };
+
+    class Cav_B_Rifleman_Bravo_F: Cav_B_Rifleman_F {
+        _generalMacro = "Cav_B_Rifleman_Bravo_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_B_Rifleman_Bravo_F);
+    };
+    class Cav_B_FireTeamLeader_Bravo_F: Cav_B_FireTeamLeader_F {
+        _generalMacro = "Cav_B_FireTeamLeader_Bravo_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_B_FireTeamLeader_Bravo_F);
+    };
+    class Cav_B_AutomaticRifleman_Bravo_F: Cav_B_AutomaticRifleman_F {
+        _generalMacro = "Cav_B_AutomaticRifleman_Bravo_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_B_AutomaticRifleman_Bravo_F);
+    };
+    class Cav_B_AssistantAutomaticRifleman_Bravo_F: Cav_B_AssistantAutomaticRifleman_F {
+        _generalMacro = "Cav_B_AssistantAutomaticRifleman_Bravo_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_B_AssistantAutomaticRifleman_Bravo_F);
+    };
+    class Cav_B_Machinegunner_Bravo_F: Cav_B_Machinegunner_F {
+        _generalMacro = "Cav_B_Machinegunner_Bravo_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_B_Machinegunner_Bravo_F);
+    };
+    class Cav_B_AssistantMachinegunner_Bravo_F: Cav_B_AssistantMachinegunner_F {
+        _generalMacro = "Cav_B_AssistantMachinegunner_Bravo_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_B_AssistantMachinegunner_Bravo_F);
+    };
+    class Cav_B_Grenadier_Bravo_F: Cav_B_Grenadier_F {
+        _generalMacro = "Cav_B_Grenadier_Bravo_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_B_Grenadier_Bravo_F);
+    };
+    class Cav_B_RiflemanLAT_Bravo_F: Cav_B_RiflemanLAT_F {
+        _generalMacro = "Cav_B_RiflemanLAT_Bravo_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_B_RiflemanLAT_Bravo_F);
+    };
+    class Cav_B_RiflemanAT_Bravo_F: Cav_B_RiflemanAT_F {
+        _generalMacro = "Cav_B_RiflemanAT_Bravo_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_B_RiflemanAT_Bravo_F);
+    };
+    class Cav_B_RiflemanATAssistant_Bravo_F: Cav_B_RiflemanATAssistant_F {
+        _generalMacro = "Cav_B_RiflemanATAssistant_Bravo_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_B_RiflemanATAssistant_Bravo_F);
+    };
+    class Cav_B_RiflemanAA_Bravo_F: Cav_B_RiflemanAA_F {
+        _generalMacro = "Cav_B_RiflemanAA_Bravo_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_B_RiflemanAA_Bravo_F);
+    };
+    class Cav_B_RiflemanAAAssistant_Bravo_F: Cav_B_RiflemanAAAssistant_F {
+        _generalMacro = "Cav_B_RiflemanAAAssistant_Bravo_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_B_RiflemanAAAssistant_Bravo_F);
+    };
+    class Cav_B_RiflemanATR_Bravo_F: Cav_B_RiflemanATR_F {
+        _generalMacro = "Cav_B_RiflemanATR_Bravo_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_B_RiflemanATR_Bravo_F);
+    };
+    class Cav_B_RiflemanATRAssistant_Bravo_F: Cav_B_RiflemanATRAssistant_F {
+        _generalMacro = "Cav_B_RiflemanATRAssistant_Bravo_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_B_RiflemanATRAssistant_Bravo_F);
+    };
+    class Cav_B_PlatoonMedic_Bravo_F: Cav_B_PlatoonMedic_F {
+        _generalMacro = "Cav_B_PlatoonMedic_Bravo_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_B_PlatoonMedic_Bravo_F);
+    };
+    class Cav_B_CombatLifeSaver_Bravo_F: Cav_B_CombatLifeSaver_F {
+        _generalMacro = "Cav_B_CombatLifeSaver_Bravo_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_B_CombatLifeSaver_Bravo_F);
+    };
 
     // Independent
     class Cav_I_Soldier_base_F: Cav_B_Soldier_base_F {
