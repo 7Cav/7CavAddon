@@ -24,12 +24,12 @@
         <Key ID="STR_cav_vehicles_dragoon_78Rnd_30mm_APFSDS_shells_Tracer_Red_dispShort">
             <English>APFSDS-T</English>
         </Key>
-        <!-- <Key ID="STR_cav_vehicles_dragoon_78Rnd_30mm_HEAB_shells_Tracer_Red">
+        <Key ID="STR_cav_vehicles_dragoon_78Rnd_30mm_HEAB_shells_Tracer_Red">
             <English>78Rnd HEAB Tracer (Red)</English>
         </Key>
         <Key ID="STR_cav_vehicles_dragoon_78Rnd_30mm_HEAB_shells_Tracer_Red_dispShort">
             <English>HEAB-T</English>
-        </Key> -->
+        </Key>
         <Key ID="STR_cav_vehicles_dragoon_78Rnd_30mm_HEI_shells_Tracer_Red">
             <English>78Rnd HEI Tracer (Red)</English>
         </Key>

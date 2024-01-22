@@ -1,8 +1,39 @@
 class CfgVehicles {
-    class APC_Wheeled_03_base_F;
-    class I_APC_Wheeled_03_cannon_F: APC_Wheeled_03_base_F {
+    class All {
+        class Turrets;
+    };
+
+    class AllVehicles: All {
+        class NewTurret {
+            class Turrets;
+        };
+    };
+
+    class Land: AllVehicles {};
+
+    class LandVehicle: Land {
+        class CommanderOptics;//: NewTurret {};
+    };
+    
+    class Car: LandVehicle {};
+    class Car_F: Car {};
+    class Wheeled_APC_F: Car_F {
         class Turrets {
-            class MainTurret;
+            class MainTurret: NewTurret {
+                class Turrets {
+                    class CommanderOptics: CommanderOptics {};
+                };
+            };
+        };
+    };
+    class APC_Wheeled_03_base_F: Wheeled_APC_F {
+        class Turrets: Turrets {
+            class MainTurret: MainTurret {};
+        };
+    };
+    class I_APC_Wheeled_03_cannon_F: APC_Wheeled_03_base_F {
+		class Turrets: Turrets {
+            class MainTurret: MainTurret {};
         };
     };
     class cav_dragoon_base: I_APC_Wheeled_03_cannon_F {
@@ -11,7 +42,7 @@ class CfgVehicles {
         class Turrets: Turrets {
             class MainTurret: MainTurret {
                 class Turrets: Turrets {
-                    class CommanderOptics;
+                    class CommanderOptics: CommanderOptics {};
                 };
             };
         };
@@ -308,23 +339,17 @@ class CfgVehicles {
         class Turrets: Turrets {
             class MainTurret: MainTurret {
                 // TODO: ACE FCS Air Burst System & UI
-                // ace_fcs_Enabled = 1;
-                // ace_fcs_MinDistance = 50;
-                // ace_fcs_MaxDistance = 1500;
-                // discreteDistance[] = {};
-                // discreteDistanceInitIndex = 0;
-                // turretinfotype = "ACE_RscOptics_APC_Wheeled_03_gunner";
-                magazines[] = {"78Rnd_30mm_MP_shells_Tracer_Red","78Rnd_30mm_MP_shells_Tracer_Red","78Rnd_30mm_HEI_shells_Tracer_Red","78Rnd_30mm_HEI_shells_Tracer_Red","78Rnd_30mm_APFSDS_shells_Tracer_Red","78Rnd_30mm_APFSDS_shells_Tracer_Red","cav_mag_300Rnd_762x51_Belt_Red","cav_mag_300Rnd_762x51_Belt_Red","cav_mag_300Rnd_762x51_Belt_Red","cav_mag_300Rnd_762x51_Belt_Red","cav_mag_300Rnd_762x51_Belt_Red","cav_mag_300Rnd_762x51_Belt_Red","cav_mag_300Rnd_762x51_Belt_Red","cav_mag_300Rnd_762x51_Belt_Red","1Rnd_GAT_missiles","1Rnd_GAT_missiles","1Rnd_GAT_missiles","1Rnd_GAT_missiles","SmokeLauncherMag"};
+                magazines[] = {"78Rnd_30mm_HEABT_shells_Tracer_Red","78Rnd_30mm_HEABT_shells_Tracer_Red","78Rnd_30mm_HEABT_shells_Tracer_Red","78Rnd_30mm_HEABT_shells_Tracer_Red","78Rnd_30mm_HEABT_shells_Tracer_Red","78Rnd_30mm_HEABT_shells_Tracer_Red","78Rnd_30mm_APFSDS_shells_Tracer_Red","78Rnd_30mm_APFSDS_shells_Tracer_Red","cav_mag_300Rnd_762x51_Belt_Red","cav_mag_300Rnd_762x51_Belt_Red","cav_mag_300Rnd_762x51_Belt_Red","cav_mag_300Rnd_762x51_Belt_Red","cav_mag_300Rnd_762x51_Belt_Red","cav_mag_300Rnd_762x51_Belt_Red","cav_mag_300Rnd_762x51_Belt_Red","cav_mag_300Rnd_762x51_Belt_Red","1Rnd_GAT_missiles","1Rnd_GAT_missiles","1Rnd_GAT_missiles","1Rnd_GAT_missiles","SmokeLauncherMag"};
                 weapons[] = {"cav_dragoon_autocannon_30mm_CTWS","cav_dragoon_coax","cav_dragoon_missile_launcher","SmokeLauncher"};
                 class Turrets: Turrets {
                     class CommanderOptics: CommanderOptics {
                         weapons[] = {};
                         magazines[] = {};
-
                     };
                 };
             };
         };
+        class Sounds: Sounds{};
     };
     class cav_dragoon_unarmed_base_F: cav_dragoon_base_F {
         supplyRadius = 10;

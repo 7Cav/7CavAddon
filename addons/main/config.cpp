@@ -882,7 +882,7 @@ class CfgPatches {
 
             // Mods
             "rhsusf_main",
-            "rhs_main",
+            // "rhs_main",
 
             // CBA
             "cba_ui",

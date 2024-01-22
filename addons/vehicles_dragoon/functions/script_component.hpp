@@ -1,0 +1,1 @@
+#include "\z\cav\addons\vehicles_dragoon\script_component.hpp"
