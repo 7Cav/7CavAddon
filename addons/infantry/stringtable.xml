@@ -253,5 +253,80 @@
                 <English>Bravo Combat Life Saver</English>
         </Key>
 
+
+        <!-- Independent -->
+        <Key ID="STR_cav_infantry_Cav_I_PlatoonSergeant_F">
+            <English>Platoon Sergeant</English>
+        </Key>
+        <Key ID="STR_cav_infantry_Cav_I_PlatoonLeader_F">
+            <English>Platoon Leader</English>
+        </Key>
+
+        <Key ID="STR_cav_infantry_Cav_I_Rifleman_F">
+            <English>Rifleman</English>
+        </Key>
+
+        <Key ID="STR_cav_infantry_Cav_I_SquadLeader_F">
+            <English>Squad Leader</English>
+        </Key>
+        <Key ID="STR_cav_infantry_Cav_I_FireTeamLeader_F">
+            <English>Fire Team Leader</English>
+        </Key>
+        
+        <Key ID="STR_cav_infantry_Cav_I_AutomaticRifleman_F">
+            <English>Automatic Rifleman</English>
+        </Key>
+        <Key ID="STR_cav_infantry_Cav_I_AssistantAutomaticRifleman_F">
+            <English>Automatic Rifleman Assistant</English>
+        </Key>
+
+        <Key ID="STR_cav_infantry_Cav_I_Machinegunner_F">
+            <English>Machinegunner</English>
+        </Key>
+        <Key ID="STR_cav_infantry_Cav_I_AssistantMachinegunner_F">
+            <English>Machinegunner Assistant</English>
+        </Key>
+
+        <Key ID="STR_cav_infantry_Cav_I_Grenadier_F">
+            <English>Grenadier</English>
+        </Key>
+
+
+        <Key ID="STR_cav_infantry_Cav_I_RiflemanLAT_F">
+            <English>Rifleman (LAT)</English>
+        </Key>
+
+        <Key ID="STR_cav_infantry_Cav_I_RiflemanAT_F">
+            <English>Rifleman (AT)</English>
+        </Key>
+        <Key ID="STR_cav_infantry_Cav_I_RiflemanATAssistant_F">
+            <English>Rifleman (AT Assistant)</English>
+        </Key>
+
+        <Key ID="STR_cav_infantry_Cav_I_RiflemanAA_F">
+            <English>Rifleman (AA)</English>
+        </Key>
+        <Key ID="STR_cav_infantry_Cav_I_RiflemanAAAssistant_F">
+            <English>Rifleman (AA Assistant)</English>
+        </Key>
+
+        <Key ID="STR_cav_infantry_Cav_I_RiflemanATR_F">
+            <English>Rifleman (AT)</English>
+        </Key>
+        <Key ID="STR_cav_infantry_Cav_I_RiflemanATRAssistant_F">
+            <English>Rifleman (AT Assistant)</English>
+        </Key>
+    
+
+        <Key ID="STR_cav_infantry_Cav_I_PlatoonMedic_F">
+            <English>Platoon Medic</English>
+        </Key>
+        <Key ID="STR_cav_infantry_Cav_I_Medic_F">
+            <English>Medic</English>
+        </Key>
+        <Key ID="STR_cav_infantry_Cav_I_CombatLifeSaver_F">
+            <English>Combat Life Saver</English>
+        </Key>
+
     </Package>
 </Project>

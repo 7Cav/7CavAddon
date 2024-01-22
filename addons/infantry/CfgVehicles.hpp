@@ -746,4 +746,266 @@ class CfgVehicles {
         side = 0;
         faction = "cav_ind_usa_f";
     };
+
+    class Cav_I_Rifleman_F: Cav_I_Soldier_base_F {
+        _generalMacro = "Cav_I_Rifleman_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_I_Rifleman_F);
+        author = ECSTRING(Main,ModTeam);
+    };
+
+    class Cav_I_SquadLeader_F: Cav_I_Rifleman_F {
+        _generalMacro = "Cav_I_SquadLeader_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_I_SquadLeader_F);
+        author = ECSTRING(Main,ModTeam);
+    };
+    class Cav_I_FireTeamLeader_F: Cav_I_SquadLeader_F {
+        _generalMacro = "Cav_I_FireTeamLeader_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_I_FireTeamLeader_F);
+        author = ECSTRING(Main,ModTeam);
+
+        icon = "iconManLeader";
+    };
+
+    class Cav_I_AutomaticRifleman_F: Cav_I_Rifleman_F {
+        _generalMacro = "Cav_I_AutomaticRifleman_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_I_AutomaticRifleman_F);
+        author = ECSTRING(Main,ModTeam);
+
+        icon = "iconManLeader";
+        role = "MachineGunner";
+
+        weapons[] = {"rhs_weap_m249_pip_L_para","Throw","Put"};
+        respawnWeapons[] = {"rhs_weap_m249_pip_L_para","Throw","Put"};
+
+        magazines[] = {
+            MULT_OBJ_3(rhs_200rnd_556x45_M_SAW)
+        };
+        respawnMagazines[] = {
+            MULT_OBJ_3(rhs_200rnd_556x45_M_SAW)
+        };
+        linkedItems[] = {
+            "rhsusf_iotv_ocp_SAW",
+            "rhsusf_ach_helmet_ocp",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio",
+            "rhsusf_ANPVS_14"
+        };
+        respawnLinkedItems[] = {
+            "rhsusf_iotv_ocp_SAW",
+            "rhsusf_ach_helmet_ocp",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio",
+            "rhsusf_ANPVS_14"
+        };
+    };
+    class Cav_I_AssistantAutomaticRifleman_F: Cav_I_Rifleman_F {
+        _generalMacro = "Cav_I_AssistantAutomaticRifleman_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_I_AssistantAutomaticRifleman_F);
+        author = ECSTRING(Main,ModTeam);
+
+        linkedItems[] = {
+            "rhsusf_iotv_ocp_SAW",
+            "rhsusf_ach_helmet_ocp",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio",
+            "rhsusf_ANPVS_14"
+        };
+        respawnLinkedItems[] = {
+            "rhsusf_iotv_ocp_SAW",
+            "rhsusf_ach_helmet_ocp",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio",
+            "rhsusf_ANPVS_14"
+        };
+    };
+
+    class Cav_I_Machinegunner_F: Cav_I_Rifleman_F {
+        _generalMacro = "Cav_I_Machinegunner_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_I_Machinegunner_F);
+        author = ECSTRING(Main,ModTeam);
+
+        icon = "iconManLeader";
+        role = "MachineGunner";
+
+        weapons[] = {"rhs_weap_m240B","Throw","Put"};
+        respawnWeapons[] = {"rhs_weap_m240B","Throw","Put"};
+
+        magazines[] = {
+            MULT_OBJ_3(rhsusf_100Rnd_762x51_m62_tracer)
+        };
+        respawnMagazines[] = {
+            MULT_OBJ_3(rhsusf_100Rnd_762x51_m62_tracer)
+        };
+        linkedItems[] = {
+            "rhsusf_iotv_ocp_SAW",
+            "rhsusf_ach_helmet_ocp",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio",
+            "rhsusf_ANPVS_14"
+        };
+        respawnLinkedItems[] = {
+            "rhsusf_iotv_ocp_SAW",
+            "rhsusf_ach_helmet_ocp",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio",
+            "rhsusf_ANPVS_14"
+        };
+    };
+    class Cav_I_AssistantMachinegunner_F: Cav_I_Rifleman_F {
+        _generalMacro = "Cav_I_AssistantMachineGunner_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_I_AssistantMachineGunner_F);
+        author = ECSTRING(Main,ModTeam);
+
+        linkedItems[] = {
+            "rhsusf_iotv_ocp_SAW",
+            "rhsusf_ach_helmet_ocp",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio",
+            "rhsusf_ANPVS_14"
+        };
+        respawnLinkedItems[] = {
+            "rhsusf_iotv_ocp_SAW",
+            "rhsusf_ach_helmet_ocp",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch",
+            "ItemRadio",
+            "rhsusf_ANPVS_14"
+        };
+    };
+
+    class Cav_I_Grenadier_F: Cav_I_Rifleman_F {
+        _generalMacro = "Cav_I_Grenadier_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_I_Grenadier_F);
+        author = ECSTRING(Main,ModTeam);
+    };
+
+    // AT
+    class Cav_I_RiflemanLAT_F: Cav_I_Rifleman_F {
+        _generalMacro = "Cav_I_RiflemanLAT_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_I_RiflemanLAT_F);
+        author = ECSTRING(Main,ModTeam);
+    };
+
+    class Cav_I_RiflemanAT_F: Cav_I_Rifleman_F {
+        _generalMacro = "Cav_I_RiflemanAT_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_I_RiflemanAT_F);
+        author = ECSTRING(Main,ModTeam);
+
+        icon = "iconManAT";
+    };
+    class Cav_I_RiflemanATAssistant_F: Cav_I_Rifleman_F {
+        _generalMacro = "Cav_I_RiflemanATAssistant_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_I_RiflemanATAssistant_F);
+        author = ECSTRING(Main,ModTeam);
+    };
+
+    class Cav_I_RiflemanAA_F : Cav_I_Rifleman_F {
+        _generalMacro = "Cav_I_RiflemanAA_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_I_RiflemanAA_F);
+        author = ECSTRING(Main,ModTeam);
+
+        icon = "iconManAT";
+    };
+    class Cav_I_RiflemanAAAssistant_F: Cav_I_Rifleman_F {
+        _generalMacro = "Cav_I_RiflemanAAAssistant_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_I_RiflemanAAAssistant_F);
+        author = ECSTRING(Main,ModTeam);
+    };
+
+    class Cav_I_RiflemanATR_F : Cav_I_Rifleman_F {
+        _generalMacro = "Cav_I_RiflemanATR_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_I_RiflemanATR_F);
+        author = ECSTRING(Main,ModTeam);
+
+        icon = "iconManAT";
+    };
+    class Cav_I_RiflemanATRAssistant_F: Cav_I_Rifleman_F {
+        _generalMacro = "Cav_I_RiflemanATRAssistant_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_I_RiflemanATRAssistant_F);
+        author = ECSTRING(Main,ModTeam);
+    };
+
+
+    // Medical personal
+    class Cav_I_PlatoonMedic_F: Cav_I_Officer_F {
+        _generalMacro = "Cav_I_PlatoonMedic_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_I_Officer_F);
+        author = ECSTRING(Main,ModTeam);
+
+        icon = "iconManMedic";
+        role = "CombatLifeSaver";
+
+        trait = "Medic";
+    };
+    class Cav_I_Medic_F: Cav_I_Rifleman_F {
+        _generalMacro = "Cav_I_Medic_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_I_Medic_F);
+        author = ECSTRING(Main,ModTeam);
+
+        icon = "iconManMedic";
+        role = "CombatLifeSaver";
+
+        trait = "Medic";
+    };
+    class Cav_I_CombatLifeSaver_F: Cav_I_Rifleman_F {
+        _generalMacro = "Cav_I_CombatLifeSaver_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_I_CombatLifeSaver_F);
+        author = ECSTRING(Main,ModTeam);
+
+        icon = "iconManMedic";
+        role = "CombatLifeSaver";
+
+        trait = "Medic";
+    };
 };
