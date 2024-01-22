@@ -51,9 +51,9 @@ class CfgVehicles {
         cav_company = "alpha";
     };
 
-    class Cav_B_PilotLite_F;
-    class Cav_B_A_PilotLite_F: Cav_B_PilotLite_F {
-        _generalMacro = "Cav_B_A_PilotLite_F";
+    class Cav_B_PlanePilotLite_F;
+    class Cav_B_A_PlanePilotLite_F: Cav_B_PlanePilotLite_F {
+        _generalMacro = "Cav_B_A_Plane_PilotLite_F";
         scope = 2;
         scopeCurator = 0;
         
@@ -61,9 +61,9 @@ class CfgVehicles {
 
         cav_company = "alpha";
     };
-    class Cav_B_CoPilotLite_F;
-    class Cav_B_A_CoPilotLite_F: Cav_B_CoPilotLite_F {
-        _generalMacro = "Cav_B_A_CoPilotLite_F";
+    class Cav_B_PlaneCoPilotLite_F;
+    class Cav_B_A_PlaneCoPilotLite_F: Cav_B_PlaneCoPilotLite_F {
+        _generalMacro = "Cav_B_A_Plane_CoPilotLite_F";
         scope = 2;
         scopeCurator = 0;
 
@@ -71,9 +71,9 @@ class CfgVehicles {
 
         cav_company = "alpha";
     };
-    class Cav_B_CrewLite_F;
-    class Cav_B_A_CrewLite_F: Cav_B_CrewLite_F {
-        _generalMacro = "Cav_B_A_CrewLite_F";
+    class Cav_B_PlaneCrewLite_F;
+    class Cav_B_A_PlaneCrewLite_F: Cav_B_PlaneCrewLite_F {
+        _generalMacro = "Cav_B_A_Plane_CrewLite_F";
         scope = 2;
         scopeCurator = 0;
 

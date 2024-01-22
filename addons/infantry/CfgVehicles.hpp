@@ -482,23 +482,23 @@ class CfgVehicles {
         displayName = CSTRING(Cav_B_TraCav_B_CoPilot_Fining_Cadre_F);
     };
 
-    class Cav_B_PilotLite_F: Cav_B_Pilot_base_F {
-        _generalMacro = "Cav_B_PilotLite_F";
+    class Cav_B_PlanePilotLite_F: Cav_B_Pilot_base_F {
+        _generalMacro = "Cav_B_PlanePilotLite_F";
         scope = 2;
         scopeCurator = 2;
-        displayName = CSTRING(Cav_B_PilotLite_F);
+        displayName = CSTRING(Cav_B_PlanePilotLite_F);
     };
-    class Cav_B_CoPilotLite_F: Cav_B_PilotLite_F {
-        _generalMacro = "Cav_B_CoPilotLite_F";
+    class Cav_B_PlaneCoPilotLite_F: Cav_B_PlanePilotLite_F {
+        _generalMacro = "Cav_B_PlaneCoPilotLite_F";
         scope = 2;
         scopeCurator = 2;
-        displayName = CSTRING(Cav_B_CoPilotLite_F);
+        displayName = CSTRING(Cav_B_PlaneCoPilotLite_F);
     };
-    class Cav_B_CrewLite_F: Cav_B_PilotLite_F {
-        _generalMacro = "Cav_B_CrewLite_F";
+    class Cav_B_PlaneCrewLite_F: Cav_B_PlanePilotLite_F {
+        _generalMacro = "Cav_B_PlaneCrewLite_F";
         scope = 2;
         scopeCurator = 2;
-        displayName = CSTRING(Cav_B_CrewLite_F);
+        displayName = CSTRING(Cav_B_PlaneCrewLite_F);
     };
 
 
