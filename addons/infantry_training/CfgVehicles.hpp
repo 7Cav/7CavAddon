@@ -5,7 +5,7 @@ class CfgVehicles {
         scope = 1;
         scopeCurator = 0;
 
-        cav_company = "";
+        cav_company = "training";
         cav_platoon = -1;
         cav_squad = -1;
 

@@ -1,7 +1,6 @@
 class CfgVehicles {
-
-    class Cav_B_PlatoonSergeant_F;
-    class Cav_B_B_PlatoonSergeant_2_5_F: Cav_B_PlatoonSergeant_F {
+    class Cav_B_B_PlatoonSergeant_F;
+    class Cav_B_B_PlatoonSergeant_2_5_F: Cav_B_B_PlatoonSergeant_F {
         _generalMacro = "Cav_B_B_PlatoonSergeant_2_5_F";
         scope = 2;
         scopeCurator = 0;
@@ -14,8 +13,8 @@ class CfgVehicles {
         cav_platoon = 2;
         cav_squad = 5;
     };
-    class Cav_B_PlatoonLeader_F;
-    class Cav_B_B_PlatoonLeader_2_6_F: Cav_B_PlatoonLeader_F {
+    class Cav_B_B_PlatoonLeader_F;
+    class Cav_B_B_PlatoonLeader_2_6_F: Cav_B_B_PlatoonLeader_F {
         _generalMacro = "Cav_B_B_PlatoonLeader_2_6_F";
         scope = 2;
         scopeCurator = 0;
