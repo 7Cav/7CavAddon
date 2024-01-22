@@ -1,0 +1,7 @@
+<Project name="cav">
+    <Package name="infantry_alpha_labeled">
+        <Key ID="STR_cav_infantry_alpha_labeled_Cav_EdSubcat_Infantry_HQ">
+            <English>Men (HQ)</English>
+        </Key>
+    </Package>
+</Project>
