@@ -1,4 +1,4 @@
-#include "..\script_component.hpp";
+#include "..\script_component.hpp"
 /*
  * Author: CPL.Brostrom.A, with help from Commy2
  * This function make a given gate the ability to open and close automaticly whitout much fiddeling with triggers. 

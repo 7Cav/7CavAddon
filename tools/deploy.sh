@@ -4,7 +4,7 @@ SCRIPTPATH=`dirname $(readlink -f $0)`
 cd $SCRIPTPATH
 
 # Set version
-tagVersion=$(git describe --tags --abbrev=0)
+tagVersion=$*
 echo "Build version $tagVersion"
 
 versionMajor=$(echo "$tagVersion" | cut -d. -f1)
@@ -35,6 +35,6 @@ rm -rf releases
 cd ..
 
 # Clean up
-echo "Restoring version files..."
-git checkout origin/main mod.cpp
-git checkout origin/main .hemtt/project.toml
+#echo "Restoring version files..."
+#git checkout origin/main mod.cpp
+#git checkout origin/main .hemtt/project.toml
