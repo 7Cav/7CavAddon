@@ -143,7 +143,7 @@
         <Key ID="STR_cav_infantry_Cav_B_HelicopterPilot_F">
             <English>Helicopter Pilot</English>
         </Key>
-        <Key ID="STR_cav_infantry_Cav_B_HelicopterCoPilot_F>
+        <Key ID="STR_cav_infantry_Cav_B_HelicopterCoPilot_F">
             <English>Helicopter CoPilot</English>
         </Key>
         
@@ -259,6 +259,11 @@
 
 
         <!-- Independent -->
+
+        <Key ID="STR_cav_infantry_Cav_I_Officer_F">
+            <English>Officer</English>
+        </Key>
+
         <Key ID="STR_cav_infantry_Cav_I_PlatoonSergeant_F">
             <English>Platoon Sergeant</English>
         </Key>
