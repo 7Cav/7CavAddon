@@ -102,7 +102,7 @@ class CfgVehicles {
         _generalMacro = "Cav_B_PlatoonSergeant_F";
         scope = 2;
         scopeCurator = 2;
-        displayName = CSTRING(Cav_B_Officer_F);
+        displayName = CSTRING(Cav_B_PlatoonSergeant_F);
         author = ECSTRING(Main,ModTeam);
 
         icon = "iconManOfficer";
@@ -111,7 +111,7 @@ class CfgVehicles {
         _generalMacro = "Cav_B_PlatoonLeader_F";
         scope = 2;
         scopeCurator = 2;
-        displayName = CSTRING(Cav_B_Officer_F);
+        displayName = CSTRING(Cav_B_PlatoonLeader_F);
         author = ECSTRING(Main,ModTeam);
 
         icon = "iconManOfficer";
@@ -347,7 +347,7 @@ class CfgVehicles {
         _generalMacro = "Cav_B_PlatoonMedic_F";
         scope = 2;
         scopeCurator = 2;
-        displayName = CSTRING(Cav_B_Officer_F);
+        displayName = CSTRING(Cav_B_PlatoonMedic_F);
         author = ECSTRING(Main,ModTeam);
 
         icon = "iconManMedic";
@@ -747,6 +747,36 @@ class CfgVehicles {
         faction = "cav_ind_usa_f";
     };
 
+    class Cav_I_Officer_F: Cav_I_Soldier_base_F {
+        _generalMacro = "Cav_I_Officer_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_I_Officer_F);
+        author = ECSTRING(Main,ModTeam);
+
+        icon = "iconManOfficer";
+    };
+
+    class Cav_I_PlatoonSergeant_F: Cav_I_Officer_F {
+        _generalMacro = "Cav_I_PlatoonSergeant_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_I_PlatoonSergeant_F);
+        author = ECSTRING(Main,ModTeam);
+
+        icon = "iconManOfficer";
+    };
+    class Cav_I_PlatoonLeader_F: Cav_I_Officer_F {
+        _generalMacro = "Cav_I_PlatoonLeader_F";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = CSTRING(Cav_I_PlatoonLeader_F);
+        author = ECSTRING(Main,ModTeam);
+
+        icon = "iconManOfficer";
+    };
+
+
     class Cav_I_Rifleman_F: Cav_I_Soldier_base_F {
         _generalMacro = "Cav_I_Rifleman_F";
         scope = 2;
@@ -976,7 +1006,7 @@ class CfgVehicles {
         _generalMacro = "Cav_I_PlatoonMedic_F";
         scope = 2;
         scopeCurator = 2;
-        displayName = CSTRING(Cav_I_Officer_F);
+        displayName = CSTRING(Cav_I_PlatoonMedic_F);
         author = ECSTRING(Main,ModTeam);
 
         icon = "iconManMedic";
