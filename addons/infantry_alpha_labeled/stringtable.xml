@@ -3,5 +3,16 @@
         <Key ID="STR_cav_infantry_alpha_labeled_Cav_EdSubcat_Infantry_Alpha_Labeled">
             <English>Men (Air - Alpha)</English>
         </Key>
+
+        <Key ID="STR_cav_infantry_alpha_labeled_Cav_B_A_JTAC_1_F">
+            <English>JTAC (CALLSIGN-1)</English>
+        </Key>
+        <Key ID="STR_cav_infantry_alpha_labeled_Cav_B_A_JTAC_2_F">
+            <English>JTAC (CALLSIGN-2)</English>
+        </Key>
+        <Key ID="STR_cav_infantry_alpha_labeled_Cav_B_A_TACP_1_F">
+            <English>TACP (CALLSIGN-1)</English>
+        </Key>
+
     </Package>
 </Project>

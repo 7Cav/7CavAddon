@@ -479,7 +479,7 @@ class CfgVehicles {
         _generalMacro = "Cav_B_CoPilot_F";
         scope = 2;
         scopeCurator = 0;
-        displayName = CSTRING(Cav_B_TraCav_B_CoPilot_Fining_Cadre_F);
+        displayName = CSTRING(Cav_B_CoPilot_F);
     };
 
     class Cav_B_PlanePilotLite_F: Cav_B_Pilot_base_F {

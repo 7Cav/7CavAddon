@@ -4,49 +4,49 @@
             <English>Men (Airborne - Charlie)</English>
         </Key>
 
-        <Key ID="STR_cav_infantry_Cav_B_C_SquadLeader_1_1_F">
+        <Key ID="STR_cav_infantry_charlie_labeled_Cav_B_C_SquadLeader_1_1_F">
             <English>Squad Leader (Bandit-1)</English>
         </Key>
-        <Key ID="STR_cav_infantry_Cav_B_C_SquadLeader_1_2_F">
+        <Key ID="STR_cav_infantry_charlie_labeled_Cav_B_C_SquadLeader_1_2_F">
             <English>Squad Leader (Bandit-2)</English>
         </Key>
-        <Key ID="STR_cav_infantry_Cav_B_C_SquadLeader_1_3_F">
+        <Key ID="STR_cav_infantry_charlie_labeled_Cav_B_C_SquadLeader_1_3_F">
             <English>Squad Leader (Bandit-3)</English>
         </Key>
-        <Key ID="STR_cav_infantry_Cav_B_C_SquadLeader_1_4_F">
+        <Key ID="STR_cav_infantry_charlie_labeled_Cav_B_C_SquadLeader_1_4_F">
             <English>Squad Leader (Bandit-4)</English>
         </Key>
 
-        <Key ID="STR_cav_infantry_Cav_B_C_PlatoonSergeant_1_5_F">
+        <Key ID="STR_cav_infantry_charlie_labeled_Cav_B_C_PlatoonSergeant_1_5_F">
             <English>Platoon Sergeant (Bandit-5)</English>
         </Key>
-        <Key ID="STR_cav_infantry_Cav_B_C_PlatoonLeader_1_6_F">
+        <Key ID="STR_cav_infantry_charlie_labeled_Cav_B_C_PlatoonLeader_1_6_F">
             <English>Platoon Leader (Bandit-6)</English>
         </Key>
-        <Key ID="STR_cav_infantry_Cav_B_C_PlatoonMedic_1_7_F">
+        <Key ID="STR_cav_infantry_charlie_labeled_Cav_B_C_PlatoonMedic_1_7_F">
             <English>Platoon Medic (Bandit-7)</English>
         </Key>
 
-        <Key ID="STR_cav_infantry_Cav_B_C_SquadLeader_2_1_F">
+        <Key ID="STR_cav_infantry_charlie_labeled_Cav_B_C_SquadLeader_2_1_F">
             <English>Squad Leader (Misfit-1)</English>
         </Key>
-        <Key ID="STR_cav_infantry_Cav_B_C_SquadLeader_2_2_F">
+        <Key ID="STR_cav_infantry_charlie_labeled_Cav_B_C_SquadLeader_2_2_F">
             <English>Squad Leader (Misfit-2)</English>
         </Key>
-        <Key ID="STR_cav_infantry_Cav_B_C_SquadLeader_2_3_F">
+        <Key ID="STR_cav_infantry_charlie_labeled_Cav_B_C_SquadLeader_2_3_F">
             <English>Squad Leader (Misfit-3)</English>
         </Key>
-        <Key ID="STR_cav_infantry_Cav_B_C_SquadLeader_2_4_F">
+        <Key ID="STR_cav_infantry_charlie_labeled_Cav_B_C_SquadLeader_2_4_F">
             <English>Squad Leader (Misfit-4)</English>
         </Key>
 
-        <Key ID="STR_cav_infantry_Cav_B_C_PlatoonSergeant_2_5_F">
+        <Key ID="STR_cav_infantry_charlie_labeled_Cav_B_C_PlatoonSergeant_2_5_F">
             <English>Platoon Sergeant (Misfit-5)</English>
         </Key>
-        <Key ID="STR_cav_infantry_Cav_B_C_PlatoonLeader_2_6_F">
+        <Key ID="STR_cav_infantry_charlie_labeled_Cav_B_C_PlatoonLeader_2_6_F">
             <English>Platoon Leader (Misfit-6)</English>
         </Key>
-        <Key ID="STR_cav_infantry_Cav_B_C_PlatoonMedic_2_7_F">
+        <Key ID="STR_cav_infantry_charlie_labeled_Cav_B_C_PlatoonMedic_2_7_F">
             <English>Platoon Medic (Misfit-7)</English>
         </Key>
         
