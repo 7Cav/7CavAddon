@@ -39,8 +39,7 @@ parameters = [
     "-noSplash",            # They do not need to be added to your list
     "-showScriptErrors",    # You can add additional parameters here
     "-debug",
-    "-filePatching",
-    "C:\\Users\\Jonah Pool\\Documents\\Arma 3 - Other Profiles\\SGT%2eTurn%2eJ\\missions\\StrykerDragoon_NoScripting.Stratis\\mission.sqm", # Launch into existing Editor Mission - \\ needed
+    "-filePatching"
 ]
 
 
