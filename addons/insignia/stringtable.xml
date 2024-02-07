@@ -108,6 +108,9 @@
         <Key ID="str_cav_insignia_charlie_1_4">
             <English>[7CAV] Charlie Co. 1st platoon - 4th Squad</English>
         </Key>
+        <Key ID="str_cav_insignia_charlie_1_4_colored">
+            <English>[7CAV] Charlie Co. 1st platoon - 4th Squad (Colored)</English>
+        </Key>
 
         <Key ID="str_cav_insignia_charlie_2">
             <English>[7CAV] Charlie Co. 2nd platoon</English>
