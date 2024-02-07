@@ -17,6 +17,7 @@ class CfgMagazines {
         displayNameMFDFormat = "HEI-T";
         displayName = CSTRING(78Rnd_30mm_HEI_shells_Tracer_Red);
         displayNameShort = CSTRING(78Rnd_30mm_HEI_shells_Tracer_Red_dispShort);
+        initSpeed=1100;
     };
     class 4Rnd_Titan_long_missiles;
     class cav_2Rnd_GAA_missiles: 4Rnd_Titan_long_missiles {
