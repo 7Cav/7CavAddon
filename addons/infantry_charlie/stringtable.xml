@@ -1,0 +1,7 @@
+<Project name="cav">
+    <Package name="infantry_charlie">
+        <Key ID="STR_cav_infantry_charlie_Cav_EdSubcat_Infantry_Charlie">
+            <English>Men (Airborne)</English>
+        </Key>
+    </Package>
+</Project>
