@@ -6,8 +6,15 @@
         <Key ID="STR_Cav_Main_ModTeam">
             <English>7th Cavalry S3 Mod Team</English>
         </Key>
+        
         <Key ID="STR_Cav_Main_Url">
             <English>http://7cav.us</English>
+        </Key>
+        <Key ID="STR_Cav_Main_Website">
+            <English>Website</English>
+        </Key>
+        <Key ID="STR_Cav_Main_Description">
+            <English>Issue Tracker: https://github.com/7cav/CavMod/issues</English>
         </Key>
     </Package>
 </Project>
