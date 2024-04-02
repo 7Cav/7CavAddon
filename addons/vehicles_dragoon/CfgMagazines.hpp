@@ -10,6 +10,7 @@ class CfgMagazines {
     class 78Rnd_30mm_APFSDS_shells_Tracer_Red: 60Rnd_30mm_APFSDS_shells_Tracer_Red {
         displayName = CSTRING(78Rnd_30mm_APFSDS_shells_Tracer_Red);
         displayNameShort = CSTRING(78Rnd_30mm_APFSDS_shells_Tracer_Red_dispShort);
+        displayNameMFDFormat = "APFSDS-T";
         count=78;
     };
     class 78Rnd_30mm_HEI_shells_Tracer_Red: 78Rnd_30mm_MP_shells_Tracer_Red {
