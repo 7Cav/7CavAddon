@@ -1,5 +1,54 @@
 class CfgVehicles {
-    class I_APC_Wheeled_03_cannon_F;
+    class All {
+        class Turrets;
+    };
+
+    class AllVehicles: All {
+        class NewTurret {
+            class Turrets;
+        };
+    };
+
+    class Land: AllVehicles {};
+
+    class LandVehicle: Land {
+        class CommanderOptics;
+    };
+
+    class Car: LandVehicle {};
+    class Car_F: Car {
+        class Turrets {
+            class MainTurret: NewTurret {};
+        };
+    };
+
+    class Wheeled_APC_F: Car_F {
+        class Turrets {
+            class MainTurret: NewTurret {
+                class Turrets {
+                    class CommanderOptics: CommanderOptics {};
+                };
+            };
+        };
+    };
+
+    class APC_Wheeled_03_base_F: Wheeled_APC_F {
+        class Turrets: Turrets {
+            class MainTurret: MainTurret {};
+        };
+    };
+    class I_APC_Wheeled_03_base_F: APC_Wheeled_03_base_F {};
+
+    class I_APC_Wheeled_03_cannon_F: I_APC_Wheeled_03_base_F {
+        class Turrets: Turrets {
+            class MainTurret: MainTurret {
+                class Turrets: Turrets {
+                    class CommanderOptics: CommanderOptics {};
+                };
+            };
+        };
+    };
+
     class cav_dragoon_base_F: I_APC_Wheeled_03_cannon_F {
         scope = 1;
         scopeCurator = 1;
@@ -287,6 +336,17 @@ class CfgVehicles {
                 animPeriod = 0.001;
                 initPhase = 0;
                 mass = -50;
+            };
+        };
+        class Turrets: Turrets {
+            class MainTurret: MainTurret {
+                weapons[] = {"cav_autocannon_30mm_CTWS","LMG_coax_ext","cav_dragoon_missiles_AA","SmokeLauncher"};
+                magazines[] = {"78Rnd_30mm_HEI_shells_Tracer_Red","78Rnd_30mm_HEI_shells_Tracer_Red","78Rnd_30mm_HEI_shells_Tracer_Red","78Rnd_30mm_HEI_shells_Tracer_Red","78Rnd_30mm_APFSDS_shells_Tracer_Red","78Rnd_30mm_APFSDS_shells_Tracer_Red","2000Rnd_762x51_Belt_T_Red","2000Rnd_762x51_Belt_T_Red","4Rnd_Titan_long_missiles","SmokeLauncherMag"};
+                class Turrets: Turrets {
+                    class CommanderOptics: CommanderOptics {
+                        weapons[] = {};
+                    };
+                };
             };
         };
     };
