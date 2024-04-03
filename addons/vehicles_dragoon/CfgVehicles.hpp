@@ -345,6 +345,7 @@ class CfgVehicles {
                 class Turrets: Turrets {
                     class CommanderOptics: CommanderOptics {
                         weapons[] = {};
+                        magazines[] = {};
                     };
                 };
             };
