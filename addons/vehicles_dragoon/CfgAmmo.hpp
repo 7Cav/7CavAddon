@@ -11,8 +11,8 @@ class CfgAmmo {
         ace_frag_skip = 0;  // (Optional) Skip fragmentation for this ammo type (0-disabled, 1-enabled) - information below
         ace_frag_force = 0;  // (Optional) Force fragmentation system (0-disabled, 1-enabled) - information below
         ace_vehicle_damage_incendiary = 0.3;
-        indirectHitRange = 6;
-        indirectHit = 6;
+        indirectHitRange = 4;
+        indirectHit = 8;
     };
     // TODO: FCS Air Burst
     class cav_B_30mm_HEAB_Tracer_Red: B_30mm_HE_Tracer_Red {
