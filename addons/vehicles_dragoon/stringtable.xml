@@ -1,5 +1,6 @@
 <Project name="cav">
     <Package name="vehicles_dragoon">
+        <!-- CfgEditorSubcategories -->
         <Key ID="STR_cav_vehicles_dragoon_Cav_EdSubcat_vehicles_woodland">
             <English>APC (Woodland)</English>
         </Key>
@@ -9,7 +10,43 @@
         <Key ID="STR_cav_vehicles_dragoon_Cav_EdSubcat_vehicles_arctic">
             <English>APC (Arctic)</English>
         </Key>
+        
+        <!-- CfgMagazines -->
+        <Key ID="STR_cav_vehicles_dragoon_cav_78Rnd_30mm_MP_shells_Tracer_Red">
+            <English>78Rnd MP Tracer (Red)</English>
+        </Key>
+        <Key ID="STR_cav_vehicles_dragoon_cav_78Rnd_30mm_MP_shells_Tracer_Red_dispShort">
+            <English>MP-T</English>
+        </Key>
+        <Key ID="STR_cav_vehicles_dragoon_cav_78Rnd_30mm_APFSDS_shells_Tracer_Red">
+            <English>78Rnd APFSDS Tracer (Red)</English>
+        </Key>
+        <Key ID="STR_cav_vehicles_dragoon_cav_78Rnd_30mm_APFSDS_shells_Tracer_Red_dispShort">
+            <English>APFSDS-T</English>
+        </Key>
+        <Key ID="STR_cav_vehicles_dragoon_cav_78Rnd_30mm_HEAB_shells_Tracer_Red">
+            <English>78Rnd HEAB Tracer (Red)</English>
+        </Key>
+        <Key ID="STR_cav_vehicles_dragoon_cav_78Rnd_30mm_HEAB_shells_Tracer_Red_dispShort">
+            <English>HEAB-T</English>
+        </Key>
+        <Key ID="STR_cav_vehicles_dragoon_cav_78Rnd_30mm_HEI_shells_Tracer_Red">
+            <English>78Rnd HEI Tracer (Red)</English>
+        </Key>
+        <Key ID="STR_cav_vehicles_dragoon_cav_78Rnd_30mm_HEI_shells_Tracer_Red_dispShort">
+            <English>HEI-T</English>
+        </Key>
+        <Key ID="STR_cav_vehicles_dragoon_cav_mag_300Rnd_762x51_Belt_Red">
+            <English>300Rnd Linked M80A1 EPR Belt</English>
+        </Key>
+        <Key ID="STR_cav_vehicles_dragoon_cav_2Rnd_fim92_missiles">
+            <English>2Rnd Stinger</English>
+        </Key>
+        <Key ID="STR_cav_vehicles_dragoon_cav_2Rnd_fim92_missiles_dispShort">
+            <English>Stinger</English>
+        </Key>
 
+        <!-- CfgVehicles -->
         <Key ID="STR_cav_vehicles_dragoon_cav_dragoon_base_F">
             <English>M1296 Dragoon</English>
         </Key>
@@ -159,6 +196,14 @@
         </Key>
         <Key ID="STR_cav_vehicles_dragoon_cav_dragoon_A_WH7">
             <English>M1296 Dragoon (Warhorse-7)</English>
+        </Key>
+        
+        <!-- CfgWeapons -->
+        <Key ID="STR_cav_vehicles_dragoon_cav_dragoon_coax_m240">
+            <English>M240C Coax</English>
+        </Key>
+        <Key ID="STR_cav_vehicles_dragoon_cav_dragoon_missiles_AA">
+            <English>Stinger Launcher</English>
         </Key>
     </Package>
 </Project>
