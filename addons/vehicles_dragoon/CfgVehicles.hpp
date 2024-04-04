@@ -340,8 +340,8 @@ class CfgVehicles {
         };
         class Turrets: Turrets {
             class MainTurret: MainTurret {
-                weapons[] = {"cav_autocannon_30mm_CTWS","cav_dragoon_coax_m240","cav_dragoon_missiles_AA","SmokeLauncher"};
-                magazines[] = {"cav_78Rnd_30mm_HEI_shells_Tracer_Red","cav_78Rnd_30mm_HEI_shells_Tracer_Red","cav_78Rnd_30mm_HEI_shells_Tracer_Red","cav_78Rnd_30mm_HEI_shells_Tracer_Red","cav_78Rnd_30mm_APFSDS_shells_Tracer_Red","cav_78Rnd_30mm_APFSDS_shells_Tracer_Red","2000Rnd_762x51_Belt_T_Red","cav_mag_300Rnd_762x51_Belt_Red","cav_mag_300Rnd_762x51_Belt_Red","cav_mag_300Rnd_762x51_Belt_Red","cav_mag_300Rnd_762x51_Belt_Red","cav_mag_300Rnd_762x51_Belt_Red","cav_mag_300Rnd_762x51_Belt_Red","cav_mag_300Rnd_762x51_Belt_Red","cav_2Rnd_fim92_missiles","SmokeLauncherMag"};
+                weapons[] = {"cav_autocannon_30mm_CTWS","cav_dragoon_coax_m240","SmokeLauncher"};
+                magazines[] = {"cav_78Rnd_30mm_HEI_shells_Tracer_Red","cav_78Rnd_30mm_HEI_shells_Tracer_Red","cav_78Rnd_30mm_HEI_shells_Tracer_Red","cav_78Rnd_30mm_HEI_shells_Tracer_Red","cav_78Rnd_30mm_APFSDS_shells_Tracer_Red","cav_78Rnd_30mm_APFSDS_shells_Tracer_Red","2000Rnd_762x51_Belt_T_Red","cav_mag_300Rnd_762x51_Belt_Red","cav_mag_300Rnd_762x51_Belt_Red","cav_mag_300Rnd_762x51_Belt_Red","cav_mag_300Rnd_762x51_Belt_Red","cav_mag_300Rnd_762x51_Belt_Red","cav_mag_300Rnd_762x51_Belt_Red","cav_mag_300Rnd_762x51_Belt_Red","SmokeLauncherMag"};
                 class Turrets: Turrets {
                     class CommanderOptics: CommanderOptics {
                         weapons[] = {};
