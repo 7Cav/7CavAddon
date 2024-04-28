@@ -17,5 +17,4 @@ class CfgPatches {
     };
 };
 
-#include "CfgMarkerColors.hpp"
-#include "CfgMarkers.hpp"
+#include "CfgRespawnTemplates.hpp"

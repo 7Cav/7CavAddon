@@ -28,7 +28,16 @@ git_hash = 8 # Default: 8
 [hemtt.config]
 preset = "Hemtt"
 
-[hemtt.launch]
+[hemtt.launch.default]
 workshop = [
     "450814997", # CBA_A3's Workshop ID
+    "463939057", # ACE3
+    "843577117", # RHS USAF
+]
+parameters = [
+    "-skipIntro",           # These parameters are passed to the Arma 3 executable
+    "-noSplash",            # They do not need to be added to your list
+    "-showScriptErrors",    # You can add additional parameters here
+    "-debug",
+    "-filePatching"
 ]

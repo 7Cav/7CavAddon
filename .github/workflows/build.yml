@@ -16,5 +16,5 @@ jobs:
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           tag: ${{ github.ref_name }}
-          file: release/*.zip
+          file: release/7CavAddon_${{ github.ref_name }}-hemtt.zip
           overwrite: true

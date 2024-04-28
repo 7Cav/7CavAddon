@@ -12,5 +12,8 @@
         <Key ID="STR_Cav_Markers_military_cav">
             <English>7th Cavalry</English>
         </Key>
+       <Key ID="STR_Cav_Markers_Color_Yellow">
+            <English>Cav Yellow</English>
+        </Key>
     </Package>
 </Project>

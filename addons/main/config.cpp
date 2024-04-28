@@ -882,7 +882,6 @@ class CfgPatches {
 
             // Mods
             "rhsusf_main",
-            "rhs_main",
 
             // CBA
             "cba_ui",
@@ -903,9 +902,9 @@ class CfgMods {
         picture = "A3\Ui_f\data\Logos\arma3_expansion_alpha_ca";
         hidePicture = "true";
         hideName = "true";
-        actionName = "Website";
+        actionName = CSTRING(Website);
         action = CSTRING(Url);
-        description = "Issue Tracker: https://github.com/7cav/CavMod/issues";
+        description = CSTRING(Description);
     };
 };
 

@@ -34,7 +34,7 @@ if(count _indices == 0) then { // reset all
     private _varName = format["%1_%2",_titleVariableIdentifier,_i];
     private _varId = uiNamespace getVariable _varName;
     while {!isNil "_varId"} do {
-        LOG_3("%1 - %2 - %3", _i, _varName, isNil "_varId");
+        LOG_3("%1 - %2 - %3",_i,_varName,isNil "_varId");
         uiNamespace setVariable [_varName, nil];
         INC(_i);
         _varName = format["%1_%2",_titleVariableIdentifier,_i];
