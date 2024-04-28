@@ -3,7 +3,7 @@ class CfgRespawnTemplates {
         displayName = CSTRING(cav_respawn);
         onPlayerKilled = "BIS_fnc_respawnMenuPosition";
         onPlayerRespawn = "BIS_fnc_respawnMenuPosition";
-        respawn = BASE
+        respawn = "BASE";
         respawnDelay = 4;
         respawnTypes[] = {2,3};
         respawnOnStart = -1;
