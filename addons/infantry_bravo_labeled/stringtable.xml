@@ -1,0 +1,304 @@
+<Project name="cav">
+    <Package name="Infantry_Bravo_Labeled">
+        
+
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_EdSubcat_Support_Bravo_Labeled">
+            <English>Men (Support - Bravo)</English>
+        </Key>
+
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_PlatoonSergeant_1_5_F">
+            <English>Platoon Sergeant (ATLAS-5)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_PlatoonLeader_1_6_F">
+            <English>Chief Medical Officer (ATLAS-6)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_MedicTeamLeader_1_1_F">
+            <English>Team Leader (ATLAS-1)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_MedicTeamMember_1_1_F">
+            <English>Team Member (ATLAS-1)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_Surgeon_1_1_F">
+            <English>Team Surgeon (ATLAS-1)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_MedicTeamLeader_1_2_F">
+            <English>Team Leader (ATLAS-2)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_MedicTeamMember_1_2_F">
+            <English>Team Member (ATLAS-2)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_Surgeon_1_2_F">
+            <English>Team Surgeon (ATLAS-2)</English>
+        </Key>
+
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_EngineerTeamLeader_1_3_F">
+            <English>Team Member (ATLAS-3)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_EngineerTeamMember_1_3_F">
+            <English>Team Surgeon (ATLAS-3)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_EngineerTeamLeader_1_4_F">
+            <English>Team Member (ATLAS-4)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_EngineerTeamMember_1_4_F">
+            <English>Team Surgeon (ATLAS-4)</English>
+        </Key>
+
+
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_EdSubcat_Infantry_Bravo_Labeled">
+            <English>Men (Mechanized - Bravo)</English>
+        </Key>
+
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_PlatoonSergeant_2_5_F">
+            <English>Platoon Sergeant (VIKING-5)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_PlatoonLeader_2_6_F">
+            <English>Platoon Leader (VIKING-6)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_PlatoonMedic_2_7_F">
+            <English>Platoon Medic (VIKING-7)</English>
+        </Key>
+
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_SquadLeader_2_1_F">
+            <English>Squad Leader (VIKING-1)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_SquadLeader_2_2_F">
+            <English>Squad Leader (VIKING-2)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_SquadLeader_2_3_F">
+            <English>Squad Leader (VIKING-3)</English>
+        </Key>
+
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_FireTeamLeader_2_1_A_F">
+            <English>Alpha Fire Team Leader (VIKING-1)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_FireTeamLeader_2_1_B_F">
+            <English>Bravo Fire Team Leader (VIKING-1)</English>
+        </Key>
+        
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_FireTeamLeader_2_2_A_F">
+            <English>Alpha Fire Team Leader (VIKING-2)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_FireTeamLeader_2_2_B_F">
+            <English>Bravo Fire Team Leader (VIKING-2)</English>
+        </Key>
+
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_FireTeamLeader_2_3_A_F">
+            <English>Alpha Fire Team Leader (VIKING-3)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_FireTeamLeader_2_3_B_F">
+            <English>Bravo Fire Team Leader (VIKING-3)</English>
+        </Key>
+
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_Grenadier_2_1_A_F">
+            <English>Alpha Grenadier (VIKING-1)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_Grenadier_2_1_B_F">
+            <English>Bravo Grenadier (VIKING-1)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_Grenadier_2_2_A_F">
+            <English>Alpha Grenadier (VIKING-2)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_Grenadier_2_2_B_F">
+            <English>Bravo Grenadier (VIKING-2)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_Grenadier_2_3_A_F">
+            <English>Alpha Grenadier (VIKING-3)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_Grenadier_2_3_B_F">
+            <English>Bravo Grenadier (VIKING-3)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_Grenadier_2_4_A_F">
+            <English>Alpha Grenadier (VIKING-4)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_Grenadier_2_4_B_F">
+            <English>Bravo Grenadier (VIKING-4)</English>
+        </Key>
+
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_AutomaticRifleman_2_1_A_F">
+            <English>Alpha Automatic Rifleman (VIKING-1)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_AutomaticRifleman_2_1_B_F">
+            <English>Bravo Automatic Rifleman (VIKING-1)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_AutomaticRifleman_2_2_A_F">
+            <English>Alpha Automatic Rifleman (VIKING-2)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_AutomaticRifleman_2_2_B_F">
+            <English>Bravo Automatic Rifleman (VIKING-2)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_AutomaticRifleman_2_3_A_F">
+            <English>Alpha Automatic Rifleman (VIKING-3)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_AutomaticRifleman_2_3_B_F">
+            <English>Bravo Automatic Rifleman (VIKING-3)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_AutomaticRifleman_2_4_A_F">
+            <English>Alpha Automatic Rifleman (VIKING-4)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_AutomaticRifleman_2_4_B_F">
+            <English>Bravo Automatic Rifleman (VIKING-4)</English>
+        </Key>
+
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_Rifleman_2_1_A_F">
+            <English>Alpha Rifleman (VIKING-1)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_Rifleman_2_2_A_F">
+            <English>Alpha Rifleman (VIKING-2)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_Rifleman_2_3_A_F">
+            <English>Alpha Rifleman (VIKING-3)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_Rifleman_2_4_A_F">
+            <English>Alpha Rifleman (VIKING-4)</English>
+        </Key>
+
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_CombatLifeSaver_2_1_B_F">
+            <English>Bravo Combat Life Saver (VIKING-1)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_CombatLifeSaver_2_2_B_F">
+            <English>Bravo Combat Life Saver (VIKING-2)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_CombatLifeSaver_2_3_B_F">
+            <English>Bravo Combat Life Saver (VIKING-3)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_CombatLifeSaver_2_4_B_F">
+            <English>Bravo Combat Life Saver (VIKING-4)</English>
+        </Key>
+
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_SquadLeader_2_4_F">
+            <English>Squad Leader (VIKING-4)</English>
+        </Key>
+
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_FireTeamLeader_2_4_A_F">
+            <English>Alpha Team Leader (VIKING-4)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_MachineGunner_2_4_A_F">
+            <English>Alpha Gunner (VIKING-4)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_AssistantMachineGunner_2_4_A_F">
+            <English>Alpha Assistant Gunner (VIKING-4)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_FireTeamLeader_2_4_B_F">
+            <English>Bravo Team Leader (VIKING-4)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_MachineGunner_2_4_B_F">
+            <English>Bravo Gunner (VIKING-4)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_AssistantMachineGunner_2_4_B_F">
+            <English>Bravo Assistant Gunner (VIKING-4)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_RiflemanAT_2_4_C_F">
+            <English>Charlie Gunner (VIKING-4)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_RiflemanATAssistant_2_4_C_F">
+            <English>Charlie Assistant Gunner (VIKING-4)</English>
+        </Key>
+
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_IFV_Commander_2_5_F">
+            <English>Commander (SIERRA-5)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_IFV_Commander_2_6_F">
+            <English>Commander (SIERRA-6)</English>
+        </Key>
+
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_IFV_Commander_2_1_F">
+            <English>Commander (SIERRA-1)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_IFV_Commander_2_2_F">
+            <English>Commander (SIERRA-2)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_IFV_Commander_2_3_F">
+            <English>Commander (SIERRA-3)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_IFV_Commander_2_4_F">
+            <English>Commander (SIERRA-4)</English>
+        </Key>
+        
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_IFV_Driver_2_5_F">
+            <English>Driver (SIERRA-5)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_IFV_Driver_2_6_F">
+            <English>Driver (SIERRA-6)</English>
+        </Key>
+
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_IFV_Driver_2_1_F">
+            <English>Driver (SIERRA-1)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_IFV_Driver_2_2_F">
+            <English>Driver (SIERRA-2)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_IFV_Driver_2_3_F">
+            <English>Driver (SIERRA-3)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_IFV_Driver_2_4_F">
+            <English>Driver (SIERRA-4)</English>
+        </Key>
+
+        
+        <!-- Groups -->
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_Group_1_5_F">
+            <English>Bravo Unit (ATLAS-5)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_Group_1_6_F">
+            <English>Bravo Unit (ATLAS-6)</English>
+        </Key>
+
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_Group_1_1_F">
+            <English>Bravo Medic Team (ATLAS-1)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_Group_1_2_F">
+            <English>Bravo Medic Team (ATLAS-2)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_Group_1_3_F">
+            <English>Bravo Logistics Team (ATLAS-3)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_Group_1_4_F">
+            <English>Bravo FARP Team (ATLAS-4)</English>
+        </Key>
+
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_Group_2_5_F">
+            <English>Bravo Unit (VIKING-5)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_Group_2_6_F">
+            <English>Bravo Unit (VIKING-6)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_Group_2_7_F">
+            <English>Bravo Unit (VIKING-7)</English>
+        </Key>
+
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_Group_2_1_F">
+            <English>Bravo Squad (VIKING-1)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_Group_2_2_F">
+            <English>Bravo Squad (VIKING-2)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_Group_2_3_F">
+            <English>Bravo Squad (VIKING-3)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_Group_2_4_F">
+            <English>Bravo Squad (VIKING-4)</English>
+        </Key>
+
+
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_Group_Crew_2_5_F">
+            <English>Bravo IFV Crew (SIERRA-5)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_Group_Crew_2_6_F">
+            <English>Bravo IFV Crew (SIERRA-6)</English>
+        </Key>
+
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_Group_Crew_2_1_F">
+            <English>Bravo IFV Crew (SIERRA-1)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_Group_Crew_2_2_F">
+            <English>Bravo IFV Crew (SIERRA-2)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_Group_Crew_2_3_F">
+            <English>Bravo IFV Crew (SIERRA-3)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Labeled_Cav_B_B_Group_Crew_2_4_F">
+            <English>Bravo IFV Crew (SIERRA-4)</English>
+        </Key>
+    </Package>
+</Project>

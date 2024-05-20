@@ -1,9 +1,9 @@
 <Project name="cav">
-    <Package name="respawn">
-        <Key ID="STR_cav_respawn_cav_respawn">
+    <Package name="Respawn">
+        <Key ID="STR_cav_Respawn_cav_respawn">
             <English>Respawn Operation</English>
         </Key>
-        <Key ID="STR_cav_respawn_cav_onelife">
+        <Key ID="STR_cav_Respawn_cav_onelife">
             <English>One Life Operation</English>
         </Key>
     </Package>

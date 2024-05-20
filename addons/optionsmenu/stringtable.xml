@@ -1,29 +1,29 @@
 <Project name="cav">
-    <Package name="optionsmenu">
-        <Key ID="STR_cav_optionsmenu_joinTac2_text">
+    <Package name="OptionsMenu">
+        <Key ID="STR_cav_OptionsMenu_joinTac2_text">
             <English>Join Tactical Realism</English>
         </Key>
-        <Key ID="STR_cav_optionsmenu_joinTac2_tooltip">
+        <Key ID="STR_cav_OptionsMenu_joinTac2_tooltip">
             <English>Join our public Tactical Realism server!</English>
         </Key>
 
-        <Key ID="STR_cav_optionsmenu_joinTS1_text">
+        <Key ID="STR_cav_OptionsMenu_joinTS1_text">
             <English>Join Training Server 1</English>
         </Key>
-        <Key ID="STR_cav_optionsmenu_joinTS_tooltip">
+        <Key ID="STR_cav_OptionsMenu_joinTS_tooltip">
             <English>Join the member only training server!</English>
         </Key>
-        <Key ID="STR_cav_optionsmenu_joinTS2_text">
+        <Key ID="STR_cav_OptionsMenu_joinTS2_text">
             <English>Join Training Server 2</English>
         </Key>
-        <Key ID="STR_cav_optionsmenu_joinTS3_text">
+        <Key ID="STR_cav_OptionsMenu_joinTS3_text">
             <English>Join Training Server 3</English>
         </Key>
 
-        <Key ID="STR_cav_optionsmenu_CavJoin_tooltip">
+        <Key ID="STR_cav_OptionsMenu_CavJoin_tooltip">
             <English>Enlist Today!</English>
         </Key>
-        <Key ID="STR_cav_optionsmenu_CavJoin_url">
+        <Key ID="STR_cav_OptionsMenu_CavJoin_url">
             <English>https://7cav.us/</English>
         </Key>
         

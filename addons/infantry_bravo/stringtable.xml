@@ -1,0 +1,50 @@
+<Project name="cav">
+    <Package name="Infantry_Bravo">
+        <Key ID="STR_cav_Infantry_Bravo_Cav_EdSubcat_Support_Bravo">
+            <English>Men (Support)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Cav_EdSubcat_Infantry_Bravo">
+            <English>Men (Mechanized)</English>
+        </Key>
+
+        <!-- Units -->
+        <Key ID="STR_cav_Infantry_Bravo_Cav_B_B_EngineerTeamLeader_F">
+            <English>Engineer Team Leader</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Cav_B_B_EngineerTeamMember_F">
+            <English>Engineer Team Member</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Cav_B_B_MedicTeamLeader_F">
+            <English>Medic Team Leader</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Cav_B_B_MedicTeamMember_F">
+            <English>Medic Team Member</English>
+        </Key>
+
+
+        <!-- Groups -->
+        <Key ID="STR_cav_Infantry_Bravo_Cav_support_bravo_squads_f">
+            <English>Men (Support)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Cav_infantry_bravo_squads_f">
+            <English>Men (Mechanized)</English>
+        </Key>
+        
+        <Key ID="STR_cav_Infantry_Bravo_cav_b_infantry_bravo_mechanized_squad_f">
+            <English>Infantry Squad (Mechanized)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_cav_b_infantry_bravo_mechanized_weaponssquad_f">
+            <English>Infantry Squad (Mechanized - Weapons)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_cav_b_infantry_bravo_mechanized_ifvcrew_f">
+            <English>IFV Crew (Mechanized)</English>
+        </Key>
+        
+        <Key ID="STR_cav_Infantry_Bravo_cav_b_infantry_bravo_medic_team_f">
+            <English>Medical Team</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_cav_b_infantry_bravo_enginneer_team_f">
+            <English>Engineer Team</English>
+        </Key>
+    </Package>
+</Project>

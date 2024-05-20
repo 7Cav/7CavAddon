@@ -1,0 +1,315 @@
+<Project name="cav">
+    <Package name="Infantry_Charlie_Labeled">
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_EdSubcat_Infantry_Charlie_Labeled">
+            <English>Men (Airborne - Charlie)</English>
+        </Key>
+
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_PlatoonSergeant_1_5_F">
+            <English>Platoon Sergeant (BANDIT-5)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_PlatoonLeader_1_6_F">
+            <English>Platoon Leader (BANDIT-6)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_PlatoonMedic_1_7_F">
+            <English>Platoon Medic (BANDIT-7)</English>
+        </Key>
+
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_SquadLeader_1_1_F">
+            <English>Squad Leader (BANDIT-1)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_SquadLeader_1_2_F">
+            <English>Squad Leader (BANDIT-2)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_SquadLeader_1_3_F">
+            <English>Squad Leader (BANDIT-3)</English>
+        </Key>
+
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_FireTeamLeader_1_1_A_F">
+            <English>Alpha Fire Team Leader (BANDIT-1)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_FireTeamLeader_1_1_B_F">
+            <English>Bravo Fire Team Leader (BANDIT-1)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_FireTeamLeader_1_2_A_F">
+            <English>Alpha Fire Team Leader (BANDIT-2)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_FireTeamLeader_1_2_B_F">
+            <English>Bravo Fire Team Leader (BANDIT-2)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_FireTeamLeader_1_3_A_F">
+            <English>Alpha Fire Team Leader (BANDIT-3)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_FireTeamLeader_1_3_B_F">
+            <English>Bravo Fire Team Leader (BANDIT-3)</English>
+        </Key>
+
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_Grenadier_1_1_A_F">
+            <English>Alpha Grenadier (BANDIT-1)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_Grenadier_1_1_B_F">
+            <English>Bravo Grenadier (BANDIT-1)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_Grenadier_1_2_A_F">
+            <English>Alpha Grenadier (BANDIT-2)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_Grenadier_1_2_B_F">
+            <English>Bravo Grenadier (BANDIT-2)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_Grenadier_1_3_A_F">
+            <English>Alpha Grenadier (BANDIT-3)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_Grenadier_1_3_B_F">
+            <English>Bravo Grenadier (BANDIT-3)</English>
+        </Key>
+    
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_AutomaticRifleman_1_1_A_F">
+            <English>Alpha Automatic Rifleman (BANDIT-1)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_AutomaticRifleman_1_1_B_F">
+            <English>Bravo Automatic Rifleman (BANDIT-1)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_AutomaticRifleman_1_2_A_F">
+            <English>Alpha Automatic Rifleman (BANDIT-2)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_AutomaticRifleman_1_2_B_F">
+            <English>Bravo Automatic Rifleman (BANDIT-2)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_AutomaticRifleman_1_3_A_F">
+            <English>Alpha Automatic Rifleman (BANDIT-3)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_AutomaticRifleman_1_3_B_F">
+            <English>Bravo Automatic Rifleman (BANDIT-3)</English>
+        </Key>
+
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_CombatLifeSaver_1_1_B_F">
+            <English>Bravo Combat Life Saver (BANDIT-1)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_CombatLifeSaver_1_2_B_F">
+            <English>Bravo Combat Life Saver (BANDIT-2)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_CombatLifeSaver_1_3_B_F">
+            <English>Bravo Combat Life Saver (BANDIT-3)</English>
+        </Key>
+
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_Rifleman_1_1_A_F">
+            <English>Alpha Rifleman (BANDIT-1)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_Rifleman_1_2_A_F">
+            <English>Alpha Rifleman (BANDIT-2)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_Rifleman_1_3_A_F">
+            <English>Alpha Rifleman (BANDIT-3)</English>
+        </Key>
+
+
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_PlatoonSergeant_2_5_F">
+            <English>Platoon Sergeant (MISFIT-5)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_PlatoonLeader_2_6_F">
+            <English>Platoon Leader (MISFIT-6)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_PlatoonMedic_2_7_F">
+            <English>Platoon Medic (MISFIT-7)</English>
+        </Key>
+
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_SquadLeader_2_1_F">
+            <English>Squad Leader (MISFIT-1)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_SquadLeader_2_2_F">
+            <English>Squad Leader (MISFIT-2)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_SquadLeader_2_3_F">
+            <English>Squad Leader (MISFIT-3)</English>
+        </Key>
+
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_FireTeamLeader_2_1_A_F">
+            <English>Alpha Fire Team Leader (MISFIT-1)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_FireTeamLeader_2_1_B_F">
+            <English>Bravo Fire Team Leader (MISFIT-1)</English>
+        </Key>
+        
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_FireTeamLeader_2_2_A_F">
+            <English>Alpha Fire Team Leader (MISFIT-2)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_FireTeamLeader_2_2_B_F">
+            <English>Bravo Fire Team Leader (MISFIT-2)</English>
+        </Key>
+
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_FireTeamLeader_2_3_A_F">
+            <English>Alpha Fire Team Leader (MISFIT-3)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_FireTeamLeader_2_3_B_F">
+            <English>Bravo Fire Team Leader (MISFIT-3)</English>
+        </Key>
+
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_Grenadier_2_1_A_F">
+            <English>Alpha Grenadier (MISFIT-1)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_Grenadier_2_1_B_F">
+            <English>Bravo Grenadier (MISFIT-1)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_Grenadier_2_2_A_F">
+            <English>Alpha Grenadier (MISFIT-2)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_Grenadier_2_2_B_F">
+            <English>Bravo Grenadier (MISFIT-2)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_Grenadier_2_3_A_F">
+            <English>Alpha Grenadier (MISFIT-3)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_Grenadier_2_3_B_F">
+            <English>Bravo Grenadier (MISFIT-3)</English>
+        </Key>
+
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_AutomaticRifleman_2_1_A_F">
+            <English>Alpha Automatic Rifleman (MISFIT-1)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_AutomaticRifleman_2_1_B_F">
+            <English>Bravo Automatic Rifleman (MISFIT-1)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_AutomaticRifleman_2_2_A_F">
+            <English>Alpha Automatic Rifleman (MISFIT-2)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_AutomaticRifleman_2_2_B_F">
+            <English>Bravo Automatic Rifleman (MISFIT-2)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_AutomaticRifleman_2_3_A_F">
+            <English>Alpha Automatic Rifleman (MISFIT-3)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_AutomaticRifleman_2_3_B_F">
+            <English>Bravo Automatic Rifleman (MISFIT-3)</English>
+        </Key>
+
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_Rifleman_2_1_A_F">
+            <English>Alpha Rifleman (MISFIT-1)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_Rifleman_2_2_A_F">
+            <English>Alpha Rifleman (MISFIT-2)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_Rifleman_2_3_A_F">
+            <English>Alpha Rifleman (MISFIT-3)</English>
+        </Key>
+
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_CombatLifeSaver_2_1_B_F">
+            <English>Bravo Combat Life Saver (MISFIT-1)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_CombatLifeSaver_2_2_B_F">
+            <English>Bravo Combat Life Saver (MISFIT-2)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_CombatLifeSaver_2_3_B_F">
+            <English>Bravo Combat Life Saver (MISFIT-3)</English>
+        </Key>
+
+
+        <!-- Weapon Team -->
+
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_SquadLeader_1_4_F">
+            <English>Squad Leader (BANDIT-4)</English>
+        </Key>
+
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_FireTeamLeader_1_4_A_F">
+            <English>Alpha M240B Team Leader (BANDIT-4)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_MachineGunner_1_4_A_F">
+            <English>Alpha M240B Team Gunner (BANDIT-4)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_AssistantMachineGunner_1_4_A_F">
+            <English>Alpha M240B Team Assistant (BANDIT-4)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_FireTeamLeader_1_4_B_F">
+            <English>Bravo M240B Team Leader (BANDIT-4)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_MachineGunner_1_4_B_F">
+            <English>Bravo M240B Team Gunner (BANDIT-4)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_AssistantMachineGunner_1_4_B_F">
+            <English>Bravo M240B Team Assistant (BANDIT-4)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_RiflemanAT_1_4_C_F">
+            <English>Charlie MAAWS Gunner (BANDIT-4)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_RiflemanATAssistant_1_4_C_F">
+            <English>Charlie MAAWS Assistant (BANDIT-4)</English>
+        </Key>
+
+
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_SquadLeader_2_4_F">
+            <English>Squad Leader (MISFIT-4)</English>
+        </Key>
+
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_FireTeamLeader_2_4_A_F">
+            <English>Alpha M240B Team Leader (MISFIT-4)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_MachineGunner_2_4_A_F">
+            <English>Alpha M240B Team Gunner (MISFIT-4)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_AssistantMachineGunner_2_4_A_F">
+            <English>Alpha M240B Team Assistant (MISFIT-4)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_FireTeamLeader_2_4_B_F">
+            <English>Bravo M240B Team Leader (MISFIT-4)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_MachineGunner_2_4_B_F">
+            <English>Bravo M240B Team Gunner (MISFIT-4)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_AssistantMachineGunner_2_4_B_F">
+            <English>Bravo M240B Team Assistant (MISFIT-4)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_RiflemanAT_2_4_C_F">
+            <English>Charlie MAAWS Gunner (MISFIT-4)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_RiflemanATAssistant_2_4_C_F">
+            <English>Charlie MAAWS Assistant (MISFIT-4)</English>
+        </Key>
+
+
+
+        <!-- Groups -->
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_Group_1_5_F">
+            <English>Charlie Unit (BANDIT-5)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_Group_1_6_F">
+            <English>Charlie Unit (BANDIT-6)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_Group_1_7_F">
+            <English>Charlie Unit (BANDIT-7)</English>
+        </Key>
+
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_Group_1_1_F">
+            <English>Charlie Squad (BANDIT-1)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_Group_1_2_F">
+            <English>Charlie Squad (BANDIT-2)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_Group_1_3_F">
+            <English>Charlie Squad (BANDIT-3)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_Group_1_4_F">
+            <English>Charlie Squad (BANDIT-4)</English>
+        </Key>
+
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_Group_2_5_F">
+            <English>Charlie Unit (MISFIT-5)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_Group_2_6_F">
+            <English>Charlie Unit (MISFIT-6)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_Group_2_7_F">
+            <English>Charlie Unit (MISFIT-7)</English>
+        </Key>
+
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_Group_2_1_F">
+            <English>Charlie Squad (MISFIT-1)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_Group_2_2_F">
+            <English>Charlie Squad (MISFIT-2)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_Group_2_3_F">
+            <English>Charlie Squad (MISFIT-3)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Charlie_Labeled_Cav_B_C_Group_2_4_F">
+            <English>Charlie Squad (MISFIT-4)</English>
+        </Key>
+    </Package>
+</Project>

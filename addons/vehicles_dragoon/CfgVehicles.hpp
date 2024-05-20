@@ -65,145 +65,145 @@ class CfgVehicles {
                 displayName = CSTRING(Blu_Woodland);
                 author = ECSTRING(main,modteam);
                 textures[] = {QPATHTOF(data\dragoon_01_ext_wd.paa),QPATHTOF(data\dragoon_02_ext_wd.paa),QPATHTOF(data\dragoon_turret_wd.paa),QPATHTOF(data\dragoon_03_ext_wd.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
-                factions[] = {"BLU_USA_7CAV_F"};
+                factions[] = {"cav_blu_usa_f"};
             };
             class Blu_Desert {
                 displayName = CSTRING(Blu_Desert);
                 author = ECSTRING(main,modteam);
                 textures[] = {QPATHTOF(data\dragoon_01_ext_d.paa),QPATHTOF(data\dragoon_02_ext_d.paa),QPATHTOF(data\dragoon_turret_d.paa),QPATHTOF(data\dragoon_03_ext_d.paa),QPATHTOF(data\camonet_desert_co.paa),QPATHTOF(data\cage_desert_co.paa)};
-                factions[] = {"BLU_USA_7CAV_F"};
+                factions[] = {"cav_blu_usa_f"};
             };
             class Blu_Alpine {
                 displayName = CSTRING(Blu_Alpine);
                 author = ECSTRING(main,modteam);
                 textures[] = {QPATHTOF(data\dragoon_01_ext_wd.paa),QPATHTOF(data\dragoon_02_ext_wd.paa),QPATHTOF(data\dragoon_turret_wd.paa),QPATHTOF(data\dragoon_03_ext_wd.paa),QPATHTOF(data\camonet_arctic_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
-                factions[] = {"BLU_USA_7CAV_F"};
+                factions[] = {"cav_blu_usa_f"};
             };
             class Blu_Woodland_V1 {
                 displayName = CSTRING(Blu_Woodland_V1);
                 author = ECSTRING(main,modteam);
                 textures[] = {QPATHTOF(data\v1\dragoon_01_ext_wd_v1.paa),QPATHTOF(data\v1\dragoon_02_ext_wd_v1.paa),QPATHTOF(data\v1\dragoon_turret_wd_v1.paa),QPATHTOF(data\dragoon_03_ext_wd.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
-                factions[] = {"BLU_USA_7CAV_F"};
+                factions[] = {"cav_blu_usa_f"};
             };
             class Blu_Woodland_V2 {
                 displayName = CSTRING(Blu_Woodland_V2);
                 author = ECSTRING(main,modteam);
                 textures[] = {QPATHTOF(data\v2\dragoon_01_ext_wd_v2.paa),QPATHTOF(data\v2\dragoon_02_ext_wd_v2.paa),QPATHTOF(data\v2\dragoon_turret_wd_v2.paa),QPATHTOF(data\dragoon_03_ext_wd.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
-                factions[] = {"BLU_USA_7CAV_F"};
+                factions[] = {"cav_blu_usa_f"};
             };
             class Blu_Woodland_V3 {
                 displayName = CSTRING(Blu_Woodland_V3);
                 author = ECSTRING(main,modteam);
                 textures[] = {QPATHTOF(data\v3\dragoon_01_ext_wd_v3.paa),QPATHTOF(data\v3\dragoon_02_ext_wd_v3.paa),QPATHTOF(data\v3\dragoon_turret_wd_v3.paa),QPATHTOF(data\dragoon_03_ext_wd.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
-                factions[] = {"BLU_USA_7CAV_F"};
+                factions[] = {"cav_blu_usa_f"};
             };
             class Blu_Woodland_V4 {
                 displayName = CSTRING(Blu_Woodland_V4);
                 author = ECSTRING(main,modteam);
                 textures[] = {QPATHTOF(data\v4\dragoon_01_ext_wd_v4.paa),QPATHTOF(data\v4\dragoon_02_ext_wd_v4.paa),QPATHTOF(data\v4\dragoon_turret_wd_v4.paa),QPATHTOF(data\dragoon_03_ext_wd.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
-                factions[] = {"BLU_USA_7CAV_F"};
+                factions[] = {"cav_blu_usa_f"};
             };
             class Blu_Woodland_V5 {
                 displayName = CSTRING(Blu_Woodland_V5);
                 author = ECSTRING(main,modteam);
                 textures[] = {QPATHTOF(data\v5\dragoon_01_ext_wd_v5.paa),QPATHTOF(data\v5\dragoon_02_ext_wd_v5.paa),QPATHTOF(data\v5\dragoon_turret_wd_v5.paa),QPATHTOF(data\dragoon_03_ext_wd.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
-                factions[] = {"BLU_USA_7CAV_F"};
+                factions[] = {"cav_blu_usa_f"};
             };
             class Blu_Woodland_V6 {
                 displayName = CSTRING(Blu_Woodland_V6);
                 author = ECSTRING(main,modteam);
                 textures[] = {QPATHTOF(data\v6\dragoon_01_ext_wd_v6.paa),QPATHTOF(data\v6\dragoon_02_ext_wd_v6.paa),QPATHTOF(data\v6\dragoon_turret_wd_v6.paa),QPATHTOF(data\dragoon_03_ext_wd.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
-                factions[] = {"BLU_USA_7CAV_F"};
+                factions[] = {"cav_blu_usa_f"};
             };
             class Blu_Woodland_WH7 {
                 displayName = CSTRING(Blu_Woodland_WH7);
                 author = ECSTRING(main,modteam);
                 textures[] = {QPATHTOF(data\wh7\dragoon_01_ext_wd_wh7.paa),QPATHTOF(data\wh7\dragoon_02_ext_wd_wh7.paa),QPATHTOF(data\wh7\dragoon_turret_wd_wh7.paa),QPATHTOF(data\dragoon_03_ext_wd.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
-                factions[] = {"BLU_USA_7CAV_F"};
+                factions[] = {"cav_blu_usa_f"};
             };
             class Blu_Desert_V1 {
                 displayName = CSTRING(Blu_Desert_V1);
                 author = ECSTRING(main,modteam);
                 textures[] = {QPATHTOF(data\v1\dragoon_01_ext_d_v1.paa),QPATHTOF(data\v1\dragoon_02_ext_d_v1.paa),QPATHTOF(data\v1\dragoon_turret_d_v1.paa),QPATHTOF(data\dragoon_03_ext_d.paa),QPATHTOF(data\camonet_desert_co.paa),QPATHTOF(data\cage_desert_co.paa)};
-                factions[] = {"BLU_USA_7CAV_F"};
+                factions[] = {"cav_blu_usa_f"};
             };
             class Blu_Desert_V2 {
                 displayName = CSTRING(Blu_Desert_V2);
                 author = ECSTRING(main,modteam);
                 textures[] = {QPATHTOF(data\v2\dragoon_01_ext_d_v2.paa),QPATHTOF(data\v2\dragoon_02_ext_d_v2.paa),QPATHTOF(data\v2\dragoon_turret_d_v2.paa),QPATHTOF(data\dragoon_03_ext_d.paa),QPATHTOF(data\camonet_desert_co.paa),QPATHTOF(data\cage_desert_co.paa)};
-                factions[] = {"BLU_USA_7CAV_F"};
+                factions[] = {"cav_blu_usa_f"};
             };
             class Blu_Desert_V3 {
                 displayName = CSTRING(Blu_Desert_V3);
                 author = ECSTRING(main,modteam);
                 textures[] = {QPATHTOF(data\v3\dragoon_01_ext_d_v3.paa),QPATHTOF(data\v3\dragoon_02_ext_d_v3.paa),QPATHTOF(data\v3\dragoon_turret_d_v3.paa),QPATHTOF(data\dragoon_03_ext_d.paa),QPATHTOF(data\camonet_desert_co.paa),QPATHTOF(data\cage_desert_co.paa)};
-                factions[] = {"BLU_USA_7CAV_F"};
+                factions[] = {"cav_blu_usa_f"};
             };
             class Blu_Desert_V4 {
                 displayName = CSTRING(Blu_Desert_V4);
                 author = ECSTRING(main,modteam);
                 textures[] = {QPATHTOF(data\v4\dragoon_01_ext_d_v4.paa),QPATHTOF(data\v4\dragoon_02_ext_d_v4.paa),QPATHTOF(data\v4\dragoon_turret_d_v4.paa),QPATHTOF(data\dragoon_03_ext_d.paa),QPATHTOF(data\camonet_desert_co.paa),QPATHTOF(data\cage_desert_co.paa)};
-                factions[] = {"BLU_USA_7CAV_F"};
+                factions[] = {"cav_blu_usa_f"};
             };
             class Blu_Desert_V5 {
                 displayName = CSTRING(Blu_Desert_V5);
                 author = ECSTRING(main,modteam);
                 textures[] = {QPATHTOF(data\v5\dragoon_01_ext_d_v5.paa),QPATHTOF(data\v5\dragoon_02_ext_d_v5.paa),QPATHTOF(data\v5\dragoon_turret_d_v5.paa),QPATHTOF(data\dragoon_03_ext_d.paa),QPATHTOF(data\camonet_desert_co.paa),QPATHTOF(data\cage_desert_co.paa)};
-                factions[] = {"BLU_USA_7CAV_F"};
+                factions[] = {"cav_blu_usa_f"};
             };
             class Blu_Desert_V6 {
                 displayName = CSTRING(Blu_Desert_V6);
                 author = ECSTRING(main,modteam);
                 textures[] = {QPATHTOF(data\v6\dragoon_01_ext_d_v6.paa),QPATHTOF(data\v6\dragoon_02_ext_d_v6.paa),QPATHTOF(data\v6\dragoon_turret_d_v6.paa),QPATHTOF(data\dragoon_03_ext_d.paa),QPATHTOF(data\camonet_desert_co.paa),QPATHTOF(data\cage_desert_co.paa)};
-                factions[] = {"BLU_USA_7CAV_F"};
+                factions[] = {"cav_blu_usa_f"};
             };
             class Blu_Desert_WH7 {
                 displayName = CSTRING(Blu_Desert_WH7);
                 author = ECSTRING(main,modteam);
                 textures[] = {QPATHTOF(data\wh7\dragoon_01_ext_d_wh7.paa),QPATHTOF(data\wh7\dragoon_02_ext_d_wh7.paa),QPATHTOF(data\wh7\dragoon_turret_d_wh7.paa),QPATHTOF(data\dragoon_03_ext_d.paa),QPATHTOF(data\camonet_desert_co.paa),QPATHTOF(data\cage_desert_co.paa)};
-                factions[] = {"BLU_USA_7CAV_F"};
+                factions[] = {"cav_blu_usa_f"};
             };
             class Blu_Arctic_V1 {
                 displayName = CSTRING(Blu_Arctic_V1);
                 author = ECSTRING(main,modteam);
                 textures[] = {QPATHTOF(data\v1\dragoon_01_ext_wd_v1.paa),QPATHTOF(data\v1\dragoon_02_ext_wd_v1.paa),QPATHTOF(data\v1\dragoon_turret_wd_v1.paa),QPATHTOF(data\dragoon_03_ext_wd.paa),QPATHTOF(data\camonet_arctic_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
-                factions[] = {"BLU_USA_7CAV_F"};
+                factions[] = {"cav_blu_usa_f"};
             };
             class Blu_Arctic_V2 {
                 displayName = CSTRING(Blu_Arctic_V2);
                 author = ECSTRING(main,modteam);
                 textures[] = {QPATHTOF(data\v2\dragoon_01_ext_wd_v2.paa),QPATHTOF(data\v2\dragoon_02_ext_wd_v2.paa),QPATHTOF(data\v2\dragoon_turret_wd_v2.paa),QPATHTOF(data\dragoon_03_ext_wd.paa),QPATHTOF(data\camonet_arctic_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
-                factions[] = {"BLU_USA_7CAV_F"};
+                factions[] = {"cav_blu_usa_f"};
             };
             class Blu_Arctic_V3 {
                 displayName = CSTRING(Blu_Arctic_V3);
                 author = ECSTRING(main,modteam);
                 textures[] = {QPATHTOF(data\v3\dragoon_01_ext_wd_v3.paa),QPATHTOF(data\v3\dragoon_02_ext_wd_v3.paa),QPATHTOF(data\v3\dragoon_turret_wd_v3.paa),QPATHTOF(data\dragoon_03_ext_wd.paa),QPATHTOF(data\camonet_arctic_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
-                factions[] = {"BLU_USA_7CAV_F"};
+                factions[] = {"cav_blu_usa_f"};
             };
             class Blu_Arctic_V4 {
                 displayName = CSTRING(Blu_Arctic_V4);
                 author = ECSTRING(main,modteam);
                 textures[] = {QPATHTOF(data\v4\dragoon_01_ext_wd_v4.paa),QPATHTOF(data\v4\dragoon_02_ext_wd_v4.paa),QPATHTOF(data\v4\dragoon_turret_wd_v4.paa),QPATHTOF(data\dragoon_03_ext_wd.paa),QPATHTOF(data\camonet_arctic_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
-                factions[] = {"BLU_USA_7CAV_F"};
+                factions[] = {"cav_blu_usa_f"};
             };
             class Blu_Arctic_V5 {
                 displayName = CSTRING(Blu_Arctic_V5);
                 author = ECSTRING(main,modteam);
                 textures[] = {QPATHTOF(data\v5\dragoon_01_ext_wd_v5.paa),QPATHTOF(data\v5\dragoon_02_ext_wd_v5.paa),QPATHTOF(data\v5\dragoon_turret_wd_v5.paa),QPATHTOF(data\dragoon_03_ext_wd.paa),QPATHTOF(data\camonet_arctic_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
-                factions[] = {"BLU_USA_7CAV_F"};
+                factions[] = {"cav_blu_usa_f"};
             };
             class Blu_Arctic_V6 {
                 displayName = CSTRING(Blu_Arctic_V6);
                 author = ECSTRING(main,modteam);
                 textures[] = {QPATHTOF(data\v6\dragoon_01_ext_wd_v6.paa),QPATHTOF(data\v6\dragoon_02_ext_wd_v6.paa),QPATHTOF(data\v6\dragoon_turret_wd_v6.paa),QPATHTOF(data\dragoon_03_ext_wd.paa),QPATHTOF(data\camonet_arctic_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
-                factions[] = {"BLU_USA_7CAV_F"};
+                factions[] = {"cav_blu_usa_f"};
             };
             class Blu_Arctic_WH7 {
                 displayName = CSTRING(Blu_Arctic_WH7);
                 author = ECSTRING(main,modteam);
                 textures[] = {QPATHTOF(data\wh7\dragoon_01_ext_wd_wh7.paa),QPATHTOF(data\wh7\dragoon_02_ext_wd_wh7.paa),QPATHTOF(data\wh7\dragoon_turret_wd_wh7.paa),QPATHTOF(data\dragoon_03_ext_wd.paa),QPATHTOF(data\camonet_arctic_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
-                factions[] = {"BLU_USA_7CAV_F"};
+                factions[] = {"cav_blu_usa_f"};
             };
         };
         class AnimationSources {
@@ -366,19 +366,19 @@ class CfgVehicles {
                 displayName = CSTRING(Blu_Woodland);
                 author = ECSTRING(main,modteam);
                 textures[] = {QPATHTOF(data\atl\dragoon_01_ext_wd_atl.paa),QPATHTOF(data\atl\dragoon_02_ext_wd_atl.paa),QPATHTOF(data\dragoon_turret_wd.paa),QPATHTOF(data\dragoon_03_ext_wd.paa),QPATHTOF(data\camonet_woodland_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
-                factions[] = {"BLU_USA_7CAV_F"};
+                factions[] = {"cav_blu_usa_f"};
             };
             class Blu_Desert {
                 displayName = CSTRING(Blu_Desert);
                 author = ECSTRING(main,modteam);
                 textures[] = {QPATHTOF(data\atl\dragoon_01_ext_d_atl.paa),QPATHTOF(data\atl\dragoon_02_ext_d_atl.paa),QPATHTOF(data\dragoon_turret_d.paa),QPATHTOF(data\dragoon_03_ext_d.paa),QPATHTOF(data\camonet_desert_co.paa),QPATHTOF(data\cage_desert_co.paa)};
-                factions[] = {"BLU_USA_7CAV_F"};
+                factions[] = {"cav_blu_usa_f"};
             };
             class Blu_Alpine {
                 displayName = CSTRING(Blu_Alpine);
                 author = ECSTRING(main,modteam);
                 textures[] = {QPATHTOF(data\atl\dragoon_01_ext_wd_atl.paa),QPATHTOF(data\atl\dragoon_02_ext_wd_atl.paa),QPATHTOF(data\dragoon_turret_wd.paa),QPATHTOF(data\dragoon_03_ext_wd.paa),QPATHTOF(data\camonet_arctic_co.paa),QPATHTOF(data\cage_woodland_co.paa)};
-                factions[] = {"BLU_USA_7CAV_F"};
+                factions[] = {"cav_blu_usa_f"};
             };
         };
         driverCanSee = "4+8+2+32+16";
@@ -393,7 +393,7 @@ class CfgVehicles {
         author = ECSTRING(main,modteam);
         scope = 2;
         scopeCurator = 2;
-        faction = "BLU_USA_7CAV_F";
+        faction = "cav_blu_usa_f";
         forceInGarage = 1;
         crew = "B_crew_F";
         typicalCargo[] = {"B_soldier_F"};
@@ -405,7 +405,7 @@ class CfgVehicles {
         author = ECSTRING(main,modteam);
         scope = 2;
         scopeCurator = 2;
-        faction = "BLU_USA_7CAV_F";
+        faction = "cav_blu_usa_f";
         forceInGarage = 0;
         crew = "B_crew_F";
         typicalCargo[] = {"B_soldier_F"};
@@ -417,7 +417,7 @@ class CfgVehicles {
         author = ECSTRING(main,modteam);
         scope = 2;
         scopeCurator = 2;
-        faction = "BLU_USA_7CAV_F";
+        faction = "cav_blu_usa_f";
         forceInGarage = 0;
         crew = "B_crew_F";
         typicalCargo[] = {"B_soldier_F"};
@@ -428,7 +428,7 @@ class CfgVehicles {
     class cav_dragoon_WD: cav_dragoon_base_F {
         scope = 2;
         scopeCurator = 2;
-        faction = "BLU_USA_7CAV_F";
+        faction = "cav_blu_usa_f";
         forceInGarage = 0;
         crew = "B_crew_F";
         typicalCargo[] = {"B_soldier_F"};
@@ -540,7 +540,7 @@ class CfgVehicles {
     class cav_dragoon_D: cav_dragoon_base_F {
         scope = 2;
         scopeCurator = 2;
-        faction = "BLU_USA_7CAV_F";
+        faction = "cav_blu_usa_f";
         forceInGarage = 0;
         crew = "B_crew_F";
         typicalCargo[] = {"B_soldier_F"};
@@ -600,7 +600,7 @@ class CfgVehicles {
     class cav_dragoon_A: cav_dragoon_base_F {
         scope = 2;
         scopeCurator = 2;
-        faction = "BLU_USA_7CAV_F";
+        faction = "cav_blu_usa_f";
         forceInGarage = 1;
         crew = "B_crew_F";
         typicalCargo[] = {"B_soldier_F"};
