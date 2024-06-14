@@ -1,0 +1,15 @@
+<Project name="cav">
+    <Package name="Infantry_Alpha">
+        <Key ID="STR_cav_Infantry_Alpha_Cav_EdSubcat_Infantry_Alpha">
+            <English>Men (Air)</English>
+        </Key>
+
+        <!-- Groups -->
+        <Key ID="STR_cav_Infantry_Alpha_Cav_infantry_alpha_squads_f">
+            <English>Men (Pilots)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Alpha_Cav_B_A_Group_Helicopter_F">
+            <English>Generic Crew (Transport Helicopter)</English>
+        </Key>
+    </Package>
+</Project>

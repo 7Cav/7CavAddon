@@ -6,7 +6,10 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"cav_main"};
+        requiredAddons[] = {
+            "cav_main",
+            "cav_common"
+        };
         author = ECSTRING(Main,ModTeam);
         authors[] = {"Brostrom.A (Evul)"};
         url = ECSTRING(Main,Url);
@@ -14,4 +17,6 @@ class CfgPatches {
     };
 };
 
-#include "CfgFactionClasses.hpp"
+// #include "CfgEventHandlers.hpp"
+#include "CfgVehicles.hpp"
+#include "CfgGroups.hpp"

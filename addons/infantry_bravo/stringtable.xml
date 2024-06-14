@@ -1,0 +1,28 @@
+<Project name="cav">
+    <Package name="Infantry_Bravo">
+        <Key ID="STR_cav_Infantry_Bravo_Cav_EdSubcat_Medical_Bravo">
+            <English>Men (Support)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Cav_EdSubcat_Infantry_Bravo">
+            <English>Men (Mechanized)</English>
+        </Key>
+
+        <!-- Groups -->
+        <Key ID="STR_cav_Infantry_Bravo_Cav_medical_bravo_squads_f">
+            <English>Men (Medical)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Cav_infantry_bravo_squads_f">
+            <English>Men (Mechanized)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Cav_B_B_Group_Medical_F">
+            <English>Generic Medical Team</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Cav_B_B_Group_Mechnaized_F">
+            <English>Generic Infantry Squad (Mec)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Bravo_Cav_B_B_Group_Mechnaized_Crew_F">
+            <English>Generic Crew (Mec)</English>
+        </Key>
+
+    </Package>
+</Project>

@@ -1,13 +1,7 @@
 <Project name="cav">
     <Package name="common">
-        <Key ID="str_cav_common_faction_display">
+        <Key ID="STR_cav_common_faction_display">
             <English>USA (Army - 7th Cavalry)</English>
-        </Key>
-        <Key ID="str_cav_common_cat_deploy_platoon">
-            <English>7CAV - Platoon and Team Deployment</English>
-        </Key>
-        <Key ID="str_cav_common_trooper">
-            <English>Trooper</English>
         </Key>
     </Package>
 </Project>
