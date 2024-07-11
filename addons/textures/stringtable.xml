@@ -21,7 +21,7 @@
 
         <!-- Arlington Textures -->
         <Key ID="STR_Cav_Textures_Cav_Arlington_Bowman_F">
-            <English>Britton</English>
+            <English>Bowman</English>
         </Key>
         <Key ID="STR_Cav_Textures_Cav_Arlington_Britton_F">
             <English>Britton</English>
@@ -30,16 +30,16 @@
             <English>Carter</English>
         </Key>
         <Key ID="STR_Cav_Textures_Cav_Arlington_Cooper_F">
-            <English>Carter</English>
+            <English>Cooper</English>
         </Key>
         <Key ID="STR_Cav_Textures_Cav_Arlington_Dornbierer_F">
-            <English>Carter</English>
+            <English>Dornbierer</English>
         </Key>
         <Key ID="STR_Cav_Textures_Cav_Arlington_Krazee_F">
             <English>Krazee</English>
         </Key>
         <Key ID="STR_Cav_Textures_Cav_Arlington_Long_F">
-            <English>Krazee</English>
+            <English>Long</English>
         </Key>
         <Key ID="STR_Cav_Textures_Cav_Arlington_Left_F">
             <English>Left</English>
@@ -48,10 +48,10 @@
             <English>Mcgehee</English>
         </Key>
         <Key ID="STR_Cav_Textures_Cav_Arlington_MillerDC_F">
-            <English>Mcgehee</English>
+            <English>MillerDC</English>
         </Key>
         <Key ID="STR_Cav_Textures_Cav_Arlington_Muska_F">
-            <English>Mcgehee</English>
+            <English>Muska</English>
         </Key>
         <Key ID="STR_Cav_Textures_Cav_Arlington_Novak_F">
             <English>Novak</English>
