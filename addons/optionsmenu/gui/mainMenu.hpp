@@ -8,7 +8,7 @@ class RscDisplayMain : RscStandardDisplay {
             class Controls;
         };
         class GroupMultiplayer: GroupSingleplayer {
-            h = "(9 *     1.5) *     (pixelH * pixelGrid * 2)";
+            h = "(8 *     1.5) *     (pixelH * pixelGrid * 2)";
             class Controls : Controls {
                 class Campaigns;
                 class joinTac2 : Campaigns {
@@ -35,12 +35,6 @@ class RscDisplayMain : RscStandardDisplay {
                     text = CSTRING(joinTS3_text);
                     y = "(6 *     1.5) *     (pixelH * pixelGrid * 2) +     (pixelH)";
                     onbuttonclick = "connectToServer ['75.6.53.50', 2602, ''];";
-                };
-                class joinTSE : joinTS1 {
-                    text = CSTRING(joinTSE_text);
-                    tooltip = CSTRING(joinTSE_tooltip);
-                    y = "(7 *     1.5) *     (pixelH * pixelGrid * 2) +     (pixelH)";
-                    onbuttonclick = "connectToServer ['75.6.53.50', 2902, ''];";
                 };
             };
         };

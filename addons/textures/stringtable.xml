@@ -18,5 +18,60 @@
         <Key ID="STR_Cav_Textures_Cat_Vehicle_Labels">
             <English>7th Cavalry Vehicle Labels</English>
         </Key>
+
+        <!-- Arlington Textures -->
+        <Key ID="STR_Cav_Textures_Cav_Arlington_Left_F">
+            <English>Arlington Label (Left)</English>
+        </Key>
+        <Key ID="STR_Cav_Textures_Cav_Arlington_Right_F">
+            <English>Arlington Label (Right)</English>
+        </Key>
+
+        <Key ID="STR_Cav_Textures_Cav_Arlington_Bowman_F">
+            <English>Bowman</English>
+        </Key>
+        <Key ID="STR_Cav_Textures_Cav_Arlington_Britton_F">
+            <English>Britton</English>
+        </Key>
+        <Key ID="STR_Cav_Textures_Cav_Arlington_Carter_F">
+            <English>Carter</English>
+        </Key>
+        <Key ID="STR_Cav_Textures_Cav_Arlington_Cooper_F">
+            <English>Cooper</English>
+        </Key>
+        <Key ID="STR_Cav_Textures_Cav_Arlington_Dornbierer_F">
+            <English>Dornbierer</English>
+        </Key>
+        <Key ID="STR_Cav_Textures_Cav_Arlington_Krazee_F">
+            <English>Krazee</English>
+        </Key>
+        <Key ID="STR_Cav_Textures_Cav_Arlington_Long_F">
+            <English>Long</English>
+        </Key>
+        <Key ID="STR_Cav_Textures_Cav_Arlington_Mcgehee_F">
+            <English>Mcgehee</English>
+        </Key>
+        <Key ID="STR_Cav_Textures_Cav_Arlington_MillerDC_F">
+            <English>MillerDC</English>
+        </Key>
+        <Key ID="STR_Cav_Textures_Cav_Arlington_Muska_F">
+            <English>Muska</English>
+        </Key>
+        <Key ID="STR_Cav_Textures_Cav_Arlington_Novak_F">
+            <English>Novak</English>
+        </Key>
+        <Key ID="STR_Cav_Textures_Cav_Arlington_Raven_F">
+            <English>Raven</English>
+        </Key>
+        <Key ID="STR_Cav_Textures_Cav_Arlington_Ronnie_F">
+            <English>Ronnie</English>
+        </Key>
+        <Key ID="STR_Cav_Textures_Cav_Arlington_Tarkas_F">
+            <English>Tarkas</English>
+        </Key>
+        <Key ID="STR_Cav_Textures_Cav_Arlington_Traycer_F">
+            <English>Traycer</English>
+        </Key>
+
     </Package>
 </Project>
