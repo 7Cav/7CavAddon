@@ -41,11 +41,17 @@ class Cav_Arlington_Right_F: UserTexture_1x2_F {
 };
 
 // Arlington Textures
+MACRO_ARLINGTON(Cav_Arlington_Traycer_F,Arlington_Bowman_ca.paa);
 MACRO_ARLINGTON(Cav_Arlington_Britton_F,Arlington_Britton_ca.paa);
 MACRO_ARLINGTON(Cav_Arlington_Carter_F,Arlington_Carter_ca.paa);
+MACRO_ARLINGTON(Cav_Arlington_Carter_F,Arlington_Cooper_ca.paa);
+MACRO_ARLINGTON(Cav_Arlington_Carter_F,Arlington_Dornbierer_ca.paa);
 MACRO_ARLINGTON(Cav_Arlington_Krazee_F,Arlington_Krazee_ca.paa);
+MACRO_ARLINGTON(Cav_Arlington_Carter_F,Arlington_Long_ca.paa);
 MACRO_ARLINGTON(Cav_Arlington_Left_F,Arlington_Left_ca.paa);
 MACRO_ARLINGTON(Cav_Arlington_Mcgehee_F,Arlington_Mcgehee_ca.paa);
+MACRO_ARLINGTON(Cav_Arlington_Mcgehee_F,Arlington_MillerDC_ca.paa);
+MACRO_ARLINGTON(Cav_Arlington_Mcgehee_F,Arlington_Muska_ca.paa);
 MACRO_ARLINGTON(Cav_Arlington_Novak_F,Arlington_Novak_ca.paa);
 MACRO_ARLINGTON(Cav_Arlington_Raven_F,Arlington_Raven_ca.paa);
 MACRO_ARLINGTON(Cav_Arlington_Right_F,Arlington_Right_ca.paa);
