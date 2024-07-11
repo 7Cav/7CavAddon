@@ -21,10 +21,10 @@
 
         <!-- Arlington Textures -->
         <Key ID="STR_Cav_Textures_Cav_Arlington_Left_F">
-            <English>Left Label</English>
+            <English>Arlington Label (Left)</English>
         </Key>
         <Key ID="STR_Cav_Textures_Cav_Arlington_Right_F">
-            <English>Right Label</English>
+            <English>Arlington Label (Right)</English>
         </Key>
 
         <Key ID="STR_Cav_Textures_Cav_Arlington_Bowman_F">

@@ -16,7 +16,7 @@ class var1: UserTexture1m_F { \
 class Cav_Arlington_Left_F: UserTexture_1x2_F {
     scope = 2;
     scopeCurator = 2;
-    displayName = "Arlington Left";
+    displayName = CSTRING(Cav_Arlington_Left_F);
     author = ECSTRING(main,modteam);
     editorPreview = QPATHTOF(data\arlington\Arlington_Left.paa);
 
@@ -29,7 +29,7 @@ class Cav_Arlington_Left_F: UserTexture_1x2_F {
 class Cav_Arlington_Right_F: UserTexture_1x2_F {
     scope = 2;
     scopeCurator = 2;
-    displayName = "Arlington Right";
+    displayName = CSTRING(Cav_Arlington_Right_F);
     author = ECSTRING(main,modteam);
     editorPreview = QPATHTOF(data\arlington\Arlington_Right.paa);
 
