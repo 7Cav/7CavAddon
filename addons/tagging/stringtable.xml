@@ -1,10 +1,5 @@
 <Project name="Cav">
     <Package name="Tagging">
-        
-        <Key ID="STR_Cav_Tagging__F">
-            <English>Platoon Leader (Bandit-6)</English>
-        </Key>
-
         <Key ID="STR_Cav_Tagging_Cav_Black_F">
             <English>Cav Black</English>
         </Key>
