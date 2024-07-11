@@ -1,5 +1,6 @@
 #define MACRO_ARLINGTON(var1,var2) \
 class var1: UserTexture1m_F { \
+    _generalMacro = QUOTE(var1); \
     scope = 2; \
     scopeCurator = 2; \
     displayName = CSTRING(var1); \
