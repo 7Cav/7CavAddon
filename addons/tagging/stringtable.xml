@@ -1,22 +1,22 @@
 <Project name="Cav">
     <Package name="Tagging">
         <Key ID="STR_Cav_Tagging_Cav_Black_F">
-            <English>Cav Black</English>
+            <English>Cav</English>
         </Key>
         <Key ID="STR_Cav_Tagging_Cav_Blue_F">
-            <English>Cav Blue</English>
+            <English>Cav</English>
         </Key>
         <Key ID="STR_Cav_Tagging_Cav_Green_F">
-            <English>Cav Green</English>
+            <English>Cav</English>
         </Key>
         <Key ID="STR_Cav_Tagging_Cav_Red_F">
-            <English>Cav Red</English>
+            <English>Cav</English>
         </Key>
         <Key ID="STR_Cav_Tagging_Cav_White_F">
-            <English>Cav White</English>
+            <English>Cav</English>
         </Key>
         <Key ID="STR_Cav_Tagging_Cav_Yellow_F">
-            <English>Cav Yellow</English>
+            <English>Cav</English>
         </Key>
     </Package>
 </Project>
