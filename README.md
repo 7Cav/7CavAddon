@@ -10,17 +10,41 @@
  <a href="https://github.com/7Cav/7CavAddon/issues"><img src="https://img.shields.io/github/issues-raw/7cav/7CavAddon.svg?style=for-the-badge&label=Issues" alt="7CavAddon Issues"></a>
 <a href="https://github.com/7Cav/7CavAddon/actions?query=workflow%3AArma"><img src="https://img.shields.io/github/actions/workflow/status/7Cav/7CavAddon/arma.yml?logo=GitHub&style=for-the-badge" alt="cScripts Build"></a>
 </p>
-The 7th Cavalry Community Addon is a mod for Arma 3 that adds new units, vehicles, groups, markers, objects, and functions tailored to fit the needs of the [7th Cavalry Gaming Community](https://7cav.us/).
+The 7th Cavalry Community Addon is as the name suggests a community mod containing units vehicles, markers, functions and textures tailored to our community.
 
-## Addons required
+## Required Addons
 - [CBA](https://github.com/CBATeam/CBA_A3)
+- [ACE3](https://github.com/acemod/ACE3)
 - [RHS: United States Armed Forces](http://www.rhsmods.org/)
 
-## What does the 7th Cavalry Community Addon provide?
-- Units and groups based on 7th Cavalry Platoon and Company naming and setup.
-- (Soon) Base and FOB compositions
-- Vehicles based on 7th Cavalry company setup.
-- 7th Cavalry themed flags
-- Custom texture database for mission makers
-- 7th Cavalry map markers
-- Close ties and integration with cScripts
+## Whats Added
+- New Units and Groups with company with callsign specific prefixes.
+- New vehicle the Dragoon (A retextured and reconfigured [AFV-4 Gorgon](https://community.bistudio.com/wiki/Arma_3:_Field_Manual_-_Vehicles_Info#AFV-4_Gorgon)).
+- 7th Cavalry themed spray tags using ACE3 tagging.
+- 7th Cavalry battalion company platoon and squad themed arm patches.
+- 7th Cavalry battalion company platoon and squad themed flags.
+- 7th Cavalry themed map markers and flags as well as cav gold map color.
+- Main menu buttons for quickly joining our servers.
+- [Experimental Prone Launchers](https://github.com/7Cav/7CavAddon/issues/161).
+- [Dynamic Objective mission training script system](https://github.com/7Cav/7CavAddon/tree/main/addons/dynobj).
+- [Some useful missions functions](https://github.com/7Cav/7CavAddon/wiki/Features#mission-makers)
+
+## Development
+This mod uses [HEMTT](https://github.com/BrettMayson/HEMTT/) build system.
+
+### Testing and Development
+```bash
+# Build and launch Arma with minimal required mods.
+hemtt launch
+
+# Build for manual launch
+hemtt dev
+```
+### Build and Release
+```bash
+# Build a test release build
+hemtt build
+
+# Build release
+./tools/deploy.ps1
+```
