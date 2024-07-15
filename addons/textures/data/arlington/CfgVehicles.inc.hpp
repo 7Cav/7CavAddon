@@ -6,7 +6,7 @@ class var1: UserTexture1m_F { \
     displayName = CSTRING(var1); \
     author = ECSTRING(main,modteam); \
     editorPreview = QPATHTOF(data\arlington\var2); \
-    \
+    editorSubcategory = "Cav_EdSubcat_Arlington"; \
     hiddenSelectionsTextures[] = { \
         QPATHTOF(data\arlington\var2) \
     };\
