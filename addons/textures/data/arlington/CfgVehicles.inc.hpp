@@ -8,7 +8,7 @@ class var1: UserTexture1m_F { \
     editorPreview = QPATHTOF(data\arlington\var2); \
     \
     hiddenSelectionsTextures[] = { \
-        QPATHTOF(data\arlington\var2.paa) \
+        QPATHTOF(data\arlington\var2) \
     };\
 }
 
