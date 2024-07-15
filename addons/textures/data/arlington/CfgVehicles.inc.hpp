@@ -5,7 +5,7 @@ class var1: UserTexture1m_F { \
     scopeCurator = 2; \
     displayName = CSTRING(var1); \
     author = ECSTRING(main,modteam); \
-    editorPreview = QPATHTOF(data\arlington\var2.paa); \
+    editorPreview = QPATHTOF(data\arlington\var2); \
     \
     hiddenSelectionsTextures[] = { \
         QPATHTOF(data\arlington\var2.paa) \
