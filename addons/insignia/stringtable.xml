@@ -35,6 +35,11 @@
             <English>[7CAV] Alpha Co. 2nd platoon - Delta Squad</English>
         </Key>
 
+
+        <Key ID="STR_cav_insignia_bravo">
+            <English>[7CAV] Bravo Co.</English>
+        </Key>
+
         <Key ID="STR_cav_insignia_bravo_1">
             <English>[7CAV] Bravo Co. 1st platoon</English>
         </Key>
