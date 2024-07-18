@@ -18,12 +18,12 @@ class Cav_Arlington_Left_F: UserTexture_1x2_F {
     scopeCurator = 2;
     displayName = CSTRING(Cav_Arlington_Left_F);
     author = ECSTRING(main,modteam);
-    editorPreview = QPATHTOF(data\arlington\Arlington_Left.paa);
+    editorPreview = QPATHTOF(data\arlington\Arlington_Left_ca.paa);
 
     editorSubcategory = "Cav_EdSubcat_Arlington";
 
     hiddenSelectionsTextures[] = {
-        QPATHTOF(data\arlington\Arlington_Left.paa)
+        QPATHTOF(data\arlington\Arlington_Left_ca.paa)
     };
 };
 class Cav_Arlington_Right_F: UserTexture_1x2_F {
@@ -31,12 +31,12 @@ class Cav_Arlington_Right_F: UserTexture_1x2_F {
     scopeCurator = 2;
     displayName = CSTRING(Cav_Arlington_Right_F);
     author = ECSTRING(main,modteam);
-    editorPreview = QPATHTOF(data\arlington\Arlington_Right.paa);
+    editorPreview = QPATHTOF(data\arlington\Arlington_Right_ca.paa);
 
     editorSubcategory = "Cav_EdSubcat_Arlington";
 
     hiddenSelectionsTextures[] = {
-        QPATHTOF(data\arlington\Arlington_Right.paa)
+        QPATHTOF(data\arlington\Arlington_Right_ca.paa)
     };
 };
 
