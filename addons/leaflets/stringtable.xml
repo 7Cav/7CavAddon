@@ -1,0 +1,7 @@
+<Project name="Cav">
+    <Package name="Leaflets">
+        <Key ID="STR_Cav_Leaflets_Cav_Pylon_1Rnd_Leaflets_Enlist_F">
+            <English>Leaflets (Cav - Enlist Today)</English>
+        </Key>
+    </Package>
+</Project>
