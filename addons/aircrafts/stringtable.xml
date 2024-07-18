@@ -1,0 +1,7 @@
+<Project name="Cav">
+    <Package name="Aircraft">
+        <Key ID="STR_Cav_Aircraft_settingCategory">
+            <English>CAV Aircrafts</English>
+        </Key>
+    </Package>
+</Project>
