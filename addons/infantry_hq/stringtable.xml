@@ -3,5 +3,12 @@
         <Key ID="STR_cav_Infantry_Hq_Cav_EdSubcat_Infantry_Hq">
             <English>Men (HQ)</English>
         </Key>
+
+        <Key ID="STR_cav_Infantry_Hq_Cav_B_MissionController_1_F">
+            <English>Lead Mission Controller (HQ)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Hq_Cav_B_MissionController_2_F">
+            <English>Assistant Mission Controller</English>
+        </Key>
     </Package>
 </Project>
