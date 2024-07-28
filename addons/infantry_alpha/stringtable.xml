@@ -1,0 +1,28 @@
+<Project name="cav">
+    <Package name="Infantry_Alpha">
+        <Key ID="STR_cav_Infantry_Alpha_Cav_EdSubcat_Infantry_Alpha">
+            <English>Men (Air)</English>
+        </Key>
+
+        <!-- Groups -->
+        <Key ID="STR_cav_Infantry_Alpha_Cav_infantry_alpha_squads_f">
+            <English>Men (Pilots)</English>
+        </Key>
+
+        <Key ID="STR_cav_Infantry_Alpha_Cav_B_A_Group_HelicopterLarge_F">
+            <English>Transport Helicopter Crew</English>
+        </Key>
+            <Key ID="STR_cav_Infantry_Alpha_Cav_B_A_Group_HelicopterSmall_F">
+            <English>Helicopter Crew</English>
+        </Key>
+            <Key ID="STR_cav_Infantry_Alpha_Cav_B_A_Group_AttackHelicopter_F">
+            <English>Attack Helicopter Crew</English>
+        </Key>
+            <Key ID="STR_cav_Infantry_Alpha_Cav_B_A_Group_FixedWingAttack_F">
+            <English>Fixed Wing Figthter Pilot</English>
+        </Key>
+            <Key ID="STR_cav_Infantry_Alpha_Cav_B_A_Group_FixedWingTransport_F">
+            <English>Fixed Wing Transport Crew</English>
+        </Key>
+    </Package>
+</Project>

@@ -1,0 +1,21 @@
+<Project name="cav">
+    <Package name="Infantry_Alpha_Labeled">
+        <Key ID="STR_cav_Infantry_Alpha_Labeled_Cav_EdSubcat_Infantry_Alpha_Labeled">
+            <English>Men (Air - Alpha)</English>
+        </Key>
+
+        <Key ID="STR_cav_Infantry_Alpha_Labeled_Cav_B_A_JTAC_2_1_F">
+            <English>Forward Air Controller (CHAOS-1)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Alpha_Labeled_Cav_B_A_JTAC_2_2_F">
+            <English>Forward Air Controller (CHAOS-2)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Alpha_Labeled_Cav_B_A_TACP_2_1_F">
+            <English>Air controller (VANQUISH-1)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Alpha_Labeled_Cav_B_A_TACP_2_2_F">
+            <English>Air controller (VANQUISH-2)</English>
+        </Key>
+
+    </Package>
+</Project>

@@ -1,19 +1,19 @@
-<Project name="Cav">
+<Project name="cav">
     <Package name="Main">
-        <Key ID="STR_Cav_Main_Name">
+        <Key ID="STR_cav_Main_Name">
             <English>7th Cavalry Community Addon</English>
         </Key>
-        <Key ID="STR_Cav_Main_ModTeam">
+        <Key ID="STR_cav_Main_ModTeam">
             <English>7th Cavalry S3 Mod Team</English>
         </Key>
         
-        <Key ID="STR_Cav_Main_Url">
+        <Key ID="STR_cav_Main_Url">
             <English>http://7cav.us</English>
         </Key>
-        <Key ID="STR_Cav_Main_Website">
+        <Key ID="STR_cav_Main_Website">
             <English>Website</English>
         </Key>
-        <Key ID="STR_Cav_Main_Description">
+        <Key ID="STR_cav_Main_Description">
             <English>Issue Tracker: https://github.com/7cav/CavMod/issues</English>
         </Key>
     </Package>

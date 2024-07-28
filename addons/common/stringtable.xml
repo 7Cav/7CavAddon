@@ -1,13 +1,12 @@
 <Project name="cav">
-    <Package name="common">
-        <Key ID="str_cav_common_faction_display">
+    <Package name="Common">
+        <Key ID="STR_cav_Common_faction_display">
             <English>USA (Army - 7th Cavalry)</English>
         </Key>
-        <Key ID="str_cav_common_cat_deploy_platoon">
-            <English>7CAV - Platoon and Team Deployment</English>
-        </Key>
-        <Key ID="str_cav_common_trooper">
-            <English>Trooper</English>
+
+        <!-- CBA SETTINGS -->
+        <Key ID="STR_cav_Common_Category">
+            <English>7th Cavalry Community Addon</English>
         </Key>
     </Package>
 </Project>

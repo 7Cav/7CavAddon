@@ -1,0 +1,284 @@
+<Project name="cav">
+    <Package name="Infantry">
+        <Key ID="STR_cav_Infantry_trooper">
+            <English>Trooper</English>
+        </Key>
+
+
+        <Key ID="STR_cav_Infantry_Cav_B_Officer_F">
+            <English>Officer</English>
+        </Key>
+
+        <Key ID="STR_cav_Infantry_Cav_B_JTAC_F">
+            <English>JTAC</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Cav_B_TACP_F">
+            <English>TACP</English>
+        </Key>
+
+        <Key ID="STR_cav_Infantry_Cav_B_PlatoonSergeant_F">
+            <English>Platoon Sergeant</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Cav_B_PlatoonLeader_F">
+            <English>Platoon Leader</English>
+        </Key>
+
+        <Key ID="STR_cav_Infantry_Cav_B_Rifleman_F">
+            <English>Rifleman</English>
+        </Key>
+
+        <Key ID="STR_cav_Infantry_Cav_B_SquadLeader_F">
+            <English>Squad Leader</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Cav_B_FireTeamLeader_F">
+            <English>Fire Team Leader</English>
+        </Key>
+        
+        <Key ID="STR_cav_Infantry_Cav_B_AutomaticRifleman_F">
+            <English>Automatic Rifleman</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Cav_B_AssistantAutomaticRifleman_F">
+            <English>Automatic Rifleman Assistant</English>
+        </Key>
+
+        <Key ID="STR_cav_Infantry_Cav_B_Machinegunner_F">
+            <English>Machinegunner</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Cav_B_AssistantMachineGunner_F">
+            <English>Machinegunner Assistant</English>
+        </Key>
+
+        <Key ID="STR_cav_Infantry_Cav_B_Grenadier_F">
+            <English>Grenadier</English>
+        </Key>
+
+
+        <Key ID="STR_cav_Infantry_Cav_B_RiflemanLAT_F">
+            <English>Rifleman (LAT)</English>
+        </Key>
+
+        <Key ID="STR_cav_Infantry_Cav_B_RiflemanAT_F">
+            <English>Rifleman (AT MAAWS)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Cav_B_RiflemanATAssistant_F">
+            <English>Rifleman (AT MAAWS Assistant)</English>
+        </Key>
+
+        <Key ID="STR_cav_Infantry_Cav_B_RiflemanAA_F">
+            <English>Rifleman (AA)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Cav_B_RiflemanAAAssistant_F">
+            <English>Rifleman (AA Assistant)</English>
+        </Key>
+
+        <Key ID="STR_cav_Infantry_Cav_B_RiflemanATR_F">
+            <English>Rifleman (AT Javelin)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Cav_B_RiflemanATRAssistant_F">
+            <English>Rifleman (AT Javelin Assistant)</English>
+        </Key>
+    
+
+        <Key ID="STR_cav_Infantry_Cav_B_Sniper_F">
+            <English>Sniper</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Cav_B_Spotter_F">
+            <English>Spotter</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Cav_B_Marksman_F">
+            <English>Marksman</English>
+        </Key>
+
+
+        <Key ID="STR_cav_Infantry_Cav_B_PlatoonMedic_F">
+            <English>Platoon Medic</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Cav_B_Medic_F">
+            <English>Medic</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Cav_B_MedicTeamLeader_F">
+            <English>Team Leader</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Cav_B_MedicTeamMember_F">
+            <English>Team Member</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Cav_B_Surgeon_F">
+            <English>Team Surgeon</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Cav_B_CombatLifeSaver_F">
+            <English>Combat Life Saver</English>
+        </Key>
+
+
+        <Key ID="STR_cav_Infantry_Cav_B_IFV_Crew_F">
+            <English>Crew (APC/IFV)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Cav_B_IFV_Driver_F">
+            <English>Driver (APC/IFV)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Cav_B_IFV_Commander_F">
+            <English>Commander (APC/IFV)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Cav_B_IFV_Gunner_F">
+            <English>Gunner (APC/IFV)</English>
+        </Key>
+
+        <Key ID="STR_cav_Infantry_Cav_B_Armor_Crew_F">
+            <English>Crew (Armor)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Cav_B_Armor_Commander_F">
+            <English>Commander (Armor)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Cav_B_Armor_Gunner_F">
+            <English>Gunner (Armor)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Cav_B_Armor_Driver_F">
+            <English>Driver (Armor)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Cav_B_Armor_Loader_F">
+            <English>Loader (Armor)</English>
+        </Key>
+
+
+        <Key ID="STR_cav_Infantry_Cav_B_Pilot_F">
+            <English>Fixed Wing Pilot</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Cav_B_CoPilot_F">
+            <English>Fixed Wing CoPilot</English>
+        </Key>
+
+        <Key ID="STR_cav_Infantry_Cav_B_PlanePilotLite_F">
+            <English>Lite Fixed Wing Pilot</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Cav_B_PlaneCoPilotLite_F">
+            <English>Lite Fixed Wing CoPilot</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Cav_B_PlaneCrewLite_F">
+            <English>Lite Fixed Wing Crew</English>
+        </Key>
+
+        <Key ID="STR_cav_Infantry_Cav_B_HelicopterPilot_F">
+            <English>Helicopter Pilot</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Cav_B_HelicopterCoPilot_F">
+            <English>Helicopter CoPilot</English>
+        </Key>
+        
+        <Key ID="STR_cav_Infantry_Cav_B_HelicopterCrew_F">
+            <English>Helicopter Crew</English>
+        </Key>
+
+        <Key ID="STR_cav_Infantry_Cav_B_HelicopterAttackPilot_F">
+            <English>Attack Helicopter Pilot</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Cav_B_HelicopterAttackCoPilot_F">
+            <English>Attack Helicopter CoPilot</English>
+        </Key>
+
+
+        <!-- Independent -->
+        <Key ID="STR_cav_Infantry_Cav_I_Officer_F">
+            <English>Officer</English>
+        </Key>
+
+        <Key ID="STR_cav_Infantry_Cav_I_PlatoonSergeant_F">
+            <English>Platoon Sergeant</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Cav_I_PlatoonLeader_F">
+            <English>Platoon Leader</English>
+        </Key>
+
+        <Key ID="STR_cav_Infantry_Cav_I_Rifleman_F">
+            <English>Rifleman</English>
+        </Key>
+
+        <Key ID="STR_cav_Infantry_Cav_I_SquadLeader_F">
+            <English>Squad Leader</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Cav_I_FireTeamLeader_F">
+            <English>Fire Team Leader</English>
+        </Key>
+        
+        <Key ID="STR_cav_Infantry_Cav_I_AutomaticRifleman_F">
+            <English>Automatic Rifleman</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Cav_I_AssistantAutomaticRifleman_F">
+            <English>Automatic Rifleman Assistant</English>
+        </Key>
+
+        <Key ID="STR_cav_Infantry_Cav_I_Machinegunner_F">
+            <English>Machinegunner</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Cav_I_AssistantMachinegunner_F">
+            <English>Machinegunner Assistant</English>
+        </Key>
+
+        <Key ID="STR_cav_Infantry_Cav_I_Grenadier_F">
+            <English>Grenadier</English>
+        </Key>
+
+
+        <Key ID="STR_cav_Infantry_Cav_I_RiflemanLAT_F">
+            <English>Rifleman (LAT)</English>
+        </Key>
+
+        <Key ID="STR_cav_Infantry_Cav_I_RiflemanAT_F">
+            <English>Rifleman (AT)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Cav_I_RiflemanATAssistant_F">
+            <English>Rifleman (AT Assistant)</English>
+        </Key>
+
+        <Key ID="STR_cav_Infantry_Cav_I_RiflemanAA_F">
+            <English>Rifleman (AA)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Cav_I_RiflemanAAAssistant_F">
+            <English>Rifleman (AA Assistant)</English>
+        </Key>
+
+        <Key ID="STR_cav_Infantry_Cav_I_RiflemanATR_F">
+            <English>Rifleman (AT)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Cav_I_RiflemanATRAssistant_F">
+            <English>Rifleman (AT Assistant)</English>
+        </Key>
+    
+
+        <Key ID="STR_cav_Infantry_Cav_B_Engineer_F">
+            <English>Platoon Medic</English>
+        </Key>
+    
+        <Key ID="STR_cav_Infantry_Cav_I_PlatoonMedic_F">
+            <English>Platoon Medic</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Cav_I_Medic_F">
+            <English>Medic</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Cav_I_CombatLifeSaver_F">
+            <English>Combat Life Saver</English>
+        </Key>
+
+        <Key ID="STR_cav_Infantry_Cav_B_MissionController_F">
+            <English>Mission Controller</English>
+        </Key>
+
+
+        <!-- CBA SETTINGS -->
+        <Key ID="STR_cav_Infantry_SubCategory">
+            <English>Infantry</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_EnableAutomaticTeamAssign_DisplayName">
+            <English>Automaticly Assign Team</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_EnableAutomaticTeamAssign_Description">
+            <English>Enable or Disable team being automatically assign for 7th Cavalry units based on their displayname.</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_EnableAutomaticCallsignAssign_DisplayName">
+            <English>Automaticly Assign Callsign</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_EnableAutomaticCallsignAssign_Description">
+            <English>Enable or Disable callsign being automatically being assign for 7th Cavalry units based on their displayname.</English>
+        </Key>
+        
+    </Package>
+</Project>

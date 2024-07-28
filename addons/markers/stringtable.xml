@@ -1,18 +1,18 @@
-<Project name="Cav">
+<Project name="cav">
     <Package name="Markers">
-        <Key ID="STR_Cav_Markers_flag_cav_00">
+        <Key ID="STR_cav_Markers_flag_cav_00">
             <English>Flag (7th Cavalry)</English>
         </Key>
-        <Key ID="STR_Cav_Markers_flag_cav_01">
+        <Key ID="STR_cav_Markers_flag_cav_01">
             <English>Flag (7th Cavalry - Red and White)</English>
         </Key> 
-        <Key ID="STR_Cav_Markers_handdrawn_cav">
+        <Key ID="STR_cav_Markers_handdrawn_cav">
             <English>7th Cavalry</English>
         </Key>
-        <Key ID="STR_Cav_Markers_military_cav">
+        <Key ID="STR_cav_Markers_military_cav">
             <English>7th Cavalry</English>
         </Key>
-       <Key ID="STR_Cav_Markers_Color_Yellow">
+       <Key ID="STR_cav_Markers_Color_Yellow">
             <English>Cav Yellow</English>
         </Key>
     </Package>
