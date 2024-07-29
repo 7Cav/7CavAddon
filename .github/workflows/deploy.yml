@@ -20,10 +20,17 @@ jobs:
     - name: Setup HEMTT
       uses: arma-actions/hemtt@v1
     - name: Run HEMTT release
-      run: hemtt release
-    - name: DEBUG ending...
+      if: ${{ inputs.environment == 'live' }}
       run: |
-        Write-Host "Environment: $ENVIRONMENT"
-        Get-Content -Path .hemttout\
+        hemtt release
+        Get-ChildItem -Path .hemttout\
+      env:
+        ENVIRONMENT: ${{ inputs.environment }}
+
+    - name: Run HEMTT build
+      if: ${{ inputs.environment == 'dev' }}
+      run: |
+        hemtt release
+        Get-ChildItem -Path .hemttout\
       env:
         ENVIRONMENT: ${{ inputs.environment }}
