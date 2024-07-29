@@ -29,4 +29,3 @@ jobs:
         Get-Content -Path .hemttout\
       env:
         ENVIRONMENT: ${{ inputs.environment }}
-      shell: pwsh
