@@ -24,11 +24,13 @@ jobs:
       run: |
         hemtt release
         Get-ChildItem -Path .hemttout\
-      ENVIRONMENT: ${{ inputs.environment }}
+      env:
+        ENVIRONMENT: ${{ inputs.environment }}
 
     - name: Run HEMTT build
       if: ${{ inputs.environment == 'dev' }}
       run: |
         hemtt release
         Get-ChildItem -Path .hemttout\
-      ENVIRONMENT: ${{ inputs.environment }}
+      env:
+        ENVIRONMENT: ${{ inputs.environment }}
