@@ -11,7 +11,7 @@ on:
         type: choice
         options:
           - dev
-          - release
+          - live
 jobs:
   publish:
     runs-on: windows-latest
@@ -20,15 +20,29 @@ jobs:
         uses: actions/checkout@v4
       - name: Setup HEMTT
         uses: arma-actions/hemtt@v1
-      - name: Run HEMTT release
+      - name: Obtaining release
         if: ${{ inputs.environment == 'live' }}
         run: |
           .\tools\deploy-getRelease.ps1
+          Get-ChildItem -Path . -ErrorAction SilentlyContinue
+      - name: Deploy release build to workshop
+        if: ${{ inputs.environment == 'live' }}
+        run: |
+          Write-Host "Yey i did it!"
+        env:
+          ENVIRONMENT: ${{ inputs.environment }}
+    
       - name: Run HEMTT build
         if: ${{ inputs.environment == 'dev' }}
         run: |
           hemtt build
           Get-ChildItem -Path .hemttout\ -ErrorAction SilentlyContinue
           Get-ChildItem -Path .release\ -ErrorAction SilentlyContinue
+        env:
+          ENVIRONMENT: ${{ inputs.environment }}
+      - name: Deploy dev build to workshop
+        if: ${{ inputs.environment == 'dev' }}
+        run: |
+          Write-Host "Yey i did it!"
         env:
           ENVIRONMENT: ${{ inputs.environment }}
