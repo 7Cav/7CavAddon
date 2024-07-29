@@ -22,7 +22,7 @@ jobs:
     - name: Checkout pull request
       uses: actions/checkout@v4
     - name: Run HEMTT release
-      run: hemtt release
+      run: D:\\a\\7CavAddon\\7CavAddon\\hemtt\\hemtt.exe release
     - name: DEBUG ending...
       run: |
         Write-Host "Environment: $ENVIRONMENT"
