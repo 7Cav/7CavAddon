@@ -1,0 +1,24 @@
+name: Deploy Release
+on:
+  release:
+    types: [published]
+
+jobs:
+  release:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout the source code
+        uses: actions/checkout@v4
+      - name: Setup HEMTT
+        uses: arma-actions/hemtt@v1
+      - name: Run HEMTT release
+        run: |
+          hemtt release
+          Rename-Item release\cav-latest.zip 7CavAddon-${{github.ref_name}}.zip 
+      - name: Upload release
+      uses: svenstaro/upload-release-action@v2
+      with:
+        repo_token: ${{ secrets.GITHUB_TOKEN }}
+        tag: ${{ github.ref }}
+        asset_name: 7CavAddon-${{github.ref_name}}.zip
+        file: release/7CavAddon-${{github.ref_name}}.zip

@@ -24,8 +24,10 @@ jobs:
         if: ${{ inputs.environment == 'live' }}
         run: |
           hemtt release
-          Get-ChildItem -Path .hemttout\
-          Get-ChildItem -Path releases\
+          Get-ChildItem -Path .hemttout\ -ErrorAction SilentlyContinue
+          Get-ChildItem -Path .release\ -ErrorAction SilentlyContinue
+          Rename-Item release\cav-latest.zip 7CavAddon-${{github.ref_name}}.zip 
+          Get-ChildItem -Path .release\ -ErrorAction SilentlyContinue
         env:
           ENVIRONMENT: ${{ inputs.environment }}
 
@@ -33,7 +35,7 @@ jobs:
         if: ${{ inputs.environment == 'dev' }}
         run: |
           hemtt build
-          Get-ChildItem -Path .hemttout\
-          Get-ChildItem -Path releases\
+          Get-ChildItem -Path .hemttout\ -ErrorAction SilentlyContinue
+          Get-ChildItem -Path .release\ -ErrorAction SilentlyContinue
         env:
           ENVIRONMENT: ${{ inputs.environment }}
