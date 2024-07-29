@@ -1,37 +1,39 @@
 name: Deploy
-run-name: Deploying to ${{ inputs.environment }}
+run-name: Deploying ${{ inputs.environment }} build from ${{github.ref_name}}
 
 on:
   workflow_dispatch:
     inputs:
       environment:
-        description: 'Selected deploy enviroment'
+        description: "Selected deploy enviroment"
         required: true
-        default: 'dev'
+        default: "dev"
         type: choice
         options:
-        - dev
-        - live
+          - dev
+          - live
 jobs:
   deploy:
     runs-on: windows-latest
     steps:
-    - name: Checkout the source code
-      uses: actions/checkout@v4
-    - name: Setup HEMTT
-      uses: arma-actions/hemtt@v1
-    - name: Run HEMTT release
-      if: ${{ inputs.environment == 'live' }}
-      run: |
-        hemtt release
-        Get-ChildItem -Path .hemttout\
-      env:
-        ENVIRONMENT: ${{ inputs.environment }}
+      - name: Checkout the source code
+        uses: actions/checkout@v4
+      - name: Setup HEMTT
+        uses: arma-actions/hemtt@v1
+      - name: Run HEMTT release
+        if: ${{ inputs.environment == 'live' }}
+        run: |
+          hemtt release
+          Get-ChildItem -Path .hemttout\
+          Get-ChildItem -Path releases\
+        env:
+          ENVIRONMENT: ${{ inputs.environment }}
 
-    - name: Run HEMTT build
-      if: ${{ inputs.environment == 'dev' }}
-      run: |
-        hemtt release
-        Get-ChildItem -Path .hemttout\
-      env:
-        ENVIRONMENT: ${{ inputs.environment }}
+      - name: Run HEMTT build
+        if: ${{ inputs.environment == 'dev' }}
+        run: |
+          hemtt build
+          Get-ChildItem -Path .hemttout\
+          Get-ChildItem -Path releases\
+        env:
+          ENVIRONMENT: ${{ inputs.environment }}
