@@ -12,7 +12,7 @@ on:
         - dev
         - live
 jobs:
-  windows:
+  deploy:
     runs-on: windows-latest
     steps:
     - name: Checkout the source code
@@ -23,17 +23,10 @@ jobs:
       uses: actions/checkout@v4
     - name: Run HEMTT release
       run: hemtt release
-    #- name: Rename build folder
-    #  run: mv .hemttout/build .hemttout/@cav
     - name: DEBUG ending...
       run: |
         Write-Host "Environment: $ENVIRONMENT"
-        Get-Content -Path .hemttout
+        Get-Content -Path .hemttout\
       env:
         ENVIRONMENT: ${{ inputs.environment }}
       shell: pwsh
-    #- name: Upload Artifact
-    #  uses: actions/upload-artifact@v4
-    #  with:
-    #    name: cav-${{ github.sha }}
-    #    path: .hemttout/@*
