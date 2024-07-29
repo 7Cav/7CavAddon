@@ -16,9 +16,9 @@ jobs:
           hemtt release
           Rename-Item release\cav-latest.zip 7CavAddon-${{github.ref_name}}.zip 
       - name: Upload release
-      uses: svenstaro/upload-release-action@v2
-      with:
-        repo_token: ${{ secrets.GITHUB_TOKEN }}
-        tag: ${{ github.ref }}
-        asset_name: 7CavAddon-${{github.ref_name}}.zip
-        file: release/7CavAddon-${{github.ref_name}}.zip
+        uses: svenstaro/upload-release-action@v2
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          tag: ${{ github.ref }}
+          asset_name: 7CavAddon-${{github.ref_name}}.zip
+          file: release/7CavAddon-${{github.ref_name}}.zip
