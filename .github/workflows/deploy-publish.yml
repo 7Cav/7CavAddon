@@ -46,4 +46,3 @@ jobs:
           Write-Host "Yey i did it!"
         env:
           ENVIRONMENT: ${{ inputs.environment }}
-  
