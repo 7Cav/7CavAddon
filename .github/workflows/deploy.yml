@@ -1,5 +1,5 @@
 name: Deploy
-run-name: Deploying ${{ inputs.environment }} build
+run-name: Deploying ${{ inputs.environment }} build from ${{github.ref_name}}
 
 on:
   workflow_dispatch:
