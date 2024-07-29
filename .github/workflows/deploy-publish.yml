@@ -1,0 +1,34 @@
+name: Publish
+run-name: Publishing ${{github.ref_name}} to ${{ inputs.environment }}
+
+on:
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: "Selected deploy enviroment"
+        required: true
+        default: "dev"
+        type: choice
+        options:
+          - dev
+          - release
+jobs:
+  publish:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout the source code
+        uses: actions/checkout@v4
+      - name: Setup HEMTT
+        uses: arma-actions/hemtt@v1
+      - name: Run HEMTT release
+        if: ${{ inputs.environment == 'live' }}
+        run: |
+          .\tools\deploy-getRelease.ps1
+      - name: Run HEMTT build
+        if: ${{ inputs.environment == 'dev' }}
+        run: |
+          hemtt build
+          Get-ChildItem -Path .hemttout\ -ErrorAction SilentlyContinue
+          Get-ChildItem -Path .release\ -ErrorAction SilentlyContinue
+        env:
+          ENVIRONMENT: ${{ inputs.environment }}

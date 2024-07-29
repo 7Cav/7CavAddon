@@ -17,3 +17,5 @@ sed -e "s/major = 0/major = $versionMajor/g" ".hemtt/project.toml" |  Set-Conten
 sed -e "s/minor = 0/minor = $versionMinor/g" ".hemtt/project.toml" |  Set-Content ".hemtt/project.toml"
 sed -e "s/patch = 0/patch = $versionPatch/g" ".hemtt/project.toml" |  Set-Content ".hemtt/project.toml"
 sed -e "s/build = 0/build = $versionBuild/g" ".hemtt/project.toml" |  Set-Content ".hemtt/project.toml"
+
+return $tagVersion

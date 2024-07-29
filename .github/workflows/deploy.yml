@@ -1,19 +1,10 @@
-name: Deploy
-run-name: Deploying ${{ inputs.environment }} build from ${{github.ref_name}}
-
+name: Deploy Release
 on:
-  workflow_dispatch:
-    inputs:
-      environment:
-        description: "Selected deploy enviroment"
-        required: true
-        default: "dev"
-        type: choice
-        options:
-          - dev
-          - live
+  release:
+    types: [published]
+
 jobs:
-  deploy:
+  release:
     runs-on: windows-latest
     steps:
       - name: Checkout the source code
@@ -21,21 +12,14 @@ jobs:
       - name: Setup HEMTT
         uses: arma-actions/hemtt@v1
       - name: Run HEMTT release
-        if: ${{ inputs.environment == 'live' }}
         run: |
+          .\tools\deploy-setVersion.ps1
           hemtt release
-          Get-ChildItem -Path .hemttout\ -ErrorAction SilentlyContinue
-          Get-ChildItem -Path .release\ -ErrorAction SilentlyContinue
           Rename-Item release\cav-latest.zip 7CavAddon-${{github.ref_name}}.zip 
-          Get-ChildItem -Path .release\ -ErrorAction SilentlyContinue
-        env:
-          ENVIRONMENT: ${{ inputs.environment }}
-
-      - name: Run HEMTT build
-        if: ${{ inputs.environment == 'dev' }}
-        run: |
-          hemtt build
-          Get-ChildItem -Path .hemttout\ -ErrorAction SilentlyContinue
-          Get-ChildItem -Path .release\ -ErrorAction SilentlyContinue
-        env:
-          ENVIRONMENT: ${{ inputs.environment }}
+      - name: Upload release
+        uses: svenstaro/upload-release-action@v2
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          tag: ${{ github.ref }}
+          asset_name: 7CavAddon-${{github.ref_name}}.zip
+          file: release/7CavAddon-${{github.ref_name}}.zip
