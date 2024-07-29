@@ -1,0 +1,39 @@
+name: Deploy
+
+on:
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: 'Selected deploy enviroment'
+        required: true
+        default: 'dev'
+        type: choice
+        options:
+        - dev
+        - live
+jobs:
+  windows:
+    runs-on: windows-latest
+    steps:
+    - name: Checkout the source code
+      uses: actions/checkout@v4
+    - name: Setup HEMTT
+      uses: arma-actions/hemtt@v1
+    - name: Checkout pull request
+      uses: actions/checkout@v4
+    - name: Run HEMTT release
+      run: hemtt release
+    #- name: Rename build folder
+    #  run: mv .hemttout/build .hemttout/@cav
+    - name: DEBUG ending...
+      run: |
+        Write-Host "Environment: $ENVIRONMENT"
+        Get-Content -Path .hemttout
+      env:
+        ENVIRONMENT: ${{ inputs.environment }}
+      shell: pwsh
+    #- name: Upload Artifact
+    #  uses: actions/upload-artifact@v4
+    #  with:
+    #    name: cav-${{ github.sha }}
+    #    path: .hemttout/@*

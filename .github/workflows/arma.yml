@@ -1,4 +1,4 @@
-name: Arma
+name: Testing
 
 on:
   push:
@@ -13,13 +13,17 @@ jobs:
     - name: Checkout the source code
       uses: actions/checkout@master
     - name: Validate SQF
+      if: always()
       run: python3 tools/sqf_validator.py
     - name: Validate Config
+      if: always()
       run: python3 tools/config_style_checker.py
     - name: Validate Stringtables
+      if: always()
       run: python3 tools/stringtable_validator.py
       continue-on-error: true
     - name: Check Strings
+      if: always()
       run: python3 tools/check_strings.py
     # - name: Check for BOM
     #   uses: arma-actions/bom-check@master
