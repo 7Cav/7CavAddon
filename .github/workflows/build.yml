@@ -1,20 +1,38 @@
 name: Build
+
 on:
-  release:
-      types: [ published ]
+  push:
+    branches:
+    - main
+  pull_request_target:
+
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
-      - uses: actions/checkout@v2
-      - name: Setup HEMTT
-        uses: arma-actions/hemtt@v1
-      - name: Run HEMTT build
-        run: ./tools/deploy.sh ${{ github.ref_name }}
-      - name: Upload release
-        uses: svenstaro/upload-release-action@v2
-        with:
-          repo_token: ${{ secrets.GITHUB_TOKEN }}
-          tag: ${{ github.ref_name }}
-          file: release/7CavAddon_${{ github.ref_name }}-hemtt.zip
-          overwrite: true
+    - name: Checkout the source code
+      uses: actions/checkout@v4
+    - name: Setup HEMTT
+      uses: arma-actions/hemtt@v1
+    - name: Checkout pull request
+      uses: actions/checkout@v4
+      if: ${{ github.event_name == 'pull_request_target' }}
+      with:
+        path: pullrequest
+        ref: 'refs/pull/${{ github.event.number }}/merge'
+    - name: Replace addons with pull request addons
+      if: ${{ github.event_name == 'pull_request_target' }}
+      run: |
+        rm -r addons\
+        rm -r include\
+        xcopy /e /h /q pullrequest\addons addons\
+        xcopy /e /h /q pullrequest\include include\
+    - name: Run HEMTT build
+      run: hemtt build
+    - name: Rename build folder
+      run: mv .hemttout/build .hemttout/@cav
+    - name: Upload Artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: cav-${{ github.sha }}
+        path: .hemttout/@*
