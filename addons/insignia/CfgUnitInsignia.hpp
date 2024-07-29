@@ -14,6 +14,9 @@ class CfgUnitInsignia {
     //MACRO_UNITINSIGNIA(alpha_2_d);
 
 
+    // Bravo
+    MACRO_UNITINSIGNIA(bravo);
+    
     // Bravo first platoon
     MACRO_UNITINSIGNIA(bravo_1);
     MACRO_UNITINSIGNIA(bravo_1_1);

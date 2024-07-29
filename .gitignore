@@ -12,9 +12,14 @@ texHeaders.bin
 [Rr]elease/*
 @*
 *.zip
+tools/temp
+
+# Hemtt Build tool
 hemtt
 hemtt.exe
+hemtt-build.cmd
+hemtt-launch.cmd
 .hemttout
+
 ArmaScriptCompiler.exe
 sqfvm.exe
-tools/temp

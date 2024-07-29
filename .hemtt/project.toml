@@ -1,6 +1,6 @@
 name = "7th Cavalry Community Addon"
-prefix = "cav"
 author = "7th Cavalry S3 Mod Team"
+prefix = "cav"
 mainprefix = "z"
 
 [files]
