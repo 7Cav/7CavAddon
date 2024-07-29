@@ -13,6 +13,7 @@ jobs:
         uses: arma-actions/hemtt@v1
       - name: Run HEMTT release
         run: |
+          .\tools\getTagVersion.ps1
           hemtt release
           Rename-Item release\cav-latest.zip 7CavAddon-${{github.ref_name}}.zip 
       - name: Upload release
