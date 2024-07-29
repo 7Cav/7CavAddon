@@ -19,10 +19,8 @@ jobs:
       uses: actions/checkout@v4
     - name: Setup HEMTT
       uses: arma-actions/hemtt@v1
-    - name: Checkout pull request
-      uses: actions/checkout@v4
     - name: Run HEMTT release
-      run: D:\\a\\7CavAddon\\7CavAddon\\hemtt\\hemtt.exe release
+      run: hemtt release
     - name: DEBUG ending...
       run: |
         Write-Host "Environment: $ENVIRONMENT"
