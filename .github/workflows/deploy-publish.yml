@@ -19,11 +19,13 @@ jobs:
       - name: Checkout the source code
         uses: actions/checkout@v4
       - name: Setup HEMTT
+        if: ${{ inputs.environment == 'dev' }}
         uses: arma-actions/hemtt@v1
+
       - name: Obtaining release
         if: ${{ inputs.environment == 'live' }}
         run: |
-          .\tools\deploy-getRelease.ps1
+          .\tools\deploy-getRelease.ps1 ${{github.ref_name}}
           Get-ChildItem -Path . -ErrorAction SilentlyContinue
       - name: Deploy release build to workshop
         if: ${{ inputs.environment == 'live' }}
