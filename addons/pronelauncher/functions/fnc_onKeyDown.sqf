@@ -1,4 +1,4 @@
-#include "script_component.hpp"
+#include "..\script_component.hpp"
 /*
  * Author: PiZZADOX, Jonpas
  * Handles keyDown EH for overriding engine stance changes when in AT launcher stance.
