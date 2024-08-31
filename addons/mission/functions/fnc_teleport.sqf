@@ -10,7 +10,7 @@
  * 2: Destination <MARKER/OBJECT/LOCATION/GROUP/TASK>
  *
  * Return Value:
- * Nothing
+ * ActionID
  *
  * Example:
  * [this,"Teleport - Airfield", Airstrip] call cav_mission_fnc_teleport
@@ -21,9 +21,9 @@
  * Public: Yes
  */
 
-params [
+ params [
     ["_object", objNull, [objNull]],
-    ["_action", "Teleport"],
+    ["_action", "Teleport", [""]],
     ["_dest", nil, [objNull, grpNull, "", locationNull, taskNull, []]]
 ];
 

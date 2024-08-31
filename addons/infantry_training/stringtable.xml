@@ -1,0 +1,28 @@
+<Project name="cav">
+    <Package name="Infantry_Training">
+        <Key ID="STR_cav_Infantry_Training_Cav_EdSubcat_Infantry_Training">
+            <English>Men (Training)</English>
+        </Key>
+
+
+        <Key ID="STR_cav_Infantry_Training_Cav_B_Training_Drill_Instructor_F">
+            <English>Drill Instructor</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Training_Cav_B_Training_Cadre_F">
+            <English>Cadre</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Training_Cav_B_Training_Cadet_F">
+            <English>Cadet</English>
+        </Key>
+        
+        <Key ID="STR_cav_Infantry_Training_Cav_B_Training_Instructor_F">
+            <English>Instructor</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Training_Cav_B_Training_Trainee_F">
+            <English>Trainee</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Training_Cav_B_Training_Recruit_F">
+            <English>Recruit</English>
+        </Key>
+    </Package>
+</Project>

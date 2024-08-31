@@ -21,7 +21,6 @@ jobs:
     - name: Validate Stringtables
       if: always()
       run: python3 tools/stringtable_validator.py
-      continue-on-error: true
     - name: Check Strings
       if: always()
       run: python3 tools/check_strings.py

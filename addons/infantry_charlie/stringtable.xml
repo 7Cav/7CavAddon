@@ -1,0 +1,19 @@
+<Project name="cav">
+    <Package name="Infantry_Charlie">
+        <Key ID="STR_cav_Infantry_Charlie_Cav_EdSubcat_Infantry_Charlie">
+            <English>Men (Airborne)</English>
+        </Key>
+
+        <!-- Groups -->
+        <Key ID="STR_cav_Infantry_Charlie_cav_infantry_charlie_squads_f">
+            <English>Men (Airborne)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Charlie_cav_infantry_charlie_airborne_squad_f">
+            <English>Infantry Squad (Airborn)</English>
+        </Key>
+        <Key ID="STR_cav_Infantry_Charlie_cav_infantry_charlie_airborne_weaponssquad_f">
+            <English>Infantry Squad (Airborn Weapons)</English>
+        </Key>
+
+    </Package>
+</Project>
