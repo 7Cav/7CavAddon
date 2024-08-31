@@ -45,11 +45,8 @@ jobs:
       - name: Deploy dev build to workshop
         if: ${{ inputs.environment == 'dev' }}
         run: |
-          steamcmd.exe +login $env:STEAM_USERNAME $env:STEAM_PASSWORD +workshop_build_item D:\a\7CavAddon\7CavAddon\resources\dev-payload.vdf +quit
+          Copy-Item "resources\dev-payload.vdf" payload.vdf
+          steamcmd.exe +login $env:STEAM_USERNAME $env:STEAM_PASSWORD +workshop_build_item payload.vdf +quit
           write-host "DEBUG:" -ForegroundColor Red
-          (Get-Command steamcmd.exe).Path
-          Get-Content C:\hostedtoolcache\windows\steamcmd\latest\i386\logs\stderr.txt
-          Get-ChildItem C:\hostedtoolcache\windows\steamcmd\latest\i386\logs
-
         env:
           ENVIRONMENT: ${{ inputs.environment }}
