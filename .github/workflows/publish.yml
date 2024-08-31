@@ -14,7 +14,7 @@ on:
           - live
 jobs:
   publish:
-    name: Publish to steam Workshop
+    name: Publish to steam workshop
     runs-on: windows-latest
     steps:
       - name: Checkout the source code

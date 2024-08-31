@@ -1,4 +1,4 @@
-name: Build
+name: Build and upload artifacts
 
 on:
   push:
@@ -8,6 +8,7 @@ on:
 
 jobs:
   build:
+    name: Build
     runs-on: windows-latest
     steps:
     - name: Checkout the source code
