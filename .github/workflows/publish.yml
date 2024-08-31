@@ -47,6 +47,5 @@ jobs:
         run: |
           Copy-Item "resources\dev-payload.vdf" payload.vdf
           steamcmd.exe +login $env:STEAM_USERNAME $env:STEAM_PASSWORD +workshop_build_item payload.vdf +quit
-          write-host "DEBUG:" -ForegroundColor Red
         env:
           ENVIRONMENT: ${{ inputs.environment }}
