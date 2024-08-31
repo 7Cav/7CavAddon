@@ -43,6 +43,9 @@ jobs:
         env:
           ENVIRONMENT: ${{ inputs.environment }}
       - name: Deploy dev build to workshop
+        env:
+          STEAM_USERNAME: ${{ secrets.STEAM_USERNAME }}
+          STEAM_PASSWORD: ${{ secrets.STEAM_PASSWORD }}
         if: ${{ inputs.environment == 'dev' }}
         run: |
           Copy-Item "resources\dev-payload.vdf" payload.vdf
