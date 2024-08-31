@@ -46,6 +46,6 @@ jobs:
         if: ${{ inputs.environment == 'dev' }}
         run: |
           steamcmd.exe +login $env:STEAM_USERNAME $env:STEAM_PASSWORD +workshop_build_item D:\a\7CavAddon\7CavAddon\resources\dev-payload.vdf +quit
+          Get-Content C:\hostedtoolcache\windows\steamcmd\latest\i386\logs\stderr.txt
         env:
           ENVIRONMENT: ${{ inputs.environment }}
-  
