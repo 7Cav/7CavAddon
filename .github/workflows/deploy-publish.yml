@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
     inputs:
       environment:
-        description: "Selected deploy enviroment"
+        description: "Selected deploy environment"
         required: true
         default: "dev"
         type: choice
@@ -14,13 +14,15 @@ on:
           - live
 jobs:
   publish:
+    name: Publish to steam Workshop
     runs-on: windows-latest
     steps:
       - name: Checkout the source code
         uses: actions/checkout@v4
       - name: Setup HEMTT
-        if: ${{ inputs.environment == 'dev' }}
         uses: arma-actions/hemtt@v1
+      - name: Setup steamcmd
+        uses: CyberAndrii/setup-steamcmd@v1
 
       - name: Obtaining release
         if: ${{ inputs.environment == 'live' }}
@@ -38,14 +40,12 @@ jobs:
         if: ${{ inputs.environment == 'dev' }}
         run: |
           hemtt build
-          Get-ChildItem -Path .hemttout\ -ErrorAction SilentlyContinue
-          Get-ChildItem -Path .release\ -ErrorAction SilentlyContinue
         env:
           ENVIRONMENT: ${{ inputs.environment }}
       - name: Deploy dev build to workshop
         if: ${{ inputs.environment == 'dev' }}
         run: |
-          Write-Host "Yey i did it!"
+          steamcmd.exe +login $env:STEAM_USERNAME $env:STEAM_PASSWORD +workshop_build_item resources\dev-payload.vdf +quit
         env:
           ENVIRONMENT: ${{ inputs.environment }}
   
