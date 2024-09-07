@@ -1,0 +1,10 @@
+<Project name="Cav">
+    <Package name="Objects">
+        <Key ID="STR_Cav_Objects_Cav_Poster_Small_Enlist_Today_F">
+            <English>Leaflet (Cav - Enlist Today)</English>
+        </Key>
+        <Key ID="STR_Cav_Objects_Cav_Poster_Big_Enlist_Today_F">
+            <English>Poster (Cav - Enlist Today)</English>
+        </Key>
+    </Package>
+</Project>

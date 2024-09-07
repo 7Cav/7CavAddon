@@ -1,0 +1,51 @@
+name: Publish
+run-name: Publishing ${{github.ref_name}} to ${{ inputs.environment }}
+
+on:
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: "Selected deploy environment"
+        required: true
+        default: "dev"
+        type: choice
+        options:
+          - dev
+          - live
+jobs:
+  publish:
+    name: Publish to steam workshop
+    runs-on: windows-latest
+    steps:
+      - name: Checkout the source code
+        uses: actions/checkout@v4
+      - name: Setup HEMTT
+        uses: arma-actions/hemtt@v1
+      - name: Setup steamcmd
+        uses: CyberAndrii/setup-steamcmd@v1
+
+      - name: Obtaining release
+        if: ${{ inputs.environment == 'live' }}
+        run: |
+          .\tools\deploy-getRelease.ps1 ${{github.ref_name}}
+          Get-ChildItem -Path . -ErrorAction SilentlyContinue
+      - name: Deploy release build to workshop
+        if: ${{ inputs.environment == 'live' }}
+        run: |
+          Write-Host "Yey i did it!"
+        env:
+          ENVIRONMENT: ${{ inputs.environment }}
+    
+      - name: Run HEMTT build
+        if: ${{ inputs.environment == 'dev' }}
+        run: |
+          hemtt build
+        env:
+          ENVIRONMENT: ${{ inputs.environment }}
+      - name: Deploy dev build to workshop
+        if: ${{ inputs.environment == 'dev' }}
+        run: |
+          steamcmd.exe +login $env:STEAM_USERNAME $env:STEAM_PASSWORD +workshop_build_item D:\a\7CavAddon\7CavAddon\resources\dev-payload.vdf +quit
+        env:
+          ENVIRONMENT: ${{ inputs.environment }}
+  
