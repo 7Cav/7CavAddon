@@ -42,11 +42,17 @@
         <Key ID="STR_Cav_Textures_Cav_Arlington_Dornbierer_F">
             <English>Dornbierer</English>
         </Key>
+        <Key ID="STR_Cav_Textures_Cav_Arlington_Erickson_F">
+            <English>Erickson</English>
+        </Key>
         <Key ID="STR_Cav_Textures_Cav_Arlington_Krazee_F">
             <English>Krazee</English>
         </Key>
         <Key ID="STR_Cav_Textures_Cav_Arlington_Long_F">
             <English>Long</English>
+        </Key>
+        <Key ID="STR_Cav_Textures_Cav_Arlington_Mac_F">
+            <English>Mac</English>
         </Key>
         <Key ID="STR_Cav_Textures_Cav_Arlington_Mcgehee_F">
             <English>Mcgehee</English>
