@@ -69,6 +69,6 @@ _y = _yArr joinString "";
 LOG_2("X/Y str: %1 / %2",_x,_y);
 
 _output = format ["%1%2",_x,_y];
-LOG_1("_output",_output);
+LOG_1("output: %1",_output);
 
 _output
