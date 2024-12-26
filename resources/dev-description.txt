@@ -1,0 +1,4 @@
+[h1]7th Cavalry Gaming Community Addon Development Build[/h1]
+This is the development and experimental build of the 7th Cavalry Gaming Community Addon or 7CavAddon for short. This build contain experimental features and or items and is not recomended to be used unless you know what your doing.
+
+To get the regular build go [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3298466460]here[/url].

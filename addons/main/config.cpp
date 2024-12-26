@@ -897,7 +897,7 @@ class CfgPatches {
 
 class CfgMods {
     class PREFIX {
-        dir = "@cavmod";
+        dir = "@7CavAddons";
         name = CSTRING(Name);
         picture = "A3\Ui_f\data\Logos\arma3_expansion_alpha_ca";
         hidePicture = "true";
