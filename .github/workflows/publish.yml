@@ -25,27 +25,36 @@ jobs:
         uses: CyberAndrii/setup-steamcmd@v1
 
       - name: Obtaining release
+        env:
+          ENVIRONMENT: ${{ inputs.environment }}
         if: ${{ inputs.environment == 'live' }}
         run: |
           .\tools\deploy-getRelease.ps1 ${{github.ref_name}}
           Get-ChildItem -Path . -ErrorAction SilentlyContinue
       - name: Deploy release build to workshop
-        if: ${{ inputs.environment == 'live' }}
-        run: |
-          Write-Host "Yey i did it!"
         env:
           ENVIRONMENT: ${{ inputs.environment }}
+          STEAM_USERNAME: ${{ secrets.STEAM_USERNAME }}
+          STEAM_PASSWORD: ${{ secrets.STEAM_PASSWORD }}
+        if: ${{ inputs.environment == 'live' }}
+        run: |
+          Copy-Item "resources\payload_dev.vdf" payload.vdf
+          steamcmd.exe +login "$env:STEAM_USERNAME" "$env:STEAM_PASSWORD" +workshop_build_item D:\a\7CavAddon\7CavAddon\payload.vdf +quit
     
+
       - name: Run HEMTT build
+        env:
+          ENVIRONMENT: ${{ inputs.environment }}
         if: ${{ inputs.environment == 'dev' }}
         run: |
           hemtt build
+
+      - name: Deploy dev build to workshop
         env:
           ENVIRONMENT: ${{ inputs.environment }}
-      - name: Deploy dev build to workshop
+          STEAM_USERNAME: ${{ secrets.STEAM_USERNAME }}
+          STEAM_PASSWORD: ${{ secrets.STEAM_PASSWORD }}
         if: ${{ inputs.environment == 'dev' }}
         run: |
-          steamcmd.exe +login $env:STEAM_USERNAME $env:STEAM_PASSWORD +workshop_build_item D:\a\7CavAddon\7CavAddon\resources\dev-payload.vdf +quit
-        env:
-          ENVIRONMENT: ${{ inputs.environment }}
-  
+          Copy-Item "resources\payload_dev.vdf" payload.vdf
+          steamcmd.exe +login "$env:STEAM_USERNAME" "$env:STEAM_PASSWORD" +workshop_build_item D:\a\7CavAddon\7CavAddon\payload.vdf +quit
