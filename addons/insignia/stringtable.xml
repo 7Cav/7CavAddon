@@ -98,6 +98,10 @@
         </Key>
 
 
+        <Key ID="STR_cav_insignia_charlie_hitman">
+            <English>[7CAV] Charlie Co. Hitman</English>
+        </Key>
+
         <Key ID="STR_cav_insignia_charlie_1">
             <English>[7CAV] Charlie Co. 1st platoon</English>
         </Key>

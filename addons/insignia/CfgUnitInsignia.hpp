@@ -39,6 +39,8 @@ class CfgUnitInsignia {
     MACRO_UNITINSIGNIA(specialized_apollo);
     MACRO_UNITINSIGNIA(specialized_mustang);
 
+    MACRO_UNITINSIGNIA(charlie_hitman);
+
     // Charlie first platoon
     MACRO_UNITINSIGNIA(charlie_1);
     MACRO_UNITINSIGNIA(charlie_1_1);
