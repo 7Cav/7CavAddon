@@ -34,10 +34,14 @@ jobs:
       - name: Deploy release build to workshop
         env:
           ENVIRONMENT: ${{ inputs.environment }}
+          STEAM_USERNAME: ${{ secrets.STEAM_USERNAME }}
+          STEAM_PASSWORD: ${{ secrets.STEAM_PASSWORD }}
         if: ${{ inputs.environment == 'live' }}
         run: |
-          Write-Host "Yey i did it!"
+          Copy-Item "resources\payload_dev.vdf" payload.vdf
+          steamcmd.exe +login "$env:STEAM_USERNAME" "$env:STEAM_PASSWORD" +workshop_build_item D:\a\7CavAddon\7CavAddon\payload.vdf +quit
     
+
       - name: Run HEMTT build
         env:
           ENVIRONMENT: ${{ inputs.environment }}
@@ -53,4 +57,4 @@ jobs:
         if: ${{ inputs.environment == 'dev' }}
         run: |
           Copy-Item "resources\payload_dev.vdf" payload.vdf
-          steamcmd.exe +login "$env:STEAM_USERNAME" "$env:STEAM_PASSWORD" +workshop_build_item D:\a\7CavAddon\7CavAddon\\payload.vdf +quit
+          steamcmd.exe +login "$env:STEAM_USERNAME" "$env:STEAM_PASSWORD" +workshop_build_item D:\a\7CavAddon\7CavAddon\payload.vdf +quit
