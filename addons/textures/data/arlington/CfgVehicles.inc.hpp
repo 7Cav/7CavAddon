@@ -46,8 +46,10 @@ MACRO_ARLINGTON(Cav_Arlington_Britton_F,Arlington_Britton_ca.paa);
 MACRO_ARLINGTON(Cav_Arlington_Carter_F,Arlington_Carter_ca.paa);
 MACRO_ARLINGTON(Cav_Arlington_Cooper_F,Arlington_Cooper_ca.paa);
 MACRO_ARLINGTON(Cav_Arlington_Dornbierer_F,Arlington_Dornbierer_ca.paa);
+MACRO_ARLINGTON(Cav_Arlington_Erickson_F,Arlington_Erickson_ca.paa);
 MACRO_ARLINGTON(Cav_Arlington_Krazee_F,Arlington_Krazee_ca.paa);
 MACRO_ARLINGTON(Cav_Arlington_Long_F,Arlington_Long_ca.paa);
+MACRO_ARLINGTON(Cav_Arlington_Mac_F,Arlington_Mac_ca.paa);
 MACRO_ARLINGTON(Cav_Arlington_Mcgehee_F,Arlington_Mcgehee_ca.paa);
 MACRO_ARLINGTON(Cav_Arlington_MillerDC_F,Arlington_MillerDC_ca.paa);
 MACRO_ARLINGTON(Cav_Arlington_Muska_F,Arlington_Muska_ca.paa);
@@ -56,7 +58,6 @@ MACRO_ARLINGTON(Cav_Arlington_Raven_F,Arlington_Raven_ca.paa);
 MACRO_ARLINGTON(Cav_Arlington_Ronnie_F,Arlington_Ronnie_ca.paa);
 MACRO_ARLINGTON(Cav_Arlington_Tarkas_F,Arlington_Tarkas_ca.paa);
 MACRO_ARLINGTON(Cav_Arlington_Traycer_F,Arlington_Traycer_ca.paa);
-
 
 // Backwards compatability
 class Cav_Arlington_Left: Cav_Arlington_Left_F { scope = 1; scopeCurator = 1; };
